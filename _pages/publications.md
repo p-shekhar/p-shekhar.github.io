@@ -15,5 +15,5 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-## Journal Papers
-1. ere
+## Mathematics of Data Science
+1. Shekhar P., Babu M., and Patra A. Hierarchical regularization networks for sparsification based learning on noisy datasets. Foundations of Data Science. 2023; doi: 10.3934/fods.2023009[Link](https://www.aimsciences.org/article/doi/10.3934/fods.2023009?viewType=HTML)[arXiv](https://arxiv.org/pdf/2006.05444.pdf)[Code](https://github.com/p-shekhar/Hierarchical_noisy).
