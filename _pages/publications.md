@@ -26,13 +26,21 @@ author_profile: true
 
 
 ## AI in Medicine
-1. Vora, N., **Shekhar, P.**, Esmail, M., Patra, A., and Georgakoudi, I. Label-free flow cytometry of rare circulating tumor cell clusters in whole blood. *Nature Scientific Reports*. 2022 ;12(1): 1-14 <a href="https://www.nature.com/articles/s41598-022-14003-5" target="_blank"><span style="color:red">Link</span></a>.
+1. Vora, N., **Shekhar, P.**, Kwan, J., Esmail, M., Patra, A., and Georgakoudi, I. Meet the clusters: a deep learning approach for label-free detection of circulating tumor cell clusters using flow cytometry. In *Multiscale Imaging and Spectroscopy IV (p. PC123630A). SPIE*. 2023 March <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC12363/PC123630A/Meet-the-clusters--a-deep-learning-approach-for-label/10.1117/12.2649335.full" target="_blank"><span style="color:red">Link</span></a>.
 
-2. Vora, N., **Shekhar, P.**, Kwan, J., Esmail, M., Patra, A., and Georgakoudi, I. Meet the clusters: a deep learning approach for label-free detection of circulating tumor cell clusters using flow cytometry. In *Multiscale Imaging and Spectroscopy IV (p. PC123630A). SPIE*. 2023 March <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC12363/PC123630A/Meet-the-clusters--a-deep-learning-approach-for-label/10.1117/12.2649335.full" target="_blank"><span style="color:red">Link</span></a>.
+2. Vora, N., **Shekhar, P.**, Esmail, M., Patra, A., and Georgakoudi, I. Label-free flow cytometry of rare circulating tumor cell clusters in whole blood. *Nature Scientific Reports*. 2022 ;12(1): 1-14 <a href="https://www.nature.com/articles/s41598-022-14003-5" target="_blank"><span style="color:red">Link</span></a>.
 
 3. Georgakoudi, I., Vora, N., **Shekhar, P.**, and Patra, A. Label-free flow cytometric detection of circulating tumor cell clusters is enabled in whole blood samples by machine learning-based signal analysis. In *Unconventional Optical Imaging III (p. PC121360U). SPIE.* 2022 May <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC12136/PC121360U/Label-free-flow-cytometric-detection-of-circulating-tumor-cell-clusters/10.1117/12.2624555.full" target="_blank"><span style="color:red">Link</span></a>.
 
 4. Vora, N., **Shekhar, P.**, Esmail, M., Patra, A., and Georgakoudi, I. Detection of Rare Circulating Tumor Cell Clusters in Whole Blood Using Label-free, Flow Cytometry. In *Microscopy Histopathology and Analytics (pp. MW3A-3)*. Optica Publishing Group. 2022 April <a href="https://opg.optica.org/abstract.cfm?uri=Microscopy-2022-MW3A.3" target="_blank"><span style="color:red">Link</span></a>.
+
+
+## AI in Engineering
+1. Babu, M., Franciosa, P., **Shekhar, P.**, and Ceglarek, D. Object Shape Error Modelling and Simulation During Early Design Phase by Morphing Gaussian Random Fields. *Computer-Aided Design*, 2023; 158, 103481 <a href="https://www.sciencedirect.com/science/article/pii/S0010448523000131" target="_blank"><span style="color:red">Link</span></a>.
+
+2. Parida, S. S., Bose, S., Butcher, M., Apostolakis, G., and **Shekhar, P.**. SVD enabled data augmentation for machine learning based surrogate modeling of non-linear structures. *Engineering Structures*, 2023; 280, 115600 <a href="https://www.sciencedirect.com/science/article/pii/S0141029623000147" target="_blank"><span style="color:red">Link</span></a>.
+
+3. Chan F.T., **Shekhar P.**  and Tiwari M.K., Dynamic scheduling of oil tankers with splitting of cargo at pickup and delivery locations: a Multi-objective Ant Colony-based approach. *International Journal of Production Research*. 2014 Dec 17;52(24):7436-53 <a href="https://www.tandfonline.com/doi/abs/10.1080/00207543.2014.932932" target="_blank"><span style="color:red">Link</span></a>.
 
 
 
