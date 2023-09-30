@@ -25,8 +25,11 @@ author_profile: true
 3. **Shekhar P.** and Patra A., Hierarchical approximations for data reduction and learning at multiple scales. *Foundations of Data Science*. 2020;2(2):123-154 <a href="https://www.aimsciences.org/article/doi/10.3934/fods.2020008" target="_blank"><span style="color:red">Link</span></a> <a href="https://arxiv.org/pdf/1906.11426.pdf" target="_blank"><span style="color:blue">arXiv</span></a> <a href="https://github.com/p-shekhar/Hierarchical_multiscale" target="_blank"><span style="color:green">Code</span></a>. 
 
 
-## AI in medicine
+## AI in Medicine
 1. Vora, N., **Shekhar, P.**, Esmail, M., Patra, A., and Georgakoudi, I. Label-free flow cytometry of rare circulating tumor cell clusters in whole blood. *Nature Scientific Reports*. 2022 ;12(1): 1-14 <a href="https://www.nature.com/articles/s41598-022-14003-5" target="_blank"><span style="color:red">Link</span></a>.
+
+2. Vora, N., **Shekhar, P.**, Kwan, J., Esmail, M., Patra, A., and Georgakoudi, I. Meet the clusters: a deep learning approach for label-free detection of circulating tumor cell clusters using flow cytometry. In *Multiscale Imaging and Spectroscopy IV (p. PC123630A). SPIE*. 2023 March <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC12363/PC123630A/Meet-the-clusters--a-deep-learning-approach-for-label/10.1117/12.2649335.full" target="_blank"><span style="color:red">Link</span></a>.
+
 
 
 
