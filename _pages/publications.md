@@ -40,7 +40,7 @@ author_profile: true
 
 2. Parida, S. S., Bose, S., Butcher, M., Apostolakis, G., and **Shekhar, P.**. SVD enabled data augmentation for machine learning based surrogate modeling of non-linear structures. *Engineering Structures*, 2023; 280, 115600 <a href="https://www.sciencedirect.com/science/article/pii/S0141029623000147" target="_blank"><span style="color:red">Link</span></a>.
 
-3. Dasarla Giri Babu, V., Chao, Y., Lopes, N. C., Ricklick, M., **Shekhar, P.**, and Boetcher, S. Impact of Data Representation on Artificial Neural Network Performance in sCO2 Cooling Applications. In *AIAA SCITECH* (p. 0390). 2023 January<a href="https://arc.aiaa.org/doi/abs/10.2514/6.2023-0390" target="_blank"><span style="color:red">Link</span></a>.
+3. Dasarla Giri Babu, V., Chao, Y., Lopes, N. C., Ricklick, M., **Shekhar, P.**, and Boetcher, S. Impact of Data Representation on Artificial Neural Network Performance in sCO2 Cooling Applications. In *AIAA SCITECH* (p. 0390). 2023 January <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2023-0390" target="_blank"><span style="color:red">Link</span></a>.
 
 
 4. Chan F.T., **Shekhar P.**  and Tiwari M.K., Dynamic scheduling of oil tankers with splitting of cargo at pickup and delivery locations: a Multi-objective Ant Colony-based approach. *International Journal of Production Research*. 2014 Dec 17;52(24):7436-53 <a href="https://www.tandfonline.com/doi/abs/10.1080/00207543.2014.932932" target="_blank"><span style="color:red">Link</span></a>.
