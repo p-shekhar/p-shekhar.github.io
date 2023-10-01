@@ -16,8 +16,8 @@ author_profile: true
 - MA 506 Probability and Statistical Inference <a href = "/files/MA506_Fall23.pdf" target="_blank"><span style="color:red">Syllabus</span></a>
 
 ## Spring 2023
-- DS 540 Data Mining <a href = "/files/MA540_Spring2023.pdf" target="_blank"><span style="color:red">Syllabus</span></a> <a href = "https://p-shekhar.github.io/2023_DS540/" target="_blank"><span style="color:green">Website</span></a>
-- DS 625 Computing for Data Compression, Image and Signal Processing <a href = "/files/DS625_Spring2023.pdf" target="_blank"><span style="color:red">Syllabus</span></a> <a href = "https://p-shekhar.github.io/2023_DS625/" target="_blank"><span style="color:green">Website</span></a>
+- DS 540 Data Mining <a href = "/files/MA540_Spring2023.pdf" target="_blank"><span style="color:red">Syllabus</span></a> <a href = "https://p-shekhar.github.io/2023_DS540/" target="_blank"><span style="color:blue">Website</span></a>
+- DS 625 Computing for Data Compression, Image/Signal Processing <a href = "/files/DS625_Spring2023.pdf" target="_blank"><span style="color:red">Syllabus</span></a> <a href = "https://p-shekhar.github.io/2023_DS625/" target="_blank"><span style="color:blue">Website</span></a>
 
 ## Fall 2022
 - DS 440 Data Mining
