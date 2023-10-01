@@ -12,8 +12,8 @@ author_profile: true
 {% endfor %} -->
 
 ## Fall 2023
-- MA 432 Linear Algebra <a href = "files/MA432_Fall23_description.pdf" target="_blank"><span style="color:red">Course Description</span></a><a href = "files/MA432_Fall23_syllabus.pdf" target="_blank"><span style="color:red">Syllabus</span></a> 
-- MA 506 Probability and Statistical Inference
+- MA 432 Linear Algebra <a href = "files/MA432_Fall23.pdf" target="_blank"><span style="color:red">Syllabus</span></a>
+- MA 506 Probability and Statistical Inference <a href = "files/MA506_Fall23.pdf" target="_blank"><span style="color:red">Syllabus</span></a>
 
 ## Spring 2023
 - DS 540 Data Mining
