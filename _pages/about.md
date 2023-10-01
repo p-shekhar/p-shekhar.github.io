@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor of Data Science in the Department of Mathematics at <a href="https://erau.edu/" target="_blank"><span style="color:SteelBlue">Embry-Riddle Aeronautical University (ERAU)</span></a>. My research interests are in theoretical foundations of explainable machine learning, transfer learning, computer vision, natural language processing and AI in general. I am also interested in applications of AI to noisy data modeling, healthcare, engineering and environmental science. 
+I am an Assistant Professor of Data Science in the Department of Mathematics at <a href="https://erau.edu/" target="_blank"><span style="color:SteelBlue">Embry-Riddle Aeronautical University (ERAU)</span></a>. My research interests are in theoretical foundations of explainable machine learning, transfer learning, computer vision, natural language processing and AI in general. I am also interested in applications of AI to noisy data modeling, healthcare, engineering, finance and environmental science. 
 Before joining ERAU, I was a data scientist at <a href="https://disc.tufts.edu/" target="_blank"><span style="color:SteelBlue">Data Intensive Studies Center (DISC)</span></a> at Tufts University for 2 years.
 
 ## Education
