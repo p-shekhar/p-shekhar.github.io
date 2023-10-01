@@ -28,6 +28,6 @@ author_profile: true
 - MA 432 Linear Algebra <a href = "/files/MA432_Spring22.pdf" target="_blank"><span style="color:red">Syllabus</span></a>
 
 ## Fall 2021
-- MA 432 Linear Algebra
-- MA 506 Probability and Statistical Inference
+- MA 432 Linear Algebra <a href = "/files/MA432_Fall21.pdf" target="_blank"><span style="color:red">Syllabus</span></a>
+- MA 506 Probability and Statistical Inference <a href = "/files/MA506_Fall21.pdf" target="_blank"><span style="color:red">Syllabus</span></a>
 
