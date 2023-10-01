@@ -12,6 +12,7 @@ I am an Assistant Professor of Data Science in the Department of Mathematics at 
 Before joining ERAU, I was a data scientist at Data Intensive Studies Center at Tufts University for 2 years.
 
 ## Education
-- PhD in Computational Data Sciences, 2019 (University at Buffalo)
+- PhD in Computational Data Sciences, 2019
+    - University at Buffalo
 - MS in Mechanical Engineering, 2016 (University at Buffalo)
 - BTech in Industrial and Systems Engineering, 2014 (Indian Institute of Technology, KGP)
