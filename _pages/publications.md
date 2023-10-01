@@ -51,11 +51,11 @@ author_profile: true
 
 2. **Shekhar P.**, Csatho B., Schenk T. and Patra A., Localized time series modeling of Greenland ice sheet elevation changes. In *Proceedings of the 8th International Workshop on Climate Informatics: CI 2018* (No. NCAR/TN-550+PROC). doi:10.5065/D6BZ64XQ.
 
-3. **Shekhar P.**, Patra A. and Csatho B., Multiscale and Multiresolution methods for Sparse representation of Large datasets. *Procedia Computer Science*. 2017 Jan 1;108:1652-61<a href="https://www.sciencedirect.com/science/article/pii/S1877050917308281"><span style="color:red">Link</span></a>.
+3. **Shekhar P.**, Patra A. and Csatho B., Multiscale and Multiresolution methods for Sparse representation of Large datasets. *Procedia Computer Science*. 2017 Jan 1;108:1652-61<a href="https://www.sciencedirect.com/science/article/pii/S1877050917308281" target="_blank"><span style="color:red">Link</span></a>.
 
-4. **Shekhar P.** and Rai R., Anomaly Detection in Complex Spatiotemporal Networks Through Location Aware Geospatial Big Data Sets. In *International Design Engineering Technical Conferences and Computers and Information in Engineering Conference* 2016 Aug 21 (Vol. 50190). American Society of Mechanical Engineers <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2016/V007T06A033/258455"><span style="color:red">Link</span></a>.
+4. **Shekhar P.** and Rai R., Anomaly Detection in Complex Spatiotemporal Networks Through Location Aware Geospatial Big Data Sets. In *International Design Engineering Technical Conferences and Computers and Information in Engineering Conference* 2016 Aug 21 (Vol. 50190). American Society of Mechanical Engineers <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2016/V007T06A033/258455" target="_blank"><span style="color:red">Link</span></a>.
 
-5. **Shekhar P.**, Patra A and Stefanescu ER., Multilevel methods for sparse representation of topographical data. *Procedia Computer Science*. 2016 Jan 1;80:887-96 <a href="https://www.sciencedirect.com/science/article/pii/S1877050916306767"><span style="color:red">Link</span></a>.
+5. **Shekhar P.**, Patra A and Stefanescu ER., Multilevel methods for sparse representation of topographical data. *Procedia Computer Science*. 2016 Jan 1;80:887-96 <a href="https://www.sciencedirect.com/science/article/pii/S1877050916306767" target="_blank"><span style="color:red">Link</span></a>.
 
 
 
