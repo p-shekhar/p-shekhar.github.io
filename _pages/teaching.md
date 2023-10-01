@@ -12,7 +12,7 @@ author_profile: true
 {% endfor %} -->
 
 ## Fall 2023
-- MA 432 Linear Algebra
+- MA 432 Linear Algebra <a href = "files/MA432_Fall23_description.pdf" target="_blank"><span style="color:red">Course Description</span></a><a href = "files/MA432_Fall23_syllabus.pdf" target="_blank"><span style="color:red">Syllabus</span></a> 
 - MA 506 Probability and Statistical Inference
 
 ## Spring 2023
