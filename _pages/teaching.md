@@ -13,4 +13,21 @@ author_profile: true
 
 ## Fall 2023
 - MA 432 Linear Algebra
+- MA 506 Probability and Statistical Inference
+
+## Spring 2023
+- DS 540 Data Mining
+- DS 625 Computing for Data Compression, Image and Signal Processing
+
+## Fall 2022
+- DS 440 Data Mining
+- MA 506 Probability and Statistical Inference
+
+## Spring 2022
+- DS 540 Data Mining
+- MA 432 Linear Algebra
+
+## Fall 2021
+- MA 432 Linear Algebra
+- MA 506 Probability and Statistical Inference
 
