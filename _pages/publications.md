@@ -47,7 +47,7 @@ author_profile: true
 
 
 ## AI in Remote Sensing and Environmental Science
-1. **Shekhar P.**, Csathó B., Schenk T., Roberts C. and Patra A., ALPS: A Unified Framework for Modeling Time Series of Land Ice Changes. \textit{IEEE Transactions on Geoscience and Remote Sensing}. 2020 Oct 16. <a href="https://ieeexplore.ieee.org/abstract/document/9226474" target="_blank"><span style="color:red">Link</span></a> <a href="https://arxiv.org/pdf/2007.05010.pdf" target="_blank"><span style="color:blue">arXiv</span></a> <a href="https://github.com/p-shekhar/ALPS" target="_blank"><span style="color:green">Code</span></a>.
+1. **Shekhar P.**, Csathó B., Schenk T., Roberts C. and Patra A., ALPS: A Unified Framework for Modeling Time Series of Land Ice Changes. *IEEE Transactions on Geoscience and Remote Sensing*. 2020 Oct 16. <a href="https://ieeexplore.ieee.org/abstract/document/9226474" target="_blank"><span style="color:red">Link</span></a> <a href="https://arxiv.org/pdf/2007.05010.pdf" target="_blank"><span style="color:blue">arXiv</span></a> <a href="https://github.com/p-shekhar/ALPS" target="_blank"><span style="color:green">Code</span></a>.
 
 2. **Shekhar P.**, Csatho B., Schenk T. and Patra A., Localized time series modeling of Greenland ice sheet elevation changes. In *Proceedings of the 8th International Workshop on Climate Informatics: CI 2018* (No. NCAR/TN-550+PROC). doi:10.5065/D6BZ64XQ.
 
