@@ -4,8 +4,7 @@ excerpt: "<img src='/images/Fig1.jpg'>"
 collection: research
 ---
 
-<img src="Picture2.jpg" alt="Image description">
-![Drag Racing](Picture2.jpg)
+<img src="/images/Picture2.jpg">
 In this project spanning multiple years, we developed fast and efficient statistical methods to model spatio-temporal data from a variety of remote sensing instruments including multiple flight missions such as LVIS and ATM and satellite missions such as ICESat-2 and ICESat-1<br/>
 
 Relevant publications for this project
