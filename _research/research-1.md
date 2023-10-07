@@ -1,6 +1,6 @@
 ---
 title: "Statistical modeling of land ice changes in Antarctica and Greenland"
-excerpt: "<img src='/images/Fig1.jpg'>"
+excerpt: "<img src='/images/Pic1.jpg'>"
 collection: research
 ---
 
