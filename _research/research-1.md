@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Statistical modeling of land ice changes in Antarctica and Greenland"
+excerpt: "In this project spanning multiple years, we developed fast and efficient statistical methods to model spatio-temporal data from a variety of remote sensing instruments including multiple flight missions such as LVIS and ATM and satellite missions such as ICESat-2 and ICESat-1<br/><img src='/images/Fig1.pdf'>"
 collection: research
 ---
 This is a test research
