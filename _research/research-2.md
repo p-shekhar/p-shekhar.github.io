@@ -1,6 +1,6 @@
 ---
 title: "In vivo detection of Circulating Tumor Cell Clusters (CTCCs) using label-free flow cytometry"
-excerpt: "<img src='/images/Fig3.png'>"
+excerpt: "<img src='/images/Fig3.png'alt="drawing" width="200">"
 collection: research
 ---
 In this project, we introduced a non-invasive Deep Learning based AI approach for effective identification of Circulating Tumor Cells (CTCs) and Circulating Tumor Cell Clusters (CTCCs) in whole blood using label-free flow cytometry. These CTCs and CTCCs are widely regarded as important biomarkers of metastatic growth. Particularly, our approach provided a high purity classification model establishing superiority over previously introduced approaches.
