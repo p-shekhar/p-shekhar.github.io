@@ -1,5 +1,5 @@
 ---
-title: "In vivo detection of Circulating Tumor Cell Clusters (CTCCs) using label-free flow cytometry"
+title: "In vivo detection of Circulating Tumor Cell Clusters (CTCCs)"
 excerpt: "<img src='/images/Pic2.jpg'>"
 collection: research
 ---
