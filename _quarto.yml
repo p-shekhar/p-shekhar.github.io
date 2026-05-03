@@ -2,7 +2,8 @@ project:
   type: website
   output-dir: _site
   resources:
-    - "notebooks/**"
+    - "notebooks/projects/*/writeup/**"
+    - "notebooks/tutorials/*/outputs/**"
   render:
     - "*.qmd"
     - "expertise/"

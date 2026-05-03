@@ -17,6 +17,7 @@ env/
 # Quarto-generated files
 /.quarto/
 /_site/
+/_site.before-*/
 /_freeze/
 /.quarto.bad-*/
 **/*_files/
