@@ -1,0 +1,6 @@
+metric,value
+out_of_fold_auc,0.7959817402541861
+out_of_fold_brier_score,0.1683656909517024
+out_of_fold_log_loss,0.5106550650005311
+mean_predicted_propensity,0.33840637037971444
+observed_treatment_rate,0.33798076923076925

@@ -1,0 +1,4 @@
+quantity,estimate,std_error
+manual DiD,1.1524380457092045,
+regression interaction,1.1524380457092047,0.04426878719188442
+true treatment effect,1.2,

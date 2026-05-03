@@ -1,0 +1,2 @@
+estimator,theta_hat,std_error,ci_95_lower,ci_95_upper,true_theta,bias_vs_truth
+Manual cross-fitted PLR,1.7931434890153697,0.020765220692255747,1.7524436564585484,1.833843321572191,1.75,0.043143489015369685

@@ -1,0 +1,7 @@
+concept,plain_language_role,where_it_appears_below
+confounding,"Controls affect both treatment and outcome, so naive treatment-outcome association is not causal.",naive baseline estimate
+nuisance function,A helper prediction function such as E[Y | X] or E[D | X].,Lasso nuisance models
+regularization bias,Bias caused when regularized nuisance prediction errors leak into the causal estimate.,in-sample and memorizing learner demos
+orthogonal score,A score designed so small nuisance mistakes have reduced first-order impact on theta.,residualized PLR score
+cross-fitting,Train nuisance functions on one fold and score held-out observations on another fold.,manual K-fold DML implementation
+DML1 versus DML2,DML1 averages fold-specific estimates; DML2 solves one pooled score after cross-fitting.,manual fold table and pooled estimate

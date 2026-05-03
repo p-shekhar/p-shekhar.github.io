@@ -1,0 +1,9 @@
+quantity,value
+rows,5000.0
+treatment_rate,0.4904
+observed_outcome_mean,0.21682686345762275
+true_ate,0.5049708366167389
+true_att,0.5771119784454877
+true_atc,0.43554772838907335
+true_cate_std,0.5344753939326525
+share_negative_true_cate,0.1762

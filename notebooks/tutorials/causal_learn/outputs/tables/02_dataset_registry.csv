@@ -1,0 +1,7 @@
+dataset_name,row_count,variable_type,main_stress_test,use_later_for,known_limitation
+linear_gaussian,2500,continuous,Linear additive mechanisms with Gaussian noise.,"PC, Fisher-Z tests, GES, baseline graph recovery.",Purely observational data may not orient every Markov-equivalent edge.
+linear_nongaussian,2500,continuous,Linear mechanisms with non-Gaussian noise.,LiNGAM-style direction learning and non-Gaussian diagnostics.,Non-Gaussianity helps only when the linear model is a reasonable approximation.
+nonlinear_continuous,2500,continuous,Nonlinear parent effects and interactions.,"Kernel tests, nonlinear functional methods, robustness checks.",Linear tests may miss or distort nonlinear dependence.
+discrete_mixed,2500,binary and ordinal,Discrete outcomes generated from latent logits.,Discrete conditional-independence tests and mixed-data cautions.,Treating these variables as Gaussian continuous data is a modeling mismatch.
+hidden_confounder_observed,2500,continuous with one omitted cause,A latent variable affects multiple observed variables.,FCI/PAG examples and hidden-confounding sensitivity.,The observed variables alone do not satisfy causal sufficiency.
+nonstationary_continuous,2500,continuous plus environment label,Mechanisms and distributions shift across environments.,CD-NOD and stability diagnostics across environments.,Pooling environments can hide mechanism changes.

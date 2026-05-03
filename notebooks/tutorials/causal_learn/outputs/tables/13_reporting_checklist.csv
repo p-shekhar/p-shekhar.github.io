@@ -1,0 +1,8 @@
+item,what_to_report,why_it_matters
+Sampling unit and cadence,What one row represents and whether the spacing is regular.,Lagged effects only have meaning relative to the measurement interval.
+Maximum lag,The largest lag tested and why it was chosen.,Too few lags miss delayed effects; too many lags increase false positives.
+Same-time edge policy,"Whether same-time effects are estimated, forbidden, or left unresolved.",Timestamp order alone cannot orient variables measured at the same time.
+Stationarity checks,"Drift, breaks, seasonality, and distribution changes considered before discovery.",Nonstationarity can create spurious lagged dependence.
+Threshold or significance rule,"Coefficient threshold, alpha level, or selection rule used to produce edges.",The graph is often sensitive to this conversion step.
+Stability analysis,"Resampling, rolling windows, or seed checks used to assess graph robustness.","Unstable edges should be treated as hypotheses, not findings."
+Known omitted variables,Important unobserved drivers or measurement gaps.,Hidden common causes can invalidate Granger and VAR-LiNGAM causal claims.

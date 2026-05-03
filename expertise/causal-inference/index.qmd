@@ -1,0 +1,35 @@
+---
+title: "Causal Inference & Experimentation"
+description: "Designing credible evidence for business, product, policy, and operational decisions."
+date: 2026-04-26
+categories: [Causal Inference, Experimentation, Decision Science]
+---
+
+## Focus
+
+I use causal inference to help answer intervention questions: what will happen if an organization changes a price, launches a feature, sends a retention offer, targets a policy, reallocates spend, or changes an operational process?
+
+## Strengths
+
+- Counterfactual framing and estimand definition.
+- DAGs, assumptions, and adjustment strategies.
+- A/B testing and experiment readouts.
+- Difference-in-differences, regression discontinuity, instrumental variables, and synthetic control.
+- Matching, weighting, doubly robust estimation, and heterogeneous treatment effects.
+- Sensitivity analysis and decision-focused communication.
+
+## Applied Domains
+
+- Pricing and promotion incrementality.
+- Customer retention and targeting policy.
+- Product experimentation.
+- Marketing measurement.
+- Health, education, and public policy analytics.
+- Operations and resource allocation.
+
+## Evidence On This Site
+
+- [Causal inference projects](../../projects/index.qmd)
+- [Lecture notes](../../notes/index.qmd)
+- [Python causal package tutorials](../../tutorials/index.qmd)
+

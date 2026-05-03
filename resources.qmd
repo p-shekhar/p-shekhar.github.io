@@ -1,0 +1,45 @@
+---
+title: "Resources"
+description: "Curated causal inference, AI systems, and data science learning paths."
+---
+
+This page can collect the books, papers, courses, datasets, software packages, and examples that shape your causal inference and AI systems work.
+
+## Books
+
+- Add your preferred graduate-level and applied references.
+- Add a note on which audience each resource is best for.
+
+## Papers
+
+- Add foundational papers by method area.
+- Add applied papers that are especially useful for industry problems.
+
+## Datasets
+
+- Public datasets for experiments, difference-in-differences, regression discontinuity, instrumental variables, and uplift modeling.
+
+## Software
+
+### Causal Inference
+
+- `DoWhy`
+- `EconML`
+- `DoubleML`
+- `CausalML`
+- `statsmodels`
+- `scikit-learn`
+
+### AI Systems and LLMOps
+
+- LangChain
+- LangGraph
+- CrewAI
+- Microsoft AutoGen
+- LangSmith
+- Langfuse
+- LlamaIndex
+- FAISS
+- Pinecone
+- PEFT
+- LoRA and QLoRA workflows

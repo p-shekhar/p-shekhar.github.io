@@ -1,0 +1,11 @@
+metric,value
+rows,3200.0
+columns,19.0
+X_effect_modifiers,7.0
+W_controls,6.0
+treatment_rate,0.4765625
+outcome_mean,2.4316535074184276
+true_ate,0.33985494182549003
+true_cate_std,0.4293548766804104
+true_cate_min,-0.9097468051188398
+true_cate_max,1.5124052822415923

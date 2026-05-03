@@ -1,0 +1,4 @@
+rule,selected_units,selected_share,mean_true_cumulative_effect_selected,share_high_need_selected
+top 20% by DynamicDML cumulative effect,112,0.2,1.4980810573315755,0.875
+oracle top 20% by true cumulative effect,112,0.2,1.5223819964238898,0.9464285714285714
+all held-out units,560,1.0,0.8393492736841441,0.2839285714285714

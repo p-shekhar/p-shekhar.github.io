@@ -1,0 +1,5 @@
+risk,diagnostic_or_action,expected benefit
+Important unobserved user intent remains after proxy adjustment,Search for richer pre-treatment proxies or historical behavior features.,Reduce plausible cf_y and cf_d by measuring the hidden source more directly.
+Treatment timing may follow outcome anticipation,Audit feature timestamps and remove post-treatment variables from controls.,Protect the design from bad-control bias and reverse timing.
+Benchmark variables are weak comparisons for the hidden confounder,Benchmark several observed covariate groups separately and jointly.,Give readers multiple scales for plausible hidden-confounder strength.
+Sensitivity bounds are close to the decision threshold,"Use a stronger design where possible: experiment, instrument, panel design, or negative control.",Shift credibility from modeling assumptions toward design-based evidence.

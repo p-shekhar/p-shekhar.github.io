@@ -1,0 +1,8 @@
+metric,value
+rows,900.0
+true_theta,1.25
+treatment_mean,0.3563126502135484
+treatment_std,1.2196991320777366
+outcome_mean,0.801843615032003
+outcome_std,1.979276837748305
+high_priority_share,0.3

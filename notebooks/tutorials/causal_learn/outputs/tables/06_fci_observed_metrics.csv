@@ -1,0 +1,2 @@
+run,learned_edges_total,definite_directed_edges,partially_oriented_edges,bidirected_like_edges,unresolved_adjacencies,correct_definite_directed_edges,directed_precision,directed_recall,reversed_true_edges,missing_true_adjacencies,extra_adjacencies
+fci_observed,8,2,6,0,0,2,1.0,0.3333333333333333,0,0,2

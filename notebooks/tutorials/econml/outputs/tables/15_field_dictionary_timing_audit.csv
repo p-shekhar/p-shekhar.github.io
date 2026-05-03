@@ -1,0 +1,22 @@
+field,type,description,timing,modeling_status
+user_id,Identifier,Row identifier.,Identifier,Do not model.
+need_score,Numeric,Pre-treatment signal of onboarding need.,Pre-treatment,Allowed X.
+prior_activity,Numeric,Pre-treatment usage activity.,Pre-treatment,Allowed X.
+preference_match,Numeric,Pre-treatment match between user interests and catalog.,Pre-treatment,Allowed X.
+search_friction,Numeric,Pre-treatment difficulty finding relevant content.,Pre-treatment,Allowed X.
+price_sensitivity,Numeric,Pre-treatment cost sensitivity proxy.,Pre-treatment,Allowed X.
+device_quality,Numeric,Pre-treatment device or experience quality proxy.,Pre-treatment,Allowed X.
+high_intent_segment,Binary,Pre-treatment segment flag.,Pre-treatment,Allowed X.
+marketing_intensity,Numeric,Other pre-treatment marketing pressure.,Pre-treatment,Allowed W.
+competitive_pressure,Numeric,Pre-treatment market competition proxy.,Pre-treatment,Allowed W.
+market_maturity,Numeric,Market maturity proxy.,Pre-treatment,Allowed W.
+tenure_weeks,Numeric,Account age before treatment.,Pre-treatment,Allowed W.
+organic_source,Binary,Acquisition source before treatment.,Pre-treatment,Allowed W.
+weekday_signup,Binary,Signup timing before treatment.,Pre-treatment,Allowed W.
+treatment,Binary,Whether the user received the intervention.,Treatment,T.
+outcome,Numeric,Post-treatment outcome.,Outcome,Y.
+post_treatment_activity,Numeric,Activity after treatment starts.,Post-treatment,Pitfall: do not adjust as a confounder.
+leaky_outcome_proxy,Numeric,Noisy copy of the outcome.,Outcome-like leakage,Pitfall: do not use as a feature.
+true_cate,Numeric,Known individual effect in simulation.,Hidden truth,Evaluation only.
+true_propensity,Numeric,Known assignment probability in simulation.,Hidden truth,Evaluation only.
+baseline_outcome,Numeric,Known untreated outcome component.,Hidden truth,Evaluation only.

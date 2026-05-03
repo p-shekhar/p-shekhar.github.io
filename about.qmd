@@ -1,0 +1,36 @@
+---
+title: "About"
+description: "Professional bio and positioning statement."
+---
+
+I am an Assistant Professor of Data Science with a focus on causal inference, statistical learning, trustworthy AI systems, and decision-making from imperfect data.
+
+This site is designed as a living public record of my work in industry-oriented causal inference and AI systems. The goal is to make my expertise legible to multiple audiences: academic collaborators, students, hiring teams, product leaders, data science managers, and organizations that need credible evidence and reliable AI-enabled workflows.
+
+## Positioning
+
+My work sits at the intersection of:
+
+- **Causal identification:** clarifying which assumptions are needed to answer a decision question.
+- **Applied estimation:** implementing robust methods with transparent diagnostics.
+- **AI systems design:** building RAG, agentic, multimodal, and evaluation-driven LLM workflows.
+- **LLMOps:** monitoring hallucination risk, drift, regressions, model versions, prompts, and system behavior.
+- **Business translation:** turning uncertainty, effect heterogeneity, and limitations into better decisions.
+- **Teaching:** explaining technical ideas through examples, notebooks, and reusable notes.
+
+## Professional Themes
+
+- Credible decision-making from observational, experimental, and quasi-experimental data.
+- LLM-powered systems that are evaluated, monitored, and improved over time.
+- Technical communication that connects methods to product, policy, and business action.
+- Reproducible public artifacts: notebooks, tutorials, system designs, and case studies.
+
+## Replace With Your Bio
+
+Use this section for a more personal biography:
+
+- Your name and current institution.
+- Your research and teaching areas.
+- Selected publications, grants, or applied collaborations.
+- Industry-facing strengths you want recruiters or collaborators to remember.
+- A short note about what kinds of opportunities you are open to.

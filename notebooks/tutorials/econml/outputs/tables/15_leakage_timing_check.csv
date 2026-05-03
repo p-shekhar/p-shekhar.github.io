@@ -1,0 +1,15 @@
+feature,used_in_leaky_model,timing,modeling_status,timing_flag
+need_score,True,Pre-treatment,Allowed X.,Allowed timing
+prior_activity,True,Pre-treatment,Allowed X.,Allowed timing
+preference_match,True,Pre-treatment,Allowed X.,Allowed timing
+search_friction,True,Pre-treatment,Allowed X.,Allowed timing
+price_sensitivity,True,Pre-treatment,Allowed X.,Allowed timing
+device_quality,True,Pre-treatment,Allowed X.,Allowed timing
+high_intent_segment,True,Pre-treatment,Allowed X.,Allowed timing
+leaky_outcome_proxy,True,Outcome-like leakage,Pitfall: do not use as a feature.,Invalid timing for decision-time modeling
+marketing_intensity,True,Pre-treatment,Allowed W.,Allowed timing
+competitive_pressure,True,Pre-treatment,Allowed W.,Allowed timing
+market_maturity,True,Pre-treatment,Allowed W.,Allowed timing
+tenure_weeks,True,Pre-treatment,Allowed W.,Allowed timing
+organic_source,True,Pre-treatment,Allowed W.,Allowed timing
+weekday_signup,True,Pre-treatment,Allowed W.,Allowed timing

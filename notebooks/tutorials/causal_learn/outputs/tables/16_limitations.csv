@@ -1,0 +1,7 @@
+limitation,practical_response
+Observational graph discovery is not causal proof,"Use the final graph to prioritize experiments, natural experiments, or effect estimation."
+Hidden confounding can create misleading adjacencies,"Use FCI diagnostics, sensitivity checks, richer covariates, or study designs that address omitted causes."
+Timing constraints are domain assumptions,Document why each tier is plausible and revisit tiers when measurement timing changes.
+LiNGAM depends on linear non-Gaussian assumptions,"Check residuals, compare with nonparametric methods, and avoid overclaiming directions from one method."
+Bootstrap row resampling is a simple stability check,"For temporal or clustered data, use block, user-level, or time-split stability checks instead."
+Synthetic truth is available only in this tutorial,"In real applications, replace truth scoring with domain review and validation on new data or interventions."

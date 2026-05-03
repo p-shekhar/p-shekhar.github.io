@@ -1,0 +1,6 @@
+whole_edge_mark,endpoint_at_A,endpoint_at_B,typical_graph,meaning
+A --> B,TAIL,ARROW,"DAG, CPDAG, PAG",A is oriented as an ancestor/cause-side endpoint of B.
+A --- B,TAIL,TAIL,CPDAG,"A and B are adjacent, but this edge is reversible within the equivalence class."
+A o-> B,CIRCLE,ARROW,PAG,The endpoint near A is uncertain; B has an arrowhead on this edge.
+A <-> B,ARROW,ARROW,PAG or mixed graph,Often read as possible latent common-cause structure between A and B.
+A o-o B,CIRCLE,CIRCLE,PAG,"The relationship is adjacent, but both endpoint orientations remain unresolved."

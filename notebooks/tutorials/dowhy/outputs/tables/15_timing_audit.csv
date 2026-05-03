@@ -1,0 +1,10 @@
+variable,timing,adjustment action
+baseline_need,pre-treatment,eligible adjustment variable
+prior_engagement,pre-treatment,eligible adjustment variable
+account_tenure_z,pre-treatment,eligible adjustment variable
+friction_score,pre-treatment,eligible adjustment variable
+region_risk,pre-treatment,eligible adjustment variable
+high_need_segment,pre-treatment,eligible adjustment variable
+activation_depth,"post-treatment, pre-outcome",exclude for total effect
+support_ticket,post-treatment symptom,exclude; collider risk
+future_leakage_score,post-outcome or outcome-derived,exclude; leakage

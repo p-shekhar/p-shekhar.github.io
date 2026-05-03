@@ -1,0 +1,6 @@
+object,shape_or_length,description
+X_train,"(2600, 11)",Shared covariate matrix for training.
+X_test,"(1400, 11)",Shared covariate matrix for held-out evaluation.
+y_train,2600,Training outcomes.
+t_train,2600,Training treatment indicators.
+true_tau_test,1400,Teaching-only true CATE values for held-out evaluation.

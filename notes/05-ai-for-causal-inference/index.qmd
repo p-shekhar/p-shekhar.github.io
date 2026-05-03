@@ -1,0 +1,50 @@
+---
+title: "05. AI for Causal Inference"
+description: "How LLMs, RAG, agents, evaluation, and automation can support causal analysts without replacing identification discipline."
+date: 2026-05-03
+categories: [AI, LLMs, Causal Inference, Lecture Notes]
+---
+
+This course treats AI as an assistant to the causal analyst: translating business questions, drafting estimand cards, critiquing DAGs, retrieving domain knowledge, generating code, creating reports, and stress-testing AI outputs.
+
+::: {.sequence-note}
+Notebook links open rendered HTML pages generated from the source notebooks under `notebooks/lectures/`. Code is visible by default; rendering is configured not to execute live notebook code, so local LLM or GPU-heavy cells are not triggered during website builds.
+:::
+
+## Notebook Sequence
+
+<ol class="notebook-sequence">
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/00_getting_a_local_llm_running.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/00_getting_a_local_llm_running.html">00. Getting a Local LLM Running</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/01_ai_assisted_causal_workflow.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/01_ai_assisted_causal_workflow.html">01. AI-Assisted Causal Workflow</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/02_llm_basics_for_causal_analysts.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/02_llm_basics_for_causal_analysts.html">02. LLM Basics for Causal Analysts</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/03_turning_business_questions_into_causal_questions.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/03_turning_business_questions_into_causal_questions.html">03. Turning Business Questions into Causal Questions</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/04_estimand_cards_and_causal_design_documents.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/04_estimand_cards_and_causal_design_documents.html">04. Estimand Cards and Causal Design Documents</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/05_ai_assisted_dag_brainstorming.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/05_ai_assisted_dag_brainstorming.html">05. AI-Assisted DAG Brainstorming</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/06_dag_critique_variable_roles_and_backdoor_paths.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/06_dag_critique_variable_roles_and_backdoor_paths.html">06. DAG Critique, Variable Roles, and Backdoor Paths</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/07_rag_for_causal_domain_knowledge.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/07_rag_for_causal_domain_knowledge.html">07. RAG for Causal Domain Knowledge</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/08_literature_synthesis_for_causal_assumptions.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/08_literature_synthesis_for_causal_assumptions.html">08. Literature Synthesis for Causal Assumptions</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/09_dataset_profiling_with_ai.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/09_dataset_profiling_with_ai.html">09. Dataset Profiling with AI</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/10_detecting_bad_controls_post_treatment_variables_and_leakage.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/10_detecting_bad_controls_post_treatment_variables_and_leakage.html">10. Detecting Bad Controls, Post-Treatment Variables, and Leakage</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/11_synthetic_data_generation_for_causal_teaching.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/11_synthetic_data_generation_for_causal_teaching.html">11. Synthetic Data Generation for Causal Teaching</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/12_simulation_labs_for_assumption_stress_testing.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/12_simulation_labs_for_assumption_stress_testing.html">12. Simulation Labs for Assumption Stress Testing</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/13_ai_assisted_method_selection.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/13_ai_assisted_method_selection.html">13. AI-Assisted Method Selection</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/14_ai_assisted_causal_code_generation.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/14_ai_assisted_causal_code_generation.html">14. AI-Assisted Causal Code Generation</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/15_automating_balance_overlap_and_diagnostic_reports.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/15_automating_balance_overlap_and_diagnostic_reports.html">15. Automating Balance, Overlap, and Diagnostic Reports</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/16_ai_for_sensitivity_analysis.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/16_ai_for_sensitivity_analysis.html">16. AI for Sensitivity Analysis</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/17_ai_for_experiment_design_and_power_planning.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/17_ai_for_experiment_design_and_power_planning.html">17. AI for Experiment Design and Power Planning</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/18_ai_for_quasi_experiment_design.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/18_ai_for_quasi_experiment_design.html">18. AI for Quasi-Experiment Design</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/19_causal_report_generation_with_llms.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/19_causal_report_generation_with_llms.html">19. Causal Report Generation with LLMs</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/20_causal_analysis_agent.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/20_causal_analysis_agent.html">20. Causal Analysis Agent</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/21_multi_agent_causal_review_workflow.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/21_multi_agent_causal_review_workflow.html">21. Multi-Agent Causal Review Workflow</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/22_evaluating_ai_outputs_in_causal_workflows.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/22_evaluating_ai_outputs_in_causal_workflows.html">22. Evaluating AI Outputs in Causal Workflows</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/23_hallucination_and_failure_modes_in_ai_causal_analysis.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/23_hallucination_and_failure_modes_in_ai_causal_analysis.html">23. Hallucination and Failure Modes in AI Causal Analysis</a></li>
+  <li><a href="../../notebooks/lectures/05_ai_for_causal_inference/24_capstone_ai_assisted_causal_project.html" data-site-path="notebooks/lectures/05_ai_for_causal_inference/24_capstone_ai_assisted_causal_project.html">24. Capstone AI-Assisted Causal Project</a></li>
+</ol>
+
+## How To Read This Track
+
+- Work through the notebooks in order if you want the full course arc.
+- Treat each notebook as a lecture plus lab: read the discussion, inspect the code, and rerun locally when you want to experiment.
+- For AI-heavy notebooks, expect some brittleness when live model calls are enabled; that instability is part of the course material rather than something hidden from the reader.
+
+<p class="notebook-source-note">The `.ipynb` sources remain in the matching folder under `notebooks/lectures/`.</p>

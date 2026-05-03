@@ -1,0 +1,2 @@
+run,learned_edges_total,learned_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
+complete_case_pc,7,7,6,6,0.8571428571428571,1.0,0,0,0,1

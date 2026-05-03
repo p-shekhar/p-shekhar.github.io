@@ -1,0 +1,10 @@
+step,question
+State the estimand,"What effect is targeted: continuous effect, ATE, IV effect, DID effect, RDD effect, or selection-adjusted effect?"
+Define outcome,Is the outcome measured after treatment and aligned with the causal question?
+Define treatment,"Is treatment continuous, binary, multi-valued, instrumented, or cutoff-assigned?"
+Define controls,"Are controls pre-treatment variables, not mediators, colliders, identifiers, or post-treatment consequences?"
+Define instruments,"If using IV, are instruments assigned through z_cols and backed by relevance/exclusion arguments?"
+Define dependence structure,"Are clusters, units, and time columns represented explicitly when rows are dependent?"
+Audit missingness,"Are all outcome, treatment, control, instrument, and design-specific columns finite or intentionally handled?"
+Audit variation,"Does treatment, instrument, running score, or selection indicator have enough support?"
+Save backend summary,Can another analyst see exactly which columns were assigned to each role?

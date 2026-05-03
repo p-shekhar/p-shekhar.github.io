@@ -1,0 +1,9 @@
+metric,value
+rows,6000.0
+columns,14.0
+missing_cells,0.0
+treated_share,0.49216666666666664
+selected_share,0.5183333333333333
+selected_share_treated,0.6173383000338639
+selected_share_control,0.4223826714801444
+true_ate,1.0323264164059247

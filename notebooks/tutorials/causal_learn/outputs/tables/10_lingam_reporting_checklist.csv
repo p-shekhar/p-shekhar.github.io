@@ -1,0 +1,7 @@
+item,what_to_report,why_it_matters
+State the structural assumptions,"Linearity, acyclicity, independent errors, and non-Gaussianity.",These assumptions are what allow LiNGAM to orient edges beyond Markov equivalence.
+Show distribution diagnostics,"Skewness, excess kurtosis, normality checks, and domain reasons for non-Gaussian errors.","Observed diagnostics cannot prove the assumption, but they can reveal obvious mismatch."
+Report matrix orientation,Rows are children and columns are parents in the LiNGAM adjacency matrix.,Misreading matrix orientation reverses causal stories.
+Save threshold sensitivity,Edge sets and metrics under multiple coefficient thresholds.,Small coefficients should not quietly drive major claims.
+Use stability diagnostics,"Bootstrap edge probabilities, path probabilities, and method comparisons.",Stable edges are more credible than one-run artifacts.
+Compare with other discovery families,"Agreement and disagreement with PC, GES, or domain-constrained alternatives.",Disagreement reveals assumption-sensitive conclusions.

@@ -1,0 +1,6 @@
+concept,meaning,practical_note
+additive noise model,The effect is generated as a function of the cause plus an independent error term.,ANM searches for the direction where residuals look independent of the proposed cause.
+residual independence,"After fitting the causal function, leftover noise should not depend on the cause.",This is stronger than low prediction error; a good predictor can still leave dependent residuals.
+KCI test,Kernel-based conditional independence machinery used here for unconditional residual independence.,"The returned p-values are diagnostics under the fitted model, not universal causal probabilities."
+post-nonlinear model,The additive-noise mechanism is followed by an invertible nonlinear transformation.,"More flexible than ANM, but computationally heavier and dependency-sensitive."
+pairwise screening,Running direction tests on pairs of variables from a larger dataset.,"Useful for hints, but it can confuse direct effects, indirect paths, and common causes."

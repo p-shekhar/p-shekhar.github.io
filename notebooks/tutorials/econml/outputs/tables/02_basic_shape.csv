@@ -1,0 +1,7 @@
+metric,value
+rows,3000.0
+columns,13.0
+treatment_rate,0.494
+outcome_mean,2.4470484523200624
+true_ate,0.4990198011352913
+true_cate_std,0.41032809594191244

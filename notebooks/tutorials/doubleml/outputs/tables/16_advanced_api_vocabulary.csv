@@ -1,0 +1,7 @@
+concept,meaning,why_it_matters
+Linear score elements,DoubleML stores score pieces psi_a and psi_b for linear scores.,They allow direct inspection of the estimating equation.
+Callable score,A user-supplied function that returns psi_a and psi_b.,Useful for valid custom moments when built-in scores are not enough.
+set_sample_splitting(),A method for passing analyst-defined train/test folds.,"Needed for reproducible comparisons, grouped splits, or temporal splits."
+external_predictions,A nested dictionary of user-supplied nuisance predictions.,Lets teams use external ML pipelines while still using DoubleML for score estimation.
+store_models=True,Stores fitted fold-level nuisance models.,Useful for auditing model behavior such as feature importance.
+evaluate_learners(),Reports out-of-fold nuisance losses.,A model-quality diagnostic before trusting score-based estimates.

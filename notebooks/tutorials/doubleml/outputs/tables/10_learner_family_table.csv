@@ -1,0 +1,5 @@
+family,examples,strength,watch_out
+Penalized linear models,"RidgeCV, LassoCV","Fast, stable, strong when nuisance functions are close to linear after feature engineering.",Can underfit nonlinear confounding and make residualization too crude.
+Random forests,RandomForestRegressor,Good default for nonlinearities and interactions with limited tuning.,Can be slower and less smooth; shallow/deep choices matter.
+Histogram gradient boosting,HistGradientBoostingRegressor,Strong sklearn-native boosted tree option with good speed.,"Needs regularization through depth, leaves, learning rate, and minimum leaf size."
+External boosted trees,"LightGBM, XGBoost","Flexible, fast, and common in applied data science workflows.",Large search spaces make tuning discipline important.

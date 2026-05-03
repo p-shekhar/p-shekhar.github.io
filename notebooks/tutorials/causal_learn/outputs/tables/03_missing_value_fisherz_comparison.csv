@@ -1,0 +1,7 @@
+case,approach,rows_used,conditioning_set,p_value,p_value_display,decision_at_0_05
+direct edge need-match,complete_case_fisherz,2101,none,0.0,<1e-300,reject independence
+direct edge need-match,mv_fisherz,2500,none,0.0,<1e-300,reject independence
+blocked need-renewal,complete_case_fisherz,1659,"intent, match, engagement",0.11316513873312051,0.113,do not reject independence
+blocked need-renewal,mv_fisherz,2500,"intent, match, engagement",0.11316513873312051,0.113,do not reject independence
+opened collider need-intent,complete_case_fisherz,1940,match,0.0,<1e-300,reject independence
+opened collider need-intent,mv_fisherz,2500,match,0.0,<1e-300,reject independence

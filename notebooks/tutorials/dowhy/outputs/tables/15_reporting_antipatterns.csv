@@ -1,0 +1,6 @@
+anti-pattern,why it is risky,better habit
+Only report one number,"Readers cannot see assumptions, diagnostics, or sensitivity.","Report estimate, estimand, graph assumptions, diagnostics, and limitations together."
+Call observational results causal without caveats,No-unmeasured-confounding is not directly testable.,State that the estimate is causal under the listed assumptions.
+Hide overlap problems,Estimates may rely on extrapolation or extreme weights.,"Include propensity overlap, weight summary, and effective sample size."
+Use post-treatment variables as controls without naming the estimand change,The reported estimate may no longer be a total effect.,"Separate total, direct, and mediation questions explicitly."
+Treat refuters as proof,"Refuters are stress tests, not assumption guarantees.",Use refuters as supporting evidence and still report residual risks.

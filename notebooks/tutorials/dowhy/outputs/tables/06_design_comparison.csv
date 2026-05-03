@@ -1,0 +1,6 @@
+design,estimate,target,main lesson,error
+hidden-confounding naive regression,2.1598489379769665,1.5,Association is biased when hidden common causes drive treatment and outcome,0.6598489379769665
+frontdoor with measured mediator,2.282311212669022,2.25,A valid mediator can identify the total effect despite hidden treatment-outcome confounding,0.03231121266902193
+instrumental variable,1.707249431761518,1.7,A valid instrument isolates assignment-driven treatment variation,0.007249431761518155
+fuzzy regression discontinuity,1.2529871695045511,1.35,A cutoff can identify a local effect near the threshold,-0.09701283049544895
+difference-in-differences,1.1524380457092047,1.2,A comparison-group trend can stand in for the treated group's missing counterfactual trend,-0.04756195429079524

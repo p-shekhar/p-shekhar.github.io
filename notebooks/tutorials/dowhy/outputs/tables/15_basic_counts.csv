@@ -1,0 +1,5 @@
+quantity,value
+rows,6000.0
+columns,11.0
+treatment_rate,0.505
+known_true_total_effect,0.8595636196425485

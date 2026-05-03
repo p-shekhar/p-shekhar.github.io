@@ -1,0 +1,8 @@
+estimator,estimate,notes,absolute_error_vs_true_ate
+known_true_ate,1.65,Simulation benchmark.,0.0
+naive_difference_in_means,3.442530756024601,No adjustment; confounded association.,1.7925307560246009
+adjusted_outcome_regression,1.6757247448949797,Outcome model with observed common causes.,0.02572474489497978
+propensity_score_matching,1.7324215916667765,Nearest-neighbor matching on estimated propensity.,0.08242159166677654
+propensity_score_stratification,1.7656274063276076,Weighted average of within-stratum effects.,0.1156274063276077
+ipw_weighting,1.8027905799517572,Plain inverse propensity weighted ATE.,0.15279057995175727
+normalized_ipw_weighting,1.7533151883106202,Self-normalized inverse propensity weighted ATE.,0.10331518831062025

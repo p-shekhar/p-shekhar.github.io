@@ -1,0 +1,5 @@
+role,columns
+outcome,weekly_value
+treatment,feature_exposure
+controls,"engagement_score, need_intensity, content_fit, recent_activity, price_sensitivity, tenure_signal, novelty_appetite, seasonality_signal"
+number_of_observations,4000

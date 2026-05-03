@@ -1,0 +1,5 @@
+object,shape_or_length,description
+X_multi_train,"(2730, 10)",Observed pre-treatment covariates for multi-arm CATE estimation.
+X_multi_test,"(1470, 10)",Held-out covariates for evaluating arm-specific effects.
+T_multi_train,2730,Integer arm labels for the training split.
+y_multi_train,2730,Observed outcomes for the training split.

@@ -1,0 +1,7 @@
+target,value
+Instrument rate,0.4626
+Treatment rate,0.3924
+True ATE,1.0205354805473905
+True compliance-weighted LATE,1.1019277413983646
+True realized complier effect,1.0977077471592893
+True first stage,0.4477741992267159

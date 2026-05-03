@@ -1,0 +1,3 @@
+nuisance,rmse_vs_true_nuisance,mae_vs_true_nuisance,correlation_vs_true_nuisance,out_of_fold_r2_against_observed_target
+l(X) = E[Y | X],1.0630813037784947,0.7499108462637323,0.9657450932089403,0.7383012964976877
+m(X) = E[D | X],0.4036021548664532,0.3016263548825077,0.9493052190078312,0.5317851812247874

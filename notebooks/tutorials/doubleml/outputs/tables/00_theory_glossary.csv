@@ -1,0 +1,7 @@
+term,symbol_or_name,meaning,example_in_plr
+target parameter,theta,The causal effect or causal estimand we want to estimate.,Effect of treatment d on outcome y after adjusting for x.
+outcome nuisance function,l(X) or g(X),A prediction function for the outcome component explained by controls.,Predict y from x.
+treatment nuisance function,m(X),A prediction function for treatment assignment or treatment intensity explained by controls.,Predict d from x.
+orthogonal score,"psi(W; theta, eta)",A moment equation designed to be insensitive to small nuisance errors around the truth.,Use residualized outcome and residualized treatment.
+cross-fitting,K-fold nuisance prediction,Fit nuisance learners on training folds and predict nuisance values on held-out folds.,Each row gets out-of-fold predictions for y and d.
+nuisance learner,"ml_l, ml_m, ml_g, ml_r","A machine-learning model used to estimate a nuisance function, not the final causal target directly.","Random forest, Lasso, boosting, or another sklearn-style estimator."

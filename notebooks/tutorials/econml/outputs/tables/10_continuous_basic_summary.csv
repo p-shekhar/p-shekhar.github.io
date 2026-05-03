@@ -1,0 +1,11 @@
+metric,value
+rows,3800.0
+columns,14.0
+treatment_intensity_mean,1.0835852416543106
+treatment_intensity_std,0.9924977167591065
+treatment_intensity_min,-1.5
+treatment_intensity_max,3.5
+outcome_mean,1.846560415254003
+true_marginal_effect_mean,0.2681167782268762
+true_marginal_effect_std,0.4155478202792574
+share_positive_marginal_effect,0.7381578947368421

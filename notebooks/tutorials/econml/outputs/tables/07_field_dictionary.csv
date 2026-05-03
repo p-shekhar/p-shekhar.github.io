@@ -1,0 +1,22 @@
+column,role,observed_in_real_analysis,description,true_net_cate_driver
+baseline_need,X policy/CATE feature,yes,Pre-treatment feature used for treatment-effect ranking and policy decisions.,yes
+prior_engagement,X policy/CATE feature,yes,Pre-treatment feature used for treatment-effect ranking and policy decisions.,yes
+friction_score,X policy/CATE feature,yes,Pre-treatment feature used for treatment-effect ranking and policy decisions.,yes
+content_affinity,X policy/CATE feature,yes,Pre-treatment feature used for treatment-effect ranking and policy decisions.,yes
+price_sensitivity,X policy/CATE feature,yes,Pre-treatment feature used for treatment-effect ranking and policy decisions.,yes
+region_risk,X policy/CATE feature,yes,Pre-treatment feature used for treatment-effect ranking and policy decisions.,yes
+high_need_segment,X policy/CATE feature,yes,Pre-treatment feature used for treatment-effect ranking and policy decisions.,yes
+trust_score,W/control or support feature,yes,Pre-treatment feature used for nuisance adjustment and support diagnostics.,no
+recency_gap,W/control or support feature,yes,Pre-treatment feature used for nuisance adjustment and support diagnostics.,no
+account_tenure,W/control or support feature,yes,Pre-treatment feature used for nuisance adjustment and support diagnostics.,no
+seasonality_index,W/control or support feature,yes,Pre-treatment feature used for nuisance adjustment and support diagnostics.,no
+device_stability,W/control or support feature,yes,Pre-treatment feature used for nuisance adjustment and support diagnostics.,no
+traffic_intensity,W/control or support feature,yes,Pre-treatment feature used for nuisance adjustment and support diagnostics.,no
+treatment,treatment,yes,Binary intervention indicator.,not applicable
+outcome,observed outcome,yes,Observed gross post-treatment outcome.,not applicable
+net_outcome,observed net outcome,yes,Observed outcome after subtracting treatment cost for treated rows.,not applicable
+propensity,oracle,no,True treatment probability from the simulated assignment process.,not applicable
+mu0,oracle,no,True conditional mean outcome under control.,not applicable
+mu1,oracle,no,True conditional mean gross outcome under treatment.,not applicable
+gross_cate,oracle,no,Known gross individual treatment effect.,not applicable
+true_net_cate,oracle,no,Known treatment effect after subtracting treatment cost.,not applicable

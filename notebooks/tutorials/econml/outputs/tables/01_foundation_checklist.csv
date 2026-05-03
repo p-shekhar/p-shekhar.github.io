@@ -1,0 +1,10 @@
+check,status in this notebook
+Treatment and outcome are defined,treatment and observed_outcome
+Potential-outcome estimand is named,"ATE, ATT, ATC, and CATE"
+Observed features are pre-treatment,baseline features only
+Confounding is diagnosed,covariate balance table and plot
+Overlap is diagnosed,propensity summary and histogram
+Effect modifiers are named,"baseline_need, prior_engagement, friction_score, high_need_segment"
+Controls are named,"account_tenure, region_risk"
+A simple baseline is available,interaction regression CATE baseline
+Targeting use case is explicit,oracle policy-value comparison

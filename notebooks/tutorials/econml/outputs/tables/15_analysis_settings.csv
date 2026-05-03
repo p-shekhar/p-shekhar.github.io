@@ -1,0 +1,5 @@
+setting,value,why_it_matters
+random_state,20260430.0,Makes the synthetic examples and bootstrap checks reproducible.
+n_users,5200.0,Keeps estimator fitting fast while leaving enough rows for diagnostics.
+test_size,0.3,Creates held-out data for honest model comparison.
+treatment_cost,0.16,Turns treatment effects into net decision value.

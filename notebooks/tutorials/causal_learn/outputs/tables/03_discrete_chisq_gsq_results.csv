@@ -1,0 +1,9 @@
+case,x,y,conditioning_set,expected_pattern,test,p_value,p_value_display,decision_at_0_05
+direct edge,need,match,none,dependent because need affects match probability,chisq,1.807196028933552e-40,1.81e-40,reject independence
+direct edge,need,match,none,dependent because need affects match probability,gsq,4.869422489066707e-41,4.87e-41,reject independence
+indirect path before blocking,need,renewal,none,dependent through downstream paths,chisq,1.7842787701913313e-06,1.78e-06,reject independence
+indirect path before blocking,need,renewal,none,dependent through downstream paths,gsq,1.7492098013193865e-06,1.75e-06,reject independence
+indirect path after blocking,need,renewal,"intent, match, engagement",weaker after blocking observed paths,chisq,0.1751088419273297,0.175,do not reject independence
+indirect path after blocking,need,renewal,"intent, match, engagement",weaker after blocking observed paths,gsq,0.17361898714488563,0.174,do not reject independence
+blocked non-edge,need,support,"intent, match, engagement",approximately independent after blocking paths through engagement,chisq,0.4495724205562829,0.450,do not reject independence
+blocked non-edge,need,support,"intent, match, engagement",approximately independent after blocking paths through engagement,gsq,0.44075882537489475,0.441,do not reject independence

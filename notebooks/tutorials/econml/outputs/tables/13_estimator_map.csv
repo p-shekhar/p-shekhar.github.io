@@ -1,0 +1,7 @@
+estimator,family,core_idea,expected_strength
+LinearDML,orthogonal DML,"Residualize outcome and treatment, then fit a structured final CATE model.",Good when effect heterogeneity is fairly smooth or well represented by chosen features.
+CausalForestDML,orthogonal forest,Use forest splits to learn nonlinear heterogeneous effects with orthogonalization.,Good for nonlinear heterogeneity and segment discovery.
+DRLearner,doubly robust,Combine outcome and propensity nuisance models into a pseudo-outcome for CATE learning.,Good when either propensity or outcome modeling is strong enough to stabilize estimates.
+SLearner,meta-learner,"Fit one outcome model using treatment as a feature, then contrast predicted outcomes.",Simple baseline that can work when treatment interactions are learned well.
+TLearner,meta-learner,"Fit separate outcome models for treated and control rows, then subtract predictions.",Useful when treated and control outcome surfaces differ strongly and both groups have support.
+XLearner,meta-learner,Impute treatment effects in each arm and combine them using propensity information.,Often useful when treatment groups are imbalanced or effects are heterogeneous.

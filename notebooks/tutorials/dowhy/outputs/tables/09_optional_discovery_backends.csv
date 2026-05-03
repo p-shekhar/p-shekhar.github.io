@@ -1,0 +1,4 @@
+backend,example DoWhy method name,installed,typical use
+lingam,lingam.DirectLiNGAM,False,continuous non-Gaussian linear discovery
+cdt,cdt.causality.graph.LiNGAM,False,Causal Discovery Toolbox algorithms
+ges,ges,False,score-based graph search

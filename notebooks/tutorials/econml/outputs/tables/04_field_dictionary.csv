@@ -1,0 +1,19 @@
+column,role,observed_in_real_analysis,description,true_cate_driver
+baseline_need,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,yes
+prior_engagement,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,yes
+friction_score,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,yes
+novelty_affinity,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,yes
+price_sensitivity,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,yes
+content_depth,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,yes
+recency_gap,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,no
+region_risk,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,yes
+high_need_segment,X effect modifier,yes,Pre-treatment feature allowed to shape the forest CATE function.,yes
+account_tenure,W control,yes,Pre-treatment adjustment feature used in nuisance models.,no
+seasonality_index,W control,yes,Pre-treatment adjustment feature used in nuisance models.,no
+device_stability,W control,yes,Pre-treatment adjustment feature used in nuisance models.,no
+traffic_intensity,W control,yes,Pre-treatment adjustment feature used in nuisance models.,no
+treatment,treatment,yes,Binary intervention indicator.,not applicable
+outcome,outcome,yes,Observed post-treatment outcome.,not applicable
+propensity,oracle,no,True treatment probability from the simulated assignment process.,not applicable
+true_cate,oracle,no,Known individual treatment effect used only for tutorial evaluation.,not applicable
+baseline_outcome_mean,oracle,no,Mean untreated outcome component before random noise.,not applicable

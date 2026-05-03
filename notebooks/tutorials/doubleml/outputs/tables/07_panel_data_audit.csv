@@ -1,0 +1,8 @@
+metric,value
+rows,8000.0
+columns,15.0
+missing_cells,0.0
+treated_share,0.491625
+mean_pre_outcome,4.116102047653108
+mean_post_outcome,4.968973014471619
+mean_outcome_change,0.8528709668185102

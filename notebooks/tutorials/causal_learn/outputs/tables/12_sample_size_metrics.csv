@@ -1,0 +1,9 @@
+run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies,method,sample_size,elapsed_seconds
+BOSS_n_100,8,6,6,5,0.8333333333333334,0.8333333333333334,1,0,0,2,BOSS,100,0.010812364052981138
+GRaSP_depth_4_n_100,9,6,6,1,0.16666666666666666,0.16666666666666666,2,3,0,3,GRaSP_depth_4,100,0.005388752091675997
+BOSS_n_200,6,6,6,6,1.0,1.0,0,0,0,0,BOSS,200,0.008739559911191463
+GRaSP_depth_4_n_200,6,6,6,6,1.0,1.0,0,0,0,0,GRaSP_depth_4,200,0.00719622103497386
+BOSS_n_400,6,6,6,6,1.0,1.0,0,0,0,0,BOSS,400,0.008931411895900965
+GRaSP_depth_4_n_400,7,4,6,1,0.25,0.16666666666666666,2,3,0,1,GRaSP_depth_4,400,0.009661349933594465
+BOSS_n_2500,6,6,6,6,1.0,1.0,0,0,0,0,BOSS,2500,0.008653178811073303
+GRaSP_depth_4_n_2500,6,6,6,6,1.0,1.0,0,0,0,0,GRaSP_depth_4,2500,0.007143441122025251

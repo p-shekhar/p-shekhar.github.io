@@ -1,0 +1,7 @@
+assumption,status,diagnostic,value,risk_if_violated
+consistency,design_definition,"Treatment, mediator, and outcome are defined at the user-day level with no future information in A or M.",A=high discovery day; M=satisfaction depth; Y=future 7-day interactions,Effects would mix incompatible versions of discovery exposure.
+positivity_overlap,checked,Propensity score support and extreme propensity shares.,"p05=0.042, p95=0.860",Estimates would rely on extrapolating to user-days with little comparable data.
+observed_treatment_exchangeability,partially_checked,Numeric covariate balance before and after capped stabilized weighting.,max weighted abs SMD=0.157,The high-discovery contrast could reflect user history rather than exposure.
+observed_mediator_outcome_adjustment,partially_checked,Residual mediator-outcome relationship after observed covariates.,residual Spearman=-0.019,The indirect pathway could be confounded by unmeasured user intent or recommendation state.
+no_unmeasured_confounding,not_testable,Requires domain argument and sensitivity analysis.,Not guaranteed by observational KuaiRec logs.,Direct and indirect effects may not support a causal reading.
+no_treatment_induced_mediator_outcome_confounder,not_testable,Requires design argument; avoid adjusting for post-treatment variables affected by A.,Use pre-treatment history/profile controls in primary setup.,Mediation decomposition can be biased even if treatment and mediator models fit well.

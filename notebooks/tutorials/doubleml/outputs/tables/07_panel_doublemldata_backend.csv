@@ -1,0 +1,6 @@
+property,value
+n_obs,8000
+outcome,delta_weekly_value
+treatment,treated
+n_covariates,6
+covariates,"engagement_score, recent_activity, content_fit, price_sensitivity, tenure_signal, mobile_user"

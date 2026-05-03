@@ -1,0 +1,4 @@
+estimator,main_strength,main_risk,why_used_here
+LinearDML,Transparent structured heterogeneity with polynomial features.,Can miss sharp nonlinearities.,Readable baseline.
+CausalForestDML,Flexible nonlinear heterogeneity.,Can be noisier and slower.,Matches the nonlinear teaching setup.
+DRLearner,Doubly robust pseudo-outcome strategy.,Can inherit variance from propensity estimates.,Useful for robust targeting comparison.

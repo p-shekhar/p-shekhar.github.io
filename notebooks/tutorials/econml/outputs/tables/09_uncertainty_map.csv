@@ -1,0 +1,6 @@
+object,question_answered,common_use,main_risk
+ATE interval,How uncertain is the average treatment effect over a target population?,"Executive summary, experiment-style reporting, broad go/no-go decisions.",Can hide large positive and negative segment effects that cancel out.
+CATE interval,How uncertain is the treatment effect for a specific covariate profile?,"Personalization, segment diagnostics, treatment ranking.",Many row-level intervals are noisy and should not be overread individually.
+Interval width,Where is the estimator less precise?,"Overlap diagnostics, data-quality checks, conservative targeting.",A narrow interval is not evidence that the causal assumptions are true.
+Lower confidence bound,Which units still look beneficial after accounting for uncertainty?,Risk-aware targeting when treatment has a cost or downside.,Can be overly conservative if intervals are poorly calibrated or data are small.
+Bootstrap policy interval,How stable is the estimated value of a targeting rule under row resampling?,"Policy comparison, robustness checks, reporting uncertainty around uplift targeting.",Row bootstrap does not fully capture model-fitting uncertainty unless models are refit.

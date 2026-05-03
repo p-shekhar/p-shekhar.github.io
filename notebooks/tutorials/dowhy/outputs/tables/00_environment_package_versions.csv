@@ -1,0 +1,16 @@
+package,status,version,role,required_for
+dowhy,installed,0.14,core,"DoWhy workflows: graphs, identification, estimation, refutation, and GCM"
+numpy,installed,2.4.4,core,Numerical arrays and random simulation
+pandas,installed,3.0.2,core,Tabular data manipulation
+scipy,installed,1.17.1,core,Statistical and numerical utilities
+scikit-learn,installed,1.6.1,core,Machine-learning models used by estimators and diagnostics
+statsmodels,installed,0.14.6,core,Transparent regression baselines for teaching
+networkx,installed,3.6.1,core,Graph creation and visualization support
+matplotlib,installed,3.10.9,core,Low-level plotting
+seaborn,installed,0.13.2,core,Statistical plotting
+econml,installed,0.16.0,optional advanced,Heterogeneous treatment effects and ML-based causal estimators
+causalml,installed,0.16.0,optional advanced,Alternative uplift and causal ML estimators
+causal-learn,installed,0.1.4.5,optional advanced,Causal discovery algorithms
+lightgbm,installed,4.6.0,optional advanced,Fast tree models for nuisance functions
+xgboost,installed,3.2.0,optional advanced,Boosted tree models for nuisance functions
+plotly,installed,6.7.0,optional,Interactive visualization

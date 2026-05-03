@@ -1,0 +1,7 @@
+case,test,conditioning_set,p_value,p_value_display,decision_at_0_05
+true edge need-match,fisherz,none,0.0,<1e-300,reject independence
+true edge need-match,kci,none,0.0,<1e-300,reject independence
+true edge match-engagement,fisherz,none,0.0,<1e-300,reject independence
+true edge match-engagement,kci,none,0.0,<1e-300,reject independence
+blocked need-renewal,fisherz,"intent, match, engagement",0.22143677551235807,0.221,do not reject independence
+blocked need-renewal,kci,"intent, match, engagement",0.19364014354638803,0.194,do not reject independence

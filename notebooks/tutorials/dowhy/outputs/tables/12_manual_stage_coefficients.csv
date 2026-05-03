@@ -1,0 +1,5 @@
+stage,coefficient,estimate,standard_error
+mediator model,treatment -> mediator,0.6542887286410808,0.015378746530840792
+outcome model,mediator -> outcome,0.7498150431636319,0.012291214660048526
+outcome model,direct treatment -> outcome,0.30799960008874705,0.018717215566344134
+total-effect model,total treatment -> outcome,0.7985951313962374,0.02045955873825279

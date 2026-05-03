@@ -1,0 +1,2 @@
+check,status,message
+construct_with_missing_control,expected_failure,Input contains NaN.

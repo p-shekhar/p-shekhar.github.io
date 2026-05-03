@@ -1,0 +1,12 @@
+item,status
+Causal question,Estimate effect of exposure_intensity on weekly_value using instrument-induced variation.
+Treatment type,Continuous treatment; PLIV constant-slope estimand is appropriate for the teaching design.
+Instrument role,"encouragement_score assigned through z_cols, not included as an ordinary control."
+Relevance,Residualized first-stage diagnostics reported.
+Exclusion,Valid by construction in synthetic data; requires design evidence in real data.
+Conditional independence,Valid by construction after X in synthetic data; requires design evidence in real data.
+Nuisance learners,Compared regularized linear and gradient-boosted nuisances.
+Cross-fitting,Used five folds and manually demonstrated cross-fitted residualized IV.
+Uncertainty,"Reported standard errors, confidence intervals, and a bootstrap interval."
+Stability,Checked repeated sample splitting.
+Cautions,Included weak-instrument and exclusion-violation stress tests.

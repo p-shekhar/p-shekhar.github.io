@@ -1,0 +1,4 @@
+source,target,edge_type,mechanism
+environment,need,directed,The root need distribution shifts by environment.
+environment,intent,directed,The root intent distribution shifts by environment.
+environment,match,directed,The intent-to-match mechanism changes by environment.

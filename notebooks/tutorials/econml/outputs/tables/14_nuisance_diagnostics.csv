@@ -1,0 +1,7 @@
+diagnostic,value
+propensity_auc,0.7217648384573572
+propensity_log_loss,0.6137130237917436
+propensity_min,0.12159773288480184
+propensity_max,0.9081649785421869
+outcome_observed_arm_r2,0.500214692579761
+outcome_observed_arm_mae,0.6857606231235701

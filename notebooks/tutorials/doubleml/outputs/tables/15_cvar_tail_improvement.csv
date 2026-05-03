@@ -1,0 +1,3 @@
+alpha,estimated_tail_improvement,oracle_tail_improvement,note
+0.1,0.3977002381664816,0.27184910115905647,Difference of separately estimated potential-outcome CVaRs; treat uncertainty descriptively here.
+0.2,0.40459107563781904,0.1946830012890114,Difference of separately estimated potential-outcome CVaRs; treat uncertainty descriptively here.

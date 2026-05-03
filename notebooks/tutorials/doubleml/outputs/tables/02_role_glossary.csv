@@ -1,0 +1,9 @@
+role,typical_argument,causal_meaning,common_mistake
+outcome,y_col,Final outcome whose causal response is being studied.,Using an intermediate or post-treatment measure as the outcome by accident.
+treatment,d_cols,"Exposure, policy, product change, or intervention variable whose effect is targeted.",Mixing multiple treatments without deciding whether the estimand is joint or separate.
+controls,x_cols,Pre-treatment adjustment variables used by nuisance learners.,Including post-treatment mediators or colliders as controls.
+instruments,z_cols,Variables that shift treatment but are excluded from the outcome equation except through treatment.,Treating an instrument like an ordinary confounder or using a weak instrument.
+clusters,cluster_cols,Group identifiers for dependence across rows.,"Ignoring repeated users, markets, schools, stores, or sessions as independent rows."
+time and unit identifiers,"t_col, id_col",Panel structure for repeated observations over time.,Using row order instead of explicit time and unit columns.
+running score,score_col,RDD assignment variable around a cutoff.,Using a transformed treatment indicator instead of the underlying running variable.
+selection indicator,s_col,Indicator for whether the outcome is observed or the row is selected into the analytic sample.,Dropping unselected rows before modeling selection.

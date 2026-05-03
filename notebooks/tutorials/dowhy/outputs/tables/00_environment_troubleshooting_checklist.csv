@@ -1,0 +1,6 @@
+symptom,likely_cause,first_fix
+DoWhy import fails,Package missing from the active environment,Run `uv add dowhy` from the repository root and restart the kernel.
+Notebook uses a different Python than the terminal,Jupyter kernel is not pointing at the project virtual environment,Select the kernel created from this repository's `.venv` environment.
+Graph rendering fails,Optional Graphviz system dependency is unavailable,Use NetworkX plots or install Graphviz if full DOT rendering is needed.
+Estimator result changes every run,Random seed not fixed or stochastic estimator used,Set a random seed and document any stochastic settings.
+CausalModel says effect is not identifiable,The graph does not support the requested estimand under observed variables,"Inspect the graph, common causes, instruments, and time ordering before changing estimators."

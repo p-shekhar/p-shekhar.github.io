@@ -1,0 +1,12 @@
+column,role,safe for total-effect adjustment
+baseline_need,pre-treatment confounder,True
+prior_engagement,pre-treatment confounder,True
+account_tenure_z,pre-treatment confounder,True
+friction_score,pre-treatment confounder,True
+region_risk,pre-treatment confounder,True
+high_need_segment,pre-treatment effect modifier and confounder,True
+proactive_guidance,treatment,False
+activation_depth,post-treatment mediator,False
+support_ticket,post-treatment collider / symptom,False
+future_leakage_score,future outcome-derived leakage feature,False
+future_engagement,outcome,False

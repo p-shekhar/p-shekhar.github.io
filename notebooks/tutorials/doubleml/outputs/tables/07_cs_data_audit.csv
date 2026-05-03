@@ -1,0 +1,7 @@
+metric,value
+rows,10000.0
+missing_cells,0.0
+treated_share,0.4985
+post_share,0.5047
+raw_repeated_cs_did,1.2946864000648182
+true_cs_att,1.1591644495926068

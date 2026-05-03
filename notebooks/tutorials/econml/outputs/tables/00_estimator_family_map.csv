@@ -1,0 +1,6 @@
+family,examples,best for,main output
+DML estimators,"LinearDML, SparseLinearDML, CausalForestDML",CATE with observed confounding and flexible nuisance models,treatment-effect function tau(X)
+Doubly robust learners,"DRLearner, ForestDRLearner",binary or categorical treatment with outcome and propensity nuisance models,CATE estimates with doubly robust pseudo-outcomes
+Meta-learners,"SLearner, TLearner, XLearner","simple, flexible baselines for heterogeneous effects",CATE from outcome-model contrasts
+IV estimators,"DMLIV, DeepIV, OrthoIV",endogenous treatment with a valid instrument,effect estimates identified by instrument variation
+Policy tools,policy learning utilities and CATE ranking workflows,turning CATE estimates into treatment allocation rules,targeting rule or policy-value comparison

@@ -1,0 +1,15 @@
+model,learner,metric_value,metric
+Repeated CS observational linear,ml_g_d0_t0,0.6430568661433069,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational linear,ml_g_d0_t1,0.6660706334502868,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational linear,ml_g_d1_t0,0.636959456534017,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational linear,ml_g_d1_t1,0.6480462241440401,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational linear,ml_m,0.47254522872901583,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational HGB,ml_g_d0_t0,0.6853911433015862,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational HGB,ml_g_d0_t1,0.7283435044782054,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational HGB,ml_g_d1_t0,0.6882615119248127,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational HGB,ml_g_d1_t1,0.7204783038158716,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS observational HGB,ml_m,0.4752865917684764,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS experimental HGB,ml_g_d0_t0,0.6844330546252263,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS experimental HGB,ml_g_d0_t1,0.7250375005927029,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS experimental HGB,ml_g_d1_t0,0.6864405408546009,RMSE for outcome learners; classification error style score for propensity learner
+Repeated CS experimental HGB,ml_g_d1_t1,0.7211025667536057,RMSE for outcome learners; classification error style score for propensity learner

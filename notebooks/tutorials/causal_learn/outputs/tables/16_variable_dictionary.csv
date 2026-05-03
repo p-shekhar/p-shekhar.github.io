@@ -1,0 +1,8 @@
+variable,plain_language_meaning,timing_tier,role
+baseline_need,Pre-existing user need or motivation before the experience starts.,0,upstream context
+catalog_fit,How well available items fit the user's likely interests.,1,upstream context
+onboarding_friction,"Early confusion, setup cost, or friction before meaningful use.",2,early barrier
+discovery_quality,Quality of the initial discovery or recommendation experience.,3,candidate mechanism
+early_engagement,Depth of initial usage after discovery.,4,intermediate outcome
+support_contact,Whether the user needed help or support after early use.,5,friction outcome
+retention_value,Downstream user value or retention signal.,6,final outcome

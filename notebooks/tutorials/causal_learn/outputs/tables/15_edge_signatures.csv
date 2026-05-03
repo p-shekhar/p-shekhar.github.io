@@ -1,0 +1,37 @@
+method,n_samples,seed,edge_signature,reported_edges
+DirectLiNGAM,150,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,150,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,150,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,300,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,300,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,300,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,600,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,600,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,600,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,1000,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,1000,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+DirectLiNGAM,1000,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --> renewal,6
+GES_BIC,150,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,150,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,150,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,300,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,300,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,300,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,600,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,600,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,600,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,1000,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,1000,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+GES_BIC,1000,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | need --> support | support --> renewal,7
+PC_FisherZ,150,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,150,1,engagement --> renewal | intent --> match | match --> engagement | need --> match | renewal --> support,5
+PC_FisherZ,150,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,300,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,300,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,300,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,600,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,600,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,600,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,1000,0,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,1000,1,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6
+PC_FisherZ,1000,2,engagement --> renewal | engagement --> support | intent --> match | match --> engagement | need --> match | support --- renewal,6

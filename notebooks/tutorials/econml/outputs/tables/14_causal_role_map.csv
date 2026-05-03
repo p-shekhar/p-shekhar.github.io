@@ -1,0 +1,6 @@
+role,field,meaning,used_by_econml_as
+Treatment T,onboarding_bundle,Whether the user received the proactive onboarding bundle.,T
+Outcome Y,eight_week_value,Continuous engagement value after the treatment window.,Y
+Effect modifiers X,"need, friction, preference, and reliability fields",Variables that may change how much the bundle helps.,X
+Controls W,"tenure, market, source, and operational fields",Observed confounders adjusted for in nuisance models.,W
+Hidden teaching truth,true_cate and true_propensity,Known only because this is a simulation; never used for fitting.,Evaluation only

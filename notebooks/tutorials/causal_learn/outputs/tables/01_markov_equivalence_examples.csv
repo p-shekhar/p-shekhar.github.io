@@ -1,0 +1,4 @@
+graph,directed_edges,skeleton,unshielded_colliders
+chain_A_to_B_to_C,"A->B, B->C","A-B, B-C",none
+fork_B_to_A_and_C,"B->A, B->C","A-B, B-C",none
+collider_A_and_C_to_B,"A->B, C->B","A-B, B-C",A -> B <- C

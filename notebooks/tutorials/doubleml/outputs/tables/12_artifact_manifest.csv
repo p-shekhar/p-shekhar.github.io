@@ -1,0 +1,9 @@
+artifact,path
+synthetic multi-treatment PLR data,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/datasets/12_synthetic_multitreatment_plr_data.csv
+standard inference summary,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/12_standard_inference_summary.csv
+pointwise vs joint intervals,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/12_pointwise_vs_joint_ci.csv
+adjusted p-value comparison,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/12_adjusted_pvalue_comparison.csv
+coverage simulation,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/12_coverage_simulation.csv
+report template,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/reports/12_inference_report_template.md
+inference workflow figure,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/12_inference_workflow.png
+pointwise vs joint interval figure,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/12_pointwise_vs_joint_ci.png

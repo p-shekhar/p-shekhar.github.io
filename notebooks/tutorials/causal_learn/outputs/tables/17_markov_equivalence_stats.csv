@@ -1,0 +1,3 @@
+scenario,corr_A_C,partial_corr_A_C_given_B
+chain_A_to_B_to_C,0.556998360377742,-0.03548222021322328
+fork_B_to_A_and_C,0.548866394356815,0.041835647743366726

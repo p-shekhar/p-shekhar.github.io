@@ -1,0 +1,10 @@
+column,role,description
+unit_id,identifier,Synthetic row identifier; excluded from modeling.
+user_id,group identifier,Repeated-observation group id; used only for external GroupKFold splits.
+x00-x09,observed controls,Numeric pre-treatment controls.
+user_effect_proxy,observed control,Noisy pre-treatment proxy for user-level heterogeneity.
+user_effect,oracle only,Latent user effect used only in simulation diagnostics.
+true_m,oracle only,True treatment nuisance E[D|X] used only for simulation diagnostics.
+true_g,oracle only,True outcome nuisance component g0(X) used only for simulation diagnostics.
+treatment,treatment,Continuous treatment D.
+outcome,outcome,Continuous outcome Y.

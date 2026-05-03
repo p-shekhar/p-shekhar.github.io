@@ -1,0 +1,7 @@
+use_case,estimator_to_try_first,what_to_check
+Need a transparent baseline,LinearDML,"ATE bias, coefficient signs, and whether nonlinear estimators improve CATE recovery."
+Expect nonlinear heterogeneity,CausalForestDML or forest-based DRLearner,"CATE RMSE, decile calibration, and segment behavior."
+Prioritization or targeting,The estimator with best top-group true effect in simulation or strongest validation proxy in real data.,"Top-decile value, calibration curves, and stability across resamples."
+Fast benchmark baseline,SLearner or TLearner,Whether simple outcome-model contrasts are competitive before using heavier methods.
+Imbalanced treatment assignment,XLearner or DRLearner,"Overlap, propensity quality, and selected-group composition."
+Final reporting,Do not rely on one estimator only,"Agreement across families, segment diagnostics, uncertainty, and sensitivity to assumptions."

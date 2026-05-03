@@ -1,0 +1,4 @@
+run,source,edge_type,target
+selection_truth,interest,-->,selected
+selection_truth,difficulty,-->,selected
+selection_truth,interest,-->,retention_value

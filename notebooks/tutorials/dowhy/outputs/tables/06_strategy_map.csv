@@ -1,0 +1,6 @@
+strategy,main source of identification,works best when,main risk
+Backdoor adjustment,Condition on measured common causes of treatment and outcome,The important confounders are observed and measured well,Hidden confounding remains after adjustment
+Frontdoor,A measured mediator carries the treatment effect,"Treatment affects outcome only through the mediator, and mediator-outcome confounding is controlled",Direct effects or mediator-outcome confounding violate the design
+Instrumental variables,An external variable shifts treatment but has no direct path to outcome,"The instrument is relevant, independent, and satisfies exclusion",The instrument affects the outcome through another path
+Regression discontinuity,Treatment probability jumps at a cutoff in a running variable,Units cannot precisely manipulate the cutoff and the outcome is smooth around it,Sorting around the cutoff or unrelated discontinuities
+Difference-in-differences,A treated group changes after treatment relative to a comparison group,The groups would have followed parallel trends without treatment,The comparison group is not a credible counterfactual trend

@@ -1,0 +1,7 @@
+source,target,edge_type,mechanism,mark
+need,match,directed,Need changes what a good match means.,-->
+intent,match,directed,Current intent changes recommendation relevance.,-->
+match,engagement,directed,Better matching increases engagement depth.,-->
+intent,renewal,directed,Intent directly affects later value.,-->
+engagement,renewal,directed,Engagement contributes to renewal value.,-->
+engagement,support,directed,Engagement creates more chances for support contact.,-->

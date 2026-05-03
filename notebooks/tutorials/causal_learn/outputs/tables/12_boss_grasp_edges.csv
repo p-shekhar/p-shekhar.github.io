@@ -1,0 +1,13 @@
+run,source,edge_type,target
+BOSS,need,-->,match
+BOSS,intent,-->,match
+BOSS,intent,-->,renewal
+BOSS,match,-->,engagement
+BOSS,engagement,-->,renewal
+BOSS,engagement,-->,support
+GRaSP_depth_4,need,-->,match
+GRaSP_depth_4,intent,-->,match
+GRaSP_depth_4,intent,-->,renewal
+GRaSP_depth_4,match,-->,engagement
+GRaSP_depth_4,engagement,-->,renewal
+GRaSP_depth_4,engagement,-->,support

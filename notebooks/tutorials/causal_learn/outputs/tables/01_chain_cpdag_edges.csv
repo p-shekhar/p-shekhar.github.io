@@ -1,0 +1,3 @@
+source,target,endpoint_at_source,endpoint_at_target,mark,causal_learn_string
+A,B,TAIL,TAIL,---,A --- B
+B,C,TAIL,TAIL,---,B --- C

@@ -1,0 +1,4 @@
+estimator,theta_hat,uses_controls,true_theta,bias_vs_true
+Naive outcome ~ treatment,1.319603880649284,False,1.3,0.019603880649283978
+Full linear adjustment,1.3148476027087135,True,1.3,0.014847602708713437
+Oracle residual regression,1.350644834003841,oracle,1.3,0.05064483400384101

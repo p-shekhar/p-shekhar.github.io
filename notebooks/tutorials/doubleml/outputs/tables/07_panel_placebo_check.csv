@@ -1,0 +1,3 @@
+check,theta_hat,expected_value,distance_from_zero
+raw placebo DID,0.14894940411521979,0.0,0.14894940411521979
+DoubleML adjusted placebo DID,-0.0066405155781331235,0.0,0.0066405155781331235

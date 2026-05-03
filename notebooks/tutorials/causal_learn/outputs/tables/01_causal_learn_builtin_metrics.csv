@@ -1,0 +1,12 @@
+metric_family,metric,value
+SHD,structural_hamming_distance,2.0
+Adjacency,true_positive,5.0
+Adjacency,false_positive,0.0
+Adjacency,false_negative,1.0
+Adjacency,precision,1.0
+Adjacency,recall,0.8333333333333334
+Arrow,true_positive,4.0
+Arrow,false_positive,1.0
+Arrow,false_negative,2.0
+Arrow,precision,0.8
+Arrow,recall,0.6666666666666666

@@ -1,0 +1,5 @@
+condition,question to ask
+Treatment affects the mediator,Does feature exposure clearly move engagement depth?
+Mediator carries the treatment effect,Is there a direct path from exposure to future value that bypasses engagement depth?
+No unblocked treatment-mediator confounding,Could a hidden variable affect both exposure and the mediator?
+Mediator-outcome confounding is blocked after treatment,"Once exposure is held fixed, are mediator and outcome still confounded by hidden causes?"

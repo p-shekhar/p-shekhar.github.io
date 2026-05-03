@@ -1,0 +1,39 @@
+---
+title: "Projects"
+description: "Notebook-driven causal inference projects and AI systems case studies."
+listing:
+  - id: causal-notebook-projects
+    contents:
+      - mind-ranking-causal-lift/index.qmd
+      - off-policy-evaluation/index.qmd
+      - long-term-causal-effects/index.qmd
+      - interference-spillover-effects/index.qmd
+      - discovery-quality-mediation/index.qmd
+    type: grid
+    fields: [title, description, date, categories]
+    sort: "date asc"
+    page-size: 12
+  - id: ai-system-projects
+    contents:
+      - rag-evaluation-system/index.qmd
+      - agentic-research-assistant/index.qmd
+      - multimodal-retrieval-system/index.qmd
+    type: grid
+    fields: [title, description, date, categories]
+    sort: "date desc"
+    page-size: 12
+---
+
+These projects are written as case studies rather than notebook dumps. The notebook-driven projects show complete causal workflows: a decision question, estimand, assumptions, diagnostics, estimation, sensitivity checks, and a decision-oriented conclusion.
+
+## Notebook-Driven Causal Inference Projects
+
+::: {#causal-notebook-projects}
+:::
+
+## AI Systems & LLMOps Case Studies
+
+These pages keep the broader AI portfolio visible: retrieval systems, agentic workflows, multimodal systems, evaluation, monitoring, and deployment thinking.
+
+::: {#ai-system-projects}
+:::

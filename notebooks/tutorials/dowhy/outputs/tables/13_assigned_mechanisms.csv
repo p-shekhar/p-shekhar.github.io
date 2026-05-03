@@ -1,0 +1,7 @@
+node,parents,mechanism
+traffic_intent,none,EmpiricalDistribution
+recommendation_quality,"traffic_intent, catalog_health, latency_pressure",AdditiveNoiseModel
+catalog_health,none,EmpiricalDistribution
+latency_pressure,none,EmpiricalDistribution
+session_depth,"traffic_intent, recommendation_quality, latency_pressure",AdditiveNoiseModel
+future_value,"traffic_intent, recommendation_quality, session_depth, latency_pressure",AdditiveNoiseModel

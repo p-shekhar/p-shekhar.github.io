@@ -1,0 +1,9 @@
+source,target,mark,edge_kind,causal_learn_edge,endpoint_at_node1,endpoint_at_node2
+engagement,renewal,-->,directed,engagement --> renewal,TAIL,ARROW
+engagement,support,---,undirected,engagement --- support,TAIL,TAIL
+intent,match,---,undirected,intent --- match,TAIL,TAIL
+intent,renewal,-->,directed,intent --> renewal,TAIL,ARROW
+match,engagement,---,undirected,match --- engagement,TAIL,TAIL
+match,need,-->,directed,match --> need,TAIL,ARROW
+renewal,need,-->,directed,renewal --> need,TAIL,ARROW
+support,need,-->,directed,support --> need,TAIL,ARROW

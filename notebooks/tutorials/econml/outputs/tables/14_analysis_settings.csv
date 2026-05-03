@@ -1,0 +1,5 @@
+setting,value,why_it_matters
+random_state,20260430.0,"Makes simulation, model fitting, and bootstrap resampling reproducible."
+n_users,5500.0,Keeps the notebook fast while leaving enough data for heterogeneous-effect diagnostics.
+test_size,0.3,Creates a held-out sample for estimator comparison and policy evaluation.
+treatment_cost,0.18,Converts gross CATE into net decision value for targeting.

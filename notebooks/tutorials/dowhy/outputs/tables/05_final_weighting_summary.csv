@@ -1,0 +1,9 @@
+item,summary
+Causal question,Average effect of feature exposure on weekly value.
+Known true ATE,1.600
+Usable-overlap normalized IPW,1.613; effective sample size about 4328.
+Weak-overlap normalized IPW,2.171; effective sample size about 1020.
+Main diagnostic lesson,Weak overlap creates large weights and makes weighting estimates more fragile.
+Trimming lesson,Trimming can stabilize estimates but changes the population being described.
+DoWhy lesson,"DoWhy can estimate weighted effects, but overlap diagnostics remain the analyst's responsibility."
+Main limitation,All weighting estimators still depend on measured common causes and adequate support.

@@ -1,0 +1,7 @@
+evidence item,result,reading
+main adjusted DoWhy estimate,0.835,positive estimated total effect after graph-based adjustment
+estimator agreement,weighting estimate 0.854,propensity and regression estimates tell a similar story
+overlap and balance,max weighted SMD 0.018,observed covariates are much better balanced after weighting
+placebo treatment refuter,0.010,fake treatment does not reproduce the main effect
+negative-control outcome,adjusted coefficient 0.023,pre-period outcome association mostly disappears after adjustment
+hidden-confounding sensitivity,range 0.434 to 0.806,strong unobserved confounding could still reduce the estimate

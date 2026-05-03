@@ -1,0 +1,5 @@
+object,shape_or_length,description
+X_cont_train,"(2470, 9)",Observed pre-treatment covariates.
+X_cont_test,"(1330, 9)",Held-out covariates for marginal-effect evaluation.
+T_cont_train,2470,Continuous treatment intensity for training rows.
+y_cont_train,2470,Observed outcomes for training rows.

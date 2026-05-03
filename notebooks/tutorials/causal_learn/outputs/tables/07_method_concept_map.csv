@@ -1,0 +1,4 @@
+method,uses_environment_index,main_question,main_risk
+pooled PC,False,What graph is implied if every row is treated as coming from one stationary process?,Distribution shifts can create extra adjacencies or unstable orientations.
+per-environment PC,False,Does the graph look similar when each environment is analyzed separately?,Smaller within-environment samples can make results noisy.
+CD-NOD,True,"Which variables are connected to the context index, and what graph is learned on the augmented system?","Environment edges indicate nonstationarity, not automatically manipulable causal effects."

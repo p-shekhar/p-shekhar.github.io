@@ -1,0 +1,7 @@
+report_item,example_from_this_notebook,why_it_matters
+Data regime,Continuous linear Gaussian synthetic data,Fisher-Z is only appropriate when the data are close to its assumptions.
+CI test and alpha,Fisher-Z with alpha = 0.05,Edge removal depends directly on conditional independence decisions.
+Stable setting,stable=True for the baseline graph,Stable PC reduces order-dependence in skeleton search.
+Graph type,Learned directed/undirected graph from PC,Unoriented edges should not be silently converted into causal arrows.
+Sensitivity checks,"Alpha, sample size, stable versus original PC, nonlinear stress test",A single graph can hide tuning and assumption fragility.
+Edge-level audit,Saved learned edge tables and separating sets,"Stakeholders need to know which causal claims changed, not just a summary score."

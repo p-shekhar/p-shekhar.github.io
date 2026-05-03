@@ -1,0 +1,8 @@
+topic,what_to_report,why_it_matters
+Instrument definition,Explain exactly how Z is assigned or generated.,The design story is the source of IV credibility.
+Relevance,"Report first-stage coefficient, F-statistic, and partial R-squared after adjusting for X.",Weak instruments produce unstable estimates.
+Independence,Show covariate balance or explain conditional as-if randomness.,"If Z is confounded, IV does not solve the identification problem."
+Exclusion,Discuss why Z should not affect Y except through T and use placebo checks if possible.,Direct Z-to-Y effects bias IV estimates.
+Estimator choice,"State whether results use DMLIV, OrthoIV, NonParamDMLIV, or another IV estimator.",Different estimators have different final-stage flexibility and assumptions.
+Target population,Clarify whether the effect is local to instrument-responsive units.,IV effects may not describe units whose treatment never responds to the instrument.
+Sensitivity,Discuss weak-instrument and exclusion-violation sensitivity.,"The main IV risks are design risks, not just model risks."

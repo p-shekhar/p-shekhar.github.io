@@ -1,0 +1,7 @@
+report_item,example,why_it_matters
+Test family,Fisher-Z for continuous linear Gaussian-style data,The test defines what kind of independence claim is being evaluated.
+Data type match,Chi-square or G-square for discrete variables,A mismatched test can produce misleading graph edits.
+Alpha threshold,"alpha = 0.01, 0.05, and 0.10 sensitivity",Graph structure can change when the rejection threshold changes.
+Conditioning-set limits,Maximum conditioning size used by the algorithm,Larger sets require more data and more tests.
+Missing-data handling,Complete-case Fisher-Z versus mv_fisherz,Missingness can change sample size and induce bias.
+Nonlinear robustness,KCI check on suspected nonlinear relationships,Linear tests can miss nonlinear dependence.

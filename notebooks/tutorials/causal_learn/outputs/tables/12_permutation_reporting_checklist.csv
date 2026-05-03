@@ -1,0 +1,7 @@
+item,what_to_report,why_it_matters
+State the score function,"BIC, BDeu, CV score, or another local score plus penalty settings.","The selected order and graph optimize this score, not a score-free causal criterion."
+Report random seeds or restarts,"Seeds used, number of starts, and whether graphs changed across starts.",Permutation search can depend on random traversal or initial order.
+Document GRaSP depth,Depth setting and sensitivity results when GRaSP is used.,Depth changes the relaxation search and can change recovery.
+Compare with another method,"GES, PC, exact search on a small subproblem, or domain-constrained alternatives.",Agreement across search families is more reassuring than one graph alone.
+Track runtime and graph size,"Elapsed time, variable count, learned edge count, and any parent limits.",Order search can become expensive as graph size and score complexity grow.
+Separate optimization from causality,What was optimized and which causal assumptions are still required.,A high-scoring permutation is not causal proof by itself.

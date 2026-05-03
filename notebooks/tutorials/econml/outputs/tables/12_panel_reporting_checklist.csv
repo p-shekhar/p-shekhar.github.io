@@ -1,0 +1,8 @@
+topic,what_to_report,why_it_matters
+Unit and period definition,Define the repeated unit and the treatment periods.,"Panel causal questions are built around histories, not isolated rows."
+Outcome timing,State when the final outcome is measured relative to treatment periods.,Features and treatments must precede the outcome window.
+Balance and ordering,"Check periods per unit, duplicate unit-period rows, and sorting.",DynamicDML expects balanced histories in this implementation.
+Group splitting,Keep all periods from a unit together in train/test and cross-fitting splits.,Row-level splitting leaks information across time for the same unit.
+History controls,List the time-varying controls included in W and verify they are pre-treatment.,Sequential ignorability depends on observed treatment history and state.
+Period effects,Report effects separately by treatment period before collapsing to a cumulative effect.,A single average effect can hide important timing differences.
+Shortcut caveats,Explain what pooled or snapshot analyses do and do not answer.,Shortcut models often answer narrower or muddier questions than intended.

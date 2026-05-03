@@ -1,0 +1,6 @@
+concept,plain_language,why_it_matters
+local BIC score,Score one node given a proposed parent set.,Decomposable scores let the total graph score be built from local node scores.
+parent graph,"For each node, cache the best parent set available under different candidate predecessors.",Parent-set caching makes exact search much faster than naive enumeration.
+order graph,Search over subsets or variable orderings rather than every DAG directly.,Dynamic programming and A* use this structure to find an optimal DAG for the score.
+A* exact search,Use a priority queue and heuristic to search promising order-graph states first.,Can visit fewer states than full dynamic programming on some problems.
+super-structure,Restrict which edges are allowed before search begins.,Good constraints reduce runtime; invalid constraints can force a wrong graph.

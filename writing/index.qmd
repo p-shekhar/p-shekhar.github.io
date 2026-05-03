@@ -1,0 +1,21 @@
+---
+title: "Writing"
+description: "Blog-style essays on causal inference, experimentation, and decision science."
+listing:
+  contents: "../posts/**/*.qmd"
+  type: default
+  fields: [title, description, date, categories]
+  sort: "date desc"
+  page-size: 10
+---
+
+This section is for short essays that make causal inference readable for technical and non-technical audiences.
+
+Good topics:
+
+- Why churn prediction is not the same as retention impact.
+- When A/B tests fail to answer the real business question.
+- How to explain confounding to product teams.
+- What sensitivity analysis means for executives.
+- How to choose between experiments and quasi-experiments.
+

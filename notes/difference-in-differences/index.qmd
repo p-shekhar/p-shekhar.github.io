@@ -1,0 +1,25 @@
+---
+title: "Difference-in-differences for product and policy changes"
+description: "A concise note on using pre/post comparisons with treated and comparison groups."
+date: 2026-04-26
+categories: [Difference-in-Differences, Quasi-Experiments, Panel Data]
+---
+
+## Core Idea
+
+Difference-in-differences compares changes over time in a treated group to changes over time in a comparison group.
+
+## What Makes It Credible
+
+- Treated and comparison units had similar pre-treatment trends.
+- The timing of treatment was not driven by an unobserved shock that also changed the outcome.
+- There are enough pre-periods to inspect trends.
+- The intervention did not spill over into the comparison group.
+
+## Industry Uses
+
+- City or market rollouts.
+- Pricing or promotion changes.
+- Product launches with staggered adoption.
+- Policy changes affecting selected units.
+

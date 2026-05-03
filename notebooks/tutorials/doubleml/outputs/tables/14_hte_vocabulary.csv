@@ -1,0 +1,6 @@
+term,meaning,typical_question
+ATE,Average treatment effect across the target population.,Does the treatment help on average?
+GATE,Group average treatment effect for mutually exclusive or deliberately defined groups.,Which pre-defined segment appears to benefit more?
+CATE,Conditional average treatment effect as a function of observed covariates.,How does the effect vary with user or item features?
+BLP,Best linear predictor of a heterogeneous effect signal using a chosen basis.,Which simple basis summarizes effect heterogeneity well?
+Effect modifier,"A variable that changes the treatment effect, not just the baseline outcome.",Does the causal effect itself change when this feature changes?

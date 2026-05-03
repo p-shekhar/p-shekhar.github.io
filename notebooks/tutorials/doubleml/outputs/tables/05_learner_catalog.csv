@@ -1,0 +1,3 @@
+learner_name,use_case
+Regularized linear outcome + logistic propensity,Transparent baseline; may underfit nonlinear nuisance functions.
+Gradient-boosted outcome + propensity,Captures nonlinearities and interactions in this synthetic design.

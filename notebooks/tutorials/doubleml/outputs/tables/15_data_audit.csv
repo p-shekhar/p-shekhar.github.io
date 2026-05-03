@@ -1,0 +1,10 @@
+metric,value
+rows,1400.0
+treatment_rate,0.5014285714285714
+true_ate,0.3391262138231668
+share_positive_oracle_effect,0.675
+oracle_policy_increment,0.5046139211456435
+min_true_propensity,0.16036553281996607
+max_true_propensity,0.8720082580815679
+outcome_mean,1.2898236317905851
+outcome_std,1.333771971635572

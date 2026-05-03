@@ -1,0 +1,12 @@
+metric,value
+rows,4200.0
+columns,19.0
+arm_0_rate,0.36023809523809525
+arm_1_rate,0.3419047619047619
+arm_2_rate,0.2978571428571429
+outcome_mean,1.6414360859642338
+true_tau_arm_1_mean,0.13515623256272002
+true_tau_arm_2_mean,0.11686038039839844
+true_best_gain_mean,0.4151281908852128
+share_arm_1_oracle_best,0.5133333333333333
+share_arm_2_oracle_best,0.4866666666666667

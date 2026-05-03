@@ -1,0 +1,7 @@
+cause,effect
+pre_activity,recommendation_exposure
+seasonality_score,recommendation_exposure
+recommendation_exposure,engagement_depth
+engagement_depth,weekly_value
+pre_activity,weekly_value
+seasonality_score,weekly_value

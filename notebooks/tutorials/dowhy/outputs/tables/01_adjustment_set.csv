@@ -1,0 +1,5 @@
+adjustment_variable,why_included
+account_age_weeks,Pre-treatment common cause of feature exposure and weekly value
+is_power_segment,Pre-treatment common cause of feature exposure and weekly value
+prior_activity,Pre-treatment common cause of feature exposure and weekly value
+user_engagement,Pre-treatment common cause of feature exposure and weekly value

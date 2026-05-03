@@ -1,0 +1,16 @@
+column,selected_mechanically,approved_standard_control,role_family,problem_if_used_as_standard_control
+user_id,True,False,identifier,True
+cluster_id,True,False,cluster,True
+time_period,True,False,time,True
+d_binary,True,False,binary treatment,True
+d_secondary,True,False,secondary treatment,True
+z_encouragement,True,False,instrument,True
+x_prior_activity,True,True,pre-treatment control,False
+x_account_age,True,True,pre-treatment control,False
+x_region_score,True,True,pre-treatment control,False
+x_risk_score,True,True,pre-treatment control,False
+x_binary_segment,True,True,pre-treatment control,False
+post_treatment_engagement,True,False,post-treatment variable,True
+running_score,True,False,RDD running score,True
+d_rdd,True,False,RDD treatment,True
+selected,True,False,selection indicator,True

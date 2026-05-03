@@ -1,0 +1,5 @@
+run,source,edge_type,target,elapsed_seconds
+PC_chain_data,A,---,B,0.0018651620484888554
+PC_chain_data,B,---,C,0.0018651620484888554
+PC_fork_data,A,---,B,0.001420054119080305
+PC_fork_data,B,---,C,0.001420054119080305

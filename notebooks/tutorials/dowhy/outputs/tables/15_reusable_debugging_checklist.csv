@@ -1,0 +1,11 @@
+step,question
+Name the estimand,"Total, direct, indirect, CATE, or policy value?"
+Audit timing,"Which variables are pre-treatment, post-treatment, or outcome-derived?"
+Draw the graph,Which variables cause treatment and outcome? Which are descendants?
+Check graph/data consistency,"Do all graph nodes exist in the dataframe, and is the graph acyclic?"
+Inspect raw imbalance,Do treated and control groups differ before treatment?
+Inspect overlap,Are comparable treated/control units available across propensity ranges?
+Avoid bad controls,"Did any mediator, collider, or future feature enter the adjustment set?"
+Compare estimators,Do reasonable estimators tell the same broad story?
+Run stress tests,"Do placebo, subset, random-cause, and sensitivity checks behave sensibly?"
+Report limitations,What assumption would change the conclusion if violated?

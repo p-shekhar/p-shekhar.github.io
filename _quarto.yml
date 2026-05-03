@@ -1,0 +1,113 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "notebooks/**"
+  render:
+    - "*.qmd"
+    - "expertise/"
+    - "projects/"
+    - "notes/"
+    - "tutorials/"
+    - "writing/"
+    - "posts/"
+    - "notebooks/projects/*/*.ipynb"
+    - "notebooks/tutorials/*/*.ipynb"
+    - "notebooks/lectures/*/*.ipynb"
+    - "notebooks/lectures/*/*/*.ipynb"
+    - "!templates/"
+  preview:
+    port: 4200
+    browser: false
+
+website:
+  title: "Causal Inference, AI Systems & Data Science"
+  description: "A professional portfolio and knowledge hub for causal inference, trustworthy AI systems, and data science."
+  site-url: "https://p-shekhar.github.io/"
+  repo-url: "https://github.com/p-shekhar/p-shekhar.github.io"
+  search: true
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: expertise/index.qmd
+        text: Expertise
+      - href: projects/index.qmd
+        text: Projects
+      - href: notes/index.qmd
+        text: Lecture Notes
+      - href: tutorials/index.qmd
+        text: Tutorials
+      - href: writing/index.qmd
+        text: Writing
+      - href: resources.qmd
+        text: Resources
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: "https://github.com/p-shekhar"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG/"
+        aria-label: LinkedIn
+      - icon: envelope
+        href: "mailto:YOUR.EMAIL@example.edu"
+        aria-label: Email
+  page-footer:
+    left: "(c) 2026 YOUR NAME"
+    center: "Causal inference, trustworthy AI systems, experimentation, and decision science."
+    right:
+      - icon: github
+        href: "https://github.com/p-shekhar"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG/"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: right
+    number-sections: false
+    code-copy: true
+    code-overflow: wrap
+    anchor-sections: true
+    smooth-scroll: true
+    include-in-header:
+      text: |
+        <meta name="theme-color" content="#f7f4ed">
+    include-after-body:
+      text: |
+        <script>
+        (() => {
+          const setNotebookHref = (link) => {
+            const offset = document.querySelector('meta[name="quarto:offset"]')?.content || "";
+            const target = new URL(`${offset}${link.dataset.sitePath}`, window.location.href);
+            link.href = target.href;
+            link.dataset.originalHref = target.href;
+          };
+
+          const normalizeNotebookLinks = () => {
+            document.querySelectorAll("a[data-site-path]").forEach(setNotebookHref);
+          };
+
+          normalizeNotebookLinks();
+          window.addEventListener("pageshow", normalizeNotebookLinks);
+          document.addEventListener("pointerdown", (event) => {
+            const link = event.target.closest("a[data-site-path]");
+            if (link) {
+              setNotebookHref(link);
+            }
+          }, true);
+        })();
+        </script>
+
+execute:
+  enabled: false
+  freeze: auto
+  warning: false
+  message: false

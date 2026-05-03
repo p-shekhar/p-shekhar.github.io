@@ -1,0 +1,7 @@
+check,question,expected pattern
+Random common cause refuter,Does adding a random covariate leave the estimate mostly unchanged?,The new effect should stay close to the original estimate.
+Placebo treatment refuter,Does a fake treatment produce a near-zero effect?,The placebo effect should be close to zero.
+Data subset refuter,Is the estimate stable across random subsets?,The subset estimate should stay close to the original estimate.
+Bootstrap refuter,Is the estimate stable under resampling and small covariate perturbations?,The bootstrap estimate should stay close to the original estimate.
+Negative-control outcome,Does treatment appear to affect an outcome it cannot plausibly affect?,The adjusted treatment coefficient should be near zero.
+Hidden-confounding sensitivity,How strong would an unobserved common cause need to be to move the result?,The estimate should degrade gradually as hypothetical confounding gets stronger.

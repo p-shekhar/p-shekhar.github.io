@@ -1,0 +1,3 @@
+model,treatment_coefficient,standard_error,reading
+negative control: naive,0.4672805880656383,0.023499799040149424,raw association before adjustment
+negative control: adjusted,0.022660844672345273,0.023503183502302863,should be close to zero if observed confounding is handled

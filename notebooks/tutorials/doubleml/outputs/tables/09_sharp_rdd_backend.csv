@@ -1,0 +1,7 @@
+property,value
+n_obs,4500
+outcome,outcome
+treatment,treatment
+score,running_score
+n_covariates,3
+covariates,"engagement_score, baseline_value, mobile_user"

@@ -1,0 +1,9 @@
+source,edge_type,target,endpoint_category,edge_properties,status_vs_observed_truth
+need,o->,match,partially oriented edge,none,true adjacency with non-definite endpoint
+need,o->,renewal,partially oriented edge,none,extra observed adjacency
+intent,o->,match,partially oriented edge,none,true adjacency with non-definite endpoint
+intent,o->,renewal,partially oriented edge,none,true adjacency with non-definite endpoint
+match,-->,engagement,definite directed edge,"dd,nl",correct definite direction
+match,o->,renewal,partially oriented edge,none,extra observed adjacency
+engagement,o->,renewal,partially oriented edge,none,true adjacency with non-definite endpoint
+engagement,-->,support,definite directed edge,"dd,nl",correct definite direction

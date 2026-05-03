@@ -1,0 +1,3 @@
+run,source,edge_type,target
+shared_cpdag,A,---,B
+shared_cpdag,B,---,C

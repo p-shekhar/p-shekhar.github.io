@@ -1,0 +1,3 @@
+policy,treatment_rate,treated_rows,true_policy_gain_vs_treat_none,true_total_policy_value,average_true_net_cate_among_treated_by_policy,share_selected_with_negative_true_net_cate
+DRPolicyTree,0.9295238095238095,976,0.05648195652127897,2.334494121483621,0.06076439994604808,0.4456967213114754
+DRPolicyForest,0.7733333333333333,812,0.14720955142646727,2.4252217163888097,0.19035717856870774,0.3103448275862069

@@ -1,0 +1,8 @@
+section,summary
+Causal question,Estimate the average total effect of proactive guidance on future engagement.
+Primary estimate,The main DoWhy adjusted estimate is 0.835; the known teaching ATE is 0.850.
+Estimator robustness,"Regression, matching, stratification, and weighting estimates are directionally consistent."
+Diagnostics,Observed covariate imbalance is substantial before adjustment and much smaller after weighting.
+Falsification checks,Placebo and negative-control checks behave as expected in the teaching data.
+Important caveat,The result still depends on the no-unmeasured-confounding assumption.
+Recommended next step,Use this analysis to justify a prospective experiment or a more controlled rollout design.

@@ -1,0 +1,7 @@
+case,x,y,conditioning_set,expected_pattern,p_value,p_value_display,decision_at_0_05
+direct edge,need,match,none,dependent because need directly causes match,0.0,<1e-300,reject independence
+indirect path before blocking,need,renewal,none,dependent through downstream paths,0.0,<1e-300,reject independence
+indirect path after blocking,need,renewal,"intent, match, engagement",approximately independent after relevant paths are blocked,0.3088303415044584,0.309,do not reject independence
+two root causes marginally,need,intent,none,approximately independent because both are generated as roots,0.7428522928963868,0.743,do not reject independence
+collider opened by conditioning,need,intent,match,dependent after conditioning on their shared child match,0.0,<1e-300,reject independence
+non-edge after blocking,need,support,"intent, match, engagement",approximately independent after paths through match and engagement are blocked,0.21588059931764514,0.216,do not reject independence

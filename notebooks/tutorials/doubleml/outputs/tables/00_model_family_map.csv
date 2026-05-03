@@ -1,0 +1,8 @@
+design_or_estimand,main_class,typical_target,key_nuisance_roles,later_notebook
+Partially linear regression with continuous treatment,DoubleMLPLR,Partially linear treatment coefficient,Outcome regression and treatment regression,03_partially_linear_regression_plr.ipynb
+Partially linear IV with continuous treatment,DoubleMLPLIV,IV-based treatment coefficient,"Outcome, treatment, and instrument-related nuisance functions",04_partially_linear_iv_pliv.ipynb
+Binary treatment under unconfoundedness,DoubleMLIRM,ATE or ATT-style effect,Potential outcome regressions and propensity score,05_interactive_regression_model_irm.ipynb
+Binary treatment with instrument,DoubleMLIIVM,Local treatment effect for instrument-induced treatment changes,"Outcome, treatment, and instrument propensity functions",06_interactive_iv_model_iivm.ipynb
+Difference-in-differences,DoubleMLDID or DoubleMLDIDCS,Average treatment effect in a DID design,Outcome trends and treatment/group assignment functions,07_difference_in_differences_did.ipynb
+Sample selection,DoubleMLSSM,Effect with outcome observed only under selection,"Outcome, treatment, and selection functions",08_sample_selection_models.ipynb
+Heterogeneous effects and policy summaries,"DoubleMLBLP, DoubleMLPolicyTree, APOS/QTE/CVAR classes","Group, conditional, weighted, or distributional causal summaries",Model-specific nuisance functions and score components,14 and 15 notebooks

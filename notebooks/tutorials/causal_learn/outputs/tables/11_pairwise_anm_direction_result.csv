@@ -1,0 +1,2 @@
+x,y,p_value_x_to_y,p_value_y_to_x,preferred_direction,preferred_source,preferred_target,p_value_margin,elapsed_seconds,decision_label
+x,y,0.6639144040122329,0.0,x -> y,x,y,0.6639144040122329,0.206136679276824,x -> y (margin=0.664)

@@ -1,0 +1,41 @@
+---
+title: "Estimating the causal lift of a price promotion"
+description: "A case-study template for measuring whether a promotion increased incremental revenue rather than merely shifting existing demand."
+date: 2026-04-26
+categories: [Pricing, Difference-in-Differences, Business Analytics]
+---
+
+## Decision Question
+
+Did a temporary price promotion create incremental revenue, or did it mostly pull forward purchases that would have happened anyway?
+
+## Why This Is Causal
+
+A predictive model can forecast sales during promotions, but the decision requires a counterfactual: what would revenue have been without the promotion?
+
+## Identification Strategy
+
+Start with a difference-in-differences design comparing treated products or markets to a credible comparison group before and after the promotion.
+
+Key assumptions to address:
+
+- Parallel trends before the promotion.
+- No simultaneous shocks that differentially affected treated units.
+- Stable product definitions and comparable measurement windows.
+- Limited spillovers across products or markets.
+
+## Notebook Plan
+
+Add notebooks such as:
+
+- `notebooks/01-data-audit.ipynb`
+- `notebooks/02-parallel-trends.ipynb`
+- `notebooks/03-did-estimation.ipynb`
+- `notebooks/04-sensitivity-analysis.ipynb`
+
+## Executive Summary Template
+
+Replace this with the final business-facing takeaway:
+
+> The estimated effect was X with uncertainty interval Y. The result is most credible for Z segment. The recommended decision is A, with B caveat.
+

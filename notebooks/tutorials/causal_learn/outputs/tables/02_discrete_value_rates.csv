@@ -1,0 +1,14 @@
+variable,value,share,count
+need,0,0.5076,1269
+need,1,0.4924,1231
+intent,0,0.496,1240
+intent,1,0.504,1260
+match,0,0.416,1040
+match,1,0.584,1460
+engagement,0,0.2992,748
+engagement,1,0.4124,1031
+engagement,2,0.2884,721
+renewal,0,0.4692,1173
+renewal,1,0.5308,1327
+support,0,0.6188,1547
+support,1,0.3812,953

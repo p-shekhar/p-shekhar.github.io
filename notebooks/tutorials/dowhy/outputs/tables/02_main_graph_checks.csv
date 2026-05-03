@@ -1,0 +1,5 @@
+check,value
+is_directed,True
+is_acyclic,True
+node_count,8
+edge_count,15

@@ -1,0 +1,6 @@
+section,summary
+Observed symptom,Future value decreased by -1.081 on average in the new period.
+Population-level drivers,"latency_pressure, catalog_health, recommendation_quality"
+Worst-row anomaly drivers,"latency_pressure, traffic_intent, future_value"
+Mechanisms flagged as changed,"catalog_health, latency_pressure, recommendation_quality"
+Recommended next diagnostic step,"Inspect latency, catalog-health, and recommendation-quality pipelines before treating session depth as the original cause."

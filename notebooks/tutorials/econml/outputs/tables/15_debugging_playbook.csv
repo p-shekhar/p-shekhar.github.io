@@ -1,0 +1,8 @@
+symptom,first_debugging_moves
+Effect estimate is much larger than expected,"Check leakage, post-treatment controls, target population mismatch, and raw treated-control imbalance."
+CATE estimates look extremely spread out,"Check overlap, nuisance model instability, small leaves, and whether X includes noisy identifiers."
+Policy treats almost everyone,Compare estimated CATE distribution to cost and inspect propensity support among treated recommendations.
+Top segment looks too good,Confirm the segment was pre-specified and compare against random segment scans.
+Estimator rankings disagree,"Compare nuisance diagnostics, calibration, segment behavior, and bootstrap intervals rather than choosing by one metric."
+Confidence seems too high,"Check sample size, overlap, repeated model selection, and whether uncertainty includes policy-selection uncertainty."
+A feature is very predictive,"Audit whether it exists before treatment and whether it is a mediator, collider, or outcome proxy."

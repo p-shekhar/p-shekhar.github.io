@@ -1,0 +1,5 @@
+score_function,data_type,main_assumption,run_by_default,approx_runtime_on_this_dataset,when_to_try
+local_score_BIC,continuous,linear Gaussian local models,True,seconds,baseline score-based discovery for continuous data
+local_score_BDeu,discrete,categorical Bayesian-network score with documented priors,True,seconds,discrete variables with a clear state space
+local_score_CV_general,continuous,kernel regression with cross-validated likelihood,False,5-15+ minutes,nonlinear relationships when longer runtime is acceptable
+local_score_marginal_general,continuous,kernel marginal likelihood style score,False,5-15+ minutes or more,nonlinear sensitivity checks on smaller samples first

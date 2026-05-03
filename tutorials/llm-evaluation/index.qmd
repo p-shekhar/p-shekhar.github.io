@@ -1,0 +1,27 @@
+---
+title: "LLM evaluation and monitoring tutorial roadmap"
+description: "A tutorial outline for hallucination checks, drift monitoring, automated evaluation, and regression testing."
+date: 2026-04-26
+categories: [LLMOps, Evaluation, LangSmith, Langfuse]
+---
+
+## Tutorial Goal
+
+Show how to evaluate an LLM system before and after deployment using test sets, traces, regression checks, and monitoring.
+
+## Sections To Build
+
+1. Define task success and failure modes.
+2. Build a small evaluation dataset.
+3. Add groundedness, relevance, and completeness checks.
+4. Track traces and metadata.
+5. Compare prompt and model versions.
+6. Monitor drift and production regressions.
+
+## Notebook Plan
+
+- `notebooks/llm-evaluation/01-eval-dataset.ipynb`
+- `notebooks/llm-evaluation/02-automated-evaluators.ipynb`
+- `notebooks/llm-evaluation/03-regression-tests.ipynb`
+- `notebooks/llm-evaluation/04-monitoring.ipynb`
+

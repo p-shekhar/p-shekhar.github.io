@@ -1,0 +1,47 @@
+---
+title: "Agentic research assistant with guardrails"
+description: "A project template for an LLM agent workflow with task routing, tool use, evaluation, and human oversight."
+date: 2026-04-26
+categories: [Agents, LangGraph, LangChain, LLMOps]
+---
+
+## System Goal
+
+Design an AI research assistant that can decompose a request, retrieve relevant information, call tools, draft an answer, evaluate its own output, and hand off uncertain cases for human review.
+
+## Architecture
+
+Possible implementation paths:
+
+- LangGraph for stateful agent workflows.
+- LangChain for tool calling and retrieval components.
+- CrewAI or Microsoft AutoGen for multi-agent coordination experiments.
+- A judge or evaluator node for groundedness, completeness, and risk checks.
+- Trace logging with LangSmith or Langfuse.
+
+## Reliability Questions
+
+- Which tasks can the agent complete autonomously?
+- Which tasks require human confirmation?
+- What tool calls are allowed?
+- How is the system evaluated before release?
+- How are hallucinations, stale context, and prompt regressions detected?
+
+## Evaluation Plan
+
+Create an evaluation set with:
+
+- Simple requests.
+- Ambiguous requests.
+- Retrieval-heavy requests.
+- Tool-use requests.
+- Adversarial or misleading requests.
+- Expected refusal or escalation cases.
+
+## Notebook Plan
+
+- `notebooks/agentic-research-assistant/01-workflow-design.ipynb`
+- `notebooks/agentic-research-assistant/02-tool-calling.ipynb`
+- `notebooks/agentic-research-assistant/03-evaluation-set.ipynb`
+- `notebooks/agentic-research-assistant/04-tracing-and-regression-tests.ipynb`
+

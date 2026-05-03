@@ -1,0 +1,2 @@
+run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
+cdnod_no_background_knowledge,8,6,9,4,0.6666666666666666,0.4444444444444444,2,2,1,0

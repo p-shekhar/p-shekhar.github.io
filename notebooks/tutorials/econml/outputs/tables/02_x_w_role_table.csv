@@ -1,0 +1,8 @@
+column,econml_role,why_included
+baseline_need,X,Allows the estimated treatment effect to vary with this feature.
+prior_engagement,X,Allows the estimated treatment effect to vary with this feature.
+friction_score,X,Allows the estimated treatment effect to vary with this feature.
+region_risk,X,Allows the estimated treatment effect to vary with this feature.
+high_need_segment,X,Allows the estimated treatment effect to vary with this feature.
+account_tenure,W,Adjusts for confounding in treatment and outcome nuisance models.
+seasonality_index,W,Adjusts for confounding in treatment and outcome nuisance models.

@@ -1,0 +1,12 @@
+item,status
+Causal question,Estimate effect of feature_exposure on weekly_value.
+Treatment type,"Binary treatment, so IRM is appropriate for ATE and ATTE-style targets."
+Estimands,Both ATE and ATT-style targets are shown because treatment effects are heterogeneous.
+Control timing,All controls are pre-treatment by construction in this synthetic dataset.
+Unconfoundedness,Holds by construction here; requires design evidence in real data.
+Overlap,Propensity and weight diagnostics reported.
+Nuisance learners,Compared linear/logistic and gradient-boosted nuisance specifications.
+Cross-fitting,Manual AIPW and DoubleMLIRM use cross-fitted nuisance predictions.
+Uncertainty,"Standard errors, confidence intervals, and bootstrap intervals reported."
+Stability,Repeated sample splitting and clipping sensitivity included.
+Main limitation,IRM does not solve hidden confounding or support violations.

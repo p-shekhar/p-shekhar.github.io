@@ -1,0 +1,2 @@
+run,result
+ordinary_pc_with_nan_input,AssertionError: Input data contains NaN. Please check.

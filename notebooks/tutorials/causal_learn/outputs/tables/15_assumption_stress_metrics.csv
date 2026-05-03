@@ -1,0 +1,13 @@
+scenario,method,reported_edges,skeleton_precision,skeleton_recall,skeleton_f1,directed_precision,directed_recall,directed_f1,extra_adjacencies,missed_adjacencies,reversed_true_edges,extra_adjacency_list,missed_adjacency_list,elapsed_seconds,noise_family,nonlinear,hidden_strength
+linear_laplace,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.007520926184952259,laplace,False,0.0
+linear_laplace,GES_BIC,7,0.8571428571428571,1.0,0.923076923076923,0.8571428571428571,1.0,0.923076923076923,1,0,0,need--renewal,,0.013847752939909697,laplace,False,0.0
+linear_laplace,DirectLiNGAM,6,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,0.022137589752674103,laplace,False,0.0
+linear_gaussian,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.00735946511849761,gaussian,False,0.0
+linear_gaussian,GES_BIC,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.012103138957172632,gaussian,False,0.0
+linear_gaussian,DirectLiNGAM,8,0.75,1.0,0.8571428571428571,0.375,0.5,0.42857142857142855,2,0,3,engagement--intent | intent--need,,0.023034878075122833,gaussian,False,0.0
+nonlinear_laplace,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.006156470626592636,laplace,True,0.0
+nonlinear_laplace,GES_BIC,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.012049329932779074,laplace,True,0.0
+nonlinear_laplace,DirectLiNGAM,7,0.8571428571428571,1.0,0.923076923076923,0.7142857142857143,0.8333333333333334,0.7692307692307692,1,0,1,intent--need,,0.02514589810743928,laplace,True,0.0
+hidden_confounding,PC_FisherZ,9,0.6666666666666666,1.0,0.8,0.4,0.3333333333333333,0.3636363636363636,3,0,1,intent--need | intent--renewal | need--renewal,,0.011417146306484938,laplace,False,1.0
+hidden_confounding,GES_BIC,10,0.6,1.0,0.7499999999999999,0.3333333333333333,0.3333333333333333,0.3333333333333333,4,0,1,intent--need | intent--renewal | intent--support | need--renewal,,0.02072705188766122,laplace,False,1.0
+hidden_confounding,DirectLiNGAM,10,0.6,1.0,0.7499999999999999,0.4,0.6666666666666666,0.5,4,0,2,intent--need | intent--renewal | match--renewal | need--renewal,,0.022542765829712152,laplace,False,1.0

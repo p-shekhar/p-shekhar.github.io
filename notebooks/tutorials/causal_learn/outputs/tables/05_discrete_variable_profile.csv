@@ -1,0 +1,7 @@
+variable,unique_values,min_value,max_value,smallest_category_count,largest_category_count
+need,2,0,1,1231,1269
+intent,2,0,1,1240,1260
+match,2,0,1,1040,1460
+engagement,3,0,2,721,1031
+renewal,2,0,1,1173,1327
+support,2,0,1,953,1547

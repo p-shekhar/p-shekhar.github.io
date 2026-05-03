@@ -1,0 +1,8 @@
+check,status,details
+treatment column exists,True,proactive_guidance
+outcome column exists,True,future_engagement
+all graph nodes exist in data,True,none
+graph is acyclic,True,DAG required
+treatment has variation,True,"unique values: [np.int64(0), np.int64(1)]"
+outcome is not constant,True,unique values: 6000
+data columns not in graph,True,

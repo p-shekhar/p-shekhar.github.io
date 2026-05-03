@@ -1,0 +1,7 @@
+family,examples,core_idea,best_when
+Constraint-based discovery,"PC, FCI, CD-NOD",Use conditional independence tests to remove and orient edges.,The conditional independence test is well matched to the data and sample size is adequate.
+Score-based discovery,"GES, exact search",Search over graph structures using a decomposable score such as BIC or BDeu.,A scoring assumption is credible and the variable set is not too large for the search strategy.
+Functional causal models,"LiNGAM, ANM, PNL",Use functional or noise assumptions to identify causal direction beyond Markov equivalence.,"Linearity, non-Gaussianity, additive-noise, or post-nonlinear assumptions are scientifically plausible."
+Permutation-based discovery,"GRaSP, BOSS",Search over variable orderings or permutations that imply graph structures.,Ordering-based search is computationally feasible and useful for the graph size.
+Hidden causal representation,GIN,Use constraints designed for latent causal structure and hidden variables.,The problem is explicitly about hidden structure rather than only observed-variable DAGs.
+Time-series discovery,"Granger-style tools, VAR-LiNGAM",Use lagged temporal structure to separate past causes from future outcomes.,Variables are measured repeatedly and temporal ordering is meaningful.

@@ -1,0 +1,5 @@
+target,value,meaning
+panel ATT,1.160607540053306,Average true treatment effect among treated-group units.
+panel ATE,1.0593865926069101,Average true treatment effect over all units.
+treated share,0.491625,Share of units in the treated group.
+mean true propensity,0.4931444924280669,Average probability of treated-group membership.

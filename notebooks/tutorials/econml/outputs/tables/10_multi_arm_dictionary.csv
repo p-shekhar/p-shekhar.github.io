@@ -1,0 +1,4 @@
+arm,name,description,role
+0,baseline experience,No active intervention beyond the standard experience.,Reference arm for treatment-effect contrasts.
+1,guided personalization,"A focused intervention intended to help high-need, already-engaged rows.",Active arm compared against baseline.
+2,exploration boost,A broader discovery-oriented intervention intended to help novelty-seeking rows.,Active arm compared against baseline.

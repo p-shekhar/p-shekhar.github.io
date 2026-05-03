@@ -1,0 +1,6 @@
+object,rows,columns,meaning
+Y_net_train,1950,1,Observed net outcome used for policy-value learning.
+T_train,1950,1,Observed binary treatment.
+X_train,1950,7,Effect modifiers and policy features.
+W_train,1950,6,Additional controls for nuisance adjustment.
+true_net_cate_test,1050,1,Oracle net effect used only for policy evaluation.

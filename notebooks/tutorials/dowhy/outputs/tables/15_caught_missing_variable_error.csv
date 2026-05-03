@@ -1,0 +1,2 @@
+debugging scenario,captured message,repair
+graph references a variable missing from the dataframe,No error raised,remove the edge or add the missing column before identification

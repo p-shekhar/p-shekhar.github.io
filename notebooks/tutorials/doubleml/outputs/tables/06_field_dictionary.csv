@@ -1,0 +1,23 @@
+column,role,description
+weekly_value,outcome,Observed outcome Y.
+feature_exposure,binary treatment,Observed binary treatment D.
+encouragement,binary instrument,Observed binary instrument Z.
+engagement_score,control,Observed pre-treatment control X.
+need_intensity,control,Observed pre-treatment control X.
+content_fit,control,Observed pre-treatment control X.
+recent_activity,control,Observed pre-treatment control X.
+price_sensitivity,control,Observed pre-treatment control X.
+tenure_signal,control,Observed pre-treatment control X.
+novelty_appetite,control,Observed pre-treatment control X.
+seasonality_signal,control,Observed pre-treatment control X.
+compliance_type,hidden teaching column,Realized synthetic compliance type; not observed in ordinary IV data.
+true_instrument_propensity,hidden teaching column,True P(Z=1 | X).
+true_p_complier,hidden teaching column,True conditional probability of complier type.
+true_p_always,hidden teaching column,True conditional probability of always-taker type.
+true_p_never,hidden teaching column,True conditional probability of never-taker type.
+true_r0,hidden teaching column,"True P(D=1 | Z=0, X)."
+true_r1,hidden teaching column,"True P(D=1 | Z=1, X)."
+true_g0,hidden teaching column,"True E[Y | Z=0, X]."
+true_g1,hidden teaching column,"True E[Y | Z=1, X]."
+true_tau,hidden teaching column,True individual treatment effect.
+latent_compliance_factor,hidden confounding risk,Latent factor related to treatment and outcome; handled by IV design in the simulation.

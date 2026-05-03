@@ -1,0 +1,6 @@
+object,rows,columns,meaning
+Y_train,1950,1,Observed outcome.
+T_train,1950,1,Observed binary treatment.
+X_train,1950,9,Effect modifiers used by the causal forest.
+W_train,1950,4,Controls used for nuisance adjustment.
+nuisance_train,1950,13,Observed pre-treatment features used for separate nuisance diagnostics.

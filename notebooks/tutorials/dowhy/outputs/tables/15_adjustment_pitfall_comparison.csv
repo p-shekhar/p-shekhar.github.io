@@ -1,0 +1,6 @@
+specification,estimate,standard_error,known_true_total_effect,absolute_error,causal reading
+correct pre-treatment adjustment,0.8445968243772816,0.029237057350249486,0.8595636196425485,0.014966795265266897,intended total effect
+collider adjustment: add support ticket,0.5179310784861584,0.027788322261525143,0.8595636196425485,0.3416325411563901,opens a noncausal path through an unobserved risk factor
+bad control: add mediator,0.43375116282214404,0.030001521396767115,0.8595636196425485,0.4258124568204044,blocks part of the total effect
+raw association,1.3824747570482705,0.039427845265523356,0.8595636196425485,0.522911137405722,confounded association
+leakage adjustment: add future score,0.0534786590591538,0.007511660012931534,0.8595636196425485,0.8060849605833946,controls for an outcome-derived future variable

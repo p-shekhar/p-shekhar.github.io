@@ -1,0 +1,7 @@
+column,role in graph,plain meaning,why it matters
+user_intent,root context variable,A pre-experience measure of how motivated the user is.,"It affects recommendation quality, watch time, and later value."
+catalog_match,root context variable,How well available content matches the user's interests.,It affects the achievable quality of recommendations.
+tutorial_prompt,root system variable,"Intensity of guidance, education, or onboarding prompt.",It can raise short-term engagement but may also have a direct friction cost.
+recommendation_quality,intervention candidate,Quality of ranked content shown to the user.,It directly affects later value and indirectly affects it through watch time.
+watch_time,mediating outcome,Short-term engagement after exposure.,It transmits part of the effect of recommendation quality to later value.
+next_week_value,target outcome,A later value metric measured after the experience.,This is the target we want to improve or explain.

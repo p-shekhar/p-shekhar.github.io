@@ -1,0 +1,3 @@
+estimator,final CATE model,best fit,output style,main limitation
+LinearDML,Linear function of X,Readable effect drivers when heterogeneity is roughly linear,Coefficients plus unit-level CATE estimates,"Can miss thresholds, saturation, and interactions unless manually engineered"
+CausalForestDML,Forest-based local treatment-effect model,"Nonlinear heterogeneity, interactions, and segment discovery","CATE estimates, intervals, feature importance, segment summaries",Less compact than a coefficient table and more sensitive to support in small regions

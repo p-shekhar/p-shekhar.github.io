@@ -1,0 +1,5 @@
+variable_count,theoretical_order_graph_nodes,theoretical_unrestricted_parent_sets,elapsed_seconds,learned_edge_count,n_parent_graphs_entries,n_order_graph_nodes,n_order_graph_edges
+3,8,12,0.001020065974444151,2,10,8,12
+4,16,32,0.002722598146647215,3,23,16,28
+5,32,80,0.005849439185112715,5,61,32,73
+6,64,192,0.015108945779502392,6,109,64,148

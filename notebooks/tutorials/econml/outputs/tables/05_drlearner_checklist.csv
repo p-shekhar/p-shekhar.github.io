@@ -1,0 +1,10 @@
+check,why_it_matters
+Treatment and outcome are clearly defined,DRLearner estimates the effect of a specific intervention.
+All X and W variables are pre-treatment,Post-treatment variables can distort the estimand.
+Important confounders are included,Double robustness does not fix omitted confounding.
+Overlap is adequate,Inverse-propensity corrections become unstable near zero or one.
+Propensity model quality is inspected,Bad propensity estimates can create poor correction terms.
+Outcome models by treatment arm are inspected,The pseudo-outcome relies heavily on potential-outcome predictions.
+Pseudo-outcome tails and weights are checked,Large correction weights can dominate the final model.
+Final CATE model is appropriate,A linear final model and a forest final model tell different stories.
+CATE ranking is validated where possible,"Treatment targeting depends on ranking, not only ATE accuracy."

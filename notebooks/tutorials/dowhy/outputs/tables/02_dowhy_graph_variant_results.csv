@@ -1,0 +1,5 @@
+graph_variant,reported_common_causes,reported_instruments,estimate,distance_from_true_total,distance_from_true_direct
+main_graph_total_effect,"rollout_batch, user_engagement, account_age_weeks, prior_activity",rollout_batch,1.8601640205910202,0.01266402059102023,0.7101640205910202
+missing_user_engagement_confounder,"rollout_batch, account_age_weeks, prior_activity",rollout_batch,2.9517167669906295,1.1042167669906295,1.8017167669906295
+mediator_treated_as_confounder,"satisfaction_depth, account_age_weeks, prior_activity, user_engagement",rollout_batch,1.1586950326013143,0.6888049673986856,0.008695032601314434
+collider_treated_as_confounder,"support_ticket, account_age_weeks, prior_activity, rollout_batch, user_engagement",rollout_batch,2.225348872215793,0.3778488722157929,1.075348872215793

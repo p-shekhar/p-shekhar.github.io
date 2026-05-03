@@ -1,0 +1,6 @@
+field_group,role,safe_for_adjustment,notes
+x00 to x07,Observed pre-treatment controls,Yes,Baseline covariates measured before treatment assignment.
+latent_need,Strong pre-treatment confounder used for teaching,"Yes, if it is genuinely observed before treatment",Omitting it creates a controlled demonstration of unmeasured-confounding bias.
+post_outcome_proxy,Post-treatment leakage variable,No,"It is partly constructed from outcome and treatment, so adjusting for it changes the causal question."
+treatment,Continuous treatment D,"Target treatment, not a control",The effect of this variable on outcome is the target of estimation.
+outcome,Outcome Y,No,"This is the response variable, not a feature for the nuisance models."

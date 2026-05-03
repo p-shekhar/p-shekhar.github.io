@@ -1,0 +1,10 @@
+field,role,description
+row_id,identifier,Unique row in the repeated cross-section sample.
+treated,group indicator,Equals 1 for observations from the group exposed in the post period.
+post,time indicator,Equals 1 for post-period observations.
+actual_exposure,realized treatment,Interaction treated x post.
+weekly_value,outcome,Observed outcome level for that row and period.
+feature columns,covariates,Observed pre-treatment or baseline covariates used for conditional DID.
+expected_untreated_trend,simulation truth,Expected no-treatment trend given observed covariates.
+true_tau,simulation truth,Individual post-period treatment effect.
+true_propensity,simulation truth,True probability of belonging to the treated group.

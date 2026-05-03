@@ -1,0 +1,7 @@
+policy family,how it works,why include it
+Treat nobody,Set treatment to 0 for every unit,Baseline value for policy gain
+Treat everybody,Set treatment to 1 for every unit,Shows whether treatment is beneficial on average after cost
+CATE threshold,Treat when estimated net CATE is above zero,Natural rule without a fixed budget
+Budgeted top-k,Treat the top share of units ranked by estimated net CATE,Matches constrained treatment capacity
+DRPolicyTree / DRPolicyForest,"Learn a decision rule directly from observed outcomes, treatment, X, and W",Uses EconML's direct policy-learning tools
+Oracle,Treat using true net CATE,Upper benchmark available only in simulation

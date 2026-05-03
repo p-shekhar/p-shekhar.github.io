@@ -1,0 +1,6 @@
+concept,plain_language,why_it_matters
+score-based discovery,Search for a graph that optimizes a numerical fit-plus-penalty score.,"The result depends on score assumptions and search choices, not only independence tests."
+GES forward phase,Greedily insert edges or operators that improve the graph score.,Early additions can shape the graph neighborhood explored later.
+GES backward phase,Delete edges or operators when deletion improves the score.,The backward phase can simplify an overly dense forward graph.
+BIC score,Fit a linear Gaussian local model and penalize parent-set complexity.,Good match for linear Gaussian data; weaker match for nonlinear mechanisms.
+BDeu score,Score discrete Bayesian-network structures with Dirichlet priors.,Useful for categorical data when states and priors are documented.

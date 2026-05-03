@@ -1,0 +1,7 @@
+role,variable,meaning,timing
+Treatment,feature_exposure,Binary indicator for whether the user received the feature exposure.,Assigned after baseline covariates are observed.
+Outcome,weekly_value,User value measured in the following week.,Measured after treatment assignment.
+Observed common cause,user_engagement,Baseline engagement tendency that affects both exposure assignment and future value.,Pre-treatment.
+Observed common cause,prior_activity,Baseline activity count that affects both exposure assignment and future value.,Pre-treatment.
+Observed common cause,is_power_segment,Pre-treatment segment flag that affects assignment and future value.,Pre-treatment.
+Observed common cause,account_age_weeks,Pre-treatment account age that affects assignment and future value.,Pre-treatment.

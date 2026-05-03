@@ -1,0 +1,8 @@
+step,why_it_matters
+Define the estimand,Estimator comparison is meaningless if methods are answering different causal questions.
+Use one split and one feature set,Preprocessing differences can masquerade as estimator differences.
+Check overlap and balance first,Estimator sophistication cannot fix severe support problems.
+Evaluate average and heterogeneous metrics,ATE accuracy and CATE ranking are different objectives.
+Inspect calibration and segments,Overall metrics can hide subgroup failures.
+Track runtime and complexity,The best estimator must also be maintainable and rerunnable.
+Avoid declaring universal winners,"The best choice depends on data support, assumptions, and the downstream decision."

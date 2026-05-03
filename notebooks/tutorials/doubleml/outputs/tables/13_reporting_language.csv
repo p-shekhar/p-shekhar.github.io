@@ -1,0 +1,5 @@
+finding,careful wording,avoid saying
+Point estimate remains positive under modest sensitivity scenario,"Under the specified hidden-confounding scenario, the sensitivity-adjusted lower bound remains positive.",Hidden confounding is impossible.
+Benchmark-calibrated scenario moves the estimate materially,A hidden factor comparable to the benchmarked observed proxies could materially reduce the estimate.,The benchmark proves the true bias size.
+Robustness value to zero is high,Moving the point estimate to zero would require a hidden confounder of the reported strength under the model assumptions.,The result is automatically causal.
+RVa is much lower than RV,Accounting for sampling uncertainty makes the conclusion more sensitive than the point estimate alone suggests.,The point-estimate robustness value is enough by itself.

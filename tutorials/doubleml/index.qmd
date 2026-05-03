@@ -1,0 +1,43 @@
+---
+title: "DoubleML tutorial series"
+description: "A hands-on tutorial series for double/debiased machine learning, orthogonal scores, cross-fitting, inference, sensitivity analysis, and policy learning with DoubleML."
+date: 2026-05-03
+categories: [DoubleML, Orthogonalization, Python, Causal ML]
+---
+
+DoubleML is the tutorial track for orthogonal scores, sample splitting, flexible nuisance models, and transparent treatment-effect inference.
+
+::: {.sequence-note}
+Notebook links open rendered HTML pages generated from the source notebooks under `notebooks/tutorials/`. Rendering is configured not to execute notebooks during site builds, so the pages are safe to publish even when a notebook contains heavier optional cells.
+:::
+
+## Notebook Sequence
+
+<ol class="notebook-sequence">
+  <li><a href="../../notebooks/tutorials/doubleml/00_environment_and_library_tour.html" data-site-path="notebooks/tutorials/doubleml/00_environment_and_library_tour.html">DoubleML Tutorial 00: Environment And Library Tour</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/01_dml_theory_orthogonalization_and_cross_fitting.html" data-site-path="notebooks/tutorials/doubleml/01_dml_theory_orthogonalization_and_cross_fitting.html">DoubleML Tutorial 01: DML Theory, Orthogonalization, And Cross-Fitting</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/02_data_backend_doublemldata_and_design_setup.html" data-site-path="notebooks/tutorials/doubleml/02_data_backend_doublemldata_and_design_setup.html">DoubleML Tutorial 02: Data Backend, DoubleMLData, And Design Setup</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/03_partially_linear_regression_plr.html" data-site-path="notebooks/tutorials/doubleml/03_partially_linear_regression_plr.html">DoubleML Tutorial 03: Partially Linear Regression PLR</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/04_partially_linear_iv_pliv.html" data-site-path="notebooks/tutorials/doubleml/04_partially_linear_iv_pliv.html">DoubleML Tutorial 04: Partially Linear IV PLIV</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/05_interactive_regression_model_irm.html" data-site-path="notebooks/tutorials/doubleml/05_interactive_regression_model_irm.html">DoubleML Tutorial 05: Interactive Regression Model IRM</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/06_interactive_iv_model_iivm.html" data-site-path="notebooks/tutorials/doubleml/06_interactive_iv_model_iivm.html">DoubleML Tutorial 06: Interactive IV Model IIVM</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/07_difference_in_differences_did.html" data-site-path="notebooks/tutorials/doubleml/07_difference_in_differences_did.html">DoubleML Tutorial 07: Difference-In-Differences DID</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/08_sample_selection_models.html" data-site-path="notebooks/tutorials/doubleml/08_sample_selection_models.html">DoubleML Tutorial 08: Sample Selection Models</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/09_regression_discontinuity_design_rdd.html" data-site-path="notebooks/tutorials/doubleml/09_regression_discontinuity_design_rdd.html">DoubleML Tutorial 09: Regression Discontinuity Design RDD</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/10_learners_hyperparameters_and_tuning.html" data-site-path="notebooks/tutorials/doubleml/10_learners_hyperparameters_and_tuning.html">DoubleML Tutorial 10: Learners, Hyperparameters, And Tuning</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/11_sample_splitting_cross_fitting_and_repeated_cross_fitting.html" data-site-path="notebooks/tutorials/doubleml/11_sample_splitting_cross_fitting_and_repeated_cross_fitting.html">DoubleML Tutorial 11: Sample Splitting, Cross-Fitting, And Repeated Cross-Fitting</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/12_inference_bootstrap_and_confidence_bands.html" data-site-path="notebooks/tutorials/doubleml/12_inference_bootstrap_and_confidence_bands.html">DoubleML Tutorial 12: Inference, Bootstrap, And Confidence Bands</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/13_sensitivity_analysis_for_unobserved_confounding.html" data-site-path="notebooks/tutorials/doubleml/13_sensitivity_analysis_for_unobserved_confounding.html">DoubleML Tutorial 13: Sensitivity Analysis For Unobserved Confounding</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/14_heterogeneous_treatment_effects_gate_cate_blp.html" data-site-path="notebooks/tutorials/doubleml/14_heterogeneous_treatment_effects_gate_cate_blp.html">DoubleML Tutorial 14: Heterogeneous Treatment Effects, GATE, CATE, And BLP</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/15_policy_learning_weighted_ates_quantiles_and_cvar.html" data-site-path="notebooks/tutorials/doubleml/15_policy_learning_weighted_ates_quantiles_and_cvar.html">DoubleML Tutorial 15: Policy Learning, Weighted ATEs, Quantiles, And CVaR</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/16_custom_scores_and_advanced_api.html" data-site-path="notebooks/tutorials/doubleml/16_custom_scores_and_advanced_api.html">DoubleML Tutorial 16: Custom Scores And Advanced API</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/17_common_pitfalls_diagnostics_and_reporting.html" data-site-path="notebooks/tutorials/doubleml/17_common_pitfalls_diagnostics_and_reporting.html">DoubleML Tutorial 17: Common Pitfalls, Diagnostics, And Reporting</a></li>
+  <li><a href="../../notebooks/tutorials/doubleml/18_end_to_end_doubleml_case_study.html" data-site-path="notebooks/tutorials/doubleml/18_end_to_end_doubleml_case_study.html">DoubleML Tutorial 18: End-To-End DoubleML Case Study</a></li>
+</ol>
+
+## How To Use This Tutorial Series
+
+- Start with the environment and library-tour notebook.
+- Continue in order if you want a coherent package course.
+- Jump to individual notebooks when you need a specific estimator, diagnostic, or reporting pattern.
+- Keep the causal design separate from the package API: the library helps implement the workflow, but the assumptions still need to be stated and defended.

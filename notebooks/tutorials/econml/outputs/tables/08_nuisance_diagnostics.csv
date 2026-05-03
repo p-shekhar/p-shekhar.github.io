@@ -1,0 +1,5 @@
+nuisance_model,metric,value
+"outcome E[Y | X, W]",out_of_fold_rmse,1.113116110966193
+"treatment E[T | X, W]",out_of_fold_auc,0.7913026235198513
+"treatment E[T | X, W]",out_of_fold_brier_score,0.18745541155096773
+"treatment E[T | X, W]",out_of_fold_log_loss,0.5562249146365811

@@ -1,0 +1,2 @@
+run,score,forward_updates,backward_updates,lambda_value
+bic_ges_linear_gaussian,-2547.995675814275,8,2,0.5

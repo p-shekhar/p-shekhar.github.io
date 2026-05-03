@@ -1,0 +1,3 @@
+estimator,final CATE model,best first use,main strength,main risk
+LinearDML,Dense linear model over X,A moderate number of meaningful effect modifiers,Readable coefficient-style effect drivers,Can assign visible coefficients to weak or noisy modifiers
+SparseLinearDML,Sparse regularized linear model over X,A wider candidate feature set with only some true effect drivers,Shrinks weak CATE drivers and can highlight a smaller feature set,Regularization can shrink real but subtle signals too much

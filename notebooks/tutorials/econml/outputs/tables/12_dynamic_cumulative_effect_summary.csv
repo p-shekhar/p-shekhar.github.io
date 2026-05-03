@@ -1,0 +1,7 @@
+metric,value
+true_mean_cumulative_effect,0.8393492736841441
+estimated_mean_cumulative_effect_sum,0.7742014807463686
+estimated_mean_cumulative_effect_effect_call,0.7742014807463685
+rmse,0.17075909784460958
+correlation,0.9429777290812118
+max_difference_between_sum_and_effect_call,2.220446049250313e-16

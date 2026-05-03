@@ -1,0 +1,8 @@
+term,plain meaning,conditioning,observed in real data
+Potential outcome Y(0),Outcome the unit would have under no treatment.,unit-level hypothetical,only if T = 0
+Potential outcome Y(1),Outcome the unit would have under treatment.,unit-level hypothetical,only if T = 1
+ITE-style contrast,Y(1) - Y(0) for a unit.,single unit,"no, because one potential outcome is missing"
+ATE,Average treatment effect in the whole population.,none or full population,estimated under assumptions
+ATT,Average treatment effect among treated units.,T = 1 population,estimated under assumptions
+ATC,Average treatment effect among control units.,T = 0 population,estimated under assumptions
+CATE,Average treatment effect for units with features X = x.,effect modifiers X,estimated under assumptions

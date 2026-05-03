@@ -1,0 +1,7 @@
+node,fitted_mechanism,fit_period,has_parents
+traffic_intent,EmpiricalDistribution,old,False
+recommendation_quality,AdditiveNoiseModel,old,True
+catalog_health,EmpiricalDistribution,old,False
+latency_pressure,EmpiricalDistribution,old,False
+session_depth,AdditiveNoiseModel,old,True
+future_value,AdditiveNoiseModel,old,True

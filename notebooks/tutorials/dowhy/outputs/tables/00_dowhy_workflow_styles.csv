@@ -1,0 +1,3 @@
+style,starting_point,typical_question,core_steps,tutorials
+Effect inference with CausalModel,"Treatment, outcome, data, and causal graph",What is the effect of treatment A on outcome Y?,model -> identify -> estimate -> refute,"01 through 09, plus mediation and case-study notebooks"
+Graphical causal models with gcm,Graph structure and node-level causal mechanisms,"What changes under interventions, counterfactuals, or anomalous mechanisms?",build graph -> assign mechanisms -> fit -> query the fitted model,10 through 13

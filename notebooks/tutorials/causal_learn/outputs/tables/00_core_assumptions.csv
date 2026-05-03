@@ -1,0 +1,7 @@
+assumption,plain_language,why_it_matters
+Causal Markov condition,A variable is independent of its non-effects after conditioning on its direct causes.,It links graph separation to statistical independence patterns.
+Faithfulness,"Observed independencies come from the graph structure, not exact parameter cancellation.",Constraint-based methods can miss or add edges when faithfulness fails.
+Causal sufficiency,There are no unobserved common causes among the measured variables.,PC relies on this more strongly than FCI-style methods.
+Independent and identically distributed rows,Rows are sampled from the same stable distribution without temporal dependence.,Standard tabular tests can fail when data are time dependent or nonstationary.
+Correct test or score choice,The independence test or score matches the data type and distribution well enough.,A poor test can produce a poor graph even when causal assumptions are reasonable.
+No major measurement leakage,Variables are measured at the intended time and do not include future information.,Leaky variables can create graph structure that looks predictive but is causally invalid.

@@ -1,0 +1,7 @@
+run,source,edge_type,target
+forward_tier_super_graph,need,-->,match
+forward_tier_super_graph,intent,-->,match
+forward_tier_super_graph,intent,-->,renewal
+forward_tier_super_graph,match,-->,engagement
+forward_tier_super_graph,engagement,-->,renewal
+forward_tier_super_graph,engagement,-->,support

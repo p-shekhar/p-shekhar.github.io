@@ -1,0 +1,6 @@
+diagnostic,value
+instrument propensity minimum,0.08
+instrument propensity p05,0.21842047179224075
+instrument propensity median,0.47584008410064726
+instrument propensity p95,0.7411123900223705
+instrument propensity maximum,0.8896783486756686

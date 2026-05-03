@@ -1,0 +1,9 @@
+backend_name,backend_class,outcome,treatments,controls,instruments,clusters,time_col,id_col,score_col,selection_col,n_obs,design_note
+standard_plr_continuous_treatment,DoubleMLData,y_outcome,d_continuous,"x_prior_activity, x_account_age, x_region_score, x_risk_score, x_binary_segment",,,,,,,900,Continuous treatment with pre-treatment controls.
+standard_irm_binary_treatment,DoubleMLData,y_outcome,d_binary,"x_prior_activity, x_account_age, x_region_score, x_risk_score, x_binary_segment",,,,,,,900,Binary treatment with pre-treatment controls.
+iv_pliv_continuous_treatment,DoubleMLData,y_outcome,d_continuous,"x_prior_activity, x_account_age, x_region_score, x_risk_score, x_binary_segment",z_encouragement,,,,,,900,Continuous treatment plus instrument.
+multi_treatment,DoubleMLData,y_outcome,"d_continuous, d_secondary","x_prior_activity, x_account_age, x_region_score, x_risk_score, x_binary_segment",,,,,,,900,Two treatment columns with other treatment used as covariate.
+clustered_plr,DoubleMLData,y_outcome,d_continuous,"x_prior_activity, x_account_age, x_region_score, x_risk_score, x_binary_segment",,cluster_id,,,,,900,Continuous treatment with cluster identifier.
+panel_long_format,DoubleMLPanelData,y_outcome,d_continuous,"x_baseline, x_time_varying",,,time_period,unit_id,,,720,Repeated unit-time observations.
+rdd_running_score,DoubleMLRDDData,y_outcome,d_rdd,"x_prior_activity, x_account_age, x_region_score, x_risk_score, x_binary_segment",,,,,running_score,,900,RDD score and cutoff treatment.
+sample_selection,DoubleMLSSMData,y_outcome,d_binary,"x_prior_activity, x_account_age, x_region_score, x_risk_score, x_binary_segment",,,,,,selected,900,Selection indicator supplied.

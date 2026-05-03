@@ -1,0 +1,4 @@
+workflow,question_answered,main_problem,when_it_can_be_useful
+pooled row-level DML,What is one generic treatment effect if every unit-period row is treated as independent?,Mixes treatment periods and repeats the same final outcome across rows.,"Quick exploratory baseline, not a final panel causal design."
+last-period snapshot DML,What is the effect of final-period treatment on the final outcome?,Ignores earlier treatment effects and treatment-history questions.,When the causal question is explicitly about one period only.
+DynamicDML,What is the effect of treatment in each period on the final outcome?,Requires balanced histories and credible observed treatment history controls.,When treatment timing and treatment history are central to the decision.

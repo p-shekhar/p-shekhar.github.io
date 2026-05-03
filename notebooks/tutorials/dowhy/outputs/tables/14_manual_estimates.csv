@@ -1,0 +1,4 @@
+estimator,estimate,notes,known_true_ate,absolute_error
+raw difference,1.324707501192649,confounded association,0.8495825570013631,0.4751249441912859
+adjusted OLS,0.8352181563708903,adjusts for pre-treatment covariates,0.8495825570013631,0.01436440063047284
+stabilized IPW,0.8467014852612101,weights by estimated propensity,0.8495825570013631,0.0028810717401529518

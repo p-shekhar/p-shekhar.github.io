@@ -1,0 +1,5 @@
+tool,what it explains,best use,main caveat
+Causal forest feature importance,Which X features the fitted forest uses most for treatment-effect heterogeneity,Quick global model audit,"Importance is about the fitted model, not proof of causal validity"
+Permutation CATE sensitivity,How much CATE predictions change when one feature is shuffled,Model-agnostic global sensitivity check,Correlated features can share or hide importance
+SHAP on CATE surrogate,How features push a surrogate CATE prediction up or down,Global and local decomposition of estimated CATE,"Explains the surrogate of the CATE model, so surrogate fidelity must be checked"
+Segment summaries,"Average estimated effect, true effect, support, and uncertainty by group",Readable reporting and audit tables,Segments can hide within-segment variation

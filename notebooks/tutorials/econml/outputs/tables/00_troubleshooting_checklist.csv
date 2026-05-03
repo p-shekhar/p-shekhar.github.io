@@ -1,0 +1,7 @@
+symptom,likely cause,first check
+EconML import fails,package not installed or Python/dependency mismatch,run `uv add econml` and verify the Python version supported by the installed EconML release
+estimator fit fails with shape errors,"Y, T, X, or W have inconsistent row counts or unexpected dimensions",print array shapes before calling `.fit()`
+CATE estimates are noisy or extreme,"weak overlap, small sample size, or overly flexible final model",plot propensity overlap and summarize CATE by segment
+treatment model predicts treatment almost perfectly,poor overlap or leakage into treatment features,inspect propensity distributions by treatment group
+estimated CATE ranking looks implausible,"bad effect modifiers, leakage, or nuisance model misspecification",compare segment summaries and run simpler baseline estimators
+policy targeting looks too good,evaluating policy on the same data used to learn CATE,use held-out data or doubly robust policy evaluation where possible

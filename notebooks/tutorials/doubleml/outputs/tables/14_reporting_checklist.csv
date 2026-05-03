@@ -1,0 +1,8 @@
+item,guidance
+Identification,"State the unconfoundedness, overlap, and SUTVA assumptions used by the base DoubleML design."
+Group definition,Explain whether GATE groups were pre-specified and confirm they are sufficiently populated.
+Basis definition,List all CATE/BLP basis features and why they were chosen.
+Uncertainty,"Report confidence intervals or bands, not only point estimates."
+Multiple comparisons,Avoid searching many subgroups without correction or validation.
+Operational use,"Treat heterogeneity as prioritization evidence, not an automatic deployment rule."
+Robustness,"Check whether the pattern survives alternative learners, sample splits, and segmentation choices."

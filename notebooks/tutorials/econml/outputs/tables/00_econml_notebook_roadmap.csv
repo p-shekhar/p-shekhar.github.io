@@ -1,0 +1,16 @@
+notebook,topic,main skill
+01,CATE foundations,understand ATE versus CATE
+02,Double machine learning basics,understand nuisance residualization
+03,LinearDML and SparseLinearDML,fit interpretable CATE models
+04,CausalForestDML,fit nonlinear forest-based CATE
+05,DRLearner,use doubly robust pseudo-outcomes
+06,Meta-learners,"compare S, T, and X learners"
+07,Policy targeting,turn CATE into treatment rules
+08,Explanation and segments,summarize what drives effect heterogeneity
+09,Uncertainty,use intervals and uncertainty-aware decisions
+10,Multiple and continuous treatments,move beyond binary treatment
+11,IV estimators,handle endogenous treatment with instruments
+12,Panel or longitudinal extensions,reason about repeated observations
+13,Estimator benchmark,compare estimators on known truth
+14,End-to-end case study,"combine estimation, diagnostics, targeting, and reporting"
+15,Pitfalls and debugging,"avoid leakage, weak overlap, and overclaimed CATE"

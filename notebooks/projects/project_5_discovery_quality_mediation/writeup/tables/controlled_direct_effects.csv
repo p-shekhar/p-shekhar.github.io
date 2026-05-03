@@ -1,0 +1,10 @@
+outcome,outcome_label,mediator_level,mediator_value,controlled_direct_effect,uses_weights,mediator_level_label
+Y_future_interactions,Future 7-day interactions,low_satisfaction_q25,0.547525335213461,39.45252036937241,True,Low satisfaction (q25)
+Y_future_interactions,Future 7-day interactions,median_satisfaction_q50,0.6174364455509931,38.42725288494217,True,Median satisfaction (q50)
+Y_future_interactions,Future 7-day interactions,high_satisfaction_q75,0.6856368605828683,37.42707326228657,True,High satisfaction (q75)
+Y_future_active_days,Future 7-day active days,low_satisfaction_q25,0.547525335213461,0.020647229802933827,True,Low satisfaction (q25)
+Y_future_active_days,Future 7-day active days,median_satisfaction_q50,0.6174364455509931,-0.0013134181637816432,True,Median satisfaction (q50)
+Y_future_active_days,Future 7-day active days,high_satisfaction_q75,0.6856368605828683,-0.022736698361562117,True,High satisfaction (q75)
+Y_future_play_hours,Future 7-day play hours,low_satisfaction_q25,0.547525335213461,0.06903603808054995,True,Low satisfaction (q25)
+Y_future_play_hours,Future 7-day play hours,median_satisfaction_q50,0.6174364455509931,0.07484196697128459,True,Median satisfaction (q50)
+Y_future_play_hours,Future 7-day play hours,high_satisfaction_q75,0.6856368605828683,0.08050582723729843,True,High satisfaction (q75)

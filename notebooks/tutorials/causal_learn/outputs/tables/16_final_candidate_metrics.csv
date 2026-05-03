@@ -1,0 +1,2 @@
+scenario,method,reported_edges,skeleton_precision,skeleton_recall,skeleton_f1,directed_precision,directed_recall,directed_f1,extra_adjacencies,missed_adjacencies,reversed_true_edges,missed_adjacency_list,extra_adjacency_list
+case_study_final,final_candidate,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,

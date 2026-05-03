@@ -1,0 +1,6 @@
+check,value
+rows,1200
+min_time,0
+max_time,1199
+unique_time_steps,1200
+missing_time_steps,0

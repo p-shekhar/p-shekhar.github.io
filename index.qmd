@@ -1,0 +1,126 @@
+---
+title: "Causal inference and AI systems for decisions that matter"
+subtitle: "Research-grade methods, production-aware AI systems, and decision-focused communication."
+description: "Portfolio homepage for an Assistant Professor of Data Science focused on causal inference, trustworthy AI systems, and industry decision-making."
+body-classes: home-page
+listing:
+  - id: featured-projects
+    contents:
+      - projects/mind-ranking-causal-lift/index.qmd
+      - projects/price-promotion-causal-lift/index.qmd
+      - projects/customer-retention-policy/index.qmd
+      - projects/rag-evaluation-system/index.qmd
+      - projects/agentic-research-assistant/index.qmd
+    type: grid
+    fields: [title, description, categories]
+    sort: "date desc"
+    page-size: 5
+title-block-banner: false
+---
+
+```{=html}
+<section class="home-intro">
+  <div class="intro-copy">
+    <h1>Causal Inference and AI Systems for Industry Decisions</h1>
+    <p>I am an Assistant Professor of Data Science building a public portfolio around two connected strengths: credible causal evidence and trustworthy LLM-powered AI systems for real decision workflows.</p>
+    <div class="intro-actions">
+      <a class="btn btn-primary" href="projects/">View Projects</a>
+      <a class="btn btn-outline" href="expertise/">Explore Expertise</a>
+    </div>
+  </div>
+  <div class="causal-visual" aria-label="Causal inference workflow visual">
+    <div class="visual-topline">Question -> Evidence -> AI System -> Decision</div>
+    <div class="node-row">
+      <div class="causal-node treatment">Causal Design</div>
+      <div class="causal-arrow">&rarr;</div>
+      <div class="causal-node outcome">AI Workflow</div>
+    </div>
+    <div class="node-row lower">
+      <div class="causal-node confounder">Assumptions</div>
+      <div class="causal-node mechanism">Evaluation</div>
+      <div class="causal-node policy">Monitoring</div>
+    </div>
+    <div class="visual-footline">From messy data and model outputs to reliable action.</div>
+  </div>
+</section>
+```
+
+::: {.pillar-grid}
+::: {.pillar-card}
+### Causal Inference & Experimentation
+
+Evidence for intervention questions: experiments, quasi-experiments, causal ML, policy evaluation, and sensitivity analysis.
+
+[Causal expertise](expertise/causal-inference/index.qmd)
+:::
+
+::: {.pillar-card}
+### AI Systems & LLMOps
+
+RAG, agents, multimodal retrieval, evaluation, hallucination checks, drift monitoring, and lifecycle management.
+
+[AI systems expertise](expertise/ai-systems/index.qmd)
+:::
+:::
+
+::: {.signal-strip}
+::: {.signal-item}
+**Causal Methods**
+
+DAGs, experiments, DiD, IV, RD, synthetic control, doubly robust estimation, causal ML.
+:::
+
+::: {.signal-item}
+**AI Systems**
+
+RAG, agents, multi-agent orchestration, vector search, multimodal embeddings, LLM evaluation.
+:::
+
+::: {.signal-item}
+**Output**
+
+Reusable notebooks, teaching notes, package tutorials, system designs, and decision-ready summaries.
+:::
+:::
+
+## Featured Work
+
+::: {#featured-projects}
+:::
+
+## Knowledge Hub
+
+::: {.feature-grid}
+::: {.feature-card}
+### Lecture Notes
+
+Short, rigorous explainers on assumptions, identification, estimators, and sensitivity analysis.
+
+[Browse notes](notes/index.qmd)
+:::
+
+::: {.feature-card}
+### Package Tutorials
+
+Practical walkthroughs for the Python tools used in causal inference workflows.
+
+[Browse tutorials](tutorials/index.qmd)
+:::
+
+::: {.feature-card}
+### Writing
+
+Blog-style essays that translate methods into business and policy judgment.
+
+[Read writing](writing/index.qmd)
+:::
+:::
+
+## Current Roadmap
+
+::: {.roadmap}
+1. Publish three polished industry case studies with notebook-backed evidence.
+2. Add AI system case studies for RAG, agents, multimodal retrieval, and evaluation.
+3. Build a lecture-note sequence from causal questions to sensitivity analysis.
+4. Add package tutorials for causal inference and AI engineering workflows.
+:::

@@ -1,0 +1,6 @@
+metric,value
+propensity_model_auc,0.7650517926019151
+estimated_propensity_min,0.019625079116958002
+estimated_propensity_max,0.9848949518838043
+clipped_propensity_min,0.02
+clipped_propensity_max,0.98

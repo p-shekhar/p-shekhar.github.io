@@ -1,0 +1,11 @@
+fold,train_rows,test_rows,train_groups,test_groups,overlap_groups,split_type
+1,768,192,239,150,149,Random KFold
+2,768,192,240,143,143,Random KFold
+3,768,192,238,141,139,Random KFold
+4,768,192,238,138,136,Random KFold
+5,768,192,237,133,130,Random KFold
+1,768,192,192,48,0,GroupKFold by user_id
+2,768,192,192,48,0,GroupKFold by user_id
+3,768,192,192,48,0,GroupKFold by user_id
+4,768,192,192,48,0,GroupKFold by user_id
+5,768,192,192,48,0,GroupKFold by user_id

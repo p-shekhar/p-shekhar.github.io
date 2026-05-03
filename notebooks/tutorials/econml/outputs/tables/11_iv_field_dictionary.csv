@@ -1,0 +1,14 @@
+field,role,description
+baseline_need,Observed covariate,Pre-treatment need or demand signal used by the model.
+prior_engagement,Observed covariate,Pre-treatment engagement used by the model.
+friction_score,Observed covariate,Pre-treatment friction signal used by the model.
+content_affinity,Observed covariate,Pre-treatment match or affinity signal used by the model.
+price_sensitivity,Observed covariate,Pre-treatment sensitivity to cost or effort.
+account_tenure,Observed covariate,Age of the account or relationship in weeks.
+region_risk,Observed covariate,Binary marker for lower baseline outcome regions.
+high_need_segment,Observed covariate,Binary segment derived from baseline need.
+encouragement_score,Instrument,Source of treatment variation used for IV identification.
+treatment_intensity,Treatment,Endogenous continuous treatment whose effect is estimated.
+outcome,Outcome,Observed post-treatment outcome.
+true_tau,Teaching-only truth,Known treatment effect for each row.
+hidden_motivation,Teaching-only hidden confounder,"Unobserved cause of both treatment and outcome, excluded from model inputs."

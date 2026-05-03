@@ -1,0 +1,4 @@
+diagnostic,value,meaning
+residualized_first_stage_beta,0.7196709210386049,Change in residualized treatment for one unit of residualized instrument.
+first_stage_f_stat,840.9833414882644,Large values indicate stronger instrument relevance.
+partial_r_squared,0.2645447462755664,Share of residual treatment variation explained by residual instrument.

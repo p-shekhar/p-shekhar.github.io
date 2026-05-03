@@ -1,0 +1,7 @@
+estimator,python_class
+LinearDML,LinearDML
+CausalForestDML,CausalForestDML
+DRLearner,DRLearner
+SLearner,SLearner
+TLearner,TLearner
+XLearner,XLearner

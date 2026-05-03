@@ -1,0 +1,7 @@
+risk_area,evidence_from_notebook,status,reporting_action
+Confounding,Omitting latent_need changed estimate from 1.015 to 1.666.,Requires design justification,State adjustment set and discuss unavailable confounders.
+Bad controls,Adding post_outcome_proxy moved estimate to 0.255.,High risk if included,Classify variables by measurement time and exclude post-treatment controls.
+Residual treatment variation,Weakest scenario residual SD is 0.153 with SE 0.147.,Check required,Show residualized-treatment distribution or equivalent overlap diagnostic.
+Nuisance quality,Linear and forest learners were compared on a nonlinear design.,Model-dependent,"Report learner settings, nuisance RMSE, and tuning choices."
+Sample splitting,Repeated split SD is 0.0017.,Stable in this simulation,"Report fold count, repetition count, and random seeds."
+Communication,Tables and figures are saved as reviewable artifacts.,Report explicitly,"Include assumptions, diagnostics, limitations, and artifact paths."

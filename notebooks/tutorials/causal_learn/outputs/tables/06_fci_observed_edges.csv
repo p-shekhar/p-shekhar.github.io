@@ -1,0 +1,9 @@
+run,source,edge_type,target,edge_properties,endpoint_category
+fci_observed,need,o->,match,none,partially oriented edge
+fci_observed,need,o->,renewal,none,partially oriented edge
+fci_observed,intent,o->,match,none,partially oriented edge
+fci_observed,intent,o->,renewal,none,partially oriented edge
+fci_observed,match,-->,engagement,"dd,nl",definite directed edge
+fci_observed,match,o->,renewal,none,partially oriented edge
+fci_observed,engagement,o->,renewal,none,partially oriented edge
+fci_observed,engagement,-->,support,"dd,nl",definite directed edge

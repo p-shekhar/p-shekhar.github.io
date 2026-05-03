@@ -1,0 +1,7 @@
+source,target,mark,reason
+Need,Match,-->,Need affects what match quality means for the user.
+Intent,Match,-->,Current intent affects which recommendation feels relevant.
+Match,Engagement,-->,Better matching increases downstream engagement.
+Engagement,Renewal,-->,Deeper engagement can raise future value.
+Engagement,Support,-->,More engagement can create more opportunities for support contact.
+Need,Renewal,-->,Underlying need can directly affect renewal even after engagement.

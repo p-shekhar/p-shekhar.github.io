@@ -1,0 +1,4 @@
+learner,models fitted,effect estimate,strength,main risk
+S-learner,One outcome model,"Predict each row with T=1 and T=0, then subtract",Simple and data-efficient,Treatment signal can be washed out if the outcome model ignores T
+T-learner,"Two outcome models, one per treatment arm",Predicted treated outcome minus predicted control outcome,Allows very different response surfaces by arm,Small treatment arm can have a weak outcome model
+X-learner,"Two outcome models, two imputed-effect models, and a propensity model",Propensity-weighted combination of imputed-effect models,Often useful with treatment imbalance,More nuisance-model dependence and more tuning choices

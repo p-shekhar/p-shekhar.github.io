@@ -1,0 +1,14 @@
+column,role,observed_in_real_analysis,description
+user_id,identifier,yes,Unique row identifier.
+baseline_need,effect modifier and confounder,yes,"Baseline user need. It affects treatment assignment, baseline outcome, and treatment effect."
+prior_engagement,effect modifier and confounder,yes,"Pre-treatment engagement level. It affects treatment assignment, baseline outcome, and treatment effect."
+account_tenure,control,yes,"Pre-treatment account age signal. It affects treatment and outcome, but not the true CATE here."
+seasonality_index,control,yes,Pre-treatment timing or seasonality signal. It helps remove confounding.
+friction_score,effect modifier and confounder,yes,Pre-treatment friction signal. Treatment effects are smaller when friction is high.
+region_risk,effect modifier and confounder,yes,Binary segment with different baseline outcomes and treatment effects.
+high_need_segment,effect modifier,yes,Segment indicator derived from baseline need.
+propensity,oracle treatment probability,no,True probability of treatment under the simulated assignment mechanism.
+treatment,treatment,yes,Binary treatment indicator.
+outcome,outcome,yes,Observed post-treatment outcome.
+true_cate,oracle effect,no,Known individual treatment effect used only for tutorial evaluation.
+baseline_outcome_mean,oracle baseline response,no,Mean untreated outcome component before random noise.

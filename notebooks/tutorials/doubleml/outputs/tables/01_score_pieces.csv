@@ -1,0 +1,6 @@
+piece,role,why_it_matters
+Y - l_hat(X),outcome residual,Removes the part of the outcome explained by controls.
+D - m_hat(X),treatment residual,Removes the part of treatment assignment explained by controls.
+mean(treatment_residual * outcome_residual),score numerator,Measures remaining treatment-outcome movement after residualization.
+mean(treatment_residual ** 2),score denominator,Measures remaining treatment variation after adjustment.
+numerator / denominator,theta estimate,Solves the sample analog of the orthogonal moment condition.

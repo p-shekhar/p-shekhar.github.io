@@ -1,0 +1,10 @@
+parent,child
+user_intent,recommendation_exposure
+content_quality,recommendation_exposure
+content_novelty,recommendation_exposure
+recommendation_exposure,watch_time
+user_intent,watch_time
+content_quality,watch_time
+watch_time,retention_score
+user_intent,retention_score
+content_quality,retention_score

@@ -1,0 +1,93 @@
+# Python-generated files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Quarto-generated files
+/.quarto/
+/_site/
+/_freeze/
+/.quarto.bad-*/
+**/*_files/
+**/*.quarto_ipynb
+
+# Local caches and test artifacts
+/.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.nox/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.jupyter_cache/
+**/.jupyter_cache/
+
+# Notebook/runtime caches that should not be published
+notebooks/**/.matplotlib_cache/
+notebooks/**/outputs/matplotlib_cache/
+notebooks/**/outputs/cache/
+notebooks/**/outputs/tmp/
+
+# Local data downloads and model artifacts
+/data/raw/
+/data/interim/
+/data/cache/
+notebooks/**/data/raw/
+notebooks/**/data/interim/
+notebooks/**/data/cache/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+*.parquet
+*.feather
+*.arrow
+pytorch_model*.bin
+model*.bin
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+tmp/
+tmpfile
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local agent/evaluation state
+.codex
+.agents/
+.deepeval/

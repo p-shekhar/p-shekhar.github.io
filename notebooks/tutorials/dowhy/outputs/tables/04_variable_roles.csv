@@ -1,0 +1,9 @@
+variable,role,timing,used_for_adjustment
+feature_exposure,treatment,treatment time,no; this is the treatment
+weekly_value,outcome,future outcome window,no; this is the outcome
+user_engagement,observed common cause,pre-treatment,yes
+prior_sessions,observed common cause,pre-treatment,yes
+account_age_weeks,observed common cause,pre-treatment,yes
+is_power_user,observed common cause,pre-treatment,yes
+baseline_value,observed common cause,pre-treatment,yes
+treatment_probability,simulation diagnostic,known only because this is simulated,no; not a real observed column

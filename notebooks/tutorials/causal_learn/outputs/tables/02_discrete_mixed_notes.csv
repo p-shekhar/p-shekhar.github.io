@@ -1,0 +1,3 @@
+note_type,note
+assumption,Binary and ordinal values generated from latent logits.
+intended_use,Useful for discrete-data tests and mixed-data caveats.

@@ -1,0 +1,4 @@
+run,source,edge_type,target
+DirectLiNGAM_pair,cause,-->,effect
+PC_pair,cause,---,effect
+GES_pair,cause,---,effect

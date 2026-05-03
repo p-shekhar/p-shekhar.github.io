@@ -1,0 +1,5 @@
+estimator,method_name,estimate,absolute_error_vs_true_ate,status
+linear_regression,backdoor.linear_regression,1.9768582400187311,0.023141759981268883,ok
+propensity_score_matching,backdoor.propensity_score_matching,1.9462478543463397,0.053752145653660266,ok
+propensity_score_stratification,backdoor.propensity_score_stratification,1.9813991274567586,0.018600872543241387,ok
+propensity_score_weighting,backdoor.propensity_score_weighting,2.033748004390352,0.03374800439035219,ok

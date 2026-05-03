@@ -1,0 +1,2 @@
+run,learned_edges_total,learned_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
+high_alpha_with_prior,8,8,6,6,0.75,1.0,0,0,0,2

@@ -1,0 +1,9 @@
+check,why_it_matters
+Start with the causal design,Explanations of a poorly identified model are still poorly identified.
+Separate model explanation from causal claims,"Feature importance and SHAP explain fitted predictions, not identification assumptions."
+Check CATE model recovery or validation,Explaining a weak model can produce a polished but misleading story.
+Check surrogate fidelity before SHAP,SHAP on a surrogate is useful only if the surrogate mimics the CATE model.
+Use multiple explanation views,"Stable themes across importance, SHAP, permutation, and segments are more credible."
+Report support and interval width,High estimated benefit in weak-support regions is risky.
+Prefer segment summaries for communication,Segments are easier to audit than individual-level CATE explanations.
+Avoid precise individual claims,Individual CATE estimates are usually noisy even when rankings are useful.

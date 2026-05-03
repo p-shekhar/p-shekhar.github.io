@@ -1,0 +1,7 @@
+check,result,causal reading
+baseline adjusted estimate,estimate 1.148 versus true effect 1.200,adjustment recovers the known effect reasonably well in the teaching data
+placebo treatment refuter,placebo effect 0.000,fake treatment does not reproduce the original effect
+random common cause refuter,new effect 1.148,adding random noise does not change the estimate materially
+subset and bootstrap refuters,subset 1.146; bootstrap 1.151,effect is stable under moderate sampling perturbations
+negative-control outcome,full-adjustment coefficient 0.051,adjustment removes most of the treatment association with an outcome treatment should not affect
+hidden-confounding sensitivity,sensitivity range 0.332 to 1.115,strong hypothetical confounding could still reduce the estimate substantially

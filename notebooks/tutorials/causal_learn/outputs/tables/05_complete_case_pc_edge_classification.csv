@@ -1,0 +1,8 @@
+source,edge_type,target,status
+need,-->,match,correct directed edge
+intent,-->,match,correct directed edge
+intent,-->,engagement,extra adjacency
+intent,-->,renewal,correct directed edge
+match,-->,engagement,correct directed edge
+engagement,-->,renewal,correct directed edge
+engagement,-->,support,correct directed edge

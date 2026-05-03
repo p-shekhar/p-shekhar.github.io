@@ -1,0 +1,5 @@
+policy,available_in_real_data,treatment_rate,orthogonal_policy_score,oracle_increment_in_simulation
+Never treat,True,0.0,0.0,0.0
+Always treat,True,1.0,0.34718393709253764,0.3391262138231668
+DoubleML policy tree,True,0.8885714285714286,0.3896963328353794,0.35926591409964087
+Oracle positive-effect policy,False,0.675,0.5081767302740018,0.5046139211456435

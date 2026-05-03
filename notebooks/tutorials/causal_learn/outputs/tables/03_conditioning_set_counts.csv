@@ -1,0 +1,6 @@
+conditioning_set_size,candidate_sets_for_one_pair,why_it_matters
+0,1,More sets mean more tests and more chances for finite-sample instability.
+1,4,More sets mean more tests and more chances for finite-sample instability.
+2,6,More sets mean more tests and more chances for finite-sample instability.
+3,4,More sets mean more tests and more chances for finite-sample instability.
+4,1,More sets mean more tests and more chances for finite-sample instability.

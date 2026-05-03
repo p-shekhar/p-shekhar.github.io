@@ -1,0 +1,6 @@
+capability,available,note
+econml.iv.nnet module available,False,Required for a runnable DeepIV-style EconML example in this environment.
+tensorflow package available,False,Usually needed for neural-network treatment and outcome models.
+keras package available,False,Often used as a high-level neural-network API.
+DMLIV available,True,This is the main runnable IV estimator used below.
+OrthoIV available,True,This is a second runnable IV estimator used below.

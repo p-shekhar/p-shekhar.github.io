@@ -1,0 +1,10 @@
+cause,effect
+user_intent,recommendation_quality
+catalog_match,recommendation_quality
+user_intent,watch_time
+recommendation_quality,watch_time
+tutorial_prompt,watch_time
+user_intent,next_week_value
+recommendation_quality,next_week_value
+watch_time,next_week_value
+tutorial_prompt,next_week_value

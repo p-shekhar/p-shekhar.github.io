@@ -1,0 +1,8 @@
+check,status_in_this_notebook,why_it_matters
+Causal question stated,synthetic PLR effect of d on y,The target parameter must be clear before fitting.
+Variable roles defined,"y, d, x1-x5 dictionary saved",Data-role mistakes change the analysis.
+Identification assumptions stated,PLR synthetic design with controls sufficient by construction,DoubleML estimation still relies on design assumptions.
+Nuisance learners documented,random forest settings printed and saved through model object,Learner choices affect finite-sample behavior.
+Cross-fitting documented,5-fold cross-fitting preview saved,Out-of-fold nuisance prediction is central to DML.
+Estimate and uncertainty reported,PLR summary table saved,A point estimate without uncertainty is incomplete.
+Limitations stated,synthetic truth available only because this is a tutorial,Real analyses do not get a known true effect.

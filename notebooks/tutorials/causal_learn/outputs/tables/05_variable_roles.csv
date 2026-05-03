@@ -1,0 +1,7 @@
+variable,role,meaning,knowledge_tier
+need,early context,baseline demand or user need signal,0
+intent,early context,current intent or short-term goal signal,0
+match,intermediate,quality of the match between item and user state,1
+engagement,intermediate,depth of short-term interaction after exposure,2
+renewal,downstream outcome,future value or retention-like outcome,3
+support,downstream outcome,future support or friction-like outcome,3

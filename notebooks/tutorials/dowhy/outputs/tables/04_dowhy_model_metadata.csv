@@ -1,0 +1,4 @@
+component,value
+common_causes_reported_by_DoWhy,"user_engagement, prior_sessions, account_age_weeks, baseline_value, is_power_user"
+instruments_reported_by_DoWhy,none detected
+effect_modifiers_reported_by_DoWhy,none detected

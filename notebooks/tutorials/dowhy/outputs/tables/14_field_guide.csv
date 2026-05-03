@@ -1,0 +1,11 @@
+column,role,plain meaning,use in analysis
+baseline_need,pre-treatment confounder,Need or intent measured before guidance assignment.,Adjust for it.
+prior_engagement,pre-treatment confounder,Historical engagement before guidance assignment.,Adjust for it.
+account_tenure_z,pre-treatment confounder,Standardized account maturity.,Adjust for it.
+friction_score,pre-treatment confounder,Pre-existing friction or difficulty before guidance.,Adjust for it.
+region_risk,pre-treatment confounder,Binary context indicator for harder operating conditions.,Adjust for it.
+high_need_segment,pre-treatment effect modifier and confounder,Whether baseline need is above zero.,Adjust for it and inspect heterogeneity.
+proactive_guidance,treatment,Whether guidance was delivered.,Main causal lever.
+activation_depth,post-treatment mediator,How deeply the user activated after guidance.,Do not adjust for it when estimating the total effect.
+future_engagement,outcome,Later engagement measured after treatment and mediator.,Main target outcome.
+pre_period_satisfaction,negative-control outcome,A pre-treatment outcome-like measure guidance cannot causally affect.,Use as a falsification check.

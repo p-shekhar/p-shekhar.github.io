@@ -1,0 +1,8 @@
+stage,main output,why it matters
+Question framing,causal question table,"Prevents estimator shopping by naming treatment, outcome, population, and estimand first."
+Data understanding,field guide and quality checks,Clarifies variable timing and catches obvious data issues.
+Confounding diagnostics,balance and propensity overlap checks,Shows why adjustment is needed and whether comparable treated/control units exist.
+Graph and identification,DAG and DoWhy estimand,Turns assumptions into an explicit adjustment strategy.
+Estimation,multi-estimator comparison,Checks whether conclusions depend heavily on one estimator.
+Stress testing,"refuters, negative controls, sensitivity table",Tests whether the estimate behaves sensibly under deliberate perturbations.
+Reporting,decision summary and limitations,Makes the result useful without pretending observational evidence is a randomized experiment.

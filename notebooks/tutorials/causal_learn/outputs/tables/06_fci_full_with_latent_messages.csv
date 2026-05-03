@@ -1,0 +1,4 @@
+run,message
+fci_full_with_latent_observed,match --> engagement
+fci_full_with_latent_observed,engagement --> renewal
+fci_full_with_latent_observed,engagement --> support

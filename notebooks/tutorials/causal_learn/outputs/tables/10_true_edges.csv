@@ -1,0 +1,7 @@
+run,source,edge_type,target,true_coefficient
+truth,need,-->,match,0.75
+truth,intent,-->,match,0.7
+truth,match,-->,engagement,0.85
+truth,intent,-->,renewal,0.3
+truth,engagement,-->,renewal,0.65
+truth,engagement,-->,support,0.55

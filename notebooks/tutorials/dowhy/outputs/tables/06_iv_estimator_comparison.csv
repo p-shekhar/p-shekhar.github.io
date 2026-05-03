@@ -1,0 +1,6 @@
+estimator,estimate
+naive exposure-outcome slope,2.2691857717740174
+manual Wald IV ratio,1.7072494317615174
+simple two-stage regression,1.7072494317615183
+DoWhy instrumental variable,1.707249431761518
+true treatment effect,1.7

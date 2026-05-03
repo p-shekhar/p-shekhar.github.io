@@ -1,0 +1,11 @@
+source,target,correlation,absolute_correlation,selected_as_edge
+pre_activity,seasonality_score,-0.0018815959803724907,0.0018815959803724907,False
+pre_activity,recommendation_exposure,0.5933138619055995,0.5933138619055995,True
+pre_activity,engagement_depth,0.5125730836933303,0.5125730836933303,True
+pre_activity,weekly_value,0.6138193971250337,0.6138193971250337,True
+seasonality_score,recommendation_exposure,0.41970590653373496,0.41970590653373496,True
+seasonality_score,engagement_depth,0.36484110697247635,0.36484110697247635,True
+seasonality_score,weekly_value,0.45968585609316015,0.45968585609316015,True
+recommendation_exposure,engagement_depth,0.8641078330798877,0.8641078330798877,True
+recommendation_exposure,weekly_value,0.8633829931551709,0.8633829931551709,True
+engagement_depth,weekly_value,0.9355215554372045,0.9355215554372045,True

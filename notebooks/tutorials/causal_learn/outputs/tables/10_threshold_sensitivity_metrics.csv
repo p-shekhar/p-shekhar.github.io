@@ -1,0 +1,7 @@
+run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies,threshold
+threshold_0.05,6,6,6,6,1.0,1.0,0,0,0,0,0.05
+threshold_0.10,6,6,6,6,1.0,1.0,0,0,0,0,0.1
+threshold_0.15,6,6,6,6,1.0,1.0,0,0,0,0,0.15
+threshold_0.20,6,6,6,6,1.0,1.0,0,0,0,0,0.2
+threshold_0.30,6,6,6,6,1.0,1.0,0,0,0,0,0.3
+threshold_0.45,5,5,6,5,1.0,0.8333333333333334,0,0,1,0,0.45

@@ -1,0 +1,15 @@
+column,role,description
+need_z,Observed control / policy feature,Standardized need or opportunity signal.
+engagement_z,Observed control / policy feature,Standardized prior engagement signal.
+risk_z,Observed control / policy feature,Standardized downside-risk signal.
+margin_z,Observed control / policy feature,Standardized value or margin signal.
+tenure_z,Observed control,Standardized tenure or relationship length signal.
+friction_z,Observed control,Standardized friction or support burden signal.
+propensity_true,Oracle diagnostic,True treatment probability from the simulator; not used by estimators.
+treatment,Treatment,Binary treatment or exposure indicator.
+direct_tau_component,Oracle diagnostic,Direct mean-shift component before downside-risk mitigation.
+y0_oracle,Oracle diagnostic,Potential outcome under no treatment; unavailable in real data.
+y1_oracle,Oracle diagnostic,Potential outcome under treatment; unavailable in real data.
+true_effect,Oracle diagnostic,Individual treatment effect y1_oracle - y0_oracle; unavailable in real data.
+outcome,Outcome,Observed outcome corresponding to the observed treatment.
+segment,Reporting group,Mutually exclusive teaching segment used for diagnostics and summaries.

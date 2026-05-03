@@ -1,0 +1,7 @@
+node,fitted_mechanism,has_parents
+user_intent,EmpiricalDistribution,False
+recommendation_quality,AdditiveNoiseModel,True
+catalog_match,EmpiricalDistribution,False
+watch_time,AdditiveNoiseModel,True
+tutorial_prompt,EmpiricalDistribution,False
+next_week_value,AdditiveNoiseModel,True

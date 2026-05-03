@@ -1,0 +1,5 @@
+source,lag,target,p_value,significant_at_1pct
+engagement,1,match,0.702,False
+engagement,2,match,0.5321,False
+match,1,engagement,0.0,True
+match,2,engagement,0.0,True

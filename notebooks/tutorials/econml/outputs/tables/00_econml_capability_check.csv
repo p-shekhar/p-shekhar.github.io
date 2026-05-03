@@ -1,0 +1,10 @@
+estimator,module,status,detail
+LinearDML,econml.dml,available,LinearDML
+SparseLinearDML,econml.dml,available,SparseLinearDML
+CausalForestDML,econml.dml,available,CausalForestDML
+DRLearner,econml.dr,available,DRLearner
+ForestDRLearner,econml.dr,available,ForestDRLearner
+SLearner,econml.metalearners,available,SLearner
+TLearner,econml.metalearners,available,TLearner
+XLearner,econml.metalearners,available,XLearner
+DMLIV,econml.iv.dml,available,DMLIV

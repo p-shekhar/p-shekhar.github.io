@@ -1,0 +1,44 @@
+---
+title: "Multimodal retrieval for text and image collections"
+description: "A project template for embedding-based understanding across text, image, and metadata."
+date: 2026-04-26
+categories: [Multimodal ML, Embeddings, Retrieval]
+---
+
+## System Goal
+
+Build a retrieval system that can search across text, images, and structured metadata using embeddings and multimodal representations.
+
+## Why This Matters
+
+Many real knowledge systems are not text-only. Product catalogs, research archives, clinical notes, policy documents, dashboards, and educational content often require joint understanding of text, images, figures, and metadata.
+
+## Architecture
+
+Planned components:
+
+- Dataset curation and metadata schema.
+- Text and image embedding generation.
+- Vector index construction.
+- Hybrid search with filters.
+- Evaluation using labeled queries.
+- Error analysis for false positives and missed matches.
+
+## Evaluation Plan
+
+Track:
+
+- Recall at `k`.
+- Precision at `k`.
+- Query class performance.
+- Cross-modal retrieval quality.
+- Robustness to noisy metadata.
+- Latency and storage tradeoffs.
+
+## Notebook Plan
+
+- `notebooks/multimodal-retrieval-system/01-data-model.ipynb`
+- `notebooks/multimodal-retrieval-system/02-embedding-pipeline.ipynb`
+- `notebooks/multimodal-retrieval-system/03-vector-search.ipynb`
+- `notebooks/multimodal-retrieval-system/04-error-analysis.ipynb`
+

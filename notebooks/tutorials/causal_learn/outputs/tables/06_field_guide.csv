@@ -1,0 +1,8 @@
+variable,status,role,meaning
+need,observed,early context,baseline user need signal
+intent,observed,early context,current intent or short-term goal signal
+latent_demand,hidden in main analysis,unobserved common cause,unmeasured demand that affects match quality and renewal
+match,observed,intermediate,quality of the user-item match
+engagement,observed,intermediate,depth of short-term interaction
+renewal,observed,downstream outcome,future value or retention-like outcome
+support,observed,downstream outcome,future support or friction-like outcome

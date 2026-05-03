@@ -1,0 +1,7 @@
+specification,estimate,ci_95_lower,ci_95_upper,distance_from_true_total,distance_from_true_direct,meaning
+naive_no_controls,4.187805201382453,4.056126859879108,4.319483542885798,1.9878052013824528,2.387805201382453,Association only; backdoor paths are open.
+engagement_only_partial_adjustment,2.3536006984686293,2.276337101288164,2.4308642956490947,0.15360069846862912,0.5536006984686292,Partial adjustment; some backdoor paths remain open.
+valid_backdoor_adjustment,2.208594718775244,2.1405070632177434,2.2766823743327445,0.00859471877524376,0.4085947187752439,Total-effect estimate under observed-confounding assumptions.
+bad_control_add_mediator,1.8067113108060329,1.7423222704720551,1.8711003511400106,0.3932886891939673,0.006711310806032822,Blocks the mediated path and moves toward a direct-effect-like quantity.
+bad_control_add_collider,2.290997620188194,2.221325562522366,2.3606696778540224,0.0909976201881939,0.49099762018819404,Conditions on a collider and can distort the total effect.
+all_available_controls,1.8781455179249278,1.8120677193488763,1.9442233165009792,0.3218544820750724,0.07814551792492774,"Common predictive modeling mistake: mixes confounders, mediator, and collider."

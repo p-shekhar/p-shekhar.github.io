@@ -1,0 +1,7 @@
+metric,value
+selected_share,0.509
+treated_share,0.5126666666666667
+corr_selection_encouragement_selected,0.3002394157625541
+corr_selection_encouragement_treated,0.018788046758238988
+corr_hidden_factor_selected,0.26984280093683266
+corr_hidden_factor_full_outcome,0.3722706872044725

@@ -1,0 +1,6 @@
+term,meaning,why it matters
+Sample splitting,Partition rows into training and held-out pieces for nuisance prediction.,Prevents nuisance predictions for a row from being trained on that same row.
+K-fold cross-fitting,"Split data into K folds; train nuisances on K-1 folds and predict the held-out fold, repeated for every fold.",Every row gets an out-of-fold nuisance prediction while still using most data for training.
+Repeated cross-fitting,Draw multiple K-fold splits and aggregate the resulting DoubleML estimates.,Reduces dependence on one random partition of the sample.
+External sample splits,User-supplied train/test fold indices passed into DoubleML.,"Needed for grouped, temporal, clustered, or otherwise constrained validation designs."
+In-sample residualization,Fit nuisances and predict on the same rows used for fitting.,Can badly distort residuals with flexible learners; useful here only as a cautionary comparison.

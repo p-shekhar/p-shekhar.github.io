@@ -1,0 +1,9 @@
+step,question,why_it_matters
+1,Is the treatment clearly defined?,"DML estimates the effect of a specific intervention, not a vague exposure."
+2,Is the outcome measured after treatment?,Temporal order is necessary for a causal design.
+3,Are all adjustment variables pre-treatment?,Post-treatment variables can block or distort causal pathways.
+4,Which variables belong in X versus W?,X defines reported heterogeneity; W supports adjustment.
+5,Is there enough overlap?,"Without comparable treated and untreated units, the model extrapolates."
+6,Do nuisance models have reasonable out-of-fold performance?,Poor nuisance models leave confounding structure in the residuals.
+7,Do results persist across sensible model choices?,Robustness matters because flexible nuisance models can vary.
+8,Are CATE estimates used with uncertainty and support in mind?,Treatment targeting should not overreact to noisy individual effects.

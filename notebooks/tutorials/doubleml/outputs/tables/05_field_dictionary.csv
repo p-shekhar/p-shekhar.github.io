@@ -1,0 +1,17 @@
+column,role,description
+weekly_value,outcome,Observed outcome Y.
+feature_exposure,binary treatment,Observed binary treatment D.
+engagement_score,control,Observed pre-treatment control X.
+need_intensity,control,Observed pre-treatment control X.
+content_fit,control,Observed pre-treatment control X.
+recent_activity,control,Observed pre-treatment control X.
+price_sensitivity,control,Observed pre-treatment control X.
+tenure_signal,control,Observed pre-treatment control X.
+novelty_appetite,control,Observed pre-treatment control X.
+seasonality_signal,control,Observed pre-treatment control X.
+true_propensity,hidden teaching column,True treatment probability P(D=1 | X).
+true_mu0,hidden teaching column,True E[Y(0) | X].
+true_mu1,hidden teaching column,True E[Y(1) | X].
+true_tau,hidden teaching column,True individual treatment effect mu1(X) - mu0(X).
+potential_outcome_0,hidden teaching column,"Simulated Y(0), not observed in real data for treated units."
+potential_outcome_1,hidden teaching column,"Simulated Y(1), not observed in real data for untreated units."

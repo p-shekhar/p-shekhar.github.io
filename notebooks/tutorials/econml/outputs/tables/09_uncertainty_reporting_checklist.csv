@@ -1,0 +1,8 @@
+item,what_to_report,why_it_matters
+Estimand,"State whether the main target is ATE, CATE, or policy value.",Different estimands have different uncertainty behavior.
+Interval method,Name the estimator and interval construction used by the analysis.,Readers need to know what uncertainty source is represented.
+Overlap,Show treatment overlap and where interval width is largest.,Weak support can make CATE estimates fragile.
+CATE calibration,Compare estimated CATE groups and uncertainty summaries.,Ranking quality matters more than a single global metric for targeting.
+Decision rule,"Explain whether treatment is assigned by point estimate, lower bound, or cost threshold.",The rule determines how uncertainty affects action.
+Policy uncertainty,Report uncertainty around average selected-group value where possible.,"Stakeholders usually care about the policy, not only row-level estimates."
+Limits,"State that intervals do not repair omitted confounding, leakage, or bad treatment definitions.",Statistical precision is not the same as causal validity.

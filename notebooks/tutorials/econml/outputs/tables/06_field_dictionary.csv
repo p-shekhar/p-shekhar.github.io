@@ -1,0 +1,20 @@
+column,conceptual_role,included_in_econml_X,observed_in_real_analysis,description,true_cate_driver
+baseline_need,effect modifier and pre-treatment covariate,yes,yes,Feature expected to help explain treatment-effect heterogeneity.,yes
+prior_engagement,effect modifier and pre-treatment covariate,yes,yes,Feature expected to help explain treatment-effect heterogeneity.,yes
+friction_score,effect modifier and pre-treatment covariate,yes,yes,Feature expected to help explain treatment-effect heterogeneity.,yes
+content_affinity,effect modifier and pre-treatment covariate,yes,yes,Feature expected to help explain treatment-effect heterogeneity.,yes
+price_sensitivity,effect modifier and pre-treatment covariate,yes,yes,Feature expected to help explain treatment-effect heterogeneity.,yes
+region_risk,effect modifier and pre-treatment covariate,yes,yes,Feature expected to help explain treatment-effect heterogeneity.,yes
+high_need_segment,effect modifier and pre-treatment covariate,yes,yes,Feature expected to help explain treatment-effect heterogeneity.,yes
+trust_score,pre-treatment outcome or assignment predictor,yes,yes,Feature included because meta-learners use one X table for outcome modeling and heterogeneity.,no
+recency_gap,pre-treatment outcome or assignment predictor,yes,yes,Feature included because meta-learners use one X table for outcome modeling and heterogeneity.,no
+account_tenure,pre-treatment outcome or assignment predictor,yes,yes,Feature included because meta-learners use one X table for outcome modeling and heterogeneity.,no
+seasonality_index,pre-treatment outcome or assignment predictor,yes,yes,Feature included because meta-learners use one X table for outcome modeling and heterogeneity.,no
+device_stability,pre-treatment outcome or assignment predictor,yes,yes,Feature included because meta-learners use one X table for outcome modeling and heterogeneity.,no
+traffic_intensity,pre-treatment outcome or assignment predictor,yes,yes,Feature included because meta-learners use one X table for outcome modeling and heterogeneity.,no
+treatment,treatment,no,yes,Binary intervention indicator.,not applicable
+outcome,outcome,no,yes,Observed post-treatment outcome.,not applicable
+propensity,oracle,no,no,True treatment probability from the simulated assignment process.,not applicable
+mu0,oracle,no,no,True conditional mean outcome under control.,not applicable
+mu1,oracle,no,no,True conditional mean outcome under treatment.,not applicable
+true_cate,oracle,no,no,Known individual treatment effect used only for tutorial evaluation.,not applicable

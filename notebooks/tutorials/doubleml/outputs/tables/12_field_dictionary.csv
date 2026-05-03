@@ -1,0 +1,9 @@
+column,role,description
+unit_id,identifier,Synthetic row identifier; excluded from modeling.
+x00-x11,observed controls,Numeric pre-treatment controls.
+true_m_*,oracle only,True treatment nuisance functions used only for simulation documentation.
+true_g,oracle only,True outcome nuisance component used only for simulation documentation.
+d_main,treatment,Treatment with true effect 1.00.
+d_secondary,treatment,Treatment with true effect 0.45.
+d_null,treatment,Treatment with true effect 0.00.
+outcome,outcome,Continuous outcome.

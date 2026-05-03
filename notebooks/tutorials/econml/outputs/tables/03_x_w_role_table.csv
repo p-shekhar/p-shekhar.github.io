@@ -1,0 +1,25 @@
+feature,econml_role,true_cate_driver,reason
+baseline_need,X,True,Candidate effect modifier used by the final CATE model.
+prior_engagement,X,True,Candidate effect modifier used by the final CATE model.
+friction_score,X,True,Candidate effect modifier used by the final CATE model.
+price_sensitivity,X,True,Candidate effect modifier used by the final CATE model.
+content_affinity,X,True,Candidate effect modifier used by the final CATE model.
+region_risk,X,True,Candidate effect modifier used by the final CATE model.
+high_need_segment,X,True,Candidate effect modifier used by the final CATE model.
+trust_score,X,False,Candidate effect modifier used by the final CATE model.
+recency_gap,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_01,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_02,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_03,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_04,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_05,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_06,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_07,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_08,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_09,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_10,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_11,X,False,Candidate effect modifier used by the final CATE model.
+noise_modifier_12,X,False,Candidate effect modifier used by the final CATE model.
+account_tenure,W,False,"Adjustment control used by nuisance models, not by the final CATE model."
+seasonality_index,W,False,"Adjustment control used by nuisance models, not by the final CATE model."
+device_stability,W,False,"Adjustment control used by nuisance models, not by the final CATE model."

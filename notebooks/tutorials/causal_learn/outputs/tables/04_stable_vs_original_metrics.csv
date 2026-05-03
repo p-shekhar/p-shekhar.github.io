@@ -1,0 +1,7 @@
+candidate,learned_edges,skeleton_tp,skeleton_fp,skeleton_fn,skeleton_precision,skeleton_recall,arrow_tp,arrow_fp,arrow_fn,arrow_precision,arrow_recall,reversed_arrows,unresolved_true_edges,stable,sample_size,edge_list
+stable_True_n_150,5,5,0,1,1.0,0.8333333333333334,4,0,2,1.0,0.6666666666666666,0,1,True,150,engagement --> support; intent --> match; intent --- renewal; match --> engagement; need --> match
+stable_True_n_250,6,6,0,0,1.0,1.0,3,2,3,0.6,0.5,2,1,True,250,intent --> match; intent --- renewal; match --> engagement; need --> match; renewal --> engagement; support --> engagement
+stable_True_n_500,6,6,0,0,1.0,1.0,6,0,0,1.0,1.0,0,0,True,500,engagement --> renewal; engagement --> support; intent --> match; intent --> renewal; match --> engagement; need --> match
+stable_False_n_150,5,5,0,1,1.0,0.8333333333333334,4,0,2,1.0,0.6666666666666666,0,1,False,150,engagement --> support; intent --> match; intent --- renewal; match --> engagement; need --> match
+stable_False_n_250,6,6,0,0,1.0,1.0,3,2,3,0.6,0.5,2,1,False,250,intent --> match; intent --- renewal; match --> engagement; need --> match; renewal --> engagement; support --> engagement
+stable_False_n_500,6,6,0,0,1.0,1.0,3,2,3,0.6,0.5,2,1,False,500,intent --> match; intent --- renewal; match --> engagement; need --> match; renewal --> engagement; support --> engagement

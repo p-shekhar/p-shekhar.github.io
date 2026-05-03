@@ -1,0 +1,5 @@
+what it shows,what it does not show
+EconML is installed and importable,The environment is tuned for every advanced estimator.
+LinearDML can fit the synthetic teaching data,LinearDML is the best estimator for every CATE problem.
+The estimated CATE ranking matches known truth in this simulation,Real-data CATE estimates are individually precise.
+Observed confounding and overlap diagnostics are visible,Unmeasured confounding has been solved.

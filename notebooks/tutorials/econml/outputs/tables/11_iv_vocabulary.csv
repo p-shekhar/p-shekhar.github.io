@@ -1,0 +1,8 @@
+term,meaning,notebook_example
+Treatment T,"The intervention, exposure, dose, or intensity whose effect we want to estimate.",Treatment intensity chosen partly by user need and hidden motivation.
+Outcome Y,The post-treatment result of interest.,Continuous value metric after treatment intensity is realized.
+Observed covariates X,Pre-treatment variables the analyst can adjust for.,"Need, engagement, friction, affinity, tenure, and region risk."
+Hidden confounder U,Unobserved cause of both treatment and outcome.,Motivation or latent demand that raises treatment intensity and outcome.
+Instrument Z,A source of treatment variation that affects outcome only through treatment.,Encouragement intensity that shifts treatment but has no direct outcome effect.
+First stage,Relationship between the instrument and treatment after adjusting for X.,Residualized encouragement predicts residualized treatment intensity.
+Local or complier effect,The effect identified for units whose treatment responds to the instrument.,Rows whose treatment intensity changes when encouragement changes.

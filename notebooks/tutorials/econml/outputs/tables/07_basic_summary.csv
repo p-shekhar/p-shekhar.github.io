@@ -1,0 +1,12 @@
+metric,value
+rows,3000.0
+columns,22.0
+treatment_cost,0.28
+treatment_rate,0.45666666666666667
+gross_ate,0.34133922350756485
+true_net_ate,0.06133922350756481
+share_positive_gross_cate,0.8033333333333333
+share_positive_net_cate,0.55
+true_net_cate_std,0.3923012453936227
+true_net_cate_min,-1.220971868473044
+true_net_cate_max,1.1098208125339706

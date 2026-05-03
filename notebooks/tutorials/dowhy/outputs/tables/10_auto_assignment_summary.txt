@@ -1,0 +1,58 @@
+When using this auto assignment function, the given data is used to automatically assign a causal mechanism to each node. Note that causal mechanisms can also be customized and assigned manually.
+The following types of causal mechanisms are considered for the automatic selection:
+
+If root node:
+An empirical distribution, i.e., the distribution is represented by randomly sampling from the provided data. This provides a flexible and non-parametric way to model the marginal distribution and is valid for all types of data modalities.
+
+If non-root node and the data is continuous:
+Additive Noise Models (ANM) of the form X_i = f(PA_i) + N_i, where PA_i are the parents of X_i and the unobserved noise N_i is assumed to be independent of PA_i.To select the best model for f, different regression models are evaluated and the model with the smallest mean squared error is selected.Note that minimizing the mean squared error here is equivalent to selecting the best choice of an ANM.
+
+If non-root node and the data is discrete:
+Discrete Additive Noise Models have almost the same definition as non-discrete ANMs, but come with an additional constraint for f to only return discrete values.
+Note that 'discrete' here refers to numerical values with an order. If the data is categorical, consider representing them as strings to ensure proper model selection.
+
+If non-root node and the data is categorical:
+A functional causal model based on a classifier, i.e., X_i = f(PA_i, N_i).
+Here, N_i follows a uniform distribution on [0, 1] and is used to randomly sample a class (category) using the conditional probability distribution produced by a classification model. Here, different model classes are evaluated using the log loss metric and the best performing model class is selected.
+
+In total, 6 nodes were analyzed:
+
+--- Node: user_intent
+Node user_intent is a root node. Therefore, assigning 'Empirical Distribution' to the node representing the marginal distribution.
+
+--- Node: content_quality
+Node content_quality is a root node. Therefore, assigning 'Empirical Distribution' to the node representing the marginal distribution.
+
+--- Node: content_novelty
+Node content_novelty is a root node. Therefore, assigning 'Empirical Distribution' to the node representing the marginal distribution.
+
+--- Node: recommendation_exposure
+Node recommendation_exposure is a non-root node with continuous data. Assigning 'AdditiveNoiseModel using LinearRegression' to the node.
+This represents the causal relationship as recommendation_exposure := f(content_novelty,content_quality,user_intent) + N.
+For the model selection, the following models were evaluated on the mean squared error (MSE) metric:
+LinearRegression: 0.6657872894350192
+Pipeline(steps=[('polynomialfeatures', PolynomialFeatures(include_bias=False)),
+                ('linearregression', LinearRegression)]): 0.667904742905417
+HistGradientBoostingRegressor: 0.7733473040871512
+
+--- Node: watch_time
+Node watch_time is a non-root node with continuous data. Assigning 'AdditiveNoiseModel using LinearRegression' to the node.
+This represents the causal relationship as watch_time := f(content_quality,recommendation_exposure,user_intent) + N.
+For the model selection, the following models were evaluated on the mean squared error (MSE) metric:
+LinearRegression: 0.7882438009147811
+Pipeline(steps=[('polynomialfeatures', PolynomialFeatures(include_bias=False)),
+                ('linearregression', LinearRegression)]): 0.7905852798400883
+HistGradientBoostingRegressor: 0.9218128293902661
+
+--- Node: retention_score
+Node retention_score is a non-root node with continuous data. Assigning 'AdditiveNoiseModel using LinearRegression' to the node.
+This represents the causal relationship as retention_score := f(content_quality,user_intent,watch_time) + N.
+For the model selection, the following models were evaluated on the mean squared error (MSE) metric:
+LinearRegression: 0.9729701751802681
+Pipeline(steps=[('polynomialfeatures', PolynomialFeatures(include_bias=False)),
+                ('linearregression', LinearRegression)]): 0.9782448805390871
+HistGradientBoostingRegressor: 1.1406353657894466
+
+===Note===
+Note, based on the selected auto assignment quality, the set of evaluated models changes.
+For more insights toward the quality of the fitted graphical causal model, consider using the evaluate_causal_model function after fitting the causal mechanisms.

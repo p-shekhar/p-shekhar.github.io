@@ -1,0 +1,22 @@
+forbidden_direction,reason
+need -> environment,later-to-earlier tier
+intent -> environment,later-to-earlier tier
+match -> environment,later-to-earlier tier
+match -> need,later-to-earlier tier
+match -> intent,later-to-earlier tier
+engagement -> environment,later-to-earlier tier
+engagement -> need,later-to-earlier tier
+engagement -> intent,later-to-earlier tier
+engagement -> match,later-to-earlier tier
+renewal -> environment,later-to-earlier tier
+renewal -> need,later-to-earlier tier
+renewal -> intent,later-to-earlier tier
+renewal -> match,later-to-earlier tier
+renewal -> engagement,later-to-earlier tier
+renewal -> support,within downstream outcome tier
+support -> environment,later-to-earlier tier
+support -> need,later-to-earlier tier
+support -> intent,later-to-earlier tier
+support -> match,later-to-earlier tier
+support -> engagement,later-to-earlier tier
+support -> renewal,within downstream outcome tier

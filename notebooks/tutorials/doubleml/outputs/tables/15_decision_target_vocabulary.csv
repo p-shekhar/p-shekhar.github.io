@@ -1,0 +1,5 @@
+target,plain_language,decision_question,DoubleML_tool
+Weighted ATE,Average effect after assigning more importance to some observations.,What is the effect for the population we care most about?,DoubleMLIRM(weights=...)
+Policy tree,A shallow decision rule that recommends treatment when the orthogonal benefit signal is positive.,"Who should receive treatment under a simple, auditable rule?",DoubleMLIRM.policy_tree()
+QTE,Difference between treated and untreated potential-outcome quantiles.,"Does treatment shift the lower, middle, or upper part of the outcome distribution?",DoubleMLQTE
+CVaR,"Average potential outcome inside a lower tail, such as the worst 10% or 20%.",Does treatment improve downside outcomes for the worst-off cases?,DoubleMLCVAR

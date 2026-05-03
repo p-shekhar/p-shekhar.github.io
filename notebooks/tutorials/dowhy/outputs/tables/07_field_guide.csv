@@ -1,0 +1,10 @@
+column,role,description
+recommendation_exposure,treatment,Binary indicator for whether the unit received the recommendation exposure.
+weekly_value,outcome,Continuous post-treatment value outcome.
+baseline_intent,confounder and effect modifier,"Pre-treatment intent score that affects exposure, outcome, and treatment-effect size."
+power_segment,confounder and effect modifier,"Binary pre-treatment segment indicator that affects exposure, outcome, and treatment-effect size."
+seasonality_score,confounder,Pre-treatment timing score that affects exposure and outcome but not the treatment effect directly.
+prior_value,confounder,Pre-treatment value summary that affects exposure and outcome.
+treatment_probability,known simulation diagnostic,The true treatment probability used to generate exposure; normally unknown in observational data.
+true_cate,known simulation diagnostic,The true treatment effect for each row; normally unobserved in real data.
+segment_label,display label,Human-readable version of the power segment indicator.

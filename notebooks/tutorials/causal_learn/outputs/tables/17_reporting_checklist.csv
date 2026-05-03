@@ -1,0 +1,11 @@
+category,check,why_it_matters
+Question,Is the causal discovery target stated in plain language?,Avoids drifting from exploration to overclaiming.
+Variables,Does every variable have a definition and measurement window?,Prevents temporal leakage and mixed-granularity graphs.
+Rows,Is the sampling or selection rule documented?,Makes selection bias visible.
+Assumptions,"Are sufficiency, faithfulness, stationarity, and functional assumptions stated?",Connects algorithms to the conditions they need.
+Algorithms,"Are algorithm settings, tests, scores, and package versions saved?",Makes the run reproducible.
+Stability,"Were alpha, sample, seed, threshold, or method sensitivity checks run?",Separates stable candidates from fragile edges.
+Hidden causes,Were plausible omitted common causes reviewed?,Protects against reading confounded links as direct effects.
+Graph reading,"Are adjacencies, directions, and equivalence-class limits separated?",Reduces over-orientation.
+Validation,"Is there a proposed experiment, quasi-experiment, or effect-estimation follow-up?",Moves from graph hypotheses to causal evidence.
+Communication,Does the report use cautious language for candidate edges?,Keeps the audience from treating discovery as proof.

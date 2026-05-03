@@ -1,0 +1,27 @@
+child,parent_set,parent_count,local_bic_score_lower_is_better
+match,"['need', 'intent', 'engagement']",3,-4479.0897703144165
+match,"['need', 'intent', 'support']",3,-3667.0151717527633
+match,"['need', 'intent', 'renewal']",3,-3648.117337477761
+match,"['need', 'engagement', 'renewal']",3,-3556.4116523902394
+match,"['need', 'intent']",2,-3516.4798638483244
+match,"['intent', 'engagement']",2,-3275.4169512757926
+match,"['intent', 'engagement', 'support']",3,-3269.316849530114
+match,"['intent', 'engagement', 'renewal']",3,-3268.865824239757
+match,"['need', 'engagement']",2,-3180.7921286219994
+match,"['need', 'engagement', 'support']",3,-3173.3014945374907
+match,"['engagement', 'renewal']",2,-2976.977150075939
+match,"['engagement', 'renewal', 'support']",3,-2971.0605296416784
+match,"['need', 'renewal', 'support']",3,-2811.8844798450637
+match,['engagement'],1,-2793.6395866923754
+match,"['engagement', 'support']",2,-2787.2033784867945
+match,"['need', 'renewal']",2,-2674.0205465825957
+match,"['intent', 'renewal', 'support']",3,-1976.9030318055748
+match,"['renewal', 'support']",2,-1750.5603654442175
+match,"['intent', 'support']",2,-1727.425373794288
+match,"['intent', 'renewal']",2,-1672.9105146082995
+match,"['need', 'support']",2,-1506.9971208507277
+match,['renewal'],1,-1453.4649878631142
+match,['intent'],1,-1300.5054884931833
+match,['need'],1,-1084.7570413117817
+match,['support'],1,-674.6864075887665
+match,[],0,0.0

@@ -1,0 +1,9 @@
+check,why_it_matters
+Data timing,Confirm every variable is measured at the intended time and does not include future leakage.
+Variable roles,"Decide whether variables are observed causes, outcomes, mediators, selection variables, or environment indices."
+Data type,"Choose methods and tests that match continuous, discrete, mixed, or time-series data."
+Hidden confounding risk,"Decide whether causal sufficiency is plausible; if not, consider FCI-style methods."
+Sample size,Check whether conditional independence tests or score searches are realistic for the number of variables.
+Domain constraints,Collect required or forbidden edges before looking at results when possible.
+Sensitivity,"Plan to vary alpha, scores, bootstrap samples, or algorithm families."
+Reporting,State that the output is a candidate graph unless stronger validation is available.

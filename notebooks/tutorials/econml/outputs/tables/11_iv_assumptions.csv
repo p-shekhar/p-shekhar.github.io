@@ -1,0 +1,5 @@
+assumption,plain_language,observable_check,failure_mode
+Relevance,The instrument changes treatment after adjusting for observed covariates.,"First-stage coefficient, partial R-squared, residualized Z versus residualized T plot.",Weak instruments produce noisy and unstable IV estimates.
+Independence,The instrument is as-if random conditional on observed covariates.,"Balance checks and design documentation, not a definitive statistical test.","If Z is correlated with hidden confounders, IV estimates can be biased."
+Exclusion,The instrument affects the outcome only through treatment.,Substantive design argument and placebo outcomes where possible.,A direct Z -> Y path contaminates the IV contrast.
+Monotonicity or no defiers,The instrument pushes treatment in a consistent direction for relevant units.,"Usually argued from design, especially for encouragements or eligibility thresholds.","If some units move opposite the instrument, the estimand becomes hard to interpret."

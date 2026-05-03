@@ -1,0 +1,14 @@
+field,role,timing
+need_score,X,Pre-treatment
+prior_activity,X,Pre-treatment
+preference_match,X,Pre-treatment
+search_friction,X,Pre-treatment
+price_sensitivity,X,Pre-treatment
+device_quality,X,Pre-treatment
+high_intent_segment,X,Pre-treatment
+marketing_intensity,W,Pre-treatment
+competitive_pressure,W,Pre-treatment
+market_maturity,W,Pre-treatment
+tenure_weeks,W,Pre-treatment
+organic_source,W,Pre-treatment
+weekday_signup,W,Pre-treatment

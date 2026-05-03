@@ -1,0 +1,5 @@
+situation,why DRLearner helps,watchout
+Binary treatment with observed confounding,It combines outcome regression and propensity correction in a CATE pseudo-outcome.,Both nuisance routes still need credible pre-treatment covariates and overlap.
+Outcome models are strong but treatment assignment is uneven,Outcome regression carries much of the signal while propensity correction reduces assignment bias.,Extreme propensity values can still inflate pseudo-outcome noise.
+Treatment targeting is the main goal,A flexible final model can learn rankings from DR pseudo-outcomes.,"Evaluate ranking and policy value, not only average effect."
+A very readable CATE story is required,A linear final model can make the final CATE surface compact.,The final model may miss nonlinear heterogeneity.

@@ -1,0 +1,2 @@
+candidate,learned_edges,skeleton_tp,skeleton_fp,skeleton_fn,skeleton_precision,skeleton_recall,arrow_tp,arrow_fp,arrow_fn,arrow_precision,arrow_recall,reversed_arrows,unresolved_true_edges
+nonlinear_fisherz_pc,8,6,2,0,0.75,1.0,4,2,2,0.6666666666666666,0.6666666666666666,1,1

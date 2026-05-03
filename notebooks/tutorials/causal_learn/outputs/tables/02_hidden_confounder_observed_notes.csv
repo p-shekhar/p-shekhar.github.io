@@ -1,0 +1,3 @@
+note_type,note
+assumption,"Observed file omits latent_demand, which affects match and renewal."
+intended_use,Useful for FCI/PAG hidden-confounding examples.

@@ -1,0 +1,10 @@
+x,y,separating_sets
+need,intent,empty set
+need,engagement,{match}
+need,renewal,"{intent, match, engagement}"
+need,support,"{match, engagement}"
+intent,engagement,{match}
+intent,support,"{match, engagement}"
+match,renewal,"{intent, engagement}"
+match,support,{engagement}
+renewal,support,{engagement}

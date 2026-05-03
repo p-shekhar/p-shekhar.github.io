@@ -1,0 +1,7 @@
+component,definition
+Population,Users or units eligible for proactive guidance in the observational table.
+Treatment,`proactive_guidance`: whether the unit received guidance during the exposure window.
+Outcome,`future_engagement`: later engagement measured after the exposure and activation windows.
+Estimand,Average total effect of guidance versus no guidance.
+Adjustment principle,"Adjust for pre-treatment confounders, not post-treatment activation depth."
+Main limitation,Credibility depends on no unmeasured confounding after observed pre-treatment covariates.

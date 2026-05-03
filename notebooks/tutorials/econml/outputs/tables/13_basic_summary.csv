@@ -1,0 +1,11 @@
+metric,value
+rows,4000.0
+columns,16.0
+treatment_rate,0.43975
+outcome_mean,1.5411518968080986
+outcome_std,1.3688089916696078
+true_ate,0.198487865239154
+true_cate_std,0.5070038844172741
+share_positive_true_cate,0.64
+min_true_propensity,0.04
+max_true_propensity,0.944819232872287

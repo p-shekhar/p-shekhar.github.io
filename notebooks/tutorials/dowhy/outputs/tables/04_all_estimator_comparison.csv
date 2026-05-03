@@ -1,0 +1,12 @@
+source,estimator,estimate,absolute_error_vs_true_ate
+manual,known_true_ate,1.65,0.0
+manual,naive_difference_in_means,3.442530756024601,1.7925307560246009
+manual,adjusted_outcome_regression,1.6757247448949797,0.02572474489497978
+manual,propensity_score_matching,1.7324215916667765,0.08242159166677654
+manual,propensity_score_stratification,1.7656274063276076,0.1156274063276077
+manual,ipw_weighting,1.8027905799517572,0.15279057995175727
+manual,normalized_ipw_weighting,1.7533151883106202,0.10331518831062025
+dowhy,dowhy_linear_regression,1.675724744894982,0.025724744894982
+dowhy,dowhy_propensity_score_matching,1.734641575247417,0.084641575247417
+dowhy,dowhy_propensity_score_stratification,1.6448475985362796,0.005152401463720313
+dowhy,dowhy_propensity_score_weighting,1.7581895948379769,0.10818959483797697

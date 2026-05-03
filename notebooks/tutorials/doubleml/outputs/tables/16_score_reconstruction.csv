@@ -1,0 +1,6 @@
+calculation,value
+DoubleML coefficient,1.285173544668044
+-mean(psi_b) / mean(psi_a),1.285173544668044
+True theta,1.25
+mean(psi_a),-1.103178208546223
+mean(psi_b),1.417775448677892

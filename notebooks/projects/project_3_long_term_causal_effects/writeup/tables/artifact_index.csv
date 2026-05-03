@@ -1,0 +1,17 @@
+artifact,type,size_bytes
+figures/01_estimator_comparison.png,png,84935.0
+figures/02_weight_balance.png,png,131917.0
+figures/03_weight_sensitivity.png,png,127032.0
+figures/04_secondary_outcomes.png,png,87650.0
+figures/05_prior_interaction_segments.png,png,68157.0
+figures/06_effect_moderator_importance.png,png,107326.0
+final_project_summary.md,md,2219.0
+resume_bullets.md,md,853.0
+tables/effect_moderator_importance.csv,csv,495.0
+tables/final_estimator_comparison.csv,csv,709.0
+tables/final_recommendation.csv,csv,968.0
+tables/heterogeneous_segment_effects.csv,csv,4351.0
+tables/limitations.csv,csv,1469.0
+tables/msm_weight_sensitivity.csv,csv,1318.0
+tables/secondary_outcome_summary.csv,csv,1025.0
+tables/weight_readiness_checks.csv,csv,395.0

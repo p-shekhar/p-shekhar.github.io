@@ -1,0 +1,6 @@
+component,deepiv_view,dmliv_view
+Use case,Flexible continuous treatment with potentially nonlinear treatment response.,Orthogonalized IV estimation with machine-learning nuisance models and a final CATE model.
+First stage,"Model the full treatment distribution p(T | X, Z).","Model expected treatment using X and Z, plus expected treatment using X alone."
+Second stage,Learn an outcome response by integrating over treatment draws from the first stage.,Use residualized treatment variation induced by the instrument to estimate effects.
+Practical requirements,"Neural-network backend, careful tuning, and enough data for flexible density and outcome models.",Works with standard scikit-learn nuisance models and can be easier to audit.
+This notebook,Conceptual discussion only because the local module/backend is absent.,Fully executable examples with synthetic ground truth.

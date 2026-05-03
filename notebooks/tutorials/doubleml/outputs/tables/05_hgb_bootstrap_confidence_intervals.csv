@@ -1,0 +1,3 @@
+treatment,2.5 %,97.5 %,estimator,score
+feature_exposure,0.87965435397946,1.0908896578786653,Gradient boosting nuisance IRM ATE bootstrap,ATE
+feature_exposure,0.9113075532968933,1.1852244287779923,Gradient boosting nuisance IRM ATTE bootstrap,ATTE

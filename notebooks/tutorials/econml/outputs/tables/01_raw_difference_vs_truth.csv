@@ -1,0 +1,4 @@
+quantity,value
+raw treated-control difference,1.0464418591729077
+true ATE,0.5049708366167389
+raw bias versus true ATE,0.5414710225561687

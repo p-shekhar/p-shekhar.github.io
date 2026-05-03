@@ -1,0 +1,8 @@
+pitfall,what goes wrong,debugging check
+raw association,Treatment and outcome differ because treatment assignment is confounded.,Compare treated/control covariates before trusting outcome differences.
+bad control,A post-treatment mediator is added to a total-effect adjustment set.,Document variable timing and exclude descendants of treatment for total effects.
+collider adjustment,Conditioning on a common effect opens a noncausal path.,Ask whether the variable is caused by treatment and another outcome cause.
+leakage,A future or outcome-derived feature is used as a control.,Audit feature timestamps and outcome construction.
+weak overlap,Treated and control units are not comparable in parts of covariate space.,"Plot propensity overlap, weights, and effective sample size."
+graph misspecification,DoWhy identifies the wrong adjustment set because the graph encodes the wrong story.,"Review graph edges, omitted variables, and variable timing before estimation."
+overconfident reporting,"A single estimate is reported without assumptions, diagnostics, or sensitivity checks.",Use a final scorecard with limitations and recommended validation.

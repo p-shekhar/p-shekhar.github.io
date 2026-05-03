@@ -1,0 +1,7 @@
+property,value
+n_obs,6000
+outcome,outcome_observed
+treatment,treated
+selection,selected
+n_covariates,6
+covariates,"engagement_score, baseline_value, support_need, prior_usage, mobile_user, selection_encouragement"

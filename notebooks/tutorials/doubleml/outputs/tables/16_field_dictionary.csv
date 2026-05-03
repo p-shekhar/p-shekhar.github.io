@@ -1,0 +1,8 @@
+column,role,description
+x00-x07,Observed controls,Pre-treatment covariates used by nuisance learners.
+priority_score,Pre-treatment priority signal,Used to define priority weights for a custom score example.
+priority_segment,Reporting group,High-priority vs standard group based on priority_score.
+true_m,Oracle diagnostic,True treatment nuisance E[D|X]; unavailable in real data.
+true_g,Oracle diagnostic,True baseline outcome nuisance g0(X); unavailable in real data.
+treatment,Treatment,Continuous treatment variable D.
+outcome,Outcome,Observed continuous outcome Y.

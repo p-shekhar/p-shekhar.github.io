@@ -1,0 +1,5 @@
+situation,learner_to_try,why,watchout
+You need a simple baseline quickly,S-learner,One model is easy to fit and explain.,It may understate heterogeneity if treatment is not used strongly by the outcome model.
+Treatment and control groups are both large,T-learner,Separate response surfaces can capture different outcome patterns by arm.,"If one arm is small, that arm's model may be unstable."
+Treatment groups are imbalanced,X-learner,Imputed-effect models can borrow strength from the larger arm.,It has more nuisance components and can be sensitive to propensity quality.
+The goal is robust causal adjustment with explicit nuisance modeling,DRLearner or DML estimator,Meta-learners are outcome-model based and may not be enough for complex confounding.,"Choose the estimator based on the design, not only prediction performance."

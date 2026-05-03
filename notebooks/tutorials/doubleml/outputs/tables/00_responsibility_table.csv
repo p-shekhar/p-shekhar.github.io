@@ -1,0 +1,8 @@
+task,main_owner,doubleml_role
+Define the causal question,analyst,None directly; the package fits models after the question is specified.
+Choose an identification strategy,analyst,"Provides model classes for several strategies, but does not validate assumptions by itself."
+Assign variable roles,analyst,Stores roles in data backend objects and uses them during fitting.
+Estimate nuisance functions,DoubleML plus supplied learners,"Clones learners, fits cross-fitted nuisance models, and stores predictions/losses."
+Solve orthogonal score,DoubleML,Computes target estimates using model-specific orthogonal moments.
+Quantify uncertainty,DoubleML,"Reports standard errors, confidence intervals, p-values, and bootstrap tools where available."
+Write credible conclusions,analyst,Supplies estimates and diagnostics that must be reported with design caveats.

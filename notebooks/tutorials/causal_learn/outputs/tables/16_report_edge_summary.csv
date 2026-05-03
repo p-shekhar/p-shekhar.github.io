@@ -1,0 +1,9 @@
+source,target,evidence_label,business_role,overall_inclusion_rate,pc_rate,ges_rate,lingam_rate,methods_with_any_support
+baseline_need,discovery_quality,strong candidate,upstream need to discovery mechanism,0.9833333333333333,1.0,0.95,1.0,3
+catalog_fit,discovery_quality,strong candidate,catalog fit to discovery mechanism,0.9833333333333333,1.0,0.95,1.0,3
+discovery_quality,early_engagement,strong candidate,discovery driving early usage,1.0,1.0,1.0,1.0,3
+discovery_quality,retention_value,strong candidate,direct discovery-to-retention path,0.75,0.25,1.0,1.0,3
+early_engagement,retention_value,strong candidate,engagement-to-retention path,1.0,1.0,1.0,1.0,3
+onboarding_friction,early_engagement,strong candidate,friction reducing early engagement,0.8666666666666667,0.6,1.0,1.0,3
+onboarding_friction,support_contact,strong candidate,friction increasing support burden,0.75,1.0,0.25,1.0,3
+support_contact,retention_value,strong candidate,support burden to retention path,1.0,1.0,1.0,1.0,3

@@ -1,0 +1,4 @@
+run,dataset,score,forward_updates,backward_updates
+bic_ges_linear_gaussian,linear_gaussian,-2547.995675814275,8,2
+bic_ges_linear_nongaussian,linear_nongaussian,-2561.286088306612,8,1
+bic_ges_nonlinear_continuous,nonlinear_continuous,-4253.218604816502,9,0

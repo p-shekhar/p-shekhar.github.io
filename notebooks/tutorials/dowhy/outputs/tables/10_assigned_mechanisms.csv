@@ -1,0 +1,7 @@
+node,parents,mechanism_type,mechanism_description
+user_intent,none,EmpiricalDistribution,Empirical Distribution
+recommendation_exposure,"user_intent, content_quality, content_novelty",AdditiveNoiseModel,AdditiveNoiseModel using LinearRegression
+content_quality,none,EmpiricalDistribution,Empirical Distribution
+content_novelty,none,EmpiricalDistribution,Empirical Distribution
+watch_time,"recommendation_exposure, user_intent, content_quality",AdditiveNoiseModel,AdditiveNoiseModel using LinearRegression
+retention_score,"watch_time, user_intent, content_quality",AdditiveNoiseModel,AdditiveNoiseModel using LinearRegression

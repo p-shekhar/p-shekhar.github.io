@@ -1,0 +1,8 @@
+metric,value
+train_estimated_ate,0.5013584199374181
+train_true_ate,0.49032266933791385
+test_estimated_ate,0.5288888016955451
+test_true_ate,0.5151716173304207
+test_ate_error,0.013717184365124369
+test_cate_rmse,0.0979032761354898
+test_cate_correlation,0.9778751473362952

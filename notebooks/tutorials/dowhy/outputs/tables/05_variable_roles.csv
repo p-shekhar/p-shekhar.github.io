@@ -1,0 +1,9 @@
+variable,role,timing,adjustment_guidance
+feature_exposure,treatment,treatment time,"treatment, not a control"
+weekly_value,outcome,future outcome window,"outcome, not a control"
+user_engagement,observed common cause,pre-treatment,adjust
+prior_sessions,observed common cause,pre-treatment,adjust
+account_age_weeks,observed common cause,pre-treatment,adjust
+is_power_user,observed common cause,pre-treatment,adjust
+baseline_value,observed common cause,pre-treatment,adjust
+true_propensity,simulation diagnostic,known only because this is simulated,do not use as a real observed column

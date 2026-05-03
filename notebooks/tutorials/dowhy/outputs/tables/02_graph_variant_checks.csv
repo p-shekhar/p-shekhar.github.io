@@ -1,0 +1,5 @@
+graph_variant,node_count,edge_count,is_dag
+main_graph_total_effect,8,15,True
+missing_user_engagement_confounder,7,12,True
+mediator_treated_as_confounder,8,12,True
+collider_treated_as_confounder,8,15,True

@@ -1,0 +1,10 @@
+topic,question,notebook_answer
+running variable,What score determines treatment eligibility?,running_score.
+cutoff,Where does assignment change?,Cutoff is 0.0.
+design type,Is treatment sharp or fuzzy at the cutoff?,Both sharp and fuzzy examples are demonstrated.
+estimand,Is the effect local or global?,Local effect at the cutoff.
+support,Are there enough observations on both sides near the cutoff?,Checked through local window counts.
+manipulation,Is there suspicious bunching at the cutoff?,Checked through running-score histograms.
+covariate continuity,Do pre-treatment covariates jump at the cutoff?,Checked with local-linear covariate discontinuities.
+bandwidth,Does the estimate change across reasonable bandwidths?,Checked through bandwidth sensitivity.
+fuzzy first stage,Does cutoff crossing shift treatment probability?,Checked in the fuzzy first-stage plot.

@@ -1,0 +1,10 @@
+variable,role,timing,total_effect_adjustment_guidance
+feature_exposure,treatment,treatment time,"treatment, not a control"
+weekly_value,outcome,future outcome window,"outcome, not a control"
+user_engagement,observed confounder,pre-treatment,adjust
+prior_sessions,observed confounder,pre-treatment,adjust
+account_age_weeks,observed confounder,pre-treatment,adjust
+baseline_value,observed confounder,pre-treatment,adjust
+post_exposure_activity,mediator / bad control for total effect,post-treatment,do not adjust for total effect
+support_ticket,collider / bad control,post-treatment,do not adjust
+treatment_probability,simulation diagnostic,known only because this is simulated,do not use as a real observed column

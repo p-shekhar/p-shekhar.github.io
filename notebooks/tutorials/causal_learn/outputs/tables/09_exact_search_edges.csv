@@ -1,0 +1,13 @@
+run,source,edge_type,target,search_method
+exact_bic_astar,need,-->,match,astar
+exact_bic_astar,intent,-->,match,astar
+exact_bic_astar,intent,-->,renewal,astar
+exact_bic_astar,match,-->,engagement,astar
+exact_bic_astar,engagement,-->,renewal,astar
+exact_bic_astar,engagement,-->,support,astar
+exact_bic_dp,need,-->,match,dp
+exact_bic_dp,intent,-->,match,dp
+exact_bic_dp,intent,-->,renewal,dp
+exact_bic_dp,match,-->,engagement,dp
+exact_bic_dp,engagement,-->,renewal,dp
+exact_bic_dp,engagement,-->,support,dp

@@ -1,0 +1,7 @@
+column,role,description
+user_intent,root node,"Upstream user-level signal that affects exposure, watch time, and retention."
+content_quality,root node,"Upstream content-level signal that affects exposure, watch time, and retention."
+content_novelty,root node,Upstream content novelty signal that affects recommendation exposure.
+recommendation_exposure,non-root node,Exposure intensity generated from the upstream root variables.
+watch_time,non-root mediator,"Engagement variable generated from exposure, intent, and quality."
+retention_score,non-root outcome,"Final outcome generated from watch time, intent, and quality."

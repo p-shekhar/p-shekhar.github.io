@@ -1,0 +1,8 @@
+run,source,edge_type,target
+too_strict_super_graph,need,-->,match
+too_strict_super_graph,need,-->,renewal
+too_strict_super_graph,intent,-->,match
+too_strict_super_graph,match,-->,engagement
+too_strict_super_graph,match,-->,renewal
+too_strict_super_graph,engagement,-->,renewal
+too_strict_super_graph,engagement,-->,support

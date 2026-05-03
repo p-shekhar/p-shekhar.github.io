@@ -1,0 +1,15 @@
+feature,timing,modeling_status,timing_flag
+need_score,Pre-treatment,Allowed X.,Allowed timing
+prior_activity,Pre-treatment,Allowed X.,Allowed timing
+preference_match,Pre-treatment,Allowed X.,Allowed timing
+search_friction,Pre-treatment,Allowed X.,Allowed timing
+price_sensitivity,Pre-treatment,Allowed X.,Allowed timing
+device_quality,Pre-treatment,Allowed X.,Allowed timing
+high_intent_segment,Pre-treatment,Allowed X.,Allowed timing
+marketing_intensity,Pre-treatment,Allowed W.,Allowed timing
+competitive_pressure,Pre-treatment,Allowed W.,Allowed timing
+market_maturity,Pre-treatment,Allowed W.,Allowed timing
+tenure_weeks,Pre-treatment,Allowed W.,Allowed timing
+organic_source,Pre-treatment,Allowed W.,Allowed timing
+weekday_signup,Pre-treatment,Allowed W.,Allowed timing
+post_treatment_activity,Post-treatment,Pitfall: do not adjust as a confounder.,Invalid for total-effect adjustment

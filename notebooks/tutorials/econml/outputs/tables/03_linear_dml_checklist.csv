@@ -1,0 +1,10 @@
+check,why_it_matters
+Treatment and outcome are clearly defined,The estimator needs a precise intervention and post-treatment response.
+All X and W features are pre-treatment,Post-treatment controls can distort the causal estimand.
+X contains the heterogeneity dimensions you want to report,The final CATE model can vary only along X.
+W contains important adjustment controls,Nuisance models need enough information to reduce confounding.
+Overlap is adequate,Unsupported regions force extrapolation.
+Nuisance models have reasonable out-of-fold diagnostics,Poor nuisance models leave confounding in the residuals.
+Coefficient signs match domain expectations where possible,"Unexpected signs can flag leakage, coding errors, or misspecification."
+Dense and sparse results are compared when X is wide,Sparse shrinkage helps reveal whether the coefficient story is stable.
+"CATE estimates are evaluated as rankings, not only point values",Treatment targeting depends heavily on ranking quality.

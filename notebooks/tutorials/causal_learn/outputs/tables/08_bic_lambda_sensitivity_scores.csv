@@ -1,0 +1,5 @@
+run,lambda_value,score,forward_updates,backward_updates
+bic_ges_lambda_0.25,0.25,-2524.5235377817075,8,2
+bic_ges_lambda_0.5,0.5,-2547.995675814275,8,2
+bic_ges_lambda_1,1.0,-2608.870597835834,7,0
+bic_ges_lambda_2,2.0,-2710.5831959769657,7,0

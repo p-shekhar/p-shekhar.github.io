@@ -1,0 +1,7 @@
+topic,question_to_answer,reporting_note
+score choice,"Which score was used, and why does it match the data type and mechanism assumptions?","BIC, BDeu, and kernel scores answer different modeling questions."
+penalty or priors,What penalty coefficient or score prior was used?,Graph density can change when the complexity penalty changes.
+search path,How many forward and backward updates occurred?,The final graph is easier to debug when the search path is visible.
+sample-size sensitivity,Does the graph stabilize as sample size increases?,Small-sample score differences can be noisy.
+model mismatch,What happens when the same score is run on data with different mechanisms?,A score can be fast and elegant but still wrong for nonlinear data.
+claim strength,Which edges are stable candidate structure rather than confirmed causal directions?,"GES returns a discovered graph under assumptions, not a final causal proof."

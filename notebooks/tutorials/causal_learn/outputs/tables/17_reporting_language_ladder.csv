@@ -1,0 +1,6 @@
+claim_level,example_language,minimum_support_needed
+association pattern,These variables are connected in the observed-data graph.,Clean data audit and a transparent discovery run.
+stable candidate edge,This edge is a stable candidate across sensitivity checks.,"Bootstrap, alpha, sample-split, or method-comparison support."
+direction supported by assumptions,The direction is supported under the stated timing and algorithm assumptions.,"Documented measurement order, background knowledge, and algorithm assumptions."
+causal mechanism hypothesis,This path is a plausible mechanism to validate next.,Stable graph evidence plus domain review and a validation plan.
+decision-ready causal claim,Changing this variable is expected to change the outcome by this amount.,"An experiment, quasi-experiment, or effect-estimation design beyond graph discovery alone."

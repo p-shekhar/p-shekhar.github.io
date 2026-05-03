@@ -1,0 +1,8 @@
+run,source,edge_type,target
+discrete_chisq_pc,need,-->,match
+discrete_chisq_pc,need,-->,engagement
+discrete_chisq_pc,match,-->,intent
+discrete_chisq_pc,intent,---,renewal
+discrete_chisq_pc,engagement,-->,match
+discrete_chisq_pc,renewal,-->,engagement
+discrete_chisq_pc,engagement,-->,support

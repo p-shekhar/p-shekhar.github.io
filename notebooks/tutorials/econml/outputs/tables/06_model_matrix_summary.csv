@@ -1,0 +1,5 @@
+object,rows,columns,meaning
+Y_train,2080,1,Observed outcome.
+T_train,2080,1,Observed binary treatment.
+X_train,2080,13,All observed pre-treatment features for meta-learners.
+true_cate_test,1120,1,Oracle effect used only for evaluation.

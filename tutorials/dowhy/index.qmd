@@ -1,0 +1,40 @@
+---
+title: "DoWhy tutorial series"
+description: "A hands-on tutorial series for causal graphs, identification, estimation, refutation, GCM workflows, and reporting with DoWhy."
+date: 2026-05-03
+categories: [DoWhy, Python, Causal Graphs, Refutation]
+---
+
+DoWhy is the tutorial track for explicit causal assumptions: model the graph, identify the estimand, estimate the effect, and refute or stress-test the result.
+
+::: {.sequence-note}
+Notebook links open rendered HTML pages generated from the source notebooks under `notebooks/tutorials/`. Rendering is configured not to execute notebooks during site builds, so the pages are safe to publish even when a notebook contains heavier optional cells.
+:::
+
+## Notebook Sequence
+
+<ol class="notebook-sequence">
+  <li><a href="../../notebooks/tutorials/dowhy/00_environment_and_library_tour.html" data-site-path="notebooks/tutorials/dowhy/00_environment_and_library_tour.html">DoWhy Tutorial 00: Environment And Library Tour</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/01_core_workflow_model_identify_estimate_refute.html" data-site-path="notebooks/tutorials/dowhy/01_core_workflow_model_identify_estimate_refute.html">DoWhy Tutorial 01: Core Workflow, From Question To Refutation</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/02_causal_graphs_dags_and_assumptions.html" data-site-path="notebooks/tutorials/dowhy/02_causal_graphs_dags_and_assumptions.html">DoWhy Tutorial 02: Causal Graphs, DAGs, And Assumptions</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/03_backdoor_adjustment_and_confounding.html" data-site-path="notebooks/tutorials/dowhy/03_backdoor_adjustment_and_confounding.html">DoWhy Tutorial 03: Backdoor Adjustment And Confounding</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/04_regression_matching_and_propensity_estimators.html" data-site-path="notebooks/tutorials/dowhy/04_regression_matching_and_propensity_estimators.html">DoWhy Tutorial 04: Regression, Matching, And Propensity Estimators</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/05_weighting_overlap_and_common_support.html" data-site-path="notebooks/tutorials/dowhy/05_weighting_overlap_and_common_support.html">DoWhy Tutorial 05: Weighting, Overlap, And Common Support</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/06_frontdoor_iv_and_natural_experiments.html" data-site-path="notebooks/tutorials/dowhy/06_frontdoor_iv_and_natural_experiments.html">DoWhy Tutorial 06: Frontdoor, IV, And Natural Experiments</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/07_cate_and_heterogeneous_effects.html" data-site-path="notebooks/tutorials/dowhy/07_cate_and_heterogeneous_effects.html">DoWhy Tutorial 07: CATE And Heterogeneous Effects</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/08_refuters_placebos_negative_controls_sensitivity.html" data-site-path="notebooks/tutorials/dowhy/08_refuters_placebos_negative_controls_sensitivity.html">DoWhy Tutorial 08: Refuters, Placebos, Negative Controls, And Sensitivity</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/09_graph_discovery_and_graph_refutation.html" data-site-path="notebooks/tutorials/dowhy/09_graph_discovery_and_graph_refutation.html">DoWhy Tutorial 09: Graph Discovery And Graph Refutation</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/10_gcm_structural_causal_models.html" data-site-path="notebooks/tutorials/dowhy/10_gcm_structural_causal_models.html">DoWhy Tutorial 10: GCM Structural Causal Models</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/11_interventions_and_counterfactuals_with_gcm.html" data-site-path="notebooks/tutorials/dowhy/11_interventions_and_counterfactuals_with_gcm.html">DoWhy Tutorial 11: Interventions And Counterfactuals With GCM</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/12_mediation_direct_and_indirect_effects.html" data-site-path="notebooks/tutorials/dowhy/12_mediation_direct_and_indirect_effects.html">DoWhy Tutorial 12: Mediation, Direct, And Indirect Effects</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/13_root_cause_anomaly_and_distribution_change.html" data-site-path="notebooks/tutorials/dowhy/13_root_cause_anomaly_and_distribution_change.html">DoWhy Tutorial 13: Root Cause, Anomaly, And Distribution Change</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/14_end_to_end_observational_case_study.html" data-site-path="notebooks/tutorials/dowhy/14_end_to_end_observational_case_study.html">DoWhy Tutorial 14: End-To-End Observational Case Study</a></li>
+  <li><a href="../../notebooks/tutorials/dowhy/15_common_pitfalls_debugging_and_reporting.html" data-site-path="notebooks/tutorials/dowhy/15_common_pitfalls_debugging_and_reporting.html">DoWhy Tutorial 15: Common Pitfalls, Debugging, And Reporting</a></li>
+</ol>
+
+## How To Use This Tutorial Series
+
+- Start with the environment and library-tour notebook.
+- Continue in order if you want a coherent package course.
+- Jump to individual notebooks when you need a specific estimator, diagnostic, or reporting pattern.
+- Keep the causal design separate from the package API: the library helps implement the workflow, but the assumptions still need to be stated and defended.

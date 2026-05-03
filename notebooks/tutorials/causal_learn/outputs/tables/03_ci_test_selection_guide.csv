@@ -1,0 +1,6 @@
+method_name,data_type,main_assumption,typical_use,caution
+fisherz,continuous,Approximately linear Gaussian relationships after conditioning.,PC on continuous Gaussian-style tabular data.,Can miss nonlinear dependence and can be sensitive to conditioning-set size.
+mv_fisherz,continuous with missing values,Fisher-Z style test with missing-value handling.,PC-style workflows when data have missing entries.,Missingness assumptions still matter; this is not magic protection against selection bias.
+chisq,discrete,Counts in contingency tables are informative enough for chi-square approximations.,Binary or categorical discovery examples.,Sparse categories and large conditioning sets can make the approximation weak.
+gsq,discrete,Likelihood-ratio version of a discrete conditional independence test.,Alternative to chi-square for categorical data.,Still depends on enough observations per conditioned cell.
+kci,continuous or mixed numeric,Kernel-based dependence test can detect nonlinear relationships.,Nonlinear discovery examples and robustness checks.,More computationally expensive; kernel choices and sample size matter.

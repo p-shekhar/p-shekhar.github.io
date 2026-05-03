@@ -1,0 +1,2 @@
+quantity,oracle_from_known_simulator,gcm_counterfactual_estimate,absolute_difference
+mean individual counterfactual effect of quality +0.5,0.4059725233202313,0.43209564289835645,0.02612311957812513

@@ -1,0 +1,7 @@
+node,parents,mechanism
+user_intent,none,EmpiricalDistribution
+recommendation_quality,"user_intent, catalog_match",AdditiveNoiseModel
+catalog_match,none,EmpiricalDistribution
+watch_time,"user_intent, recommendation_quality, tutorial_prompt",AdditiveNoiseModel
+tutorial_prompt,none,EmpiricalDistribution
+next_week_value,"user_intent, recommendation_quality, watch_time, tutorial_prompt",AdditiveNoiseModel

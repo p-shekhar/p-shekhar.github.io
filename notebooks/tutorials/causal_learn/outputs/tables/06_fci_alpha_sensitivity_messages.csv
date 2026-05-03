@@ -1,0 +1,14 @@
+run,message,alpha
+fci_alpha_0.001,renewal --> intent,0.001
+fci_alpha_0.001,match --> engagement,0.001
+fci_alpha_0.001,engagement --> support,0.001
+fci_alpha_0.005,match --> engagement,0.005
+fci_alpha_0.005,engagement --> support,0.005
+fci_alpha_0.01,match --> engagement,0.01
+fci_alpha_0.01,engagement --> support,0.01
+fci_alpha_0.05,match --> engagement,0.05
+fci_alpha_0.05,engagement --> support,0.05
+fci_alpha_0.1,match --> engagement,0.1
+fci_alpha_0.1,engagement --> support,0.1
+fci_alpha_0.2,match --> engagement,0.2
+fci_alpha_0.2,engagement --> support,0.2

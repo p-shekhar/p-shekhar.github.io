@@ -1,0 +1,2 @@
+estimator,design,theta_hat,std_error,ci_95_lower,ci_95_upper,true_target,bias_vs_target,treated_share,mean_control_weight
+Manual cross-fitted DR panel DID,panel,1.1701538702489174,0.022567608351054952,1.1259213578808496,1.2143863826169852,1.160607540053306,0.009546330195611352,0.491625,0.4952874631793821

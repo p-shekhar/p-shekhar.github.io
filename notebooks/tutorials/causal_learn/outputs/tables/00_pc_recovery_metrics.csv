@@ -1,0 +1,3 @@
+metric_family,true_positive,false_positive,false_negative,precision,recall
+skeleton,5,0,1,1.0,0.8333333333333334
+directed_edges,2,0,4,1.0,0.3333333333333333

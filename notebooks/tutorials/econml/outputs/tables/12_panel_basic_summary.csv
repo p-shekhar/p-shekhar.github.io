@@ -1,0 +1,11 @@
+metric,value
+units,1600.0
+periods_per_unit,4.0
+panel_rows,6400.0
+treatment_mean,-0.04050045605466448
+treatment_std,1.184163722676522
+final_outcome_mean_unit_level,1.1893086565509006
+final_outcome_std_unit_level,1.669034454988077
+mean_true_period_effect,0.20749240404987432
+mean_true_cumulative_effect,0.8299696161994973
+share_high_need_units,0.275

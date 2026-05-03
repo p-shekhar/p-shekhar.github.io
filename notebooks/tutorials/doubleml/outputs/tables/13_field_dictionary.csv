@@ -1,0 +1,10 @@
+column,role,description
+unit_id,identifier,Synthetic row identifier; excluded from modeling.
+x00-x07,observed controls,Observed pre-treatment controls.
+proxy_light,observed proxy control,Weak observed proxy for hidden_intent.
+proxy_strong,observed proxy control,Stronger observed proxy for hidden_intent.
+hidden_intent,oracle only,Unobserved confounder in realistic analyses; included here only for simulation checks.
+true_m,oracle only,True treatment nuisance function.
+true_g,oracle only,True outcome nuisance component.
+treatment,treatment,Continuous treatment affected by observed controls and hidden_intent.
+outcome,outcome,"Continuous outcome affected by treatment, observed controls, and hidden_intent."

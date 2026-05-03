@@ -1,0 +1,6 @@
+quantity,estimate
+ATT from treated-to-control matching,1.7252634178985717
+ATC from control-to-treated matching,1.7399184597352055
+ATE weighted from ATT and ATC,1.7324215916667765
+Mean treated-to-control propensity distance,0.0006556927956812448
+Mean control-to-treated propensity distance,0.0004952066565721573

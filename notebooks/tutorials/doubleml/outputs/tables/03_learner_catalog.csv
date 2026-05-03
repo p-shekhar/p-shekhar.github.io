@@ -1,0 +1,3 @@
+learner_name,sklearn_object,why_use_it
+Regularized linear nuisance,Pipeline,Transparent baseline; fast; may underfit nonlinear nuisance functions.
+Histogram gradient boosting nuisance,HistGradientBoostingRegressor,Captures nonlinearities and interactions in this synthetic assignment rule.

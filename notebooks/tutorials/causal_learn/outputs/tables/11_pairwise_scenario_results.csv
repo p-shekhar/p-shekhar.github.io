@@ -1,0 +1,6 @@
+x,y,p_value_x_to_y,p_value_y_to_x,preferred_direction,preferred_source,preferred_target,p_value_margin,elapsed_seconds,scenario,true_relation
+x,y,0.5032184946585059,0.7425561930400962,y -> x,y,x,0.23933769838159036,0.17630025139078498,linear_gaussian,"x -> y, but ANM direction is weakly identified"
+x,y,0.7822442905557914,1.6959837488839113e-06,x -> y,x,y,0.7822425945720425,0.22126171039417386,linear_nongaussian,"x -> y, but LiNGAM is the more targeted model"
+x,y,0.8515707969524202,0.0,x -> y,x,y,0.8515707969524202,0.1709757400676608,nonlinear_additive,x -> y
+x,y,5.698508954710135e-07,3.654156372545625e-05,y -> x,y,x,3.5971712829985236e-05,0.15956376772373915,post_nonlinear,x -> y through post-nonlinear transform
+x,y,2.2093438190040615e-14,0.0,x -> y,x,y,2.2093438190040615e-14,0.23406032333150506,shared_confounder,no direct x-y edge; shared hidden z

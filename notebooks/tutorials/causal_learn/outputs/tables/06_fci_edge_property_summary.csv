@@ -1,0 +1,3 @@
+edge_type,endpoint_category,edge_properties,edge_count
+-->,definite directed edge,"dd,nl",2
+o->,partially oriented edge,none,6

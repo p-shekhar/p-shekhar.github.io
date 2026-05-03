@@ -1,0 +1,14 @@
+segment_dimension,value_rule,budget,allocated_promotions,expected_incremental_clicks,avg_incremental_click_prob_per_promotion
+subcategory,aipw_lift,2759,2759,112.42901555455605,0.0407499150252106
+candidate_set_bucket,aipw_lift,2759,2759,47.770814037896905,0.017314539339578435
+category,aipw_lift,2759,2759,43.374397818373566,0.0157210575637454
+time_of_day,aipw_lift,2759,2759,18.886781610843222,0.00684551707533281
+history_bucket,aipw_lift,2759,1215,9.142134488933838,0.007524390525871471
+candidate_set_bucket,ci_95_lower,2759,1126,2.718515050756381,0.002414311767989681
+category,ci_95_lower,2759,0,0.0,0.0
+subcategory,ci_95_lower,2759,0,0.0,0.0
+history_bucket,ci_95_lower,2759,0,0.0,0.0
+item_exposure_quartile,aipw_lift,2759,0,0.0,0.0
+item_exposure_quartile,ci_95_lower,2759,0,0.0,0.0
+time_of_day,ci_95_lower,2759,0,0.0,0.0
+global_baseline,global_aipw_lift,2759,2759,0.0,0.0

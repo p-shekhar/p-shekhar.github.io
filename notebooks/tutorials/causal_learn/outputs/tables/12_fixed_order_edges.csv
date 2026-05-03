@@ -1,0 +1,17 @@
+run,source,edge_type,target
+causal_order,need,-->,match
+causal_order,intent,-->,match
+causal_order,match,-->,engagement
+causal_order,intent,-->,renewal
+causal_order,engagement,-->,renewal
+causal_order,engagement,-->,support
+reversed_order,support,-->,renewal
+reversed_order,support,-->,engagement
+reversed_order,renewal,-->,engagement
+reversed_order,renewal,-->,match
+reversed_order,engagement,-->,match
+reversed_order,renewal,-->,intent
+reversed_order,engagement,-->,intent
+reversed_order,match,-->,intent
+reversed_order,match,-->,need
+reversed_order,intent,-->,need

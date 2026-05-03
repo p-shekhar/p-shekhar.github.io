@@ -1,0 +1,5 @@
+column_group,role,count,description
+y,outcome,1,Observed outcome.
+d,treatment,1,Continuous treatment or exposure.
+x1 through x80,controls,80,Pre-treatment controls used for nuisance adjustment.
+"m0_x, g0_x, l0_x",oracle teaching columns,3,True nuisance values saved separately for theory checks only.

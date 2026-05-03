@@ -1,0 +1,24 @@
+---
+title: "Identification before estimation"
+description: "Why causal projects should begin with the estimand, assumptions, and source of variation."
+date: 2026-04-26
+categories: [Identification, Estimands, Teaching]
+---
+
+## Core Idea
+
+The first question in a causal project is not which model to fit. It is whether the available variation can support the causal question.
+
+## A Practical Checklist
+
+- What is the treatment?
+- What is the outcome?
+- What population is the estimand about?
+- What intervention does the treatment correspond to?
+- What counterfactual comparison is required?
+- What assumptions make the comparison credible?
+- What diagnostics can make those assumptions more or less plausible?
+
+## Industry Translation
+
+When a stakeholder asks, "What is the impact of this product change?", the analyst should clarify whether the target is an average effect, a segment-specific effect, or the value of a treatment policy.

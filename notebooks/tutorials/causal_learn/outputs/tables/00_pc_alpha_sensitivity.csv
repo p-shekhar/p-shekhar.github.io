@@ -1,0 +1,5 @@
+alpha,n_edges,n_directed_edges,skeleton_precision,skeleton_recall,directed_precision,directed_recall,edge_list
+0.001,5,2,1.0,0.8333333333333334,1.0,0.3333333333333333,need -- match; intent -> renewal; match -- engagement; engagement -> renewal; engagement -- support
+0.005,5,2,1.0,0.8333333333333334,1.0,0.3333333333333333,need -- match; intent -> renewal; match -- engagement; engagement -> renewal; engagement -- support
+0.01,5,2,1.0,0.8333333333333334,1.0,0.3333333333333333,need -- match; intent -> renewal; match -- engagement; engagement -> renewal; engagement -- support
+0.05,5,2,1.0,0.8333333333333334,1.0,0.3333333333333333,need -- match; intent -> renewal; match -- engagement; engagement -> renewal; engagement -- support

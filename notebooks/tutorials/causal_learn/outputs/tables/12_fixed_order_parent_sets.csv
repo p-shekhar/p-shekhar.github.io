@@ -1,0 +1,13 @@
+order_label,child,position,allowed_parent_count,selected_parents,local_score,order_name,total_order_score
+need -> intent -> match -> engagement -> renewal -> support,need,1,0,none,-1253.9120230054277,causal_order,-2547.9956758142766
+need -> intent -> match -> engagement -> renewal -> support,intent,2,1,none,-1253.9120230054282,causal_order,-2547.9956758142766
+need -> intent -> match -> engagement -> renewal -> support,match,3,2,"need, intent",504.3279089187363,causal_order,-2547.9956758142766
+need -> intent -> match -> engagement -> renewal -> support,engagement,4,3,match,142.90777034076203,causal_order,-2547.9956758142766
+need -> intent -> match -> engagement -> renewal -> support,renewal,5,4,"intent, engagement",53.24931794678705,causal_order,-2547.9956758142766
+need -> intent -> match -> engagement -> renewal -> support,support,6,5,engagement,-740.6566270097061,causal_order,-2547.9956758142766
+support -> renewal -> engagement -> match -> intent -> need,support,1,0,none,-1253.9120230054277,reversed_order,-2562.666306132836
+support -> renewal -> engagement -> match -> intent -> need,renewal,2,1,support,-1058.9668623363007,reversed_order,-2562.666306132836
+support -> renewal -> engagement -> match -> intent -> need,engagement,3,2,"support, renewal",-197.2864445685046,reversed_order,-2562.666306132836
+support -> renewal -> engagement -> match -> intent -> need,match,4,3,"renewal, engagement",234.57655203254424,reversed_order,-2562.666306132836
+support -> renewal -> engagement -> match -> intent -> need,intent,5,4,"renewal, engagement, match",-137.2945519520064,reversed_order,-2562.666306132836
+support -> renewal -> engagement -> match -> intent -> need,need,6,5,"match, intent",-149.78297630314145,reversed_order,-2562.666306132836

@@ -1,0 +1,4 @@
+quantity,estimate,ci_lower,ci_upper
+Known true ATE,2.0,,
+Naive difference in means,3.2579458807280464,,
+Adjusted OLS coefficient,1.976858240018732,1.897726203753207,2.0559902762842572

@@ -1,0 +1,47 @@
+---
+title: "Project Title"
+description: "One sentence describing the decision and causal design."
+date: YYYY-MM-DD
+categories: [Method, Domain, Tool]
+---
+
+## Decision Question
+
+What decision does this analysis support?
+
+## Causal Estimand
+
+Define the treatment, outcome, population, and target effect.
+
+## Why Prediction Is Not Enough
+
+Explain the counterfactual question.
+
+## Data
+
+Describe the data source, unit of analysis, measurement window, and key variables.
+
+## Identification Strategy
+
+State the design and assumptions.
+
+## Estimation
+
+Link to notebooks and summarize the estimator.
+
+## Diagnostics
+
+Show assumption checks, balance, overlap, pre-trends, placebo tests, or other relevant diagnostics.
+
+## Sensitivity Analysis
+
+Explain how robust the conclusion is to plausible violations.
+
+## Decision Recommendation
+
+Translate the result into an action.
+
+## Limitations
+
+State what the evidence does and does not support.
+

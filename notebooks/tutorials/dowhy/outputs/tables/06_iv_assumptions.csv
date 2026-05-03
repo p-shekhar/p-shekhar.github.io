@@ -1,0 +1,5 @@
+assumption,meaning,observable check
+Relevance,The instrument changes treatment exposure,First-stage coefficient and first-stage strength
+Independence,The instrument is unrelated to hidden outcome causes,"Balance checks on observed pre-treatment covariates, plus design knowledge"
+Exclusion,The instrument has no direct effect on the outcome except through treatment,"Mostly a substantive argument; violated by direct messaging, information, or access paths"
+Monotonicity,The instrument does not push some units in the opposite direction,Usually argued from the assignment mechanism and treatment take-up logic

@@ -1,0 +1,9 @@
+metric,value
+rows,3200.0
+treatment_rate,0.463125
+outcome_mean,2.917135608756879
+outcome_sd,1.4510406259469102
+true_ate,0.4257075264544566
+true_propensity_p05,0.2025928242111719
+true_propensity_p95,0.7772247112740283
+pre_treatment_controls,10.0

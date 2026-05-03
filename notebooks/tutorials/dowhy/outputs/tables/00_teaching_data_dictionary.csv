@@ -1,0 +1,8 @@
+column,role,description
+feature_exposure,treatment,Binary indicator for receiving the feature or recommendation exposure.
+weekly_value,outcome,Future user value measured after treatment assignment.
+user_engagement,observed common cause,Pre-treatment engagement trait affecting both exposure and future value.
+prior_activity,observed common cause,Pre-treatment activity count affecting both exposure and future value.
+is_power_segment,observed common cause,Pre-treatment segment indicator affecting both exposure and future value.
+account_age_weeks,observed common cause,Pre-treatment account age affecting both exposure and future value.
+treatment_probability,known simulation diagnostic,The true treatment probability from the simulation; usually unavailable in real observational data.

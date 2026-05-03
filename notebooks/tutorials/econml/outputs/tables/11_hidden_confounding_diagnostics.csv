@@ -1,0 +1,5 @@
+relationship,value,why_it_matters
+"corr(hidden_motivation, treatment_intensity)",0.5335012961917651,Hidden motivation changes who receives more treatment.
+"corr(hidden_motivation, outcome)",0.6549073562857484,Hidden motivation also changes the outcome.
+"corr(encouragement_score, hidden_motivation)",0.03188650601566621,A valid instrument should not be related to the hidden confounder.
+"corr(encouragement_score, treatment_intensity)",0.6093471963351533,A relevant instrument should shift treatment.

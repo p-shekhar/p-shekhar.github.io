@@ -1,0 +1,17 @@
+learner,object_type,repr
+Ridge pipeline,Pipeline,"Pipeline(steps=[('scale', StandardScaler()),
+                ('model',
+                 RidgeCV(alphas=array([1.00000000e-03, 2.68269580e-03, 7.19685673e-03, 1.93069773e-02,
+      "
+LassoCV pipeline,Pipeline,"Pipeline(steps=[('scale', StandardScaler()),
+                ('model', LassoCV(cv=4, max_iter=5000, random_state=42))])"
+Random forest,RandomForestRegressor,"RandomForestRegressor(max_depth=7, max_features=0.7, min_samples_leaf=8,
+                      n_jobs=1, random_state=42)"
+HistGradientBoosting,HistGradientBoostingRegressor,"HistGradientBoostingRegressor(learning_rate=0.06, max_leaf_nodes=17,
+                              random_state=42)"
+LightGBM,LGBMRegressor,"LGBMRegressor(colsample_bytree=0.85, learning_rate=0.04, min_child_samples=25,
+              n_estimators=120, n_jobs=1, num_leaves=24, random_state=42,
+              subsample=0.8"
+XGBoost,XGBRegressor,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=0.85, device=None, early_stopp"

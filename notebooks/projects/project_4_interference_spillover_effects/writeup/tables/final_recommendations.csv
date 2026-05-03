@@ -1,0 +1,7 @@
+decision_area,recommendation,evidence
+Item-level reporting,Do not report promoted-item gain alone as the product impact.,"The focal item gains 171.6 clicks per 1,000 promoted slates, but competitor changes sum to -479.4."
+Slate-level metric,Use total slate effect as the primary decision metric under interference.,"The net observed slate effect is -307.8 simulated clicks per 1,000 promoted slates, which is negative in this simulation."
+Spillover monitoring,Track same-cluster and displaced-item outcomes whenever an item is promoted.,Competitor movement more than offsets the direct focal gain in the decomposition.
+Policy design,Treat large rank jumps as higher-risk interventions unless slate-level value is measured.,"Promotion changes final positions for multiple items, so the intervention reallocates scarce attention rather than adding attention for free."
+Experiment design,"Randomize at the slate, cluster, or market level when interference is plausible.",Item-level treatment assignment can miss displacement across neighboring items.
+Advanced targeting,Use ML targeting only after validating net slate value against a randomized or off-policy benchmark.,"The model-assisted AIPW estimate matched the randomized estimate, while policy targeting mainly helped by avoiding many harmful promotions."

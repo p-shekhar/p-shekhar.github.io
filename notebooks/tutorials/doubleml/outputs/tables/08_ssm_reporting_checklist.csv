@@ -1,0 +1,9 @@
+topic,question,notebook_answer
+target population,Is the effect for all rows or selected rows only?,The main target is the full-population ATE.
+selection definition,What does S=1 mean?,The outcome is observed.
+unselected rows,Were unselected rows retained?,Yes. They enter treatment and selection nuisance models.
+MAR assumption,Can observed D and X explain outcome observation?,"True in the MAR synthetic design, false in the nonignorable design."
+selection overlap,Are selection probabilities away from zero?,Checked with selection-probability histograms and stress tests.
+treatment overlap,Are treatment propensities away from zero and one?,Checked with treatment-propensity histograms.
+nonignorable selection,"If MAR is not credible, is there a valid selection instrument?",The tutorial uses a synthetic selection encouragement as z_cols.
+uncertainty,Are intervals and diagnostics reported?,"Yes. Standard errors, bootstrap CI, and nuisance diagnostics are saved."

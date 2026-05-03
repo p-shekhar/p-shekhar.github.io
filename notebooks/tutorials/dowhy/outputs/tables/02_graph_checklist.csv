@@ -1,0 +1,11 @@
+step,student_prompt
+State the causal question,"Am I estimating a total effect, direct effect, mediated effect, or something else?"
+Mark variable timing,"Which variables are measured before treatment, at treatment, after treatment, and after outcome?"
+Classify variable roles,"Which variables are confounders, mediators, colliders, instruments, or outcomes?"
+Draw the DAG,Do all arrows follow the assumed time ordering and domain logic?
+Check for cycles,Is this a directed acyclic graph?
+List paths,Which paths should be blocked and which causal paths should stay open?
+Choose adjustment variables,Am I avoiding post-treatment mediators and colliders for a total-effect question?
+Use DoWhy to identify,What estimand and assumptions does DoWhy print before estimation?
+Estimate and compare,Does the estimate change dramatically under plausible alternative graphs?
+Document limitations,"Which arrows are strongest, weakest, or least testable?"

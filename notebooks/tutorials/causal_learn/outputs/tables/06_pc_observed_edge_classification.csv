@@ -1,0 +1,9 @@
+source,edge_type,target,endpoint_category,edge_properties,status_vs_observed_truth
+need,-->,match,definite directed edge,not_returned,correct definite direction
+need,-->,renewal,definite directed edge,not_returned,extra observed adjacency
+intent,-->,match,definite directed edge,not_returned,correct definite direction
+intent,-->,renewal,definite directed edge,not_returned,correct definite direction
+match,-->,engagement,definite directed edge,not_returned,correct definite direction
+match,-->,renewal,definite directed edge,not_returned,extra observed adjacency
+engagement,-->,renewal,definite directed edge,not_returned,correct definite direction
+engagement,-->,support,definite directed edge,not_returned,correct definite direction

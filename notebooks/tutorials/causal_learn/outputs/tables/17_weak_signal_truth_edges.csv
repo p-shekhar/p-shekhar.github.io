@@ -1,0 +1,4 @@
+run,source,edge_type,target
+weak_signal_truth,context,-->,activation
+weak_signal_truth,activation,-->,retention
+weak_signal_truth,context,-->,retention

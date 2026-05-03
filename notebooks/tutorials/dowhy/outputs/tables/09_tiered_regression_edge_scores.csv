@@ -1,0 +1,10 @@
+target,candidate_parent,coefficient,p_value,selected_as_edge
+recommendation_exposure,pre_activity,0.8676791724962886,0.0,True
+recommendation_exposure,seasonality_score,0.5971565180884498,0.0,True
+engagement_depth,pre_activity,0.0019375581492738023,0.919103327544753,False
+engagement_depth,seasonality_score,0.005756652356629453,0.7261983709817544,False
+engagement_depth,recommendation_exposure,1.1958680815496932,0.0,True
+weekly_value,pre_activity,0.8689319874414181,0.0,True
+weekly_value,seasonality_score,0.6856912673849103,0.0,True
+weekly_value,recommendation_exposure,0.01196255015824088,0.5895875438794723,False
+weekly_value,engagement_depth,1.3994504313794234,0.0,True

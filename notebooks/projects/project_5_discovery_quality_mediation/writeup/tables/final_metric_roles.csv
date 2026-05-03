@@ -1,0 +1,5 @@
+Role,Metric,Why it was selected,Future alignment,History dependence,Screening score
+Exposure Analysis,discovery_breadth_score,Purest discovery exposure score; does not use future outcomes or satisfaction depth as a defining component.,0.5015169442048611,0.4008445030971582,0.3612213681208558
+Mediator Analysis,satisfaction_depth_score,Aggregates several same-day quality signals and is appropriate as a mediator candidate.,0.0509543924026555,0.0464793864990248,0.0346866071279968
+Product Metric Monitoring,quality_adjusted_discovery_score,"Requires both discovery breadth and satisfaction depth to be high, making it a useful composite quality metric.",0.4923856701568141,0.3574452264640765,0.3672798408943873
+Guardrail Monitoring,shallow_click_pressure_score,"Flags high-volume days with low satisfaction, useful as a warning against click-only optimization.",0.3315880484185025,0.4440026867959956,0.176187108039904

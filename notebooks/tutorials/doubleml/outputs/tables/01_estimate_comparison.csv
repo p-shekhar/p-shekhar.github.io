@@ -1,0 +1,7 @@
+method,estimate,uses_controls,uses_cross_fitting,true_theta,absolute_error
+naive_y_on_d,1.7525908155556678,False,False,1.0,0.7525908155556678
+linear_adjusted_y_on_d_plus_x,0.9960488924956765,True,False,1.0,0.003951107504323481
+oracle_residual_score,0.9883713014125185,True,False,1.0,0.0116286985874815
+manual_dml1_lasso,0.9756648090749996,True,True,1.0,0.02433519092500036
+manual_dml2_lasso,0.9861349131286591,True,True,1.0,0.013865086871340915
+doubleml_plr_lasso,0.9963273751898892,True,True,1.0,0.0036726248101107695

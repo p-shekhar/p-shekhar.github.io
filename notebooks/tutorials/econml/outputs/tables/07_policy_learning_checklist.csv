@@ -1,0 +1,11 @@
+check,why_it_matters
+Treatment and outcome are clearly defined,A policy acts on a specific intervention and optimizes a specific response.
+Treatment cost is included or explicitly justified,Positive gross effects can become negative net effects after cost.
+All features are pre-treatment,Policy rules must be available before deciding treatment.
+Overlap is inspected,Unsupported regions make action recommendations extrapolative.
+CATE ranking quality is evaluated,Targeting depends on ranking more than average effect alone.
+Policy value is compared with simple baselines,"A learned policy should beat treat-none, treat-all, random, and simple top-k rules."
+Treatment rate and budget are reported,Policy value depends on how many units are treated.
+Segment-level action rates are audited,Overall gain can hide uneven treatment allocation.
+Uncertainty or conservative margins are considered,Policies based on noisy effects can over-treat borderline units.
+Deployment requires evaluation,Offline policy value from observational data is not enough by itself.

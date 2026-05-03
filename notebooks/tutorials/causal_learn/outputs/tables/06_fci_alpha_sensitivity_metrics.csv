@@ -1,0 +1,7 @@
+run,alpha,learned_edges_total,definite_directed_edges,partially_oriented_edges,bidirected_like_edges,unresolved_adjacencies,correct_definite_directed_edges,directed_precision,directed_recall,reversed_true_edges,missing_true_adjacencies,extra_adjacencies
+fci_alpha_0.001,0.001,7,3,1,3,0,2,0.6666666666666666,0.3333333333333333,1,0,1
+fci_alpha_0.005,0.005,7,2,3,2,0,2,1.0,0.3333333333333333,0,0,1
+fci_alpha_0.01,0.01,7,2,3,2,0,2,1.0,0.3333333333333333,0,0,1
+fci_alpha_0.05,0.05,8,2,6,0,0,2,1.0,0.3333333333333333,0,0,2
+fci_alpha_0.1,0.1,8,2,6,0,0,2,1.0,0.3333333333333333,0,0,2
+fci_alpha_0.2,0.2,9,2,7,0,0,2,1.0,0.3333333333333333,0,0,3

@@ -1,0 +1,7 @@
+node,parents,children,is_root
+user_intent,none,"recommendation_exposure, watch_time, retention_score",True
+recommendation_exposure,"user_intent, content_quality, content_novelty",watch_time,False
+content_quality,none,"recommendation_exposure, watch_time, retention_score",True
+content_novelty,none,recommendation_exposure,True
+watch_time,"recommendation_exposure, user_intent, content_quality",retention_score,False
+retention_score,"watch_time, user_intent, content_quality",none,False

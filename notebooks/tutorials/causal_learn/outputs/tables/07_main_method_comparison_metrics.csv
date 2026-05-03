@@ -1,0 +1,4 @@
+run,graph_scope,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
+pooled_pc_ignoring_environment,observed variables only,7,2,6,2,1.0,0.3333333333333333,0,4,0,1
+cdnod_no_background_knowledge,observed variables plus environment,8,6,9,4,0.6666666666666666,0.4444444444444444,2,2,1,0
+cdnod_with_background_knowledge,observed variables plus environment,8,8,9,8,1.0,0.8888888888888888,0,0,1,0

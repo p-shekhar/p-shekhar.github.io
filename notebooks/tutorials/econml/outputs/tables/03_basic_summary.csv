@@ -1,0 +1,11 @@
+metric,value
+rows,3200.0
+columns,30.0
+candidate_X_features,21.0
+W_controls,3.0
+treatment_rate,0.4875
+outcome_mean,2.6233969916442224
+true_ate,0.461373793253849
+true_cate_std,0.5193457633598856
+true_cate_min,-1.4145798995350758
+true_cate_max,2.0581976181675623

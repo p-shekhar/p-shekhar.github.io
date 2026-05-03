@@ -1,0 +1,7 @@
+run,source,edge_type,target
+bic_ges_linear_gaussian,need,-->,match
+bic_ges_linear_gaussian,intent,-->,match
+bic_ges_linear_gaussian,intent,-->,renewal
+bic_ges_linear_gaussian,match,-->,engagement
+bic_ges_linear_gaussian,engagement,-->,renewal
+bic_ges_linear_gaussian,engagement,-->,support

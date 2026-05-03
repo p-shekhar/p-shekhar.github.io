@@ -1,0 +1,4 @@
+estimator,estimate,se,ci_95_lower,ci_95_upper,reference
+Randomized difference in means,-0.3078211980133112,,,,Observed total simulated clicks
+Cross-fitted LightGBM AIPW,-0.3035541537641346,0.0504533222720248,-0.4024426654173033,-0.2046656421109658,Observed total simulated clicks
+Oracle mean promotion lift,-0.3157549444342322,0.0018986651960966,-0.3194763282185815,-0.3120335606498828,Known simulation lift

@@ -1,0 +1,7 @@
+diagnostic,value
+RMSE for untreated outcome model ml_g0,0.9111130402756666
+RMSE for treated outcome model ml_g1,0.7651161414401365
+Propensity log loss for ml_m,0.668207014699559
+Propensity Brier score for ml_m,0.23774693102964112
+Minimum estimated propensity,0.19303763505858104
+Maximum estimated propensity,0.7901281107586696

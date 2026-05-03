@@ -1,0 +1,9 @@
+term,short_name,meaning
+DAG,Directed acyclic graph,A graph with directed edges and no directed cycles.
+Skeleton,Adjacency pattern,The undirected edge structure before directions are considered.
+V-structure,Collider pattern,A pattern like A -> C <- B where A and B are not adjacent.
+CPDAG,Completed partially directed acyclic graph,Represents a Markov equivalence class of DAGs.
+PAG,Partial ancestral graph,Represents possible ancestral relations when hidden confounding may exist.
+Circle endpoint,Unresolved edge mark,Used in PAGs when orientation is not fully determined.
+Markov equivalence,Same independence model,Different DAGs can imply the same observed conditional independencies.
+SHD,Structural Hamming distance,A graph-difference count used in benchmarks.

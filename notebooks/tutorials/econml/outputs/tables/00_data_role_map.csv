@@ -1,0 +1,6 @@
+symbol,role,plain meaning,example in this notebook
+Y,outcome,The result measured after treatment.,outcome
+T,treatment,The intervention or exposure whose effect we estimate.,treatment
+W,controls / confounders,Variables used to adjust nuisance models but not necessarily describe heterogeneity.,account_tenure
+X,effect modifiers,Variables used to model how the treatment effect changes across units.,"baseline_need, prior_engagement, friction_score, high_need_segment"
+tau(X),CATE function,The conditional average treatment effect for units with features X.,true_cate and estimated_cate

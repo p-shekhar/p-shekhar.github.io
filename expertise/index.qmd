@@ -1,0 +1,15 @@
+---
+title: "Expertise"
+description: "Core professional expertise across causal inference and trustworthy AI systems."
+listing:
+  contents:
+    - causal-inference/index.qmd
+    - ai-systems/index.qmd
+  type: grid
+  fields: [title, description, categories]
+---
+
+My professional profile is organized around two connected pillars: rigorous decision science and production-aware AI systems.
+
+The common thread is trust. Whether the system estimates a treatment effect or routes work through an LLM agent, the important questions are similar: What decision is being supported? What assumptions are required? How do we evaluate quality? What failure modes matter? How do we monitor behavior over time?
+

@@ -1,0 +1,4 @@
+method,estimate,target,truth_for_comparison,estimate_minus_truth
+raw treated-control difference,1.2337856279045278,overall ATE,0.4990198011352913,0.7347658267692365
+manual residual-on-residual DML,0.4819592527187255,training-sample residualized ATE,0.49032266933791385,-0.00836341661918838
+oracle true ATE,0.4990198011352913,overall ATE,0.4990198011352913,0.0

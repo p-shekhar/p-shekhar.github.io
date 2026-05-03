@@ -1,0 +1,7 @@
+observed_index,observed_variable,true_latent,loading,cross_loading_from_latent_need
+0,X1_need_search,latent_need,1.0,0.0
+1,X2_need_depth,latent_need,0.85,0.0
+2,X3_need_variety,latent_need,1.15,0.0
+3,X4_value_click,latent_value,1.0,0.0
+4,X5_value_watch,latent_value,0.85,0.0
+5,X6_value_return,latent_value,1.15,0.0

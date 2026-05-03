@@ -1,0 +1,7 @@
+concept,plain_language,why_it_matters
+Propensity score,The probability of receiving treatment given observed covariates.,It summarizes observed treatment selection into one balancing score.
+Overlap,Treated and untreated units exist at similar covariate or propensity values.,"Without overlap, comparisons require extrapolation."
+Common support,The region of propensity scores where both treatment groups are represented.,Estimates outside common support are weakly supported by data.
+Positivity,Every covariate profile has a nonzero chance of receiving each treatment level.,"If treatment is deterministic for some profiles, causal contrasts cannot be learned from observed data there."
+Extreme weights,Very large inverse propensity weights from near-zero or near-one propensities.,A few units can dominate the estimate and inflate variance.
+Effective sample size,The sample size implied by the concentration of weights.,A nominally large dataset can behave like a much smaller one after weighting.

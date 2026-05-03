@@ -1,0 +1,8 @@
+step,question,artifact
+Frame causal question,"What is the treatment, outcome, population, and estimand?",causal question table
+Prepare data roles,"Which columns are Y, T, X, and W?",role map and design matrices
+Check overlap,Do treated and control units have comparable covariates?,propensity and balance diagnostics
+Choose estimator,"Do we need linear CATE, nonlinear CATE, DR learning, or IV logic?",estimator selection rationale
+Fit nuisance models and CATE model,Are outcome and treatment processes modeled well enough for this task?,fitted EconML estimator
+Validate CATE behavior,"Do estimated effects rank, segment, and average sensibly?","calibration, segment, and ranking diagnostics"
+Report decision summary,"What should someone do differently, and what assumptions could break it?",report-ready summary

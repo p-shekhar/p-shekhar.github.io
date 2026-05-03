@@ -1,0 +1,5 @@
+dataset,rows,columns,missing_cells,source_file
+linear_gaussian,2500,6,0,02_linear_gaussian.csv
+linear_nongaussian,2500,6,0,02_linear_nongaussian.csv
+nonlinear_continuous,2500,6,0,02_nonlinear_continuous.csv
+discrete_mixed,2500,6,0,02_discrete_mixed.csv

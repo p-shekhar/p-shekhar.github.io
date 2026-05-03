@@ -1,0 +1,4 @@
+intervention function,example,meaning
+identity_intervention,A -> A,Reference world with no change to the generated node.
+shift_by(0.5),A -> A + 0.5,Soft policy improvement that preserves relative differences.
+set_to(1.0),A -> 1.0,Hard intervention that forces the same value for everyone.

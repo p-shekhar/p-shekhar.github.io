@@ -1,0 +1,15 @@
+field,role,description
+baseline_need,Observed covariate,Pre-treatment need or demand signal.
+prior_engagement,Observed covariate,Historical engagement before treatment intensity is assigned.
+friction_score,Observed covariate,Higher values indicate more friction.
+content_affinity,Observed covariate,Match between row and content or offer.
+price_sensitivity,Observed covariate,Sensitivity to cost or inconvenience.
+capacity_score,Observed covariate,Ability to absorb more treatment intensity.
+account_tenure,Observed covariate,Age of the relationship in weeks.
+region_risk,Observed covariate,Binary marker for lower baseline outcome regions.
+high_capacity_segment,Observed covariate,Binary segment derived from capacity score.
+treatment_intensity,Treatment,Continuous treatment dose or intensity.
+outcome,Outcome,Observed post-treatment outcome.
+true_marginal_effect,Teaching-only truth,True one-unit dose effect for each row.
+true_effect_0_to_1,Teaching-only truth,True effect of increasing dose from 0 to 1.
+true_effect_0_to_2,Teaching-only truth,True effect of increasing dose from 0 to 2.

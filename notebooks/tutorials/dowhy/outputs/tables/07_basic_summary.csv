@@ -1,0 +1,2 @@
+rows,columns,missing_cells,exposure_rate,mean_outcome,true_ate
+5000,9,0,0.5748,5.245554625647823,0.8816338572733744

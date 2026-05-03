@@ -1,0 +1,7 @@
+metric,value
+test_estimated_ate,0.32337986249397166
+test_true_ate,0.28836220902822457
+test_ate_error,0.03501765346574709
+test_cate_rmse,0.45355902238852114
+test_cate_correlation,0.54803351022469
+test_cate_spearman,0.510900000717475

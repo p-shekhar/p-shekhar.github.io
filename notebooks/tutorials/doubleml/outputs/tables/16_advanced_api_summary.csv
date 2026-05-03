@@ -1,0 +1,7 @@
+api,used_for,main_caution
+score=callable,Custom score elements,"DoubleML checks shape and execution, not causal validity."
+set_sample_splitting(),Reproducible fold assignment,The split must match the data design; random folds are not always appropriate.
+external_predictions,Supplying nuisance predictions,"Predictions must be cross-fitted, row-aligned, and shaped as (n_obs, n_rep)."
+store_models=True,Auditing fitted nuisance models,Model diagnostics are not causal evidence.
+psi_elements,Score reconstruction and diagnostics,Score diagnostics can reveal instability but do not replace identification assumptions.
+evaluate_learners(),Out-of-fold nuisance loss,Low predictive loss is helpful but not sufficient for causal credibility.

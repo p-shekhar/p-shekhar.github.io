@@ -1,0 +1,4 @@
+relationship,value,why_it_matters
+"corr(need, intent)",0.010171816021726829,Root variables are marginally close to independent in the data-generating process.
+"corr(need, intent | match)",-0.6398235330344292,Conditioning on a collider can create dependence.
+"corr(need, intent | match, engagement)",-0.6394176047273901,Conditioning on descendants of a collider can also change dependence patterns.

@@ -1,0 +1,7 @@
+term,manual_dml_coefficient,true_structural_coefficient
+cate_intercept,0.4984034610159579,0.45
+baseline_need,0.2807175720157055,0.28
+prior_engagement,0.1858594871919763,0.18
+friction_score,-0.20355923573900409,-0.22
+region_risk,-0.25671298609464294,-0.1
+high_need_segment,0.19399780494973456,0.24

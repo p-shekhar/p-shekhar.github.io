@@ -1,0 +1,8 @@
+term,meaning,notebook_example
+Unit,The entity observed repeatedly over time.,A synthetic account observed for four periods.
+Period,A time step within a unit's history.,"Periods 0, 1, 2, and 3."
+Treatment history,The sequence of treatment intensities assigned over time.,Four treatment intensity values per unit.
+Final outcome,The outcome measured after the treatment history has unfolded.,A final value metric observed after period 3.
+Baseline features X,Features used to describe treatment-effect heterogeneity.,"Need, quality, friction, price sensitivity, and region risk."
+Time-varying controls W,Observed state variables that change over time and affect treatment assignment or outcome.,"State before treatment, seasonality, and lagged treatment."
+Group split,A train-test or cross-fitting split that keeps all rows from a unit together.,All four periods of an account stay in the same split.

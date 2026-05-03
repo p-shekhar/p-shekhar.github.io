@@ -1,0 +1,4 @@
+quantity,value
+Known true effect from simulation,2.0
+Naive treated-minus-control difference,3.2232842110859607
+Adjusted OLS coefficient,2.0109116077452587

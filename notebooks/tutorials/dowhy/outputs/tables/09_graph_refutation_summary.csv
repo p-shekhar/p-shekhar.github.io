@@ -1,0 +1,3 @@
+graph,constraints_tested,constraints_satisfied,passed
+true graph,4,4,True
+wrong graph missing pre_activity -> weekly_value,1,0,False

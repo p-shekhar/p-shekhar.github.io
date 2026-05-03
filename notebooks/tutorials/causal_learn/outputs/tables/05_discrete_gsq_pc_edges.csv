@@ -1,0 +1,8 @@
+run,source,edge_type,target
+discrete_gsq_pc,need,-->,match
+discrete_gsq_pc,need,-->,engagement
+discrete_gsq_pc,match,-->,intent
+discrete_gsq_pc,intent,---,renewal
+discrete_gsq_pc,engagement,-->,match
+discrete_gsq_pc,renewal,-->,engagement
+discrete_gsq_pc,engagement,-->,support

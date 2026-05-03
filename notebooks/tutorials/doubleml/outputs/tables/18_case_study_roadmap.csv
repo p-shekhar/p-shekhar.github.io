@@ -1,0 +1,9 @@
+stage,main_question
+Causal question,"What treatment, outcome, population, and estimand are we studying?"
+Data design,"Which variables are pre-treatment controls, treatment, outcome, and invalid post-treatment signals?"
+Estimator choice,Why is IRM appropriate for a binary treatment?
+Main estimate,What does DoubleML estimate after cross-fitting nuisance functions?
+Diagnostics,"Do propensity scores overlap, do nuisance models behave plausibly, and are results split-stable?"
+Heterogeneity,"Which user segments appear to benefit more, and how should that be reported cautiously?"
+Sensitivity,How strong would hidden confounding need to be to threaten the conclusion?
+Report,"What evidence, assumptions, and limitations should a reader see?"

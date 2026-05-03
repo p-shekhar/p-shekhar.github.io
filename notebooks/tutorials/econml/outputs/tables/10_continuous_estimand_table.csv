@@ -1,0 +1,4 @@
+quantity,notation,plain_language,econml_call
+Marginal dose effect,d E[Y(t) | X] / dt,Outcome change for a small one-unit increase in dose at a covariate profile.,est.const_marginal_effect(X)
+Finite dose contrast,E[Y(t=b) - Y(t=a) | X],Outcome change when moving from dose a to dose b.,"est.effect(X, T0=a, T1=b)"
+Dose support check,Observed T distribution by segment,Whether the data contain enough dose variation to support the contrast.,Diagnostic outside the estimator

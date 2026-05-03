@@ -1,0 +1,7 @@
+metric,value
+rows,5500
+columns,22
+treated_rows,2890
+control_rows,2610
+outcome_missing,0
+treatment_missing,0

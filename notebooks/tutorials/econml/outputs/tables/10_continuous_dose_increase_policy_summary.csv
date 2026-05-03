@@ -1,0 +1,3 @@
+policy,increase_rate,mean_true_net_gain_among_selected,population_true_net_gain,share_selected_with_negative_net_truth
+estimated marginal effect > cost,0.7894736842105263,0.3280093725545334,0.2589547678062106,0.17809523809523808
+oracle marginal effect > cost,0.6488721804511278,0.4185221960332846,0.27156740990731176,0.0

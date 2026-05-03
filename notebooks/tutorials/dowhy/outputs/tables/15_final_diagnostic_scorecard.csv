@@ -1,0 +1,8 @@
+diagnostic,result,reading
+correct adjusted estimate,0.845 versus known 0.860,pre-treatment adjustment recovers the teaching effect well
+bad-control check,"mediator, collider, and leakage controls all distort the estimate",variable timing audit is necessary
+graph variant comparison,wrong graph assumptions produce wrong DoWhy estimates,DoWhy makes assumptions explicit but does not validate them automatically
+overlap stress test,ESS usable 4031; ESS weak 1633,weak overlap reduces information and raises estimator sensitivity
+placebo treatment refuter,placebo effect -0.004,fake treatment does not reproduce the main effect
+negative-control outcome,adjusted coefficient 0.032,pre-treatment outcome check is close to zero after adjustment
+hidden-confounding sensitivity,range 0.416 to 0.832,strong unobserved confounding remains a possible threat

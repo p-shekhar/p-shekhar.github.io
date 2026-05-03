@@ -1,0 +1,10 @@
+column,role,plain meaning,included in
+baseline_need,effect modifier and confounder,Pre-treatment need or intent.,X
+prior_engagement,effect modifier and confounder,Historical engagement before treatment.,X
+account_tenure,control confounder,Pre-treatment account maturity.,W
+friction_score,effect modifier and confounder,Pre-treatment friction or difficulty.,X
+high_need_segment,effect modifier,Binary segment derived from baseline need.,X
+treatment,binary treatment,Whether the unit received the intervention.,T
+outcome,outcome,Post-treatment outcome to improve.,Y
+propensity,known treatment probability for teaching,True assignment probability from the simulator.,diagnostics only
+true_cate,known treatment-effect truth for teaching,Unit-level conditional effect from the simulator.,diagnostics only

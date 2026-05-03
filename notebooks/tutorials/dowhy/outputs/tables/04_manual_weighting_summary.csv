@@ -1,0 +1,6 @@
+metric,value
+manual_ipw_ate,1.8027905799517572
+manual_normalized_ipw_ate,1.7533151883106202
+mean_ipw_weight,1.9925646675215793
+max_ipw_weight,24.004464034752292
+p99_ipw_weight,7.173258760643104

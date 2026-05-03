@@ -1,0 +1,1501 @@
+draw,policy,true_net_value_per_user
+0,Treat none,0.0
+0,Treat all,0.005883904193281711
+0,LinearDML: effect > cost,0.17425166274901827
+0,CausalForestDML: effect > cost,0.15422344104269858
+0,DRLearner: effect > cost,0.16491233888138815
+1,Treat none,0.0
+1,Treat all,0.016817161712160227
+1,LinearDML: effect > cost,0.18492280765845326
+1,CausalForestDML: effect > cost,0.16789106567167852
+1,DRLearner: effect > cost,0.1776352851390209
+2,Treat none,0.0
+2,Treat all,-0.008264552339612418
+2,LinearDML: effect > cost,0.16666502307173411
+2,CausalForestDML: effect > cost,0.15001990101710067
+2,DRLearner: effect > cost,0.1583788703442466
+3,Treat none,0.0
+3,Treat all,-0.010773874593410088
+3,LinearDML: effect > cost,0.17261294232583183
+3,CausalForestDML: effect > cost,0.1495639798453559
+3,DRLearner: effect > cost,0.16355062335271958
+4,Treat none,0.0
+4,Treat all,-0.004057878649318746
+4,LinearDML: effect > cost,0.1666812495959419
+4,CausalForestDML: effect > cost,0.15300224499901105
+4,DRLearner: effect > cost,0.16422818519530058
+5,Treat none,0.0
+5,Treat all,0.007611746686173702
+5,LinearDML: effect > cost,0.1726427254096716
+5,CausalForestDML: effect > cost,0.15724199675194306
+5,DRLearner: effect > cost,0.1676815078650455
+6,Treat none,0.0
+6,Treat all,-0.015092724220023494
+6,LinearDML: effect > cost,0.15960397746611998
+6,CausalForestDML: effect > cost,0.142208226230374
+6,DRLearner: effect > cost,0.15384404234552718
+7,Treat none,0.0
+7,Treat all,-0.006764250567945523
+7,LinearDML: effect > cost,0.16769144875317646
+7,CausalForestDML: effect > cost,0.15362447566629597
+7,DRLearner: effect > cost,0.16320496391627914
+8,Treat none,0.0
+8,Treat all,0.003636700485489562
+8,LinearDML: effect > cost,0.17054571773573138
+8,CausalForestDML: effect > cost,0.15263678847574913
+8,DRLearner: effect > cost,0.16285865302840993
+9,Treat none,0.0
+9,Treat all,0.01570129588264324
+9,LinearDML: effect > cost,0.1828685233403162
+9,CausalForestDML: effect > cost,0.15956427933587727
+9,DRLearner: effect > cost,0.17448609153664116
+10,Treat none,0.0
+10,Treat all,-0.0016299530021719
+10,LinearDML: effect > cost,0.17566400574831822
+10,CausalForestDML: effect > cost,0.159004792680311
+10,DRLearner: effect > cost,0.1675102866849912
+11,Treat none,0.0
+11,Treat all,0.00548579711323255
+11,LinearDML: effect > cost,0.16515391754487238
+11,CausalForestDML: effect > cost,0.15550717353196725
+11,DRLearner: effect > cost,0.16170041065185353
+12,Treat none,0.0
+12,Treat all,0.012343768698139234
+12,LinearDML: effect > cost,0.1745622934397747
+12,CausalForestDML: effect > cost,0.15539917347146928
+12,DRLearner: effect > cost,0.16742306299278417
+13,Treat none,0.0
+13,Treat all,0.01603033686100358
+13,LinearDML: effect > cost,0.17509247929283192
+13,CausalForestDML: effect > cost,0.16077100287864723
+13,DRLearner: effect > cost,0.1687984420271697
+14,Treat none,0.0
+14,Treat all,0.022940349681401753
+14,LinearDML: effect > cost,0.182011488543368
+14,CausalForestDML: effect > cost,0.16803137151305497
+14,DRLearner: effect > cost,0.1786080579954145
+15,Treat none,0.0
+15,Treat all,0.009190713710367346
+15,LinearDML: effect > cost,0.1825191326041169
+15,CausalForestDML: effect > cost,0.16370895548915218
+15,DRLearner: effect > cost,0.17600613966916326
+16,Treat none,0.0
+16,Treat all,0.004819413983536774
+16,LinearDML: effect > cost,0.18008569889738385
+16,CausalForestDML: effect > cost,0.16447552520553954
+16,DRLearner: effect > cost,0.17855393971833677
+17,Treat none,0.0
+17,Treat all,0.019798631226103862
+17,LinearDML: effect > cost,0.18403808391356172
+17,CausalForestDML: effect > cost,0.17361400417322043
+17,DRLearner: effect > cost,0.17902475698271564
+18,Treat none,0.0
+18,Treat all,-0.013104973933009838
+18,LinearDML: effect > cost,0.16753347268062727
+18,CausalForestDML: effect > cost,0.1477543299838513
+18,DRLearner: effect > cost,0.16334754774625398
+19,Treat none,0.0
+19,Treat all,0.0190598114509401
+19,LinearDML: effect > cost,0.1794179642604587
+19,CausalForestDML: effect > cost,0.16465475699107684
+19,DRLearner: effect > cost,0.16949924244184716
+20,Treat none,0.0
+20,Treat all,-0.009188013445589192
+20,LinearDML: effect > cost,0.1652688658720011
+20,CausalForestDML: effect > cost,0.1520827094122425
+20,DRLearner: effect > cost,0.1607557741954601
+21,Treat none,0.0
+21,Treat all,-0.0020056913039370873
+21,LinearDML: effect > cost,0.16654464634721744
+21,CausalForestDML: effect > cost,0.15018259557390554
+21,DRLearner: effect > cost,0.1592673732819966
+22,Treat none,0.0
+22,Treat all,0.005300511842745311
+22,LinearDML: effect > cost,0.17060578425801554
+22,CausalForestDML: effect > cost,0.1529204527330108
+22,DRLearner: effect > cost,0.1624057475393725
+23,Treat none,0.0
+23,Treat all,-0.00016549829531604745
+23,LinearDML: effect > cost,0.1757596293008223
+23,CausalForestDML: effect > cost,0.15839441964296638
+23,DRLearner: effect > cost,0.16741989145357208
+24,Treat none,0.0
+24,Treat all,-0.0021777595106968117
+24,LinearDML: effect > cost,0.16917363155725415
+24,CausalForestDML: effect > cost,0.152430119016072
+24,DRLearner: effect > cost,0.1630245480661743
+25,Treat none,0.0
+25,Treat all,0.012608210791035954
+25,LinearDML: effect > cost,0.18250138461549145
+25,CausalForestDML: effect > cost,0.16303086084516724
+25,DRLearner: effect > cost,0.17679781924865168
+26,Treat none,0.0
+26,Treat all,-0.007548466685008591
+26,LinearDML: effect > cost,0.1689654962963739
+26,CausalForestDML: effect > cost,0.1435840090248031
+26,DRLearner: effect > cost,0.15523602495670902
+27,Treat none,0.0
+27,Treat all,0.011458610607444188
+27,LinearDML: effect > cost,0.17495699059268838
+27,CausalForestDML: effect > cost,0.15933361299621368
+27,DRLearner: effect > cost,0.17102480950335974
+28,Treat none,0.0
+28,Treat all,6.12882117631572e-05
+28,LinearDML: effect > cost,0.1740139678212215
+28,CausalForestDML: effect > cost,0.15527586036558294
+28,DRLearner: effect > cost,0.16450744446189508
+29,Treat none,0.0
+29,Treat all,-0.0010717687410088232
+29,LinearDML: effect > cost,0.1715638644204759
+29,CausalForestDML: effect > cost,0.15537695055269457
+29,DRLearner: effect > cost,0.16436988155646992
+30,Treat none,0.0
+30,Treat all,0.000960910220947989
+30,LinearDML: effect > cost,0.17857536186556988
+30,CausalForestDML: effect > cost,0.16055275533145288
+30,DRLearner: effect > cost,0.1707352061712509
+31,Treat none,0.0
+31,Treat all,-0.006948763169436083
+31,LinearDML: effect > cost,0.16726247711939432
+31,CausalForestDML: effect > cost,0.14607390923527463
+31,DRLearner: effect > cost,0.1595611063881296
+32,Treat none,0.0
+32,Treat all,0.010750939049851136
+32,LinearDML: effect > cost,0.1793025899126474
+32,CausalForestDML: effect > cost,0.16311070792013266
+32,DRLearner: effect > cost,0.1730464187144574
+33,Treat none,0.0
+33,Treat all,-0.010924842267289186
+33,LinearDML: effect > cost,0.15556008807566327
+33,CausalForestDML: effect > cost,0.1407127319676746
+33,DRLearner: effect > cost,0.14894485534427299
+34,Treat none,0.0
+34,Treat all,-0.008929183548267976
+34,LinearDML: effect > cost,0.17035112313762416
+34,CausalForestDML: effect > cost,0.15334882686635318
+34,DRLearner: effect > cost,0.1619539546303691
+35,Treat none,0.0
+35,Treat all,0.0077303351714335935
+35,LinearDML: effect > cost,0.16962717942540095
+35,CausalForestDML: effect > cost,0.15971333498406837
+35,DRLearner: effect > cost,0.16264905703258606
+36,Treat none,0.0
+36,Treat all,-0.011746499331110216
+36,LinearDML: effect > cost,0.16451415376737694
+36,CausalForestDML: effect > cost,0.1488541811732012
+36,DRLearner: effect > cost,0.1582430025258479
+37,Treat none,0.0
+37,Treat all,-0.009489476436133792
+37,LinearDML: effect > cost,0.16658919198354355
+37,CausalForestDML: effect > cost,0.14959774694584288
+37,DRLearner: effect > cost,0.15553298295680026
+38,Treat none,0.0
+38,Treat all,0.013183365181994791
+38,LinearDML: effect > cost,0.17642873372105727
+38,CausalForestDML: effect > cost,0.16131149268704492
+38,DRLearner: effect > cost,0.17538219816631737
+39,Treat none,0.0
+39,Treat all,0.011089408458574593
+39,LinearDML: effect > cost,0.17315328889351214
+39,CausalForestDML: effect > cost,0.1526230156618029
+39,DRLearner: effect > cost,0.16070436167549015
+40,Treat none,0.0
+40,Treat all,-0.003674776587951718
+40,LinearDML: effect > cost,0.16200318297107638
+40,CausalForestDML: effect > cost,0.1396402804691151
+40,DRLearner: effect > cost,0.15221113701422004
+41,Treat none,0.0
+41,Treat all,-0.008539680921504528
+41,LinearDML: effect > cost,0.15989701373437692
+41,CausalForestDML: effect > cost,0.14162513077569924
+41,DRLearner: effect > cost,0.15781063123681702
+42,Treat none,0.0
+42,Treat all,0.009466316131304602
+42,LinearDML: effect > cost,0.17479432082511082
+42,CausalForestDML: effect > cost,0.1553372065790854
+42,DRLearner: effect > cost,0.1668849287684634
+43,Treat none,0.0
+43,Treat all,0.020617300320755594
+43,LinearDML: effect > cost,0.16837171181932628
+43,CausalForestDML: effect > cost,0.15015395451816044
+43,DRLearner: effect > cost,0.1608668769370488
+44,Treat none,0.0
+44,Treat all,0.009773603403800976
+44,LinearDML: effect > cost,0.17214648647633218
+44,CausalForestDML: effect > cost,0.15917843915527732
+44,DRLearner: effect > cost,0.16856651473597453
+45,Treat none,0.0
+45,Treat all,0.006297942188323411
+45,LinearDML: effect > cost,0.17848825444446179
+45,CausalForestDML: effect > cost,0.1613015197620228
+45,DRLearner: effect > cost,0.17119509867750538
+46,Treat none,0.0
+46,Treat all,-0.0043885138619329574
+46,LinearDML: effect > cost,0.16337261256370794
+46,CausalForestDML: effect > cost,0.14579199828155986
+46,DRLearner: effect > cost,0.15811888879649363
+47,Treat none,0.0
+47,Treat all,-0.005783019877183794
+47,LinearDML: effect > cost,0.16746633675552514
+47,CausalForestDML: effect > cost,0.15249716550373668
+47,DRLearner: effect > cost,0.16003340720761253
+48,Treat none,0.0
+48,Treat all,-0.00813259712867047
+48,LinearDML: effect > cost,0.16160464528776866
+48,CausalForestDML: effect > cost,0.14707479903351853
+48,DRLearner: effect > cost,0.1553232101926044
+49,Treat none,0.0
+49,Treat all,-0.01570782420962179
+49,LinearDML: effect > cost,0.16255827554936117
+49,CausalForestDML: effect > cost,0.1452289403472763
+49,DRLearner: effect > cost,0.15332065472856535
+50,Treat none,0.0
+50,Treat all,9.437196341383587e-05
+50,LinearDML: effect > cost,0.1692567739630061
+50,CausalForestDML: effect > cost,0.14828274117679077
+50,DRLearner: effect > cost,0.16293956004737006
+51,Treat none,0.0
+51,Treat all,0.0012126210410947043
+51,LinearDML: effect > cost,0.17299317746897072
+51,CausalForestDML: effect > cost,0.1565600378242722
+51,DRLearner: effect > cost,0.16588637478966603
+52,Treat none,0.0
+52,Treat all,-0.00525086148451836
+52,LinearDML: effect > cost,0.16844557999179538
+52,CausalForestDML: effect > cost,0.1510146189493472
+52,DRLearner: effect > cost,0.16030849510165546
+53,Treat none,0.0
+53,Treat all,0.0019564509650553175
+53,LinearDML: effect > cost,0.17046056574725085
+53,CausalForestDML: effect > cost,0.15596523379732244
+53,DRLearner: effect > cost,0.16438471341832364
+54,Treat none,0.0
+54,Treat all,-0.00493151935898158
+54,LinearDML: effect > cost,0.17548764472323822
+54,CausalForestDML: effect > cost,0.15915130103819045
+54,DRLearner: effect > cost,0.16857529456574824
+55,Treat none,0.0
+55,Treat all,-0.010860960171339149
+55,LinearDML: effect > cost,0.16745011786049682
+55,CausalForestDML: effect > cost,0.14964534075505942
+55,DRLearner: effect > cost,0.1603498447184397
+56,Treat none,0.0
+56,Treat all,0.003450869860576782
+56,LinearDML: effect > cost,0.17536719661457462
+56,CausalForestDML: effect > cost,0.15341147237022143
+56,DRLearner: effect > cost,0.16627148052060203
+57,Treat none,0.0
+57,Treat all,-0.010886508120387146
+57,LinearDML: effect > cost,0.16638591984154125
+57,CausalForestDML: effect > cost,0.15028132755548643
+57,DRLearner: effect > cost,0.15759161933046034
+58,Treat none,0.0
+58,Treat all,0.0009880136975598042
+58,LinearDML: effect > cost,0.16480400149812416
+58,CausalForestDML: effect > cost,0.15140325115477837
+58,DRLearner: effect > cost,0.155634844280194
+59,Treat none,0.0
+59,Treat all,-0.004494167252378196
+59,LinearDML: effect > cost,0.1627022073869101
+59,CausalForestDML: effect > cost,0.14517294464442465
+59,DRLearner: effect > cost,0.15715570282468042
+60,Treat none,0.0
+60,Treat all,0.011460803465803793
+60,LinearDML: effect > cost,0.1725639051311694
+60,CausalForestDML: effect > cost,0.15770874843724644
+60,DRLearner: effect > cost,0.16561834418969779
+61,Treat none,0.0
+61,Treat all,-0.007390832303514444
+61,LinearDML: effect > cost,0.16445304353521448
+61,CausalForestDML: effect > cost,0.15260817915300737
+61,DRLearner: effect > cost,0.15961323877755537
+62,Treat none,0.0
+62,Treat all,-0.009003998688563
+62,LinearDML: effect > cost,0.1657633634336353
+62,CausalForestDML: effect > cost,0.1431445424872886
+62,DRLearner: effect > cost,0.1565467911021117
+63,Treat none,0.0
+63,Treat all,-0.018912309141529825
+63,LinearDML: effect > cost,0.16346979797011996
+63,CausalForestDML: effect > cost,0.1432491595234189
+63,DRLearner: effect > cost,0.15572573326384648
+64,Treat none,0.0
+64,Treat all,-0.0015619038331987412
+64,LinearDML: effect > cost,0.1669288047984908
+64,CausalForestDML: effect > cost,0.1531504005095654
+64,DRLearner: effect > cost,0.15968669106890082
+65,Treat none,0.0
+65,Treat all,0.0070695675103501976
+65,LinearDML: effect > cost,0.17586942128271885
+65,CausalForestDML: effect > cost,0.15671223058979583
+65,DRLearner: effect > cost,0.1669032974983693
+66,Treat none,0.0
+66,Treat all,-0.019755156444194722
+66,LinearDML: effect > cost,0.16393033844036636
+66,CausalForestDML: effect > cost,0.1488651184514402
+66,DRLearner: effect > cost,0.1584774643978422
+67,Treat none,0.0
+67,Treat all,0.005013292765018564
+67,LinearDML: effect > cost,0.17784084025492905
+67,CausalForestDML: effect > cost,0.15967729725362964
+67,DRLearner: effect > cost,0.1700664373856169
+68,Treat none,0.0
+68,Treat all,0.008877166271597028
+68,LinearDML: effect > cost,0.1746079156121927
+68,CausalForestDML: effect > cost,0.16308131089320996
+68,DRLearner: effect > cost,0.16949631927197872
+69,Treat none,0.0
+69,Treat all,0.0069886375734775465
+69,LinearDML: effect > cost,0.16413895932513814
+69,CausalForestDML: effect > cost,0.14309159865229645
+69,DRLearner: effect > cost,0.15557634884239255
+70,Treat none,0.0
+70,Treat all,-0.0076119497615837455
+70,LinearDML: effect > cost,0.16377949776154715
+70,CausalForestDML: effect > cost,0.15052420231716868
+70,DRLearner: effect > cost,0.15905967674766255
+71,Treat none,0.0
+71,Treat all,0.0007443218018254088
+71,LinearDML: effect > cost,0.1690054479340781
+71,CausalForestDML: effect > cost,0.15425187601756699
+71,DRLearner: effect > cost,0.16582187071873597
+72,Treat none,0.0
+72,Treat all,-0.0029923513082361817
+72,LinearDML: effect > cost,0.16262413182744087
+72,CausalForestDML: effect > cost,0.14937343763842723
+72,DRLearner: effect > cost,0.1589785988923465
+73,Treat none,0.0
+73,Treat all,0.009365099287827548
+73,LinearDML: effect > cost,0.17611965462229645
+73,CausalForestDML: effect > cost,0.1565635255733283
+73,DRLearner: effect > cost,0.16820589229510285
+74,Treat none,0.0
+74,Treat all,-0.0037720150157932036
+74,LinearDML: effect > cost,0.17550910747093174
+74,CausalForestDML: effect > cost,0.15388718414288208
+74,DRLearner: effect > cost,0.16405498794399537
+75,Treat none,0.0
+75,Treat all,0.007228015755189412
+75,LinearDML: effect > cost,0.17909094456088023
+75,CausalForestDML: effect > cost,0.16301165793825076
+75,DRLearner: effect > cost,0.17330257688074957
+76,Treat none,0.0
+76,Treat all,0.0016305693868996273
+76,LinearDML: effect > cost,0.16774849726338917
+76,CausalForestDML: effect > cost,0.1485485891192281
+76,DRLearner: effect > cost,0.16091281805496954
+77,Treat none,0.0
+77,Treat all,0.010806034185241504
+77,LinearDML: effect > cost,0.17757945560237487
+77,CausalForestDML: effect > cost,0.15580075920956427
+77,DRLearner: effect > cost,0.16913520175526484
+78,Treat none,0.0
+78,Treat all,-0.018961581540191855
+78,LinearDML: effect > cost,0.1670486386304384
+78,CausalForestDML: effect > cost,0.14743855314323534
+78,DRLearner: effect > cost,0.1655887560552256
+79,Treat none,0.0
+79,Treat all,0.005047929679977536
+79,LinearDML: effect > cost,0.18066368019182108
+79,CausalForestDML: effect > cost,0.16587528422128495
+79,DRLearner: effect > cost,0.17259871500956966
+80,Treat none,0.0
+80,Treat all,0.010662910374963211
+80,LinearDML: effect > cost,0.17085923638738817
+80,CausalForestDML: effect > cost,0.15470367274014069
+80,DRLearner: effect > cost,0.16614176811323506
+81,Treat none,0.0
+81,Treat all,0.013174609958968922
+81,LinearDML: effect > cost,0.17632643837706438
+81,CausalForestDML: effect > cost,0.1595605467212048
+81,DRLearner: effect > cost,0.16878776079376415
+82,Treat none,0.0
+82,Treat all,-0.014008612050921002
+82,LinearDML: effect > cost,0.16733977745378645
+82,CausalForestDML: effect > cost,0.1483789509568585
+82,DRLearner: effect > cost,0.1587367011277358
+83,Treat none,0.0
+83,Treat all,-0.022072561819060196
+83,LinearDML: effect > cost,0.16031233913778675
+83,CausalForestDML: effect > cost,0.13996778109644747
+83,DRLearner: effect > cost,0.15443177212077683
+84,Treat none,0.0
+84,Treat all,0.022193776860053072
+84,LinearDML: effect > cost,0.1771116851588291
+84,CausalForestDML: effect > cost,0.1583394976253033
+84,DRLearner: effect > cost,0.1672425204882716
+85,Treat none,0.0
+85,Treat all,-0.002081815252133722
+85,LinearDML: effect > cost,0.1718962124396953
+85,CausalForestDML: effect > cost,0.15490466563003655
+85,DRLearner: effect > cost,0.16277244295319215
+86,Treat none,0.0
+86,Treat all,0.013700711404041523
+86,LinearDML: effect > cost,0.1830844725799011
+86,CausalForestDML: effect > cost,0.1661107000699984
+86,DRLearner: effect > cost,0.1751384536293268
+87,Treat none,0.0
+87,Treat all,-0.016022590847138182
+87,LinearDML: effect > cost,0.16321377343913093
+87,CausalForestDML: effect > cost,0.14053086775760706
+87,DRLearner: effect > cost,0.1541772246433173
+88,Treat none,0.0
+88,Treat all,-0.008380119592400473
+88,LinearDML: effect > cost,0.1694166138230944
+88,CausalForestDML: effect > cost,0.1512021841111787
+88,DRLearner: effect > cost,0.1594094813554174
+89,Treat none,0.0
+89,Treat all,0.013073573129443176
+89,LinearDML: effect > cost,0.1726811509262872
+89,CausalForestDML: effect > cost,0.15300768442936083
+89,DRLearner: effect > cost,0.16415704711420073
+90,Treat none,0.0
+90,Treat all,-0.0032183800368312987
+90,LinearDML: effect > cost,0.17509049933157625
+90,CausalForestDML: effect > cost,0.154592333737818
+90,DRLearner: effect > cost,0.16287905940880384
+91,Treat none,0.0
+91,Treat all,-0.014957077455287788
+91,LinearDML: effect > cost,0.17264316779448208
+91,CausalForestDML: effect > cost,0.15924476333268103
+91,DRLearner: effect > cost,0.168919066323047
+92,Treat none,0.0
+92,Treat all,-0.012662891134764626
+92,LinearDML: effect > cost,0.16090461199360048
+92,CausalForestDML: effect > cost,0.1466640074004457
+92,DRLearner: effect > cost,0.15836320740688864
+93,Treat none,0.0
+93,Treat all,0.020905703368761547
+93,LinearDML: effect > cost,0.18212579642432405
+93,CausalForestDML: effect > cost,0.16476225937593825
+93,DRLearner: effect > cost,0.17221095059581737
+94,Treat none,0.0
+94,Treat all,0.004495788250329812
+94,LinearDML: effect > cost,0.16861568998919663
+94,CausalForestDML: effect > cost,0.14605254319417116
+94,DRLearner: effect > cost,0.16068433326784312
+95,Treat none,0.0
+95,Treat all,0.017901674101952588
+95,LinearDML: effect > cost,0.1782442150330837
+95,CausalForestDML: effect > cost,0.16474095764603328
+95,DRLearner: effect > cost,0.17037079037281194
+96,Treat none,0.0
+96,Treat all,0.003665144009930504
+96,LinearDML: effect > cost,0.1813944161558835
+96,CausalForestDML: effect > cost,0.1639788738785942
+96,DRLearner: effect > cost,0.17178315399389849
+97,Treat none,0.0
+97,Treat all,-0.007858269545994778
+97,LinearDML: effect > cost,0.1670454066737563
+97,CausalForestDML: effect > cost,0.1497196520361747
+97,DRLearner: effect > cost,0.1596344699854644
+98,Treat none,0.0
+98,Treat all,-0.009049955048368186
+98,LinearDML: effect > cost,0.15933249476916506
+98,CausalForestDML: effect > cost,0.14386117482879607
+98,DRLearner: effect > cost,0.1534826396354664
+99,Treat none,0.0
+99,Treat all,0.001795334025846023
+99,LinearDML: effect > cost,0.16518476583119687
+99,CausalForestDML: effect > cost,0.15126829075108672
+99,DRLearner: effect > cost,0.16123698119601731
+100,Treat none,0.0
+100,Treat all,0.0013031537915262192
+100,LinearDML: effect > cost,0.16616553569519246
+100,CausalForestDML: effect > cost,0.14692817420436532
+100,DRLearner: effect > cost,0.1568435874844227
+101,Treat none,0.0
+101,Treat all,0.019126851284811827
+101,LinearDML: effect > cost,0.18496286465809733
+101,CausalForestDML: effect > cost,0.1713594729868985
+101,DRLearner: effect > cost,0.18135507620242405
+102,Treat none,0.0
+102,Treat all,-0.0010608699661594301
+102,LinearDML: effect > cost,0.16896557937161671
+102,CausalForestDML: effect > cost,0.15338359206790594
+102,DRLearner: effect > cost,0.16485804703439888
+103,Treat none,0.0
+103,Treat all,0.018908019305724673
+103,LinearDML: effect > cost,0.17804648343156215
+103,CausalForestDML: effect > cost,0.1633153988778133
+103,DRLearner: effect > cost,0.17345711576163164
+104,Treat none,0.0
+104,Treat all,-0.003184285246572082
+104,LinearDML: effect > cost,0.16381469362167297
+104,CausalForestDML: effect > cost,0.15128715838704465
+104,DRLearner: effect > cost,0.16044281016968723
+105,Treat none,0.0
+105,Treat all,0.013999087083998682
+105,LinearDML: effect > cost,0.17303752359482538
+105,CausalForestDML: effect > cost,0.1623072842718573
+105,DRLearner: effect > cost,0.16950570366983095
+106,Treat none,0.0
+106,Treat all,-0.01122994897725939
+106,LinearDML: effect > cost,0.16305660088679988
+106,CausalForestDML: effect > cost,0.15056069684328233
+106,DRLearner: effect > cost,0.15678286603404945
+107,Treat none,0.0
+107,Treat all,-0.005352537981881533
+107,LinearDML: effect > cost,0.16660703317817085
+107,CausalForestDML: effect > cost,0.1540522435604581
+107,DRLearner: effect > cost,0.1627464179069634
+108,Treat none,0.0
+108,Treat all,0.0006880344407793001
+108,LinearDML: effect > cost,0.1617075134951417
+108,CausalForestDML: effect > cost,0.14317237306271635
+108,DRLearner: effect > cost,0.15676400319432765
+109,Treat none,0.0
+109,Treat all,-0.0059972173182126325
+109,LinearDML: effect > cost,0.16907867654497916
+109,CausalForestDML: effect > cost,0.14755287207932294
+109,DRLearner: effect > cost,0.16109573496785495
+110,Treat none,0.0
+110,Treat all,0.0029653013382585415
+110,LinearDML: effect > cost,0.17054452166413436
+110,CausalForestDML: effect > cost,0.1496621270021837
+110,DRLearner: effect > cost,0.16574542653768123
+111,Treat none,0.0
+111,Treat all,0.010286918013040752
+111,LinearDML: effect > cost,0.17018863885004748
+111,CausalForestDML: effect > cost,0.15276448061922027
+111,DRLearner: effect > cost,0.1647500000101127
+112,Treat none,0.0
+112,Treat all,-0.002657968181262528
+112,LinearDML: effect > cost,0.16283124102664778
+112,CausalForestDML: effect > cost,0.15099264645564306
+112,DRLearner: effect > cost,0.16099537208340972
+113,Treat none,0.0
+113,Treat all,0.00807995991676156
+113,LinearDML: effect > cost,0.1800970431648962
+113,CausalForestDML: effect > cost,0.16473369054484052
+113,DRLearner: effect > cost,0.17214263469750257
+114,Treat none,0.0
+114,Treat all,0.0006678486873614513
+114,LinearDML: effect > cost,0.17348619990069417
+114,CausalForestDML: effect > cost,0.15485553560233237
+114,DRLearner: effect > cost,0.16650321401148865
+115,Treat none,0.0
+115,Treat all,-0.020192325291533926
+115,LinearDML: effect > cost,0.16205221642060988
+115,CausalForestDML: effect > cost,0.14776109563511763
+115,DRLearner: effect > cost,0.16010289847781875
+116,Treat none,0.0
+116,Treat all,0.004260334720397443
+116,LinearDML: effect > cost,0.17448041774047346
+116,CausalForestDML: effect > cost,0.15683806464150762
+116,DRLearner: effect > cost,0.16767369760809578
+117,Treat none,0.0
+117,Treat all,-0.024416615756016686
+117,LinearDML: effect > cost,0.15339733187087004
+117,CausalForestDML: effect > cost,0.13302598996128182
+117,DRLearner: effect > cost,0.14769583950173784
+118,Treat none,0.0
+118,Treat all,-0.0111109130526576
+118,LinearDML: effect > cost,0.16337883733828562
+118,CausalForestDML: effect > cost,0.1442642238842929
+118,DRLearner: effect > cost,0.1543477074819706
+119,Treat none,0.0
+119,Treat all,-0.009346350255252697
+119,LinearDML: effect > cost,0.1617894907586321
+119,CausalForestDML: effect > cost,0.14374026449380908
+119,DRLearner: effect > cost,0.1568071224727901
+120,Treat none,0.0
+120,Treat all,-0.019699844223791663
+120,LinearDML: effect > cost,0.16209223526789998
+120,CausalForestDML: effect > cost,0.1477253391028494
+120,DRLearner: effect > cost,0.15539380100097067
+121,Treat none,0.0
+121,Treat all,0.022773418601777225
+121,LinearDML: effect > cost,0.18407576648969448
+121,CausalForestDML: effect > cost,0.16568200116153292
+121,DRLearner: effect > cost,0.1770082002231345
+122,Treat none,0.0
+122,Treat all,0.00044870385486376024
+122,LinearDML: effect > cost,0.16548714510989795
+122,CausalForestDML: effect > cost,0.15083474055674886
+122,DRLearner: effect > cost,0.160175167723444
+123,Treat none,0.0
+123,Treat all,-0.001684626046660218
+123,LinearDML: effect > cost,0.16692302818546542
+123,CausalForestDML: effect > cost,0.15204926657686277
+123,DRLearner: effect > cost,0.1592318754086684
+124,Treat none,0.0
+124,Treat all,0.009524237692236098
+124,LinearDML: effect > cost,0.17873787271612165
+124,CausalForestDML: effect > cost,0.15852477416953764
+124,DRLearner: effect > cost,0.17110834275093847
+125,Treat none,0.0
+125,Treat all,-0.0008635503320711818
+125,LinearDML: effect > cost,0.17438311550130955
+125,CausalForestDML: effect > cost,0.1585298077196974
+125,DRLearner: effect > cost,0.16867384658967544
+126,Treat none,0.0
+126,Treat all,0.004692063084954801
+126,LinearDML: effect > cost,0.16886510773462154
+126,CausalForestDML: effect > cost,0.15294724435207782
+126,DRLearner: effect > cost,0.16410824759770776
+127,Treat none,0.0
+127,Treat all,-0.007385560363751403
+127,LinearDML: effect > cost,0.1722188983032517
+127,CausalForestDML: effect > cost,0.15864852646351915
+127,DRLearner: effect > cost,0.17019685145945018
+128,Treat none,0.0
+128,Treat all,0.004722793532820883
+128,LinearDML: effect > cost,0.1720654184786002
+128,CausalForestDML: effect > cost,0.15190095760056377
+128,DRLearner: effect > cost,0.16341015482554772
+129,Treat none,0.0
+129,Treat all,0.013393914151881715
+129,LinearDML: effect > cost,0.1758175269888591
+129,CausalForestDML: effect > cost,0.15746826846848294
+129,DRLearner: effect > cost,0.16393759134298666
+130,Treat none,0.0
+130,Treat all,0.010500119479875112
+130,LinearDML: effect > cost,0.17364485697642182
+130,CausalForestDML: effect > cost,0.15924740005355761
+130,DRLearner: effect > cost,0.1688579954386659
+131,Treat none,0.0
+131,Treat all,0.007627453378446218
+131,LinearDML: effect > cost,0.1802298206151331
+131,CausalForestDML: effect > cost,0.16275216274576576
+131,DRLearner: effect > cost,0.17273504904012285
+132,Treat none,0.0
+132,Treat all,0.0060716074045345115
+132,LinearDML: effect > cost,0.17851028238893576
+132,CausalForestDML: effect > cost,0.1544993219314026
+132,DRLearner: effect > cost,0.1698103293179754
+133,Treat none,0.0
+133,Treat all,0.00864189737646098
+133,LinearDML: effect > cost,0.17947698244010699
+133,CausalForestDML: effect > cost,0.16303402364949493
+133,DRLearner: effect > cost,0.17320659660671026
+134,Treat none,0.0
+134,Treat all,0.0134261303657693
+134,LinearDML: effect > cost,0.1659318391083235
+134,CausalForestDML: effect > cost,0.1488983651153739
+134,DRLearner: effect > cost,0.16056309177505304
+135,Treat none,0.0
+135,Treat all,0.002118161103662175
+135,LinearDML: effect > cost,0.16707520423782274
+135,CausalForestDML: effect > cost,0.1544315005709207
+135,DRLearner: effect > cost,0.16143636396755043
+136,Treat none,0.0
+136,Treat all,-0.008439528565286283
+136,LinearDML: effect > cost,0.1666395673555653
+136,CausalForestDML: effect > cost,0.14860206975656476
+136,DRLearner: effect > cost,0.15724074013132588
+137,Treat none,0.0
+137,Treat all,-0.011445081156253091
+137,LinearDML: effect > cost,0.1709735623689678
+137,CausalForestDML: effect > cost,0.15034341513242355
+137,DRLearner: effect > cost,0.163575306392026
+138,Treat none,0.0
+138,Treat all,0.018136025560299054
+138,LinearDML: effect > cost,0.1845344721716271
+138,CausalForestDML: effect > cost,0.17057766149032733
+138,DRLearner: effect > cost,0.17996016370641263
+139,Treat none,0.0
+139,Treat all,-0.006325722650625898
+139,LinearDML: effect > cost,0.16887534796465795
+139,CausalForestDML: effect > cost,0.1491181914299377
+139,DRLearner: effect > cost,0.1634313137445648
+140,Treat none,0.0
+140,Treat all,-0.0005348904855105686
+140,LinearDML: effect > cost,0.17312382110261026
+140,CausalForestDML: effect > cost,0.15495878169051266
+140,DRLearner: effect > cost,0.16360601486325677
+141,Treat none,0.0
+141,Treat all,0.00218142655806598
+141,LinearDML: effect > cost,0.1719459422930158
+141,CausalForestDML: effect > cost,0.1591080896190655
+141,DRLearner: effect > cost,0.16691811659857694
+142,Treat none,0.0
+142,Treat all,0.01153143172044357
+142,LinearDML: effect > cost,0.1762006466377305
+142,CausalForestDML: effect > cost,0.15525955046622797
+142,DRLearner: effect > cost,0.1700529820874521
+143,Treat none,0.0
+143,Treat all,0.0010604968947061067
+143,LinearDML: effect > cost,0.16721281678500774
+143,CausalForestDML: effect > cost,0.1490879608474141
+143,DRLearner: effect > cost,0.1599820594697406
+144,Treat none,0.0
+144,Treat all,0.01037583671017186
+144,LinearDML: effect > cost,0.17694487446423765
+144,CausalForestDML: effect > cost,0.16098037270905424
+144,DRLearner: effect > cost,0.17398556327921685
+145,Treat none,0.0
+145,Treat all,0.020408535378431406
+145,LinearDML: effect > cost,0.18295534736015656
+145,CausalForestDML: effect > cost,0.1607625368412126
+145,DRLearner: effect > cost,0.17290652931248546
+146,Treat none,0.0
+146,Treat all,-0.0020617932986124895
+146,LinearDML: effect > cost,0.16107120842659242
+146,CausalForestDML: effect > cost,0.14496605397450857
+146,DRLearner: effect > cost,0.1581350095459127
+147,Treat none,0.0
+147,Treat all,-0.021102953518785866
+147,LinearDML: effect > cost,0.15794588983297914
+147,CausalForestDML: effect > cost,0.13915885297269806
+147,DRLearner: effect > cost,0.14953698257800238
+148,Treat none,0.0
+148,Treat all,0.012328099850856509
+148,LinearDML: effect > cost,0.1703797958512482
+148,CausalForestDML: effect > cost,0.15622533391472498
+148,DRLearner: effect > cost,0.16732776222818407
+149,Treat none,0.0
+149,Treat all,0.00275866586006439
+149,LinearDML: effect > cost,0.16832304720662872
+149,CausalForestDML: effect > cost,0.15341319713635757
+149,DRLearner: effect > cost,0.16410677600796272
+150,Treat none,0.0
+150,Treat all,-0.011142605052721796
+150,LinearDML: effect > cost,0.159132421422601
+150,CausalForestDML: effect > cost,0.1441337519912493
+150,DRLearner: effect > cost,0.1531533276145509
+151,Treat none,0.0
+151,Treat all,-0.004855355661958041
+151,LinearDML: effect > cost,0.1700953439915907
+151,CausalForestDML: effect > cost,0.15235544122444855
+151,DRLearner: effect > cost,0.16016106683809175
+152,Treat none,0.0
+152,Treat all,0.02579119851378037
+152,LinearDML: effect > cost,0.18357682379233292
+152,CausalForestDML: effect > cost,0.16384511484381797
+152,DRLearner: effect > cost,0.1757416469604431
+153,Treat none,0.0
+153,Treat all,0.02379742131192755
+153,LinearDML: effect > cost,0.1824489048377207
+153,CausalForestDML: effect > cost,0.16469050415220154
+153,DRLearner: effect > cost,0.17241320069919508
+154,Treat none,0.0
+154,Treat all,-0.005643166570772101
+154,LinearDML: effect > cost,0.1672523256939313
+154,CausalForestDML: effect > cost,0.14878237864249044
+154,DRLearner: effect > cost,0.16059100011545877
+155,Treat none,0.0
+155,Treat all,-3.693176780023354e-05
+155,LinearDML: effect > cost,0.16826353491328605
+155,CausalForestDML: effect > cost,0.15539412297880062
+155,DRLearner: effect > cost,0.16480829900658683
+156,Treat none,0.0
+156,Treat all,0.010866416540509294
+156,LinearDML: effect > cost,0.17348289575970635
+156,CausalForestDML: effect > cost,0.15744341239926032
+156,DRLearner: effect > cost,0.17004876940583297
+157,Treat none,0.0
+157,Treat all,0.012042590883630754
+157,LinearDML: effect > cost,0.1756885453278858
+157,CausalForestDML: effect > cost,0.15413812593757384
+157,DRLearner: effect > cost,0.1668682807686478
+158,Treat none,0.0
+158,Treat all,0.021075173413314642
+158,LinearDML: effect > cost,0.182958035964436
+158,CausalForestDML: effect > cost,0.16550471862442176
+158,DRLearner: effect > cost,0.17226318978378843
+159,Treat none,0.0
+159,Treat all,0.00714917080291086
+159,LinearDML: effect > cost,0.16846964625863536
+159,CausalForestDML: effect > cost,0.1554724519961376
+159,DRLearner: effect > cost,0.16426361894653682
+160,Treat none,0.0
+160,Treat all,-0.009927651960786871
+160,LinearDML: effect > cost,0.16853925367114436
+160,CausalForestDML: effect > cost,0.1512225461492645
+160,DRLearner: effect > cost,0.16200780227135442
+161,Treat none,0.0
+161,Treat all,0.0273964926816023
+161,LinearDML: effect > cost,0.18406192829475698
+161,CausalForestDML: effect > cost,0.16708480536711695
+161,DRLearner: effect > cost,0.17883117883052585
+162,Treat none,0.0
+162,Treat all,-0.011576940808146322
+162,LinearDML: effect > cost,0.16524694088870115
+162,CausalForestDML: effect > cost,0.14734755451875992
+162,DRLearner: effect > cost,0.15924648006088926
+163,Treat none,0.0
+163,Treat all,-0.007940473519727756
+163,LinearDML: effect > cost,0.16765671380051098
+163,CausalForestDML: effect > cost,0.14868403910508268
+163,DRLearner: effect > cost,0.16277412029311814
+164,Treat none,0.0
+164,Treat all,-0.0028286688890300617
+164,LinearDML: effect > cost,0.17248160664259124
+164,CausalForestDML: effect > cost,0.15179350903186456
+164,DRLearner: effect > cost,0.1636486952811983
+165,Treat none,0.0
+165,Treat all,0.016876513715735154
+165,LinearDML: effect > cost,0.18239651236891252
+165,CausalForestDML: effect > cost,0.1691255469165038
+165,DRLearner: effect > cost,0.17549988537665853
+166,Treat none,0.0
+166,Treat all,-0.019156559153440254
+166,LinearDML: effect > cost,0.16417439625471897
+166,CausalForestDML: effect > cost,0.14580624911704057
+166,DRLearner: effect > cost,0.15629461813018022
+167,Treat none,0.0
+167,Treat all,0.0021654723822001924
+167,LinearDML: effect > cost,0.17070650981452473
+167,CausalForestDML: effect > cost,0.15353364280029544
+167,DRLearner: effect > cost,0.16376100673675287
+168,Treat none,0.0
+168,Treat all,0.007767109918538796
+168,LinearDML: effect > cost,0.1688993012738363
+168,CausalForestDML: effect > cost,0.15536811272063336
+168,DRLearner: effect > cost,0.16509991494485307
+169,Treat none,0.0
+169,Treat all,-0.0069739654495510105
+169,LinearDML: effect > cost,0.16273198905553396
+169,CausalForestDML: effect > cost,0.14763935363535793
+169,DRLearner: effect > cost,0.15816023680708158
+170,Treat none,0.0
+170,Treat all,0.015327296598215088
+170,LinearDML: effect > cost,0.17819850943134796
+170,CausalForestDML: effect > cost,0.15874672664850648
+170,DRLearner: effect > cost,0.17310408668395266
+171,Treat none,0.0
+171,Treat all,0.0007181222219210631
+171,LinearDML: effect > cost,0.16818762365600787
+171,CausalForestDML: effect > cost,0.14813158087487777
+171,DRLearner: effect > cost,0.16237374499766616
+172,Treat none,0.0
+172,Treat all,-0.011952135023571455
+172,LinearDML: effect > cost,0.16029536522312826
+172,CausalForestDML: effect > cost,0.14324948918068445
+172,DRLearner: effect > cost,0.15564706286395685
+173,Treat none,0.0
+173,Treat all,0.0016964431441712803
+173,LinearDML: effect > cost,0.1713591349992058
+173,CausalForestDML: effect > cost,0.15614850271700637
+173,DRLearner: effect > cost,0.1640671101278779
+174,Treat none,0.0
+174,Treat all,0.00208315009652576
+174,LinearDML: effect > cost,0.15614671241999428
+174,CausalForestDML: effect > cost,0.14567946323269904
+174,DRLearner: effect > cost,0.15204499132011934
+175,Treat none,0.0
+175,Treat all,-0.00019242137721544057
+175,LinearDML: effect > cost,0.16590026055326365
+175,CausalForestDML: effect > cost,0.15404498895261237
+175,DRLearner: effect > cost,0.15985272052172037
+176,Treat none,0.0
+176,Treat all,-0.0019753215570953073
+176,LinearDML: effect > cost,0.16897450511812945
+176,CausalForestDML: effect > cost,0.15148963302954419
+176,DRLearner: effect > cost,0.16272401540149042
+177,Treat none,0.0
+177,Treat all,0.001455427041876422
+177,LinearDML: effect > cost,0.17073818097268487
+177,CausalForestDML: effect > cost,0.15410016179042224
+177,DRLearner: effect > cost,0.1634551210900789
+178,Treat none,0.0
+178,Treat all,0.0033354717739802887
+178,LinearDML: effect > cost,0.17043855837249783
+178,CausalForestDML: effect > cost,0.1524394551651318
+178,DRLearner: effect > cost,0.16479068949086012
+179,Treat none,0.0
+179,Treat all,-0.014920446395425191
+179,LinearDML: effect > cost,0.15250931383047184
+179,CausalForestDML: effect > cost,0.1395777649405119
+179,DRLearner: effect > cost,0.14949668892842488
+180,Treat none,0.0
+180,Treat all,0.00592451624893803
+180,LinearDML: effect > cost,0.17882997419546642
+180,CausalForestDML: effect > cost,0.15672600607710796
+180,DRLearner: effect > cost,0.1713055469380304
+181,Treat none,0.0
+181,Treat all,-0.0016371612232819325
+181,LinearDML: effect > cost,0.16798705529836477
+181,CausalForestDML: effect > cost,0.15436716082806962
+181,DRLearner: effect > cost,0.16194911584358285
+182,Treat none,0.0
+182,Treat all,-0.007463207203290878
+182,LinearDML: effect > cost,0.16784527233491342
+182,CausalForestDML: effect > cost,0.1492008436526727
+182,DRLearner: effect > cost,0.1625225404090777
+183,Treat none,0.0
+183,Treat all,-0.004106536468605816
+183,LinearDML: effect > cost,0.1731866080720743
+183,CausalForestDML: effect > cost,0.14947620653520488
+183,DRLearner: effect > cost,0.1636906521299948
+184,Treat none,0.0
+184,Treat all,-0.0021916358595774703
+184,LinearDML: effect > cost,0.16895271915301277
+184,CausalForestDML: effect > cost,0.1489143098882692
+184,DRLearner: effect > cost,0.16249036357743452
+185,Treat none,0.0
+185,Treat all,0.008088717195442288
+185,LinearDML: effect > cost,0.17234544568487353
+185,CausalForestDML: effect > cost,0.1533620716203594
+185,DRLearner: effect > cost,0.1646891882104008
+186,Treat none,0.0
+186,Treat all,-0.011700553418372573
+186,LinearDML: effect > cost,0.16722263814271573
+186,CausalForestDML: effect > cost,0.14837812014662274
+186,DRLearner: effect > cost,0.16050785815478857
+187,Treat none,0.0
+187,Treat all,0.006641309042044711
+187,LinearDML: effect > cost,0.18410706949098224
+187,CausalForestDML: effect > cost,0.16273501521812608
+187,DRLearner: effect > cost,0.17462204225533817
+188,Treat none,0.0
+188,Treat all,0.0011491418962088107
+188,LinearDML: effect > cost,0.16520619400742376
+188,CausalForestDML: effect > cost,0.15469594727215835
+188,DRLearner: effect > cost,0.1641602175930118
+189,Treat none,0.0
+189,Treat all,0.013714463822851729
+189,LinearDML: effect > cost,0.17696617963582895
+189,CausalForestDML: effect > cost,0.15954701950363587
+189,DRLearner: effect > cost,0.16931788692996888
+190,Treat none,0.0
+190,Treat all,0.007370812012704508
+190,LinearDML: effect > cost,0.1767724062276624
+190,CausalForestDML: effect > cost,0.15866966213647787
+190,DRLearner: effect > cost,0.16969887485031657
+191,Treat none,0.0
+191,Treat all,-0.0005960498821665377
+191,LinearDML: effect > cost,0.16475929361286523
+191,CausalForestDML: effect > cost,0.14908513549963348
+191,DRLearner: effect > cost,0.15788464188972567
+192,Treat none,0.0
+192,Treat all,-0.015247362944800736
+192,LinearDML: effect > cost,0.15697333329009122
+192,CausalForestDML: effect > cost,0.13888964980868646
+192,DRLearner: effect > cost,0.1511281074109599
+193,Treat none,0.0
+193,Treat all,0.017650580862258
+193,LinearDML: effect > cost,0.17786594954182333
+193,CausalForestDML: effect > cost,0.15332531687170511
+193,DRLearner: effect > cost,0.16742668304576702
+194,Treat none,0.0
+194,Treat all,0.0006863806356164654
+194,LinearDML: effect > cost,0.17058486027665237
+194,CausalForestDML: effect > cost,0.152857655468054
+194,DRLearner: effect > cost,0.16273024616671533
+195,Treat none,0.0
+195,Treat all,-0.001071175925484777
+195,LinearDML: effect > cost,0.1680659120871722
+195,CausalForestDML: effect > cost,0.15658320414704313
+195,DRLearner: effect > cost,0.16378029719655898
+196,Treat none,0.0
+196,Treat all,-0.013856583459938265
+196,LinearDML: effect > cost,0.1655902851916462
+196,CausalForestDML: effect > cost,0.15251749327093989
+196,DRLearner: effect > cost,0.16019232129345154
+197,Treat none,0.0
+197,Treat all,-0.00563607554152225
+197,LinearDML: effect > cost,0.16919751333096353
+197,CausalForestDML: effect > cost,0.1503287007663368
+197,DRLearner: effect > cost,0.16186456029514093
+198,Treat none,0.0
+198,Treat all,0.013284826411447336
+198,LinearDML: effect > cost,0.1784837633111975
+198,CausalForestDML: effect > cost,0.1607588915867179
+198,DRLearner: effect > cost,0.17257177340865734
+199,Treat none,0.0
+199,Treat all,0.025309963049125896
+199,LinearDML: effect > cost,0.18383336613453724
+199,CausalForestDML: effect > cost,0.16406917643286903
+199,DRLearner: effect > cost,0.17507989790408504
+200,Treat none,0.0
+200,Treat all,0.011299470164203813
+200,LinearDML: effect > cost,0.17397971765192943
+200,CausalForestDML: effect > cost,0.16001306009110478
+200,DRLearner: effect > cost,0.17103659118492798
+201,Treat none,0.0
+201,Treat all,0.009845938761654889
+201,LinearDML: effect > cost,0.17780938551018008
+201,CausalForestDML: effect > cost,0.1644649133061091
+201,DRLearner: effect > cost,0.17405316101838708
+202,Treat none,0.0
+202,Treat all,-0.0008587305960650743
+202,LinearDML: effect > cost,0.17172273833477114
+202,CausalForestDML: effect > cost,0.15550936176405766
+202,DRLearner: effect > cost,0.16867923989625203
+203,Treat none,0.0
+203,Treat all,0.0034981890610070714
+203,LinearDML: effect > cost,0.16887232295818325
+203,CausalForestDML: effect > cost,0.15436574710775558
+203,DRLearner: effect > cost,0.16454037585888942
+204,Treat none,0.0
+204,Treat all,-0.0018702172475072315
+204,LinearDML: effect > cost,0.16987444965912152
+204,CausalForestDML: effect > cost,0.149463111761184
+204,DRLearner: effect > cost,0.1621297673389658
+205,Treat none,0.0
+205,Treat all,0.021746293704560694
+205,LinearDML: effect > cost,0.17717345134270482
+205,CausalForestDML: effect > cost,0.16205149249252732
+205,DRLearner: effect > cost,0.17193182198245557
+206,Treat none,0.0
+206,Treat all,-0.016998178857893228
+206,LinearDML: effect > cost,0.16547273282070651
+206,CausalForestDML: effect > cost,0.1458565609470955
+206,DRLearner: effect > cost,0.15893273731379698
+207,Treat none,0.0
+207,Treat all,0.0011591356670668978
+207,LinearDML: effect > cost,0.17232254528849483
+207,CausalForestDML: effect > cost,0.15768272717059223
+207,DRLearner: effect > cost,0.16388572319149178
+208,Treat none,0.0
+208,Treat all,0.007973577031157917
+208,LinearDML: effect > cost,0.1745254480860335
+208,CausalForestDML: effect > cost,0.15876920623608567
+208,DRLearner: effect > cost,0.16643615788528757
+209,Treat none,0.0
+209,Treat all,-0.023489195977748623
+209,LinearDML: effect > cost,0.15483143864119916
+209,CausalForestDML: effect > cost,0.13084860115256827
+209,DRLearner: effect > cost,0.14990892536303085
+210,Treat none,0.0
+210,Treat all,-0.0030219749953122282
+210,LinearDML: effect > cost,0.1661245238444197
+210,CausalForestDML: effect > cost,0.14914033392271409
+210,DRLearner: effect > cost,0.15737344050216528
+211,Treat none,0.0
+211,Treat all,-0.013093764170801598
+211,LinearDML: effect > cost,0.16913746363603546
+211,CausalForestDML: effect > cost,0.15227657725383315
+211,DRLearner: effect > cost,0.15981027665002306
+212,Treat none,0.0
+212,Treat all,0.004114834332027489
+212,LinearDML: effect > cost,0.1722551059063051
+212,CausalForestDML: effect > cost,0.15753601208731688
+212,DRLearner: effect > cost,0.16693567582155266
+213,Treat none,0.0
+213,Treat all,0.007638421538645943
+213,LinearDML: effect > cost,0.17519457473402938
+213,CausalForestDML: effect > cost,0.15715422854753158
+213,DRLearner: effect > cost,0.167799912433646
+214,Treat none,0.0
+214,Treat all,0.004386529227434052
+214,LinearDML: effect > cost,0.17351564937353584
+214,CausalForestDML: effect > cost,0.1554523354054591
+214,DRLearner: effect > cost,0.16363933490990873
+215,Treat none,0.0
+215,Treat all,-0.00572137185830699
+215,LinearDML: effect > cost,0.16709999017572302
+215,CausalForestDML: effect > cost,0.15230306615322328
+215,DRLearner: effect > cost,0.16176282273816456
+216,Treat none,0.0
+216,Treat all,0.00040252649773032175
+216,LinearDML: effect > cost,0.1682725742501966
+216,CausalForestDML: effect > cost,0.15664619560641319
+216,DRLearner: effect > cost,0.1647766898130166
+217,Treat none,0.0
+217,Treat all,-0.017736957774066923
+217,LinearDML: effect > cost,0.16291929112785766
+217,CausalForestDML: effect > cost,0.15039418281081376
+217,DRLearner: effect > cost,0.1590236443564786
+218,Treat none,0.0
+218,Treat all,-0.0009124053681705989
+218,LinearDML: effect > cost,0.1719797885218488
+218,CausalForestDML: effect > cost,0.16248564966275877
+218,DRLearner: effect > cost,0.1674456225638318
+219,Treat none,0.0
+219,Treat all,-0.00041696139668606923
+219,LinearDML: effect > cost,0.17399207078029486
+219,CausalForestDML: effect > cost,0.1598146527769666
+219,DRLearner: effect > cost,0.16723695583065515
+220,Treat none,0.0
+220,Treat all,-0.01667578530533448
+220,LinearDML: effect > cost,0.15587285622184444
+220,CausalForestDML: effect > cost,0.13623059712804314
+220,DRLearner: effect > cost,0.14831239782547173
+221,Treat none,0.0
+221,Treat all,0.0031733297377317233
+221,LinearDML: effect > cost,0.1689048475618715
+221,CausalForestDML: effect > cost,0.1523142919024698
+221,DRLearner: effect > cost,0.16084854968033407
+222,Treat none,0.0
+222,Treat all,0.01008726811183908
+222,LinearDML: effect > cost,0.17351328522354495
+222,CausalForestDML: effect > cost,0.1569653385135689
+222,DRLearner: effect > cost,0.16891011356143226
+223,Treat none,0.0
+223,Treat all,0.0020949463747879384
+223,LinearDML: effect > cost,0.16949417956562643
+223,CausalForestDML: effect > cost,0.1550379546571682
+223,DRLearner: effect > cost,0.16555024335634147
+224,Treat none,0.0
+224,Treat all,0.001116076056901924
+224,LinearDML: effect > cost,0.16716461332276616
+224,CausalForestDML: effect > cost,0.1540397050250064
+224,DRLearner: effect > cost,0.1621735264547952
+225,Treat none,0.0
+225,Treat all,-0.017090818913600685
+225,LinearDML: effect > cost,0.15636654214304507
+225,CausalForestDML: effect > cost,0.1424781741538826
+225,DRLearner: effect > cost,0.1491387627878367
+226,Treat none,0.0
+226,Treat all,0.0255547292485364
+226,LinearDML: effect > cost,0.1831755265180009
+226,CausalForestDML: effect > cost,0.16646595151197632
+226,DRLearner: effect > cost,0.17797044623609728
+227,Treat none,0.0
+227,Treat all,0.003943614465272734
+227,LinearDML: effect > cost,0.17101391013480507
+227,CausalForestDML: effect > cost,0.15900608332053046
+227,DRLearner: effect > cost,0.16684432947350422
+228,Treat none,0.0
+228,Treat all,-0.006671756496129367
+228,LinearDML: effect > cost,0.16164112876185055
+228,CausalForestDML: effect > cost,0.14714772377724547
+228,DRLearner: effect > cost,0.15348218202282016
+229,Treat none,0.0
+229,Treat all,-0.014508280364633416
+229,LinearDML: effect > cost,0.16164130938588528
+229,CausalForestDML: effect > cost,0.1481685096836059
+229,DRLearner: effect > cost,0.15731484742250407
+230,Treat none,0.0
+230,Treat all,0.004599089707018088
+230,LinearDML: effect > cost,0.17690775898676506
+230,CausalForestDML: effect > cost,0.16105095106812156
+230,DRLearner: effect > cost,0.16975416130151078
+231,Treat none,0.0
+231,Treat all,-0.0004953958056619447
+231,LinearDML: effect > cost,0.1654093771398021
+231,CausalForestDML: effect > cost,0.15238544494225778
+231,DRLearner: effect > cost,0.15789744302699163
+232,Treat none,0.0
+232,Treat all,0.012511615182580354
+232,LinearDML: effect > cost,0.17351518226189652
+232,CausalForestDML: effect > cost,0.15721148539675142
+232,DRLearner: effect > cost,0.1658468295229552
+233,Treat none,0.0
+233,Treat all,0.015234192663344215
+233,LinearDML: effect > cost,0.1711118418146211
+233,CausalForestDML: effect > cost,0.15867219586805842
+233,DRLearner: effect > cost,0.1668089597853554
+234,Treat none,0.0
+234,Treat all,0.010587591499351632
+234,LinearDML: effect > cost,0.1760322388683137
+234,CausalForestDML: effect > cost,0.16092965520321995
+234,DRLearner: effect > cost,0.1699388560665858
+235,Treat none,0.0
+235,Treat all,0.0009978340470064506
+235,LinearDML: effect > cost,0.17031704176013213
+235,CausalForestDML: effect > cost,0.1559884210769484
+235,DRLearner: effect > cost,0.16388661533361962
+236,Treat none,0.0
+236,Treat all,-0.019369514431897716
+236,LinearDML: effect > cost,0.15255811759277474
+236,CausalForestDML: effect > cost,0.13676506413672393
+236,DRLearner: effect > cost,0.1475936309101952
+237,Treat none,0.0
+237,Treat all,-0.009779694167948147
+237,LinearDML: effect > cost,0.15841652326677566
+237,CausalForestDML: effect > cost,0.13827017943162728
+237,DRLearner: effect > cost,0.14830060269706524
+238,Treat none,0.0
+238,Treat all,0.005667305531549965
+238,LinearDML: effect > cost,0.17331731534875403
+238,CausalForestDML: effect > cost,0.15818878160994101
+238,DRLearner: effect > cost,0.16542701502964582
+239,Treat none,0.0
+239,Treat all,-0.004867776157014697
+239,LinearDML: effect > cost,0.1699176539034551
+239,CausalForestDML: effect > cost,0.14797730921820829
+239,DRLearner: effect > cost,0.16135499702441528
+240,Treat none,0.0
+240,Treat all,0.026675692664083282
+240,LinearDML: effect > cost,0.17689034096579137
+240,CausalForestDML: effect > cost,0.1633165108188719
+240,DRLearner: effect > cost,0.17451481919730905
+241,Treat none,0.0
+241,Treat all,-0.002097859604393813
+241,LinearDML: effect > cost,0.16750811292953152
+241,CausalForestDML: effect > cost,0.14937033165647362
+241,DRLearner: effect > cost,0.16320512918266641
+242,Treat none,0.0
+242,Treat all,0.012705942119726242
+242,LinearDML: effect > cost,0.1708535340240265
+242,CausalForestDML: effect > cost,0.15410042573227412
+242,DRLearner: effect > cost,0.16308792050710838
+243,Treat none,0.0
+243,Treat all,-0.00016711677715392385
+243,LinearDML: effect > cost,0.17166728654425775
+243,CausalForestDML: effect > cost,0.15721717155728054
+243,DRLearner: effect > cost,0.16540378564282043
+244,Treat none,0.0
+244,Treat all,0.004429252257807647
+244,LinearDML: effect > cost,0.16743194184376348
+244,CausalForestDML: effect > cost,0.14926086089759472
+244,DRLearner: effect > cost,0.16200794901101806
+245,Treat none,0.0
+245,Treat all,-0.004427927141183298
+245,LinearDML: effect > cost,0.1734894893193847
+245,CausalForestDML: effect > cost,0.14837688482978786
+245,DRLearner: effect > cost,0.1639690782660383
+246,Treat none,0.0
+246,Treat all,0.006572599559677816
+246,LinearDML: effect > cost,0.17059117806457164
+246,CausalForestDML: effect > cost,0.15676224080096923
+246,DRLearner: effect > cost,0.16676187069079484
+247,Treat none,0.0
+247,Treat all,-0.023320045247428017
+247,LinearDML: effect > cost,0.1516265505308517
+247,CausalForestDML: effect > cost,0.13588326586173533
+247,DRLearner: effect > cost,0.14534986913426046
+248,Treat none,0.0
+248,Treat all,-0.012338245282946424
+248,LinearDML: effect > cost,0.16080689976257026
+248,CausalForestDML: effect > cost,0.13907080154716847
+248,DRLearner: effect > cost,0.15389919332702764
+249,Treat none,0.0
+249,Treat all,0.00037527529278417164
+249,LinearDML: effect > cost,0.1710021023413536
+249,CausalForestDML: effect > cost,0.1567231871654882
+249,DRLearner: effect > cost,0.16257060321007905
+250,Treat none,0.0
+250,Treat all,-0.02919283333340384
+250,LinearDML: effect > cost,0.15646320300418418
+250,CausalForestDML: effect > cost,0.1421734957102235
+250,DRLearner: effect > cost,0.1495836558937602
+251,Treat none,0.0
+251,Treat all,0.016941888502547055
+251,LinearDML: effect > cost,0.17557197950087666
+251,CausalForestDML: effect > cost,0.15773034930349067
+251,DRLearner: effect > cost,0.16808003417330789
+252,Treat none,0.0
+252,Treat all,0.00961039015984052
+252,LinearDML: effect > cost,0.1775008856996694
+252,CausalForestDML: effect > cost,0.15611609502194274
+252,DRLearner: effect > cost,0.1715119681398054
+253,Treat none,0.0
+253,Treat all,-0.012819570057372926
+253,LinearDML: effect > cost,0.1613744330026726
+253,CausalForestDML: effect > cost,0.1396343581843235
+253,DRLearner: effect > cost,0.15317161998805
+254,Treat none,0.0
+254,Treat all,-0.011898167993072434
+254,LinearDML: effect > cost,0.16447966273598993
+254,CausalForestDML: effect > cost,0.1420973457954636
+254,DRLearner: effect > cost,0.1555003684182822
+255,Treat none,0.0
+255,Treat all,0.01771412772768967
+255,LinearDML: effect > cost,0.1749111121044459
+255,CausalForestDML: effect > cost,0.16033535469328508
+255,DRLearner: effect > cost,0.1686433416049063
+256,Treat none,0.0
+256,Treat all,0.0027955638009303837
+256,LinearDML: effect > cost,0.16999076965967314
+256,CausalForestDML: effect > cost,0.15487974405300398
+256,DRLearner: effect > cost,0.1646951306870898
+257,Treat none,0.0
+257,Treat all,-0.014392560062250606
+257,LinearDML: effect > cost,0.1648915993005662
+257,CausalForestDML: effect > cost,0.14844981523840253
+257,DRLearner: effect > cost,0.15719792496669463
+258,Treat none,0.0
+258,Treat all,0.014259912155506165
+258,LinearDML: effect > cost,0.17494530122597474
+258,CausalForestDML: effect > cost,0.16160520464228478
+258,DRLearner: effect > cost,0.17141346532222607
+259,Treat none,0.0
+259,Treat all,0.011771633568219067
+259,LinearDML: effect > cost,0.17447792005174947
+259,CausalForestDML: effect > cost,0.1626152981809298
+259,DRLearner: effect > cost,0.1725217513992176
+260,Treat none,0.0
+260,Treat all,-0.0006364151837593419
+260,LinearDML: effect > cost,0.17286046472214303
+260,CausalForestDML: effect > cost,0.15987535381944107
+260,DRLearner: effect > cost,0.16624966896510332
+261,Treat none,0.0
+261,Treat all,0.008362160546394451
+261,LinearDML: effect > cost,0.16563732852746405
+261,CausalForestDML: effect > cost,0.14588341810312852
+261,DRLearner: effect > cost,0.15589621382534574
+262,Treat none,0.0
+262,Treat all,0.0027176048968403648
+262,LinearDML: effect > cost,0.16963400664263312
+262,CausalForestDML: effect > cost,0.15050915882538998
+262,DRLearner: effect > cost,0.16023227794975198
+263,Treat none,0.0
+263,Treat all,-0.0047044138948060315
+263,LinearDML: effect > cost,0.16690672038154616
+263,CausalForestDML: effect > cost,0.15374408259960587
+263,DRLearner: effect > cost,0.1604808443159094
+264,Treat none,0.0
+264,Treat all,-0.00020669423070328872
+264,LinearDML: effect > cost,0.16916696688108016
+264,CausalForestDML: effect > cost,0.15220967259188567
+264,DRLearner: effect > cost,0.16119452689899066
+265,Treat none,0.0
+265,Treat all,-0.007095493309537667
+265,LinearDML: effect > cost,0.1683216043781035
+265,CausalForestDML: effect > cost,0.1527085447446653
+265,DRLearner: effect > cost,0.16245493629124474
+266,Treat none,0.0
+266,Treat all,-0.004016455823779771
+266,LinearDML: effect > cost,0.16641775075435714
+266,CausalForestDML: effect > cost,0.15146813263611428
+266,DRLearner: effect > cost,0.16397783103937813
+267,Treat none,0.0
+267,Treat all,-0.019694507378827702
+267,LinearDML: effect > cost,0.1601692049410213
+267,CausalForestDML: effect > cost,0.14326270531955437
+267,DRLearner: effect > cost,0.1559003660796234
+268,Treat none,0.0
+268,Treat all,0.002011399596330911
+268,LinearDML: effect > cost,0.17764422087857645
+268,CausalForestDML: effect > cost,0.1568733799742716
+268,DRLearner: effect > cost,0.16903447813222447
+269,Treat none,0.0
+269,Treat all,-0.020503158151378667
+269,LinearDML: effect > cost,0.15604371837788594
+269,CausalForestDML: effect > cost,0.14368206311937215
+269,DRLearner: effect > cost,0.15407920232424885
+270,Treat none,0.0
+270,Treat all,0.00682287498130953
+270,LinearDML: effect > cost,0.17156451521851537
+270,CausalForestDML: effect > cost,0.15205803049888053
+270,DRLearner: effect > cost,0.16814659056595888
+271,Treat none,0.0
+271,Treat all,-0.020187598566212404
+271,LinearDML: effect > cost,0.15137363367575427
+271,CausalForestDML: effect > cost,0.133938859446754
+271,DRLearner: effect > cost,0.14491749778083524
+272,Treat none,0.0
+272,Treat all,0.004617518148769304
+272,LinearDML: effect > cost,0.16890592673116717
+272,CausalForestDML: effect > cost,0.14764050939493806
+272,DRLearner: effect > cost,0.16224734319383846
+273,Treat none,0.0
+273,Treat all,0.022884229768856627
+273,LinearDML: effect > cost,0.1726071064003581
+273,CausalForestDML: effect > cost,0.15707257563469634
+273,DRLearner: effect > cost,0.16642073716277275
+274,Treat none,0.0
+274,Treat all,-0.006868606962602145
+274,LinearDML: effect > cost,0.16792194645379518
+274,CausalForestDML: effect > cost,0.14134652308597892
+274,DRLearner: effect > cost,0.15926092491421345
+275,Treat none,0.0
+275,Treat all,-0.00016158713727935234
+275,LinearDML: effect > cost,0.16835746531059598
+275,CausalForestDML: effect > cost,0.15038831751703946
+275,DRLearner: effect > cost,0.16164705636531104
+276,Treat none,0.0
+276,Treat all,0.0035969458941731
+276,LinearDML: effect > cost,0.1687925645853454
+276,CausalForestDML: effect > cost,0.15767509942526206
+276,DRLearner: effect > cost,0.16633702463814193
+277,Treat none,0.0
+277,Treat all,-0.019466722097458318
+277,LinearDML: effect > cost,0.16180676353658344
+277,CausalForestDML: effect > cost,0.14319260517580024
+277,DRLearner: effect > cost,0.15176039909919575
+278,Treat none,0.0
+278,Treat all,0.008211990427665237
+278,LinearDML: effect > cost,0.167253045723387
+278,CausalForestDML: effect > cost,0.15358991596696955
+278,DRLearner: effect > cost,0.16121846438562712
+279,Treat none,0.0
+279,Treat all,0.0027101957646972394
+279,LinearDML: effect > cost,0.1715643121328578
+279,CausalForestDML: effect > cost,0.15616402290670509
+279,DRLearner: effect > cost,0.16650283173607985
+280,Treat none,0.0
+280,Treat all,-0.006493590887670544
+280,LinearDML: effect > cost,0.16037132028650608
+280,CausalForestDML: effect > cost,0.1378174647195981
+280,DRLearner: effect > cost,0.1537623408393491
+281,Treat none,0.0
+281,Treat all,0.0035614677724907736
+281,LinearDML: effect > cost,0.17307024757132192
+281,CausalForestDML: effect > cost,0.14636293551032342
+281,DRLearner: effect > cost,0.16266514676974717
+282,Treat none,0.0
+282,Treat all,-0.012995034440776071
+282,LinearDML: effect > cost,0.1676085284130386
+282,CausalForestDML: effect > cost,0.14700867594854278
+282,DRLearner: effect > cost,0.16009596761259742
+283,Treat none,0.0
+283,Treat all,-0.006730140394157815
+283,LinearDML: effect > cost,0.16666116914443962
+283,CausalForestDML: effect > cost,0.14803972193761447
+283,DRLearner: effect > cost,0.161246328349601
+284,Treat none,0.0
+284,Treat all,0.0007807330495576052
+284,LinearDML: effect > cost,0.1734026871000721
+284,CausalForestDML: effect > cost,0.1564782684405457
+284,DRLearner: effect > cost,0.16483031059337583
+285,Treat none,0.0
+285,Treat all,-0.0007632167112774648
+285,LinearDML: effect > cost,0.16788287312048553
+285,CausalForestDML: effect > cost,0.15378986700035818
+285,DRLearner: effect > cost,0.16148694053477453
+286,Treat none,0.0
+286,Treat all,0.005334838769492364
+286,LinearDML: effect > cost,0.170374318059734
+286,CausalForestDML: effect > cost,0.15450045850118874
+286,DRLearner: effect > cost,0.16314753874363697
+287,Treat none,0.0
+287,Treat all,0.01692551301056835
+287,LinearDML: effect > cost,0.18102993945438425
+287,CausalForestDML: effect > cost,0.16346797788501657
+287,DRLearner: effect > cost,0.1720520420790295
+288,Treat none,0.0
+288,Treat all,0.0004434641652509807
+288,LinearDML: effect > cost,0.16557722228931976
+288,CausalForestDML: effect > cost,0.145479947204536
+288,DRLearner: effect > cost,0.15924168837541547
+289,Treat none,0.0
+289,Treat all,-0.009655315793008146
+289,LinearDML: effect > cost,0.15841966014380404
+289,CausalForestDML: effect > cost,0.14492557387260493
+289,DRLearner: effect > cost,0.15785621864914445
+290,Treat none,0.0
+290,Treat all,0.0012200200019418315
+290,LinearDML: effect > cost,0.1672129867055132
+290,CausalForestDML: effect > cost,0.15267328571102196
+290,DRLearner: effect > cost,0.1628417359747078
+291,Treat none,0.0
+291,Treat all,-0.0014070298732022264
+291,LinearDML: effect > cost,0.17215229701683915
+291,CausalForestDML: effect > cost,0.14799224255851295
+291,DRLearner: effect > cost,0.1616954389876929
+292,Treat none,0.0
+292,Treat all,0.0007798102365987315
+292,LinearDML: effect > cost,0.1662735673190388
+292,CausalForestDML: effect > cost,0.1461308838143133
+292,DRLearner: effect > cost,0.16121240513362428
+293,Treat none,0.0
+293,Treat all,0.003217442707404633
+293,LinearDML: effect > cost,0.17003325094137908
+293,CausalForestDML: effect > cost,0.15331817002454598
+293,DRLearner: effect > cost,0.1656850155325044
+294,Treat none,0.0
+294,Treat all,-0.004235040939103539
+294,LinearDML: effect > cost,0.16856512418984865
+294,CausalForestDML: effect > cost,0.15169915676278134
+294,DRLearner: effect > cost,0.1604895446150326
+295,Treat none,0.0
+295,Treat all,-0.02455001722386455
+295,LinearDML: effect > cost,0.15801860093945244
+295,CausalForestDML: effect > cost,0.13921842701609766
+295,DRLearner: effect > cost,0.14812629048816447
+296,Treat none,0.0
+296,Treat all,-0.006696155119211998
+296,LinearDML: effect > cost,0.16281938137418214
+296,CausalForestDML: effect > cost,0.14383406802868473
+296,DRLearner: effect > cost,0.15729261478050535
+297,Treat none,0.0
+297,Treat all,-0.0033844490857747986
+297,LinearDML: effect > cost,0.16968399303466675
+297,CausalForestDML: effect > cost,0.14509442552718227
+297,DRLearner: effect > cost,0.1603139229117577
+298,Treat none,0.0
+298,Treat all,0.007546577676336482
+298,LinearDML: effect > cost,0.17794416975599237
+298,CausalForestDML: effect > cost,0.16508239462127092
+298,DRLearner: effect > cost,0.17281187903471645
+299,Treat none,0.0
+299,Treat all,-0.002193764861724244
+299,LinearDML: effect > cost,0.17163678793430714
+299,CausalForestDML: effect > cost,0.15783613701623733
+299,DRLearner: effect > cost,0.16465097374633142

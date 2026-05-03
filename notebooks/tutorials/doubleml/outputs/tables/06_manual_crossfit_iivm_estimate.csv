@@ -1,0 +1,2 @@
+estimator,target,theta_hat,std_error,ci_95_lower,ci_95_upper,p_value,iivm_numerator,iivm_denominator,true_target,bias_vs_target
+Manual cross-fitted IIVM,LATE,1.1851136972833685,0.08128083320473956,1.025803264202079,1.344424130364658,,0.5490752621442163,0.4633101983403444,1.1019277413983646,0.08318595588500388

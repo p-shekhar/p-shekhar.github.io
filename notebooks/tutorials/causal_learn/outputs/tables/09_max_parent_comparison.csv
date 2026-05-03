@@ -1,0 +1,5 @@
+run,max_parents,elapsed_seconds,exact_bic_score_lower_is_better,learned_edge_count,n_parent_graphs_entries,while_iter,for_iter,n_closed,max_n_opened,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
+exact_bic_max_parents_1,1,0.002477235160768032,-8325.637261858388,5,34,9,32,9,5,5,5,6,2,0.4,0.3333333333333333,3,0,1,0
+exact_bic_max_parents_2,2,0.006778802257031202,-9950.952924436579,6,76,22,80,22,15,6,6,6,6,1.0,1.0,0,0,0,0
+exact_bic_max_parents_3,3,0.012118102982640266,-9950.952924436579,6,104,33,112,33,20,6,6,6,6,1.0,1.0,0,0,0,0
+exact_bic_max_parents_none,none,0.014960784930735826,-9950.952924436579,6,109,36,120,36,20,6,6,6,6,1.0,1.0,0,0,0,0

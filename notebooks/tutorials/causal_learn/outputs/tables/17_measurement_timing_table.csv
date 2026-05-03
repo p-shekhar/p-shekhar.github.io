@@ -1,0 +1,5 @@
+variable,measurement_window,allowed_for_pre_retention_discovery
+user_context,before discovery,True
+discovery_quality,during discovery,True
+retention_value,target event,True
+post_event_activity,after target event,False

@@ -1,0 +1,25 @@
+case,p_value,alpha,decision
+direct edge,0.0,0.001,reject independence
+direct edge,0.0,0.01,reject independence
+direct edge,0.0,0.05,reject independence
+direct edge,0.0,0.1,reject independence
+indirect path before blocking,0.0,0.001,reject independence
+indirect path before blocking,0.0,0.01,reject independence
+indirect path before blocking,0.0,0.05,reject independence
+indirect path before blocking,0.0,0.1,reject independence
+indirect path after blocking,0.3088303415044584,0.001,do not reject independence
+indirect path after blocking,0.3088303415044584,0.01,do not reject independence
+indirect path after blocking,0.3088303415044584,0.05,do not reject independence
+indirect path after blocking,0.3088303415044584,0.1,do not reject independence
+two root causes marginally,0.7428522928963868,0.001,do not reject independence
+two root causes marginally,0.7428522928963868,0.01,do not reject independence
+two root causes marginally,0.7428522928963868,0.05,do not reject independence
+two root causes marginally,0.7428522928963868,0.1,do not reject independence
+collider opened by conditioning,0.0,0.001,reject independence
+collider opened by conditioning,0.0,0.01,reject independence
+collider opened by conditioning,0.0,0.05,reject independence
+collider opened by conditioning,0.0,0.1,reject independence
+non-edge after blocking,0.21588059931764514,0.001,do not reject independence
+non-edge after blocking,0.21588059931764514,0.01,do not reject independence
+non-edge after blocking,0.21588059931764514,0.05,do not reject independence
+non-edge after blocking,0.21588059931764514,0.1,do not reject independence

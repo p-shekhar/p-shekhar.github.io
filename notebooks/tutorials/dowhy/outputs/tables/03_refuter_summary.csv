@@ -1,0 +1,4 @@
+refuter,estimated_effect,new_effect,effect_shift,p_value,expected_behavior
+placebo_treatment_refuter,2.208594718775249,-0.0011965785691658848,-2.209791297344415,0.48660921563010384,A fake treatment should not reproduce the original effect.
+random_common_cause,2.208594718775249,2.208530123890446,-6.45948848028155e-05,0.39334892078123007,Adding a random irrelevant common cause should not materially change the effect.
+data_subset_refuter,2.208594718775249,2.213936152562481,0.005341433787232397,0.36701715851306926,Random subsets should produce estimates in the same neighborhood.

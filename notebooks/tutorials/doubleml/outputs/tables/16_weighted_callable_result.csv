@@ -1,0 +1,2 @@
+model,estimate,std_error,ci_95_lower,ci_95_upper,true_theta,absolute_error
+Priority-weighted callable score,1.2889666674182165,0.03805847716499176,1.2143734228683927,1.3635599119680404,1.25,0.03896666741821653

@@ -1,0 +1,5 @@
+run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies,elapsed_seconds,search_family
+BOSS,6,6,6,6,1.0,1.0,0,0,0,0,0.009945126716047525,permutation
+GRaSP_depth_4,6,6,6,6,1.0,1.0,0,0,0,0,0.007120107300579548,permutation
+GES_BIC,6,6,6,6,1.0,1.0,0,0,0,0,0.02099909633398056,score_greedy
+Exact_BIC_AStar,6,6,6,6,1.0,1.0,0,0,0,0,0.019166104961186647,score_exact

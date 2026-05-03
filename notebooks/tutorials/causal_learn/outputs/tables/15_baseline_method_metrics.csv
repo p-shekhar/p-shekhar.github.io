@@ -1,0 +1,4 @@
+scenario,method,reported_edges,skeleton_precision,skeleton_recall,skeleton_f1,directed_precision,directed_recall,directed_f1,extra_adjacencies,missed_adjacencies,reversed_true_edges,extra_adjacency_list,missed_adjacency_list,elapsed_seconds
+linear_laplace_baseline,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.006987532135099173
+linear_laplace_baseline,GES_BIC,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.011577743105590343
+linear_laplace_baseline,DirectLiNGAM,6,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,0.024742725305259228

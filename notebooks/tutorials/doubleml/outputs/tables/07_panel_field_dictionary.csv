@@ -1,0 +1,16 @@
+field,role,description
+unit_id,identifier,Unique unit observed before and after treatment.
+treated,group indicator,Equals 1 for units in the treated group; treatment exposure happens only after the policy starts.
+y_pre,pre outcome,Outcome measured before treatment exposure.
+y_post,post outcome,Outcome measured after treated-group units receive exposure.
+delta_weekly_value,DID outcome,"Within-unit change, y_post minus y_pre, used by panel DID."
+engagement_score,covariate,Pre-treatment engagement signal that affects group membership and trends.
+recent_activity,covariate,Pre-treatment activity signal.
+content_fit,covariate,Pre-treatment fit signal related to outcomes and treatment effects.
+price_sensitivity,covariate,Pre-treatment risk or sensitivity signal.
+tenure_signal,covariate,Pre-treatment tenure-like signal.
+mobile_user,covariate,Binary pre-treatment segment marker.
+expected_untreated_trend,simulation truth,Expected no-treatment trend given observed covariates.
+true_untreated_trend,simulation truth,Realized no-treatment trend including noise.
+true_tau,simulation truth,Individual treatment effect in the post period.
+true_propensity,simulation truth,True probability of treated-group membership.

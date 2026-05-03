@@ -1,0 +1,5 @@
+metric,value
+estimated_mean_effect,0.2851149512086474
+mean_true_row_period_effect,0.209837318421036
+rmse_vs_true_period_effect,0.1262778261308015
+correlation_vs_true_period_effect,0.8234432565782489

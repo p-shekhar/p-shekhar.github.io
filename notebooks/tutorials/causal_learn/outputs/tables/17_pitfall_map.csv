@@ -1,0 +1,7 @@
+pitfall,what_goes_wrong,diagnostic_habit,reporting_habit
+Hidden confounding,Observed variables can be connected because they share an omitted cause.,Compare PC-style output with FCI-style latent-risk output and review omitted-cause stories.,"Call the edge an observed-data candidate, not proof of direct causation."
+Weak tests and small samples,Conditional-independence tests miss true weak links or add noisy links.,"Run sample-size, alpha, and bootstrap sensitivity checks.",Report stable and unstable edge groups separately.
+Over-orientation,Several DAGs can imply the same observable independence pattern.,Distinguish skeleton evidence from direction evidence.,Use cautious language for directions that come from assumptions rather than data alone.
+Temporal leakage,Post-outcome variables can make the graph look predictive but invalid for causal reasoning.,Build a measurement-time table before discovery.,State the time window for every variable used in the graph.
+Selection bias,Filtering on a collider can induce dependence between unrelated causes.,Compare full-population and selected-sample associations when possible.,Document the sampling rule and who is excluded.
+Near-duplicate measurements,Multiple proxies for the same construct can crowd the graph with measurement edges.,"Check high correlations, duplicate definitions, and shared feature engineering.",Collapse or label measurement families before reading them as causal mechanisms.

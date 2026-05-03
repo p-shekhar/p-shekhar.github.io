@@ -1,0 +1,13 @@
+model,variable,true_rank,estimated_rank,rank_difference
+DirectLiNGAM,need,1,1,0
+DirectLiNGAM,intent,2,2,0
+DirectLiNGAM,match,3,3,0
+DirectLiNGAM,engagement,4,4,0
+DirectLiNGAM,renewal,5,6,1
+DirectLiNGAM,support,6,5,-1
+ICALiNGAM,need,1,1,0
+ICALiNGAM,intent,2,2,0
+ICALiNGAM,match,3,3,0
+ICALiNGAM,engagement,4,4,0
+ICALiNGAM,renewal,5,5,0
+ICALiNGAM,support,6,6,0

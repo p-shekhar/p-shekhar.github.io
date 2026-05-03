@@ -1,0 +1,15 @@
+field,role,description
+row_id,identifier,Unique row identifier.
+treated,treatment,Binary treatment indicator D.
+selected,selection indicator,Equals 1 if the outcome is observed.
+outcome_observed,observed outcome,Outcome column passed to DoubleMLSSM; unselected rows are filled with 0 and marked by selected=0.
+full_outcome,simulation truth,"Outcome for every row, kept only because this is synthetic data."
+engagement_score,covariate,"Observed pre-treatment feature related to treatment, selection, and outcome."
+baseline_value,covariate,Observed baseline outcome predictor.
+support_need,covariate,Observed need/risk feature.
+prior_usage,covariate,Observed prior activity signal.
+mobile_user,covariate,Observed binary segment marker.
+selection_encouragement,covariate in MAR design,Observed signal that predicts outcome observation.
+true_tau,simulation truth,Individual treatment effect.
+true_treatment_propensity,simulation truth,True P(D=1|X).
+true_selection_probability,simulation truth,"True P(S=1|D,X)."

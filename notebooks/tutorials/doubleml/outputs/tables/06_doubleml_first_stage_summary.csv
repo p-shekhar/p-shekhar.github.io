@@ -1,0 +1,7 @@
+diagnostic,value
+mean first stage r1_hat - r0_hat,0.5091332012650157
+first-stage p05,0.08586699945868405
+first-stage median,0.5308572036682804
+first-stage p95,0.8525171004330422
+share with negative estimated first stage,0.0246
+true average first stage,0.4477741992267159

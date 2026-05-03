@@ -1,0 +1,11 @@
+artifact,path
+Synthetic decision dataset,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/datasets/15_synthetic_decision_targets_data.csv
+Weighted ATE table,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/15_weighted_ate_results.csv
+Policy tree rules,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/reports/15_policy_tree_rules.txt
+Policy value summary,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/15_policy_value_summary.csv
+QTE results,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/15_qte_results.csv
+CVaR potential outcomes,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/15_cvar_potential_outcomes.csv
+Decision report template,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/reports/15_decision_target_report_template.md
+Policy tree figure,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/15_policy_tree.png
+QTE figure,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/15_qte_results.png
+CVaR figure,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/15_cvar_potential_outcomes.png

@@ -1,0 +1,5 @@
+question,metric_to_start_with,watch_out_for
+Did we find the right connected variable pairs?,Adjacency precision and adjacency recall,High adjacency recall can still hide many false directions.
+Did we orient arrows correctly?,Arrow precision and arrow recall,A conservative CPDAG/PAG may leave valid uncertainty instead of making wrong arrow claims.
+How far is the whole graph from the reference graph?,SHD,"SHD is compact but should be decomposed into missing, extra, and reversed edge errors."
+Can we use this graph for causal decisions?,Edge-level audit plus domain review,Graph recovery metrics do not validate causal assumptions by themselves.

@@ -1,0 +1,4 @@
+estimand,value,population,formula in this simulation
+ATE,0.5049708366167389,all units,mean(Y1 - Y0)
+ATT,0.5771119784454877,treated units,mean(Y1 - Y0 | T=1)
+ATC,0.43554772838907335,control units,mean(Y1 - Y0 | T=0)

@@ -1,0 +1,6 @@
+object,rows,columns,meaning
+Y_train,1950,1,Observed outcome used for training.
+T_train,1950,1,Observed binary treatment used for training.
+X_train,1950,5,Effect modifiers for CATE estimation.
+W_train,1950,2,Controls for nuisance adjustment.
+nuisance_train,1950,7,All observed pre-treatment features used by nuisance models.

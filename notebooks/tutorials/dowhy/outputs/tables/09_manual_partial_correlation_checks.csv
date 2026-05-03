@@ -1,0 +1,5 @@
+x,y,conditioning_set,partial_correlation,p_value,consistent_with_independence_at_0_05,why_this_constraint_matters
+recommendation_exposure,weekly_value,"engagement_depth, pre_activity, seasonality_score",0.007632834450594674,0.58959,True,No direct exposure-to-value edge after mediator and confounders are conditioned on.
+pre_activity,engagement_depth,recommendation_exposure,-0.0002815564112906337,0.98412,True,Pre-activity affects engagement through exposure in the true graph.
+seasonality_score,engagement_depth,recommendation_exposure,0.004749991564795288,0.73705,True,Seasonality affects engagement through exposure in the true graph.
+pre_activity,seasonality_score,none,-0.001881595980372511,0.89418,True,The two source variables were generated independently.

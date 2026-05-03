@@ -1,0 +1,6 @@
+role,columns
+outcome,weekly_value
+treatment,exposure_intensity
+instrument,encouragement_score
+controls,"engagement_score, need_intensity, content_fit, recent_activity, price_sensitivity, tenure_signal, novelty_appetite, seasonality_signal"
+number_of_observations,2500

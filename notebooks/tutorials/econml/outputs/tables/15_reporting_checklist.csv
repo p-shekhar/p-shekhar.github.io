@@ -1,0 +1,11 @@
+report_section,what_to_include
+Causal question,"Treatment, outcome, target population, and estimand are written plainly."
+Feature timing,Every model feature is confirmed to be pre-treatment for the target decision.
+Confounder logic,The report explains why included controls are plausible confounders and what may be missing.
+Overlap,"Propensity distributions, bucket counts, or support filters are shown."
+Nuisance models,Treatment and outcome nuisance diagnostics are reported.
+Estimator comparison,Results are checked across at least one reasonable alternative estimator or specification.
+Heterogeneity,"CATE claims are summarized by calibrated groups or segments, not only individual scores."
+Policy value,"Treatment cost, threshold rule, treatment rate, and net value are reported."
+Uncertainty,Intervals or bootstrap checks are included for key estimates or policy values.
+Limitations,"Unobserved confounding, overlap gaps, measurement limits, and validation needs are stated."

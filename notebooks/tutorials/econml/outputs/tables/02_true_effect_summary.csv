@@ -1,0 +1,4 @@
+estimand,definition,value
+ATE,Average true CATE over all rows,0.4990198011352913
+ATT,Average true CATE among treated rows,0.6075814433807442
+ATC,Average true CATE among untreated rows,0.39303274329091636

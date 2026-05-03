@@ -1,0 +1,15 @@
+model,outcome,r_squared,rows,design_columns,uses_weights,estimator_variant
+mediator_model,M_satisfaction_depth,0.46526646842319075,8199,55,True,weighted_regression
+total_effect_model,Y_future_interactions,0.6636684423622046,8199,55,True,weighted_regression
+outcome_mediation_model,Y_future_interactions,0.664227634852901,8199,57,True,weighted_regression
+total_effect_model,Y_future_active_days,0.5430412238960562,8199,55,True,weighted_regression
+outcome_mediation_model,Y_future_active_days,0.5437429001050156,8199,57,True,weighted_regression
+total_effect_model,Y_future_play_hours,0.649363588135099,8199,55,True,weighted_regression
+outcome_mediation_model,Y_future_play_hours,0.6501473423342283,8199,57,True,weighted_regression
+mediator_model,M_satisfaction_depth,0.45894132213146677,8199,55,False,unweighted_regression
+total_effect_model,Y_future_interactions,0.7198540436654058,8199,55,False,unweighted_regression
+outcome_mediation_model,Y_future_interactions,0.7203865994074333,8199,57,False,unweighted_regression
+total_effect_model,Y_future_active_days,0.5164042878824022,8199,55,False,unweighted_regression
+outcome_mediation_model,Y_future_active_days,0.5167752122992908,8199,57,False,unweighted_regression
+total_effect_model,Y_future_play_hours,0.6978015604290301,8199,55,False,unweighted_regression
+outcome_mediation_model,Y_future_play_hours,0.6990735541469584,8199,57,False,unweighted_regression

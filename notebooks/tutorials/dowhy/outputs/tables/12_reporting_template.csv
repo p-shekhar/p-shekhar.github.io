@@ -1,0 +1,6 @@
+report section,what to include,example from notebook
+Causal question,"State the treatment, mediator, outcome, and target population.",How much of exposure's effect on future value flows through satisfaction depth?
+Temporal ordering,"Document when treatment, mediator, outcome, and covariates are measured.",Covariates before exposure; mediator after exposure; outcome later.
+Graph assumptions,Show the DAG and identify pre-treatment confounders.,"Baseline need, prior activity, and tenure affect treatment, mediator, and outcome."
+Effect decomposition,"Report total, direct, indirect, and proportion mediated where appropriate.",Direct plus indirect approximately equals total in the linear setup.
+Sensitivity and limitations,Discuss mediator-outcome confounding and treatment-induced confounders.,The latent-confounder stress test shows pathway estimates can move substantially.

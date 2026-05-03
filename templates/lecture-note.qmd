@@ -1,0 +1,35 @@
+---
+title: "Lecture Note Title"
+description: "One sentence describing the concept."
+date: YYYY-MM-DD
+categories: [Concept, Method]
+---
+
+## Learning Goal
+
+What should the reader understand after this note?
+
+## Setup
+
+Define the notation and applied context.
+
+## Main Idea
+
+Explain the concept in plain language.
+
+## Technical Detail
+
+Add equations, assumptions, or derivations as needed.
+
+## Applied Example
+
+Connect the concept to a business, product, health, or policy example.
+
+## Common Pitfalls
+
+List the mistakes practitioners often make.
+
+## Further Reading
+
+Add references.
+

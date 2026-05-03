@@ -1,0 +1,3 @@
+learner_key,best_score_neg_rmse,best_rmse,best_params
+ml_l,-1.8513731432687612,1.8513731432687612,"{""colsample_bytree"": 0.9896896099223678, ""learning_rate"": 0.05940072994498167, ""min_child_samples"": 13, ""num_leaves"": 13, ""reg_lambda"": 2.36288641842364, ""subsample"": 0.984665661176}"
+ml_m,-1.1244700488878967,1.1244700488878967,"{""colsample_bytree"": 0.7094287557060203, ""learning_rate"": 0.05102643187239668, ""min_child_samples"": 11, ""num_leaves"": 22, ""reg_lambda"": 1.2057081573389115, ""subsample"": 0.7323674280979913}"

@@ -1,0 +1,6 @@
+assumption,graph_arrows,why_it_matters,risk_if_wrong
+Baseline engagement affects exposure and future value.,user_engagement -> feature_exposure; user_engagement -> weekly_value,Engagement is a confounder and should be adjusted for.,"If omitted, the exposure effect can be overstated."
+Prior activity affects exposure and future value.,prior_activity -> feature_exposure; prior_activity -> weekly_value,Prior behavior is a pre-treatment common cause.,Treatment and control users are not comparable.
+"Exposure changes satisfaction depth, which changes future value.",feature_exposure -> satisfaction_depth -> weekly_value,This path is part of the total effect.,Adjusting for satisfaction changes the estimand from total to direct-like.
+Rollout shifts exposure but does not directly change future value.,rollout_batch -> feature_exposure,Rollout is instrument-like rather than a confounder.,A direct rollout effect would need to be represented in the graph.
+Support ticket is a common effect of exposure and future value.,feature_exposure -> support_ticket <- weekly_value,Support ticket is a collider and should not be adjusted for in total-effect estimation.,Conditioning on support can open a noncausal path.

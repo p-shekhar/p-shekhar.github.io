@@ -1,0 +1,3 @@
+model,metric_1,value_1,metric_2,value_2
+multinomial_arm_model,accuracy,0.46598639455782315,log_loss,1.0303635651889487
+outcome_model,rmse,0.9103791879191777,mae,0.7161045070449863

@@ -1,0 +1,61 @@
+scenario,method,reported_edges,skeleton_precision,skeleton_recall,skeleton_f1,directed_precision,directed_recall,directed_f1,extra_adjacencies,missed_adjacencies,reversed_true_edges,missed_adjacency_list,extra_adjacency_list,bootstrap_id,elapsed_seconds
+bootstrap_0,PC_tier_constrained,7,1.0,0.875,0.9333333333333333,1.0,0.875,0.9333333333333333,0,1,0,discovery_quality--retention_value,,0,0.014998375903815031
+bootstrap_0,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,0,0.015427612699568272
+bootstrap_0,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,0,0.028633468318730593
+bootstrap_1,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,1,0.007883962243795395
+bootstrap_1,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,0.875,0.875,0.875,1,0,0,,early_engagement--support_contact,1,0.016254714224487543
+bootstrap_1,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,1,0.027949371840804815
+bootstrap_2,PC_tier_constrained,8,0.875,0.875,0.875,0.875,0.875,0.875,1,1,0,discovery_quality--retention_value,onboarding_friction--retention_value,2,0.00897861598059535
+bootstrap_2,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,0.875,0.875,0.875,1,0,0,,onboarding_friction--retention_value,2,0.016548118088394403
+bootstrap_2,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,2,0.029248507227748632
+bootstrap_3,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,3,0.01040977705270052
+bootstrap_3,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,3,0.015212291851639748
+bootstrap_3,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,3,0.029396172147244215
+bootstrap_4,PC_tier_constrained,8,0.75,0.75,0.75,0.75,0.75,0.75,2,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,early_engagement--support_contact | onboarding_friction--retention_value,4,0.009033794049173594
+bootstrap_4,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,0.8888888888888888,1.0,0.9411764705882353,1,0,0,,early_engagement--support_contact,4,0.016348757781088352
+bootstrap_4,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,4,0.028869713190943003
+bootstrap_5,PC_tier_constrained,8,0.875,0.875,0.875,0.875,0.875,0.875,1,1,0,discovery_quality--retention_value,onboarding_friction--retention_value,5,0.008315403945744038
+bootstrap_5,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,0.8888888888888888,1.0,0.9411764705882353,1,0,0,,early_engagement--support_contact,5,0.016382749658077955
+bootstrap_5,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,5,0.030690333805978298
+bootstrap_6,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,6,0.006982151884585619
+bootstrap_6,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,6,0.014782714191824198
+bootstrap_6,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,6,0.029693457763642073
+bootstrap_7,PC_tier_constrained,8,0.875,0.875,0.875,0.875,0.875,0.875,1,1,0,discovery_quality--retention_value,onboarding_friction--retention_value,7,0.008062527980655432
+bootstrap_7,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,7,0.01429171022027731
+bootstrap_7,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,7,0.02933138981461525
+bootstrap_8,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,8,0.007804065942764282
+bootstrap_8,GES_BIC,10,0.8,1.0,0.888888888888889,0.5555555555555556,0.625,0.5882352941176471,2,0,2,,baseline_need--catalog_fit | catalog_fit--support_contact,8,0.019335527904331684
+bootstrap_8,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,8,0.028660573065280914
+bootstrap_9,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,9,0.007440431974828243
+bootstrap_9,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,9,0.014058912172913551
+bootstrap_9,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,9,0.028262503910809755
+bootstrap_10,PC_tier_constrained,8,0.875,0.875,0.875,0.875,0.875,0.875,1,1,0,discovery_quality--retention_value,onboarding_friction--retention_value,10,0.009166700765490532
+bootstrap_10,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,0.8888888888888888,1.0,0.9411764705882353,1,0,0,,early_engagement--support_contact,10,0.015909957233816385
+bootstrap_10,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,10,0.03210509195923805
+bootstrap_11,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,11,0.012617550324648619
+bootstrap_11,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,0.8888888888888888,1.0,0.9411764705882353,1,0,0,,early_engagement--support_contact,11,0.01910332078114152
+bootstrap_11,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,11,0.032190490048378706
+bootstrap_12,PC_tier_constrained,7,1.0,0.875,0.9333333333333333,1.0,0.875,0.9333333333333333,0,1,0,discovery_quality--retention_value,,12,0.008937432896345854
+bootstrap_12,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,12,0.015328704845160246
+bootstrap_12,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,12,0.030399107839912176
+bootstrap_13,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,13,0.010187681764364243
+bootstrap_13,GES_BIC,10,0.8,1.0,0.888888888888889,0.8,1.0,0.888888888888889,2,0,0,,baseline_need--support_contact | catalog_fit--support_contact,13,0.018723048269748688
+bootstrap_13,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,13,0.03308049542829394
+bootstrap_14,PC_tier_constrained,6,1.0,0.75,0.8571428571428571,1.0,0.75,0.8571428571428571,0,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,,14,0.009280254133045673
+bootstrap_14,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,1.0,0.875,0.9333333333333333,1,0,0,,catalog_fit--support_contact,14,0.01705109467729926
+bootstrap_14,DirectLiNGAM,9,0.8888888888888888,1.0,0.9411764705882353,0.8888888888888888,1.0,0.9411764705882353,1,0,0,,catalog_fit--support_contact,14,0.031193331815302372
+bootstrap_15,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,15,0.008892861194908619
+bootstrap_15,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,15,0.01604069396853447
+bootstrap_15,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,15,0.03207034710794687
+bootstrap_16,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,16,0.008596704807132483
+bootstrap_16,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,16,0.016019517090171576
+bootstrap_16,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,16,0.030038267374038696
+bootstrap_17,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,17,0.007306536193937063
+bootstrap_17,GES_BIC,10,0.8,1.0,0.888888888888889,0.875,0.875,0.875,2,0,0,,baseline_need--early_engagement | catalog_fit--support_contact,17,0.020104198716580868
+bootstrap_17,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,17,0.032816174905747175
+bootstrap_18,PC_tier_constrained,8,0.875,0.875,0.875,0.875,0.875,0.875,1,1,0,discovery_quality--retention_value,onboarding_friction--retention_value,18,0.008000666741281748
+bootstrap_18,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,18,0.017879498656839132
+bootstrap_18,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,18,0.03159373113885522
+bootstrap_19,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,early_engagement--support_contact,19,0.00819400791078806
+bootstrap_19,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,1.0,0.875,0.9333333333333333,1,0,0,,catalog_fit--support_contact,19,0.021144738886505365
+bootstrap_19,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,19,0.02660746267065406

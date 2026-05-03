@@ -1,0 +1,5 @@
+quantity,value
+original_rows,2500.0
+complete_case_rows,437.0
+rows_dropped_by_complete_case,2063.0
+overall_missing_cell_rate,0.2502666666666667

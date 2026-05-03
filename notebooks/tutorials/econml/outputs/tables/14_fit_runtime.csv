@@ -1,0 +1,4 @@
+estimator,fit_seconds
+LinearDML,3.416411327663809
+CausalForestDML,3.64901093672961
+DRLearner,3.9710117341019213

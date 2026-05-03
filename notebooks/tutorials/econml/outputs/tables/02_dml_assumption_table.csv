@@ -1,0 +1,6 @@
+requirement,plain_language,practical_check
+Unconfoundedness after observed covariates,"After conditioning on X and W, treatment assignment is as good as random.",Use domain knowledge; inspect balance; include all important pre-treatment confounders.
+Overlap,Comparable units have a chance of being treated and untreated.,Inspect propensity distributions and avoid unsupported regions.
+No post-treatment controls,Covariates used for adjustment must be measured before treatment.,Audit timestamps and feature definitions.
+Reasonable nuisance models,Outcome and treatment models should capture the main predictive structure.,"Use cross-fitted metrics, calibration checks, and sensitivity to model choices."
+Appropriate final-stage CATE form,A linear final CATE model is only suitable when effect variation is reasonably linear in X.,Compare with forests or flexible learners when nonlinear heterogeneity is plausible.

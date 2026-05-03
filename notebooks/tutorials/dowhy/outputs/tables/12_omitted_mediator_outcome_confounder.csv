@@ -1,0 +1,4 @@
+analysis,total_effect,natural_indirect_effect,natural_direct_effect
+original clean teaching data,0.7985951313962374,0.49059553130748984,0.30799960008874705
+"confounded data, latent factor omitted",0.7374231582472952,0.7766120885665487,-0.039188930319252205
+"confounded data, latent factor observed as oracle",0.7787763581574492,0.4993106125005331,0.2794657456569156

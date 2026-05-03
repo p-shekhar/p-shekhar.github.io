@@ -1,0 +1,5 @@
+task,DoWhy function,input,question answered
+node anomaly scoring,gcm.anomaly_scores,a fitted GCM and anomalous rows,"Which nodes look individually unusual, conditional on their parents?"
+target anomaly attribution,gcm.attribute_anomalies,"a fitted invertible GCM, target node, and anomalous rows",Which upstream nodes contribute to the target anomaly for each row?
+distribution-change attribution,gcm.distribution_change,"old data, new data, target node, and a causal graph",Which node-level changes explain the target distribution shift?
+robust mean-shift attribution,gcm.distribution_change_robust,"old data, new data, target node, and a causal graph",Which variables explain the change in a selected target functional such as the mean?

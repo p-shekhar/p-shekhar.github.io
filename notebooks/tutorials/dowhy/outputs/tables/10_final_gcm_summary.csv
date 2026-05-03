@@ -1,0 +1,6 @@
+topic,result,causal reading
+mechanism assignment,6 mechanisms assigned,each graph node has a fitted distribution or conditional mechanism
+generated samples,"2,400 synthetic rows drawn",the fitted GCM defines a joint generative process
+overall generated-data fit,KL divergence 0.0110,generated marginals are close to observed marginals in this simulation
+retention parent influence,top arrow: watch_time -> retention_score,the fitted mechanism identifies watch time as the dominant direct retention parent
+misspecified graph,retention R2 drops from 0.917 to 0.659,removing a real parent damages the target mechanism

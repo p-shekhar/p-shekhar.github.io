@@ -1,0 +1,5 @@
+model,task,auc,log_loss,r2,mae
+simple_propensity_logistic,treatment,0.7622571236331392,0.581463704986626,,
+flex_propensity_forest,treatment,0.7394874899444126,0.6019888725414109,,
+simple_outcome_linear,outcome,,,0.5922477637730847,0.6024814609798446
+flex_outcome_forest,outcome,,,0.5380773177492976,0.6366396342044615

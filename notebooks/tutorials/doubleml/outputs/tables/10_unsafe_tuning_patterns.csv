@@ -1,0 +1,5 @@
+pattern,why_it_is_unsafe,safer_alternative
+Choose the learner whose theta is closest to a preferred answer,"The final estimate becomes part of the selection rule, so uncertainty is understated and the design is no longer pre-specified.","Choose learners using nuisance prediction, stability rules, or an honest exploration split."
+Tune on the full analysis until confidence intervals become significant,Repeated searching changes the meaning of the reported interval.,Fix the tuning budget and report sensitivity to reasonable alternatives.
+Preprocess using outcome information outside a fold,Information from held-out rows can leak into nuisance predictions.,Put preprocessing inside sklearn pipelines or build reproducible pre-treatment features only.
+Report only the best-looking learner,Readers cannot see whether the result is stable across defensible choices.,Show a compact learner sensitivity table and explain the chosen primary specification.

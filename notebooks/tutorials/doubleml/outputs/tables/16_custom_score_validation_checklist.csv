@@ -1,0 +1,9 @@
+check,guidance
+Known-score recreation,First recreate a built-in score exactly using the callable interface.
+Shape check,Confirm psi_a and psi_b are finite arrays aligned with the original row order.
+Moment check,Verify that mean(psi_a * theta_hat + psi_b) is approximately zero.
+Orthogonality argument,Write the mathematical reason why nuisance errors have only second-order impact.
+Split reproducibility,Use fixed sample splits when comparing scores or external predictions.
+External prediction audit,"Check row order, shape, and fold origin of external nuisance predictions."
+Unsupported features,"Document DoubleML features unavailable for callable scores, such as sensitivity analysis in this version."
+Simulation test,Test the score on data where the truth is known before using it on real data.

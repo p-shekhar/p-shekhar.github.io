@@ -1,0 +1,5 @@
+estimator,method_name,estimate,absolute_error_vs_true_ate,status
+dowhy_linear_regression,backdoor.linear_regression,1.675724744894982,0.025724744894982,ok
+dowhy_propensity_score_matching,backdoor.propensity_score_matching,1.734641575247417,0.084641575247417,ok
+dowhy_propensity_score_stratification,backdoor.propensity_score_stratification,1.6448475985362796,0.005152401463720313,ok
+dowhy_propensity_score_weighting,backdoor.propensity_score_weighting,1.7581895948379769,0.10818959483797697,ok

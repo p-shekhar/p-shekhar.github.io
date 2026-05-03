@@ -1,0 +1,6 @@
+scenario,method,reported_edges,skeleton_precision,skeleton_recall,skeleton_f1,directed_precision,directed_recall,directed_f1,extra_adjacencies,missed_adjacencies,reversed_true_edges,extra_adjacency_list,missed_adjacency_list,alpha,elapsed_seconds
+pc_alpha_0.001,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.001,0.008672758005559444
+pc_alpha_0.005,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.005,0.006697497796267271
+pc_alpha_0.01,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.01,0.007112953346222639
+pc_alpha_0.05,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.05,0.007235843222588301
+pc_alpha_0.1,PC_FisherZ,6,1.0,1.0,1.0,1.0,0.8333333333333334,0.9090909090909091,0,0,0,,,0.1,0.007391757797449827

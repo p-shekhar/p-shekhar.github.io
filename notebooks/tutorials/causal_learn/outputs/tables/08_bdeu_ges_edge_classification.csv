@@ -1,0 +1,7 @@
+source,edge_type,target,status
+need,---,match,true adjacency with uncertain or wrong endpoint
+match,-->,intent,reversed true edge
+renewal,-->,intent,reversed true edge
+match,---,engagement,true adjacency with uncertain or wrong endpoint
+engagement,---,renewal,true adjacency with uncertain or wrong endpoint
+engagement,---,support,true adjacency with uncertain or wrong endpoint

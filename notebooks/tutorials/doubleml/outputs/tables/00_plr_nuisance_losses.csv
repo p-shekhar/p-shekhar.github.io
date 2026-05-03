@@ -1,0 +1,3 @@
+learner_role,loss_value,loss_type
+ml_l,1.951342279838472,mean squared error for this regression learner
+ml_m,1.0762246480406374,mean squared error for this regression learner

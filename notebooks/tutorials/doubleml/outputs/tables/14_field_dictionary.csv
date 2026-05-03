@@ -1,0 +1,14 @@
+column,role,description
+engagement_z,Observed control / effect modifier,Standardized prior engagement signal.
+tenure_z,Observed control,Standardized account age or relationship length signal.
+price_sensitivity_z,Observed control / effect modifier,"Standardized signal for sensitivity to cost, friction, or effort."
+category_affinity_z,Observed control / effect modifier,Standardized affinity for the treatment-relevant category.
+prior_value_z,Observed control / interaction feature,Standardized prior value or historical outcome signal.
+support_load_z,Observed control,"Standardized friction, complaint, or support burden signal."
+propensity_true,Oracle diagnostic,True treatment probability used by the simulator; not used by DoubleML.
+treatment,Treatment,Binary treatment/exposure indicator.
+high_engagement_flag,Effect-modifier basis feature,Indicator for engagement_z above 0.5.
+price_sensitive_flag,Effect-modifier basis feature,Indicator for price_sensitivity_z above 0.5.
+true_tau,Oracle diagnostic,True individual treatment effect from the simulator; unavailable in real data.
+segment,GATE group,Mutually exclusive teaching segment used for group effect estimation.
+outcome,Outcome,Observed continuous outcome after treatment assignment.

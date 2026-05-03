@@ -1,0 +1,9 @@
+x,y,conditioning_set,conditioning_set_size,p_value,p_value_display,decision_at_0_05
+need,renewal,none,0,0.0,<1e-300,reject independence
+need,renewal,intent,1,0.0,<1e-300,reject independence
+need,renewal,match,1,0.0,<1e-300,reject independence
+need,renewal,engagement,1,0.0,<1e-300,reject independence
+need,renewal,"intent, match",2,0.18526394420616388,0.185,do not reject independence
+need,renewal,"intent, engagement",2,0.13429019633939077,0.134,do not reject independence
+need,renewal,"match, engagement",2,0.0,<1e-300,reject independence
+need,renewal,"intent, match, engagement",3,0.3088303415044584,0.309,do not reject independence

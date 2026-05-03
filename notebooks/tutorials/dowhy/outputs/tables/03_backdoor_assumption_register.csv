@@ -1,0 +1,6 @@
+assumption,why_it_matters,diagnostic_or_response
+All major common causes of exposure and weekly value are measured.,Backdoor adjustment fails if important common causes are missing.,"Use domain review, pre-treatment covariate audits, sensitivity checks, and negative controls where possible."
+Adjustment variables are pre-treatment.,Post-treatment controls can block causal pathways or open collider paths.,Create a variable timing table before modeling.
+The chosen covariates block backdoor paths without blocking the total-effect pathway.,The estimand should match the causal question.,Write path reasoning before estimating the effect.
+There is adequate overlap across treatment groups after adjustment.,Adjustment becomes unstable when comparable controls or treated units are absent.,Inspect propensity overlap and common support in a dedicated weighting/overlap analysis.
+The outcome model is adequate for the estimator being used.,A valid estimand can still be estimated poorly by a misspecified model.,Compare estimators and inspect residual/model diagnostics.

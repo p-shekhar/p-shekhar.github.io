@@ -1,0 +1,7 @@
+item,what_to_report,why_it_matters
+State the functional form assumption,"Whether the analysis assumes ANM, PNL, or another functional causal model.",The direction result is conditional on this mechanism class.
+Show both direction tests,Forward and backward residual-independence p-values.,The asymmetry is the evidence; a single p-value is not enough context.
+Plot fitted functions and residuals,"Scatter plots, fitted curves, and residuals versus proposed causes.",Visual structure can reveal misspecification that a table hides.
+Check stability,Bootstrap direction frequencies and p-value margins.,Unstable directions should be reported as exploratory.
+Separate pairwise hints from direct edges,"Whether each candidate is direct, indirect, reversed, or unexplained by the known graph.",Pairwise tests can over-report direct structure in multivariate systems.
+Document optional dependencies,Whether PNL or neural functional models were actually runnable in the environment.,Reproducibility requires knowing which parts were executed versus described.

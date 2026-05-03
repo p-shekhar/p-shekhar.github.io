@@ -1,0 +1,7 @@
+node,mechanism_type,parents_used,fitted
+user_intent,EmpiricalDistribution,none,True
+recommendation_exposure,AdditiveNoiseModel,"user_intent, content_quality, content_novelty",True
+content_quality,EmpiricalDistribution,none,True
+content_novelty,EmpiricalDistribution,none,True
+watch_time,AdditiveNoiseModel,"recommendation_exposure, user_intent, content_quality",True
+retention_score,AdditiveNoiseModel,"watch_time, user_intent, content_quality",True

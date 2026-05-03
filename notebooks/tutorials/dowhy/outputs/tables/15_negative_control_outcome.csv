@@ -1,0 +1,3 @@
+model,treatment_coefficient,standard_error
+naive negative-control outcome,0.45856005303671404,0.02313360437604195
+adjusted negative-control outcome,0.032263233210059375,0.023092172026955893

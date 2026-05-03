@@ -1,0 +1,5 @@
+diagnostic_pattern,reasonable_next_step,caution
+"Good overlap, small weights, improved balance",Report IPW or normalized IPW alongside regression and balance diagnostics.,Still depends on observed-confounding assumptions.
+Moderate tails but acceptable effective sample size,"Compare clipped, stabilized, and normalized weights; report sensitivity to trimming.",Make clear whether trimming changes the target population.
+Extreme weights and small effective sample size,"Avoid relying on raw IPW alone; consider trimming, overlap weights, redesign, or narrower estimand.",The full-population ATE may not be well supported by observed data.
+Balance remains poor after weighting,Revisit the propensity model and graph assumptions before interpreting the estimate.,A weighted estimate without balance is not reassuring.

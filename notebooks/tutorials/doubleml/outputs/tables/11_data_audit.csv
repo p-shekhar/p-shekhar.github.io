@@ -1,0 +1,2 @@
+n_rows,n_users,observations_per_user,model_controls,missing_cells,true_theta,corr_treatment_true_m,corr_treatment_true_g
+960,240,4,11,0,1.0,0.6494310323497827,0.13030014938522924

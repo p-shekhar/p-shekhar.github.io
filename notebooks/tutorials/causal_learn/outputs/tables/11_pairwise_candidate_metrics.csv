@@ -1,0 +1,2 @@
+run,reported_edges,true_direct_edges,correct_direct_edges,reversed_true_edges,missing_true_adjacencies,indirect_or_extra_adjacencies
+pairwise_anm_screen,7,6,3,0,3,4

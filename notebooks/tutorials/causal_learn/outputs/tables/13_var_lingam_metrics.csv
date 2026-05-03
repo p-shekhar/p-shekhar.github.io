@@ -1,0 +1,2 @@
+method,predicted_edges,true_edges,true_positive_edges,false_positive_edges,false_negative_edges,precision,recall,f1,missed_edges,extra_edges,threshold,elapsed_seconds,estimated_causal_order
+VAR_LiNGAM_same_time_and_lagged,13,11,11,2,0,0.8461538461538461,1.0,0.9166666666666666,,renewal(t-1) -> match(t) | renewal(t-2) -> need(t),0.07,0.03267674893140793,intent -> match -> engagement -> need -> renewal -> support

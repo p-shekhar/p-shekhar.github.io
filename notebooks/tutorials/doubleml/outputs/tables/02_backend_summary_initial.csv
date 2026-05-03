@@ -1,0 +1,2 @@
+backend_name,backend_class,outcome,treatments,controls,instruments,clusters,time_col,id_col,score_col,selection_col,n_obs,design_note
+standard_plr_continuous_treatment,DoubleMLData,y_outcome,d_continuous,"x_prior_activity, x_account_age, x_region_score, x_risk_score, x_binary_segment",,,,,,,900,Continuous treatment with pre-treatment controls for PLR-style estimators.

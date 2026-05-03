@@ -1,0 +1,9 @@
+edge,edge_properties,careful_report_language
+need o-> match,none,"match has an arrowhead, but the endpoint at need remains unresolved."
+need o-> renewal,none,"renewal has an arrowhead, but the endpoint at need remains unresolved."
+intent o-> match,none,"match has an arrowhead, but the endpoint at intent remains unresolved."
+intent o-> renewal,none,"renewal has an arrowhead, but the endpoint at intent remains unresolved."
+match --> engagement,"dd,nl",match has a definite directed endpoint toward engagement in this PAG.
+match o-> renewal,none,"renewal has an arrowhead, but the endpoint at match remains unresolved."
+engagement o-> renewal,none,"renewal has an arrowhead, but the endpoint at engagement remains unresolved."
+engagement --> support,"dd,nl",engagement has a definite directed endpoint toward support in this PAG.

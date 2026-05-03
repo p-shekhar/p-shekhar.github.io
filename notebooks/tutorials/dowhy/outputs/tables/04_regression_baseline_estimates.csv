@@ -1,0 +1,4 @@
+estimator,estimate,ci_95_lower,ci_95_upper,description
+known_true_ate,1.65,,,Known only because this is a teaching simulation.
+naive_difference_in_means,3.442530756024601,,,Unadjusted association; confounding is not blocked.
+adjusted_outcome_regression,1.6757247448949797,1.6005923920213503,1.750857097768609,Backdoor adjustment through a linear outcome model.

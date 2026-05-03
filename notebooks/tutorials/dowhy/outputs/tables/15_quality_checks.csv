@@ -1,0 +1,12 @@
+column,dtype,missing_rate,unique_values
+baseline_need,float64,0.0,6000
+prior_engagement,float64,0.0,6000
+account_tenure_z,float64,0.0,6000
+friction_score,float64,0.0,6000
+region_risk,int64,0.0,2
+high_need_segment,int64,0.0,2
+proactive_guidance,int64,0.0,2
+activation_depth,float64,0.0,6000
+support_ticket,float64,0.0,6000
+future_leakage_score,float64,0.0,6000
+future_engagement,float64,0.0,6000

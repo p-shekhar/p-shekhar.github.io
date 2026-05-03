@@ -1,0 +1,7 @@
+run,source,edge_type,target
+pc_fisherz_linear_gaussian,need,-->,match
+pc_fisherz_linear_gaussian,intent,-->,match
+pc_fisherz_linear_gaussian,intent,-->,renewal
+pc_fisherz_linear_gaussian,match,-->,engagement
+pc_fisherz_linear_gaussian,engagement,-->,renewal
+pc_fisherz_linear_gaussian,engagement,-->,support

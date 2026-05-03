@@ -1,0 +1,53 @@
+---
+title: "RAG system with evaluation and drift monitoring"
+description: "A project template for retrieval-augmented generation with vector search, hallucination checks, automated evaluation, and monitoring."
+date: 2026-04-26
+categories: [AI Systems, RAG, LLMOps, Evaluation]
+---
+
+## System Goal
+
+Build a retrieval-augmented generation system that answers domain-specific questions using a controlled document collection, with explicit evaluation for retrieval quality, groundedness, and answer usefulness.
+
+## Why This Demonstrates Expertise
+
+A credible RAG project is more than a chat interface. It should show how documents are chunked, embedded, indexed, retrieved, reranked, cited, evaluated, monitored, and improved.
+
+## Architecture
+
+Planned components:
+
+- Document ingestion and cleaning.
+- Chunking strategy and metadata schema.
+- Embedding model selection.
+- Vector database, such as FAISS or Pinecone.
+- Retrieval and reranking.
+- Response generation with citation constraints.
+- Automated evaluation dataset.
+- Hallucination and groundedness checks.
+- Drift and regression monitoring with LangSmith or Langfuse.
+
+## Evaluation Plan
+
+Track:
+
+- Retrieval recall at `k`.
+- Context precision.
+- Citation support.
+- Faithfulness or groundedness.
+- Answer relevance.
+- Latency and cost.
+- Regression performance across prompt, model, and retrieval changes.
+
+## Notebook Plan
+
+- `notebooks/rag-evaluation-system/01-ingestion.ipynb`
+- `notebooks/rag-evaluation-system/02-embeddings-and-index.ipynb`
+- `notebooks/rag-evaluation-system/03-generation.ipynb`
+- `notebooks/rag-evaluation-system/04-evaluation.ipynb`
+- `notebooks/rag-evaluation-system/05-monitoring.ipynb`
+
+## Executive Summary Template
+
+Replace this with a concise system readout: what the system does, where it performs well, where it fails, and what monitoring is required before deployment.
+

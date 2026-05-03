@@ -1,0 +1,9 @@
+variable,role,type_in_base_datasets,true_parents,plain_language
+need,root cause,continuous,none,Baseline user need or demand intensity.
+intent,root cause,continuous,none,Current session intent or motivation signal.
+match,mediating variable,continuous,"need, intent",How well the surfaced option matches the user's situation.
+engagement,mediating variable,continuous,match,Depth of downstream engagement after the match quality is realized.
+renewal,outcome,continuous,"intent, engagement",Future value or renewal-like outcome proxy.
+support,outcome,continuous,engagement,Support-contact load or friction outcome proxy.
+environment,context variable,integer label,none,Observed environment or regime label used only in the nonstationary dataset.
+latent_demand,unobserved common cause,continuous,none,Hidden variable saved only in the full hidden-confounder file for teaching diagnostics.

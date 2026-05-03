@@ -1,0 +1,2 @@
+n_simulations,true_theta,coverage_rate,mean_theta_hat,sd_theta_hat,mean_reported_se,mean_ci_width
+30,0.8,1.0,0.8128863332643195,0.04524980007059812,0.05282479539650458,0.20706939293569243

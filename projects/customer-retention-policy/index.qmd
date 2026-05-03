@@ -1,0 +1,39 @@
+---
+title: "Targeting retention offers with heterogeneous treatment effects"
+description: "A case-study template for deciding which customers should receive a retention intervention."
+date: 2026-04-26
+categories: [Causal ML, Uplift Modeling, Retention]
+---
+
+## Decision Question
+
+Which customers should receive a retention offer if the goal is incremental retention rather than high predicted churn?
+
+## Why This Is Causal
+
+The highest churn-risk customers are not necessarily the customers most likely to respond to an intervention. A targeting policy should prioritize treatment effect, not baseline risk.
+
+## Identification Strategy
+
+Use experimental assignment when available. If the data are observational, state the conditional exchangeability assumptions and evaluate overlap carefully.
+
+## Candidate Methods
+
+- T-learner, S-learner, and X-learner baselines.
+- Doubly robust learners.
+- Causal forests for heterogeneous treatment effects.
+- Policy value estimation for comparing targeting rules.
+
+## Notebook Plan
+
+Add notebooks such as:
+
+- `notebooks/01-targeting-problem.ipynb`
+- `notebooks/02-uplift-baselines.ipynb`
+- `notebooks/03-causal-forest.ipynb`
+- `notebooks/04-policy-value.ipynb`
+
+## Decision Translation
+
+Replace this section with a concise description of who should be treated, who should not be treated, and how much value the policy is expected to create.
+

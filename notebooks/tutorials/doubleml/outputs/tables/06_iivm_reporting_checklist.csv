@@ -1,0 +1,13 @@
+item,status
+Causal question,Estimate the local effect of feature_exposure on weekly_value for instrument-responsive units.
+Treatment and instrument,Both feature_exposure and encouragement are binary.
+Target,"LATE, not full-population ATE."
+Instrument relevance,First-stage take-up diagnostics reported.
+Instrument overlap,Instrument propensity diagnostics reported.
+Exclusion,Valid by construction in the synthetic data; requires design evidence in real data.
+Conditional independence,Valid by construction after X in the synthetic data; requires design evidence in real data.
+Monotonicity,No defiers by construction; requires design evidence in real data.
+Nuisance learners,Compared linear/logistic and gradient-boosted nuisance sets.
+Cross-fitting,Manual ratio and DoubleMLIIVM use cross-fitted nuisance predictions.
+Uncertainty,"Standard errors, confidence intervals, bootstrap interval, and split stability included."
+Stress tests,Weak first-stage and exclusion-violation stress tests included.

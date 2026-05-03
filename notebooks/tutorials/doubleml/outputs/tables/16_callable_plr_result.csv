@@ -1,0 +1,2 @@
+model,estimate,std_error,ci_95_lower,ci_95_upper,true_theta,absolute_error
+Callable partialling out,1.285173544668044,0.03591010895441204,1.214791024436487,1.3555560648996008,1.25,0.0351735446680439

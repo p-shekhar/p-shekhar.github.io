@@ -1,0 +1,5 @@
+DoubleML model,learner,target,why it matters
+PLR,ml_l,E[Y | X],Removes outcome variation explained by observed controls.
+PLR,ml_m,E[D | X],Removes treatment variation explained by observed controls.
+IRM,ml_g,"E[Y | D, X]",Builds potential-outcome regressions for treated and control states.
+IRM/IIVM,ml_m,P[D = 1 | X] or P[Z = 1 | X],Controls weighting and overlap behavior through propensity-style models.

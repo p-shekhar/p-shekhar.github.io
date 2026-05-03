@@ -1,0 +1,3 @@
+run,source,edge_type,target
+cdnod_no_background_knowledge,environment,-->,need
+cdnod_no_background_knowledge,environment,-->,intent

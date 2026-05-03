@@ -1,0 +1,10 @@
+item,status
+Causal question,Stated as effect of exposure_intensity on weekly_value.
+Treatment type,Continuous dose; PLR is appropriate for a constant-slope estimand.
+Control timing,All controls are pre-treatment by construction in this synthetic dataset.
+Nuisance learners,Compared regularized linear and gradient-boosted nuisance models.
+Cross-fitting,Used five folds; manually demonstrated residualization and used DoubleMLPLR.
+Uncertainty,"Reported standard errors, confidence intervals, and a bootstrap interval."
+Stability,Checked repeated sample splitting.
+Sensitivity,Ran a small illustrative unobserved-confounding sensitivity scenario.
+Main limitation,Synthetic truth is known here; real use requires defensible observed-control identification.

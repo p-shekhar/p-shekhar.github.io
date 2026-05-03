@@ -1,0 +1,2 @@
+estimator,theta_hat,std_error,ci_95_lower,ci_95_upper,moment_denominator,true_theta,bias_vs_truth
+Manual cross-fitted PLIV,1.9164618756468392,0.04757785297900652,1.8232092838079865,2.009714467485692,0.83992998109533,2.0,-0.08353812435316077

@@ -1,0 +1,23 @@
+field,type,description,availability,analysis_role
+user_id,Identifier,Row identifier used only for tracking.,Observed,Index only
+onboarding_gap,Numeric,How much help the user appears to need during onboarding.,Observed,X
+prior_sessions,Numeric,Early usage intensity before the bundle decision.,Observed,X
+content_diversity,Numeric,Breadth of content interests visible before treatment.,Observed,X
+search_difficulty,Numeric,Signal that the user struggles to find useful content.,Observed,X
+support_contacts,Numeric,Number of early support interactions before treatment.,Observed,X
+price_sensitivity,Numeric,Proxy for whether cost concerns limit engagement.,Observed,X
+device_reliability,Numeric,Proxy for whether technical quality enables benefit.,Observed,X
+high_motivation_segment,Binary,Pre-treatment segment flag from early intent signals.,Observed,X
+tenure_weeks,Numeric,Account age at decision time.,Observed,W
+region_competition,Numeric,Local competitive intensity proxy.,Observed,W
+market_maturity,Numeric,Market environment quality proxy.,Observed,W
+marketing_pressure,Numeric,Recent non-bundle marketing pressure.,Observed,W
+account_complexity,Numeric,Operational complexity proxy.,Observed,W
+referral_organic,Binary,Whether acquisition source was organic.,Observed,W
+weekday_signup,Binary,Whether signup happened on a weekday.,Observed,W
+mobile_primary,Binary,Whether early activity was mostly mobile.,Observed,W
+onboarding_bundle,Binary,Treatment assignment.,Observed,T
+eight_week_value,Numeric,Post-treatment outcome.,Observed,Y
+true_cate,Numeric,Known individual treatment effect for teaching evaluation.,Hidden in real work,Evaluation only
+true_propensity,Numeric,Known treatment probability for teaching evaluation.,Hidden in real work,Evaluation only
+baseline_value,Numeric,Known untreated outcome component.,Hidden in real work,Evaluation only

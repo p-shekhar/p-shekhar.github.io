@@ -1,0 +1,10 @@
+column,graph_role,timing,use_in_total_effect_adjustment
+feature_exposure,treatment,treatment time,"treatment, not a control"
+weekly_value,outcome,post-treatment outcome window,"outcome, not a control"
+user_engagement,confounder,pre-treatment,adjust
+prior_activity,confounder,pre-treatment,adjust
+account_age_weeks,confounder,pre-treatment,adjust
+rollout_batch,instrument-like assignment shifter,pre-treatment assignment driver,"not needed for backdoor adjustment, useful to know"
+satisfaction_depth,mediator,"post-treatment, before outcome",do not adjust for total effect
+support_ticket,collider,post-treatment diagnostic event,do not adjust
+treatment_probability,simulation diagnostic,known only because data are simulated,do not use as an observed production column

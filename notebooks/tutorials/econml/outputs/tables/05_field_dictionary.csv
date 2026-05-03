@@ -1,0 +1,20 @@
+column,role,observed_in_real_analysis,description,true_cate_driver
+baseline_need,X effect modifier,yes,Pre-treatment feature used by final CATE models.,yes
+prior_engagement,X effect modifier,yes,Pre-treatment feature used by final CATE models.,yes
+friction_score,X effect modifier,yes,Pre-treatment feature used by final CATE models.,yes
+content_affinity,X effect modifier,yes,Pre-treatment feature used by final CATE models.,yes
+price_sensitivity,X effect modifier,yes,Pre-treatment feature used by final CATE models.,yes
+trust_score,X effect modifier,yes,Pre-treatment feature used by final CATE models.,no
+recency_gap,X effect modifier,yes,Pre-treatment feature used by final CATE models.,no
+region_risk,X effect modifier,yes,Pre-treatment feature used by final CATE models.,yes
+high_need_segment,X effect modifier,yes,Pre-treatment feature used by final CATE models.,yes
+account_tenure,W control,yes,Pre-treatment adjustment feature used by nuisance models.,no
+seasonality_index,W control,yes,Pre-treatment adjustment feature used by nuisance models.,no
+device_stability,W control,yes,Pre-treatment adjustment feature used by nuisance models.,no
+traffic_intensity,W control,yes,Pre-treatment adjustment feature used by nuisance models.,no
+treatment,treatment,yes,Binary intervention indicator.,not applicable
+outcome,outcome,yes,Observed post-treatment outcome.,not applicable
+propensity,oracle,no,True treatment probability from the simulated assignment process.,not applicable
+mu0,oracle,no,True conditional mean outcome under control.,not applicable
+mu1,oracle,no,True conditional mean outcome under treatment.,not applicable
+true_cate,oracle,no,Known individual treatment effect used only for tutorial grading.,not applicable

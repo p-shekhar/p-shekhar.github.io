@@ -1,0 +1,30 @@
+column,model_role,observed_in_real_analysis,description,true_cate_driver
+baseline_need,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,yes
+prior_engagement,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,yes
+friction_score,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,yes
+price_sensitivity,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,yes
+content_affinity,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,yes
+region_risk,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,yes
+high_need_segment,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,yes
+trust_score,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+recency_gap,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_01,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_02,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_03,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_04,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_05,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_06,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_07,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_08,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_09,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_10,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_11,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+noise_modifier_12,X candidate effect modifier,yes,Pre-treatment feature allowed to modify the treatment effect.,no
+account_tenure,W control,yes,Pre-treatment feature used for adjustment but not used for CATE reporting.,no
+seasonality_index,W control,yes,Pre-treatment feature used for adjustment but not used for CATE reporting.,no
+device_stability,W control,yes,Pre-treatment feature used for adjustment but not used for CATE reporting.,no
+treatment,treatment,yes,Binary intervention indicator.,not applicable
+outcome,outcome,yes,Observed post-treatment outcome.,not applicable
+propensity,oracle,no,True treatment probability from the simulated assignment process.,not applicable
+true_cate,oracle,no,Known individual treatment effect used for tutorial grading.,not applicable
+baseline_outcome_mean,oracle,no,Mean untreated outcome component before random noise.,not applicable

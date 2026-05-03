@@ -1,0 +1,3 @@
+test,relationship,pearson_correlation,p_value,p_value_display,decision_at_0_05
+fisherz,u with u^2 + noise,0.021327066998619075,0.691117130966461,0.691,do not reject independence
+kci,u with u^2 + noise,0.021327066998619075,0.0,<1e-300,reject independence

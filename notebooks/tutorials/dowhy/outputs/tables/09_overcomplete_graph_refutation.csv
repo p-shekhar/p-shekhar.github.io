@@ -1,0 +1,2 @@
+graph,constraints_tested,constraints_satisfied,passed,main lesson
+overcomplete graph with extra direct edge,1,1,True,Passing a weak implication does not prove every edge is necessary.

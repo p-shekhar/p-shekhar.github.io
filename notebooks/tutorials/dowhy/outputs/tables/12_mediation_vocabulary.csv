@@ -1,0 +1,5 @@
+estimand,symbolic idea,plain meaning,mediator handling
+Total effect,Y(A=1) - Y(A=0),Overall change in the outcome when the treatment changes.,The mediator is allowed to change naturally after treatment changes.
+Natural indirect effect,Effect through A -> M -> Y,Part of the effect transmitted through the mediator.,The mediator is changed as it would naturally change under treatment.
+Natural direct effect,Effect through paths other than A -> M -> Y,Part of the effect not transmitted through the chosen mediator.,The mediator pathway is held to its natural reference-world value.
+Controlled direct effect,"Y(A=1, M=m) - Y(A=0, M=m)",Treatment effect if the mediator were fixed to a specific value.,The analyst chooses a fixed mediator value.

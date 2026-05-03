@@ -1,0 +1,6 @@
+property,value
+n_obs,10000
+outcome,weekly_value
+treatment,treated
+time,post
+n_covariates,6

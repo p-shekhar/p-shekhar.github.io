@@ -1,0 +1,6 @@
+principle,how_this_notebook_applies_it,why_it_matters
+Same data split,Every estimator trains on the same training rows and is evaluated on the same held-out rows.,Different splits can make estimator differences look larger or smaller than they are.
+Same feature set,All estimators receive the same observed pre-treatment covariates.,Feature differences should not be confused with estimator differences.
+Multiple metrics,"We compare ATE bias, CATE RMSE, correlation, targeting value, calibration, and runtime.",One metric rarely captures all decision needs.
+Ground-truth teaching data,The synthetic data include true CATE for held-out evaluation.,Real data cannot directly validate row-level CATE recovery.
+Decision-aware ranking,"We evaluate top-group true effects, not only pointwise errors.",Many CATE workflows are used for prioritization rather than exact prediction.

@@ -1,0 +1,7 @@
+variable,missing_rate,non_missing_count
+need,0.2504,1874
+intent,0.2488,1878
+match,0.2544,1864
+engagement,0.2428,1893
+renewal,0.2608,1848
+support,0.2444,1889

@@ -1,0 +1,6 @@
+need,reasonable_tool,main_warning
+Quick pairwise lag test,causal-learn Granger.granger_test_2d,Pairwise tests omit other variables and can be confounded.
+Small multivariate lagged graph,causal-learn Granger.granger_lasso,Coefficient threshold and lag length drive the final graph.
+Same-time plus lagged linear non-Gaussian effects,VAR-LiNGAM,Requires linear non-Gaussian assumptions and careful residual checks.
+Large lagged conditional-independence workflow,Dedicated time-series discovery package such as Tigramite,"Choose tests, lags, and stationarity checks explicitly."
+Cross-sectional DAG from autocorrelated rows,Usually avoid; first decide the temporal graph target,Naive i.i.d. methods can orient or connect the wrong variables.

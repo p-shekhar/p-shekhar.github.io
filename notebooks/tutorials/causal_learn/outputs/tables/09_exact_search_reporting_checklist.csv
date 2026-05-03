@@ -1,0 +1,7 @@
+topic,question_to_answer,reporting_note
+score definition,"Which score was optimized, and what assumptions does it make?","Exact search is exact for the chosen score, not for all possible causal criteria."
+search method,"Was A*, dynamic programming, or another exact method used?",Different exact methods should agree on the optimum under the same constraints.
+search-space constraints,"Were super-structures, required edges, or max-parent limits used?",Valid constraints can help; invalid constraints can force the wrong optimum.
+scaling,"How many variables were searched, and what were the parent-graph/order-graph statistics?",Exact search becomes expensive quickly as variable count grows.
+sample reliability,Does the exact optimum stabilize as sample size changes?,The optimizer can be exact even when the sample score is noisy.
+claim strength,Which edges are score-optimal candidates rather than confirmed causal facts?,"A best-scoring DAG still needs assumptions, domain review, and sensitivity checks."

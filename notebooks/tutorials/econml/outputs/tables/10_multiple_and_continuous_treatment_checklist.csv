@@ -1,0 +1,7 @@
+topic,multi_arm_question,continuous_question
+Treatment definition,Are arms mutually exclusive and clearly named?,"Is the dose numeric, ordered, and measured before the outcome window?"
+Reference contrast,Which arm is the baseline for effect estimates?,Which finite dose contrast or marginal effect is being reported?
+Overlap and support,Does every arm have support in the covariate regions being compared?,Is there enough dose variation within important segments?
+Nuisance models,Can the arm assignment and outcome models learn useful signal?,Can the dose and outcome models learn useful signal?
+Decision rule,"Will action use best-arm ranking, budget constraints, or arm-specific thresholds?","Will action use marginal-effect thresholds, dose caps, or cost-adjusted net effects?"
+Reporting,Report arm-specific effects and the arm mix of the learned policy.,"Report marginal effects, dose support, and the dose range where results apply."

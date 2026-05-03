@@ -1,0 +1,5 @@
+estimator,estimate,ci_95_lower,ci_95_upper,relative_lift_pct,source,conclusion
+"MSM, weighted",-2.687682546257763,-12.27059920265474,5.729106576160378,-0.71643696420659,Notebook 04 user-cluster bootstrap,interval crosses zero
+"G-computation, LightGBM",0.0358631273935557,-0.6383557093357652,1.865622639365228,0.009559786051581287,Notebook 05 user-cluster bootstrap,interval crosses zero
+"G-computation, linear",2.3287708083761407,-6.323818679852934,9.356490873969364,0.62076434235471,Notebook 05 user-cluster bootstrap,interval crosses zero
+"AIPW, doubly robust",1.09403490804084,-7.342776042571617,12.017844326100825,0.29162932554819,Notebook 06 user-cluster bootstrap over AIPW scores,interval crosses zero

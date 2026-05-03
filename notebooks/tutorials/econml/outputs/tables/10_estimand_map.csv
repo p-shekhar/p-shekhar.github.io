@@ -1,0 +1,4 @@
+setting,treatment_example,estimand,econml_call_pattern,decision_question
+Binary treatment,0 or 1,Effect of treatment 1 versus treatment 0,est.effect(X),Should this unit receive the intervention?
+Multiple discrete treatments,"0, 1, or 2",Effect of each active arm versus a baseline arm,"est.effect(X, T0=0, T1=arm)",Which arm should this unit receive?
+Continuous treatment,"Dose, intensity, discount, exposure time",Marginal effect of increasing the treatment by one unit,"est.const_marginal_effect(X) or est.effect(X, T0=a, T1=b)",How much should the treatment intensity change?

@@ -1,0 +1,2 @@
+run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
+pooled_pc_ignoring_environment,7,2,6,2,1.0,0.3333333333333333,0,4,0,1

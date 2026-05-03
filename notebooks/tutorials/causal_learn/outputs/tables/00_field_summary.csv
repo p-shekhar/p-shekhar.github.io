@@ -1,0 +1,7 @@
+field,graph_role,description
+need,Root cause,Baseline user need for help or guidance.
+intent,Root cause,Early intent or motivation signal.
+match,Intermediate variable,How well available content or options match the user's needs.
+engagement,Intermediate variable,Observed engagement generated from match quality.
+renewal,Downstream variable,Later value or renewal proxy affected by intent and engagement.
+support,Downstream variable,Support burden affected by engagement patterns.

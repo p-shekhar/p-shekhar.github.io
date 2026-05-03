@@ -1,0 +1,8 @@
+variable,tier
+environment,0
+need,1
+intent,1
+match,2
+engagement,3
+renewal,4
+support,4

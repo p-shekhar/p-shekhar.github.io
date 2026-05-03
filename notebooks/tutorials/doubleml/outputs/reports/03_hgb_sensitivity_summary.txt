@@ -1,0 +1,13 @@
+================== Sensitivity Analysis ==================
+
+------------------ Scenario          ------------------
+Significance Level: level=0.95
+Sensitivity parameters: cf_y=0.03; cf_d=0.03, rho=1.0
+
+------------------ Bounds with CI    ------------------
+                    CI lower  theta lower     theta  theta upper  CI upper
+exposure_intensity  1.734226     1.768999  1.801226     1.833453  1.868272
+
+------------------ Robustness Values ------------------
+                    H_0    RV (%)    RVa (%)
+exposure_intensity  0.0  78.65538  77.673279

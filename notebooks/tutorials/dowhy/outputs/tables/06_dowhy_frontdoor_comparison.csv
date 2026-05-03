@@ -1,0 +1,5 @@
+estimator,estimate
+naive exposure-outcome slope,2.892202767602795
+manual linear frontdoor,2.2823112126690233
+DoWhy frontdoor two-stage regression,2.282311212669022
+true total effect,2.25

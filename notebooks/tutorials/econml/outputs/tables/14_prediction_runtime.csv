@@ -1,0 +1,4 @@
+estimator,predict_seconds
+LinearDML,0.00300398888066411
+CausalForestDML,0.0695331166498363
+DRLearner,0.08274875488132238

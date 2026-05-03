@@ -1,0 +1,5 @@
+metric,value
+true ATE,0.5049708366167389
+interaction-regression estimated ATE,0.508708154865806
+CATE correlation with truth,0.9981954929149204
+CATE RMSE,0.03275387921624543

@@ -1,0 +1,20 @@
+field,role,description
+baseline_need,Observed covariate,Pre-treatment need or demand signal.
+prior_engagement,Observed covariate,Historical engagement before arm assignment.
+friction_score,Observed covariate,Higher values mean more user or process friction.
+content_affinity,Observed covariate,Match between row and content or offer.
+novelty_preference,Observed covariate,Preference for exploratory or new experiences.
+price_sensitivity,Observed covariate,"Sensitivity to cost, effort, or inconvenience."
+account_tenure,Observed covariate,Age of the account or relationship in weeks.
+region_risk,Observed covariate,Binary marker for lower baseline outcome regions.
+high_need_segment,Observed covariate,Binary segment derived from baseline need.
+low_friction_segment,Observed covariate,Binary segment derived from friction score.
+treatment_arm,Treatment,"Observed arm assignment: 0, 1, or 2."
+outcome,Outcome,Observed post-treatment outcome.
+true_tau_arm_1,Teaching-only truth,True effect of arm 1 versus baseline.
+true_tau_arm_2,Teaching-only truth,True effect of arm 2 versus baseline.
+true_best_arm,Teaching-only truth,Arm with the largest true expected gain.
+true_best_gain,Teaching-only truth,Largest true gain across arms.
+propensity_arm_0,Teaching-only truth,Synthetic probability of receiving arm 0.
+propensity_arm_1,Teaching-only truth,Synthetic probability of receiving arm 1.
+propensity_arm_2,Teaching-only truth,Synthetic probability of receiving arm 2.

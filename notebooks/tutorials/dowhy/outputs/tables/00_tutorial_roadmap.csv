@@ -1,0 +1,17 @@
+notebook,main_question,level
+00_environment_and_library_tour.ipynb,Orient to the environment and DoWhy API areas,Foundational
+01_core_workflow_model_identify_estimate_refute.ipynb,Run the standard model-identify-estimate-refute workflow,Foundational
+02_causal_graphs_dags_and_assumptions.ipynb,Use DAGs to express causal assumptions,Foundational
+03_backdoor_adjustment_and_confounding.ipynb,Handle observed confounding with backdoor adjustment,Foundational
+04_regression_matching_and_propensity_estimators.ipynb,Compare common estimators for one estimand,Foundational
+05_weighting_overlap_and_common_support.ipynb,Diagnose overlap and weighting fragility,Foundational
+06_frontdoor_iv_and_natural_experiments.ipynb,Study non-backdoor identification strategies,Intermediate
+07_cate_and_heterogeneous_effects.ipynb,Move from ATE to heterogeneous treatment effects,Intermediate
+08_refuters_placebos_negative_controls_sensitivity.ipynb,Stress-test estimates with refuters and sensitivity checks,Intermediate
+09_graph_discovery_and_graph_refutation.ipynb,Explore graph discovery and graph-level checks,Advanced
+10_gcm_structural_causal_models.ipynb,Fit graphical causal models,Advanced
+11_interventions_and_counterfactuals_with_gcm.ipynb,Ask intervention and counterfactual questions with GCM,Advanced
+12_mediation_direct_and_indirect_effects.ipynb,Separate direct and indirect pathways,Advanced
+13_root_cause_anomaly_and_distribution_change.ipynb,Use GCM for attribution and root-cause workflows,Advanced
+14_end_to_end_observational_case_study.ipynb,Assemble a full causal analysis,Capstone
+15_common_pitfalls_debugging_and_reporting.ipynb,Debug common mistakes and write transparent reports,Capstone

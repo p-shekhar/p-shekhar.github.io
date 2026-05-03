@@ -1,0 +1,9 @@
+topic,question,notebook_answer
+estimand,"Is the target ATT, ATE, or another effect?",ATT for treated-group units in the post period.
+data structure,Is the design panel or repeated cross-section?,Both are demonstrated separately.
+treatment timing,Is exposure equal to treated group times post period?,Yes. Actual exposure is treated x post.
+parallel trends,Why should untreated trends be comparable?,"In the synthetic design, untreated trends depend on observed X."
+overlap,Do treated and control groups share covariate support?,Propensity plots show adequate overlap.
+placebo,Do pre-period placebo checks look near zero?,The adjusted placebo estimate is close to zero.
+sensitivity,What happens under hidden trend violations?,"Estimates move with the hidden trend, showing the design limit."
+uncertainty,Are confidence intervals and split stability reported?,"Yes. Analytic, bootstrap, and split-stability outputs are saved."

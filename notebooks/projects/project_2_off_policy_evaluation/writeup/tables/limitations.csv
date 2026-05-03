@@ -1,0 +1,6 @@
+limitation,impact,mitigation
+Offline OPE is not an online experiment,The estimates prioritize A/B-test candidates but do not prove production lift.,Run an online experiment with guardrail metrics before launch.
+Support and positivity constraints,Aggressive learned policies can have low ESS and high weight sensitivity.,"Use conservative mixtures and monitor ESS, max weights, and clipping sensitivity."
+Reward is short-term click,"Click lift may not equal long-term satisfaction, retention, or content discovery quality.",Add downstream engagement and retention guardrails in online testing.
+Reward-model dependence,Direct method and DR estimates depend partly on model quality and calibration.,"Compare reward models, calibration, and residual correction diagnostics."
+Single Open Bandit campaign slice,The project focuses on the `random/men` slice for clarity and support.,Extend to other campaigns or BTS logs as a robustness check.

@@ -1,0 +1,16 @@
+graph,edge,in_candidate,in_truth,status
+correlation screen,engagement_depth -> weekly_value,True,True,true positive
+correlation screen,pre_activity -> engagement_depth,True,False,false positive
+correlation screen,pre_activity -> recommendation_exposure,True,True,true positive
+correlation screen,pre_activity -> weekly_value,True,True,true positive
+correlation screen,recommendation_exposure -> engagement_depth,True,True,true positive
+correlation screen,recommendation_exposure -> weekly_value,True,False,false positive
+correlation screen,seasonality_score -> engagement_depth,True,False,false positive
+correlation screen,seasonality_score -> recommendation_exposure,True,True,true positive
+correlation screen,seasonality_score -> weekly_value,True,True,true positive
+tiered regression screen,engagement_depth -> weekly_value,True,True,true positive
+tiered regression screen,pre_activity -> recommendation_exposure,True,True,true positive
+tiered regression screen,pre_activity -> weekly_value,True,True,true positive
+tiered regression screen,recommendation_exposure -> engagement_depth,True,True,true positive
+tiered regression screen,seasonality_score -> recommendation_exposure,True,True,true positive
+tiered regression screen,seasonality_score -> weekly_value,True,True,true positive

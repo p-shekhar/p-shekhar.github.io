@@ -1,0 +1,8 @@
+item,why
+State the estimand and treatment columns,Inference is only meaningful after the target is clear.
+"Report coefficient, standard error, and confidence interval",A point estimate without uncertainty is incomplete.
+Say whether intervals are pointwise or joint,These intervals answer different reporting questions.
+Document bootstrap method and number of replications,Joint intervals and Romano-Wolf adjustment depend on bootstrap settings.
+Use adjusted p-values for multiple treatment tests,Several tests increase the chance of false discoveries.
+Report nuisance model and cross-fitting choices,Uncertainty is conditional on the fitted DoubleML design.
+Separate statistical uncertainty from identification uncertainty,"Bootstrap cannot fix omitted variables, bad timing, or invalid instruments."

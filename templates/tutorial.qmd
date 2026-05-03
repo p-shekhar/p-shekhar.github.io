@@ -1,0 +1,39 @@
+---
+title: "Package Tutorial Title"
+description: "One sentence describing the workflow."
+date: YYYY-MM-DD
+categories: [Python, Package, Method]
+---
+
+## Goal
+
+What will the reader be able to do?
+
+## When To Use This Package
+
+State the problem class and assumptions.
+
+## Setup
+
+List package installation and imports.
+
+## Data
+
+Describe the dataset and variables.
+
+## Workflow
+
+Walk through the API step by step.
+
+## Diagnostics
+
+Show what to check before trusting the estimate.
+
+## Interpretation
+
+Translate output into causal and practical language.
+
+## Extensions
+
+Point to follow-up notebooks or harder variants.
+

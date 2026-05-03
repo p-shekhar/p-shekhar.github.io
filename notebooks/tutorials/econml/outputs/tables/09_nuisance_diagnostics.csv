@@ -1,0 +1,3 @@
+model,metric_1,value_1,metric_2,value_2
+propensity_model,roc_auc,0.7115245075607222,log_loss,0.623115571960048
+outcome_model,rmse,0.9211845774247955,mae,0.7248298725555855

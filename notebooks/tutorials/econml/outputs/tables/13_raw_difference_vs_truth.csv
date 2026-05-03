@@ -1,0 +1,4 @@
+quantity,value
+raw_treated_minus_control,0.9917318989899684
+true_ate,0.198487865239154
+raw_minus_true_ate,0.7932440337508144

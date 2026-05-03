@@ -1,0 +1,16 @@
+column,role,description
+weekly_value,outcome,Observed outcome Y.
+exposure_intensity,continuous treatment,Observed treatment or dose D.
+engagement_score,control,Pre-treatment engagement signal.
+need_intensity,control,Pre-treatment need or demand signal.
+content_fit,control,Pre-treatment content or product fit signal.
+recent_activity,control,Pre-treatment recent activity signal.
+price_sensitivity,control,Pre-treatment sensitivity signal.
+tenure_signal,control,Pre-treatment tenure signal.
+novelty_appetite,control,Pre-treatment novelty preference signal.
+seasonality_signal,control,Pre-treatment seasonal/context signal.
+true_treatment_nuisance,hidden teaching column,True m0(X) used only for diagnostics in synthetic data.
+true_outcome_nuisance,hidden teaching column,True l0(X) = E[Y | X] used only for diagnostics in synthetic data.
+true_structural_g,hidden teaching column,True g0(X) in the structural outcome equation.
+treatment_noise,hidden teaching column,Unexplained treatment variation V.
+outcome_noise,hidden teaching column,Outcome disturbance zeta.

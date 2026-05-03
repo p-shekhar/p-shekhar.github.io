@@ -1,0 +1,7 @@
+run,source,edge_type,target
+truth,need,-->,match
+truth,intent,-->,match
+truth,match,-->,engagement
+truth,engagement,-->,renewal
+truth,intent,-->,renewal
+truth,engagement,-->,support

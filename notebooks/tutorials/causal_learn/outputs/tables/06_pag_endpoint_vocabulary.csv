@@ -1,0 +1,8 @@
+edge_pattern,plain_language,reading
+A --> B,"tail at A, arrowhead at B",A is an ancestor-like candidate cause of B under the PAG semantics.
+A o-> B,"circle at A, arrowhead at B","The B endpoint is oriented, but the A endpoint is not resolved."
+A <-> B,arrowheads at both ends,The pair may involve latent confounding or a non-directed ancestral relation.
+A o-o B,circles at both ends,"The adjacency is present, but neither endpoint is resolved."
+edge property dd,definitely direct,FCI marks this edge as definitely direct in the returned edge properties.
+edge property nl,no latent,FCI marks this edge as not involving a latent confounder in the returned edge properties.
+edge property pd/pl,possibly direct / possibly latent,"FCI is leaving a weaker, more cautious claim."

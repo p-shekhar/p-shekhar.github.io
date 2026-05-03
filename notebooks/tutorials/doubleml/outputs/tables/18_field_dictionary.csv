@@ -1,0 +1,17 @@
+field,role,used_in_model,description
+engagement_score,pre-treatment control,True,Baseline engagement before nudge eligibility.
+intent_score,pre-treatment control,True,Baseline intent or product-fit signal.
+content_breadth,pre-treatment control,True,Breadth of prior usage across app areas.
+price_sensitivity,pre-treatment control,True,Baseline sensitivity or friction signal.
+mobile_share,pre-treatment control,True,Share of prior activity on mobile.
+weekend_share,pre-treatment control,True,Share of prior activity occurring on weekends.
+account_age_weeks,pre-treatment control,True,Tenure before treatment eligibility.
+new_user,pre-treatment control,True,Indicator derived from account age.
+email_opt_in,pre-treatment control,True,Baseline communication eligibility.
+support_contacts,pre-treatment control,True,Prior support-contact count.
+onboarding_nudge,treatment,treatment column,Binary exposure to the guided onboarding nudge.
+next_period_value,outcome,outcome column,Continuous value index after treatment.
+intent_segment,reporting segment,False,Segment used for subgroup summaries.
+post_treatment_activity_proxy,post-treatment leakage,False,Invalid control retained only as a warning example.
+true_propensity,oracle teaching column,False,Known treatment probability from simulation.
+true_treatment_effect,oracle teaching column,False,Known individual treatment effect from simulation.

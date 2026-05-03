@@ -1,0 +1,2 @@
+model,estimate,std_error,ci_95_lower,ci_95_upper,target,absolute_distance_from_zero
+adjusted outcome model with placebo exposure,0.05132713921287575,0.03598980590334125,-0.019211584168260118,0.12186586259401162,0.0,0.05132713921287575

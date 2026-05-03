@@ -1,0 +1,5 @@
+object,notation,question answered,what changes
+observational sample,"P(Y, X)",What patterns appear in the data-generating process we observed?,Nothing; we sample from the fitted natural system.
+interventional sample,P(Y | do(A = a)),What would the population look like under a changed system rule?,The mechanism for an intervened node is replaced by the intervention rule.
+average causal effect,E[Y | do(A = a)] - E[Y | do(A = a') ],How different are two intervention worlds on average?,Two intervention worlds are compared for the same target node.
+counterfactual sample,Y_{A=a}(u),"For this observed row, what would have happened under a different causal history?","The row's inferred background noise is preserved, then the intervention is propagated."

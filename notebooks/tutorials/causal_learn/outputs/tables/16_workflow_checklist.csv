@@ -1,0 +1,11 @@
+step,completed_here,artifact
+Define graph target,True,case-study question and true teaching graph
+Create variable dictionary,True,16_variable_dictionary.csv
+Audit data quality,True,16_data_audit.csv and diagnostic figures
+Encode domain constraints,True,16_timing_constraints.csv
+Run candidate algorithms,True,16_candidate_method_edges.csv
+Compare graph layers,True,16_candidate_method_metrics.csv
+Check tuning sensitivity,True,16_tuning_sensitivity.csv
+Check bootstrap stability,True,16_edge_stability.csv
+Screen hidden-confounding risk,True,16_fci_edges.csv and hidden stress table
+Report final candidate graph,True,16_final_candidate_edges.csv

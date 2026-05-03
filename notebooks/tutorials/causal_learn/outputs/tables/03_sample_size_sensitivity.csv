@@ -1,0 +1,16 @@
+sample_size,case,conditioning_set,p_value,decision_at_0_05
+100,direct edge need-match,none,3.4981697893954333e-07,reject independence
+100,blocked non-edge need-renewal,"intent, match, engagement",0.26732261771107213,do not reject independence
+100,opened collider need-intent,match,0.0,reject independence
+250,direct edge need-match,none,0.0,reject independence
+250,blocked non-edge need-renewal,"intent, match, engagement",0.11857470048562324,do not reject independence
+250,opened collider need-intent,match,0.0,reject independence
+500,direct edge need-match,none,0.0,reject independence
+500,blocked non-edge need-renewal,"intent, match, engagement",0.8016449592404515,do not reject independence
+500,opened collider need-intent,match,0.0,reject independence
+1000,direct edge need-match,none,0.0,reject independence
+1000,blocked non-edge need-renewal,"intent, match, engagement",0.5320838650159552,do not reject independence
+1000,opened collider need-intent,match,0.0,reject independence
+2500,direct edge need-match,none,0.0,reject independence
+2500,blocked non-edge need-renewal,"intent, match, engagement",0.3088303415044784,do not reject independence
+2500,opened collider need-intent,match,0.0,reject independence

@@ -1,0 +1,4 @@
+relationship,correlation,why_it_matters
+latent_demand with match,0.5080120705347413,Latent demand partly drives observed match quality.
+latent_demand with renewal,0.5803244960451103,"Latent demand also drives renewal, creating unobserved common-cause risk."
+match with renewal in observed file,0.7332909587426631,"Observed association may mix directed, indirect, and hidden-confounding paths."

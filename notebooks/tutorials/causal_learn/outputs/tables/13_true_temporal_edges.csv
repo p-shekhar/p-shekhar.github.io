@@ -1,0 +1,12 @@
+source,lag,target,coefficient,edge_family
+match,0,engagement,0.22,same_time
+engagement,0,renewal,0.18,same_time
+engagement,0,support,-0.15,same_time
+need,1,match,0.28,cross_lag
+intent,1,match,0.34,cross_lag
+match,1,engagement,0.32,cross_lag
+engagement,1,renewal,0.36,cross_lag
+engagement,1,support,-0.3,cross_lag
+support,1,renewal,-0.24,cross_lag
+need,2,engagement,0.18,cross_lag
+match,2,renewal,0.22,cross_lag

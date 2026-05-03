@@ -1,0 +1,5 @@
+metric,value,reading
+test true ATE,0.6881635017145966,average ground-truth CATE in the test split
+LinearDML estimated ATE,0.7451934156536392,average estimated CATE in the test split
+CATE correlation with truth,0.9738237812241354,ranking alignment between estimated and true CATE
+CATE RMSE,0.08995547350690936,average estimation error on the CATE scale

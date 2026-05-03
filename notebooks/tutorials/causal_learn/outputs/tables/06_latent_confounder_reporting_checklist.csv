@@ -1,0 +1,6 @@
+topic,question_to_answer,reporting_note
+why FCI,Why is hidden confounding plausible enough that PC alone is too optimistic?,Explain the measurement gap or omitted common-cause risk.
+PAG endpoint marks,"Which edges are definite, partially oriented, bidirected-like, or unresolved?",Do not rewrite circle endpoints as fully directed causal claims.
+edge properties,Which returned edges are marked definitely direct or no-latent versus weaker possibilities?,Use edge properties to separate stronger and weaker statements.
+sensitivity,How do adjacencies and endpoints change across alpha values or test choices?,Stable patterns deserve more attention than tuning-specific marks.
+measurement improvements,Which omitted variables would make the discovery problem less ambiguous if measured?,"FCI can point to ambiguity, but better data often resolves more than another algorithm run."

@@ -1,0 +1,6 @@
+topic,reporting_question,why_it_matters
+background knowledge,"Which directions were forbidden or required, and what external reason justifies each constraint?",Invalid priors can force a graph to tell a misleading story.
+alpha choice,How sensitive is the graph to the conditional independence alpha threshold?,A single alpha can hide edge instability.
+missing data,"How many rows or cells are missing, and was complete-case analysis or missing-value PC used?",Missingness can change both sample size and dependence structure.
+discrete tests,"Were discrete variables tested with chi-square, G-square, or another categorical CI test?",Continuous CI tests are not the default choice for categorical variables.
+graph claims,"Which edges are stable candidate structure, and which are uncertain or assumption-dependent?",Discovery graphs should not be oversold as confirmed causal truth.

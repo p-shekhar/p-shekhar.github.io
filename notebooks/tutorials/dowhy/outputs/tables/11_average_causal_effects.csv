@@ -1,0 +1,4 @@
+intervened_node,intervention,target_node,estimated_ace
+recommendation_quality,+0.5 soft shift,next_week_value,0.43717000597707034
+watch_time,+0.5 soft shift,next_week_value,0.26786352397715796
+tutorial_prompt,+0.5 soft shift,next_week_value,0.05182975563253844

@@ -1,0 +1,16 @@
+field,role,description
+unit_id,Panel identifier,Unique identifier for the repeated unit.
+period,Time index,Period number inside the unit history.
+baseline_need,Baseline feature X,Pre-history need or demand signal.
+user_quality,Baseline feature X,Stable quality or fit signal.
+friction_score,Baseline feature X,Stable friction signal.
+price_sensitivity,Baseline feature X,Stable sensitivity to cost or effort.
+region_risk,Baseline feature X,Binary marker for lower baseline outcome regions.
+high_need_segment,Baseline feature X,Binary segment derived from baseline need.
+state_before_treatment,Time-varying control W,Observed state immediately before period treatment.
+seasonality,Time-varying control W,Period-specific seasonality signal.
+lagged_treatment,Time-varying control W,Treatment intensity from the previous period.
+treatment_intensity,Treatment T,Continuous treatment intensity assigned in each period.
+final_outcome,Outcome Y,Outcome measured after all four treatment periods.
+true_period_effect,Teaching-only truth,True final-outcome effect of one treatment unit in this period.
+true_cumulative_effect,Teaching-only truth,Sum of true period effects for one-unit increases in all periods.

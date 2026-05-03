@@ -1,0 +1,8 @@
+method,edge
+GIN_MI,L1 --> X1
+GIN_MI,L1 --> X2
+GIN_MI,L1 --> X3
+GIN_MI,L1 --> L2
+GIN_MI,L2 --> X4
+GIN_MI,L2 --> X5
+GIN_MI,L2 --> X6

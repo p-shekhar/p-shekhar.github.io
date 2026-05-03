@@ -1,0 +1,6 @@
+component,value
+treatment,feature_exposure
+outcome,weekly_value
+common_causes,"user_engagement, prior_activity, account_age_weeks, is_power_segment"
+instruments,none detected
+effect_modifiers,none detected

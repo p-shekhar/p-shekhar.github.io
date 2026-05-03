@@ -1,0 +1,8 @@
+variable,timing_tier,role
+baseline_need,0,upstream context
+catalog_fit,1,upstream context
+onboarding_friction,2,early barrier
+discovery_quality,3,candidate mechanism
+early_engagement,4,intermediate outcome
+support_contact,5,friction outcome
+retention_value,6,final outcome

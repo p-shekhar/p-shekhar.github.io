@@ -1,0 +1,6 @@
+target,value
+Treatment rate,0.45925
+True ATE,0.996434846104768
+True ATT-style target,1.1329782576729157
+Treated count,1837.0
+Untreated count,2163.0

@@ -1,0 +1,57 @@
+---
+title: "Lecture Notes"
+description: "Professional lecture tracks in causal inference, causal ML, AI evaluation, generative AI, and reinforcement learning."
+---
+
+These notes are organized as full lecture tracks rather than isolated posts. The source notebooks live under `notebooks/lectures/`, and the website pages below provide the public course navigation.
+
+<div class="track-grid">
+<div class="track-card">
+<h3><a href="01-core-causal-inference/">01. Core Causal Inference</a></h3>
+<p>This is the backbone sequence. It starts from causal questions and potential outcomes, then builds through experiments, adjustment-based observational designs, and quasi-experimental strategies used in product, policy, and industry settings.</p>
+<span class="track-meta">33 notebooks</span>
+</div>
+<div class="track-card">
+<h3><a href="02-causal-machine-learning/">02. Causal Machine Learning</a></h3>
+<p>This track focuses on causal questions where modern machine learning is useful after the estimand is clear: heterogeneous treatment effects, nuisance modeling, policy targeting, off-policy evaluation, and validation.</p>
+<span class="track-meta">8 notebooks</span>
+</div>
+<div class="track-card">
+<h3><a href="03-industry-applications/">03. Industry Applications</a></h3>
+<p>This track translates causal designs into the decisions companies actually make: incrementality, promotions, ranking, churn, feature launches, marketplaces, and executive readouts.</p>
+<span class="track-meta">8 notebooks</span>
+</div>
+<div class="track-card">
+<h3><a href="04-advanced-topics/">04. Advanced Topics</a></h3>
+<p>This track collects the advanced topics that separate routine effect estimation from mature causal practice: mechanisms, missingness, measurement, generalization, spillovers, panels, discovery, Bayesian workflows, and AI-system complications.</p>
+<span class="track-meta">10 notebooks</span>
+</div>
+<div class="track-card">
+<h3><a href="05-ai-for-causal-inference/">05. AI for Causal Inference</a></h3>
+<p>This course treats AI as an assistant to the causal analyst: translating business questions, drafting estimand cards, critiquing DAGs, retrieving domain knowledge, generating code, creating reports, and stress-testing AI outputs.</p>
+<span class="track-meta">25 notebooks</span>
+</div>
+<div class="track-card">
+<h3><a href="06-causal-inference-for-ai-systems/">06. Causal Inference for AI Systems</a></h3>
+<p>This course flips the direction: AI systems become the intervention. It covers estimands, experiments, triggered exposure, RAG and agent evaluation, routing bias, monitoring, fairness, cost-benefit, governance, and lifecycle management.</p>
+<span class="track-meta">22 notebooks</span>
+</div>
+<div class="track-card">
+<h3><a href="07-causal-inference-for-generative-ai/">07. Causal Inference for Generative AI</a></h3>
+<p>This course specializes causal evaluation for generative AI systems, where outputs are stochastic, measurement is difficult, and human behavior often changes in response to generated content.</p>
+<span class="track-meta">24 notebooks</span>
+</div>
+<div class="track-card">
+<h3><a href="08-causal-inference-for-reinforcement-learning/">08. Causal Inference for Reinforcement Learning</a></h3>
+<p>This course is written for learners who know the earlier causal tracks but may be new to reinforcement learning. It builds RL concepts from the causal viewpoint and then studies logged decisions, policy evaluation, offline RL, RLHF, and agentic systems.</p>
+<span class="track-meta">26 notebooks</span>
+</div>
+</div>
+
+## Short Notes
+
+These earlier short notes remain useful as focused references:
+
+- [Identification](identification/)
+- [DAG assumptions](dag-assumptions/)
+- [Difference-in-differences](difference-in-differences/)

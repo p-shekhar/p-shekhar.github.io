@@ -1,0 +1,3 @@
+note_type,note
+assumption,Diagnostic file includes latent_demand so the hidden-confounding design can be verified.
+intended_use,Do not use as the observed discovery input unless teaching oracle access.

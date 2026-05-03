@@ -1,0 +1,11 @@
+check,what_good_reporting_should_include
+Decision defined,"Treatment, outcome, cost, and target population are explicit."
+Pre-treatment variables separated,Effect modifiers and controls are assigned before fitting.
+Missingness handled,Imputation is learned from training data only.
+Confounding diagnosed,"Raw gaps, balance, and propensity overlap are reviewed."
+Nuisance models checked,Treatment and outcome models have held-out diagnostics.
+Multiple estimators compared,Results are not tied to one estimator by default.
+Policy value evaluated,CATE estimates are translated into net decision value.
+Support considered,Weak-overlap regions are handled cautiously.
+Uncertainty shown,Bootstrap intervals or comparable uncertainty summaries are included.
+Caveats documented,Assumptions and validation needs are written plainly.

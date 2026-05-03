@@ -1,0 +1,7 @@
+step,question,why it matters
+Define the causal target,What treatment and outcome are being contrasted?,"Heterogeneity is still about potential outcomes, not prediction alone."
+Identify the average effect,Which variables block backdoor paths?,CATE modeling cannot repair a broken causal design.
+Choose effect modifiers,Which pre-treatment features might change the effect size?,Effect modifiers should be known before treatment and meaningful to explain.
+Estimate subgroup effects,How does the effect differ by segment or feature bucket?,Grouped estimates are easier to audit than individual scores.
+Fit flexible CATE models,Can a richer model capture nonlinear effect patterns?,"Flexible CATE models can help targeting, but they need validation."
+Check overlap and stability,Do treated and untreated units exist in each subgroup?,No model can estimate a contrast where the data contain no contrast.

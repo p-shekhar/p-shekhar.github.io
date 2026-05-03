@@ -1,0 +1,3 @@
+run,source,edge_type,target
+chain,A,-->,B
+chain,B,-->,C

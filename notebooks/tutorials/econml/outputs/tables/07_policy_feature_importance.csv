@@ -1,0 +1,15 @@
+feature,importance,policy_model,abs_importance
+friction_score,0.2310099687415265,DRPolicyForest,0.2310099687415265
+content_affinity,0.20545032936267169,DRPolicyForest,0.20545032936267169
+prior_engagement,0.20207759081049412,DRPolicyForest,0.20207759081049412
+price_sensitivity,0.19163188269954334,DRPolicyForest,0.19163188269954334
+baseline_need,0.12947056731796833,DRPolicyForest,0.12947056731796833
+region_risk,0.03898948669215741,DRPolicyForest,0.03898948669215741
+high_need_segment,0.0013701743756386212,DRPolicyForest,0.0013701743756386212
+prior_engagement,0.999999999999999,DRPolicyTree,0.999999999999999
+baseline_need,1.0380076042062956e-15,DRPolicyTree,1.0380076042062956e-15
+friction_score,0.0,DRPolicyTree,0.0
+content_affinity,0.0,DRPolicyTree,0.0
+price_sensitivity,0.0,DRPolicyTree,0.0
+region_risk,0.0,DRPolicyTree,0.0
+high_need_segment,0.0,DRPolicyTree,0.0

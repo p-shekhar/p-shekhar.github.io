@@ -1,0 +1,8 @@
+check,status_here,why_it_matters
+Target parameter named,theta in a PLR design,The estimand must be clear before choosing learners.
+Identification assumptions stated,controls are sufficient by construction in synthetic data,DoubleML does not create identification by itself.
+Nuisance roles documented,ml_l for outcome nuisance and ml_m for treatment nuisance,Different DoubleML classes require different nuisance roles.
+Cross-fitting plan documented,5-fold split with fixed random seed,Resampling choices can affect finite-sample estimates.
+Baselines compared,"naive, linear adjusted, oracle, manual DML, DoubleML",Baselines reveal what the DML workflow is correcting.
+Nuisance diagnostics reported,losses and out-of-fold prediction quality saved,Poor nuisance fit can still matter.
+Uncertainty reported,DoubleML standard errors and confidence interval saved,A causal estimate without uncertainty is incomplete.

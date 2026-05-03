@@ -1,0 +1,3 @@
+noise_family,runs,ari_mean,order_match_rate
+gaussian,8,1.0,0.375
+laplace,8,1.0,1.0

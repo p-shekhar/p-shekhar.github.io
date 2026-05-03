@@ -1,0 +1,6 @@
+method,predicted_edges,true_edges,true_positive_edges,false_positive_edges,false_negative_edges,precision,recall,f1,missed_edges,extra_edges,threshold
+threshold_0.04,13,8,8,5,0,0.6153846153846154,1.0,0.761904761904762,,intent(t-1) -> engagement(t) | match(t-1) -> support(t) | need(t-1) -> engagement(t) | need(t-2) -> support(t) | renewal(t-2) -> need(t),0.04
+threshold_0.06,10,8,8,2,0,0.8,1.0,0.888888888888889,,intent(t-1) -> engagement(t) | renewal(t-2) -> need(t),0.06
+threshold_0.08,8,8,8,0,0,1.0,1.0,1.0,,,0.08
+threshold_0.10,8,8,8,0,0,1.0,1.0,1.0,,,0.1
+threshold_0.12,7,8,7,0,1,1.0,0.875,0.9333333333333333,need(t-2) -> engagement(t),,0.12

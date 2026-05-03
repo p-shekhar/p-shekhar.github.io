@@ -1,0 +1,4 @@
+role,policy,reason,estimated_click_rate,lift_pp,relative_lift_pct,ess_share,max_weight,risk_flag
+primary A/B-test candidate,lgbm_conservative_mix,Context-aware policy with materially better support than greedy learned policies.,0.0053244980171978,0.0344498017197892,6.91763086742756,0.6940315554443522,10.89999999999951,clip sensitive
+stable fallback candidate,fixed_ctr_weighted,Simpler fixed policy with reasonable support and low clipping sensitivity.,0.0052811907477754,0.0301190747775437,6.048006983442522,0.7906281703853439,2.740842032329032,reasonable support
+not recommended as first rollout,lgbm_greedy,High estimated value but very low ESS and high clipping sensitivity.,0.0075134380936709,0.2533438093670904,50.8722508769258,0.0291,34.000000000000064,low ESS

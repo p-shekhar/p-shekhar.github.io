@@ -1,0 +1,4 @@
+model,treatment_coefficient,what it estimates,why it differs
+naive outcome ~ treatment,1.5689121584769201,confounded association,does not adjust for pre-treatment selection
+outcome ~ treatment + pre-treatment covariates,0.7985951313962374,adjusted total effect,allows mediator pathway to remain open
+outcome ~ treatment + mediator + pre-treatment covariates,0.30799960008874705,direct-effect-like coefficient,blocks the mediator pathway

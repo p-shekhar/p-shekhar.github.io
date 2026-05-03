@@ -1,0 +1,7 @@
+column,role,plain meaning,root-cause note
+traffic_intent,root context variable,Baseline demand or intent entering the system.,"Can make outcomes high or low, but is not caused by other variables in this graph."
+catalog_health,root quality variable,How healthy and relevant the available catalog is.,A decline can propagate into recommendation quality and future value.
+latency_pressure,root reliability variable,Higher values mean slower or more strained service conditions.,"A spike can harm recommendation quality, session depth, and future value."
+recommendation_quality,intermediate mechanism,Quality of the ranked or selected experience.,Can be a cause of downstream symptoms or a symptom of upstream problems.
+session_depth,mediating outcome,Short-term engagement depth during the session.,"Often moves with future value, but sits downstream of quality and latency."
+future_value,target outcome,Later value we want to explain when it becomes anomalous or shifts.,"The target is explained by upstream nodes, not used as a root cause of itself except for residual noise."

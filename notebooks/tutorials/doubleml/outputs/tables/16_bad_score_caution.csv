@@ -1,0 +1,2 @@
+model,estimate,std_error,ci_95_lower,ci_95_upper,true_theta,absolute_error
+Non-orthogonal raw score caution,1.353538279503888,0.031551593341974944,1.2916982928987633,1.4153782661090126,1.25,0.10353827950388794

@@ -1,0 +1,27 @@
+---
+title: "Agent orchestration tutorial roadmap"
+description: "A tutorial outline for LangGraph, LangChain, CrewAI, and AutoGen workflows."
+date: 2026-04-26
+categories: [Agents, LangGraph, LangChain, CrewAI, AutoGen]
+---
+
+## Tutorial Goal
+
+Compare agent workflow patterns and show how to evaluate them as software systems.
+
+## Sections To Build
+
+1. Single-agent tool calling.
+2. Stateful workflows with LangGraph.
+3. Multi-agent role decomposition.
+4. Guardrails and human approval points.
+5. Trace inspection.
+6. Failure mode analysis.
+
+## Notebook Plan
+
+- `notebooks/agent-orchestration/01-tool-calling.ipynb`
+- `notebooks/agent-orchestration/02-langgraph-workflow.ipynb`
+- `notebooks/agent-orchestration/03-multi-agent-comparison.ipynb`
+- `notebooks/agent-orchestration/04-evaluation.ipynb`
+

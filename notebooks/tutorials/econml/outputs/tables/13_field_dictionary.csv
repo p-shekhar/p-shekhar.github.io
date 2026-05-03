@@ -1,0 +1,17 @@
+field,role,description
+baseline_need,Observed covariate,Pre-treatment demand or need signal.
+prior_engagement,Observed covariate,Pre-treatment engagement signal.
+friction_score,Observed covariate,Higher values mean more friction.
+content_affinity,Observed covariate,Match between row and content or offer.
+novelty_preference,Observed covariate,Preference for exploratory or new experiences.
+price_sensitivity,Observed covariate,"Sensitivity to cost, effort, or inconvenience."
+account_tenure,Observed covariate,Age of the account or relationship in weeks.
+region_risk,Observed covariate,Binary marker for lower baseline outcome regions.
+device_stability,Observed covariate,Technical stability or reliability signal.
+high_need_segment,Observed covariate,Binary segment derived from baseline need.
+low_friction_segment,Observed covariate,Binary segment derived from friction score.
+treatment,Treatment,Binary intervention assignment.
+outcome,Outcome,Observed post-treatment outcome.
+true_propensity,Teaching-only truth,Known treatment probability from the synthetic assignment process.
+true_cate,Teaching-only truth,Known conditional treatment effect for each row.
+baseline_outcome,Teaching-only truth,Potential baseline outcome component before treatment effect and noise.

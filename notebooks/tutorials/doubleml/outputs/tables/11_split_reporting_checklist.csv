@@ -1,0 +1,8 @@
+item,why
+State number of folds,Fold count changes training size and number of nuisance fits.
+State number of repetitions,Repeated cross-fitting affects split stability and runtime.
+Record random seeds,Random sample splits should be reproducible.
+Explain external split constraints,"Grouped, clustered, or temporal data often require custom split logic."
+Report nuisance prediction diagnostics,Split design should be assessed with held-out nuisance performance.
+Show split sensitivity when material,Large changes across reasonable splits weaken confidence in one estimate.
+Avoid in-sample nuisance residualization,Flexible learners can memorize rows and distort the orthogonal score.

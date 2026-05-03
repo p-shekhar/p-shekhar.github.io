@@ -1,0 +1,9 @@
+column,role,description
+recommendation_exposure,treatment,Binary indicator for whether the unit received the exposure.
+weekly_value,outcome,Post-treatment outcome affected by exposure and pre-treatment confounders.
+pre_activity,confounder,Pre-treatment activity score affecting both exposure and weekly value.
+power_segment,confounder,Binary segment flag affecting both exposure and weekly value.
+account_age_z,confounder,Standardized account age affecting both exposure and weekly value.
+seasonality_score,confounder,Pre-treatment timing score affecting both exposure and weekly value.
+negative_control_outcome,negative-control outcome,Outcome-like variable affected by confounders but not by the treatment.
+treatment_probability,simulation diagnostic,True exposure probability used by the simulator; usually unknown in real observational data.

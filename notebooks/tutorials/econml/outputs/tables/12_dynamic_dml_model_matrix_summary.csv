@@ -1,0 +1,7 @@
+object,shape_or_length,role
+Y_train,4160,Final outcome repeated in long panel format.
+T_train,4160,Treatment intensity in each period.
+X_train,"(4160, 6)",Baseline heterogeneity features in long format.
+W_train,"(4160, 3)",Time-varying controls in long format.
+groups_train,4160,Unit IDs for grouped cross-fitting.
+X_test_first,"(560, 6)",First-period X for unit-level effect prediction.

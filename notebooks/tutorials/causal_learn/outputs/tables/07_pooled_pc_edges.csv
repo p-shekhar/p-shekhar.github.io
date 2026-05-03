@@ -1,0 +1,8 @@
+run,source,edge_type,target
+pooled_pc_ignoring_environment,need,---,intent
+pooled_pc_ignoring_environment,need,---,match
+pooled_pc_ignoring_environment,intent,---,match
+pooled_pc_ignoring_environment,intent,-->,renewal
+pooled_pc_ignoring_environment,match,---,engagement
+pooled_pc_ignoring_environment,engagement,-->,renewal
+pooled_pc_ignoring_environment,engagement,---,support

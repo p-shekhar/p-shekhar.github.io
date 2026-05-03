@@ -1,0 +1,6 @@
+situation,reasonable_start,what_to_check
+Need a transparent first estimate,Outcome regression,"Model specification, residual patterns, and whether treatment effect is plausibly constant."
+Want intuitive treated-control comparisons,Propensity-score matching,"Match distances, unmatched regions, and whether matching changes the target population."
+Want a simple propensity-based diagnostic table,Propensity-score stratification,Treated/control counts and effect stability inside strata.
+Want a population-level weighted contrast,Propensity-score weighting,"Overlap, extreme weights, and weighted covariate balance."
+Estimators disagree materially,Do not average them blindly,"Graph assumptions, overlap, model misspecification, outliers, and target population differences."

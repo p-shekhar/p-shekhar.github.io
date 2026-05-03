@@ -1,0 +1,7 @@
+control,allowed_as_standard_control,role_family,problem
+x_prior_activity,True,pre-treatment control,False
+x_account_age,True,pre-treatment control,False
+x_region_score,True,pre-treatment control,False
+x_risk_score,True,pre-treatment control,False
+x_binary_segment,True,pre-treatment control,False
+post_treatment_engagement,False,post-treatment variable,True

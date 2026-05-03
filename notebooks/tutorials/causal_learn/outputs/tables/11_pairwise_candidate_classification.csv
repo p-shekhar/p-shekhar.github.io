@@ -1,0 +1,8 @@
+source,target,p_value_margin,classification
+match,renewal,0.9422869323195906,indirect_or_extra_adjacency
+match,support,0.9196477994685628,indirect_or_extra_adjacency
+need,renewal,0.8711018703038255,indirect_or_extra_adjacency
+need,support,0.9145868902876941,indirect_or_extra_adjacency
+engagement,renewal,0.6077352377350316,true_direct_edge
+intent,match,0.5135942367263364,true_direct_edge
+need,match,0.7291410120836995,true_direct_edge

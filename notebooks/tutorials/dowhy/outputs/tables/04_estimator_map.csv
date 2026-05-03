@@ -1,0 +1,5 @@
+estimator_family,basic_idea,main_strength,main_failure_mode
+Outcome regression,Model the outcome as a function of treatment and confounders.,Simple and interpretable when the outcome model is credible.,Can be biased if the outcome model is misspecified.
+Propensity-score matching,Compare treated and untreated units with similar treatment probabilities.,Makes treated-control comparability intuitive.,Can be noisy or biased when matches are poor or overlap is weak.
+Propensity-score stratification,Compare treated and untreated units within propensity-score strata.,Easy to inspect and explain.,Sensitive to bin choices and sparse cells.
+Propensity-score weighting,Reweight units by inverse treatment probability to reduce observed confounding.,Targets population-level effects directly when propensities are reliable.,Extreme weights can create high variance and fragile estimates.

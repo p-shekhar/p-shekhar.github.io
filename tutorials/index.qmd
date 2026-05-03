@@ -1,0 +1,41 @@
+---
+title: "Python Package Tutorials"
+description: "Applied package tutorial series for causal inference, causal discovery, causal ML, and AI systems workflows."
+listing:
+  - id: causal-package-tutorials
+    contents:
+      - dowhy/index.qmd
+      - econml/index.qmd
+      - doubleml/index.qmd
+      - causal-learn/index.qmd
+    type: grid
+    fields: [title, description, date, categories]
+    sort: "title asc"
+    page-size: 12
+  - id: ai-workflow-tutorials
+    contents:
+      - rag-systems/index.qmd
+      - agent-orchestration/index.qmd
+      - llm-evaluation/index.qmd
+      - lora-fine-tuning/index.qmd
+    type: grid
+    fields: [title, description, date, categories]
+    sort: "title asc"
+    page-size: 12
+---
+
+This section separates complete notebook-backed package tutorials from shorter AI workflow tutorial pages.
+
+## Notebook-Backed Causal Python Tutorials
+
+These four tutorial series are built directly from the folders under `notebooks/tutorials/`.
+
+::: {#causal-package-tutorials}
+:::
+
+## AI Systems Tutorial Pages
+
+These pages cover the broader AI engineering skills that complement the causal inference portfolio: RAG, orchestration, evaluation, tracing, monitoring, and fine-tuning.
+
+::: {#ai-workflow-tutorials}
+:::

@@ -1,0 +1,7 @@
+column,role,description
+pre_activity,source confounder,Pre-treatment activity that affects exposure and weekly value.
+seasonality_score,source confounder,Pre-treatment timing signal that affects exposure and weekly value.
+recommendation_exposure,treatment-like exposure,Continuous exposure intensity affected by the source variables.
+engagement_depth,mediator,Post-exposure engagement depth through which exposure affects weekly value.
+weekly_value,outcome,Final outcome affected by engagement and the source confounders.
+negative_control_metric,diagnostic variable,Outcome-like metric driven by source variables but not by exposure in the simulation.

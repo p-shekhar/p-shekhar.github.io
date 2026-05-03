@@ -1,0 +1,6 @@
+object,shape_or_length,description
+X_iv_train,"(2340, 8)",Observed covariates used for heterogeneity and adjustment.
+X_iv_test,"(1260, 8)",Held-out observed covariates for evaluation.
+T_iv_train,2340,Endogenous treatment intensity.
+Z_iv_train,2340,Instrumental encouragement score.
+y_iv_train,2340,Observed outcome.

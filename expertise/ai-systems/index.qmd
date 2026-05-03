@@ -1,0 +1,39 @@
+---
+title: "AI Systems, LLMOps & Agentic Workflows"
+description: "Designing, evaluating, and monitoring LLM-powered systems for reliable knowledge work."
+date: 2026-04-26
+categories: [AI Systems, LLMOps, RAG, Agents]
+---
+
+## Focus
+
+I build and evaluate LLM-powered systems that combine retrieval, orchestration, multimodal understanding, automated evaluation, and monitoring. The goal is not just to call a model API, but to design systems that can be tested, improved, and trusted in real workflows.
+
+## Core Capabilities
+
+- Design and deployment of LLM-powered AI systems, including RAG, agents, and multi-agent orchestration.
+- Multimodal ML systems for text, image, and embedding-based understanding.
+- Hallucination detection, drift monitoring, automated evaluation, and regression testing with tools such as LangSmith and Langfuse.
+- Agent architectures with LangChain, LangGraph, CrewAI, and Microsoft AutoGen.
+- LLMOps and model lifecycle management: evaluation, monitoring, versioning, prompt management, and release discipline.
+- Vector databases and retrieval systems, including FAISS, Pinecone, and LlamaIndex.
+- LLM fine-tuning workflows, including PEFT/LoRA and QLoRA.
+
+## How I Present This Work
+
+AI systems work should be demonstrated through artifacts:
+
+- Architecture diagrams.
+- Evaluation datasets and test suites.
+- Retrieval quality metrics.
+- Failure mode analysis.
+- Monitoring plans.
+- Reproducible notebooks or small deployable demos.
+- Clear tradeoffs around cost, latency, quality, and risk.
+
+## Evidence On This Site
+
+- [RAG evaluation system](../../projects/rag-evaluation-system/index.qmd)
+- [Agentic research assistant](../../projects/agentic-research-assistant/index.qmd)
+- [Multimodal retrieval system](../../projects/multimodal-retrieval-system/index.qmd)
+

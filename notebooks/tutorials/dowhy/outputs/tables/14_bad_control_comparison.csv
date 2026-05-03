@@ -1,0 +1,4 @@
+model,treatment_coefficient,estimand reading
+raw outcome ~ treatment,1.324707501192649,confounded association
+outcome ~ treatment + pre-treatment covariates,0.8352181563708903,adjusted total effect
+outcome ~ treatment + activation depth + pre-treatment covariates,0.4848942788693459,direct-effect-like coefficient after blocking mediator path

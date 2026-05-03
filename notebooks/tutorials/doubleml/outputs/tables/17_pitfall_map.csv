@@ -1,0 +1,7 @@
+pitfall,where_it_enters,symptom,recommended_check
+Omitted confounding,Identification,Estimate changes sharply when an important pre-treatment confounder is added or removed.,State the adjustment set and run negative-control or sensitivity checks when possible.
+Bad controls or leakage,Feature design,"Including post-treatment variables can shrink, reverse, or otherwise distort the causal estimate.","Classify every feature by time: pre-treatment, treatment, mediator, outcome, or future signal."
+Weak residual treatment variation,Overlap or positivity,The residualized treatment has very small variance and standard errors inflate.,Inspect residualized-treatment distributions and the score denominator.
+Poor nuisance models,Estimation,Nuisance RMSE is high or unstable across learners and folds.,"Compare learners, tune deliberately, and report nuisance diagnostics."
+Sample-split luck,Cross-fitting,Estimates move materially across random fold assignments.,Use repeated cross-fitting or rerun over several deterministic seeds.
+Under-reporting,Communication,"Readers cannot tell what data, learners, score, folds, or assumptions produced the estimate.","Publish a compact design table, diagnostics table, and limitation statement."

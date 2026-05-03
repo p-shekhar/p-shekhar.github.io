@@ -1,0 +1,11 @@
+item,summary
+Causal question,Average total effect of feature exposure on weekly value.
+Identified estimand,Backdoor-adjusted ATE using observed pre-treatment common causes.
+Known true ATE,1.650
+Naive estimate,3.443; inflated because treated users are stronger at baseline.
+Adjusted regression estimate,1.676
+Manual matching estimate,1.732
+Manual stratification estimate,1.766
+Manual normalized IPW estimate,1.753
+Main diagnostic,Adjusted estimators cluster near the true effect and improve sharply over the naive comparison.
+Main limitation,All estimates still depend on the observed-confounding assumption and adequate overlap.

@@ -1,0 +1,9 @@
+method,source,lag,target,coefficient,abs_coefficient,edge_label
+Granger_Lasso,match,1,engagement,0.3515108057646306,0.3515108057646306,match(t-1) -> engagement(t)
+Granger_Lasso,intent,1,match,0.2891398870819768,0.2891398870819768,intent(t-1) -> match(t)
+Granger_Lasso,need,1,match,0.25281739384154817,0.25281739384154817,need(t-1) -> match(t)
+Granger_Lasso,engagement,1,renewal,0.3488719045490596,0.3488719045490596,engagement(t-1) -> renewal(t)
+Granger_Lasso,support,1,renewal,-0.1747937257114525,0.1747937257114525,support(t-1) -> renewal(t)
+Granger_Lasso,engagement,1,support,-0.37021877885459986,0.37021877885459986,engagement(t-1) -> support(t)
+Granger_Lasso,need,2,engagement,0.11920826040129834,0.11920826040129834,need(t-2) -> engagement(t)
+Granger_Lasso,match,2,renewal,0.12798784811163197,0.12798784811163197,match(t-2) -> renewal(t)

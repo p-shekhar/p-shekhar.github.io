@@ -1,0 +1,20 @@
+column,role,description
+weekly_value,outcome,Observed outcome Y.
+exposure_intensity,continuous treatment,Observed endogenous treatment D.
+encouragement_score,instrument,Instrument Z that shifts treatment in the synthetic design.
+engagement_score,control,Observed pre-treatment control X.
+need_intensity,control,Observed pre-treatment control X.
+content_fit,control,Observed pre-treatment control X.
+recent_activity,control,Observed pre-treatment control X.
+price_sensitivity,control,Observed pre-treatment control X.
+tenure_signal,control,Observed pre-treatment control X.
+novelty_appetite,control,Observed pre-treatment control X.
+seasonality_signal,control,Observed pre-treatment control X.
+true_instrument_nuisance,hidden teaching column,True m0(X) = E[Z | X].
+true_treatment_nuisance,hidden teaching column,True r0(X) = E[D | X].
+true_outcome_nuisance,hidden teaching column,True l0(X) = E[Y | X].
+true_structural_g,hidden teaching column,Structural outcome component g0(X).
+latent_demand_shock,hidden confounder,Unobserved variable that affects D and Y.
+instrument_noise,hidden teaching column,Residual instrument variation V.
+treatment_noise,hidden teaching column,Treatment disturbance.
+outcome_noise,hidden teaching column,Outcome disturbance.

@@ -1,0 +1,7 @@
+term,shape,plain_language_definition,adjustment_guidance
+Treatment,A,The variable whose causal effect we want to estimate.,Never adjust away the treatment itself when estimating its effect.
+Outcome,Y,The variable we expect the treatment to change.,"The outcome is modeled, not adjusted for as a control."
+Confounder,C -> A and C -> Y,A pre-treatment common cause of treatment and outcome.,Usually adjust for observed confounders to block backdoor paths.
+Mediator,A -> M -> Y,A post-treatment pathway variable through which part of the effect flows.,Do not adjust for mediators when estimating the total effect.
+Collider,A -> K <- Y,A variable caused by two other variables on a path.,Do not condition on colliders unless the estimand specifically requires it.
+Instrument,Z -> A -> Y,A variable that shifts treatment but does not directly affect the outcome except through treatment.,Useful for IV designs; not the same as a confounder.

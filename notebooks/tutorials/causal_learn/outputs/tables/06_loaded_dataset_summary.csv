@@ -1,0 +1,3 @@
+dataset,rows,columns,contains_latent_demand_column,source_file
+hidden_confounder_observed,2500,6,False,02_hidden_confounder_observed.csv
+hidden_confounder_full,2500,7,True,02_hidden_confounder_full.csv

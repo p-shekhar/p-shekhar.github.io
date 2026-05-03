@@ -1,0 +1,1501 @@
+scenario,x,y,true_relation
+nonlinear_additive,1.6749081525100449,0.8428191424350036,x -> y
+nonlinear_additive,0.4827701348394364,0.35887377535646475,x -> y
+nonlinear_additive,-1.055683791543982,-0.8161024236751102,x -> y
+nonlinear_additive,-2.285242146528943,1.4400961648163482,x -> y
+nonlinear_additive,2.368271975531071,0.4264236184822419,x -> y
+nonlinear_additive,0.4823585203234422,1.0569713746459035,x -> y
+nonlinear_additive,1.4513158220936062,1.2075670212364666,x -> y
+nonlinear_additive,2.0516969064772637,0.7456680295472717,x -> y
+nonlinear_additive,0.9407722379587256,1.2630290505621635,x -> y
+nonlinear_additive,-1.5500426330613841,-0.18000347815600629,x -> y
+nonlinear_additive,2.407394903136332,0.8100761779429843,x -> y
+nonlinear_additive,-1.0762997499117573,-0.1987436582018537,x -> y
+nonlinear_additive,0.6463658487452513,0.9478099850544807,x -> y
+nonlinear_additive,0.40518239390178223,0.4673757689309026,x -> y
+nonlinear_additive,0.49956136566136466,0.45248858090008104,x -> y
+nonlinear_additive,0.17624052680825342,0.45691914572900094,x -> y
+nonlinear_additive,2.4788855210927574,0.7474395807288271,x -> y
+nonlinear_additive,0.009730423484630268,0.12245410621470523,x -> y
+nonlinear_additive,1.3551128820125373,0.8266814593232135,x -> y
+nonlinear_additive,-0.029191106858452276,-0.16097213363948978,x -> y
+nonlinear_additive,2.488372465860947,0.8240587652590464,x -> y
+nonlinear_additive,2.393109606847797,0.9387230372405522,x -> y
+nonlinear_additive,-0.5321597751665019,-0.6155990381824821,x -> y
+nonlinear_additive,-0.8903736860389748,-0.8746142608051435,x -> y
+nonlinear_additive,1.8109032555962479,1.4125721953174961,x -> y
+nonlinear_additive,1.4966244768447465,1.2258413033806375,x -> y
+nonlinear_additive,0.9571531635749935,0.639341405338723,x -> y
+nonlinear_additive,-0.4574107417086877,-0.9800790675031352,x -> y
+nonlinear_additive,-0.5511743366190998,-0.7170195062291664,x -> y
+nonlinear_additive,-1.841758022033717,0.7111857489439927,x -> y
+nonlinear_additive,0.6274874387678206,0.5617087841683055,x -> y
+nonlinear_additive,-2.087993147806752,0.9418499275275851,x -> y
+nonlinear_additive,-1.1271350565023326,-0.5592331130655369,x -> y
+nonlinear_additive,0.7805851356131335,1.16763916774672,x -> y
+nonlinear_additive,-2.42661984857305,2.244733877123505,x -> y
+nonlinear_additive,1.6726608599143198,1.3422318298779419,x -> y
+nonlinear_additive,-2.138004609757706,1.4294738818305892,x -> y
+nonlinear_additive,0.12060411650423886,-0.031235025086736312,x -> y
+nonlinear_additive,0.23275257765211999,0.7293270820778697,x -> y
+nonlinear_additive,-1.363765186832605,-0.06664920117734319,x -> y
+nonlinear_additive,2.2798910816446396,1.2949888457506944,x -> y
+nonlinear_additive,-0.7951807458748306,-0.6662857620884719,x -> y
+nonlinear_additive,0.02353720353639499,0.08143278446784369,x -> y
+nonlinear_additive,1.8369180577529676,1.1181165033693448,x -> y
+nonlinear_additive,0.7847647490023109,1.2053089969252344,x -> y
+nonlinear_additive,-0.5763879609645746,-1.2140926210465586,x -> y
+nonlinear_additive,-2.018637960682446,1.0807354076009985,x -> y
+nonlinear_additive,2.2790281185213166,0.733871967093663,x -> y
+nonlinear_additive,0.4478356695817709,0.8300954394950387,x -> y
+nonlinear_additive,0.41081446226878215,0.7603109565017329,x -> y
+nonlinear_additive,0.4857263601623658,0.6916646226993914,x -> y
+nonlinear_additive,-1.755630333717742,0.3408885507109445,x -> y
+nonlinear_additive,0.30024314267020813,0.13113912811056155,x -> y
+nonlinear_additive,0.3158376016407467,0.6073174927116602,x -> y
+nonlinear_additive,0.4049409246390496,0.5326647583187523,x -> y
+nonlinear_additive,-1.575255024570588,-0.040708277250056435,x -> y
+nonlinear_additive,1.0480945597460236,1.5906942843815353,x -> y
+nonlinear_additive,-2.1498967216615714,1.7629310176964264,x -> y
+nonlinear_additive,-0.8756753035022613,-0.8633928184823075,x -> y
+nonlinear_additive,-1.9657226503796987,1.4624394948772197,x -> y
+nonlinear_additive,1.2401434686297765,1.5198750208021221,x -> y
+nonlinear_additive,0.007870036815406767,0.04251425421003931,x -> y
+nonlinear_additive,-0.16845948187130322,-0.49686887671741153,x -> y
+nonlinear_additive,-2.1315331385542313,1.1649372629748989,x -> y
+nonlinear_additive,-0.28951807863109025,-0.15182467896692042,x -> y
+nonlinear_additive,-1.382444613362378,-0.8645563674102662,x -> y
+nonlinear_additive,-0.9851213669428627,-0.2694835248836674,x -> y
+nonlinear_additive,-0.5282599586874082,-0.4794160282220896,x -> y
+nonlinear_additive,1.0331532437221829,1.1682420126366646,x -> y
+nonlinear_additive,1.431815694364298,1.7219620464027043,x -> y
+nonlinear_additive,-0.715819523656992,-0.714983384598289,x -> y
+nonlinear_additive,0.8506492573369133,0.8062200858295001,x -> y
+nonlinear_additive,0.05111559980988467,-0.109040698223041,x -> y
+nonlinear_additive,0.8557263036478462,0.8515224980599224,x -> y
+nonlinear_additive,-0.8483396432211738,-1.1432898549880857,x -> y
+nonlinear_additive,1.992097804719073,1.4880521807166511,x -> y
+nonlinear_additive,0.8139600518306827,1.1495413860265327,x -> y
+nonlinear_additive,-1.5410132672588117,-0.0934345898425108,x -> y
+nonlinear_additive,0.3757926258267883,0.8150540991657904,x -> y
+nonlinear_additive,1.24701440441565,1.4511079013990897,x -> y
+nonlinear_additive,1.3996266418627554,1.0684085337131823,x -> y
+nonlinear_additive,-0.311342183336381,-0.7492695633254371,x -> y
+nonlinear_additive,-1.108436576071747,-1.240528966386815,x -> y
+nonlinear_additive,0.5801204159775333,1.129661148100005,x -> y
+nonlinear_additive,1.1495066964374305,1.206052281607519,x -> y
+nonlinear_additive,0.03617573240015215,0.2940128915904237,x -> y
+nonlinear_additive,-1.5769607850074414,0.02993403134188386,x -> y
+nonlinear_additive,0.5714707393322076,0.4692704385871046,x -> y
+nonlinear_additive,1.3017603401534354,1.1029470372717498,x -> y
+nonlinear_additive,2.0750722910032477,1.3016170362612525,x -> y
+nonlinear_additive,2.4722441582982455,0.6100748112906892,x -> y
+nonlinear_additive,-0.6586037521609049,-0.638637360617669,x -> y
+nonlinear_additive,1.5279755509723367,0.5394392029946968,x -> y
+nonlinear_additive,0.9476805065071425,0.9823420304414201,x -> y
+nonlinear_additive,2.3646823092335376,1.055438308746821,x -> y
+nonlinear_additive,0.04383936848579806,-0.479483027348576,x -> y
+nonlinear_additive,1.803207540399156,1.3532238418885405,x -> y
+nonlinear_additive,0.02023164561298474,-0.11900427202634728,x -> y
+nonlinear_additive,-1.0587362568683072,-0.8943563452389816,x -> y
+nonlinear_additive,2.301913067586284,1.2064321709930013,x -> y
+nonlinear_additive,-1.0796294864443694,-0.8475180053098205,x -> y
+nonlinear_additive,-0.9467088333629126,-0.46826202028296227,x -> y
+nonlinear_additive,-2.2010924058485704,1.471683525631229,x -> y
+nonlinear_additive,-2.497718628034848,2.4230615944096714,x -> y
+nonlinear_additive,-0.7922040896446914,-0.4977456939372569,x -> y
+nonlinear_additive,-1.1465283361469714,-0.32329642903366573,x -> y
+nonlinear_additive,1.1326696927702926,1.2311651252304456,x -> y
+nonlinear_additive,-2.4267515615382567,1.5129680878715024,x -> y
+nonlinear_additive,1.9578626485787378,1.467435407592391,x -> y
+nonlinear_additive,1.582589549596083,1.0530060899254496,x -> y
+nonlinear_additive,2.0482455106076483,1.2875430766523228,x -> y
+nonlinear_additive,1.3373694603397936,1.0764542585610364,x -> y
+nonlinear_additive,0.7875136115439862,1.0007119579730621,x -> y
+nonlinear_additive,1.3189718356457654,1.336996159652221,x -> y
+nonlinear_additive,1.8987116925757146,1.0118641770270853,x -> y
+nonlinear_additive,1.769172484481933,1.658218621597848,x -> y
+nonlinear_additive,-1.1476001319570646,-1.10713269379064,x -> y
+nonlinear_additive,2.2616095885073806,0.6820330760184068,x -> y
+nonlinear_additive,2.463230617133539,0.8937671067301675,x -> y
+nonlinear_additive,0.9683357553184084,1.374699152056847,x -> y
+nonlinear_additive,0.5655442850054504,0.8931403233823783,x -> y
+nonlinear_additive,0.5671710726362762,0.9405498635112846,x -> y
+nonlinear_additive,0.9293106036969858,1.5171437147007658,x -> y
+nonlinear_additive,2.031750326611303,0.7828200645904793,x -> y
+nonlinear_additive,-0.9534386331743145,-0.9125298841136076,x -> y
+nonlinear_additive,-0.4968169155218751,-0.6682170582216644,x -> y
+nonlinear_additive,-0.9208107208710521,-0.5728833558100175,x -> y
+nonlinear_additive,1.1096402924785043,0.8943506228393894,x -> y
+nonlinear_additive,-2.3296956852004773,2.4550448377981784,x -> y
+nonlinear_additive,-0.48207833338603034,-0.7272964887495834,x -> y
+nonlinear_additive,-0.4773029150715442,-0.8006642087715912,x -> y
+nonlinear_additive,-0.5328716455146125,-0.7683447820821874,x -> y
+nonlinear_additive,0.3426866345912223,0.2514844585790644,x -> y
+nonlinear_additive,-1.2728500062184644,-0.7415728324774988,x -> y
+nonlinear_additive,1.9592464580992104,0.8850942054048194,x -> y
+nonlinear_additive,-0.6092708875376529,-0.5922767465616814,x -> y
+nonlinear_additive,2.2884894171659926,1.0279466396769847,x -> y
+nonlinear_additive,2.152019125835764,0.7585386049222718,x -> y
+nonlinear_additive,-0.761565526113388,-0.8685714604253368,x -> y
+nonlinear_additive,-0.6560663142956553,-0.6237026834188668,x -> y
+nonlinear_additive,0.5982833648359938,0.38130666559453785,x -> y
+nonlinear_additive,-0.5154651368602221,-0.7094836971807823,x -> y
+nonlinear_additive,-1.9610506451897591,1.2612701596830929,x -> y
+nonlinear_additive,-1.0899335020228929,-0.2154862930377172,x -> y
+nonlinear_additive,-1.570300821038283,-0.02163230118492348,x -> y
+nonlinear_additive,-0.3943023291329295,-0.9325812705826366,x -> y
+nonlinear_additive,1.9515039881451592,0.8065228917533241,x -> y
+nonlinear_additive,-0.15979390105759794,0.11064735104415782,x -> y
+nonlinear_additive,-2.2697543591166274,2.3366670971077337,x -> y
+nonlinear_additive,1.338837284507,1.2487566412309439,x -> y
+nonlinear_additive,1.8049075596632411,0.6481575652331082,x -> y
+nonlinear_additive,1.9170080876247697,1.0426079682834721,x -> y
+nonlinear_additive,-0.40755679842609593,-0.33833268931921845,x -> y
+nonlinear_additive,-1.0234394865753726,-0.4754721195595459,x -> y
+nonlinear_additive,2.3601049869997865,0.9107106939381754,x -> y
+nonlinear_additive,-0.5998871655414879,-0.029386139944089007,x -> y
+nonlinear_additive,0.29102904534313234,0.47612501106740085,x -> y
+nonlinear_additive,2.4013553723714427,1.6097287160913947,x -> y
+nonlinear_additive,1.7595364354232066,0.7985598437695864,x -> y
+nonlinear_additive,1.9570770535578372,1.3885380354966406,x -> y
+nonlinear_additive,2.0984106314219035,1.209946456141334,x -> y
+nonlinear_additive,1.053589673949829,1.5101260805571368,x -> y
+nonlinear_additive,-0.865861793183561,-1.0061839279461813,x -> y
+nonlinear_additive,-1.556823925002368,-0.03152705940824818,x -> y
+nonlinear_additive,1.229088026337605,0.9718763036056284,x -> y
+nonlinear_additive,0.3652856503015762,0.6043373552543015,x -> y
+nonlinear_additive,-2.0812186113316677,1.356919500265427,x -> y
+nonlinear_additive,1.8261547231297879,1.2190168688007548,x -> y
+nonlinear_additive,-2.0393422532666587,0.8252582916992617,x -> y
+nonlinear_additive,1.7237202038331505,0.9179766094755998,x -> y
+nonlinear_additive,1.498167724997713,0.6353433383989282,x -> y
+nonlinear_additive,2.3948843209864554,0.820254550405219,x -> y
+nonlinear_additive,-1.1207354502440166,-0.950229980897322,x -> y
+nonlinear_additive,-2.3679948877440333,2.30417565368751,x -> y
+nonlinear_additive,0.08540297563114052,-0.011701177287826325,x -> y
+nonlinear_additive,2.166877301197262,1.000279130935632,x -> y
+nonlinear_additive,2.2338768964478914,0.7227854920865802,x -> y
+nonlinear_additive,-0.7303126294157263,-0.7936030139263525,x -> y
+nonlinear_additive,-0.5413562351291539,-0.7461688499438124,x -> y
+nonlinear_additive,2.3086700040700574,0.4725110189656557,x -> y
+nonlinear_additive,1.5954951184372819,1.4332116299799433,x -> y
+nonlinear_additive,2.1934226338598455,0.5961927801444248,x -> y
+nonlinear_additive,1.5428479889034739,1.5780253465551106,x -> y
+nonlinear_additive,0.05067476350971978,-0.6142176418738688,x -> y
+nonlinear_additive,-1.8091525178774885,0.43147379171668154,x -> y
+nonlinear_additive,0.11448933562099661,0.41692485756462727,x -> y
+nonlinear_additive,-2.0494612545818436,1.4237862455229604,x -> y
+nonlinear_additive,1.416461735154277,0.7173822037897912,x -> y
+nonlinear_additive,1.0429750704245793,1.317061138700193,x -> y
+nonlinear_additive,0.4074560746986444,0.6929845694465079,x -> y
+nonlinear_additive,-0.7147805154911979,-0.7125968422365447,x -> y
+nonlinear_additive,1.1305834497079381,1.1779457838436493,x -> y
+nonlinear_additive,-0.31646839260987836,-0.6891281747475636,x -> y
+nonlinear_additive,-0.27178990660885916,-0.35745444276937144,x -> y
+nonlinear_additive,0.5637176003865783,1.0146124747499643,x -> y
+nonlinear_additive,0.5531794939725403,1.1190779783869615,x -> y
+nonlinear_additive,-1.4110117519706407,-0.3078918775437129,x -> y
+nonlinear_additive,1.180377302645594,1.0568557751148235,x -> y
+nonlinear_additive,-1.582806172040538,0.2500588851721014,x -> y
+nonlinear_additive,1.4778207790371471,0.8498536970939146,x -> y
+nonlinear_additive,-1.0660810222176387,-0.9155363369948109,x -> y
+nonlinear_additive,-0.013275438253459448,-0.21150891084550177,x -> y
+nonlinear_additive,0.9598308476104256,1.2174853005405855,x -> y
+nonlinear_additive,-0.26033745333277336,-0.34691384600193775,x -> y
+nonlinear_additive,-0.05088001429320155,0.4688627704077575,x -> y
+nonlinear_additive,-2.0629330322797443,1.3943882747143665,x -> y
+nonlinear_additive,1.3714785033040702,1.5448702217206862,x -> y
+nonlinear_additive,-0.27534844005199055,-0.5250901183045987,x -> y
+nonlinear_additive,0.26075793377690815,0.11551244699986823,x -> y
+nonlinear_additive,-1.4914115146462152,-0.23630807094765516,x -> y
+nonlinear_additive,0.8081807587962011,0.9771194746536264,x -> y
+nonlinear_additive,-2.193396610423851,2.1440849650353067,x -> y
+nonlinear_additive,-1.6068160582526025,0.5190885872650637,x -> y
+nonlinear_additive,0.9378708562037197,1.4600295750687038,x -> y
+nonlinear_additive,1.0044177543537014,1.2300147706519664,x -> y
+nonlinear_additive,0.050587898522114205,-0.280596857608877,x -> y
+nonlinear_additive,-1.375474193048275,-0.42264940974387966,x -> y
+nonlinear_additive,2.3163126179213434,0.6333225437977962,x -> y
+nonlinear_additive,-2.0853052563085948,1.0700734166550971,x -> y
+nonlinear_additive,-1.2806017414490023,-0.35399491488413637,x -> y
+nonlinear_additive,1.4471901077036575,1.758200726122341,x -> y
+nonlinear_additive,1.3777844960616275,1.864263741015633,x -> y
+nonlinear_additive,0.44759543957805814,0.6599497120198694,x -> y
+nonlinear_additive,0.11718098407005506,0.22686006051038707,x -> y
+nonlinear_additive,-0.7657580937605979,-0.694671448953885,x -> y
+nonlinear_additive,-1.7028019081622792,0.14273756704397228,x -> y
+nonlinear_additive,0.725793380749491,1.433484074674011,x -> y
+nonlinear_additive,-0.4989485205268078,-0.49403187333260956,x -> y
+nonlinear_additive,1.3712477558250176,1.3216665993997418,x -> y
+nonlinear_additive,-1.7025386644516898,0.48924451553210796,x -> y
+nonlinear_additive,-0.4632704499443414,-0.7362432883513653,x -> y
+nonlinear_additive,0.6192291389552191,0.8843022358058041,x -> y
+nonlinear_additive,-0.3064485722343111,-0.07440949882037057,x -> y
+nonlinear_additive,-2.356241991744116,2.2717219930656145,x -> y
+nonlinear_additive,0.19838749530487476,0.38563470250788723,x -> y
+nonlinear_additive,-2.054069503781579,0.8143351771251757,x -> y
+nonlinear_additive,-2.4145422090076596,2.837186998328605,x -> y
+nonlinear_additive,-1.4059688286705745,-0.13308338524036806,x -> y
+nonlinear_additive,-1.5871056974518178,0.35633759119053054,x -> y
+nonlinear_additive,1.1558842205187143,1.0465312175009696,x -> y
+nonlinear_additive,0.9973354217292796,1.4392730953717017,x -> y
+nonlinear_additive,1.453752787980064,1.4525250634238676,x -> y
+nonlinear_additive,1.4740925981000497,1.3694840742775092,x -> y
+nonlinear_additive,2.261028528250276,1.1838660024712118,x -> y
+nonlinear_additive,-0.2507389995509586,-0.8321046052200929,x -> y
+nonlinear_additive,1.8447361348814013,1.414008978076269,x -> y
+nonlinear_additive,0.7153298800050445,0.9638538791301055,x -> y
+nonlinear_additive,0.7365619029482384,0.9530532964483848,x -> y
+nonlinear_additive,-1.6548936446634344,0.24005412208762952,x -> y
+nonlinear_additive,1.8742031845242693,1.1756207965288932,x -> y
+nonlinear_additive,1.151997720095133,1.3860732895498313,x -> y
+nonlinear_additive,0.5553377565789184,0.7799505595267141,x -> y
+nonlinear_additive,-1.0587690690232394,-0.5107263994632493,x -> y
+nonlinear_additive,-1.2116584716314756,0.27079978473950506,x -> y
+nonlinear_additive,0.9391000496368305,1.4434852987047277,x -> y
+nonlinear_additive,1.5643195346525722,1.1383838652314853,x -> y
+nonlinear_additive,1.4860350504456719,1.6221057627642947,x -> y
+nonlinear_additive,-2.4117105824725105,2.3980406415889766,x -> y
+nonlinear_additive,1.9707458841560364,0.7744818176940127,x -> y
+nonlinear_additive,0.08906758459623454,0.5303431974094612,x -> y
+nonlinear_additive,-1.4140143309987478,-0.62196444363162,x -> y
+nonlinear_additive,1.1360327958730214,1.463701792601053,x -> y
+nonlinear_additive,1.356463247334478,1.8439619154328002,x -> y
+nonlinear_additive,2.138473478586816,0.5619812041925163,x -> y
+nonlinear_additive,-0.20833175228739131,-0.4147914881261171,x -> y
+nonlinear_additive,0.5597368821273818,0.6618795057707637,x -> y
+nonlinear_additive,2.3527300062443057,1.207735927061419,x -> y
+nonlinear_additive,-0.36577667288503335,-0.6906122256532045,x -> y
+nonlinear_additive,-1.8811085227606945,0.7521496175480124,x -> y
+nonlinear_additive,1.1687826559072838,1.434718195321727,x -> y
+nonlinear_additive,1.6064971510372157,1.4841306241251924,x -> y
+nonlinear_additive,0.3037799045795495,0.7092090195387522,x -> y
+nonlinear_additive,-0.17901329847269176,-0.5239162613327872,x -> y
+nonlinear_additive,-1.339800452614156,-0.9417314714789268,x -> y
+nonlinear_additive,2.263714325139773,1.099280217227201,x -> y
+nonlinear_additive,1.9548541841266882,0.9911597631832225,x -> y
+nonlinear_additive,-2.272139819275773,1.9479116992025558,x -> y
+nonlinear_additive,-1.7947435812673347,0.37128797338979036,x -> y
+nonlinear_additive,-0.2534237916525828,-0.37915170990335484,x -> y
+nonlinear_additive,0.4228846477171242,1.0599974598825737,x -> y
+nonlinear_additive,0.5636202565765474,0.44990194342600937,x -> y
+nonlinear_additive,-0.8840783734852609,-0.8483881011581059,x -> y
+nonlinear_additive,-1.5961502160867584,-0.3542721132692865,x -> y
+nonlinear_additive,-2.160660498139152,1.8489736474549454,x -> y
+nonlinear_additive,1.8505112695920412,1.082864388707535,x -> y
+nonlinear_additive,0.5854137695881438,0.6219422245047229,x -> y
+nonlinear_additive,-0.7065360880994169,-1.2415080279666855,x -> y
+nonlinear_additive,1.475437311432363,1.2736608621345942,x -> y
+nonlinear_additive,1.488740723114824,1.2834071059527834,x -> y
+nonlinear_additive,-0.06782527782997949,-0.15506788285516282,x -> y
+nonlinear_additive,1.399462166826864,1.6500382532535158,x -> y
+nonlinear_additive,1.6669749578791846,0.8729304673793873,x -> y
+nonlinear_additive,-0.42709255093618737,-0.3688648498760555,x -> y
+nonlinear_additive,-2.396131694190733,2.499360386437748,x -> y
+nonlinear_additive,1.0431161919376386,1.104169757476435,x -> y
+nonlinear_additive,-1.1467071520140766,-0.3916389472715448,x -> y
+nonlinear_additive,-1.4596104719284382,0.24026576528478916,x -> y
+nonlinear_additive,-1.5202118124173358,-0.45418614560737425,x -> y
+nonlinear_additive,0.39256950379069844,0.45133458684465766,x -> y
+nonlinear_additive,-2.44595282813221,1.8406985336668173,x -> y
+linear_gaussian,-0.7901524999630146,-0.47226444750261876,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-2.0346254818318728,-0.5371753792247718,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.6033017469247647,-0.5353790756708163,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.7442945298799118,-0.6480791470129751,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.30968679986627135,-0.2895868496237938,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.36732137294554024,-0.3033985639718989,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.7103942914776449,2.05172315842015,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.0607978400658138,0.012105638360952797,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.7076390208060754,0.9134745740827022,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.687749388505445,1.7740627210537228,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.8635674537523599,-0.16174506557774793,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9640167316735617,0.2851190631911058,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.6484628156748702,-2.1278928054960278,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3320918127686623,0.2819701275382069,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.4372938409341125,0.8655180845000556,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.7285187058460105,-2.702627860062199,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.11033888700145329,-0.7674292921622362,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.6434550766344018,2.728202583233968,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3401273376251148,-0.6605654884387322,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.2076033402593367,-2.15879032790773,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.09105371850643591,0.6836646645304123,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8539243165009879,-0.2780166986717142,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.19321811565038277,-0.2907686223148702,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.0026657164631725457,0.7216875441670845,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.4092222584076113,-2.0918514561062955,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.5010157424554261,1.148969552260656,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.4857310867836978,-0.36140548555872953,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.3412662057172517,2.1239801067401607,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.489053273620953,2.0664890597584957,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.6885829801010488,2.0073736416409114,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.6424168811861135,-2.0731906199493078,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.4353935022152693,-1.915188747173855,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.0979784550410603,-1.3345444548716836,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.2949249577826172,1.124836981749027,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.7872461020555568,-1.4623403155053194,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.3095376610763625,1.3993710655052523,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.24385526074207703,1.7426645253667679,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.3647673957005642,1.004688445928283,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.7505081047151582,1.406296401663698,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.3402479014279051,0.00046612781541993664,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.410567008519284,-0.9763680439877775,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,2.4519291799137406,1.9462248972132676,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.4629889056618062,0.5634702925441699,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.5231286713207461,1.0448041832179769,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.747482633005506,0.20369361697554655,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.8474977757527729,-1.9991622679436492,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.5066347122204127,-2.4331796431634576,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.0534632139707452,-1.4801200457949948,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8821394661683425,1.352543062659703,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9003194108080018,1.9215319865007103,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.458392914492266,0.4520740974458666,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,2.1424499559696035,3.4665530413194228,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.520907608641395,1.2975648713046062,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.35456182486107,-0.1154648302922745,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3630023322412846,-0.7169551801904481,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3364626948247302,-0.01903254268261334,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.1577837086639562,-1.5463628060472472,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.5108001267806528,0.6905055151883863,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.31817103995393936,-0.42918342616294725,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.40519828505149047,-1.833066415304694,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.8105855180514764,0.8893849044507857,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.4569514283527267,0.6534588723349802,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.3061600648002516,1.6704234442922303,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.08149811962435799,0.47532467893356783,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.283769043991715,1.3279437442919644,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5481664388036902,0.06630596579075287,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.24852584993024826,-1.0571103010370728,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.316502228872869,-0.4487363946087076,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.28507864375164177,-0.27592506983048015,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5972447789424902,-0.11549808895841052,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.39638337815465297,0.005550510191273339,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.299729294584818,1.780705454583333,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9471755173776237,-0.9203926175951782,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.399206733762922,2.6436896640158674,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.4030024427643251,-2.420145119562947,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3670887832022261,-0.3624616997960128,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-2.156465891031795,-2.225543586606692,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-2.4214757028147136,-2.27877121209315,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.7355030418952013,0.8393859994477995,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.0910834111861687,-1.8762016735298652,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8053083193545435,1.4281144000115429,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.0506258749302553,0.3347656037713067,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.25047314441891266,-0.3427602640620043,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.3333047650292276,0.5124523394929588,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.07235507810650275,0.3351288453400269,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-3.266109626900781,-4.406537888234976,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.7386253816354431,-1.5120120372657064,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9726320393610063,2.2553932897046485,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.9966802757394717,2.4507404497775673,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.0959510712489476,0.06122424549068638,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.7021989961574707,-0.7135020798960863,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.3922152843740014,-0.5615763424959599,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.5460539227830125,1.6801423863677107,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.7978869910322424,-2.004350645870913,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.2458110970488758,-0.8758659066097111,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.13593303415097105,0.19003847149186426,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.10193435827415738,-0.2554985698472366,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.25881429911438986,0.2784953644552224,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.0633871991386725,1.1563246090410306,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.2434108483131787,-2.067393365863282,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.1908289680185653,-2.4929728905506376,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.41835826023423806,0.26297037229912607,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.06514130541235665,-0.6480075742654172,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.33776597932135133,-1.2213485767682066,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.9926934632930988,2.0939174092189217,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.6038749284696677,-0.1398681458625679,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.6353444026481467,-0.5648656172351715,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5863985454843593,-0.1967828480499989,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.32070076181766505,0.6625351061488493,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.44288987320589074,-1.4212456585491524,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3930264282023863,-1.3063822161092071,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.6236606471244344,1.7363654936161255,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3370287449509327,1.062833257170911,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.717137602600714,1.786626322400838,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.7395275859374345,-0.03591320220489691,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.4687958310565263,0.1687078040812764,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.1094437944687192,0.08537558883831564,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-2.4796627301290615,-2.8525954598409005,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.6738548611248323,-1.1846366142831375,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.017970567538416533,-0.3520850107386838,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.4769025612341218,1.4649430924912883,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.572874447652,-0.14928936965859252,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.32603171327496583,-1.4768076785090734,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.445288051330184,-1.9907761179171277,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8344402255183119,1.4536964591667814,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.4463434239168314,0.2257148764602076,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.1413536375669875,-0.6189267613357542,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.086159770010023,-1.0567650309219478,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.8212474936650729,1.661026906944024,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.12384311381992381,1.1717553360270299,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.203055835479905,-3.222028129573519,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.43304451513991543,-0.262542650366078,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3743856973572253,-1.094309875363781,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.343774784536143,-0.15934268051982314,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9137045525953229,0.808865150897557,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9501811147875836,-2.1915206826430467,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.6631195503480085,-0.06341697803510304,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.0307128408667245,1.6261756915474566,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.7474182359227032,1.7780378524121527,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.372842472022908,1.7054358322965268,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.4860474697238528,-2.4138998673991234,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9748646700352468,-0.6312670169297139,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.017571266997083,0.16935893456132156,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9689534065304122,-1.798685172031616,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.3260295795020977,1.9534598436094885,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.05872880157435437,0.7439191687217679,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.7625406017296437,-0.5401126057120873,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.4869346517308482,2.827567983372533,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.01846397125559416,-0.23381662435465492,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5193776111239747,-0.1510993580985573,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.16606181150340987,-0.7954794706122461,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.2486835634516813,0.04187537427280258,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.6059970548987101,-1.7741629979631033,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.8824423176436275,0.1145098850004127,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.306421561011806,-2.018664003988707,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-2.1444014751213403,-1.6646422727431462,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9906379104868016,1.1400127113814218,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.4555468413376667,0.3600186245980608,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.206301853624445,-0.055405679859890755,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.8054627804204249,-2.5921094101026982,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.40205037746269695,1.2772160903947962,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.6874603149381401,0.9927809551420819,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5840430018544682,0.7040002391001496,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8271788028933632,1.0961646630186328,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.13951934123539,-0.23558544820371097,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.0970877955992548,-1.0642909514175576,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.85186538118955,-1.6566262420089233,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.7380017715397352,-0.3020037040594099,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.0297810758013295,-1.734967488746344,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9723243298438183,0.06517257236296348,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.0926869926305636,-1.8129475606289975,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.47720456423926405,-0.8327462505597354,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.6522787242637652,-0.5525887880492294,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,2.229534055292334,3.2148246518701025,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9170499281446733,-0.5859869658734084,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.4740528404933058,2.1295202996518148,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.8401368790608272,0.6525284349486338,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.2059589569755316,-1.5114415903901297,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.8481647026727926,0.9835501631052864,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3396567977441291,-0.6136673349562696,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.347158647335725,-2.4841709820498545,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.2365289078642858,0.8665730733193006,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.48556896041500197,-1.2756015190018037,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.0603375635859267,0.8615641066306716,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.5343854064888905,1.9317605883246713,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.01762393500977733,-1.0176731776244794,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9645665423111738,0.6003847399819394,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.30992197991812565,0.7267874534887356,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.0610695937668226,1.4593826121144602,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.327981578122005,-1.2630171814365587,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.7545111796812694,-1.1354969498957452,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.2139317951034936,2.122026475008049,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-2.115674403792649,-3.18333468514864,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.47631853384720746,1.2855235213890985,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.4167015570878098,-0.3697534593502727,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5524153008198199,-0.7596853463214048,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.704992959859966,-1.1966791911691073,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.2907609274358105,2.2180805297157415,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.53790096641381,-1.4962083788518648,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8351830044981331,0.6832891241550544,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.47715353484453255,0.6564107987970265,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.42976071690263423,-1.2660548407122627,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.08873681259349563,0.8807269987696194,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.7069849072540032,1.8739251485737376,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5978325035881158,0.18729692201251735,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.5216379696484426,-1.5103311272120936,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.2820181948983559,0.731344623400208,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.8466737927045382,-1.9742548359051948,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.41307974188931745,-0.7280953323210566,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.052500918683702914,-0.09956084370134202,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.7372576185846613,0.7723468722810769,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.8166662662352746,2.5890061306599748,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.3425548443008916,0.08772811978310152,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.11512485888677462,-0.3983131416772182,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8195065355669848,1.8723057269945933,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.2857616675517918,0.11881091949781666,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.6911870684214059,-2.4039757764865346,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.6028398685580639,-2.1858456531447814,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.2396781596297055,-2.428998300613948,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.6966144013407269,0.6497802039532644,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.273376495479946,1.689921708100563,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.3562085674218433,-0.9097753090301299,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.0315389287938335,-1.1801151516364166,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8011626504321825,1.1861630643971213,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9635564556977543,-1.4699742331498662,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.25332829543805635,0.3502290615523916,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.1998636646360687,-0.30524702510085944,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.387117855692386,-2.1419931653069546,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.4044433371205838,-2.8728841465259203,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.017281189226604748,-0.2502281852434226,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.6618494748148305,-1.4099890375614712,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.4364287775381311,0.47853516752518244,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.2993407460789876,-0.9579345621195303,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.4902551811040163,1.2446446992562419,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.6192310251064989,-0.4578576491950257,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.2525855584216463,2.505754071303675,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.0197375299280158,1.4570798729818812,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.21625822875989165,0.5348050245284841,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.10828074864108106,0.4002972109035339,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.24359953875065973,0.4987562301874159,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.4637568545667715,0.16470245318083027,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.2742268865909811,-0.30211163606178726,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.095647855704023,0.8398710398177012,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5084494248243437,-0.7963342072672722,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.925134831754206,-2.148566454599547,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.2463602052071289,1.1603087190525316,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.1083916331526644,-0.3063361536527597,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8324189998126181,1.433716174280292,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.5959964367140927,-0.23336613508456105,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.12948589152871934,-0.05692138927517934,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.10728639312158916,1.090132966847578,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.1267161833070499,0.4153380679277946,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.6592717798877564,-2.110962217106695,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.217442086883172,-1.4133241256845606,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.8209204641194146,-1.119204194350653,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.09132381544829293,-0.9859362427213912,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-2.265362499238605,-3.9151872695008745,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.43572113149508396,-1.2061990052694669,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9819438560963549,-1.921924166017031,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.08817387560086946,0.44331638126191586,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.8134439107624751,-0.4927181232856437,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.062289939653688974,0.5612016444559991,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.22815505708156877,0.5576406325891582,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.2960766664647623,-0.13517004864550408,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3432452827822298,-0.5920572473727531,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.2435304058786614,-0.015592577812899466,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.025746167320006196,-0.4633105046815944,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.8178855444046158,-2.552125734871041,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.0721804757233129,-1.8231519550446982,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.4362382563890916,1.7863499278640682,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.5164966568607166,0.5598813874084139,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.08427974635315506,1.0288616292256685,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.081539182121713,1.5473562613448264,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.18024403472927691,-0.03870904433179928,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.24915198484000245,-0.2937565943069352,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3026655823971458,-0.9276173671145287,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-1.7759262400550233,-1.939886714571826,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9390840033727519,1.707768263654402,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.1891779538732973,0.14600247049499687,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.09410845642038006,-0.8963609172185892,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.3342259212106848,-1.5064634207645105,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.6349649103807634,-0.19494485245760607,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-2.259101650388679,-2.4437410121445566,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.15113455564731318,0.40412115301459617,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,2.1810168127442684,1.8787467041169847,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.9881647906374782,1.7080760270679334,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.28816837880616497,0.22606703515843152,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9246934116752795,-1.2391022086410155,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.02568686772974804,0.476285665804464,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.37089990538026363,-0.24350364705893301,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.12032195102693634,-0.18544009446739784,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.8340533164096553,-0.5261386367055032,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.9531520432963024,-1.2932200872243833,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,1.067676535237283,3.089463882689542,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.1551268513601096,0.7266529820704113,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.5491784915580957,0.6804376273493203,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,-0.28366471374671204,0.1336383070287689,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.34733948323304564,0.6079424529800574,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.7622990882029884,1.0742582152225424,"x -> y, but ANM direction is weakly identified"
+linear_gaussian,0.07244334390410466,-0.18251435790731352,"x -> y, but ANM direction is weakly identified"
+linear_nongaussian,-1.1394896284429872,-0.42126233899066934,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.1886056963196459,-0.181423077889526,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.0431971307857328,0.8244769542898012,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5200001252262967,-0.6577514774003159,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.4617165312415249,-0.24644222618845213,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.0749732318777798,0.7055959446357759,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.5265447776050665,2.3905060817506936,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.13897075811243065,1.2504463087884348,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,4.296508474615522,4.256493058262022,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.7235174845125402,-0.589583331988368,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.5205459175547726,-3.639382769734775,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.3694709761038292,-1.4558478087893079,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.8174164530575506,0.9883648027422698,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.08262648275892155,0.4541971671301914,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.8872416116726054,2.407576598789656,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,4.48571596421399,4.192539246155631,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.8610398108734658,1.8652312453277844,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.1251026476183141,-1.2960527379031528,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.19862440118991637,-2.3696226430353278,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.6001781939891371,0.810191818128761,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.8197431522737708,2.0910396244309424,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.2281943230130705,-1.3358426585822887,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.2551897033329482,3.448553152109357,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.223677827798639,-2.621011776401519,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.6659708001946779,2.5133208066295585,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.15772919404971036,0.3012325481445825,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.3734336423233335,-1.6413247053508697,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.481239960179229,-2.3015180165964164,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.05017767090863117,0.7183451676585523,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.01205086833064004,-0.3109949349357978,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.07979801468243604,-0.28787967434034967,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,3.0827964309009377,3.3620608630146642,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,3.1529845229607467,3.6375136146301723,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5254268252872188,-0.8080271031729171,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.8993353036507743,-1.6408847911135478,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5381926237464779,-1.1651543637791852,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.9862055699544575,0.6299777279180243,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6392614924589036,-0.5554885406640586,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.2568842415015902,-3.4891692489074737,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.23295116896368073,0.047404345855706215,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.48066721682403496,1.255389109381179,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.056331372808716,0.13070050901222796,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.153093951442305,-2.204394918818519,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.1160107676198165,-1.9055379337555347,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.7493242881431549,-1.0792117584145855,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.3248547899257207,-0.4797445543516444,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.13345444269811574,0.9458459711831743,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.7518211357012736,1.563329858618764,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.3588265026089444,0.02800595593123617,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.3124571197209331,0.2679553056823215,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.3942105752210331,0.8186339192830288,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.570194300210497,-0.3867439178853165,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.11455314845049468,1.131163713720724,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,3.3667727605916435,4.155888183133373,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,5.050204150999661,5.35946191077776,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.16333034487543732,-0.28373511864177986,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.0455585611545894,1.0819082417661203,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.40305176600375336,-1.1402424736796686,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.9325044657570368,2.160848981625917,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.2802032988864421,-0.916427980369358,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.8159425138817303,0.6130949948837301,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.8553015415898282,-0.204217317350194,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.915376795578835,-0.8142677931723601,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.2970308997267636,1.0756926777892768,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.8310208745164791,-3.452556929180604,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5159459948279734,-0.3522556108238051,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.4327412087522113,0.3556459771477468,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5272622755604276,1.0126589734303963,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.45031936388862415,0.38309967826934477,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.0221552946385806,1.3593860045673807,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.4462076205983445,-0.27833967845746876,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.5507557344374803,-2.495074090989854,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.0815144904186116,0.21715101909925316,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.6237534975711938,2.0034781348376787,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.4363163175406392,1.9969771931212932,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.2924535237236998,-0.4938723208835614,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.5248504796548972,1.9113319482295623,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.06344101161773327,-1.1960579920271326,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.4723849858792926,-1.8012475466523752,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.2860165356350377,0.10013666742089394,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.12620429758663157,-0.23507220378605986,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.2082155590957113,2.857580726966812,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.25101095139830026,0.005000936900298181,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.038446561791953,-1.7133060672479514,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.38264420645571945,-1.3854073048441713,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.1477940295202336,1.1370390206144898,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.7940288513696552,-1.0727965633516257,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.8067092295877973,2.441538208136745,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.0560626530623933,-1.8719364309052187,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.4860352931969283,0.4414763716092459,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.3099352624942335,-0.2203779025768819,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.006860881580067122,0.28781361801332717,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.0470093210530345,-1.2759173624703146,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.0612557138794791,-1.0575129568208255,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5661839112882983,-0.5857825895757949,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.9059370208256885,0.8815809929191025,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.1163028135097663,1.3127661604407352,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.8736627164173032,1.0789900363189273,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.3954919345617825,-0.2891780070627982,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.38397698808127667,-0.043732135270785566,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.11380944534567408,0.19193625409782003,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.162492811272057,-0.2820825702709031,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.25636737364058,1.4522799573561693,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.10018322316050836,-2.493871700393856,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5324034917842319,-0.2705036204989535,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.1009093917317652,-0.4776087848051771,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.7365673434679645,-1.8961905602805766,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.09691003501692771,-0.9196203142605498,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.06102903587238054,1.8437361074979066,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.49010587023591634,-0.07253253574653956,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-4.085641471492198,-5.0045923466203694,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.058151793159948686,-0.39171535932309237,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.3836117324976684,1.537040744394155,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.17258521450689596,-0.0955024046238041,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.04287352511976208,-0.10179823035169043,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.09649352600011371,-0.5089536895591631,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.413515408447773,-1.6295864212325437,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.20481135070034934,-0.3312737615203265,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.9578279092614926,-2.605934627882352,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.5368201590375534,1.6144273450650357,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.09697442435206256,0.047981108976651476,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.40351624627798155,1.228889017936515,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.062580789888375,-1.6155724964272187,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.3111247038821908,-0.6049198601995257,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.197293014059453,-1.25436757599933,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.989645435213115,-0.9255221158483058,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.32984972739085344,-0.4053560394831643,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.38158623301476774,0.645672663166273,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.30924664761547066,0.2897848440208405,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.42378394449089857,-0.4018022930356362,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.236867788658045,2.4136037565828934,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.8174567854623589,0.5309938017321932,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.21507606616347724,-0.870050788602256,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.2871626242110176,-0.35927305443766416,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.6466255621320587,-0.6608861999327654,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6303851799967666,0.8939628843374141,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.7580097642919229,-0.148015241676261,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.836498231800078,-3.8710543391270478,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.6636703194828861,0.7142653082243071,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.1339688186928425,-0.04116658030446052,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.4081295611281224,-2.521388811746808,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.03940488890251911,0.40675303384413497,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.04782523672350195,-0.17321486189219176,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.9173937097818085,0.18994814350512168,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.3270852475544705,-0.5921634965937296,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.28342473487864855,0.590543706586296,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.045077958445241824,-0.08742266854716563,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.8013833044376428,-1.496733308236491,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.4758622272876756,0.4228606537359595,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.24219997046772718,-1.0573839169766355,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.4242853425793107,-1.4609343683338132,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.298814773122743,-2.443925181882501,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.1696730073727226,-1.6211576455062089,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.21917519813501618,1.5132293582874032,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.2428039219009657,3.285436908473125,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5249432707240109,0.040626228080438254,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.0232043675007667,0.5950836191186721,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.4249252484302726,4.5600331716498,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.7971086850342403,0.19677918420549267,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.035180197019332,2.8004629172097566,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.0672497444277422,0.8627686554696631,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.04006066981018395,0.11661945120865339,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.811729197977861,-0.08905362209000578,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.02208677344216862,-0.17526996856696064,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.3291888970960014,0.2916331151052214,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.2302785062897976,-1.3309428611360172,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.0790406856832973,-1.8849315432666143,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.1643419904755374,1.8274760828398167,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.060184369892252586,-0.16638295259607885,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.300999123524088,-2.1341489215434803,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.7323527600159822,0.2448061321745304,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.7304787957225599,0.7673870157988509,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6784827556510771,-0.10476695918484968,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.5226606574405535,0.8466339802901509,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.5266262401310726,1.1411032448131837,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.1870853781212775,1.3905309146935205,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.393370142237557,2.198705541026082,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.523201868574142,-1.7665637329842747,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.7104614648714709,-2.053292674112561,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.31263054947484176,0.015552267254824281,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.3357770717593507,-3.0040494534685234,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,4.353565039008606,4.838385224529119,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.085120990925237,-1.4206632081261692,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.008205917241810625,1.0146737639055445,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.895091709703228,-2.6427367921599734,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.4630929378512167,-3.7565273270747648,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.7127606310337481,0.9353521208539375,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.4061386375979099,0.23570786718072007,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.24741544917379915,-1.2258853612170892,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.0753369798610835,1.3400551995522025,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.6090081533045337,0.73224060273669,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.047803707217114626,0.20160860591402907,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.7743661468145286,1.230650298934441,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.27757133331869754,0.6228021358554758,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.7938005379294195,-1.288469900085515,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6909374890542727,-1.19602885072495,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.07397477647824073,-0.6781361092844596,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.49834519969882174,-0.6184866101952532,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.1259172879071723,-0.3966538088329206,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.3978149169427301,-0.0032398985621264753,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.4912243684564735,-0.31354888664678826,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.20714560489132347,-0.3374132622434053,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.5614039068741432,0.18678263386593075,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.4408570031250048,0.587285454717954,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-3.7617557467973066,-3.9474269280389245,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.765554324724138,3.1885720620628333,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.06949472261786499,1.906849905454364,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.28315508115750415,-0.19764093088751858,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.13160428887843406,0.4976783450172154,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.1062206100567515,-0.6406286853879476,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.8209510882443758,1.834296782850588,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.0343399763417166,-0.6995461605574521,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.008708355342793067,0.01635474819462323,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.408570437791005,-1.6662280368164968,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.00103201891101447,0.5463766477183455,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6104589156287581,-0.908137834794918,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.10709026624084074,-0.10000926247605468,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.5200834774377402,-0.3637686970740418,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.5729699114966691,0.44929395556051077,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6952058167575171,-1.176887585510683,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.0172249697119219,-0.24547520849518636,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.4452920662322801,3.1615649691188725,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.2020418855922541,0.8802201562929592,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6356006566795409,-0.7718870725163655,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.1338070152029467,-1.452458913572003,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.0723404841036628,-1.6590981340187345,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.35905065803956443,-0.5290076246763683,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.1345801624692227,0.49087426043399485,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.8478286242371842,0.3872197149930158,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.322904207955644,3.3883511632187604,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,4.250042831804376,5.036950087696216,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.5166053627823299,1.8189150295901948,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.009970589678856938,0.43353072331676573,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.9211591892540908,0.4726468168220267,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.1302430506482464,1.5234700915280326,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.6327312879064566,-1.5987315117075327,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.807855193345401,2.284540133555945,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.6089701267948038,-2.0761085910289636,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-2.274409186981298,-3.6776728369966474,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.7264980633179755,0.8367339712256608,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.09004147333248311,1.1518832847688185,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.30897326575213097,0.8364893431518369,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.32685710476662594,0.6389852474602467,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.12027737699712224,-0.20062632506996078,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.9504289439178037,-2.9971117672881338,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.07374641816533371,-0.7810645733817949,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,3.4482231490360236,4.003401749103888,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.06539642064610984,-0.16371849901873634,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.3516877735116262,2.1644864128533436,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.4538685795213542,2.110387611358545,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.4938119091590378,0.999062765830498,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.8960637202946667,-1.6627615647399292,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.0801271451258665,2.6030062557845546,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.9719883763877486,1.3650700280377233,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.8791312366734407,1.2787799009274083,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.9161102678813684,-2.1732273697273516,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.375686871813447,1.6930617539229602,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.3067044579535127,0.7209171417014788,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.23931968953576296,2.281262547906331,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.6505569271122655,-3.8259740526162402,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.8435432563332177,0.5080979606459994,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.7015242162626105,1.385661902702524,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6317936942661954,-0.6160688189034305,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.278344111492017,-2.15333987823567,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.4593554675219076,0.037790795116624754,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.9419779100286049,-0.7391506711107372,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.1757236381254974,-0.32408103074356326,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.6410549027849723,1.2560759321570834,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.010179159521917093,1.5448871293392414,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.7876210371642139,0.7369332403477028,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.0757013908303645,-0.5406433191588622,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.226480944953595,1.3454118153443075,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.12500798232824933,0.6582292776267763,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.07646162538290666,-0.06894162918662464,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.502903316872205,-2.59917756928658,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.12320485116017273,-0.1659605171031615,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.22872612987759947,-0.03133051737196382,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.72794844224338,3.5576429410808847,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.2430364766264421,-1.712489990441406,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.09742483274609998,0.13218373534440078,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.08144453632299889,1.1233052100354064,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.276280162301445,2.9608994386309706,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.3040646438868293,1.0939258218537178,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.023082468306931225,0.1446295708041771,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.3019751239325392,1.3455452557222163,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.13539744451829833,-1.025587765532944,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.441846880312039,-1.7356679177133276,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-1.6322758935476476,0.2619116619241397,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.21328980955025412,0.016770811978071565,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.88061849791563,2.3511958169772367,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.7199343933244936,0.9614863306610194,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,1.6200545726344588,2.8194178359961857,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.3385705703258246,2.571588772217758,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.6740845283851069,-0.8399039597625294,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.23100193099088032,-0.4426584241320556,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,-0.6398384623698098,-2.969416203580473,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.8166999247290863,0.9850489445647002,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.9184014256166881,2.101403325888074,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,2.416721318797143,2.5782281705694636,"x -> y, but LiNGAM is the more targeted model"
+linear_nongaussian,0.3142547642193965,0.3333042865308635,"x -> y, but LiNGAM is the more targeted model"
+post_nonlinear,-0.74926706910821,-0.8088088600732075,x -> y through post-nonlinear transform
+post_nonlinear,-1.1027271094958095,-0.8732382327985541,x -> y through post-nonlinear transform
+post_nonlinear,-1.2719610876227794,-0.9524999534669781,x -> y through post-nonlinear transform
+post_nonlinear,1.440714582373729,0.44578517767712134,x -> y through post-nonlinear transform
+post_nonlinear,1.430169953521478,0.6231292367203785,x -> y through post-nonlinear transform
+post_nonlinear,-1.5857502656781053,-0.8569814654768384,x -> y through post-nonlinear transform
+post_nonlinear,-0.8436406514630415,-0.7954819687581616,x -> y through post-nonlinear transform
+post_nonlinear,0.646286956585159,0.761726222235675,x -> y through post-nonlinear transform
+post_nonlinear,0.8051830545169651,0.6130370618641511,x -> y through post-nonlinear transform
+post_nonlinear,-0.24527998752178748,-0.10067746771858234,x -> y through post-nonlinear transform
+post_nonlinear,-0.07437358503142288,0.07922914293478463,x -> y through post-nonlinear transform
+post_nonlinear,0.9599325773657181,0.7357293139017513,x -> y through post-nonlinear transform
+post_nonlinear,-0.24414361640724236,-0.1548401587804852,x -> y through post-nonlinear transform
+post_nonlinear,1.839491354317281,0.6474730353389353,x -> y through post-nonlinear transform
+post_nonlinear,-0.7621638291762918,-0.8689674334066707,x -> y through post-nonlinear transform
+post_nonlinear,-1.5527695218995365,-0.35623663401366124,x -> y through post-nonlinear transform
+post_nonlinear,-0.9870424468270369,-0.9145547258074245,x -> y through post-nonlinear transform
+post_nonlinear,-1.7765159091539027,-0.5096834349758235,x -> y through post-nonlinear transform
+post_nonlinear,1.6884644625577598,0.44866707664315547,x -> y through post-nonlinear transform
+post_nonlinear,0.5953584564889018,0.4936307365978523,x -> y through post-nonlinear transform
+post_nonlinear,-1.2147529315814425,-0.7445133592761307,x -> y through post-nonlinear transform
+post_nonlinear,-1.8529818300232215,-0.5836114750725228,x -> y through post-nonlinear transform
+post_nonlinear,1.3873499208012716,0.6877549071358441,x -> y through post-nonlinear transform
+post_nonlinear,-0.5157380826591091,-0.6053582522242849,x -> y through post-nonlinear transform
+post_nonlinear,-1.1627547290653273,-0.8602043426046024,x -> y through post-nonlinear transform
+post_nonlinear,-0.3736887856538518,-0.42406470662383294,x -> y through post-nonlinear transform
+post_nonlinear,-1.3484946954615937,-0.8615481720090041,x -> y through post-nonlinear transform
+post_nonlinear,-1.7139237498329125,-0.48101734624198783,x -> y through post-nonlinear transform
+post_nonlinear,-1.9128012394663618,-0.6747980346193866,x -> y through post-nonlinear transform
+post_nonlinear,-1.9658150496892919,-0.30034258195835933,x -> y through post-nonlinear transform
+post_nonlinear,0.4725274803036812,0.4276065327552647,x -> y through post-nonlinear transform
+post_nonlinear,-0.6804083814567674,-0.3512976588994256,x -> y through post-nonlinear transform
+post_nonlinear,-0.9733340560331039,-0.8515457686608712,x -> y through post-nonlinear transform
+post_nonlinear,-0.16264519575262115,0.1468037947309523,x -> y through post-nonlinear transform
+post_nonlinear,0.5218709906014092,0.5130949943013172,x -> y through post-nonlinear transform
+post_nonlinear,-1.0332442127598225,-0.8976087432814246,x -> y through post-nonlinear transform
+post_nonlinear,-1.4862983400975818,-0.40210688249551735,x -> y through post-nonlinear transform
+post_nonlinear,0.682278001689125,0.8151831700615071,x -> y through post-nonlinear transform
+post_nonlinear,-0.8796891030835772,-0.38056482435152866,x -> y through post-nonlinear transform
+post_nonlinear,1.3863366931800964,0.6832334495409322,x -> y through post-nonlinear transform
+post_nonlinear,0.04478029386649318,0.3570347749386516,x -> y through post-nonlinear transform
+post_nonlinear,1.9307720260073928,0.7287258128508098,x -> y through post-nonlinear transform
+post_nonlinear,-1.274806550635184,-0.703992360661628,x -> y through post-nonlinear transform
+post_nonlinear,-1.4961264273786377,0.05385315207610136,x -> y through post-nonlinear transform
+post_nonlinear,-1.3660026586557543,-0.7396871879837255,x -> y through post-nonlinear transform
+post_nonlinear,1.9066862369823339,0.6788299288506755,x -> y through post-nonlinear transform
+post_nonlinear,0.7277533515992118,0.5803027886600355,x -> y through post-nonlinear transform
+post_nonlinear,0.3908999828173374,0.362013511862421,x -> y through post-nonlinear transform
+post_nonlinear,-0.6317092550147199,-0.6643202579078159,x -> y through post-nonlinear transform
+post_nonlinear,-1.3959050412744483,-0.698472258336032,x -> y through post-nonlinear transform
+post_nonlinear,-1.921878395672271,-0.2661651823511672,x -> y through post-nonlinear transform
+post_nonlinear,1.2066686105769246,0.8450370863399339,x -> y through post-nonlinear transform
+post_nonlinear,-0.13315595772198563,-0.627881654900649,x -> y through post-nonlinear transform
+post_nonlinear,1.9563898122982852,0.47450753097824766,x -> y through post-nonlinear transform
+post_nonlinear,-1.9388042714158518,-0.4591578903992008,x -> y through post-nonlinear transform
+post_nonlinear,1.4166648410474538,0.4294178700331445,x -> y through post-nonlinear transform
+post_nonlinear,-1.3423234110132638,-0.797724965269768,x -> y through post-nonlinear transform
+post_nonlinear,1.9487883056851993,0.5919962718967957,x -> y through post-nonlinear transform
+post_nonlinear,-1.3950817212144302,-0.6065723009999515,x -> y through post-nonlinear transform
+post_nonlinear,-1.093942831835721,-0.8837878117420749,x -> y through post-nonlinear transform
+post_nonlinear,-0.14152918329488529,-0.31096307914813626,x -> y through post-nonlinear transform
+post_nonlinear,0.07832752159053191,0.008242123217761377,x -> y through post-nonlinear transform
+post_nonlinear,-1.3444556541397743,-0.47148516586307454,x -> y through post-nonlinear transform
+post_nonlinear,0.8966531003722582,0.7168261771295574,x -> y through post-nonlinear transform
+post_nonlinear,1.629458971938074,0.50388417840056,x -> y through post-nonlinear transform
+post_nonlinear,-1.6853992382178937,-0.601684523565448,x -> y through post-nonlinear transform
+post_nonlinear,-1.3081723056619512,-0.9355538636596742,x -> y through post-nonlinear transform
+post_nonlinear,1.0694763205675288,0.7759298920845527,x -> y through post-nonlinear transform
+post_nonlinear,-1.759639256034534,-0.3207327609739017,x -> y through post-nonlinear transform
+post_nonlinear,0.7159906765056783,0.7472746082216941,x -> y through post-nonlinear transform
+post_nonlinear,0.9565148487653228,0.4005119508153905,x -> y through post-nonlinear transform
+post_nonlinear,1.5888383251487408,0.9090764257076633,x -> y through post-nonlinear transform
+post_nonlinear,0.1626144080834524,0.3824285025325173,x -> y through post-nonlinear transform
+post_nonlinear,-0.5194746360842748,-0.608795717003615,x -> y through post-nonlinear transform
+post_nonlinear,-1.6277707714443217,-0.6602881470292261,x -> y through post-nonlinear transform
+post_nonlinear,-0.9267918453881565,-0.6149062752020099,x -> y through post-nonlinear transform
+post_nonlinear,-1.3886688565851908,-0.7515945816236136,x -> y through post-nonlinear transform
+post_nonlinear,0.05978881471529407,0.039261771105617925,x -> y through post-nonlinear transform
+post_nonlinear,-1.895406338775249,-0.27966677212444774,x -> y through post-nonlinear transform
+post_nonlinear,1.0285741273631857,0.5796500425203576,x -> y through post-nonlinear transform
+post_nonlinear,1.9636329203211607,0.5410811551500723,x -> y through post-nonlinear transform
+post_nonlinear,-1.417727878628086,-0.835091234205515,x -> y through post-nonlinear transform
+post_nonlinear,0.608555260805983,0.7072215924842012,x -> y through post-nonlinear transform
+post_nonlinear,1.5779837440626263,0.8060990030356172,x -> y through post-nonlinear transform
+post_nonlinear,-1.1094289995224682,-0.688680427526977,x -> y through post-nonlinear transform
+post_nonlinear,1.6424588616306877,0.7571351402043534,x -> y through post-nonlinear transform
+post_nonlinear,0.9019537981922578,0.6845843736646441,x -> y through post-nonlinear transform
+post_nonlinear,1.0272731506982375,0.6378697999938534,x -> y through post-nonlinear transform
+post_nonlinear,-0.9799321749054841,-0.585177794720153,x -> y through post-nonlinear transform
+post_nonlinear,0.8161104565491009,0.6996523699958497,x -> y through post-nonlinear transform
+post_nonlinear,1.1735788958336384,0.6302036503338562,x -> y through post-nonlinear transform
+post_nonlinear,1.5871872475832705,0.5597133670731168,x -> y through post-nonlinear transform
+post_nonlinear,0.25979000035486877,0.13706031844345629,x -> y through post-nonlinear transform
+post_nonlinear,-1.6063141911258247,-0.5107507352067083,x -> y through post-nonlinear transform
+post_nonlinear,0.5765874917400802,0.7141727070972904,x -> y through post-nonlinear transform
+post_nonlinear,-0.3981490850536886,-0.09404633733960707,x -> y through post-nonlinear transform
+post_nonlinear,1.5194292587510971,0.4722854906539423,x -> y through post-nonlinear transform
+post_nonlinear,-0.6079500625457084,-0.6282655380902393,x -> y through post-nonlinear transform
+post_nonlinear,0.4308148254851094,0.4925966598302456,x -> y through post-nonlinear transform
+post_nonlinear,0.16763234706952623,-0.37328862412674313,x -> y through post-nonlinear transform
+post_nonlinear,-1.4889019063320412,-0.7132421118887379,x -> y through post-nonlinear transform
+post_nonlinear,0.9258314148311597,0.8150788266485676,x -> y through post-nonlinear transform
+post_nonlinear,-0.18077345351122176,-0.46298748773110543,x -> y through post-nonlinear transform
+post_nonlinear,0.11697972804335954,-0.21257772729605753,x -> y through post-nonlinear transform
+post_nonlinear,-0.2815495849832055,0.3039215763453313,x -> y through post-nonlinear transform
+post_nonlinear,-1.8839321526045412,-0.7115987185456094,x -> y through post-nonlinear transform
+post_nonlinear,-1.5370217147745504,-0.36972719000054527,x -> y through post-nonlinear transform
+post_nonlinear,0.04103562188469878,0.14924039399841543,x -> y through post-nonlinear transform
+post_nonlinear,-0.34494365139264893,-0.32586416125965967,x -> y through post-nonlinear transform
+post_nonlinear,-0.3302628053982488,-0.5410914592907753,x -> y through post-nonlinear transform
+post_nonlinear,-1.1315280578002254,-0.8611549569934009,x -> y through post-nonlinear transform
+post_nonlinear,0.290372803820953,0.679626545237946,x -> y through post-nonlinear transform
+post_nonlinear,-0.23428260472114548,0.23299495948874935,x -> y through post-nonlinear transform
+post_nonlinear,0.039297492948874524,-0.19392993073631473,x -> y through post-nonlinear transform
+post_nonlinear,0.4666144189552184,0.7489901107937927,x -> y through post-nonlinear transform
+post_nonlinear,1.9092029464149327,0.4241493007421759,x -> y through post-nonlinear transform
+post_nonlinear,0.868411057014725,0.8255330878749039,x -> y through post-nonlinear transform
+post_nonlinear,0.4800364658299614,0.508796299399658,x -> y through post-nonlinear transform
+post_nonlinear,0.7964142068200744,0.5979175336355869,x -> y through post-nonlinear transform
+post_nonlinear,-0.9278935289532941,-0.8915650877427433,x -> y through post-nonlinear transform
+post_nonlinear,1.0290730081539383,0.43890717236454463,x -> y through post-nonlinear transform
+post_nonlinear,-0.9866510844171801,-0.7703953422544758,x -> y through post-nonlinear transform
+post_nonlinear,0.6754477637289309,0.626164753175128,x -> y through post-nonlinear transform
+post_nonlinear,-1.1112586592353764,-0.8766979631164938,x -> y through post-nonlinear transform
+post_nonlinear,1.2140154583018408,0.4589126315495749,x -> y through post-nonlinear transform
+post_nonlinear,-0.6028255603762855,-0.76034305356066,x -> y through post-nonlinear transform
+post_nonlinear,1.6615029552505884,0.6845132906279482,x -> y through post-nonlinear transform
+post_nonlinear,1.1921716822900592,0.8471320104692462,x -> y through post-nonlinear transform
+post_nonlinear,1.761292346921703,0.7221915235495735,x -> y through post-nonlinear transform
+post_nonlinear,1.0630516841932098,0.7620215017341629,x -> y through post-nonlinear transform
+post_nonlinear,-0.5457801500612445,-0.4514197521568601,x -> y through post-nonlinear transform
+post_nonlinear,-1.2411438980783194,-0.8785252871102597,x -> y through post-nonlinear transform
+post_nonlinear,1.6098130078666695,0.8431671170801914,x -> y through post-nonlinear transform
+post_nonlinear,-1.7928152103537407,-0.5211842367450432,x -> y through post-nonlinear transform
+post_nonlinear,1.8351973097138687,0.2739718766801517,x -> y through post-nonlinear transform
+post_nonlinear,-1.3568857932143787,-0.8488124094002513,x -> y through post-nonlinear transform
+post_nonlinear,0.3714097018874045,0.14515695996687583,x -> y through post-nonlinear transform
+post_nonlinear,0.05683610545047202,-0.04232574119138208,x -> y through post-nonlinear transform
+post_nonlinear,0.7684497379078756,0.8018698765027381,x -> y through post-nonlinear transform
+post_nonlinear,-1.4167126784089787,-0.8224125117908556,x -> y through post-nonlinear transform
+post_nonlinear,-0.4906947264828516,-0.3695779103776309,x -> y through post-nonlinear transform
+post_nonlinear,0.330050263911573,0.43191144590894176,x -> y through post-nonlinear transform
+post_nonlinear,1.1935296356127005,0.4324089601268586,x -> y through post-nonlinear transform
+post_nonlinear,0.33371311671560955,0.0856943317255476,x -> y through post-nonlinear transform
+post_nonlinear,0.6957819592848593,0.4767749557888358,x -> y through post-nonlinear transform
+post_nonlinear,-0.9553832675897529,-0.8134124391461105,x -> y through post-nonlinear transform
+post_nonlinear,-0.33862504185881637,0.055094947765291113,x -> y through post-nonlinear transform
+post_nonlinear,0.48126090511803765,0.862196104374206,x -> y through post-nonlinear transform
+post_nonlinear,-0.5947590557759397,-0.5981349145521225,x -> y through post-nonlinear transform
+post_nonlinear,1.180010117341391,0.783030248563629,x -> y through post-nonlinear transform
+post_nonlinear,1.406027073372817,0.579064064292709,x -> y through post-nonlinear transform
+post_nonlinear,-1.9454725265283939,-0.10291312017204292,x -> y through post-nonlinear transform
+post_nonlinear,-0.26483328051081667,-0.5683078096809849,x -> y through post-nonlinear transform
+post_nonlinear,-1.0942600036495738,-0.824991328566128,x -> y through post-nonlinear transform
+post_nonlinear,0.5433231881340839,0.5932446734001076,x -> y through post-nonlinear transform
+post_nonlinear,1.6246863648955987,0.758998221017011,x -> y through post-nonlinear transform
+post_nonlinear,-0.852707179159292,-0.7041731546661449,x -> y through post-nonlinear transform
+post_nonlinear,-0.652195406582885,-0.9069359190650278,x -> y through post-nonlinear transform
+post_nonlinear,-0.2966646580833534,-0.31182021786721625,x -> y through post-nonlinear transform
+post_nonlinear,0.008377911720617526,-0.12865878576853873,x -> y through post-nonlinear transform
+post_nonlinear,-0.06323597576449957,-0.013559748219591076,x -> y through post-nonlinear transform
+post_nonlinear,-0.025382069869264612,0.33145211535777425,x -> y through post-nonlinear transform
+post_nonlinear,1.288927284358318,0.4439378257091569,x -> y through post-nonlinear transform
+post_nonlinear,-0.6829775241557337,-0.6515201097598988,x -> y through post-nonlinear transform
+post_nonlinear,0.06176553883380809,0.32942319422852145,x -> y through post-nonlinear transform
+post_nonlinear,-1.2436645753130375,-0.8981932125265668,x -> y through post-nonlinear transform
+post_nonlinear,-0.5385634576956231,-0.29555311165203824,x -> y through post-nonlinear transform
+post_nonlinear,-0.15115577285975013,-0.04093880776564389,x -> y through post-nonlinear transform
+post_nonlinear,1.7961788895754585,0.5742827392305352,x -> y through post-nonlinear transform
+post_nonlinear,0.9982066219713674,0.6244450169318002,x -> y through post-nonlinear transform
+post_nonlinear,-0.96191631238234,-0.6996103049154353,x -> y through post-nonlinear transform
+post_nonlinear,1.7295271213064862,0.6945530202848881,x -> y through post-nonlinear transform
+post_nonlinear,1.2187741457244123,0.6264618098286964,x -> y through post-nonlinear transform
+post_nonlinear,1.4670834416679823,0.5935632999182388,x -> y through post-nonlinear transform
+post_nonlinear,1.030886621793948,0.6123258437996589,x -> y through post-nonlinear transform
+post_nonlinear,-1.418688322792716,-0.6960915883572676,x -> y through post-nonlinear transform
+post_nonlinear,-0.7254853970187303,-0.6482792034475605,x -> y through post-nonlinear transform
+post_nonlinear,-1.5553992172985436,-0.5193865617289157,x -> y through post-nonlinear transform
+post_nonlinear,0.5806844165209317,0.6684399143575439,x -> y through post-nonlinear transform
+post_nonlinear,1.0989760713004917,0.6973956012242448,x -> y through post-nonlinear transform
+post_nonlinear,-0.9989721392676465,-0.7599705255893117,x -> y through post-nonlinear transform
+post_nonlinear,0.1845539378274479,-0.020785603162474426,x -> y through post-nonlinear transform
+post_nonlinear,-1.8129138376213692,-0.2840168808147954,x -> y through post-nonlinear transform
+post_nonlinear,-0.2447638635112117,-0.5611926762927788,x -> y through post-nonlinear transform
+post_nonlinear,-1.8831082555926684,-0.6359927829977402,x -> y through post-nonlinear transform
+post_nonlinear,-1.2161197949656906,-0.7553170204840608,x -> y through post-nonlinear transform
+post_nonlinear,0.5629025933529324,0.1403774106648262,x -> y through post-nonlinear transform
+post_nonlinear,1.776519781859371,0.6245700177158935,x -> y through post-nonlinear transform
+post_nonlinear,1.241031819507433,0.8792565834684669,x -> y through post-nonlinear transform
+post_nonlinear,0.6790981041310036,0.7596350165431026,x -> y through post-nonlinear transform
+post_nonlinear,-0.37046345333790986,-0.2839060785249116,x -> y through post-nonlinear transform
+post_nonlinear,-1.5464325464120834,-0.5946292487888404,x -> y through post-nonlinear transform
+post_nonlinear,1.4105030652471982,0.7290537542464457,x -> y through post-nonlinear transform
+post_nonlinear,0.9663419682689232,0.7449412406244666,x -> y through post-nonlinear transform
+post_nonlinear,0.7474765533347107,0.48270745852499775,x -> y through post-nonlinear transform
+post_nonlinear,-1.0803235710330812,-0.715459169247488,x -> y through post-nonlinear transform
+post_nonlinear,-0.02729863562203194,0.21636469075095507,x -> y through post-nonlinear transform
+post_nonlinear,-0.7862683736357767,-0.3134990631522934,x -> y through post-nonlinear transform
+post_nonlinear,-0.5860866141365846,-0.689661821249248,x -> y through post-nonlinear transform
+post_nonlinear,0.6052587047478473,0.6967032432480567,x -> y through post-nonlinear transform
+post_nonlinear,0.7381165673679564,0.7630738462380107,x -> y through post-nonlinear transform
+post_nonlinear,-0.6939004282270438,-0.7336875260058601,x -> y through post-nonlinear transform
+post_nonlinear,0.8934612981997465,0.6753368846770257,x -> y through post-nonlinear transform
+post_nonlinear,-1.1612500501281295,-0.805816897951746,x -> y through post-nonlinear transform
+post_nonlinear,1.5647338848907748,0.6271311820303198,x -> y through post-nonlinear transform
+post_nonlinear,0.02702142101613836,0.47394101916646225,x -> y through post-nonlinear transform
+post_nonlinear,-1.557887877246738,-0.8646225525829272,x -> y through post-nonlinear transform
+post_nonlinear,-0.9261993411462015,-0.8635021109938648,x -> y through post-nonlinear transform
+post_nonlinear,-0.05774996666614429,-0.45802154006792195,x -> y through post-nonlinear transform
+post_nonlinear,-0.7254617721926482,-0.6359710898522595,x -> y through post-nonlinear transform
+post_nonlinear,0.6036446949358676,0.7256207558150748,x -> y through post-nonlinear transform
+post_nonlinear,0.1928171431345218,-0.01769075800116052,x -> y through post-nonlinear transform
+post_nonlinear,-0.16948107516938116,0.03740505369822582,x -> y through post-nonlinear transform
+post_nonlinear,0.9035331701280662,0.5724821187997607,x -> y through post-nonlinear transform
+post_nonlinear,-1.0716756853588358,-0.495954050955953,x -> y through post-nonlinear transform
+post_nonlinear,-1.0315635189109646,-0.745613455616813,x -> y through post-nonlinear transform
+post_nonlinear,1.427450798405602,0.8322548389314854,x -> y through post-nonlinear transform
+post_nonlinear,-0.34960150510614385,-0.7038398261103491,x -> y through post-nonlinear transform
+post_nonlinear,1.6896362236380909,0.749438358012816,x -> y through post-nonlinear transform
+post_nonlinear,1.8539345824793267,0.5112708899288602,x -> y through post-nonlinear transform
+post_nonlinear,1.0642814328349957,0.6807524088269554,x -> y through post-nonlinear transform
+post_nonlinear,-1.8122422048720361,-0.7748677547138643,x -> y through post-nonlinear transform
+post_nonlinear,-0.7669842261345274,-0.5642357724751408,x -> y through post-nonlinear transform
+post_nonlinear,1.2049765060093058,0.8360533080337751,x -> y through post-nonlinear transform
+post_nonlinear,-1.2754185184581188,-0.7912653889432324,x -> y through post-nonlinear transform
+post_nonlinear,1.8905005721497483,0.6425952135722803,x -> y through post-nonlinear transform
+post_nonlinear,-1.9511819441974736,-0.10337325359613175,x -> y through post-nonlinear transform
+post_nonlinear,1.4896986835490877,0.8368600459132273,x -> y through post-nonlinear transform
+post_nonlinear,-0.7636519288735863,-0.8216276393722187,x -> y through post-nonlinear transform
+post_nonlinear,-0.01780382714052431,0.19268970061633459,x -> y through post-nonlinear transform
+post_nonlinear,0.03716808304962438,0.11719886264531465,x -> y through post-nonlinear transform
+post_nonlinear,-1.7709270715686998,-0.6651959328587511,x -> y through post-nonlinear transform
+post_nonlinear,0.537849900991846,0.6334796296332674,x -> y through post-nonlinear transform
+post_nonlinear,0.36911757663918676,0.339346383700837,x -> y through post-nonlinear transform
+post_nonlinear,1.62417717547445,0.8050020771029169,x -> y through post-nonlinear transform
+post_nonlinear,-0.5793732732570729,-0.6333314925241385,x -> y through post-nonlinear transform
+post_nonlinear,1.9091280427145425,0.5273555671791894,x -> y through post-nonlinear transform
+post_nonlinear,-1.8074902135021538,-0.285644947943924,x -> y through post-nonlinear transform
+post_nonlinear,1.9060122736786949,0.775106008109702,x -> y through post-nonlinear transform
+post_nonlinear,1.7854101610390418,0.6787242185357868,x -> y through post-nonlinear transform
+post_nonlinear,-0.05405776801783535,-0.3926100195424166,x -> y through post-nonlinear transform
+post_nonlinear,1.7184064585298433,0.8141901381678772,x -> y through post-nonlinear transform
+post_nonlinear,-0.8783963080196187,-0.6905028884883389,x -> y through post-nonlinear transform
+post_nonlinear,-0.22662406928767842,0.05250734648555925,x -> y through post-nonlinear transform
+post_nonlinear,-0.8712348214451913,-0.7016171379860946,x -> y through post-nonlinear transform
+post_nonlinear,1.7348534618227331,0.5185854387881825,x -> y through post-nonlinear transform
+post_nonlinear,-1.328565039590769,-0.8742571076481588,x -> y through post-nonlinear transform
+post_nonlinear,-1.682132468699388,-0.5628804273769938,x -> y through post-nonlinear transform
+post_nonlinear,-1.9461903049403668,-0.14530935430061045,x -> y through post-nonlinear transform
+post_nonlinear,0.3369401236015399,0.302253783370215,x -> y through post-nonlinear transform
+post_nonlinear,1.0299084755730359,0.6867729208429095,x -> y through post-nonlinear transform
+post_nonlinear,-0.35404602288092635,-0.5839526744219203,x -> y through post-nonlinear transform
+post_nonlinear,-1.3591096132605598,-0.7514441047235598,x -> y through post-nonlinear transform
+post_nonlinear,1.607266452369299,0.6773132324747198,x -> y through post-nonlinear transform
+post_nonlinear,1.7669253635155817,0.7070515653642959,x -> y through post-nonlinear transform
+post_nonlinear,-1.6993798834412126,-0.6501744223254741,x -> y through post-nonlinear transform
+post_nonlinear,-1.5724263279123658,-0.6271098042350892,x -> y through post-nonlinear transform
+post_nonlinear,0.5686252262404161,0.3990281280254399,x -> y through post-nonlinear transform
+post_nonlinear,-0.5252597401346941,-0.35403609188545065,x -> y through post-nonlinear transform
+post_nonlinear,-1.6233166729140223,-0.6347200785610282,x -> y through post-nonlinear transform
+post_nonlinear,0.46053636919879803,0.1969952552575608,x -> y through post-nonlinear transform
+post_nonlinear,1.602545058872526,0.47182793415728563,x -> y through post-nonlinear transform
+post_nonlinear,-0.8523576334801013,-0.7496835216370374,x -> y through post-nonlinear transform
+post_nonlinear,0.37693130834331434,0.6941183731234867,x -> y through post-nonlinear transform
+post_nonlinear,1.106661622882076,0.7736330384045809,x -> y through post-nonlinear transform
+post_nonlinear,0.2922417123986718,0.7116349195254315,x -> y through post-nonlinear transform
+post_nonlinear,-0.37257899180933984,-0.3343564466462988,x -> y through post-nonlinear transform
+post_nonlinear,0.4003064784155588,0.28023505292320494,x -> y through post-nonlinear transform
+post_nonlinear,-1.3538048844684956,-0.8206734811443875,x -> y through post-nonlinear transform
+post_nonlinear,1.2698876978093399,0.9059616108993538,x -> y through post-nonlinear transform
+post_nonlinear,-0.9591740724611788,-0.828400697028749,x -> y through post-nonlinear transform
+post_nonlinear,-0.924218780626413,-0.8304589322805822,x -> y through post-nonlinear transform
+post_nonlinear,-1.0774711711122986,-0.8495305649914083,x -> y through post-nonlinear transform
+post_nonlinear,1.3728086684902903,0.5059005659721983,x -> y through post-nonlinear transform
+post_nonlinear,0.7300836060218416,0.7980508911679305,x -> y through post-nonlinear transform
+post_nonlinear,-1.1710006484666855,-0.6129647466585669,x -> y through post-nonlinear transform
+post_nonlinear,1.7678828851975519,0.306757534424149,x -> y through post-nonlinear transform
+post_nonlinear,0.29432867417701924,0.7283631077900566,x -> y through post-nonlinear transform
+post_nonlinear,-0.823064881140001,-0.5419967055068722,x -> y through post-nonlinear transform
+post_nonlinear,-0.3686751844442422,-0.5202359173694509,x -> y through post-nonlinear transform
+post_nonlinear,-0.4549942538905136,-0.7672512817498346,x -> y through post-nonlinear transform
+post_nonlinear,-1.084086524879213,-0.8035046504304802,x -> y through post-nonlinear transform
+post_nonlinear,0.8651690994481696,0.6778079537905193,x -> y through post-nonlinear transform
+post_nonlinear,0.8719741362612798,0.8221378198581356,x -> y through post-nonlinear transform
+post_nonlinear,1.2763518810348482,0.6979015727848017,x -> y through post-nonlinear transform
+post_nonlinear,-0.22699470639877006,-0.02139635286997201,x -> y through post-nonlinear transform
+post_nonlinear,1.9343833518414915,0.8226038501800672,x -> y through post-nonlinear transform
+post_nonlinear,0.526467462861214,0.427177849632871,x -> y through post-nonlinear transform
+post_nonlinear,-1.7075486132202684,-0.6931650671654401,x -> y through post-nonlinear transform
+post_nonlinear,-1.4242216155303864,-0.48293557033211165,x -> y through post-nonlinear transform
+post_nonlinear,-0.5174275055388198,-0.10507377379139911,x -> y through post-nonlinear transform
+post_nonlinear,0.26018325715774804,-0.19943929961232057,x -> y through post-nonlinear transform
+post_nonlinear,-1.4458160023504822,-0.7860696171484457,x -> y through post-nonlinear transform
+post_nonlinear,0.0941791589889518,-0.3380952151716191,x -> y through post-nonlinear transform
+post_nonlinear,1.9828413533803282,0.4437707122235343,x -> y through post-nonlinear transform
+post_nonlinear,0.7148078506549207,0.7100568698097022,x -> y through post-nonlinear transform
+post_nonlinear,0.6063018407937482,0.478229249973413,x -> y through post-nonlinear transform
+post_nonlinear,-0.8878697827532673,-0.6976255803266147,x -> y through post-nonlinear transform
+post_nonlinear,-1.4734816264122679,-0.4699178433753492,x -> y through post-nonlinear transform
+post_nonlinear,0.2660786971795601,-0.5230371889256384,x -> y through post-nonlinear transform
+shared_confounder,0.8452438521369079,0.05819830168113843,no direct x-y edge; shared hidden z
+shared_confounder,0.747581894439372,-0.19643439964823783,no direct x-y edge; shared hidden z
+shared_confounder,-0.5341200352433088,0.7743503427970966,no direct x-y edge; shared hidden z
+shared_confounder,-0.406691111979641,-0.49982921520673085,no direct x-y edge; shared hidden z
+shared_confounder,-0.1788058396340953,0.07665405852099605,no direct x-y edge; shared hidden z
+shared_confounder,0.31779211582802797,0.029094720817710543,no direct x-y edge; shared hidden z
+shared_confounder,1.449417539559462,4.736811409988746,no direct x-y edge; shared hidden z
+shared_confounder,-0.4601425753283575,-0.015425840373499575,no direct x-y edge; shared hidden z
+shared_confounder,0.6293436418368235,-0.3102291642202472,no direct x-y edge; shared hidden z
+shared_confounder,-0.5795459871625761,0.16894480048434957,no direct x-y edge; shared hidden z
+shared_confounder,0.7242013448845761,1.312141181844762,no direct x-y edge; shared hidden z
+shared_confounder,-0.27830469988648554,-0.27988056820990287,no direct x-y edge; shared hidden z
+shared_confounder,-0.31635130368604447,0.42336548620445175,no direct x-y edge; shared hidden z
+shared_confounder,0.7858025065014892,0.4699566047624361,no direct x-y edge; shared hidden z
+shared_confounder,0.736026355572619,0.8403830129477764,no direct x-y edge; shared hidden z
+shared_confounder,-0.9800915617595979,0.7849136006223644,no direct x-y edge; shared hidden z
+shared_confounder,0.8785806816479573,3.8229200493573243,no direct x-y edge; shared hidden z
+shared_confounder,0.4755841547719484,0.5936329743104177,no direct x-y edge; shared hidden z
+shared_confounder,1.2574976244668705,1.443571312214714,no direct x-y edge; shared hidden z
+shared_confounder,1.1212074248883188,0.8122180358290682,no direct x-y edge; shared hidden z
+shared_confounder,1.0609994168728074,2.7930333445887063,no direct x-y edge; shared hidden z
+shared_confounder,-0.8426291850540517,-1.084603529541072,no direct x-y edge; shared hidden z
+shared_confounder,-0.7355309751800756,-0.23927359736192438,no direct x-y edge; shared hidden z
+shared_confounder,-0.16078740000768887,-0.33660365140067067,no direct x-y edge; shared hidden z
+shared_confounder,1.019790150891799,2.195976409849057,no direct x-y edge; shared hidden z
+shared_confounder,-0.2454974062954872,0.2654909697803983,no direct x-y edge; shared hidden z
+shared_confounder,0.912659990785004,0.37901134897935096,no direct x-y edge; shared hidden z
+shared_confounder,0.913303243413287,2.6336492287118882,no direct x-y edge; shared hidden z
+shared_confounder,-0.981224636707674,1.700630403771734,no direct x-y edge; shared hidden z
+shared_confounder,0.848370963188235,1.6498231249618267,no direct x-y edge; shared hidden z
+shared_confounder,1.464785065487846,1.322840093445856,no direct x-y edge; shared hidden z
+shared_confounder,-1.1000689531290164,-0.3776576544025408,no direct x-y edge; shared hidden z
+shared_confounder,0.3571722345014145,0.19327290012549508,no direct x-y edge; shared hidden z
+shared_confounder,-0.02468165747862955,0.3256403845371697,no direct x-y edge; shared hidden z
+shared_confounder,0.9686547449188863,1.26645447909349,no direct x-y edge; shared hidden z
+shared_confounder,-0.4659590709576814,0.6200145578875862,no direct x-y edge; shared hidden z
+shared_confounder,0.7747375715103582,0.5139271885863321,no direct x-y edge; shared hidden z
+shared_confounder,0.8470365573841789,2.3683709795424446,no direct x-y edge; shared hidden z
+shared_confounder,-1.3552566343022812,2.901446245631839,no direct x-y edge; shared hidden z
+shared_confounder,0.7328948894489912,0.21333959720284704,no direct x-y edge; shared hidden z
+shared_confounder,0.2211529004495314,-0.48088242746754106,no direct x-y edge; shared hidden z
+shared_confounder,-0.12114116826665033,-0.07694656290466553,no direct x-y edge; shared hidden z
+shared_confounder,0.41412523034117327,0.16455880097487255,no direct x-y edge; shared hidden z
+shared_confounder,0.27938373670458666,0.3364557750655144,no direct x-y edge; shared hidden z
+shared_confounder,-0.7640634850029958,2.882541450481109,no direct x-y edge; shared hidden z
+shared_confounder,0.12224594614481044,0.8922468503173265,no direct x-y edge; shared hidden z
+shared_confounder,0.008500993256186435,-0.1874322561768026,no direct x-y edge; shared hidden z
+shared_confounder,-1.4092553150052174,0.4874078143809113,no direct x-y edge; shared hidden z
+shared_confounder,-1.335741570856908,1.416400552002191,no direct x-y edge; shared hidden z
+shared_confounder,0.7517439589834294,5.589081731883233,no direct x-y edge; shared hidden z
+shared_confounder,0.5076922443500916,2.4537446838879675,no direct x-y edge; shared hidden z
+shared_confounder,1.2210142126947454,1.1896439104751653,no direct x-y edge; shared hidden z
+shared_confounder,-0.13013059627648754,0.232117653146807,no direct x-y edge; shared hidden z
+shared_confounder,-0.8314832810891778,4.022151113160531,no direct x-y edge; shared hidden z
+shared_confounder,-0.16606525635660552,-0.03416007099819743,no direct x-y edge; shared hidden z
+shared_confounder,0.21661555155792633,0.6494425125323136,no direct x-y edge; shared hidden z
+shared_confounder,-0.28898254502202747,-0.14734687355991918,no direct x-y edge; shared hidden z
+shared_confounder,-0.13843685979745252,0.5128955369898092,no direct x-y edge; shared hidden z
+shared_confounder,0.15555839865892926,-0.23091585198977024,no direct x-y edge; shared hidden z
+shared_confounder,0.7189975073688455,4.563209893644844,no direct x-y edge; shared hidden z
+shared_confounder,0.10825987108829796,0.026814415260777782,no direct x-y edge; shared hidden z
+shared_confounder,0.3780967878943853,0.04085007489156334,no direct x-y edge; shared hidden z
+shared_confounder,-0.2916175432167208,-0.026345043034058435,no direct x-y edge; shared hidden z
+shared_confounder,0.7598063393866475,2.3607188996833033,no direct x-y edge; shared hidden z
+shared_confounder,0.2443852518263484,0.2628577942837451,no direct x-y edge; shared hidden z
+shared_confounder,0.32688593152145584,-0.3148815365990053,no direct x-y edge; shared hidden z
+shared_confounder,-0.1939325608964253,0.20764160464650466,no direct x-y edge; shared hidden z
+shared_confounder,0.1402143373391288,0.3562453365843835,no direct x-y edge; shared hidden z
+shared_confounder,0.32321576506567945,0.05896057706209247,no direct x-y edge; shared hidden z
+shared_confounder,0.5519472037011498,4.694812348630446,no direct x-y edge; shared hidden z
+shared_confounder,-0.2255061543356701,0.07586119561296142,no direct x-y edge; shared hidden z
+shared_confounder,0.40166149298970943,0.19764768488383277,no direct x-y edge; shared hidden z
+shared_confounder,-1.1926657279410429,0.44857815734565043,no direct x-y edge; shared hidden z
+shared_confounder,0.5460808726380614,0.22925950256253547,no direct x-y edge; shared hidden z
+shared_confounder,-0.3735844990268665,1.989676151251673,no direct x-y edge; shared hidden z
+shared_confounder,0.41593276275358837,2.6104682697886337,no direct x-y edge; shared hidden z
+shared_confounder,-0.8461443046167421,-0.308183702377574,no direct x-y edge; shared hidden z
+shared_confounder,0.21703815132284687,0.5746166592261416,no direct x-y edge; shared hidden z
+shared_confounder,0.24278108286843436,-0.0664563685307629,no direct x-y edge; shared hidden z
+shared_confounder,0.6330656626114401,3.2051089631916727,no direct x-y edge; shared hidden z
+shared_confounder,0.994109510978046,0.24911896926327426,no direct x-y edge; shared hidden z
+shared_confounder,1.0981585359051105,0.43625168791812713,no direct x-y edge; shared hidden z
+shared_confounder,-1.2479543069680419,1.7858744201623395,no direct x-y edge; shared hidden z
+shared_confounder,-0.8866104435341967,0.6401936011108167,no direct x-y edge; shared hidden z
+shared_confounder,-1.084129514516409,0.8486682365975989,no direct x-y edge; shared hidden z
+shared_confounder,-0.552233899236553,1.5912769147061179,no direct x-y edge; shared hidden z
+shared_confounder,-0.07135239438596441,0.4787959046959538,no direct x-y edge; shared hidden z
+shared_confounder,0.4586610599959579,1.4105364799292754,no direct x-y edge; shared hidden z
+shared_confounder,-0.17105656266307429,-0.2654062347166627,no direct x-y edge; shared hidden z
+shared_confounder,-0.33246402700717526,-0.25357835866411294,no direct x-y edge; shared hidden z
+shared_confounder,-0.6101910752642177,0.6817092284319682,no direct x-y edge; shared hidden z
+shared_confounder,-0.6274727743509567,1.3249415091444674,no direct x-y edge; shared hidden z
+shared_confounder,-1.2589077176786256,1.7908382806027676,no direct x-y edge; shared hidden z
+shared_confounder,0.8000660683722768,1.3378637349203855,no direct x-y edge; shared hidden z
+shared_confounder,0.9254348638601246,-0.22006544745162554,no direct x-y edge; shared hidden z
+shared_confounder,1.4079582283159304,0.4689740219609834,no direct x-y edge; shared hidden z
+shared_confounder,-0.06023136692369918,0.8688494697807638,no direct x-y edge; shared hidden z
+shared_confounder,-0.7771781427015658,0.3263826796951623,no direct x-y edge; shared hidden z
+shared_confounder,-0.19036260179332726,-0.8047887711368268,no direct x-y edge; shared hidden z
+shared_confounder,-0.6834430029169661,4.448260116940253,no direct x-y edge; shared hidden z
+shared_confounder,0.2669563194763849,0.0861101070601461,no direct x-y edge; shared hidden z
+shared_confounder,0.24543637987352782,-0.5588018068995942,no direct x-y edge; shared hidden z
+shared_confounder,0.6014900597544065,-0.7842152588564991,no direct x-y edge; shared hidden z
+shared_confounder,0.5665011575409835,0.08683784589855241,no direct x-y edge; shared hidden z
+shared_confounder,0.06864894265790844,0.3007946679462703,no direct x-y edge; shared hidden z
+shared_confounder,0.44184110435410223,-0.12976908623295758,no direct x-y edge; shared hidden z
+shared_confounder,-0.28022586634437574,0.2420897099679918,no direct x-y edge; shared hidden z
+shared_confounder,-1.1153135015622466,0.7869974456711282,no direct x-y edge; shared hidden z
+shared_confounder,0.18582014943347067,0.04989801687487885,no direct x-y edge; shared hidden z
+shared_confounder,0.6579134843764165,0.36211563084432363,no direct x-y edge; shared hidden z
+shared_confounder,0.799797545486211,0.2493591071659339,no direct x-y edge; shared hidden z
+shared_confounder,-0.01748727756146118,0.21584739738760828,no direct x-y edge; shared hidden z
+shared_confounder,-0.7136757797000567,1.5508519393962998,no direct x-y edge; shared hidden z
+shared_confounder,-0.8037203007711571,3.428669950373472,no direct x-y edge; shared hidden z
+shared_confounder,-0.6218333962629388,0.5423787847890504,no direct x-y edge; shared hidden z
+shared_confounder,-0.7742465285112079,0.4687281212859764,no direct x-y edge; shared hidden z
+shared_confounder,0.5804479452255784,0.9742947100381345,no direct x-y edge; shared hidden z
+shared_confounder,1.4500836691159567,3.0513002741292987,no direct x-y edge; shared hidden z
+shared_confounder,-0.1306564620944506,0.8610615661488312,no direct x-y edge; shared hidden z
+shared_confounder,0.9463335365793811,1.2450639970012862,no direct x-y edge; shared hidden z
+shared_confounder,0.7569879475717013,1.46818598922914,no direct x-y edge; shared hidden z
+shared_confounder,-1.0766485845797655,1.0464237465896657,no direct x-y edge; shared hidden z
+shared_confounder,-0.08481956477901176,0.4734463896057353,no direct x-y edge; shared hidden z
+shared_confounder,0.46592788940747754,0.47465505820933634,no direct x-y edge; shared hidden z
+shared_confounder,0.05982699649292833,0.06648457011571907,no direct x-y edge; shared hidden z
+shared_confounder,-0.7464684829814596,1.2775214185406614,no direct x-y edge; shared hidden z
+shared_confounder,0.7967464955348884,0.00403810060344989,no direct x-y edge; shared hidden z
+shared_confounder,-0.27909137037024717,-0.0014944749864908013,no direct x-y edge; shared hidden z
+shared_confounder,-0.565964359590724,-0.4018664742026786,no direct x-y edge; shared hidden z
+shared_confounder,0.3452054492620813,0.4083105912656835,no direct x-y edge; shared hidden z
+shared_confounder,0.2139062290502353,0.2570354955988917,no direct x-y edge; shared hidden z
+shared_confounder,0.4613152460417519,0.3675808200709628,no direct x-y edge; shared hidden z
+shared_confounder,0.8545769498590507,1.8534208713222813,no direct x-y edge; shared hidden z
+shared_confounder,0.9403658247471711,2.057619673284911,no direct x-y edge; shared hidden z
+shared_confounder,-0.9780066608970941,2.6952590879299607,no direct x-y edge; shared hidden z
+shared_confounder,0.24065869300551657,1.2159313567308911,no direct x-y edge; shared hidden z
+shared_confounder,-0.12343597513303069,0.2905085309379775,no direct x-y edge; shared hidden z
+shared_confounder,0.41338601994729784,0.2901509177864228,no direct x-y edge; shared hidden z
+shared_confounder,0.4459629674596879,1.4856803338897273,no direct x-y edge; shared hidden z
+shared_confounder,1.1411125212004043,3.334512228234334,no direct x-y edge; shared hidden z
+shared_confounder,1.028336986840865,1.0058162367314343,no direct x-y edge; shared hidden z
+shared_confounder,-0.7356327077257355,0.06555614909350889,no direct x-y edge; shared hidden z
+shared_confounder,0.3651172034941006,-0.15931147225677444,no direct x-y edge; shared hidden z
+shared_confounder,-0.7953102233098812,2.034221416772451,no direct x-y edge; shared hidden z
+shared_confounder,0.5347610767954025,0.33833145765595574,no direct x-y edge; shared hidden z
+shared_confounder,0.5447826799104392,-0.2670921788276262,no direct x-y edge; shared hidden z
+shared_confounder,-0.6316502737216284,1.3562752929802022,no direct x-y edge; shared hidden z
+shared_confounder,-1.468793005553973,1.6505243462450325,no direct x-y edge; shared hidden z
+shared_confounder,-0.8228250143634865,1.8819270836081445,no direct x-y edge; shared hidden z
+shared_confounder,-0.9591755216430751,0.4089561978079692,no direct x-y edge; shared hidden z
+shared_confounder,-0.18826308149892745,0.8941110859899069,no direct x-y edge; shared hidden z
+shared_confounder,0.11144919080511123,0.15615968488218826,no direct x-y edge; shared hidden z
+shared_confounder,-0.8188874047285819,0.5008503213400151,no direct x-y edge; shared hidden z
+shared_confounder,-0.22126978702709424,0.4089073286006659,no direct x-y edge; shared hidden z
+shared_confounder,1.24452278347215,2.4729143317305478,no direct x-y edge; shared hidden z
+shared_confounder,0.14851979279101674,0.047945966572239776,no direct x-y edge; shared hidden z
+shared_confounder,-0.7452325074816668,0.6449638587222992,no direct x-y edge; shared hidden z
+shared_confounder,0.49738535845376775,4.98689513862175,no direct x-y edge; shared hidden z
+shared_confounder,-0.8971492963784877,0.7285020596518937,no direct x-y edge; shared hidden z
+shared_confounder,0.9243559609751251,-0.3853036041448586,no direct x-y edge; shared hidden z
+shared_confounder,0.7210508399485822,1.4309778088505425,no direct x-y edge; shared hidden z
+shared_confounder,0.865479618548553,0.6620830777611254,no direct x-y edge; shared hidden z
+shared_confounder,0.413071601272875,0.5635130445440357,no direct x-y edge; shared hidden z
+shared_confounder,0.7729636904079116,1.7647972457179237,no direct x-y edge; shared hidden z
+shared_confounder,0.8529856655659316,-0.5493644111919441,no direct x-y edge; shared hidden z
+shared_confounder,0.46773137632932593,0.09515929610554896,no direct x-y edge; shared hidden z
+shared_confounder,0.0027881346398654356,0.041256218128671245,no direct x-y edge; shared hidden z
+shared_confounder,1.0127069118656533,2.7057294173316904,no direct x-y edge; shared hidden z
+shared_confounder,-1.0705245931752279,0.13837551897948808,no direct x-y edge; shared hidden z
+shared_confounder,-0.8504774175085553,1.176035446240371,no direct x-y edge; shared hidden z
+shared_confounder,-0.45609294196563593,0.03633576216282264,no direct x-y edge; shared hidden z
+shared_confounder,0.7796279222748747,-0.5046625244825644,no direct x-y edge; shared hidden z
+shared_confounder,0.3186409865871756,0.09967912489193316,no direct x-y edge; shared hidden z
+shared_confounder,0.020228569543201375,-0.29024299714994317,no direct x-y edge; shared hidden z
+shared_confounder,-0.40989574178777866,-0.1345633631856873,no direct x-y edge; shared hidden z
+shared_confounder,0.9398971877397362,-0.0717106331266697,no direct x-y edge; shared hidden z
+shared_confounder,-0.9756338453149557,1.4963702617675514,no direct x-y edge; shared hidden z
+shared_confounder,-1.1747025851466448,1.538988995133956,no direct x-y edge; shared hidden z
+shared_confounder,-0.223325711413931,0.342410549921197,no direct x-y edge; shared hidden z
+shared_confounder,-0.9744287634479752,0.6693584920326985,no direct x-y edge; shared hidden z
+shared_confounder,-0.6318151019660024,0.3825195969306744,no direct x-y edge; shared hidden z
+shared_confounder,-0.6681787212314465,0.09132723824282374,no direct x-y edge; shared hidden z
+shared_confounder,-0.18220930593355567,1.0853018650654926,no direct x-y edge; shared hidden z
+shared_confounder,0.24442958141094817,0.11582182155419772,no direct x-y edge; shared hidden z
+shared_confounder,0.26230363737311363,0.3311164385492714,no direct x-y edge; shared hidden z
+shared_confounder,1.2291671608252348,1.9026777309006482,no direct x-y edge; shared hidden z
+shared_confounder,0.12040109007220443,-0.3659148234561647,no direct x-y edge; shared hidden z
+shared_confounder,-0.9069613581425685,0.9546895415143504,no direct x-y edge; shared hidden z
+shared_confounder,-0.7346505127434131,1.6728918441177993,no direct x-y edge; shared hidden z
+shared_confounder,-1.1218775241128975,1.3142028842042828,no direct x-y edge; shared hidden z
+shared_confounder,-1.5954782342499894,1.2109977334426163,no direct x-y edge; shared hidden z
+shared_confounder,0.17149875388230146,0.4824290821397642,no direct x-y edge; shared hidden z
+shared_confounder,1.3777382610272133,3.2288066960870196,no direct x-y edge; shared hidden z
+shared_confounder,0.4548881897558184,0.1138814876471759,no direct x-y edge; shared hidden z
+shared_confounder,0.11619648487798495,0.996632729361386,no direct x-y edge; shared hidden z
+shared_confounder,-0.7209180230186826,4.332883332465609,no direct x-y edge; shared hidden z
+shared_confounder,-0.6589359695264693,-0.18410628343925206,no direct x-y edge; shared hidden z
+shared_confounder,-0.27327172437208236,0.7483340092892394,no direct x-y edge; shared hidden z
+shared_confounder,0.023174453925020252,0.03385711483045286,no direct x-y edge; shared hidden z
+shared_confounder,-0.507619647054228,0.9934187566262881,no direct x-y edge; shared hidden z
+shared_confounder,-0.7640552686205121,0.5040833060702833,no direct x-y edge; shared hidden z
+shared_confounder,-0.7635142819622613,0.4657568222982001,no direct x-y edge; shared hidden z
+shared_confounder,-1.1752217919599293,-0.009573475653936125,no direct x-y edge; shared hidden z
+shared_confounder,1.0212911897977075,4.0630519961249725,no direct x-y edge; shared hidden z
+shared_confounder,0.42673329128783577,0.3447684769640326,no direct x-y edge; shared hidden z
+shared_confounder,-0.9109929805524665,2.263221916637042,no direct x-y edge; shared hidden z
+shared_confounder,0.356130514553108,0.19272191284995815,no direct x-y edge; shared hidden z
+shared_confounder,-1.230279989759879,-0.540850149788641,no direct x-y edge; shared hidden z
+shared_confounder,1.2143113165894386,4.61645111653426,no direct x-y edge; shared hidden z
+shared_confounder,-0.8907432742163709,2.9019633722357243,no direct x-y edge; shared hidden z
+shared_confounder,0.6867976343317019,0.005768332174818591,no direct x-y edge; shared hidden z
+shared_confounder,1.0184985560186668,1.470010922832784,no direct x-y edge; shared hidden z
+shared_confounder,0.6429615940935364,4.589086797650806,no direct x-y edge; shared hidden z
+shared_confounder,0.2820157416782466,3.0107003872213376,no direct x-y edge; shared hidden z
+shared_confounder,-0.3878930438104443,0.2354232756335454,no direct x-y edge; shared hidden z
+shared_confounder,-1.1833791196518408,1.9789351810594205,no direct x-y edge; shared hidden z
+shared_confounder,-1.7054075565962232,0.9768283371507925,no direct x-y edge; shared hidden z
+shared_confounder,-0.46692328764056545,0.5111892855213804,no direct x-y edge; shared hidden z
+shared_confounder,-0.05603913369872254,-0.1656740434363581,no direct x-y edge; shared hidden z
+shared_confounder,-1.0754660011046302,0.5378030081069607,no direct x-y edge; shared hidden z
+shared_confounder,-1.012796598579366,1.9699738071562733,no direct x-y edge; shared hidden z
+shared_confounder,0.5551393770945005,0.5433684522722014,no direct x-y edge; shared hidden z
+shared_confounder,0.09936247584064736,-0.689226429401327,no direct x-y edge; shared hidden z
+shared_confounder,-0.4342159450297933,0.020542139772635304,no direct x-y edge; shared hidden z
+shared_confounder,-0.14059388856143085,0.34446089537425284,no direct x-y edge; shared hidden z
+shared_confounder,-0.5605398335561528,0.9424879338512727,no direct x-y edge; shared hidden z
+shared_confounder,-0.1841670435047813,1.251220015964769,no direct x-y edge; shared hidden z
+shared_confounder,0.5782884800433151,6.616370395934693,no direct x-y edge; shared hidden z
+shared_confounder,0.09563436993713342,-0.2996890340852286,no direct x-y edge; shared hidden z
+shared_confounder,-0.10504861595664533,0.5732002967042347,no direct x-y edge; shared hidden z
+shared_confounder,0.39485347352248745,3.254007167534599,no direct x-y edge; shared hidden z
+shared_confounder,-0.2839967004823457,0.1417329029416076,no direct x-y edge; shared hidden z
+shared_confounder,0.4440667886707531,-0.000506222100887993,no direct x-y edge; shared hidden z
+shared_confounder,-0.6663905453754464,1.0055576127960513,no direct x-y edge; shared hidden z
+shared_confounder,-0.24111663410348014,0.38573264872643653,no direct x-y edge; shared hidden z
+shared_confounder,-0.5876275314430881,3.0223608614560202,no direct x-y edge; shared hidden z
+shared_confounder,0.7613225476741743,0.32925802856343733,no direct x-y edge; shared hidden z
+shared_confounder,0.7355625533289152,4.012516559378722,no direct x-y edge; shared hidden z
+shared_confounder,0.682561665912845,0.009081069019923005,no direct x-y edge; shared hidden z
+shared_confounder,0.2893936924859425,0.17944597513361135,no direct x-y edge; shared hidden z
+shared_confounder,1.0380049656745365,1.33490151311008,no direct x-y edge; shared hidden z
+shared_confounder,0.7030799655431725,1.1237412271776104,no direct x-y edge; shared hidden z
+shared_confounder,-1.2441058167432055,1.3187640434477583,no direct x-y edge; shared hidden z
+shared_confounder,-1.0838766026844784,0.5363335708486126,no direct x-y edge; shared hidden z
+shared_confounder,0.21062278806610463,0.38321015214178794,no direct x-y edge; shared hidden z
+shared_confounder,1.201242106927544,1.2114264130413286,no direct x-y edge; shared hidden z
+shared_confounder,-1.1684474524276853,1.2118198892845555,no direct x-y edge; shared hidden z
+shared_confounder,-0.27154356120637724,0.15705599176341145,no direct x-y edge; shared hidden z
+shared_confounder,-0.564436514997056,0.7838023963466955,no direct x-y edge; shared hidden z
+shared_confounder,-0.2528241889561632,0.322993103657043,no direct x-y edge; shared hidden z
+shared_confounder,-0.4057239937174119,0.04199784212169007,no direct x-y edge; shared hidden z
+shared_confounder,-0.504001611281538,0.3365531845890736,no direct x-y edge; shared hidden z
+shared_confounder,1.1103400569079616,1.6745851490932246,no direct x-y edge; shared hidden z
+shared_confounder,0.1858716924694579,0.6695494062800522,no direct x-y edge; shared hidden z
+shared_confounder,0.7089755832458318,3.8440353979012043,no direct x-y edge; shared hidden z
+shared_confounder,0.295568101271506,-0.7448940570179197,no direct x-y edge; shared hidden z
+shared_confounder,0.7622867941176282,0.5073237288708072,no direct x-y edge; shared hidden z
+shared_confounder,-0.6534722441471137,1.4369413596222749,no direct x-y edge; shared hidden z
+shared_confounder,0.0792083995011848,0.16061469793235716,no direct x-y edge; shared hidden z
+shared_confounder,-1.3726514723059051,1.9556045290101907,no direct x-y edge; shared hidden z
+shared_confounder,-0.7196210066798154,1.9695022925044139,no direct x-y edge; shared hidden z
+shared_confounder,0.242850301800699,0.6995164332169289,no direct x-y edge; shared hidden z
+shared_confounder,0.16865748475433318,-0.16614827738989907,no direct x-y edge; shared hidden z
+shared_confounder,-1.122865425510053,0.6410354328233355,no direct x-y edge; shared hidden z
+shared_confounder,-0.9304691952890759,3.6282620468742532,no direct x-y edge; shared hidden z
+shared_confounder,0.8109217361387746,0.30019542837062835,no direct x-y edge; shared hidden z
+shared_confounder,-0.6301893203180585,-0.0654485852102781,no direct x-y edge; shared hidden z
+shared_confounder,1.459629999154854,1.218865697389068,no direct x-y edge; shared hidden z
+shared_confounder,0.30018508678739475,1.0626627311341832,no direct x-y edge; shared hidden z
+shared_confounder,0.47476188628006155,1.270774277174141,no direct x-y edge; shared hidden z
+shared_confounder,-0.6191993479511594,4.4155335611401325,no direct x-y edge; shared hidden z
+shared_confounder,-1.0482397303081894,10.730586959569173,no direct x-y edge; shared hidden z
+shared_confounder,0.26584363822834134,0.2664332176882967,no direct x-y edge; shared hidden z
+shared_confounder,-0.896625625612557,2.727428836684263,no direct x-y edge; shared hidden z
+shared_confounder,0.7268264055373108,1.3144620588300135,no direct x-y edge; shared hidden z
+shared_confounder,0.2955481653808491,0.22672252667049675,no direct x-y edge; shared hidden z
+shared_confounder,-0.20173435016124125,0.1636145190660288,no direct x-y edge; shared hidden z
+shared_confounder,-0.24900402008929284,0.11008365018561136,no direct x-y edge; shared hidden z
+shared_confounder,-1.1913794861535918,2.358331640869151,no direct x-y edge; shared hidden z
+shared_confounder,0.5129438090501782,-0.052813791009979474,no direct x-y edge; shared hidden z
+shared_confounder,-0.05146839258013672,-0.2992941717295847,no direct x-y edge; shared hidden z
+shared_confounder,-0.09757472229646924,0.05516795471154616,no direct x-y edge; shared hidden z
+shared_confounder,0.7565400477932549,3.9294076378991125,no direct x-y edge; shared hidden z
+shared_confounder,-0.2875908002656419,0.4810177302523353,no direct x-y edge; shared hidden z
+shared_confounder,1.0235308813451676,0.12734068250656505,no direct x-y edge; shared hidden z
+shared_confounder,0.43390896460906603,3.6594296674779523,no direct x-y edge; shared hidden z
+shared_confounder,-0.7927171132821077,0.5125118039659274,no direct x-y edge; shared hidden z
+shared_confounder,-1.7118502730259526,0.0344039715039427,no direct x-y edge; shared hidden z
+shared_confounder,-1.0342088813351529,1.1664259542344575,no direct x-y edge; shared hidden z
+shared_confounder,-0.4123828485572508,1.8169980593377197,no direct x-y edge; shared hidden z
+shared_confounder,-0.8261671040951954,3.460816775409178,no direct x-y edge; shared hidden z
+shared_confounder,0.3443058494055303,0.3212570125717375,no direct x-y edge; shared hidden z
+shared_confounder,0.49921111501354914,2.0643821722405886,no direct x-y edge; shared hidden z
+shared_confounder,0.4114281376136589,0.05693678507389832,no direct x-y edge; shared hidden z
+shared_confounder,-0.6365038867804753,0.6125137695538152,no direct x-y edge; shared hidden z
+shared_confounder,-0.609965801789286,0.7325431758284697,no direct x-y edge; shared hidden z
+shared_confounder,0.3847913810864642,0.3406498978553172,no direct x-y edge; shared hidden z
+shared_confounder,-0.7488260544770146,0.9142900290270961,no direct x-y edge; shared hidden z
+shared_confounder,-0.9305013009999381,-0.197284509638944,no direct x-y edge; shared hidden z
+shared_confounder,-0.8739242601695694,0.41037693937587216,no direct x-y edge; shared hidden z

@@ -1,0 +1,3 @@
+approach,theta_estimate,treatment_residual_variance,outcome_residual_variance,true_theta,absolute_error
+in_sample_1nn_residualization,,0.0,0.0,1.0,
+cross_fitted_1nn_residualization,1.6963726081845258,3.974100774933158,14.97877740999946,1.0,0.6963726081845258

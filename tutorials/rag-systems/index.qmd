@@ -1,0 +1,28 @@
+---
+title: "RAG systems tutorial roadmap"
+description: "A tutorial outline for building retrieval-augmented generation systems with evaluation from the start."
+date: 2026-04-26
+categories: [RAG, Vector Databases, LlamaIndex, FAISS]
+---
+
+## Tutorial Goal
+
+Build a retrieval-augmented generation workflow that is evaluated like a system, not demoed like a prompt.
+
+## Sections To Build
+
+1. Document ingestion and cleaning.
+2. Chunking and metadata design.
+3. Embedding selection.
+4. FAISS or Pinecone indexing.
+5. Retrieval, reranking, and response synthesis.
+6. Citation and groundedness checks.
+7. Regression tests for prompt and retrieval changes.
+
+## Notebook Plan
+
+- `notebooks/rag-systems/01-ingestion.ipynb`
+- `notebooks/rag-systems/02-indexing.ipynb`
+- `notebooks/rag-systems/03-generation.ipynb`
+- `notebooks/rag-systems/04-evaluation.ipynb`
+

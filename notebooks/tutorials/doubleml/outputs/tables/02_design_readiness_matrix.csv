@@ -1,0 +1,9 @@
+design,required_backend,must_check
+PLR continuous treatment,DoubleMLData,"pre-treatment controls, finite treatment, residual treatment variation"
+IRM binary treatment,DoubleMLData,"binary treatment, overlap, treated/control support"
+PLIV continuous IV,DoubleMLData with z_cols,"instrument role, relevance, exclusion story, treatment variation"
+IIVM binary IV,DoubleMLData with z_cols,"binary treatment, instrument support, compliance logic"
+Clustered data,DoubleMLData with cluster_cols,"cluster count, cluster balance, row dependence"
+Panel data,DoubleMLPanelData,"unit id, time column, repeated observations, panel balance"
+RDD,DoubleMLRDDData,"running score, cutoff support, treatment assignment rule"
+Sample selection,DoubleMLSSMData,"selection variation, unselected rows retained, selection assumptions"

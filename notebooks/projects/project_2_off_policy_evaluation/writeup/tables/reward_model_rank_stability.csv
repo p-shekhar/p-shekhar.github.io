@@ -1,0 +1,5 @@
+policy,avg_rank_across_models,best_rank_across_models,worst_rank_across_models,estimate_range_across_models
+epsilon_greedy_top_ctr,1.0,1.0,1.0,0.00031534363329917964
+ctr_weighted,2.0,2.0,2.0,0.00012841915993019957
+uniform,3.0,3.0,3.0,7.2840136460855e-05
+exposure_popularity,4.0,4.0,4.0,7.516119105482454e-05

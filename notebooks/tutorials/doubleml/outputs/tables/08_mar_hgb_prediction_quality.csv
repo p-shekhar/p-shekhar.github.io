@@ -1,0 +1,3 @@
+quantity,rmse_vs_truth,mae_vs_truth
+treatment propensity m_hat,0.07288623588132119,0.057120637355088655
+selection probability pi_hat,0.07375828688860074,0.056553661677748945

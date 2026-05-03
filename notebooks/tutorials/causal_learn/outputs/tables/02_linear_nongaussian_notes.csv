@@ -1,0 +1,3 @@
+note_type,note
+assumption,Linear additive structural equations with Laplace and Student-t noise.
+intended_use,Useful for LiNGAM-style non-Gaussian direction examples.

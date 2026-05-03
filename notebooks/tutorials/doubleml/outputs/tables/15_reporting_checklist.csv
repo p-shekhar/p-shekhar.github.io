@@ -1,0 +1,8 @@
+item,guidance
+Target definition,"State whether the target is ATE, weighted ATE, policy value, QTE, or CVaR."
+Weight justification,"If using weights, explain the target population and normalize weights transparently."
+Policy constraints,"State treatment costs, capacity limits, fairness constraints, and monitoring needs."
+Distributional framing,"For QTE and CVaR, explain why mean effects are not enough."
+Overlap,"Show propensity overlap, especially for weighted and tail-focused targets."
+Validation,Validate candidate policies and distributional claims on held-out data or future experiments.
+Decision boundary,Separate evidence for prioritization from evidence for automatic deployment.

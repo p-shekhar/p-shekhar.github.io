@@ -1,0 +1,13 @@
+cause,effect
+baseline_need,discovery_exposure
+prior_activity,discovery_exposure
+account_tenure,discovery_exposure
+baseline_need,satisfaction_depth
+prior_activity,satisfaction_depth
+account_tenure,satisfaction_depth
+baseline_need,future_value
+prior_activity,future_value
+account_tenure,future_value
+discovery_exposure,satisfaction_depth
+discovery_exposure,future_value
+satisfaction_depth,future_value

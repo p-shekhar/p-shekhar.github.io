@@ -1,0 +1,9 @@
+run,source,edge_type,target,edge_properties,endpoint_category
+fci_full_with_latent_observed,need,o->,match,none,partially oriented edge
+fci_full_with_latent_observed,intent,o->,match,none,partially oriented edge
+fci_full_with_latent_observed,intent,-->,renewal,"pd,pl",definite directed edge
+fci_full_with_latent_observed,latent_demand,o->,match,none,partially oriented edge
+fci_full_with_latent_observed,latent_demand,-->,renewal,"pd,pl",definite directed edge
+fci_full_with_latent_observed,match,-->,engagement,"dd,nl",definite directed edge
+fci_full_with_latent_observed,engagement,-->,renewal,"dd,nl",definite directed edge
+fci_full_with_latent_observed,engagement,-->,support,"dd,nl",definite directed edge

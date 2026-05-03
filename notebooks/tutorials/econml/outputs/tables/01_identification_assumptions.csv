@@ -1,0 +1,6 @@
+assumption,plain meaning,why it matters
+Consistency,The observed outcome equals the potential outcome under the treatment actually received.,Lets us write Y = T*Y(1) + (1-T)*Y(0).
+No interference,One unit's treatment does not change another unit's potential outcomes.,Lets each row be treated as its own treatment-effect problem.
+Ignorability / unconfoundedness,"After observed covariates, treatment assignment is as-if random.",Lets observed controls stand in for the missing counterfactual assignment process.
+Overlap / positivity,Every relevant covariate region has some chance of treatment and control.,Lets us compare like with like instead of extrapolating everywhere.
+Correct feature timing,X and W are measured before treatment and are not outcome leakage.,Prevents post-treatment or future variables from contaminating CATE estimates.

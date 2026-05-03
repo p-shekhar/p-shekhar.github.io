@@ -1,0 +1,3 @@
+model,num_X_features,test_cate_rmse,test_cate_spearman,test_ate_error
+LinearDML full X,21,0.24768164128982637,0.8759988448651503,0.041992179352692116
+LinearDML restricted X,6,0.2718552119844659,0.8487752529868314,0.019394012220296797

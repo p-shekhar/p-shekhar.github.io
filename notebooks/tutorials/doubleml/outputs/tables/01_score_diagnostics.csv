@@ -1,0 +1,3 @@
+object,shape,description
+psi,"(500, 1, 1)",Score values evaluated at the fitted theta.
+psi_deriv,"(500, 1, 1)",Score derivative values used for standard errors.

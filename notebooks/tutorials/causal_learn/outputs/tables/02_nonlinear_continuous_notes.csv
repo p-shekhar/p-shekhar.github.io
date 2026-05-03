@@ -1,0 +1,3 @@
+note_type,note
+assumption,"Nonlinear mechanisms with interactions, but the same parent sets as the base DAG."
+intended_use,Useful for kernel tests and nonlinear method cautions.

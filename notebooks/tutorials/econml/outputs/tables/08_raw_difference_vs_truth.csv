@@ -1,0 +1,4 @@
+quantity,value
+raw treated minus untreated outcome mean,1.120562656195706
+true ATE,0.33985494182549003
+raw difference minus true ATE,0.780707714370216

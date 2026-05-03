@@ -1,0 +1,3 @@
+backend,use_other_treat_as_covariate,design_meaning
+use_other_treat_as_covariate_true,True,Estimate each treatment effect while treating the other treatment as an additional adjustment variable.
+use_other_treat_as_covariate_false,False,Do not automatically adjust for the other treatment; use when the estimand is defined that way.

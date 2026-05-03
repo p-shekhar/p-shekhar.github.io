@@ -1,0 +1,14 @@
+column,role,visible to analyst
+baseline_need,observed pre-treatment feature,True
+prior_engagement,observed pre-treatment feature,True
+account_tenure,observed pre-treatment feature,True
+friction_score,observed pre-treatment feature,True
+region_risk,observed pre-treatment feature,True
+high_need_segment,observed effect-modifier segment,True
+treatment,observed binary treatment,True
+observed_outcome,observed factual outcome,True
+propensity,true treatment probability from simulator,False
+y0,potential outcome under control,False
+y1,potential outcome under treatment,False
+missing_counterfactual,the potential outcome not observed for the assigned treatment,False
+true_cate,Y(1) - Y(0) in the simulator,False

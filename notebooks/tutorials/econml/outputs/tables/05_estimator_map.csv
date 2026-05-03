@@ -1,0 +1,4 @@
+estimator,main construction,best use,main diagnostic focus
+LinearDML,"Residualize outcome and treatment, then fit a final CATE model",Readable linear CATE models after DML adjustment,"Residualized signal, coefficients, CATE recovery"
+CausalForestDML,DML adjustment with a forest final CATE model,Nonlinear heterogeneity and treatment targeting,"Feature importance, intervals, slices, support"
+DRLearner,Doubly robust pseudo-outcome from outcome and propensity models,Binary treatment CATE with explicit outcome and propensity nuisance modeling,"Propensity overlap, outcome models by arm, pseudo-outcome noise, final CATE model"

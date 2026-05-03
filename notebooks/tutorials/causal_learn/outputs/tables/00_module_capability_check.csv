@@ -1,0 +1,13 @@
+component,module,available,role
+PC,causallearn.search.ConstraintBased.PC,True,Constraint-based discovery for causally sufficient settings.
+FCI,causallearn.search.ConstraintBased.FCI,True,Constraint-based discovery allowing latent confounders.
+CD-NOD,causallearn.search.ConstraintBased.CDNOD,True,Discovery under nonstationary or heterogeneous data.
+GES,causallearn.search.ScoreBased.GES,True,Greedy score-based graph search.
+ExactSearch,causallearn.search.ScoreBased.ExactSearch,True,Exact score-based search for small graphs.
+LiNGAM,causallearn.search.FCMBased.lingam,True,Linear non-Gaussian functional causal models.
+ANM,causallearn.search.FCMBased.ANM.ANM,True,Additive-noise model tools.
+PNL,causallearn.search.FCMBased.PNL.PNL,True,Post-nonlinear model tools.
+GRaSP,causallearn.search.PermutationBased.GRaSP,True,Permutation-based discovery.
+BOSS,causallearn.search.PermutationBased.BOSS,True,Permutation-based discovery.
+GIN,causallearn.search.HiddenCausal.GIN.GIN,True,Hidden causal representation discovery.
+GraphUtils,causallearn.utils.GraphUtils,True,Graph output utilities.

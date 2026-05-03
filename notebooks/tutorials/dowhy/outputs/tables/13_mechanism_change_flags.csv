@@ -1,0 +1,7 @@
+node,is_root_node,flagged_as_changed,plain_reading
+catalog_health,True,True,root distribution changed
+latency_pressure,True,True,root distribution changed
+recommendation_quality,False,True,conditional mechanism changed
+future_value,False,False,conditional mechanism changed
+session_depth,False,False,conditional mechanism changed
+traffic_intent,True,False,root distribution changed

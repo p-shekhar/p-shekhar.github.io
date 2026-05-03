@@ -1,0 +1,7 @@
+column,role,plain meaning,causal timing
+baseline_need,pre-treatment confounder,How much need or intent the unit had before exposure.,Measured before treatment.
+prior_activity,pre-treatment confounder,Historical activity before the current exposure.,Measured before treatment.
+account_tenure,pre-treatment confounder,How mature or established the account is.,Measured before treatment.
+discovery_exposure,binary treatment,Whether the unit receives a stronger discovery exposure.,Treatment moment.
+satisfaction_depth,mediator,Post-exposure satisfaction or depth of engagement.,"Measured after treatment, before outcome."
+future_value,outcome,Later value measured after the mediator.,Measured after treatment and mediator.

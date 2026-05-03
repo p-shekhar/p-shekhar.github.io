@@ -1,0 +1,5 @@
+metric,value
+estimated_mean_last_period_effect,0.3838549873506352
+true_mean_last_period_effect,0.3390655152952014
+rmse,0.14346230018084638
+correlation,0.8584817806685978

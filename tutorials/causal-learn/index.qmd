@@ -1,0 +1,42 @@
+---
+title: "causal-learn tutorial series"
+description: "A hands-on tutorial series for causal discovery with PC, FCI, CD-NOD, GES, LiNGAM, functional causal models, permutation methods, stability checks, and reporting."
+date: 2026-05-03
+categories: [causal-learn, Causal Discovery, Python, Graphs]
+---
+
+causal-learn is the tutorial track for causal discovery: learning candidate graph structures while staying honest about assumptions, equivalence classes, hidden confounding, and stability.
+
+::: {.sequence-note}
+Notebook links open rendered HTML pages generated from the source notebooks under `notebooks/tutorials/`. Rendering is configured not to execute notebooks during site builds, so the pages are safe to publish even when a notebook contains heavier optional cells.
+:::
+
+## Notebook Sequence
+
+<ol class="notebook-sequence">
+  <li><a href="../../notebooks/tutorials/causal_learn/00_environment_and_library_tour.html" data-site-path="notebooks/tutorials/causal_learn/00_environment_and_library_tour.html">causal-learn Tutorial 00: Environment And Library Tour</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/01_graphs_dags_cpdag_pag_and_evaluation.html" data-site-path="notebooks/tutorials/causal_learn/01_graphs_dags_cpdag_pag_and_evaluation.html">causal-learn Tutorial 01: Graphs, DAGs, CPDAGs, PAGs, And Evaluation</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/02_synthetic_data_for_causal_discovery.html" data-site-path="notebooks/tutorials/causal_learn/02_synthetic_data_for_causal_discovery.html">causal-learn Tutorial 02: Synthetic Data For Causal Discovery</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/03_independence_tests.html" data-site-path="notebooks/tutorials/causal_learn/03_independence_tests.html">causal-learn Tutorial 03: Independence Tests</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/04_pc_algorithm_continuous_data.html" data-site-path="notebooks/tutorials/causal_learn/04_pc_algorithm_continuous_data.html">causal-learn Tutorial 04: PC Algorithm For Continuous Data</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/05_pc_with_prior_knowledge_missing_and_discrete_data.html" data-site-path="notebooks/tutorials/causal_learn/05_pc_with_prior_knowledge_missing_and_discrete_data.html">causal-learn Tutorial 05: PC With Prior Knowledge, Missing Data, And Discrete Data</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/06_fci_for_latent_confounders.html" data-site-path="notebooks/tutorials/causal_learn/06_fci_for_latent_confounders.html">causal-learn Tutorial 06: FCI For Latent Confounders</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/07_cdnod_for_nonstationary_data.html" data-site-path="notebooks/tutorials/causal_learn/07_cdnod_for_nonstationary_data.html">causal-learn Tutorial 07: CD-NOD For Nonstationary Data</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/08_score_based_discovery_ges.html" data-site-path="notebooks/tutorials/causal_learn/08_score_based_discovery_ges.html">causal-learn Tutorial 08: Score-Based Discovery With GES</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/09_exact_search_and_score_functions.html" data-site-path="notebooks/tutorials/causal_learn/09_exact_search_and_score_functions.html">causal-learn Tutorial 09: Exact Search And Score Functions</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/10_lingam_linear_nongaussian_models.html" data-site-path="notebooks/tutorials/causal_learn/10_lingam_linear_nongaussian_models.html">causal-learn Tutorial 10: LiNGAM And Linear Non-Gaussian Models</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/11_functional_causal_models_anm_pnl.html" data-site-path="notebooks/tutorials/causal_learn/11_functional_causal_models_anm_pnl.html">causal-learn Tutorial 11: Functional Causal Models: ANM And PNL</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/12_permutation_based_methods_grasp_boss.html" data-site-path="notebooks/tutorials/causal_learn/12_permutation_based_methods_grasp_boss.html">causal-learn Tutorial 12: Permutation-Based Methods: GRaSP And BOSS</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/13_time_series_causal_discovery.html" data-site-path="notebooks/tutorials/causal_learn/13_time_series_causal_discovery.html">causal-learn Tutorial 13: Time-Series Causal Discovery</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/14_hidden_representation_learning_gin.html" data-site-path="notebooks/tutorials/causal_learn/14_hidden_representation_learning_gin.html">causal-learn Tutorial 14: Hidden Representation Learning With GIN</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/15_benchmarking_stability_and_sensitivity.html" data-site-path="notebooks/tutorials/causal_learn/15_benchmarking_stability_and_sensitivity.html">causal-learn Tutorial 15: Benchmarking, Stability, And Sensitivity</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/16_end_to_end_causal_discovery_case_study.html" data-site-path="notebooks/tutorials/causal_learn/16_end_to_end_causal_discovery_case_study.html">causal-learn Tutorial 16: End-To-End Causal Discovery Case Study</a></li>
+  <li><a href="../../notebooks/tutorials/causal_learn/17_common_pitfalls_reporting_and_limitations.html" data-site-path="notebooks/tutorials/causal_learn/17_common_pitfalls_reporting_and_limitations.html">causal-learn Tutorial 17: Common Pitfalls, Reporting, And Limitations</a></li>
+</ol>
+
+## How To Use This Tutorial Series
+
+- Start with the environment and library-tour notebook.
+- Continue in order if you want a coherent package course.
+- Jump to individual notebooks when you need a specific estimator, diagnostic, or reporting pattern.
+- Keep the causal design separate from the package API: the library helps implement the workflow, but the assumptions still need to be stated and defended.

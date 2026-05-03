@@ -1,0 +1,8 @@
+variable,role,meaning,cdnod_role
+environment,domain index,which heterogeneous environment or collection domain generated the row,context variable
+need,early context,baseline demand or user need signal,observed variable
+intent,early context,current intent or short-term goal signal,observed variable
+match,intermediate,quality of the match between item and user state,observed variable
+engagement,intermediate,depth of short-term interaction,observed variable
+renewal,downstream outcome,future value or retention-like outcome,observed variable
+support,downstream outcome,future support or friction-like outcome,observed variable

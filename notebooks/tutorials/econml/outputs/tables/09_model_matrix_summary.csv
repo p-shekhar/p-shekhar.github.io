@@ -1,0 +1,5 @@
+object,shape_or_length,description
+X_train,"(2340, 11)",Observed pre-treatment covariates used for heterogeneity.
+X_test,"(1260, 11)",Held-out covariates used for evaluation and policy diagnostics.
+y_train,2340,Observed training outcomes.
+t_train,2340,Observed training treatment indicators.

@@ -1,0 +1,11 @@
+check,status in this notebook
+Question defined before modeling,done
+Variable timing documented,done
+Pre-treatment confounding inspected,done
+Overlap and balance checked,done
+DAG drawn and encoded,done
+DoWhy estimand identified,done
+Multiple estimators compared,done
+Post-treatment bad control avoided,done
+Refuters and negative controls run,done
+Limitations reported with estimate,done

@@ -1,0 +1,10 @@
+check,why_it_matters
+Treatment and outcome are clearly defined,The forest estimates the effect of a specific intervention.
+All X and W features are pre-treatment,Post-treatment controls can distort the causal estimand.
+X contains meaningful heterogeneity dimensions,The forest splits over X to estimate CATE variation.
+W contains important confounding controls,Nuisance models need enough information to adjust treatment and outcome structure.
+Overlap is adequate,Local treatment-effect estimates need comparable treated and untreated units.
+Nuisance models are reasonable,Poor nuisance models leave confounding in the final CATE stage.
+Feature importance and slices make sense,Flexible models need readable summaries.
+Interval widths are inspected,Wide intervals flag uncertain regions.
+Targeting is evaluated with uncertainty in mind,High point estimates can be fragile when support is weak.

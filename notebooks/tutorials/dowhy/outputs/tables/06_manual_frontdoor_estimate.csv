@@ -1,0 +1,5 @@
+quantity,estimate,target
+naive exposure-outcome slope,2.892202767602795,2.25
+exposure-to-mediator stage,1.253208610654117,1.25
+mediator-to-outcome stage,1.8211742189337197,1.8
+manual frontdoor product,2.2823112126690233,2.25

@@ -1,0 +1,7 @@
+step,main question,why it matters
+Specify graph,Which variables are direct parents of each node?,The graph determines which inputs each mechanism receives.
+Assign mechanisms,What model should describe each root or non-root node?,Root nodes need distributions; non-root nodes need conditional mechanisms.
+Fit mechanisms,Can each mechanism learn its local data-generating pattern?,A weak local mechanism can make downstream simulations unreliable.
+Draw samples,Can the fitted model regenerate realistic joint data?,Generated samples reveal whether the model captures broad distributional structure.
+Evaluate model,"Which mechanisms fit well, and which need attention?",Mechanism-level diagnostics guide graph and model revisions.
+Inspect parent influence,Which parents matter most for a target mechanism?,Influence summaries make fitted mechanisms easier to audit.

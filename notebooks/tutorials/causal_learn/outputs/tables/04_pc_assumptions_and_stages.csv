@@ -1,0 +1,7 @@
+assumption_or_stage,plain_language,why_it_matters
+Causal Markov condition,The graph implies the conditional independences in the data.,PC removes edges using conditional independence tests.
+Faithfulness,"Independences in the data are explained by the graph, not by exact coefficient cancellations.","If faithfulness fails, PC can remove or keep the wrong edges."
+Causal sufficiency,All common causes of observed variables are included.,PC targets a DAG/CPDAG under observed sufficiency; FCI is safer with hidden common causes.
+Correct CI test,Fisher-Z is appropriate for approximately linear Gaussian continuous data.,A mismatched test can create false edge deletions or false retained edges.
+Skeleton search,"Start dense, then remove edges when separating sets are found.",This controls which variable pairs remain adjacent.
+Orientation rules,Orient colliders and propagate directions without introducing cycles or contradictions.,"Some directions are identifiable, while others may remain undirected."

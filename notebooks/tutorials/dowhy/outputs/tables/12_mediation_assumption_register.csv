@@ -1,0 +1,7 @@
+assumption,meaning,risk if violated
+Correct causal ordering,Treatment occurs before mediator; mediator occurs before outcome.,A post-outcome variable may be mislabeled as a mediator.
+No unmeasured treatment-outcome confounding,Pre-treatment covariates block backdoor paths from treatment to outcome.,Total and direct effects can be biased.
+No unmeasured treatment-mediator confounding,Pre-treatment covariates block backdoor paths from treatment to mediator.,The first-stage treatment-to-mediator relationship can be biased.
+No unmeasured mediator-outcome confounding,"After treatment and pre-treatment covariates, mediator-outcome confounding is blocked.",The mediator-to-outcome coefficient can be biased.
+No treatment-induced mediator-outcome confounder,Treatment does not create a new variable that confounds mediator and outcome.,Natural direct and indirect effects may not be identified by the simple design.
+Model form is adequate,The regression models capture the relevant relationships.,The product-of-coefficients decomposition can be numerically misleading.

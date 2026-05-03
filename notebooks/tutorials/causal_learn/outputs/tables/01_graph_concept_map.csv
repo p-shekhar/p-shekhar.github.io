@@ -1,0 +1,6 @@
+concept,stands_for,edge_example,plain_language,why_it_matters
+DAG,Directed acyclic graph,A -> B,"A is represented as a direct cause of B, and cycles are not allowed.","This is the cleanest causal story, but observational discovery often cannot justify every direction."
+Skeleton,Adjacency pattern without directions,A - B,"A and B are connected somehow, but the direction is ignored.",Skeleton quality asks whether the algorithm found the right variable pairs before asking whether directions are right.
+CPDAG,Completed partially directed acyclic graph,A -> B and B - C,Directed edges are compelled across an equivalence class; undirected edges are reversible.,It prevents overclaiming directions that the observed conditional independences cannot identify.
+PAG,Partial ancestral graph,A o-> B or A <-> B,Endpoint marks encode uncertainty and possible hidden confounding.,It is the right language when unmeasured common causes may be present.
+SHD,Structural Hamming Distance,count of edits,"How many edge additions, deletions, or orientation changes are needed to move from one graph to another.","It is compact, but it hides which kind of error occurred unless paired with precision/recall metrics."

@@ -1,0 +1,19 @@
+column,role,observed_in_real_analysis,description,true_cate_driver
+baseline_need,X effect modifier,yes,Pre-treatment feature used to explain CATE variation.,yes
+prior_engagement,X effect modifier,yes,Pre-treatment feature used to explain CATE variation.,yes
+friction_score,X effect modifier,yes,Pre-treatment feature used to explain CATE variation.,yes
+content_affinity,X effect modifier,yes,Pre-treatment feature used to explain CATE variation.,yes
+price_sensitivity,X effect modifier,yes,Pre-treatment feature used to explain CATE variation.,yes
+region_risk,X effect modifier,yes,Pre-treatment feature used to explain CATE variation.,yes
+high_need_segment,X effect modifier,yes,Pre-treatment feature used to explain CATE variation.,yes
+trust_score,W control,yes,Pre-treatment feature used for nuisance adjustment and support checks.,no
+recency_gap,W control,yes,Pre-treatment feature used for nuisance adjustment and support checks.,no
+account_tenure,W control,yes,Pre-treatment feature used for nuisance adjustment and support checks.,no
+seasonality_index,W control,yes,Pre-treatment feature used for nuisance adjustment and support checks.,no
+device_stability,W control,yes,Pre-treatment feature used for nuisance adjustment and support checks.,no
+traffic_intensity,W control,yes,Pre-treatment feature used for nuisance adjustment and support checks.,no
+treatment,treatment,yes,Binary treatment indicator.,not applicable
+outcome,outcome,yes,Observed post-treatment outcome.,not applicable
+propensity,oracle,no,True treatment probability from the simulated assignment process.,not applicable
+baseline_outcome_mean,oracle,no,Mean untreated outcome component before noise.,not applicable
+true_cate,oracle,no,Known individual treatment effect used only for evaluation.,not applicable

@@ -1,0 +1,6 @@
+situation,first estimator to try,reason
+Small number of carefully chosen effect modifiers,LinearDML,The final CATE coefficients are easy to read and unlikely to be cluttered.
+"Many candidate modifiers, only some expected to matter",SparseLinearDML,Regularization can shrink weaker CATE drivers and focus the coefficient table.
+Strong nonlinear treatment-effect heterogeneity is expected,CausalForestDML or another flexible estimator,A linear final stage may be too restrictive even if nuisance models are flexible.
+Primary goal is a transparent segment narrative,LinearDML plus segment summaries,Dense coefficients and segment-level checks are usually easier to explain.
+Primary goal is treatment targeting,"Compare LinearDML, SparseLinearDML, and flexible CATE models",Ranking quality matters; a more flexible model may rank better even if coefficients are less readable.

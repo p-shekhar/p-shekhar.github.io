@@ -1,0 +1,7 @@
+metric,value
+mean_interval_width,0.5729556372593922
+median_interval_width,0.5525338433773417
+p90_interval_width,0.8085851017773323
+share_intervals_cover_true_cate,0.6980952380952381
+share_intervals_entirely_positive,0.4695238095238095
+share_point_estimates_positive,0.8638095238095238

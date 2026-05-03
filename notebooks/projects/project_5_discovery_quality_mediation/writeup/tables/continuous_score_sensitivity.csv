@@ -1,0 +1,5 @@
+target,target_label,score_col,effect_per_0_10_score_increase,raw_score_target_corr,model_r2
+Y_future_interactions,Future 7-day interactions,discovery_breadth_score,20.551841310982436,0.5673874491921108,0.7219678710151181
+Y_future_active_days,Future 7-day active days,discovery_breadth_score,0.09657730326656461,0.3979809514521531,0.517921216259658
+Y_future_play_hours,Future 7-day play hours,discovery_breadth_score,0.04473349428537739,0.5391824319703196,0.6999481321800249
+M_satisfaction_depth,M_satisfaction_depth,discovery_breadth_score,0.012906237503387402,0.0930381273042385,0.46116237583672837

@@ -1,0 +1,3 @@
+estimator,total_abs_coefficient_mass,signal_abs_coefficient_mass,noise_abs_coefficient_mass,signal_share_of_abs_mass,noise_share_of_abs_mass,num_practical_nonzero_abs_ge_0_03
+LinearDML,1.640952883555651,1.2796321395768846,0.3613207439787663,0.7798104091838096,0.22018959081619024,11
+SparseLinearDML,1.6139083216482946,1.265822984732962,0.34808533691533255,0.784321493206113,0.21567850679388706,11

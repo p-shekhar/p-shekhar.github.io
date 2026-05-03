@@ -1,0 +1,7 @@
+check,why it matters,what to do
+Graph direction is credible,Attribution follows directed paths. A reversed edge can turn a symptom into a false cause.,Validate timing and mechanism ownership with domain experts.
+Reference period is genuinely normal,Anomaly scoring is relative to the fitted baseline system.,Fit on a stable period and rerun on alternative baselines.
+Mechanisms fit reasonably well,Poor mechanism fit can create residual anomalies that are model artifacts.,"Compare generated samples, residuals, and mechanism performance."
+Attributions are stable,Shapley estimates use sampling and can vary with settings.,Repeat with larger sample settings or multiple seeds for final reporting.
+Population and row-level questions are separated,Worst-row root causes and overall shift drivers can differ.,Report anomaly attribution and distribution-change attribution separately.
+Operational action is testable,"Attribution is diagnostic, not proof that a fix will work.","Use follow-up experiments, rollback tests, or targeted monitoring."

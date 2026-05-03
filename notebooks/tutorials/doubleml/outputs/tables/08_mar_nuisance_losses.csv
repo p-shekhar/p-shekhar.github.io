@@ -1,0 +1,13 @@
+model,learner,metric_value,metric
+MAR linear,ml_g_d0,2.237999624410772,RMSE for outcome learners; classification error style score for propensity learners
+MAR linear,ml_g_d1,2.8379623593402323,RMSE for outcome learners; classification error style score for propensity learners
+MAR linear,ml_pi,0.4463927425782039,RMSE for outcome learners; classification error style score for propensity learners
+MAR linear,ml_m,0.4769246851404279,RMSE for outcome learners; classification error style score for propensity learners
+MAR HGB,ml_g_d0,2.2528953296726466,RMSE for outcome learners; classification error style score for propensity learners
+MAR HGB,ml_g_d1,2.862023435171991,RMSE for outcome learners; classification error style score for propensity learners
+MAR HGB,ml_pi,0.44882722706570755,RMSE for outcome learners; classification error style score for propensity learners
+MAR HGB,ml_m,0.48063282180172384,RMSE for outcome learners; classification error style score for propensity learners
+MAR HGB normalized IPW,ml_g_d0,2.2453525583253113,RMSE for outcome learners; classification error style score for propensity learners
+MAR HGB normalized IPW,ml_g_d1,2.863304297430545,RMSE for outcome learners; classification error style score for propensity learners
+MAR HGB normalized IPW,ml_pi,0.4497623290857987,RMSE for outcome learners; classification error style score for propensity learners
+MAR HGB normalized IPW,ml_m,0.48278397836346115,RMSE for outcome learners; classification error style score for propensity learners

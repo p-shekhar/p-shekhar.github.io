@@ -1,0 +1,4 @@
+quantity,true_value,calculation
+natural indirect effect,0.48750000000000004,treatment -> mediator coefficient times mediator -> outcome coefficient
+natural direct effect,0.3,direct treatment -> outcome coefficient
+total effect,0.7875000000000001,natural direct effect plus natural indirect effect

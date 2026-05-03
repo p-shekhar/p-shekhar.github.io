@@ -1,0 +1,10 @@
+step,question_to_answer
+Define treatment and outcome,What intervention and outcome window are being compared?
+Mark timing,Which variables are definitely measured before treatment?
+Draw common causes,Which pre-treatment variables plausibly cause both treatment and outcome?
+Avoid bad controls,"Are any proposed controls mediators, colliders, or descendants of treatment?"
+Check baseline imbalance,How different are treated and untreated users before treatment?
+Identify with DoWhy,What adjustment set and assumptions does DoWhy print?
+Estimate and compare,"How do naive, partial, valid, and bad-control estimates differ?"
+Run refuters,Does the estimate behave sensibly under placebo and perturbation checks?
+State limitations,Which unobserved confounders or measurement gaps could still bias the result?

@@ -1,0 +1,2 @@
+component,available,message
+causal-learn PNL,False,PNL is unavailable because an optional dependency is missing: No module named 'torch'

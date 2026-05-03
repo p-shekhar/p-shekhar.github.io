@@ -1,0 +1,8 @@
+dataset_name,rows,columns,column_list,total_missing_values
+linear_gaussian,2500,6,"need, intent, match, engagement, renewal, support",0
+linear_nongaussian,2500,6,"need, intent, match, engagement, renewal, support",0
+nonlinear_continuous,2500,6,"need, intent, match, engagement, renewal, support",0
+discrete_mixed,2500,6,"need, intent, match, engagement, renewal, support",0
+hidden_confounder_observed,2500,6,"need, intent, match, engagement, renewal, support",0
+hidden_confounder_full,2500,7,"need, intent, latent_demand, match, engagement, renewal, support",0
+nonstationary_continuous,2500,7,"environment, need, intent, match, engagement, renewal, support",0

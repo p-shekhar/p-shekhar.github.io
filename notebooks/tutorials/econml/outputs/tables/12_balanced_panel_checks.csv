@@ -1,0 +1,8 @@
+check,value
+number_of_units,1600
+rows,6400
+expected_rows,6400
+min_periods_per_unit,4
+max_periods_per_unit,4
+duplicate_unit_period_rows,0
+is_balanced,True

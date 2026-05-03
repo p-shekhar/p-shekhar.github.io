@@ -1,0 +1,7 @@
+observed_index,gin_label,observed_variable,true_latent
+0,X1,X1_need_search,latent_need
+1,X2,X2_need_depth,latent_need
+2,X3,X3_need_variety,latent_need
+3,X4,X4_value_click,latent_value
+4,X5,X5_value_watch,latent_value
+5,X6,X6_value_return,latent_value

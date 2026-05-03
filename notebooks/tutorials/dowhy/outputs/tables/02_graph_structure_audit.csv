@@ -1,0 +1,6 @@
+relationship,nodes
+parents_of_treatment,"account_age_weeks, prior_activity, rollout_batch, user_engagement"
+children_of_treatment,"satisfaction_depth, support_ticket, weekly_value"
+ancestors_of_outcome,"account_age_weeks, feature_exposure, prior_activity, rollout_batch, satisfaction_depth, user_engagement"
+descendants_of_treatment,"satisfaction_depth, support_ticket, weekly_value"
+parents_of_collider,"feature_exposure, weekly_value"

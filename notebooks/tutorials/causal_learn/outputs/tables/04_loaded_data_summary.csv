@@ -1,0 +1,3 @@
+dataset_name,rows,columns,column_list
+linear_gaussian,2500,6,"need, intent, match, engagement, renewal, support"
+nonlinear_continuous,2500,6,"need, intent, match, engagement, renewal, support"

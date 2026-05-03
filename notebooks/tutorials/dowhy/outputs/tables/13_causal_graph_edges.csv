@@ -1,0 +1,11 @@
+cause,effect
+traffic_intent,recommendation_quality
+catalog_health,recommendation_quality
+latency_pressure,recommendation_quality
+traffic_intent,session_depth
+recommendation_quality,session_depth
+latency_pressure,session_depth
+traffic_intent,future_value
+recommendation_quality,future_value
+session_depth,future_value
+latency_pressure,future_value

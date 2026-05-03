@@ -1,0 +1,6 @@
+check,value,passes,status
+no propensity below 0.05 or above 0.95 for most rows,0.0664112388250319,False,caution
+analysis weight max below clipping cap,10.0,True,passes
+effective sample size at least 70% of rows,0.5110468138671751,False,caution
+mean absolute SMD improves after weighting,0.3311035716490518,True,passes
+maximum absolute SMD improves after weighting,1.1914883634141396,True,passes

@@ -1,0 +1,8 @@
+term,meaning,practical reading
+cf_y,Share of residual outcome variation that a hidden confounder could explain.,Larger values mean a hidden variable predicts the outcome residual more strongly.
+cf_d,Share-like strength for how much hidden confounding can affect the treatment-side score representation.,Larger values mean a hidden variable is more connected to treatment assignment after observed controls.
+rho,Alignment between hidden outcome-side and treatment-side components.,rho = 1 is adversarial for a positive effect; lower absolute values are less extreme.
+theta bounds,Bounds on the point estimate under a sensitivity scenario.,How far the effect estimate could move under the specified hidden confounding strength.
+CI bounds,Sensitivity bounds that also include statistical uncertainty.,The conservative uncertainty range under the specified hidden confounding scenario.
+RV,Robustness value for moving the estimate to the null hypothesis.,How strong confounding needs to be to move the point estimate to the target null.
+RVa,Robustness value adjusted for statistical uncertainty.,How strong confounding needs to be to make the uncertainty-adjusted conclusion touch the target null.

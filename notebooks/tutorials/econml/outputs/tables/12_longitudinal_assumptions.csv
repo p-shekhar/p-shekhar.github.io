@@ -1,0 +1,6 @@
+assumption,plain_language,practical_check
+Sequential ignorability,"At each period, treatment is as-if random after conditioning on observed history.",Include relevant lagged state and treatment history in W; inspect treatment predictability.
+No future leakage,Features used for period t treatment cannot include information observed after treatment t.,Build features from baseline or pre-period state only.
+Positivity over treatment histories,Comparable units have enough variation in treatment at each period.,Check treatment distributions by period and segment.
+Stable unit histories,Each unit's history is internally ordered and not mixed with other units.,Validate one row per unit-period and group-contiguous ordering.
+Correct estimand timing,The outcome window starts after the treatment history being evaluated.,Define treatment periods and final outcome explicitly before modeling.

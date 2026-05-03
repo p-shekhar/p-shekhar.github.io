@@ -1,0 +1,4 @@
+run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
+DirectLiNGAM,6,6,6,6,1.0,1.0,0,0,0,0
+PC_FisherZ,6,6,6,6,1.0,1.0,0,0,0,0
+GES_BIC,6,6,6,6,1.0,1.0,0,0,0,0

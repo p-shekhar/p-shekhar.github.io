@@ -1,0 +1,4 @@
+specification,estimate,ci_95_lower,ci_95_upper,distance_from_true_effect,meaning
+naive_no_controls,3.8967497758813785,3.780465767212348,4.013033784550409,2.3967497758813785,No confounding adjustment.
+observed_controls_only,2.3609543400046302,2.2673487279863043,2.454559952022956,0.8609543400046302,Uses observed proxy variables but omits latent motivation.
+oracle_includes_latent_confounder,1.470193134836622,1.4044292848309494,1.5359569848422945,0.02980686516337805,Only possible in simulation; shows what would happen if the latent confounder were observed.

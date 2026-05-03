@@ -1,0 +1,16 @@
+refuter,estimated_effect,new_effect,p_value,summary
+placebo_treatment_refuter,2.010911607745256,-0.008435063893441442,0.43991889967164877,"Refute: Use a Placebo Treatment
+Estimated effect:2.010911607745256
+New effect:-0.008435063893441442
+p value:0.43991889967164877
+"
+random_common_cause,2.010911607745256,2.010987734029886,0.4767165411465933,"Refute: Add a random common cause
+Estimated effect:2.010911607745256
+New effect:2.010987734029886
+p value:0.4767165411465933
+"
+data_subset_refuter,2.010911607745256,2.0026227513833215,0.33903031838868514,"Refute: Use a subset of data
+Estimated effect:2.010911607745256
+New effect:2.0026227513833215
+p value:0.33903031838868514
+"

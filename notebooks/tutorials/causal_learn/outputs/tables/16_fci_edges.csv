@@ -1,0 +1,8 @@
+run,source,edge_type,target,elapsed_seconds
+FCI_FisherZ,baseline_need,o->,discovery_quality,0.014754782896488905
+FCI_FisherZ,catalog_fit,o->,discovery_quality,0.014754782896488905
+FCI_FisherZ,onboarding_friction,<->,support_contact,0.014754782896488905
+FCI_FisherZ,retention_value,-->,onboarding_friction,0.014754782896488905
+FCI_FisherZ,discovery_quality,-->,early_engagement,0.014754782896488905
+FCI_FisherZ,early_engagement,-->,retention_value,0.014754782896488905
+FCI_FisherZ,support_contact,<->,retention_value,0.014754782896488905

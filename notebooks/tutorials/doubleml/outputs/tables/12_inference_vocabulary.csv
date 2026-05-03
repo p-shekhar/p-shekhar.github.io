@@ -1,0 +1,6 @@
+term,meaning,reporting question
+Standard error,Estimated sampling variability of the treatment-effect estimator.,How noisy is this point estimate?
+Pointwise confidence interval,Interval for one parameter using a marginal critical value.,What range is plausible for this one effect?
+Multiplier bootstrap,Resamples score contributions through random multipliers to approximate estimator uncertainty.,How can we approximate the distribution of t-statistics without refitting nuisances many times?
+Joint confidence interval,Simultaneous interval family designed to cover all selected parameters together.,What ranges are plausible if I discuss all effects as a family?
+Adjusted p-value,P-value corrected for multiple testing across several hypotheses.,Which effects remain evidence-bearing after accounting for multiple looks?

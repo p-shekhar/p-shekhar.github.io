@@ -1,0 +1,4 @@
+method,estimate,absolute_error_vs_truth,uses_controls,uses_cross_fitting
+naive_y_on_d,1.7958048058887348,0.2958048058887348,False,False
+linear_adjusted_y_on_d_plus_x,1.491859239771631,0.00814076022836896,True,False
+doubleml_plr_random_forest_nuisance,1.502049000836665,0.002049000836664927,True,True

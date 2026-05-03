@@ -1,0 +1,9 @@
+item,status
+State the causal estimand before learner selection,required
+List the nuisance learners and their targets,required
+Describe preprocessing and confirm controls are pre-treatment,required
+Report cross-fitting folds and repeated-split choices,required
+Show nuisance prediction diagnostics,recommended
+Show effect stability across a small set of defensible learners,recommended
+"Document tuning search spaces, scores, and trial budgets",required if tuned
+Avoid choosing models based on desired treatment-effect estimates,required

@@ -1,0 +1,8 @@
+path,path_type,for_total_effect,reason
+feature_exposure -> weekly_value,direct causal path,keep open,This is part of the total effect.
+feature_exposure -> satisfaction_depth -> weekly_value,mediated causal path,keep open,This is also part of the total effect.
+feature_exposure <- user_engagement -> weekly_value,backdoor path,block by adjustment,Engagement drives both exposure and outcome.
+feature_exposure <- prior_activity -> weekly_value,backdoor path,block by adjustment,Prior activity drives both exposure and outcome.
+feature_exposure <- account_age_weeks -> weekly_value,backdoor path,block by adjustment,Account age drives both exposure and outcome.
+feature_exposure <- rollout_batch,instrument-like assignment path,not a confounding path,Rollout shifts exposure but has no direct outcome arrow in this graph.
+feature_exposure -> support_ticket <- weekly_value,collider path,leave closed,Conditioning on support_ticket can open a noncausal path.

@@ -1,0 +1,9 @@
+evidence_area,finding,status
+Design,Only pre-treatment controls are used in the main feature set.,documented
+Main estimate,"Main IRM ATE is 0.461 with 95% CI [0.387, 0.536].",estimated
+Overlap,"Estimated propensity p05=0.209, p95=0.732.",checked
+Learner robustness,Learner-family estimates range from 0.334 to 0.458.,checked
+Sample splitting,Repeated split SD is 0.0066.,checked
+Heterogeneity,DR signal summaries suggest larger effects for higher-intent users.,exploratory
+Sensitivity,"Sensitivity bounds are reported for mild, moderate, and strong hidden-confounding scenarios.",stress tested
+Limitations,"Unmeasured confounding, measurement error, and deployment interference remain design risks.",must report

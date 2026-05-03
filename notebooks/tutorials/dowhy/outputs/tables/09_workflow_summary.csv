@@ -1,0 +1,6 @@
+workflow piece,result,lesson
+naive correlation screen,9 candidate edges,marginal dependence produces false positive direct edges
+tiered regression screen,6 candidate edges,time ordering plus conditioning gives a cleaner candidate graph
+true graph refutation,4/4 constraints satisfied,targeted graph implications are consistent with the data
+wrong graph refutation,0/1 constraints satisfied,missing an outcome edge creates a false conditional-independence claim
+effect estimate comparison,correct 1.686; wrong 2.116; target 1.680,graph errors can become estimation errors

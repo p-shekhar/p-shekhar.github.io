@@ -1,0 +1,6 @@
+situation,reasonable policy,watchout
+No fixed budget and treatment cost is known,Treat if estimated net CATE is above zero,Point estimates near zero are fragile; consider uncertainty or a margin.
+Fixed treatment capacity,Top-k ranking by estimated net CATE,Budget curves should be checked instead of relying on one k value.
+Need an interpretable action rule,DRPolicyTree or shallow tree over CATE scores,Interpretability can cost value; compare against score-based policies.
+Need stronger predictive action performance,DRPolicyForest or flexible CATE ranking,The rule may be harder to explain and still needs support checks.
+Offline observational data only,Treat learned policy as a candidate for evaluation,Real deployment should use experiments or valid off-policy evaluation.

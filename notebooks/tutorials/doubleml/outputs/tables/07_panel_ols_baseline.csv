@@ -1,0 +1,2 @@
+estimator,design,theta_hat,std_error,ci_95_lower,ci_95_upper,true_target,bias_vs_target
+OLS on outcome change with covariates,panel,1.0753315417579312,0.016391000703041364,1.0432057707093993,1.107457312806463,1.160607540053306,-0.0852759982953748

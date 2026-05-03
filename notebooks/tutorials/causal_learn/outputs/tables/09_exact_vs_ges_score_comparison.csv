@@ -1,0 +1,3 @@
+run,exact_bic_score_lower_is_better,learned_edges_total
+exact_bic_astar,-9950.952924436579,6
+bic_ges_linear_gaussian,-9950.952924436579,6

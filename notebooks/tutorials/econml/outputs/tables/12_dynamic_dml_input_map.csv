@@ -1,0 +1,7 @@
+component,expected_shape,role
+Y,n_units * n_periods rows,Outcome array. DynamicDML targets the final-period outcome while using the long panel structure.
+T,n_units * n_periods rows,Treatment assigned in each period. Effects are returned separately for each period.
+X,n_units * n_periods rows by d_x columns,Heterogeneity features. First-period X is used for CATE heterogeneity; later X values act like controls.
+W,n_units * n_periods rows by d_w columns,Time-varying controls that help adjust treatment and outcome nuisance models.
+groups,n_units * n_periods rows,Unit identifier. Required so each unit's periods stay together during cross-fitting.
+balanced panel,same number of periods per unit,DynamicDML expects equal-length histories in the installed implementation.

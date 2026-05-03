@@ -1,0 +1,10 @@
+check,why_it_matters
+Treatment and outcome are clearly defined,Meta-learners estimate a specific treatment contrast.
+All X features are pre-treatment,Post-treatment features can contaminate potential outcome modeling.
+Important confounders are included in X,The EconML meta-learner API has no separate W argument.
+Treatment-arm sample sizes are inspected,T- and X-learners depend on arm-specific outcome models.
+Overlap is inspected,Outcome models extrapolate when treated and control feature support differs.
+Outcome model quality is checked by arm,Poor potential-outcome models produce poor CATE estimates.
+Multiple learners are compared,Different meta-learners can tell different CATE stories.
+CATE rankings are evaluated,"Targeting depends on ranking, not only average effect."
+Segment summaries are reported,Segments make unit-level estimates easier to audit and explain.

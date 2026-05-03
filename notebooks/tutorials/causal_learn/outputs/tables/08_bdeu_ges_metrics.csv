@@ -1,0 +1,2 @@
+run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
+bdeu_ges_discrete_mixed,6,2,6,0,0.0,0.0,2,4,0,0

@@ -1,0 +1,10 @@
+field,role,description
+row_id,identifier,Unique row identifier.
+outcome,outcome,Observed outcome Y.
+treatment,treatment,Sharp treatment indicator D = 1[running_score >= cutoff].
+running_score,running variable,Assignment score that determines treatment at the cutoff.
+engagement_score,covariate,Observed pre-assignment covariate.
+baseline_value,covariate,Observed pre-assignment baseline predictor.
+mobile_user,covariate,Observed binary segment marker.
+smooth_score_component,simulation truth,Smooth no-treatment score component.
+true_effect_at_cutoff,simulation truth,True discontinuous effect at the cutoff.

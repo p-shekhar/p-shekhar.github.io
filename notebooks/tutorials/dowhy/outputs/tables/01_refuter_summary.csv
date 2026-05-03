@@ -1,0 +1,4 @@
+refuter,estimated_effect,new_effect,effect_shift,p_value,expected_behavior
+placebo_treatment_refuter,1.9768582400187311,-0.006301406747192218,-1.9831596467659234,0.4466554098104307,The new effect should move toward zero when treatment is replaced by a fake treatment.
+random_common_cause,1.9768582400187311,1.9769145393986842,5.629937995310641e-05,0.4764615292382062,Adding a random irrelevant common cause should not materially change the estimate.
+data_subset_refuter,1.9768582400187311,1.9701411854530115,-0.006717054565719582,0.29528638696616305,Subsample estimates should remain in the same neighborhood as the original estimate.

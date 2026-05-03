@@ -1,0 +1,2 @@
+method,predicted_edges,true_edges,true_positive_edges,false_positive_edges,false_negative_edges,precision,recall,f1,missed_edges,extra_edges,threshold,elapsed_seconds
+Granger_Lasso_lagged_edges,8,8,8,0,0,1.0,1.0,1.0,,,0.08,0.14945533405989408

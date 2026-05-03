@@ -1,0 +1,8 @@
+item,what_to_report,why_it_matters
+Observed indicator map,Which measured columns are candidate indicators and how they were selected.,GIN learns latent groups from observed indicators; irrelevant columns can distort clusters.
+Measurement model assumption,Whether indicators are expected to have one latent parent or possible cross-loadings.,Cross-loaded indicators can move into the wrong learned cluster.
+Distributional assumption,Whether non-Gaussianity is plausible or checked.,The method is designed for linear non-Gaussian latent-variable structure.
+Cluster quality diagnostics,"Cluster membership, cluster size, stability, and domain meaning.",The latent labels are arbitrary until the indicator membership gives them meaning.
+Latent order stability,"Whether the learned order changes across seeds, samples, or plausible preprocessing choices.",Correct clusters do not guarantee a stable causal order among latent constructs.
+Sensitivity checks,"Noise, weak indicators, cross-loading, alternative tests, and sample-size checks.",Latent discovery can look clean in one specification and fragile in another.
+Claim strength,Whether the output is used as a candidate measurement graph or a causal conclusion.,Latent-variable discovery needs external support before strong claims are made.

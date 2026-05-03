@@ -1,0 +1,39 @@
+---
+title: "AI System Project Title"
+description: "One sentence describing the workflow, users, and reliability problem."
+date: YYYY-MM-DD
+categories: [AI Systems, LLMOps, Method]
+---
+
+## System Goal
+
+What user workflow or organizational problem does this system support?
+
+## Users And Use Case
+
+Who uses it, what do they need, and what counts as success?
+
+## Architecture
+
+Describe the major components: retrieval, tools, agents, model calls, storage, evaluation, monitoring, and deployment.
+
+## Data And Context
+
+Describe documents, images, structured data, metadata, prompts, and evaluation examples.
+
+## Evaluation
+
+Define quality metrics, automated evaluators, human review, and regression tests.
+
+## Failure Modes
+
+Discuss hallucination, missing context, retrieval errors, drift, latency, cost, unsafe tool use, and version regressions.
+
+## Monitoring And LLMOps
+
+Explain tracing, dashboards, alerting, prompt/model versioning, and release discipline.
+
+## Deployment Recommendation
+
+Translate the evidence into a launch, iterate, or hold recommendation.
+

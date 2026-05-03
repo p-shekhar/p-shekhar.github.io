@@ -1,0 +1,6 @@
+source,target,edge_type,readable_edge
+need,match,undirected,need -- match
+intent,renewal,directed,intent -> renewal
+match,engagement,undirected,match -- engagement
+engagement,renewal,directed,engagement -> renewal
+engagement,support,undirected,engagement -- support

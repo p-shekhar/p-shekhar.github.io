@@ -1,0 +1,9 @@
+run,source,edge_type,target
+high_alpha_with_prior,need,-->,match
+high_alpha_with_prior,need,-->,renewal
+high_alpha_with_prior,need,-->,support
+high_alpha_with_prior,intent,-->,match
+high_alpha_with_prior,intent,-->,renewal
+high_alpha_with_prior,match,-->,engagement
+high_alpha_with_prior,engagement,-->,renewal
+high_alpha_with_prior,engagement,-->,support

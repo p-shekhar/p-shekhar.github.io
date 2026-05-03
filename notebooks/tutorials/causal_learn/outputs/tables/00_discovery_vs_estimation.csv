@@ -1,0 +1,4 @@
+task,typical_question,typical_output,common_tools
+Causal discovery,Which variables may be directly connected in a causal graph?,"Candidate DAG, CPDAG, PAG, or partially oriented graph.","causal-learn, Tetrad, Tigramite, gCastle."
+Identification,"Given a graph and assumptions, what estimand identifies the causal effect?","Backdoor, frontdoor, IV, mediation, or other estimand.","DoWhy, graphical criteria, domain reasoning."
+Effect estimation,"How large is the effect, and how does it vary across units?","ATE, CATE, intervals, policy value, sensitivity checks.","EconML, DoWhy estimators, statsmodels, sklearn-style models."

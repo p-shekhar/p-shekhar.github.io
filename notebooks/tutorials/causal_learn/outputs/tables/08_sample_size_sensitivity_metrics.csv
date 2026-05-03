@@ -1,0 +1,6 @@
+run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies,sample_size
+bic_ges_n_100,7,2,6,2,1.0,0.3333333333333333,0,4,0,1,100
+bic_ges_n_250,6,6,6,6,1.0,1.0,0,0,0,0,250
+bic_ges_n_500,6,6,6,6,1.0,1.0,0,0,0,0,500
+bic_ges_n_1000,6,6,6,6,1.0,1.0,0,0,0,0,1000
+bic_ges_n_2500,6,6,6,6,1.0,1.0,0,0,0,0,2500

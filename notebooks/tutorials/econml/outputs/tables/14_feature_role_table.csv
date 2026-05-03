@@ -1,0 +1,17 @@
+field,econml_role,reason
+onboarding_gap,X,May directly change how much help onboarding provides.
+prior_sessions,X,Early activity can modify treatment value.
+content_diversity,X,Breadth of interests can make guided discovery more useful.
+search_difficulty,X,Search difficulty is a clear need signal.
+support_contacts,X,Support burden may limit incremental benefit.
+price_sensitivity,X,Cost concerns can reduce realized impact.
+device_reliability,X,Technical reliability can enable or block benefit.
+high_motivation_segment,X,Motivation segment is an actionable effect modifier.
+tenure_weeks,W,Account age adjusts for maturity at decision time.
+region_competition,W,Market competition affects both assignment and outcome.
+market_maturity,W,Market maturity adjusts for environment quality.
+marketing_pressure,W,Other marketing pressure can confound outcomes.
+account_complexity,W,Operational complexity adjusts for baseline value.
+referral_organic,W,Acquisition source can confound early engagement.
+weekday_signup,W,Signup day controls timing patterns.
+mobile_primary,W,Primary device controls experience differences.

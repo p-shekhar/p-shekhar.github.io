@@ -1,0 +1,26 @@
+---
+title: "PEFT, LoRA, and QLoRA tutorial roadmap"
+description: "A tutorial outline for efficient LLM fine-tuning and evaluation."
+date: 2026-04-26
+categories: [Fine-Tuning, PEFT, LoRA, QLoRA]
+---
+
+## Tutorial Goal
+
+Explain when fine-tuning is appropriate, how parameter-efficient fine-tuning works, and how to evaluate whether it improves the target task.
+
+## Sections To Build
+
+1. Fine-tuning versus prompting versus retrieval.
+2. Dataset construction and labeling.
+3. PEFT and LoRA concepts.
+4. QLoRA for memory-efficient training.
+5. Evaluation and regression testing.
+6. Deployment and model versioning.
+
+## Notebook Plan
+
+- `notebooks/lora-fine-tuning/01-data-preparation.ipynb`
+- `notebooks/lora-fine-tuning/02-peft-lora-basics.ipynb`
+- `notebooks/lora-fine-tuning/03-evaluation.ipynb`
+

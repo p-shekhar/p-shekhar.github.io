@@ -1,0 +1,5 @@
+situation,why CausalForestDML helps,watchout
+Expected heterogeneity is nonlinear or interaction-heavy,The forest can split on feature regions without manually specifying every interaction.,Use slices and segment summaries to keep the result explainable.
+The main goal is treatment targeting,Ranking quality can improve when the true CATE surface is nonlinear.,"Evaluate targeting with policy checks, experiments, or simulation truth when available."
+There are weak-overlap regions,Intervals and local estimates can reveal uncertainty.,Avoid overusing estimates in unsupported regions.
+A simple coefficient narrative is required,Feature importance and slices can still explain broad patterns.,A linear DML model may be easier to communicate if performance is similar.

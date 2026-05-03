@@ -1,0 +1,2 @@
+learned_latent,order_position,members,member_names,majority_true_latent,cluster_size,cluster_purity
+L1,1,"X1, X2, X3, X4, X6","X1_need_search, X2_need_depth, X3_need_variety, X4_value_click, X6_value_return",latent_need,5,0.6

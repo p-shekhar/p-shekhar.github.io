@@ -1,0 +1,9 @@
+artifact,path
+synthetic PLR data,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/datasets/11_synthetic_panel_like_plr_data.csv
+fold count comparison,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/11_fold_count_comparison.csv
+repeated cross-fitting summary,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/11_repeated_cross_fitting_summary.csv
+external split audit,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/11_external_split_group_audit.csv
+manual no-cross-fit caution,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/11_manual_no_cross_fit_caution.csv
+report template,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/reports/11_sample_splitting_report_template.md
+cross-fitting workflow figure,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/11_cross_fitting_workflow.png
+fold assignment heatmap,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/11_fold_assignment_heatmap.png

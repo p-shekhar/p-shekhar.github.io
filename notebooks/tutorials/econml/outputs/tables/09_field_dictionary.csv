@@ -1,0 +1,17 @@
+field,role,description
+baseline_need,Observed covariate,Latent demand or need level before treatment.
+prior_engagement,Observed covariate,Historical engagement before treatment assignment.
+friction_score,Observed covariate,Higher values mean more friction in the user experience.
+content_affinity,Observed covariate,Match between the user and the content or offer.
+price_sensitivity,Observed covariate,Higher values mean the user is more sensitive to cost or effort.
+account_tenure,Observed covariate,Age of the account in weeks.
+region_risk,Observed covariate,Binary marker for regions with lower baseline outcomes.
+seasonality_index,Observed covariate,Time or market condition signal observed before treatment.
+device_stability,Observed covariate,Technical stability proxy; higher values are better.
+high_need_segment,Observed covariate,Binary segment derived from baseline need.
+support_risk,Observed covariate,Marker for weaker overlap and noisier outcomes.
+treatment,Treatment,Whether the unit received the intervention.
+outcome,Outcome,Observed continuous outcome after treatment assignment.
+true_propensity,Teaching-only truth,Known probability of treatment in the synthetic assignment process.
+true_cate,Teaching-only truth,Known conditional treatment effect for each row.
+noise_scale,Teaching-only truth,Known residual noise level used when generating the outcome.

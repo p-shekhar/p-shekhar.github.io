@@ -1,0 +1,3 @@
+learner_name,use_case
+Regularized linear nuisance,Transparent baseline; may underfit nonlinear nuisance functions.
+Histogram gradient boosting nuisance,"Captures nonlinearities in outcome, treatment, and instrument nuisance functions."

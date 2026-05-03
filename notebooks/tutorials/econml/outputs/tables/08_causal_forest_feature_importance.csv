@@ -1,0 +1,8 @@
+feature,importance,true_cate_driver
+friction_score,0.3798872993342194,True
+content_affinity,0.2788328637981857,True
+baseline_need,0.19219071140162264,True
+prior_engagement,0.1020344151230253,True
+price_sensitivity,0.04372165872874392,True
+region_risk,0.003317878910466187,True
+high_need_segment,1.5172703736813321e-05,True

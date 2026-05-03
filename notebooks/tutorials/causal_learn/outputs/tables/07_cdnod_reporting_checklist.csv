@@ -1,0 +1,7 @@
+topic,question_to_answer,reporting_note
+environment definition,"What does the environment or time index represent, and why should it capture distribution shift?",Do not treat environment as a normal treatment unless that reading is justified.
+shift diagnostics,Which variables or relationships visibly change across environments before discovery?,"Show simple summaries such as means, slopes, or distribution plots."
+pooled baseline,How does ordinary pooled PC behave when environment is ignored?,Use this as a diagnostic for stationary-model fragility.
+environment edges,"Which variables are connected to the environment node, and are those edges stable?",Interpret them as nonstationarity or mechanism-shift signals.
+background knowledge,"What ordering constraints were used, and are they justified by timing or domain design?",Invalid constraints can make the graph look cleaner than the evidence supports.
+sensitivity,How do the graph and environment targets change across alpha values?,Stable findings deserve more weight than tuning-specific edges.

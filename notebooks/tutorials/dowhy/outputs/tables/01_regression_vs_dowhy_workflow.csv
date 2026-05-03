@@ -1,0 +1,6 @@
+workflow_component,plain_regression_workflow,dowhy_workflow
+Causal assumptions,Often implicit in the formula choice.,Written as a causal graph before estimation.
+Identification,Usually skipped or described informally.,Explicit `identify_effect()` step returns an estimand and assumptions.
+Estimation,Regression coefficient is the main output.,Estimator is chosen after the estimand is identified.
+Robustness checks,Often added manually if time allows.,Refuters are part of the standard workflow.
+Reporting,May over-focus on coefficient and p-value.,"Should report graph assumptions, estimand, estimate, refuters, and limitations."

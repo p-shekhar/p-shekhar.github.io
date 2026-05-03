@@ -1,0 +1,20 @@
+notebook,theme,main_skill
+00_environment_and_library_tour.ipynb,Orientation,Understand what DoubleML is for and run a first PLR smoke test.
+01_dml_theory_orthogonalization_and_cross_fitting.ipynb,Theory,"Understand regularization bias, orthogonal scores, and cross-fitting."
+02_data_backend_doublemldata_and_design_setup.ipynb,Data setup,Create data containers and audit variable roles.
+03_partially_linear_regression_plr.ipynb,PLR,Estimate continuous-treatment effects with DoubleMLPLR.
+04_partially_linear_iv_pliv.ipynb,IV,Use instruments for continuous treatments with DoubleMLPLIV.
+05_interactive_regression_model_irm.ipynb,Binary treatment,Estimate ATE and ATT-style effects with DoubleMLIRM.
+06_interactive_iv_model_iivm.ipynb,Binary IV,Estimate instrument-induced local effects with DoubleMLIIVM.
+07_difference_in_differences_did.ipynb,DID,Use DoubleML for before-after comparison designs.
+08_sample_selection_models.ipynb,Selection,Handle outcomes observed only for selected samples.
+09_regression_discontinuity_design_rdd.ipynb,RDD,Structure cutoff-based local effect estimation.
+10_learners_hyperparameters_and_tuning.ipynb,Learners,Choose and tune nuisance learners without leakage.
+11_sample_splitting_cross_fitting_and_repeated_cross_fitting.ipynb,Resampling,Control sample splits and repeated cross-fitting.
+12_inference_bootstrap_and_confidence_bands.ipynb,Inference,"Report uncertainty, confidence intervals, and bootstrap results."
+13_sensitivity_analysis_for_unobserved_confounding.ipynb,Sensitivity,Assess hidden-confounding robustness where supported.
+14_heterogeneous_treatment_effects_gate_cate_blp.ipynb,Heterogeneity,Report subgroup and conditional effect summaries.
+15_policy_learning_weighted_ates_quantiles_and_cvar.ipynb,Decision targets,"Work with weighted, policy, quantile, and tail-risk causal targets."
+16_custom_scores_and_advanced_api.ipynb,Advanced API,Understand custom scores and extension patterns.
+17_common_pitfalls_diagnostics_and_reporting.ipynb,Pitfalls,"Diagnose overlap, leakage, weak instruments, and bad controls."
+18_end_to_end_doubleml_case_study.ipynb,Case study,Combine the full workflow into a final report.

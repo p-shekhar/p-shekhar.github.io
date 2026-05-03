@@ -1,0 +1,3 @@
+run,source,edge_type,target
+hidden_truth,latent_need,-->,discovery_quality
+hidden_truth,latent_need,-->,retention_value

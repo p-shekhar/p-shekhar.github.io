@@ -1,0 +1,8 @@
+item,what_to_report,why_it_matters
+Graph target,"Whether metrics target a DAG, CPDAG, PAG, skeleton, or weighted adjacency matrix.",Different algorithms return different graph objects and should not be collapsed casually.
+Data-generating assumptions,"Linearity, noise family, causal sufficiency, stationarity, and sample size.",Benchmark performance only applies to the assumptions actually tested.
+Skeleton and direction metrics,Report adjacency recovery separately from arrow-direction recovery.,Partially directed graphs can have correct adjacencies but unresolved directions.
+Tuning settings,"PC alpha, GES penalty, coefficient threshold, and any prior knowledge used.",Graph output can change materially across tuning choices.
+Stability checks,"Seed, sample-size, noise, resampling, and graph-signature stability.",A single graph can hide high variance across plausible datasets.
+Assumption stress tests,"Nonlinearity, Gaussian noise, hidden confounding, missingness, or selection stress.",Failure modes are often more informative than the clean baseline result.
+Claim strength,"Whether learned edges are final claims, candidate hypotheses, or diagnostic signals.",Causal discovery rarely justifies strong claims without domain and design support.

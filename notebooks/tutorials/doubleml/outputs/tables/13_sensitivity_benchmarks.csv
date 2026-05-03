@@ -1,0 +1,4 @@
+treatment,cf_y,cf_d,rho,delta_theta,benchmark,benchmarking_set
+treatment,0.002367268727507544,0.011437938413593012,1.0,0.006019200613477049,proxy_light omitted,proxy_light
+treatment,0.06772131706753536,0.060162372443464576,1.0,0.06448634338986836,proxy_strong omitted,proxy_strong
+treatment,0.08061739687384509,0.09019713448950256,1.0,0.08355397565943168,both proxies omitted,"proxy_light, proxy_strong"

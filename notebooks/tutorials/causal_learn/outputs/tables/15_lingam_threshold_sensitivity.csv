@@ -1,0 +1,6 @@
+scenario,method,reported_edges,skeleton_precision,skeleton_recall,skeleton_f1,directed_precision,directed_recall,directed_f1,extra_adjacencies,missed_adjacencies,reversed_true_edges,extra_adjacency_list,missed_adjacency_list,threshold
+lingam_threshold_0.05,DirectLiNGAM,6,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,0.05
+lingam_threshold_0.08,DirectLiNGAM,6,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,0.08
+lingam_threshold_0.12,DirectLiNGAM,6,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,0.12
+lingam_threshold_0.16,DirectLiNGAM,6,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,0.16
+lingam_threshold_0.2,DirectLiNGAM,6,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,0.2

@@ -1,0 +1,10 @@
+column,role,description
+unit_id,identifier,Synthetic row identifier; excluded from modeling.
+x00-x11,observed controls,Numeric pre-treatment controls used to create confounding.
+segment,observed control,Categorical control derived from x00 with noise.
+channel,observed control,Categorical acquisition/source-style control.
+tenure_band,observed control,Categorical tenure-style control derived from x01 with noise.
+true_m,oracle only,True treatment nuisance E[D|X] used only for simulation diagnostics.
+true_g,oracle only,True outcome nuisance component g0(X) used only for simulation diagnostics.
+treatment,treatment,Continuous treatment D.
+outcome,outcome,Continuous outcome Y.

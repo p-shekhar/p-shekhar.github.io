@@ -1,0 +1,7 @@
+concept,meaning,why_it_matters
+linear structural equations,Each variable is modeled as a weighted sum of earlier variables plus an error term.,The learned adjacency matrix can be read as direct linear effects.
+non-Gaussian independent errors,Noise terms are independent and not normally distributed.,This breaks some direction symmetries that remain under Gaussian linear models.
+acyclicity,The causal graph has no directed feedback loops within the same time slice.,"LiNGAM estimates a causal order, so cycles are outside the basic model."
+causal order,An ordering where parents appear before children.,DirectLiNGAM estimates this order before estimating edge coefficients.
+coefficient threshold,Small estimated coefficients are often treated as absent edges for reporting.,"Threshold choice affects precision, recall, and graph readability."
+bootstrap probability,The frequency with which an edge appears across resampled datasets.,"It gives a practical stability check, not a proof of causality."

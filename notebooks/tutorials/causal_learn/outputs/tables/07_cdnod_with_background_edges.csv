@@ -1,0 +1,9 @@
+run,source,edge_type,target
+cdnod_with_background_knowledge,need,-->,match
+cdnod_with_background_knowledge,environment,-->,need
+cdnod_with_background_knowledge,intent,-->,match
+cdnod_with_background_knowledge,intent,-->,renewal
+cdnod_with_background_knowledge,environment,-->,intent
+cdnod_with_background_knowledge,match,-->,engagement
+cdnod_with_background_knowledge,engagement,-->,renewal
+cdnod_with_background_knowledge,engagement,-->,support

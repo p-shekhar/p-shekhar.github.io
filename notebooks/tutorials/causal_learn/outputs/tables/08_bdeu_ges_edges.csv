@@ -1,0 +1,7 @@
+run,source,edge_type,target
+bdeu_ges_discrete_mixed,need,---,match
+bdeu_ges_discrete_mixed,match,-->,intent
+bdeu_ges_discrete_mixed,renewal,-->,intent
+bdeu_ges_discrete_mixed,match,---,engagement
+bdeu_ges_discrete_mixed,engagement,---,renewal
+bdeu_ges_discrete_mixed,engagement,---,support

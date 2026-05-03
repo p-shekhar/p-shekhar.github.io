@@ -1,0 +1,8 @@
+risk,what_goes_wrong,how_to_debug
+Weak overlap,Some users have almost no chance of being treated or untreated.,"Propensity distributions, bucket counts, effective sample size, trimming checks."
+Outcome leakage,A feature contains future outcome information or is built after the outcome window.,"Too-good metrics, suspicious feature timing, impossible prediction inputs."
+Post-treatment controls,A mediator or downstream variable is used as a confounder.,Estimated effect changes because part of the treatment pathway is blocked.
+Bad nuisance models,Treatment or outcome models are too weak for the adjustment problem.,"Poor nuisance diagnostics, unstable CATE estimates, weak calibration."
+Overread unit CATE,Individual treatment effects are treated as precise facts.,"Noisy scatter, unstable deciles, wide bootstrap policy intervals."
+Segment hunting,Many segments are searched until some look impressive by chance.,Random segment stress tests and transparent multiple-comparison caveats.
+Thin reporting,"A report gives a point estimate without assumptions, diagnostics, or caveats.","Checklist requiring estimand, overlap, model diagnostics, sensitivity, and decision context."
