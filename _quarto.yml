@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: _site
   resources:
+    - "assets/**"
+    - "img/**"
+    - "CV/*.pdf"
     - "notebooks/projects/*/writeup/**"
     - "notebooks/tutorials/*/outputs/**"
   render:
@@ -10,62 +13,61 @@ project:
     - "projects/"
     - "notes/"
     - "tutorials/"
+    - "dashboards/"
     - "writing/"
     - "posts/"
     - "notebooks/projects/*/*.ipynb"
     - "notebooks/tutorials/*/*.ipynb"
     - "notebooks/lectures/*/*.ipynb"
     - "notebooks/lectures/*/*/*.ipynb"
+    - "!notebooks/lectures/MA506-*/**"
     - "!templates/"
   preview:
     port: 4200
     browser: false
+  post-render:
+    - scripts/clean-generated-html.py
 
 website:
-  title: "Causal Inference, AI Systems & Data Science"
-  description: "A professional portfolio and knowledge hub for causal inference, trustworthy AI systems, and data science."
+  title: "Prashant Shekhar"
+  description: "Portfolio of Prashant Shekhar, PhD: causal inference, experimentation, off-policy evaluation, uncertainty, interpretable ML, privacy-aware AI, and operational decision systems."
   site-url: "https://p-shekhar.github.io/"
   repo-url: "https://github.com/p-shekhar/p-shekhar.github.io"
   search: true
   navbar:
     pinned: true
+    title: false
+    logo: assets/linkedin-brand.svg
+    logo-alt: "LinkedIn profile"
+    logo-href: "https://www.linkedin.com/in/prashant-shekhar-36586a28/"
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
-      - href: expertise/index.qmd
-        text: Expertise
       - href: projects/index.qmd
         text: Projects
       - href: notes/index.qmd
         text: Lecture Notes
       - href: tutorials/index.qmd
         text: Tutorials
-      - href: writing/index.qmd
-        text: Writing
       - href: resources.qmd
         text: Resources
-      - href: cv.qmd
-        text: CV
+      - href: dashboards/index.qmd
+        text: Dashboards
+      - href: about.qmd
+        text: About
     right:
       - icon: github
         href: "https://github.com/p-shekhar"
         aria-label: GitHub
-      - icon: linkedin
-        href: "https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG/"
-        aria-label: LinkedIn
       - icon: envelope
-        href: "mailto:YOUR.EMAIL@example.edu"
+        href: "mailto:shekharp.erau@gmail.com"
         aria-label: Email
   page-footer:
-    left: "(c) 2026 YOUR NAME"
-    center: "Causal inference, trustworthy AI systems, experimentation, and decision science."
+    left: "Copyright@Prashant Shekhar, 2026"
+    center: "Business data science, causal inference, experimentation, and statistical decision systems."
     right:
       - icon: github
         href: "https://github.com/p-shekhar"
-      - icon: linkedin
-        href: "https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG/"
 
 format:
   html:
@@ -78,6 +80,7 @@ format:
     code-overflow: wrap
     anchor-sections: true
     smooth-scroll: true
+    link-external-newwindow: true
     include-in-header:
       text: |
         <meta name="theme-color" content="#f7f4ed">
@@ -90,6 +93,8 @@ format:
             const target = new URL(`${offset}${link.dataset.sitePath}`, window.location.href);
             link.href = target.href;
             link.dataset.originalHref = target.href;
+            link.target = "_self";
+            link.removeAttribute("rel");
           };
 
           const normalizeNotebookLinks = () => {
@@ -104,6 +109,471 @@ format:
               setNotebookHref(link);
             }
           }, true);
+          document.addEventListener("click", (event) => {
+            const link = event.target.closest("a[data-site-path]");
+            if (!link || event.defaultPrevented) {
+              return;
+            }
+            setNotebookHref(link);
+            if (event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+              event.preventDefault();
+              window.location.assign(link.href);
+            }
+          }, true);
+        })();
+        </script>
+        <script>
+        (() => {
+          const isInternalLink = (link) => {
+            const href = link.getAttribute("href");
+            if (!href || href.startsWith("#")) {
+              return true;
+            }
+            if (/^(mailto:|tel:|javascript:)/i.test(href)) {
+              return false;
+            }
+
+            const url = new URL(href, window.location.href);
+            return (
+              url.hostname === window.location.hostname ||
+              url.hostname === "p-shekhar.github.io"
+            );
+          };
+
+          const normalizeInternalLinks = () => {
+            document.querySelectorAll("a[target='_blank'], a[target=\"_blank\"]").forEach((link) => {
+              if (isInternalLink(link)) {
+                link.removeAttribute("target");
+                if (link.getAttribute("rel") === "noopener noreferrer") {
+                  link.removeAttribute("rel");
+                }
+              }
+            });
+          };
+
+          normalizeInternalLinks();
+          window.addEventListener("DOMContentLoaded", normalizeInternalLinks);
+          window.addEventListener("pageshow", normalizeInternalLinks);
+          document.addEventListener("pointerdown", (event) => {
+            const link = event.target.closest("a");
+            if (link && isInternalLink(link)) {
+              link.removeAttribute("target");
+              if (link.getAttribute("rel") === "noopener noreferrer") {
+                link.removeAttribute("rel");
+              }
+            }
+          }, true);
+        })();
+        </script>
+        <script>
+        (() => {
+          const syncProjectToc = () => {
+            if (!document.body.classList.contains("projects-index")) {
+              return;
+            }
+
+            const toc = document.querySelector("#TOC > ul");
+            if (!toc) {
+              return;
+            }
+
+            const topItems = Array.from(toc.children).filter((item) => item.tagName === "LI");
+            if (topItems.length === 0) {
+              return;
+            }
+
+            let openItem = topItems.find((item) => item.querySelector("ul a.active"));
+            if (!openItem) {
+              openItem = topItems.find((item) => item.querySelector(":scope > a.active"));
+            }
+            if (!openItem) {
+              const hash = window.location.hash;
+              openItem = topItems.find((item) => {
+                const links = Array.from(item.querySelectorAll("a"));
+                return links.some((link) => link.hash === hash);
+              });
+            }
+            if (!openItem) {
+              openItem = topItems[0];
+            }
+
+            topItems.forEach((item) => {
+              item.classList.toggle("project-toc-open", item === openItem);
+            });
+          };
+
+          window.addEventListener("DOMContentLoaded", syncProjectToc);
+          window.addEventListener("load", syncProjectToc);
+          window.addEventListener("scroll", () => window.requestAnimationFrame(syncProjectToc), { passive: true });
+          window.addEventListener("hashchange", syncProjectToc);
+          document.addEventListener("click", (event) => {
+            if (event.target.closest("body.projects-index #TOC a")) {
+              window.setTimeout(syncProjectToc, 50);
+            }
+          });
+
+          const toc = document.querySelector("#TOC");
+          if (toc) {
+            const observer = new MutationObserver(syncProjectToc);
+            observer.observe(toc, { attributes: true, subtree: true, attributeFilter: ["class"] });
+          }
+        })();
+        </script>
+        <script>
+        (() => {
+          let notesTocFrame = null;
+
+          const isNotesIndex = () => document.body.classList.contains("notes-index");
+
+          const getNotesSections = (main) => {
+            return Array.from(main.querySelectorAll(":scope > section.level2, :scope section.level3.course-preview-row"))
+              .filter((section) => section.id);
+          };
+
+          const getActiveNotesSection = (sections) => {
+            const activationTop = Math.min(160, Math.max(88, window.innerHeight * 0.18));
+            return sections.reduce((active, section) => {
+              return section.getBoundingClientRect().top <= activationTop ? section : active;
+            }, sections[0]);
+          };
+
+          const setCourseTocText = (link, title) => {
+            const match = title.match(/^(Course\s+\d+:)\s*(.*)$/);
+            if (!match) {
+              link.textContent = title;
+              return;
+            }
+
+            const number = document.createElement("span");
+            number.className = "toc-course-number";
+            number.textContent = match[1];
+
+            link.replaceChildren(number, document.createTextNode(` ${match[2]}`));
+          };
+
+          const updateNotesTocActive = () => {
+            if (!isNotesIndex()) {
+              return;
+            }
+
+            const toc = document.querySelector("#TOC");
+            const main = document.querySelector("main.content");
+            if (!toc || !main) {
+              return;
+            }
+
+            const sections = getNotesSections(main);
+            if (sections.length === 0) {
+              return;
+            }
+
+            const activeSection = getActiveNotesSection(sections);
+            const activeModule = activeSection.matches("section.level3.course-preview-row")
+              ? activeSection.closest("section.level2")
+              : activeSection;
+            const activeModuleHash = activeModule?.id ? `#${activeModule.id}` : "";
+
+            toc.querySelectorAll("a.nav-link").forEach((link) => {
+              link.classList.toggle("active", link.hash === `#${activeSection.id}`);
+            });
+
+            Array.from(toc.querySelectorAll(":scope > ul > li")).forEach((item) => {
+              const moduleLink = item.querySelector(":scope > a.nav-link");
+              item.classList.toggle("notes-toc-open", moduleLink?.hash === activeModuleHash);
+            });
+          };
+
+          const scheduleNotesTocActive = () => {
+            if (notesTocFrame !== null) {
+              window.cancelAnimationFrame(notesTocFrame);
+            }
+
+            notesTocFrame = window.requestAnimationFrame(() => {
+              notesTocFrame = null;
+              updateNotesTocActive();
+            });
+          };
+
+          const syncNotesToc = () => {
+            if (!isNotesIndex()) {
+              return;
+            }
+
+            const toc = document.querySelector("#TOC > ul");
+            const main = document.querySelector("main.content");
+            if (!toc || !main) {
+              return;
+            }
+
+            const modules = Array.from(main.querySelectorAll(":scope > section.level2"));
+            const tocItems = Array.from(toc.children).filter((item) => item.tagName === "LI");
+
+            modules.forEach((module) => {
+              const moduleLink = tocItems
+                .map((item) => item.querySelector(":scope > a"))
+                .find((link) => link && link.hash === `#${module.id}`);
+              const moduleItem = moduleLink?.parentElement;
+              if (!moduleItem) {
+                return;
+              }
+
+              let nested = moduleItem.querySelector(":scope > ul");
+              if (!nested) {
+                nested = document.createElement("ul");
+                moduleItem.appendChild(nested);
+              }
+
+              const courses = Array.from(module.querySelectorAll(":scope section.level3.course-preview-row"));
+              const signature = courses.map((course) => `${course.id}:${course.querySelector("h3")?.textContent?.trim() || ""}`).join("|");
+              if (nested.dataset.notesCourseSignature === signature) {
+                return;
+              }
+
+              nested.dataset.notesCourseSignature = signature;
+              nested.replaceChildren(...courses.map((course) => {
+                const heading = course.querySelector("h3");
+                const id = course.id || heading?.dataset.anchorId;
+                const title = heading?.textContent?.trim();
+                const item = document.createElement("li");
+                const link = document.createElement("a");
+
+                link.className = "nav-link";
+                link.href = `#${id}`;
+                link.dataset.scrollTarget = `#${id}`;
+                setCourseTocText(link, title || id);
+                item.appendChild(link);
+
+                return item;
+              }));
+            });
+
+            updateNotesTocActive();
+          };
+
+          window.addEventListener("DOMContentLoaded", syncNotesToc);
+          window.addEventListener("load", syncNotesToc);
+          window.addEventListener("pageshow", syncNotesToc);
+          window.addEventListener("scroll", scheduleNotesTocActive, { passive: true });
+          window.addEventListener("resize", scheduleNotesTocActive);
+          window.addEventListener("hashchange", () => window.setTimeout(updateNotesTocActive, 50));
+          document.addEventListener("click", (event) => {
+            if (event.target.closest("body.notes-index #TOC a")) {
+              window.setTimeout(updateNotesTocActive, 50);
+            }
+          });
+
+          const toc = document.querySelector("#TOC");
+          if (toc) {
+            const observer = new MutationObserver(() => syncNotesToc());
+            observer.observe(toc, {
+              attributes: true,
+              childList: true,
+              subtree: true,
+              attributeFilter: ["class"]
+            });
+          }
+        })();
+        </script>
+        <script>
+        (() => {
+          let tutorialsTocFrame = null;
+
+          const isTutorialsIndex = () => document.body.classList.contains("tutorials-index");
+
+          const getTutorialSections = () => {
+            const main = document.querySelector("main.content");
+            if (!main) {
+              return [];
+            }
+
+            return Array.from(main.querySelectorAll("section.level3.course-preview-row"))
+              .filter((section) => section.id);
+          };
+
+          const getActiveTutorialSection = (sections) => {
+            const activationTop = Math.min(160, Math.max(88, window.innerHeight * 0.18));
+            return sections.reduce((active, section) => {
+              return section.getBoundingClientRect().top <= activationTop ? section : active;
+            }, sections[0]);
+          };
+
+          const updateTutorialsTocActive = () => {
+            if (!isTutorialsIndex()) {
+              return;
+            }
+
+            const toc = document.querySelector("#TOC");
+            const sections = getTutorialSections();
+            if (!toc || sections.length === 0) {
+              return;
+            }
+
+            const activeSection = getActiveTutorialSection(sections);
+            const activeHash = `#${activeSection.id}`;
+
+            toc.querySelectorAll("a.nav-link").forEach((link) => {
+              link.classList.toggle("active", link.hash === activeHash);
+            });
+          };
+
+          const scheduleTutorialsTocActive = () => {
+            if (tutorialsTocFrame !== null) {
+              window.cancelAnimationFrame(tutorialsTocFrame);
+            }
+
+            tutorialsTocFrame = window.requestAnimationFrame(() => {
+              tutorialsTocFrame = null;
+              updateTutorialsTocActive();
+            });
+          };
+
+          const syncTutorialsToc = () => {
+            if (!isTutorialsIndex()) {
+              return;
+            }
+
+            const tocRoot = document.querySelector("#TOC > ul");
+            const main = document.querySelector("main.content");
+            if (!tocRoot || !main) {
+              return;
+            }
+
+            const tracks = Array.from(main.querySelectorAll("section.level3.course-preview-row"))
+              .filter((section) => section.id);
+            const parentItem = tocRoot.querySelector("li");
+            if (!parentItem || tracks.length === 0) {
+              return;
+            }
+
+            const signature = tracks.map((track) => `${track.id}:${track.querySelector("h3")?.textContent?.trim() || ""}`).join("|");
+            let nested = parentItem.querySelector(":scope > ul");
+            if (!nested) {
+              nested = document.createElement("ul");
+              parentItem.appendChild(nested);
+            }
+            if (nested.dataset.tutorialTrackSignature === signature) {
+              updateTutorialsTocActive();
+              return;
+            }
+
+            nested.dataset.tutorialTrackSignature = signature;
+            nested.replaceChildren(...tracks.map((track) => {
+              const heading = track.querySelector("h3");
+              const item = document.createElement("li");
+              const link = document.createElement("a");
+
+              link.className = "nav-link";
+              link.href = `#${track.id}`;
+              link.dataset.scrollTarget = `#${track.id}`;
+              link.textContent = heading?.textContent?.trim() || track.id;
+              item.appendChild(link);
+
+              return item;
+            }));
+
+            updateTutorialsTocActive();
+          };
+
+          window.addEventListener("DOMContentLoaded", syncTutorialsToc);
+          window.addEventListener("load", syncTutorialsToc);
+          window.addEventListener("pageshow", syncTutorialsToc);
+          window.addEventListener("scroll", scheduleTutorialsTocActive, { passive: true });
+          window.addEventListener("resize", scheduleTutorialsTocActive);
+          window.addEventListener("hashchange", () => window.setTimeout(updateTutorialsTocActive, 50));
+          document.addEventListener("click", (event) => {
+            if (event.target.closest("body.tutorials-index #TOC a")) {
+              window.setTimeout(updateTutorialsTocActive, 50);
+            }
+          });
+
+          const toc = document.querySelector("#TOC");
+          if (toc) {
+            const observer = new MutationObserver(() => syncTutorialsToc());
+            observer.observe(toc, {
+              attributes: true,
+              childList: true,
+              subtree: true,
+              attributeFilter: ["class"]
+            });
+          }
+        })();
+        </script>
+        <script>
+        (() => {
+          let notebookTocFrame = null;
+
+          const isNotebookPage = () => document.body.classList.contains("notebook-page");
+
+          const getNotebookSections = () => {
+            const main = document.querySelector("main.content");
+            if (!main) {
+              return [];
+            }
+
+            return Array.from(main.querySelectorAll("section.level2[id], section.level3[id]"));
+          };
+
+          const getActiveNotebookSection = (sections) => {
+            const activationTop = Math.min(150, Math.max(90, window.innerHeight * 0.18));
+            return sections.reduce((active, section) => {
+              return section.getBoundingClientRect().top <= activationTop ? section : active;
+            }, sections[0]);
+          };
+
+          const updateNotebookToc = () => {
+            if (!isNotebookPage()) {
+              return;
+            }
+
+            const toc = document.querySelector("#TOC");
+            if (!toc) {
+              return;
+            }
+
+            const sections = getNotebookSections();
+            if (sections.length === 0) {
+              return;
+            }
+
+            const activeSection = getActiveNotebookSection(sections);
+            const activeParent = activeSection.matches("section.level3")
+              ? activeSection.closest("section.level2")
+              : activeSection;
+            const activeHash = `#${activeSection.id}`;
+            const activeParentHash = activeParent?.id ? `#${activeParent.id}` : activeHash;
+
+            toc.querySelectorAll("a.nav-link").forEach((link) => {
+              link.classList.toggle("active", link.hash === activeHash);
+            });
+
+            Array.from(toc.querySelectorAll(":scope > ul > li")).forEach((item) => {
+              const topLink = item.querySelector(":scope > a.nav-link");
+              item.classList.toggle("notebook-toc-open", topLink?.hash === activeParentHash);
+            });
+          };
+
+          const scheduleNotebookTocUpdate = () => {
+            if (notebookTocFrame !== null) {
+              window.cancelAnimationFrame(notebookTocFrame);
+            }
+
+            notebookTocFrame = window.requestAnimationFrame(() => {
+              notebookTocFrame = null;
+              updateNotebookToc();
+            });
+          };
+
+          window.addEventListener("DOMContentLoaded", updateNotebookToc);
+          window.addEventListener("load", updateNotebookToc);
+          window.addEventListener("pageshow", updateNotebookToc);
+          window.addEventListener("scroll", scheduleNotebookTocUpdate, { passive: true });
+          window.addEventListener("resize", scheduleNotebookTocUpdate);
+          window.addEventListener("hashchange", () => window.setTimeout(updateNotebookToc, 50));
+          document.addEventListener("click", (event) => {
+            if (event.target.closest("body.notebook-page #TOC a")) {
+              window.setTimeout(updateNotebookToc, 50);
+            }
+          });
         })();
         </script>
 

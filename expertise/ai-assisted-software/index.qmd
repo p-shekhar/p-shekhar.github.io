@@ -1,0 +1,29 @@
+---
+title: "AI-Assisted Software Systems"
+description: "Local-intelligence-based research software, deterministic tools, infrastructure agents, conversational interfaces, model control, and deployment automation."
+categories: [AI-Assisted Software, Agents, Research Software, Local LLMs]
+---
+
+## Focus
+
+My AI-assisted software systems work is about using LLMs and agents to make research operations more reliable, auditable, and maintainable. I am especially interested in local-intelligence-based systems where model behavior, infrastructure access, and workflow automation can be controlled rather than treated as opaque magic.
+
+## Core Themes
+
+- LLM-powered multi-agent lab operations.
+- Control-plane and server-agent architectures for distributed infrastructure.
+- Natural-language interfaces for read-only or carefully controlled system workflows.
+- Prompt optimization and iterative evaluation of model behavior.
+- Ranking, retrieval, personalization, and output prioritization.
+- Local model serving, model switching, and deployment automation.
+
+## Representative Work
+
+- Agentic AI Lab Manager for Research Computing: open-source-model-powered lab operations system.
+- Reusable LLM pipelines and orchestration systems for modular workflows.
+- Infrastructure-aware conversational interfaces with deterministic tool boundaries.
+- Model behavior improvement through iterative feedback and evaluation.
+
+## Decision-Science Connection
+
+This agenda connects software engineering to statistical decision systems. Agents are useful only when their permissions, outputs, failure modes, and review paths are explicit enough for a human team to trust the workflow.

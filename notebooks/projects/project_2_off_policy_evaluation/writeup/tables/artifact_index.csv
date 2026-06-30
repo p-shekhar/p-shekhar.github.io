@@ -3,8 +3,9 @@ notebooks/projects/project_2_off_policy_evaluation/writeup/figures/01_fixed_poli
 notebooks/projects/project_2_off_policy_evaluation/writeup/figures/02_contextual_policy_value_and_risk.png,144.845703125
 notebooks/projects/project_2_off_policy_evaluation/writeup/figures/03_lift_vs_support.png,142.990234375
 notebooks/projects/project_2_off_policy_evaluation/writeup/figures/04_contextual_clipping_sensitivity.png,70.7021484375
-notebooks/projects/project_2_off_policy_evaluation/writeup/final_project_summary.md,1.5390625
-notebooks/projects/project_2_off_policy_evaluation/writeup/resume_bullets.md,0.68359375
+notebooks/projects/project_2_off_policy_evaluation/writeup/final_project_summary.md,1.4990234375
+notebooks/projects/project_2_off_policy_evaluation/writeup/resume_bullets.md,0.6923828125
+notebooks/projects/project_2_off_policy_evaluation/writeup/tables/artifact_index.csv,1.876953125
 notebooks/projects/project_2_off_policy_evaluation/writeup/tables/clipping_stability.csv,1.283203125
 notebooks/projects/project_2_off_policy_evaluation/writeup/tables/contextual_clipping_stability.csv,0.7021484375
 notebooks/projects/project_2_off_policy_evaluation/writeup/tables/contextual_policy_audit.csv,0.830078125
@@ -17,3 +18,4 @@ notebooks/projects/project_2_off_policy_evaluation/writeup/tables/main_lgbm_ope_
 notebooks/projects/project_2_off_policy_evaluation/writeup/tables/policy_risk_table.csv,1.78515625
 notebooks/projects/project_2_off_policy_evaluation/writeup/tables/reward_model_rank_stability.csv,0.30078125
 notebooks/projects/project_2_off_policy_evaluation/writeup/tables/split_rank_stability.csv,0.52734375
+notebooks/projects/project_2_off_policy_evaluation/writeup/technical_summary_bullets.md,0.6943359375

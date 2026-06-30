@@ -1,7 +1,6 @@
 ---
 title: "PEFT, LoRA, and QLoRA tutorial roadmap"
 description: "A tutorial outline for efficient LLM fine-tuning and evaluation."
-date: 2026-04-26
 categories: [Fine-Tuning, PEFT, LoRA, QLoRA]
 ---
 

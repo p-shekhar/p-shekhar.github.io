@@ -1,43 +1,93 @@
 ---
 title: "DoubleML tutorial series"
 description: "A hands-on tutorial series for double/debiased machine learning, orthogonal scores, cross-fitting, inference, sensitivity analysis, and policy learning with DoubleML."
-date: 2026-05-03
 categories: [DoubleML, Orthogonalization, Python, Causal ML]
 ---
 
 DoubleML is the tutorial track for orthogonal scores, sample splitting, flexible nuisance models, and transparent treatment-effect inference.
 
-::: {.sequence-note}
-Notebook links open rendered HTML pages generated from the source notebooks under `notebooks/tutorials/`. Rendering is configured not to execute notebooks during site builds, so the pages are safe to publish even when a notebook contains heavier optional cells.
-:::
+<figure class="course-page-figure">
+<img src="../../notebooks/tutorials/doubleml/outputs/figures/00_doubleml_workflow.png" alt="DoubleML workflow diagram showing nuisance learning, orthogonalization, cross-fitting, and inference">
+<figcaption>Figure: DoubleML workflow diagram showing how nuisance learning, orthogonalization, cross-fitting, and inference fit together (adapted from Tutorial 00: Environment And Library Tour).</figcaption>
+</figure>
 
-## Notebook Sequence
+## Tutorial Sequence
 
-<ol class="notebook-sequence">
-  <li><a href="../../notebooks/tutorials/doubleml/00_environment_and_library_tour.html" data-site-path="notebooks/tutorials/doubleml/00_environment_and_library_tour.html">DoubleML Tutorial 00: Environment And Library Tour</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/01_dml_theory_orthogonalization_and_cross_fitting.html" data-site-path="notebooks/tutorials/doubleml/01_dml_theory_orthogonalization_and_cross_fitting.html">DoubleML Tutorial 01: DML Theory, Orthogonalization, And Cross-Fitting</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/02_data_backend_doublemldata_and_design_setup.html" data-site-path="notebooks/tutorials/doubleml/02_data_backend_doublemldata_and_design_setup.html">DoubleML Tutorial 02: Data Backend, DoubleMLData, And Design Setup</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/03_partially_linear_regression_plr.html" data-site-path="notebooks/tutorials/doubleml/03_partially_linear_regression_plr.html">DoubleML Tutorial 03: Partially Linear Regression PLR</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/04_partially_linear_iv_pliv.html" data-site-path="notebooks/tutorials/doubleml/04_partially_linear_iv_pliv.html">DoubleML Tutorial 04: Partially Linear IV PLIV</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/05_interactive_regression_model_irm.html" data-site-path="notebooks/tutorials/doubleml/05_interactive_regression_model_irm.html">DoubleML Tutorial 05: Interactive Regression Model IRM</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/06_interactive_iv_model_iivm.html" data-site-path="notebooks/tutorials/doubleml/06_interactive_iv_model_iivm.html">DoubleML Tutorial 06: Interactive IV Model IIVM</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/07_difference_in_differences_did.html" data-site-path="notebooks/tutorials/doubleml/07_difference_in_differences_did.html">DoubleML Tutorial 07: Difference-In-Differences DID</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/08_sample_selection_models.html" data-site-path="notebooks/tutorials/doubleml/08_sample_selection_models.html">DoubleML Tutorial 08: Sample Selection Models</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/09_regression_discontinuity_design_rdd.html" data-site-path="notebooks/tutorials/doubleml/09_regression_discontinuity_design_rdd.html">DoubleML Tutorial 09: Regression Discontinuity Design RDD</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/10_learners_hyperparameters_and_tuning.html" data-site-path="notebooks/tutorials/doubleml/10_learners_hyperparameters_and_tuning.html">DoubleML Tutorial 10: Learners, Hyperparameters, And Tuning</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/11_sample_splitting_cross_fitting_and_repeated_cross_fitting.html" data-site-path="notebooks/tutorials/doubleml/11_sample_splitting_cross_fitting_and_repeated_cross_fitting.html">DoubleML Tutorial 11: Sample Splitting, Cross-Fitting, And Repeated Cross-Fitting</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/12_inference_bootstrap_and_confidence_bands.html" data-site-path="notebooks/tutorials/doubleml/12_inference_bootstrap_and_confidence_bands.html">DoubleML Tutorial 12: Inference, Bootstrap, And Confidence Bands</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/13_sensitivity_analysis_for_unobserved_confounding.html" data-site-path="notebooks/tutorials/doubleml/13_sensitivity_analysis_for_unobserved_confounding.html">DoubleML Tutorial 13: Sensitivity Analysis For Unobserved Confounding</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/14_heterogeneous_treatment_effects_gate_cate_blp.html" data-site-path="notebooks/tutorials/doubleml/14_heterogeneous_treatment_effects_gate_cate_blp.html">DoubleML Tutorial 14: Heterogeneous Treatment Effects, GATE, CATE, And BLP</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/15_policy_learning_weighted_ates_quantiles_and_cvar.html" data-site-path="notebooks/tutorials/doubleml/15_policy_learning_weighted_ates_quantiles_and_cvar.html">DoubleML Tutorial 15: Policy Learning, Weighted ATEs, Quantiles, And CVaR</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/16_custom_scores_and_advanced_api.html" data-site-path="notebooks/tutorials/doubleml/16_custom_scores_and_advanced_api.html">DoubleML Tutorial 16: Custom Scores And Advanced API</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/17_common_pitfalls_diagnostics_and_reporting.html" data-site-path="notebooks/tutorials/doubleml/17_common_pitfalls_diagnostics_and_reporting.html">DoubleML Tutorial 17: Common Pitfalls, Diagnostics, And Reporting</a></li>
-  <li><a href="../../notebooks/tutorials/doubleml/18_end_to_end_doubleml_case_study.html" data-site-path="notebooks/tutorials/doubleml/18_end_to_end_doubleml_case_study.html">DoubleML Tutorial 18: End-To-End DoubleML Case Study</a></li>
-</ol>
-
-## How To Use This Tutorial Series
-
-- Start with the environment and library-tour notebook.
-- Continue in order if you want a coherent package course.
-- Jump to individual notebooks when you need a specific estimator, diagnostic, or reporting pattern.
-- Keep the causal design separate from the package API: the library helps implement the workflow, but the assumptions still need to be stated and defended.
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/00_environment_and_library_tour.html" data-site-path="notebooks/tutorials/doubleml/00_environment_and_library_tour.html">00: Environment And Library Tour</a></p>
+<p class="notebook-guide-description">Introduces DoubleML, orthogonal-score workflows, synthetic PLR examples, and the package objects used throughout the tutorial series.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/01_dml_theory_orthogonalization_and_cross_fitting.html" data-site-path="notebooks/tutorials/doubleml/01_dml_theory_orthogonalization_and_cross_fitting.html">01: DML Theory, Orthogonalization, And Cross-Fitting</a></p>
+<p class="notebook-guide-description">Builds the mathematical intuition for orthogonal scores and cross-fitting, then shows why nuisance-model errors should have limited first-order impact.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/02_data_backend_doublemldata_and_design_setup.html" data-site-path="notebooks/tutorials/doubleml/02_data_backend_doublemldata_and_design_setup.html">02: Data Backend, DoubleMLData, And Design Setup</a></p>
+<p class="notebook-guide-description">Explains how to prepare treatment, outcome, controls, instruments, and sample-selection variables so the statistical design is visible before fitting models.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/03_partially_linear_regression_plr.html" data-site-path="notebooks/tutorials/doubleml/03_partially_linear_regression_plr.html">03: Partially Linear Regression PLR</a></p>
+<p class="notebook-guide-description">Covers the PLR model for continuous outcomes and treatments, including residualization, nuisance prediction quality, score behavior, and repeated-split stability.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/04_partially_linear_iv_pliv.html" data-site-path="notebooks/tutorials/doubleml/04_partially_linear_iv_pliv.html">04: Partially Linear IV PLIV</a></p>
+<p class="notebook-guide-description">Adds instrumental variables to the partially linear setup, highlighting first-stage relevance, exclusion-risk stress tests, and residualized IV diagnostics.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/05_interactive_regression_model_irm.html" data-site-path="notebooks/tutorials/doubleml/05_interactive_regression_model_irm.html">05: Interactive Regression Model IRM</a></p>
+<p class="notebook-guide-description">Introduces binary-treatment IRM estimation, propensity modeling, outcome nuisance functions, overlap diagnostics, and ATE interpretation.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/06_interactive_iv_model_iivm.html" data-site-path="notebooks/tutorials/doubleml/06_interactive_iv_model_iivm.html">06: Interactive IV Model IIVM</a></p>
+<p class="notebook-guide-description">Uses binary instruments and treatment take-up to estimate local causal effects, with attention to compliance, weak instruments, and exclusion violations.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/07_difference_in_differences_did.html" data-site-path="notebooks/tutorials/doubleml/07_difference_in_differences_did.html">07: Difference-In-Differences DID</a></p>
+<p class="notebook-guide-description">Connects DoubleML to panel-style causal designs by combining DiD logic, nuisance adjustment, parallel-trend diagnostics, and treatment-effect estimation.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/08_sample_selection_models.html" data-site-path="notebooks/tutorials/doubleml/08_sample_selection_models.html">08: Sample Selection Models</a></p>
+<p class="notebook-guide-description">Studies missing or selectively observed outcomes, separating selection mechanisms from treatment effects and auditing positivity for observed samples.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/09_regression_discontinuity_design_rdd.html" data-site-path="notebooks/tutorials/doubleml/09_regression_discontinuity_design_rdd.html">09: Regression Discontinuity Design RDD</a></p>
+<p class="notebook-guide-description">Frames sharp and fuzzy RDD as local causal designs, with running-score plots, bandwidth sensitivity, first-stage checks, and local effect interpretation.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/10_learners_hyperparameters_and_tuning.html" data-site-path="notebooks/tutorials/doubleml/10_learners_hyperparameters_and_tuning.html">10: Learners, Hyperparameters, And Tuning</a></p>
+<p class="notebook-guide-description">Shows how learner choice and tuning affect nuisance quality, bias, and stability, with emphasis on tuning safely within the DML workflow.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/11_sample_splitting_cross_fitting_and_repeated_cross_fitting.html" data-site-path="notebooks/tutorials/doubleml/11_sample_splitting_cross_fitting_and_repeated_cross_fitting.html">11: Sample Splitting, Cross-Fitting, And Repeated Cross-Fitting</a></p>
+<p class="notebook-guide-description">Explores fold construction, group-aware splitting, repeated cross-fitting, and why data reuse can quietly damage causal inference.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/12_inference_bootstrap_and_confidence_bands.html" data-site-path="notebooks/tutorials/doubleml/12_inference_bootstrap_and_confidence_bands.html">12: Inference, Bootstrap, And Confidence Bands</a></p>
+<p class="notebook-guide-description">Moves from point estimates to uncertainty, covering confidence intervals, bootstrap distributions, simultaneous bands, multiple testing, and coverage diagnostics.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/13_sensitivity_analysis_for_unobserved_confounding.html" data-site-path="notebooks/tutorials/doubleml/13_sensitivity_analysis_for_unobserved_confounding.html">13: Sensitivity Analysis For Unobserved Confounding</a></p>
+<p class="notebook-guide-description">Uses sensitivity bounds and benchmark scenarios to ask how strong unobserved confounding would need to be to change the substantive conclusion.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/14_heterogeneous_treatment_effects_gate_cate_blp.html" data-site-path="notebooks/tutorials/doubleml/14_heterogeneous_treatment_effects_gate_cate_blp.html">14: Heterogeneous Treatment Effects, GATE, CATE, And BLP</a></p>
+<p class="notebook-guide-description">Introduces heterogeneous-effect summaries in DoubleML, including GATE, CATE, and best linear projection views for segment-level decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/15_policy_learning_weighted_ates_quantiles_and_cvar.html" data-site-path="notebooks/tutorials/doubleml/15_policy_learning_weighted_ates_quantiles_and_cvar.html">15: Policy Learning, Weighted ATEs, Quantiles, And CVaR</a></p>
+<p class="notebook-guide-description">Translates treatment-effect estimates into policy comparisons, weighted estimands, distributional targets, and downside-risk measures such as CVaR.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/16_custom_scores_and_advanced_api.html" data-site-path="notebooks/tutorials/doubleml/16_custom_scores_and_advanced_api.html">16: Custom Scores And Advanced API</a></p>
+<p class="notebook-guide-description">Looks under the hood at custom scores, advanced API patterns, and how to extend DoubleML while preserving the statistical logic of the estimator.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/17_common_pitfalls_diagnostics_and_reporting.html" data-site-path="notebooks/tutorials/doubleml/17_common_pitfalls_diagnostics_and_reporting.html">17: Common Pitfalls, Diagnostics, And Reporting</a></p>
+<p class="notebook-guide-description">Reviews leakage, weak overlap, poor nuisance fits, invalid splits, fragile inference, and reporting checks that make DML results defensible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/doubleml/18_end_to_end_doubleml_case_study.html" data-site-path="notebooks/tutorials/doubleml/18_end_to_end_doubleml_case_study.html">18: End-To-End DoubleML Case Study</a></p>
+<p class="notebook-guide-description">Completes the series with a full applied workflow from design setup and nuisance modeling through estimates, diagnostics, sensitivity, and final communication.</p>
+</article>
+</div>

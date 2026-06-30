@@ -1,36 +1,67 @@
 ---
 title: "About"
-description: "Professional bio and positioning statement."
+description: "Professional profile for Prashant Shekhar, PhD."
+body-classes: about-page
+title-block-banner: false
 ---
 
-I am an Assistant Professor of Data Science with a focus on causal inference, statistical learning, trustworthy AI systems, and decision-making from imperfect data.
+```{=html}
+<section class="about-simple">
+  <img src="assets/portrait.png" alt="Portrait of Prashant Shekhar" class="about-portrait-inline">
+  <h1>Prashant Shekhar, PhD</h1>
+  <p><strong>Business Data Science | Causal Inference | Experimentation | Statistical Decision Systems</strong><br>
+  Daytona Beach, FL<br>
+  Contacts: <a href="mailto:shekharp.erau@gmail.com">Email</a>, <a href="https://scholar.google.com/citations?hl=en&user=Xt9-KRIAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer">Google Scholar</a>, <a href="https://github.com/p-shekhar" target="_blank" rel="noopener noreferrer">GitHub</a>, and <a href="https://www.linkedin.com/in/prashant-shekhar-36586a28/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+</section>
+```
 
-This site is designed as a living public record of my work in industry-oriented causal inference and AI systems. The goal is to make my expertise legible to multiple audiences: academic collaborators, students, hiring teams, product leaders, data science managers, and organizations that need credible evidence and reliable AI-enabled workflows.
+I am a tenure-track Assistant Professor of Data Science and Mathematics at [Embry-Riddle Aeronautical University](https://erau.edu/){target="_blank" rel="noopener noreferrer"}. Here I lead the Probability and Statistical Inference curriculum and research thrust in the [MS in Data Science program](https://erau.edu/degrees/master/data-science){target="_blank" rel="noopener noreferrer"}, aimed at equipping future data scientists with mathematical sophistication and statistical and causal tools for decision-making. Before joining Embry-Riddle, I was a Data Scientist at [Tufts University](https://www.tufts.edu/){target="_blank" rel="noopener noreferrer"}'s Data Intensive Studies Center, where I led and managed university-wide data science collaborations on topics ranging from healthcare to remote sensing.
 
-## Positioning
+Across my research, teaching, and other projects, the central theme has been decision quality. I study how scientists can define the right target, evaluate what the data can support, quantify uncertainty, inspect model behavior, and translate results into defensible recommendations. My research has been supported by funding agencies like **Department of Transportation**, among others.
 
-My work sits at the intersection of:
+## Education
 
-- **Causal identification:** clarifying which assumptions are needed to answer a decision question.
-- **Applied estimation:** implementing robust methods with transparent diagnostics.
-- **AI systems design:** building RAG, agentic, multimodal, and evaluation-driven LLM workflows.
-- **LLMOps:** monitoring hallucination risk, drift, regressions, model versions, prompts, and system behavior.
-- **Business translation:** turning uncertainty, effect heterogeneity, and limitations into better decisions.
-- **Teaching:** explaining technical ideas through examples, notebooks, and reusable notes.
+**The State University of New York at Buffalo**<br>
+PhD in Computational Data Science<br>
+MS in Mechanical Engineering<br>
+Aug 2014 - Aug 2019
 
-## Professional Themes
+**Indian Institute of Technology, Kharagpur**<br>
+Bachelors in Industrial and Systems Engineering<br>
+Sept 2010 - May 2014
 
-- Credible decision-making from observational, experimental, and quasi-experimental data.
-- LLM-powered systems that are evaluated, monitored, and improved over time.
-- Technical communication that connects methods to product, policy, and business action.
-- Reproducible public artifacts: notebooks, tutorials, system designs, and case studies.
+## Research Interests
 
-## Replace With Your Bio
+My research interests sit at the intersection of causal inference, statistical learning, machine learning, and decision systems. I am especially interested in settings where the available data are useful, incomplete, and consequential, and where the final output has to guide an action with a clear account of uncertainty and risk.
 
-Use this section for a more personal biography:
+### Causal and Statistical Decision Systems
 
-- Your name and current institution.
-- Your research and teaching areas.
-- Selected publications, grants, or applied collaborations.
-- Industry-facing strengths you want recruiters or collaborators to remember.
-- A short note about what kinds of opportunities you are open to.
+Much of my work starts from practical decisions in advertising, marketplaces, recommendations, ranking, pricing, pacing, and platform experiments. I study how analysts can define the right estimand, use logged or partially observed evidence responsibly, quantify uncertainty, handle interference and support limitations, and decide whether a result is ready for deployment, further validation, or redesign.
+
+<u>Research</u>: [support-aware off-policy evaluation](projects/support-aware-offline-policy-selection/), [online experiment design](projects/robust-online-experiment-design/), [incrementality under signal loss](projects/privacy-robust-incrementality/), [conformal uncertainty for pacing](projects/decision-calibrated-pacing/), [interference and spillovers](projects/interference-spillover-effects-lab/), [long-term recommender effects](projects/long-term-recommender-effects-lab/), [logged bandit evaluation](projects/off-policy-evaluation-bandit-lab/), [discovery quality mediation](projects/discovery-quality-mediation-lab/), [ranking lift](projects/ranking-recommendation-lift-lab/)
+
+<u>Teaching</u>: [statistical inference](notes/00-statistical-inference/), [core causal inference](notes/01-core-causal-inference/), [causal machine learning](notes/02-causal-machine-learning/), [industry applications](notes/03-industry-applications/), [randomized experiments](notes/01-core-causal-inference/experiments/), [quasi-experiments](notes/01-core-causal-inference/quasi-experiments/), [DoWhy](tutorials/dowhy/), [EconML](tutorials/econml/), [DoubleML](tutorials/doubleml/), [causal-learn](tutorials/causal-learn/)
+
+### Interpretable and Reliable Machine Learning
+
+I am interested in machine-learning models that can be inspected, stress-tested, and explained in settings where decisions carry cost. This includes interpretable modeling, feature attribution, counterfactual explanations, surrogate modeling, multiscale bases, forecasting, uncertainty quantification, validation, reliability checks, and failure-mode analysis. The goal is to make model behavior understandable enough for scientific, engineering, and operational use.
+
+<u>Research</u>: [surrogate modeling](projects/svd-surrogate-modeling/), [multiscale bases](projects/multiscale-basis-learning/), [forecasting and splines](projects/alps-land-ice-time-series/), [aerosol machine learning](projects/aerosol-machine-learning/)
+
+<u>Teaching</u>: [interpretable ML and XAI](notes/03-ai-machine-learning/interpretable-ml-and-xai/), [machine learning basics](notes/03-ai-machine-learning/machine-learning-basics-decision-science/)
+
+### Anomaly Detection and Handling
+
+I treat anomaly detection as part of operational decision-making. In many settings, the hard part is deciding when a rare event, distribution shift, defect, or new class should trigger action. My work in this area spans biomedical flow-cytometry signals, manufacturing inspection, autonomous-vehicle segmentation, public data streams, and post-deployment handling of failure modes.
+
+<u>Research</u>: [biomedical flow-cytometry signals](projects/label-free-cancer-cell-detection/), [manufacturing inspection](projects/manufacturing-anomaly-inspection/), [autonomous-vehicle segmentation](projects/cav-continual-segmentation/)
+
+<u>Teaching</u>: [anomaly detection for decision systems](notes/03-ai-machine-learning/anomaly-detection-decision-systems/)
+
+### Privacy, Security, and Robust AI Systems
+
+Another thread in my work concerns AI systems that must operate under privacy, security, and robustness constraints. I study encrypted and selectively encrypted training, gradient leakage risk, RF fingerprinting, adversarial segmentation attacks, private incrementality measurement, and robust reporting when the available signal is degraded. I am interested in methods that make these systems usable while keeping the risks explicit.
+
+<u>Research</u>: [encrypted and selectively encrypted training](projects/privacy-preserving-federated-learning/), [RF fingerprinting](projects/rf-fingerprinting-authentication/), [adversarial segmentation attacks](projects/adversarial-vision-attacks/)
+
+<u>Teaching</u>: [AI and machine learning](notes/03-ai-machine-learning/)

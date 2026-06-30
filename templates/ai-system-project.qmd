@@ -1,7 +1,6 @@
 ---
 title: "AI System Project Title"
 description: "One sentence describing the workflow, users, and reliability problem."
-date: YYYY-MM-DD
 categories: [AI Systems, LLMOps, Method]
 ---
 

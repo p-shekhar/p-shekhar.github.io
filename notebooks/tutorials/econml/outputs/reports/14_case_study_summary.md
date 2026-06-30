@@ -20,4 +20,4 @@ The recommendation uses covariate balance checks, overlap diagnostics, nuisance-
 
 ## Caveats
 
-This is a teaching dataset with known ground truth. In real observational work, hidden true CATE would not be available, so the workflow would need domain review of confounders, sensitivity analysis, temporal validation, and ideally an experiment for policy confirmation.
+This is a example dataset with known ground truth. In real observational work, hidden true CATE would not be available, so the workflow would need domain review of confounders, sensitivity analysis, temporal validation, and ideally an experiment for policy confirmation.

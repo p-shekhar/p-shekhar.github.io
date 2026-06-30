@@ -6,8 +6,8 @@ Sensitivity parameters: cf_y=0.04; cf_d=0.04, rho=1.0
 
 ------------------ Bounds with CI    ------------------
            CI lower  theta lower     theta  theta upper  CI upper
-treatment  0.811904     0.851186  0.892058     0.932931  0.972348
+treatment  0.814412     0.853624  0.894357      0.93509  0.974438
 
 ------------------ Robustness Values ------------------
            H_0     RV (%)    RVa (%)
-treatment  0.0  57.848598  55.900165
+treatment  0.0  58.054206  56.110767

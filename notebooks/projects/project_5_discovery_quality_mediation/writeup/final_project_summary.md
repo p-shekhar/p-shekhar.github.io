@@ -1,4 +1,4 @@
-# Discovery Quality Mediation: Final Summary
+# Curated Project Summary: Discovery Quality and Mediation
 
 ## Problem
 
@@ -46,10 +46,14 @@ The primary future-interaction gain is mostly direct in this specification. The 
 ## Limitations
 
 - The data are observational recommendation logs, not randomized experiments.
-- Satisfaction is measured through watch-behavior proxies rather than direct survey labels.
+- Satisfaction is measured through watch-behavior proxies, with direct survey labels outside the available data.
 - Unobserved user intent and ranking-system state may confound treatment, mediator, and outcome relationships.
 - The analysis conditions on active user-days and may not generalize to dormant users.
 
 ## Bottom Line
 
 High discovery exposure appears positively associated with future user value, especially future interaction volume and play time. The evidence for a large satisfaction-mediated pathway is weak in the primary interaction-count analysis. A careful product takeaway is to track discovery quality separately from satisfaction depth and to validate discovery policies with future-value metrics, not short-term clicks alone.
+
+## Recommended Website Use
+
+Use notebooks `01` through `06` as the public analytic sequence. Keep `07_final_report_and_figures.ipynb` as an artifact builder unless it is later rewritten as a concise public report notebook.

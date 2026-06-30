@@ -1,41 +1,90 @@
 ---
-title: "Python Package Tutorials"
-description: "Applied package tutorial series for causal inference, causal discovery, causal ML, and AI systems workflows."
-listing:
-  - id: causal-package-tutorials
-    contents:
-      - dowhy/index.qmd
-      - econml/index.qmd
-      - doubleml/index.qmd
-      - causal-learn/index.qmd
-    type: grid
-    fields: [title, description, date, categories]
-    sort: "title asc"
-    page-size: 12
-  - id: ai-workflow-tutorials
-    contents:
-      - rag-systems/index.qmd
-      - agent-orchestration/index.qmd
-      - llm-evaluation/index.qmd
-      - lora-fine-tuning/index.qmd
-    type: grid
-    fields: [title, description, date, categories]
-    sort: "title asc"
-    page-size: 12
+title: "Tutorials"
+description: "Applied tutorial-style lectures for causal inference, causal discovery, and causal machine learning."
+body-classes: tutorials-index
+toc-depth: 3
 ---
 
-This section separates complete notebook-backed package tutorials from shorter AI workflow tutorial pages.
+These tutorials complement the lecture notes by turning the main ideas into package-level workflows. Each track walks through a Python ecosystem in depth, with code, diagnostics, mathematical context, assumptions, and practical interpretation for applied causal and decision-science work.
 
-## Notebook-Backed Causal Python Tutorials
+<span class="module-click-prompt">If you notice an error or typo, please let me know.</span>
 
-These four tutorial series are built directly from the folders under `notebooks/tutorials/`.
+## Tutorial Series {.visually-hidden-page-heading}
 
-::: {#causal-package-tutorials}
+::: {.module-course-list}
+::: {.course-preview-row}
+### [DoWhy Tutorial Series](dowhy/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="dowhy/">
+<img src="../notebooks/tutorials/dowhy/outputs/figures/01_core_workflow_dag.png" alt="DoWhy causal workflow DAG connecting treatment, outcome, confounders, and observed variables">
+</a>
+<figcaption>Figure: A DoWhy causal workflow DAG used to connect assumptions, identification, estimation, and refutation (adapted from Tutorial 01: Core Workflow, From Question To Refutation).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+DoWhy supports causal workflows that start by making assumptions explicit. The tutorials show how to define causal graphs, identify estimands, estimate effects, run refutation checks, work with graphical causal models, and report evidence responsibly.
+
+::: {.project-methods}
+**Keywords:** causal graphs, estimands, identification, backdoor adjustment, propensity methods, refuters, graphical causal models, mediation, anomaly attribution, and responsible causal reporting.
+:::
+:::
 :::
 
-## AI Systems Tutorial Pages
+::: {.course-preview-row}
+### [EconML Tutorial Series](econml/)
 
-These pages cover the broader AI engineering skills that complement the causal inference portfolio: RAG, orchestration, evaluation, tracing, monitoring, and fine-tuning.
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="econml/">
+<img src="../notebooks/tutorials/econml/outputs/figures/04_cate_recovery_scatter.png" alt="Scatter plot comparing estimated and true heterogeneous treatment effects in an EconML tutorial">
+</a>
+<figcaption>Figure: CATE recovery diagnostics from the EconML causal forest workflow, showing how heterogeneous-effect estimates are evaluated (adapted from Tutorial 04: CausalForestDML).</figcaption>
+</figure>
 
-::: {#ai-workflow-tutorials}
+::: {.course-preview-copy}
+Causal machine learning workflow for heterogeneous treatment effects: CATE estimation, orthogonal learners, causal forests, meta-learners, policy learning, interval thinking, and treatment targeting.
+
+::: {.project-methods}
+**Keywords:** CATE estimation, double machine learning, orthogonal learners, causal forests, DRLearner, meta-learners, policy learning, treatment targeting, SHAP, and uncertainty intervals.
+:::
+:::
+:::
+
+::: {.course-preview-row}
+### [DoubleML Tutorial Series](doubleml/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="doubleml/">
+<img src="../notebooks/tutorials/doubleml/outputs/figures/00_doubleml_workflow.png" alt="DoubleML workflow diagram showing nuisance learning, orthogonalization, cross-fitting, and inference">
+</a>
+<figcaption>Figure: DoubleML workflow diagram showing how nuisance learning, orthogonalization, cross-fitting, and inference fit together (adapted from Tutorial 00: Environment And Library Tour).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+Double and debiased machine learning workflow for valid inference with flexible nuisance models: orthogonal scores, cross-fitting, sample splitting, sensitivity analysis, and policy evaluation.
+
+::: {.project-methods}
+**Keywords:** orthogonal scores, cross-fitting, PLR, PLIV, IRM, IIVM, difference-in-differences, RDD, sensitivity analysis, heterogeneous effects, policy learning, and valid inference.
+:::
+:::
+:::
+
+::: {.course-preview-row}
+### [causal-learn Tutorial Series](causal-learn/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="causal-learn/">
+<img src="../notebooks/tutorials/causal_learn/outputs/figures/16_final_candidate_graph.png" alt="Candidate causal graph learned in the causal-learn tutorial series">
+</a>
+<figcaption>Figure: A final candidate graph from the causal-learn case study, used to discuss discovery, constraints, stability, and interpretation (adapted from Tutorial 16: End-To-End Causal Discovery Case Study).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+Causal discovery workflow for learning candidate graph structure: PC, FCI, CD-NOD, GES, LiNGAM, functional causal models, time-series discovery, stability checks, and limitations.
+
+::: {.project-methods}
+**Keywords:** causal discovery, DAGs, CPDAGs, PAGs, conditional independence tests, PC, FCI, CD-NOD, GES, LiNGAM, functional causal models, time-series discovery, and stability checks.
+:::
+:::
+:::
 :::

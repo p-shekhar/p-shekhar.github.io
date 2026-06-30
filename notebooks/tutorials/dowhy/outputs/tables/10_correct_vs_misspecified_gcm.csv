@@ -1,3 +1,3 @@
 model,retention_parents,retention_r2,retention_nmse,retention_mse,overall_kl_divergence
-correct graph,"watch_time, user_intent, content_quality",0.9174284533217542,0.287208914764882,0.9525210672865972,0.01098739605355605
-misspecified graph,"user_intent, content_quality",0.659027160737361,0.5834993179000589,3.9323549368449737,0.02430676293016767
+correct graph,"watch_time, user_intent, content_quality",0.9174284533217542,0.287208914764882,0.9525210672865972,0.010987396053527484
+misspecified graph,"user_intent, content_quality",0.659027160737361,0.5834993179000589,3.9323549368449737,0.024306762930017

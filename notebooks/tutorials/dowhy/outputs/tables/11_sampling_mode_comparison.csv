@@ -1,4 +1,4 @@
 mode,estimate,plain meaning
-interventional samples,0.4454834845949326,Difference in generated population means between shifted and natural worlds.
-average_causal_effect,0.43717000597707034,Direct GCM comparison of two intervention worlds on a fixed base sample.
+interventional samples,0.43138357680724415,Difference in generated population means between shifted and natural worlds.
+average_causal_effect,0.4479021419107988,Direct GCM comparison of two intervention worlds on a fixed base sample.
 counterfactual samples,0.43209564289835645,Mean row-level what-if delta for observed rows after preserving inferred noise.

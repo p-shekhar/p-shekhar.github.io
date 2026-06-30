@@ -1,5 +1,5 @@
 metric,value
-mean_estimated_effect_0_to_1,0.4191735040114206
-mean_estimated_effect_0_to_2,0.8383470080228412
+mean_estimated_effect_0_to_1,0.4191735040114145
+mean_estimated_effect_0_to_2,0.838347008022829
 ratio_0_to_2_over_0_to_1,2.0
 mean_absolute_difference_between_2x_and_0_to_2,0.0

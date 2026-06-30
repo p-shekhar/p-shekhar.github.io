@@ -1,0 +1,5 @@
+decision_area,recommendation,evidence
+Average long-term interaction effect,Do not claim a clear positive average effect from high-watch-exposure days on future 7-day interactions.,"MSM, g-computation, and AIPW estimates are small; primary AIPW is 1.09 with CI [-7.34, 12.02]."
+Metric strategy,Keep validating watch-time-like signals against longer-term outcomes.,"Primary interaction-volume effects are uncertain, while secondary watch-hours results differ from interaction-volume results."
+Experiment design,Use recent engagement and watch-quality histories as stratification variables in a future online test.,Heterogeneity diagnostics identify recent interactions and high-watch share as important effect moderators.
+Deployment posture,"Treat this as offline evidence for experiment prioritization, not as deployment proof.","The analysis is observational and overlap is imperfect, even after weighting improved observed balance."

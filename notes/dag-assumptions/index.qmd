@@ -1,7 +1,6 @@
 ---
 title: "DAGs as communication tools"
 description: "Using directed acyclic graphs to align stakeholders on assumptions before modeling."
-date: 2026-04-26
 categories: [DAGs, Confounding, Communication]
 ---
 
@@ -16,9 +15,8 @@ DAGs are useful because they force a causal story into the open. They help teams
 - Which variables are measured before treatment?
 - Which variables are downstream of treatment?
 - Which paths should be blocked?
-- Which variables should not be adjusted for?
+- Which variables create bias when adjusted for?
 
 ## Applied Framing
 
 In industry settings, DAGs can prevent teams from adjusting for post-treatment variables such as engagement, usage, or retention when those variables are themselves affected by the intervention.
-

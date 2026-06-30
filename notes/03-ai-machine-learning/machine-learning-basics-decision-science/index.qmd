@@ -1,0 +1,96 @@
+---
+title: "Machine Learning Basics for Decision Science"
+categories: [Machine Learning, Data Science, Lecture Notes, Decision Science]
+---
+
+This course introduces machine learning as a decision-support discipline. The focus is on designing datasets, labels, splits, models, metrics, and monitoring workflows that can survive operational use.
+
+By the end, a reader should be able to frame supervised and unsupervised learning tasks, control leakage, compare baselines and flexible models, interpret metrics through costs and thresholds, use clustering and dimensionality reduction carefully, and connect model outputs to recommendations.
+
+
+::: {.course-page-figure}
+
+![Figure: ROC and precision-recall curves, used to connect model performance to threshold choice and operational cost (adapted from Lecture 09: Classification Metrics, Thresholds, and Confusion Matrices).](../../../assets/course-thumbnails/ml-basics.png){fig-alt="ROC and precision-recall curves comparing classification models"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/01_statistical_learning_for_decision_systems.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/01_statistical_learning_for_decision_systems.html">01. Statistical Learning for Decision Systems</a></p>
+<p class="notebook-guide-description">This lecture connects Statistical Learning for Decision Systems to data framing, validation, metrics, monitoring, and decision costs.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/02_framing_business_questions_as_supervised_and_unsupervised_tasks.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/02_framing_business_questions_as_supervised_and_unsupervised_tasks.html">02. Framing Business Questions as Supervised and Unsupervised Tasks</a></p>
+<p class="notebook-guide-description">This lecture develops Framing Business Questions as Supervised and Unsupervised Tasks with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/03_data_generating_processes_labels_features_and_representative_data.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/03_data_generating_processes_labels_features_and_representative_data.html">03. Data-Generating Processes, Labels, Features, and Representative Data</a></p>
+<p class="notebook-guide-description">This lecture uses Data-Generating Processes, Labels, Features, and Representative Data to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/04_train_validation_test_splits_and_leakage_control.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/04_train_validation_test_splits_and_leakage_control.html">04. Train, Validation, Test Splits, and Leakage Control</a></p>
+<p class="notebook-guide-description">This lecture connects train, validation, and test splits to leakage control and credible performance estimates.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/05_linear_and_logistic_models_as_predictive_baselines.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/05_linear_and_logistic_models_as_predictive_baselines.html">05. Linear and Logistic Models as Predictive Baselines</a></p>
+<p class="notebook-guide-description">This lecture frames Linear and Logistic Models as Predictive Baselines as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/06_regularization_bias_variance_and_feature_selection.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/06_regularization_bias_variance_and_feature_selection.html">06. Regularization, Bias-Variance, and Feature Selection</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Regularization, Bias-Variance, and Feature Selection and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/07_tree_models_random_forests_and_gradient_boosting.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/07_tree_models_random_forests_and_gradient_boosting.html">07. Tree Models, Random Forests, and Gradient Boosting</a></p>
+<p class="notebook-guide-description">This lecture applies Tree Models, Random Forests, and Gradient Boosting with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/08_regression_metrics_residuals_and_operational_error_costs.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/08_regression_metrics_residuals_and_operational_error_costs.html">08. Regression Metrics, Residuals, and Operational Error Costs</a></p>
+<p class="notebook-guide-description">This lecture develops Regression Metrics, Residuals, and Operational Error Costs as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/09_classification_metrics_thresholds_and_confusion_matrices.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/09_classification_metrics_thresholds_and_confusion_matrices.html">09. Classification Metrics, Thresholds, and Confusion Matrices</a></p>
+<p class="notebook-guide-description">This lecture connects Classification Metrics, Thresholds, and Confusion Matrices to validation, operating points, and decision costs.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/10_probability_calibration_and_risk_scoring.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/10_probability_calibration_and_risk_scoring.html">10. Probability Calibration and Risk Scoring</a></p>
+<p class="notebook-guide-description">This lecture develops Probability Calibration and Risk Scoring with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/11_unsupervised_learning_for_segmentation_and_structure_discovery.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/11_unsupervised_learning_for_segmentation_and_structure_discovery.html">11. Unsupervised Learning for Segmentation and Structure Discovery</a></p>
+<p class="notebook-guide-description">This lecture uses Unsupervised Learning for Segmentation and Structure Discovery to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/12_clustering_methods_kmeans_hierarchical_and_density_based.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/12_clustering_methods_kmeans_hierarchical_and_density_based.html">12. Clustering Methods: K-Means, Hierarchical, and Density-Based Ideas</a></p>
+<p class="notebook-guide-description">This lecture compares clustering methods through structure discovery, stability, and segment usefulness.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/13_dimensionality_reduction_pca_embeddings_and_visualization.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/13_dimensionality_reduction_pca_embeddings_and_visualization.html">13. Dimensionality Reduction, PCA, Embeddings, and Visualization</a></p>
+<p class="notebook-guide-description">This lecture frames Dimensionality Reduction, PCA, Embeddings, and Visualization as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/14_feature_engineering_for_operational_machine_learning.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/14_feature_engineering_for_operational_machine_learning.html">14. Feature Engineering for Operational Machine Learning</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Feature Engineering for Operational Machine Learning and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/15_hyperparameter_tuning_model_comparison_and_pipelines.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/15_hyperparameter_tuning_model_comparison_and_pipelines.html">15. Hyperparameter Tuning, Model Comparison, and Pipelines</a></p>
+<p class="notebook-guide-description">This lecture applies Hyperparameter Tuning, Model Comparison, and Pipelines with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/16_error_analysis_by_segment_and_use_case.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/16_error_analysis_by_segment_and_use_case.html">16. Error Analysis by Segment and Use Case</a></p>
+<p class="notebook-guide-description">This lecture develops Error Analysis by Segment and Use Case as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/17_monitoring_drift_degradation_and_feedback_loops.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/17_monitoring_drift_degradation_and_feedback_loops.html">17. Monitoring Drift, Degradation, and Feedback Loops</a></p>
+<p class="notebook-guide-description">This lecture connects Monitoring Drift, Degradation, and Feedback Loops to validation, governance, and operational response.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/18_from_scores_segments_and_model_outputs_to_operational_recommendations.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/18_from_scores_segments_and_model_outputs_to_operational_recommendations.html">18. From Scores, Segments, and Model Outputs to Operational Recommendations</a></p>
+<p class="notebook-guide-description">This lecture develops From Scores, Segments, and Model Outputs to Operational Recommendations with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/19_fairness_robustness_and_operational_guardrails.html" data-site-path="notebooks/lectures/03_ai_machine_learning/01_machine_learning_basics_for_decision_science/19_fairness_robustness_and_operational_guardrails.html">19. Fairness, Robustness, and Operational Guardrails</a></p>
+<p class="notebook-guide-description">This lecture uses Fairness, Robustness, and Operational Guardrails to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+</div>

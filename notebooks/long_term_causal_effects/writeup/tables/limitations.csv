@@ -1,0 +1,7 @@
+limitation,why_it_matters,mitigation_in_project
+Observational logging,"High-watch exposure was observational, so causal validity depends on observed adjustment.","Used sequential history covariates, propensity weights, MSM, g-computation, and AIPW triangulation."
+Sequential ignorability assumption,Unobserved user intent or recommender state may affect both treatment and future engagement.,"Adjusted for lagged activity, prior 3-day engagement, watch behavior, and calendar context; documented remaining risk."
+Imperfect overlap,"Some histories were much more likely to receive treatment, making weighted estimates less precise.","Diagnosed positivity, clipped weights, reported effective sample size, and ran weight sensitivity checks."
+Constructed treatment,"High-watch exposure is derived from observed consumption, not a product intervention directly assigned by the platform.",Defined the estimand explicitly and framed conclusions as offline evidence for future experiment design.
+Dataset slice,"The analysis uses a KuaiRec sample/panel derived for notebook runtime, so estimates may differ on the full platform log.",Saved a reproducible panel and designed the workflow so the sample size can be expanded later.
+Outcome choice,"Future interactions, active days, and watch hours capture different long-term product objectives.",Reported primary and secondary outcomes separately.

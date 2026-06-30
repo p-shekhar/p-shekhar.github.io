@@ -3,5 +3,6 @@ need,match,25,1.0
 intent,match,25,1.0
 match,engagement,25,1.0
 intent,renewal,25,1.0
-engagement,renewal,25,1.0
 engagement,support,25,1.0
+engagement,renewal,25,1.0
+intent,engagement,1,0.04

@@ -1,0 +1,13 @@
+---
+title: "AI for Causal Inference"
+description: "A course on using LLMs, RAG, agents, and automation to support causal analysis workflows."
+categories: [AI for Causal Inference, Lecture Notes]
+---
+
+AI for Causal Inference is the fourth course in the AI and Machine Learning lecture module. It treats AI as a supervised assistant to the causal analyst, with identification discipline kept at the center. The goal is to use LLMs, retrieval, agents, structured outputs, and evaluation workflows to make causal projects easier to draft, audit, critique, and communicate.
+
+The course covers local LLM setup, model comparison, business-question translation, estimand cards, DAG brainstorming, DAG critique, RAG for causal domain knowledge, literature synthesis, data profiling, bad-control detection, synthetic data, simulation labs, method selection, code generation, diagnostic reporting, sensitivity analysis, experiment design, quasi-experiment design, report generation, causal agents, multi-agent review, evaluation, hallucination analysis, and a capstone project.
+
+## [AI for Causal Inference](../05-ai-for-causal-inference/)
+
+This course develops a practical AI-assisted causal workflow. It emphasizes that model outputs are useful only when they are constrained by causal design, checked against evidence, evaluated for failure modes, and translated into auditable analysis artifacts.

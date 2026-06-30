@@ -1,15 +1,67 @@
 ---
 title: "Expertise"
-description: "Core professional expertise across causal inference and trustworthy AI systems."
+description: "Decision-science agenda across causal inference, interpretable ML, privacy-aware AI, anomaly detection, and AI-assisted software."
 listing:
   contents:
     - causal-inference/index.qmd
+    - interpretable-machine-learning/index.qmd
     - ai-systems/index.qmd
+    - anomaly-detection-handling/index.qmd
+    - ai-assisted-software/index.qmd
   type: grid
   fields: [title, description, categories]
 ---
 
-My professional profile is organized around two connected pillars: rigorous decision science and production-aware AI systems.
+My professional profile is organized around **statistical decision systems**: methods, models, and software that help decision-makers act under incomplete evidence.
 
-The common thread is trust. Whether the system estimates a treatment effect or routes work through an LLM agent, the important questions are similar: What decision is being supported? What assumptions are required? How do we evaluate quality? What failure modes matter? How do we monitor behavior over time?
+The common questions across my work are consistent:
 
+- What decision is being supported?
+- What evidence is available, missing, noisy, private, or confounded?
+- What assumptions are required?
+- What support, uncertainty, and failure modes should be diagnosed before acting?
+- What recommendation is launch-ready, validation-ready, rejected, or unresolved?
+
+## Decision Science Agenda
+
+::: {.track-grid}
+::: {.track-card}
+### Causal and Statistical Inference
+
+Support-aware off-policy evaluation, replay estimands, robust experiments, incrementality, guardrails, sensitivity analysis, and launch-readiness decisions.
+
+[Read more](causal-inference/index.qmd)
+:::
+
+::: {.track-card}
+### Interpretable Machine Learning
+
+Sparse learning, multiscale approximation, time-series reconstruction, uncertainty estimates, and auditable model validation.
+
+[Read more](interpretable-machine-learning/index.qmd)
+:::
+
+::: {.track-card}
+### Privacy, AI and Cybersecurity
+
+Decision reliability under privacy, trust, and adversarial constraints: secure learning, signal loss, robustness, and authentication.
+
+[Read more](ai-systems/index.qmd)
+:::
+
+::: {.track-card}
+### Anomaly Detection and Handling
+
+Operational decision systems for rare events, defects, domain shifts, biomedical monitoring, autonomous systems, and manufacturing quality.
+
+[Read more](anomaly-detection-handling/index.qmd)
+:::
+
+::: {.track-card}
+### AI-Assisted Software Systems
+
+Local-intelligence-based research software, deterministic tools, infrastructure agents, conversational interfaces, model control, and deployment automation.
+
+[Read more](ai-assisted-software/index.qmd)
+:::
+:::

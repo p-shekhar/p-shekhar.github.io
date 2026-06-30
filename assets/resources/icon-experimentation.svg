@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Experiment split icon">
+  <rect x="5" y="5" width="38" height="38" rx="12" fill="#fff7e8" stroke="#ead6a6"/>
+  <path d="M24 12 V20 M24 20 C17 20 15 25 15 32 M24 20 C31 20 33 25 33 32" fill="none" stroke="#c2912e" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="24" cy="12" r="4" fill="#ffffff" stroke="#c2912e" stroke-width="2"/>
+  <rect x="10" y="30" width="10" height="7" rx="3.5" fill="#ffffff" stroke="#c2912e" stroke-width="2"/>
+  <rect x="28" y="30" width="10" height="7" rx="3.5" fill="#ffffff" stroke="#c2912e" stroke-width="2"/>
+</svg>

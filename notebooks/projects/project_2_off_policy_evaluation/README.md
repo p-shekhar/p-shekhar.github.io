@@ -1,28 +1,40 @@
-# Off-Policy Evaluation of Recommendation Systems
+# Off-Policy Evaluation for Recommendation Policies
 
-This folder contains the off-policy evaluation notebooks based on `CausalAI_projects.pdf`.
+This project evaluates alternative recommendation policies offline with logged bandit data from the Open Bandit Dataset. The core question is how a candidate policy might have performed if it had been deployed under the same user-context distribution.
 
-The project goal is to evaluate a new recommendation policy using logged data from an existing behavior policy. The core causal question is:
+## What You Will Build
 
-> How would an alternative recommendation policy have performed if it had been deployed?
+You will build a complete off-policy evaluation workflow. The project moves from behavior-policy diagnostics to IPS, SNIPS, direct method, doubly robust estimation, clipping sensitivity, and contextual policy learning. The output is a launch-readiness view of candidate policies, not a single score detached from support and uncertainty.
 
-Planned methods:
+## How To Use This Project
 
-- Inverse Propensity Scoring
-- Self-Normalized IPS
-- Doubly Robust policy value estimation
+Start with the data audit in notebook `01`, then move through behavior-policy propensities, importance-weighted estimators, doubly robust estimation, and sensitivity analysis. Notebook `06` adds policy learning with reward models and compares candidate recommendation policies under the OPE diagnostics developed earlier.
 
-Candidate datasets:
+The final notebook is an artifact builder for figures, tables, and summary files.
 
-- Open Bandit Dataset
-- KuaiRec
+## Data Source And Scope
 
-Suggested notebook sequence:
+The project uses the Open Bandit Dataset, with emphasis on the `random/men` campaign. This setting is useful for OPE because the data include logged actions, rewards, context features, and known behavior-policy propensities from a real fashion e-commerce recommendation setting. The analysis uses click reward as the short-term outcome, so the interpretation is about immediate response under logged recommendation policies.
 
-- `01_open_bandit_eda.ipynb`
-- `02_behavior_policy_and_propensities.ipynb`
-- `03_ips_and_snips.ipynb`
-- `04_doubly_robust_ope.ipynb`
-- `05_policy_comparison_and_sensitivity.ipynb`
-- `06_contextual_policy_learning.ipynb`
-- `07_final_report_and_artifacts.ipynb`
+## Notebook Sequence
+
+- [01 Open Bandit EDA](01_open_bandit_eda.ipynb)
+- [02 Behavior policy and propensity diagnostics](02_behavior_policy_and_propensities.ipynb)
+- [03 IPS and SNIPS policy evaluation](03_ips_and_snips.ipynb)
+- [04 Doubly robust OPE](04_doubly_robust_ope.ipynb)
+- [05 Policy comparison and sensitivity](05_policy_comparison_and_sensitivity.ipynb)
+- [06 Contextual policy learning](06_contextual_policy_learning.ipynb)
+
+## Artifact Notebook
+
+- [07 Final report and artifacts](07_final_report_and_artifacts.ipynb)
+
+This notebook generates final figures, tables, and project artifacts. The public teaching sequence should point readers first to notebooks `01` through `06`.
+
+## Key Interpretation
+
+Offline policy value estimates are meaningful only when support, propensity quality, reward-model diagnostics, and sensitivity checks agree. The project shows how a policy with appealing estimated reward can still require caution when effective sample size is low or estimates depend heavily on clipped high-weight observations.
+
+## Verified References And Data Links
+
+- Saito, Y., Aihara, S., Matsutani, M., & Narita, Y. (2021). Open Bandit Dataset and Pipeline: Towards realistic and reproducible off-policy evaluation. [arXiv:2008.07146](https://arxiv.org/abs/2008.07146) and [OBP GitHub repository](https://github.com/st-tech/zr-obp).

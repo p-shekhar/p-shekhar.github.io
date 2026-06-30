@@ -1,7 +1,6 @@
 ---
 title: "RAG system with evaluation and drift monitoring"
 description: "A project template for retrieval-augmented generation with vector search, hallucination checks, automated evaluation, and monitoring."
-date: 2026-04-26
 categories: [AI Systems, RAG, LLMOps, Evaluation]
 ---
 
@@ -9,13 +8,13 @@ categories: [AI Systems, RAG, LLMOps, Evaluation]
 
 Build a retrieval-augmented generation system that answers domain-specific questions using a controlled document collection, with explicit evaluation for retrieval quality, groundedness, and answer usefulness.
 
-## Why This Demonstrates Expertise
+## Why This Matters
 
-A credible RAG project is more than a chat interface. It should show how documents are chunked, embedded, indexed, retrieved, reranked, cited, evaluated, monitored, and improved.
+A credible RAG system has to do more than answer questions. It needs a clear document pipeline, reliable retrieval, grounded generation, citations that can be audited, and monitoring that catches drift or regression before users lose trust.
 
 ## Architecture
 
-Planned components:
+Planned components include the following pieces.
 
 - Document ingestion and cleaning.
 - Chunking strategy and metadata schema.
@@ -29,7 +28,7 @@ Planned components:
 
 ## Evaluation Plan
 
-Track:
+The evaluation should track the following measures.
 
 - Retrieval recall at `k`.
 - Context precision.
@@ -49,5 +48,4 @@ Track:
 
 ## Executive Summary Template
 
-Replace this with a concise system readout: what the system does, where it performs well, where it fails, and what monitoring is required before deployment.
-
+Replace this with a concise system readout that explains what the system does, where it performs well, where it fails, and what monitoring is required before deployment.

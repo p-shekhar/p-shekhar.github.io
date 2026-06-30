@@ -1,5 +1,5 @@
 input,target,relevance,input_type
-watch_time,retention_score,9.145289690064995,observed parent
-user_intent,retention_score,0.9053396664440283,observed parent
-noise_1,retention_score,0.8490671187395474,mechanism noise
-content_quality,retention_score,0.42138839465857975,observed parent
+watch_time,retention_score,9.145289690064985,observed parent
+user_intent,retention_score,0.9053396664440259,observed parent
+noise_1,retention_score,0.8490671187395462,mechanism noise
+content_quality,retention_score,0.4213883946585848,observed parent

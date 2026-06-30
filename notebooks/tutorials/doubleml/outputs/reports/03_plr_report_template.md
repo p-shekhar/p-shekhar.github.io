@@ -7,9 +7,9 @@ Estimate the constant-slope effect of `exposure_intensity` on `weekly_value`, ad
 The main estimator is `DoubleMLPLR` with the partialling-out score, five-fold cross-fitting, and histogram gradient-boosting nuisance learners for `ml_l` and `ml_m`.
 
 ## Main Estimate
-- Estimated effect: 1.8012
-- Standard error: 0.0211
-- 95 percent confidence interval: [1.7598, 1.8427]
+- Estimated effect: 1.8036
+- Standard error: 0.0206
+- 95 percent confidence interval: [1.7633, 1.8439]
 
 ## Diagnostics Included
 - Baseline comparisons against naive and linearly adjusted OLS.

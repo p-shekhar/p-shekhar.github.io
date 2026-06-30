@@ -1,0 +1,44 @@
+---
+title: "Off-Policy Evaluation for Bandit Systems"
+description: "An applied causal inference lab on evaluating bandit policies from logged feedback."
+categories: [Causal Inference, Off-Policy Evaluation, Project Lab]
+body-classes: project-page project-lab-page
+---
+
+<figure class="project-page-figure">
+<img src="../../notebooks/projects/project_2_off_policy_evaluation/writeup/figures/03_lift_vs_support.png" alt="Policy lift versus support diagnostics in off-policy evaluation">
+<figcaption>Figure 1: Policy lift compared with support diagnostics, showing why value estimates need reliability checks before deployment.</figcaption>
+</figure>
+
+This lab studies how to evaluate a new decision policy using historical bandit logs. A logged policy chose actions, observed rewards, and stored propensities or features that let the analyst reconstruct how likely each action was under the behavior policy.
+
+The main lesson is that off-policy evaluation is not just a value-estimation formula. It is a decision workflow. A policy with high estimated lift can still be risky when it relies on weak support, unstable weights, or narrow slices of the logged action space. The lab therefore pairs IPS, SNIPS, and doubly robust estimators with diagnostics, uncertainty summaries, and contextual policy-learning comparisons.
+
+## Lab Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_2_off_policy_evaluation/01_open_bandit_eda.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/01_open_bandit_eda.html">01. Open Bandit EDA</a></p>
+<p class="notebook-guide-description">Introduces the logged bandit dataset, available contexts, actions, rewards, and the policy-evaluation question that motivates the rest of the lab.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_2_off_policy_evaluation/02_behavior_policy_and_propensities.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/02_behavior_policy_and_propensities.html">02. Behavior Policy and Propensities</a></p>
+<p class="notebook-guide-description">Reconstructs the behavior-policy information needed for OPE and studies whether candidate policies are sufficiently supported by historical logging.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_2_off_policy_evaluation/03_ips_and_snips.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/03_ips_and_snips.html">03. IPS and SNIPS</a></p>
+<p class="notebook-guide-description">Builds inverse-propensity and self-normalized estimators, then examines how weights create both the possibility and the fragility of off-policy learning.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_2_off_policy_evaluation/04_doubly_robust_ope.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/04_doubly_robust_ope.html">04. Doubly Robust OPE</a></p>
+<p class="notebook-guide-description">Combines reward modeling with propensity weighting to reduce variance and clarify the role of model fit in decision-quality OPE.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_2_off_policy_evaluation/05_policy_comparison_and_sensitivity.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/05_policy_comparison_and_sensitivity.html">05. Policy Comparison and Sensitivity</a></p>
+<p class="notebook-guide-description">Compares candidate policies using lift, support, clipping behavior, and uncertainty so the decision is based on robustness rather than a single point estimate.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_2_off_policy_evaluation/06_contextual_policy_learning.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/06_contextual_policy_learning.html">06. Contextual Policy Learning</a></p>
+<p class="notebook-guide-description">Learns context-dependent policies from logged feedback and evaluates whether personalization improves value without weakening support or increasing decision risk.</p>
+</article>
+</div>

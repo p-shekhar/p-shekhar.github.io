@@ -1,9 +1,9 @@
 model,learner,metric_value,metric
-Panel observational linear,ml_g0,0.6481836552159589,RMSE for outcome learners; classification error style score for propensity learner
-Panel observational linear,ml_g1,0.6622791735405035,RMSE for outcome learners; classification error style score for propensity learner
-Panel observational linear,ml_m,0.47377225735053224,RMSE for outcome learners; classification error style score for propensity learner
-Panel observational HGB,ml_g0,0.654898897357494,RMSE for outcome learners; classification error style score for propensity learner
-Panel observational HGB,ml_g1,0.6798739228232642,RMSE for outcome learners; classification error style score for propensity learner
-Panel observational HGB,ml_m,0.4774519237409023,RMSE for outcome learners; classification error style score for propensity learner
-Panel experimental HGB,ml_g0,0.6582531050061544,RMSE for outcome learners; classification error style score for propensity learner
-Panel experimental HGB,ml_g1,0.6798429752314576,RMSE for outcome learners; classification error style score for propensity learner
+Panel observational linear,ml_g0,0.6482136637267949,RMSE for outcome learners; classification error style score for propensity learner
+Panel observational linear,ml_g1,0.6624675104607607,RMSE for outcome learners; classification error style score for propensity learner
+Panel observational linear,ml_m,0.4734243372933158,RMSE for outcome learners; classification error style score for propensity learner
+Panel observational HGB,ml_g0,0.6570876134006822,RMSE for outcome learners; classification error style score for propensity learner
+Panel observational HGB,ml_g1,0.6768601818953465,RMSE for outcome learners; classification error style score for propensity learner
+Panel observational HGB,ml_m,0.4770629835110819,RMSE for outcome learners; classification error style score for propensity learner
+Panel experimental HGB,ml_g0,0.6572430469904434,RMSE for outcome learners; classification error style score for propensity learner
+Panel experimental HGB,ml_g1,0.68316208376178,RMSE for outcome learners; classification error style score for propensity learner

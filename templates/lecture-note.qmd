@@ -1,7 +1,6 @@
 ---
 title: "Lecture Note Title"
 description: "One sentence describing the concept."
-date: YYYY-MM-DD
 categories: [Concept, Method]
 ---
 

@@ -1,8 +1,8 @@
 nuisance_model,metric,value
 "propensity E[T | X, W]",out_of_fold_auc,0.7737990935088461
 "propensity E[T | X, W]",out_of_fold_brier_score,0.19527491567821642
-"propensity E[T | X, W]",out_of_fold_log_loss,0.5751139072764747
-observed-arm outcome,out_of_fold_rmse,1.1141549429131814
-DR pseudo-outcome,mean,0.33866562778546005
-DR pseudo-outcome,std,2.308100881904372
-DR pseudo-outcome,correlation_with_true_cate,0.14726249947298317
+"propensity E[T | X, W]",out_of_fold_log_loss,0.5751139072764746
+observed-arm outcome,out_of_fold_rmse,1.1141549429131812
+DR pseudo-outcome,mean,0.33866562778546
+DR pseudo-outcome,std,2.3081008819043713
+DR pseudo-outcome,correlation_with_true_cate,0.14726249947298314

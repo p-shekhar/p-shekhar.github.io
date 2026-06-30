@@ -10,14 +10,14 @@ Two targets are reported:
 
 ## Main Estimates
 ATE estimate:
-- Estimated effect: 0.9853
-- Standard error: 0.0539
-- 95 percent confidence interval: [0.8797, 1.0909]
+- Estimated effect: 0.9843
+- Standard error: 0.0537
+- 95 percent confidence interval: [0.8790, 1.0897]
 
 ATTE estimate:
-- Estimated effect: 1.0483
-- Standard error: 0.0699
-- 95 percent confidence interval: [0.9113, 1.1852]
+- Estimated effect: 1.1023
+- Standard error: 0.0571
+- 95 percent confidence interval: [0.9905, 1.2141]
 
 ## Estimator
 The main estimator is `DoubleMLIRM` with five-fold cross-fitting, histogram gradient-boosted outcome models, and a histogram gradient-boosted propensity classifier.
@@ -25,7 +25,7 @@ The main estimator is `DoubleMLIRM` with five-fold cross-fitting, histogram grad
 ## Diagnostics Included
 - Difference-in-means, OLS adjustment, manual IPW, manual AIPW, and DoubleML comparisons.
 - Propensity overlap and inverse-propensity weight diagnostics.
-- Effective sample size from IPW weights: 2225.4.
+- Effective sample size from IPW weights: 2251.7.
 - Outcome nuisance and propensity nuisance quality checks.
 - Orthogonal score contribution checks.
 - Bootstrap confidence intervals.

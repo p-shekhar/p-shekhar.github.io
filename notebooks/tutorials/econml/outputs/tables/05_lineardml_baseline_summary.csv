@@ -1,7 +1,7 @@
 metric,value
-test_estimated_ate,0.2673591909969649
+test_estimated_ate,0.2673591909969647
 test_true_ate,0.28836220902822457
-test_ate_error,-0.021003018031259646
+test_ate_error,-0.021003018031259868
 test_cate_rmse,0.15798093866405866
-test_cate_correlation,0.8852409925979385
+test_cate_correlation,0.8852409925979383
 test_cate_spearman,0.8720426959159611

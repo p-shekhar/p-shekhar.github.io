@@ -1,2 +1,2 @@
 n_clusters,adjusted_rand_index,mean_cluster_purity,order_matches_truth,learned_majority_order,method,elapsed_seconds
-1,0.0,0.6,False,latent_need,GIN_hsic,0.8383655790239573
+1,0.0,0.6,False,latent_need,GIN_hsic,0.7797557690646499

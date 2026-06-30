@@ -1,4 +1,4 @@
-# Final Summary: Long-Term Causal Effects in Recommendation Systems
+# Curated Project Summary: Long-Term Effects in Recommendation Systems
 
 ## Question
 
@@ -32,8 +32,12 @@ Weighting improved observed covariate balance, but overlap was imperfect and eff
 
 ## Product Takeaway
 
-High-watch exposure should not be treated as automatically beneficial for longer-term interaction volume. It may still be a useful short-term satisfaction signal, but it should be validated against long-term metrics and tested online with stratification by recent user history.
+High-watch exposure is an incomplete basis for longer-term interaction decisions. It can still be a useful short-term satisfaction signal when it is validated against long-term metrics and tested online with stratification by recent user history.
 
 ## Limitations
 
 This is an observational analysis. The estimates rely on sequential ignorability, observed history adjustment, and constructed treatment definitions. The results are best used to prioritize and design online experiments, not to replace them.
+
+## Recommended Website Use
+
+Use notebooks `01` through `06` as the public analytic sequence. Keep `07_sensitivity_and_final_report.ipynb` out of the direct public path until the sensitivity material is separated from the final-report assembly.

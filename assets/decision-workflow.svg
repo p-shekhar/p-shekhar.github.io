@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="520" viewBox="0 0 780 520" role="img" aria-labelledby="title desc">
+  <title id="title">Prashant Shekhar decision science capability graph</title>
+  <desc id="desc">A capability graph showing five focus areas that inform one another and converge on defensible analytics for decisions under uncertainty.</desc>
+  <defs>
+    <filter id="soft-shadow" x="-12%" y="-12%" width="128%" height="132%">
+      <feDropShadow dx="6" dy="8" stdDeviation="7" flood-color="#25211d" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="core-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14615a"/>
+      <stop offset="0.58" stop-color="#10534d"/>
+      <stop offset="1" stop-color="#124850"/>
+    </linearGradient>
+    <linearGradient id="core-gloss" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.32" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="0.68" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="surface-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f7f4ed"/>
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0 H0 V22" fill="none" stroke="#ded7c8" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <marker id="arrow-muted" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#9f9588"/>
+    </marker>
+    <marker id="arrow-muted-feedback" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#9f9588"/>
+    </marker>
+    <marker id="arrow-core" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#0f4d47"/>
+    </marker>
+  </defs>
+
+  <rect x="12" y="12" width="756" height="496" rx="22" fill="url(#surface-fill)" stroke="#ded7c8" stroke-width="2"/>
+  <rect x="12" y="12" width="756" height="496" rx="22" fill="url(#grid)" opacity="0.34"/>
+  <g fill="none" stroke="#9f9588" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="4 8" opacity="0.54">
+    <path d="M292 88 C352 34 428 34 488 88" marker-start="url(#arrow-muted-feedback)" marker-end="url(#arrow-muted-feedback)"/>
+    <path d="M738 101 C760 154 760 238 758 286 C756 384 652 430 515 438" marker-end="url(#arrow-muted)"/>
+    <path d="M42 146 C24 210 25 304 68 365 C112 427 181 450 258 438" marker-end="url(#arrow-muted)"/>
+    <path d="M125 148 C114 190 114 244 125 286" marker-start="url(#arrow-muted-feedback)" marker-end="url(#arrow-muted-feedback)"/>
+    <path d="M675 148 C704 188 704 246 675 286" marker-end="url(#arrow-muted)"/>
+    <path d="M520 416 C548 400 570 386 594 372" marker-end="url(#arrow-muted)"/>
+  </g>
+
+  <g transform="translate(275 170)" filter="url(#soft-shadow)">
+    <rect x="-7" y="-7" width="244" height="106" rx="24" fill="#0f4d47" opacity="0.12"/>
+    <rect width="230" height="92" rx="20" fill="url(#core-fill)"/>
+    <rect width="230" height="92" rx="20" fill="url(#core-gloss)"/>
+    <rect x="1.2" y="1.2" width="227.6" height="89.6" rx="18.8" fill="none" stroke="#dcece9" stroke-width="1.4" stroke-opacity="0.42"/>
+    <text x="115" y="42" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Decision Science</text>
+    <text x="115" y="70" text-anchor="middle" fill="#e4f2ef" font-family="Arial, Helvetica, sans-serif" font-size="12.8" font-weight="700">Analytics Under Uncertainty</text>
+  </g>
+
+  <g transform="translate(42 62)">
+    <rect width="250" height="78" rx="15" fill="#eef8f6" stroke="#176b63" stroke-width="1.8" filter="url(#soft-shadow)"/>
+    <path d="M8 13 V65" stroke="#176b63" stroke-width="5" stroke-linecap="round"/>
+    <text x="125" y="30" text-anchor="middle" fill="#25211d" font-family="Arial, Helvetica, sans-serif" font-size="16.8" font-weight="800">Causal Inference</text>
+    <g transform="translate(214 12)">
+      <circle cx="5" cy="5" r="3" fill="#176b63"/>
+      <circle cx="18" cy="5" r="3" fill="#176b63" opacity="0.76"/>
+      <circle cx="11.5" cy="17" r="3" fill="#176b63" opacity="0.56"/>
+      <path d="M7.2 7 L10.8 14.2 M15.8 7 L12.2 14.2" stroke="#176b63" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+    <text x="125" y="54" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="13.3">OPE / Experiments / Incrementality</text>
+    <text x="125" y="72" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="13.3">Support Diagnostics / Lift</text>
+  </g>
+
+  <g transform="translate(488 62)">
+    <rect width="250" height="78" rx="15" fill="#f5f1f8" stroke="#5c4a72" stroke-width="1.8" filter="url(#soft-shadow)"/>
+    <path d="M8 13 V65" stroke="#5c4a72" stroke-width="5" stroke-linecap="round"/>
+    <text x="125" y="30" text-anchor="middle" fill="#25211d" font-family="Arial, Helvetica, sans-serif" font-size="16.8" font-weight="800">Interpretable ML</text>
+    <g transform="translate(214 13)">
+      <rect x="0" y="12" width="3.8" height="8.5" fill="#5c4a72"/>
+      <rect x="7" y="8" width="3.8" height="12.5" fill="#5c4a72" opacity="0.82"/>
+      <rect x="14" y="3" width="3.8" height="17.5" fill="#5c4a72" opacity="0.66"/>
+      <path d="M0 9 C5.5 1.8 17 1.8 23 9" fill="none" stroke="#5c4a72" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+    <text x="125" y="54" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="13.3">Sparse Learning / Multiscale Models</text>
+    <text x="125" y="72" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="13.3">Time Series / Validation</text>
+  </g>
+
+  <g transform="translate(488 292)">
+    <rect width="250" height="78" rx="15" fill="#fcf0ec" stroke="#b75d45" stroke-width="1.8" filter="url(#soft-shadow)"/>
+    <path d="M8 13 V65" stroke="#b75d45" stroke-width="5" stroke-linecap="round"/>
+    <text x="125" y="30" text-anchor="middle" fill="#25211d" font-family="Arial, Helvetica, sans-serif" font-size="16.8" font-weight="800">Privacy &amp; AI Security</text>
+    <g transform="translate(214 12)">
+      <rect x="3" y="9" width="18" height="15" rx="3" fill="none" stroke="#b75d45" stroke-width="1.8"/>
+      <path d="M6.5 9 V5.8 C6.5 0 17.5 0 17.5 5.8 V9" fill="none" stroke="#b75d45" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="12" cy="18" r="2" fill="#b75d45"/>
+    </g>
+    <text x="125" y="54" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="13.3">Privacy-Preserving ML / Robustness</text>
+    <text x="125" y="72" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="13.3">Trust / Authentication</text>
+  </g>
+
+  <g transform="translate(265 400)">
+    <rect width="250" height="78" rx="15" fill="#fff7e8" stroke="#c2912e" stroke-width="1.8" filter="url(#soft-shadow)"/>
+    <path d="M8 13 V65" stroke="#c2912e" stroke-width="5" stroke-linecap="round"/>
+    <text x="125" y="30" text-anchor="middle" fill="#25211d" font-family="Arial, Helvetica, sans-serif" font-size="16.8" font-weight="800">Anomaly Detection</text>
+    <g transform="translate(214 12)">
+      <path d="M0 15 L5 7 L12 20 L21 3" fill="none" stroke="#c2912e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="21" cy="3" r="2.5" fill="#b75d45"/>
+    </g>
+    <text x="125" y="55" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="13.3">Rare Events / Defects / Handling</text>
+  </g>
+
+  <g transform="translate(42 292)">
+    <rect width="250" height="88" rx="15" fill="#eef4f7" stroke="#3f6f8c" stroke-width="1.8" filter="url(#soft-shadow)"/>
+    <path d="M8 13 V75" stroke="#3f6f8c" stroke-width="5" stroke-linecap="round"/>
+    <text x="125" y="24" text-anchor="middle" fill="#25211d" font-family="Arial, Helvetica, sans-serif" font-size="15.2" font-weight="800">AI-Assisted Software</text>
+    <text x="125" y="40" text-anchor="middle" fill="#25211d" font-family="Arial, Helvetica, sans-serif" font-size="15.2" font-weight="800">Development</text>
+    <g transform="translate(211 13)">
+      <text x="0" y="11" fill="#3f6f8c" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="800">&lt;/&gt;</text>
+      <path d="M1 17 H24" stroke="#3f6f8c" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <text x="125" y="65" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="12.4">Agents / Deterministic Tools</text>
+    <text x="125" y="80" text-anchor="middle" fill="#655f57" font-family="Arial, Helvetica, sans-serif" font-size="12.4">Model Control / Automation</text>
+  </g>
+
+  <g fill="none" stroke="#fdfbf7" stroke-width="7" stroke-linecap="round" opacity="0.92">
+    <path d="M180 146 C212 157 244 178 272 194"/>
+    <path d="M600 146 C568 157 536 178 508 194"/>
+    <path d="M180 286 C212 275 244 254 272 238"/>
+    <path d="M600 286 C568 275 536 254 508 238"/>
+    <path d="M390 392 C376 353 377 305 390 266"/>
+  </g>
+  <g fill="none" stroke="#0f4d47" stroke-width="3" stroke-linecap="round" opacity="0.78" marker-end="url(#arrow-core)">
+    <path d="M180 146 C212 157 244 178 272 194"/>
+    <path d="M600 146 C568 157 536 178 508 194"/>
+    <path d="M180 286 C212 275 244 254 272 238"/>
+    <path d="M600 286 C568 275 536 254 508 238"/>
+    <path d="M390 392 C376 353 377 305 390 266"/>
+  </g>
+</svg>

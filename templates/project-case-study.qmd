@@ -1,7 +1,6 @@
 ---
 title: "Project Title"
 description: "One sentence describing the decision and causal design."
-date: YYYY-MM-DD
 categories: [Method, Domain, Tool]
 ---
 

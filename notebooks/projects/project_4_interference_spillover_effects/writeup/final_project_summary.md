@@ -1,4 +1,4 @@
-# Final Summary: Interference and Spillover Effects in Recommendation Slates
+# Curated Project Summary: Interference and Spillovers in Recommendation Slates
 
 ## Question
 
@@ -25,8 +25,12 @@ Flexible outcome models were used to predict slate-level outcomes and estimate c
 
 ## Recommendation
 
-Do not evaluate promotion policies using promoted-item gains alone. When items compete for visibility, report slate-level total effects and monitor substitute or displaced-item spillovers. Advanced models can help target safer promotions, but they should be validated against randomized or valid off-policy benchmarks.
+Evaluate promotion policies at the slate level when items compete for visibility. The promoted-item gain should be reported alongside substitute and displaced-item spillovers. Advanced models can help target safer promotions, but they should be validated against randomized or valid off-policy benchmarks.
 
 ## Limitations
 
 The numerical results are from a simulation built on MovieLens ratings, not a real production experiment. Genres are coarse substitute clusters, and the outcome mechanism is assumed. The value of the work is the transferable causal workflow: define interference, randomize at the right level, decompose direct and indirect effects, and evaluate policies by net slate value.
+
+## Recommended Website Use
+
+Use notebooks `01` through `05` as the public analytic sequence. Keep `06_sensitivity_and_final_report.ipynb` as an artifact builder unless the sensitivity sections are split into a clean public notebook.

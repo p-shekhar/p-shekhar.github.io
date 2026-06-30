@@ -1,8 +1,8 @@
 diagnostic,value
 predicted propensity minimum,0.02
-predicted propensity p05,0.10042145759118665
-predicted propensity median,0.4400484896195802
-predicted propensity p95,0.8623901033323711
-predicted propensity maximum,0.98
-IPW effective sample size,2225.352823584734
-maximum IPW weight,41.0886649618443
+predicted propensity p05,0.10246071653054757
+predicted propensity median,0.43797472166868023
+predicted propensity p95,0.8624608555074407
+predicted propensity maximum,0.9731285273664576
+IPW effective sample size,2251.699335669908
+maximum IPW weight,43.41935657135477

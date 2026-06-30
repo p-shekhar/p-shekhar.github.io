@@ -10,14 +10,14 @@ The concern is that unobserved factors may affect both treatment and outcome. Th
 The main estimator is `DoubleMLPLIV` with the partialling-out score, five-fold cross-fitting, and histogram gradient-boosting nuisance learners.
 
 ## Main Estimate
-- Estimated effect: 1.8736
+- Estimated effect: 1.9293
 - Standard error: 0.0475
-- 95 percent confidence interval: [1.7804, 1.9668]
+- 95 percent confidence interval: [1.8363, 2.0224]
 
 ## First Stage
-- Residualized first-stage slope: 0.7953
-- Residualized first-stage F statistic: 618.22
-- Residual instrument-treatment correlation: 0.4454
+- Residualized first-stage slope: 0.7581
+- Residualized first-stage F statistic: 575.44
+- Residual instrument-treatment correlation: 0.4327
 
 ## Diagnostics Included
 - OLS, naive IV, residualized IV, oracle IV, and DoubleML PLIV comparisons.

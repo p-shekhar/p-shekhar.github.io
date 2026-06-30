@@ -1,0 +1,43 @@
+---
+title: "Atmospheric Aerosol Machine Learning"
+description: "Feature-aware regression and random-forest modeling for water-soluble organic aerosol mass and seasonal aqueous SOA interpretation."
+categories: [Interpretable ML, Environmental Data Science, Random Forests, Scientific Modeling]
+body-classes: project-page
+---
+
+<figure class="project-page-figure">
+<img src="../../assets/project-thumbnails/atmospheric-aerosol-ml.png" alt="Machine-learning workflow for atmospheric aerosol interpretation">
+<figcaption>Figure 1: Feature-aware machine-learning workflow for interpreting water-soluble organic aerosol mass.</figcaption>
+</figure>
+
+## Problem
+
+Atmospheric aerosol analysis requires models that can predict chemical quantities and remain interpretable enough for scientific use. For water-soluble organic aerosol mass, prediction accuracy alone is not enough. The model should also help explain how relative humidity, isoprene chemistry, and nitrogen-oxide conditions relate to partitioning and secondary organic aerosol formation.
+
+Figure 1 frames the project as feature-aware scientific machine learning. It signals that the predictors have atmospheric meaning, so the model must support chemical interpretation as well as prediction.
+
+## Contribution
+
+This project uses statistical and machine-learning models to connect aerosol measurements, chemical interpretation, and model comparison [1, 2].
+
+- Predicts evaporated water-soluble organic mass caused by sample drying using multivariate polynomial regression and random forests.
+- Trains on Baltimore summer measurements from 2015 and 2016 and validates on summer 2017 data.
+- Links prediction to atmospheric variables with chemical meaning, including WSOM concentration, relative humidity, isoprene concentration, and NOx-to-isoprene ratio.
+- Reports feature importance for the random forest so the predictive model remains connected to atmospheric chemistry.
+- Quantifies seasonal aqueous secondary organic aerosol contributions and separates reversible from irreversible pathways.
+- Compares seasonally measured aqueous secondary organic aerosol with CMAQ modeled mass to identify where model parameterizations can improve.
+
+## Evidence
+
+[1] reports that a random forest with about 100 decision trees gives the best predictive performance, with coefficient of determination around 0.81 and normalized mean error below 1 percent. Feature importance is reported as 0.55 for WSOM concentration, 0.20 for relative humidity, 0.15 for isoprene concentration, and 0.10 for NOx-to-isoprene ratio. The model is then used to predict summertime evaporated organics in Yorkville, Georgia and Centerville, Alabama.
+
+[2] shows that aqueous secondary organic aerosol can make a substantial nighttime contribution to total secondary organic aerosol in the eastern United States, with about 30 percent in cold seasons and about 50 percent in warm seasons. The study also finds that the mass is mostly formed through irreversible pathways, except during warm seasons when reversible partitioning contributes about 10 percent of total SOA mass and about 20 percent of aqueous SOA mass.
+
+The project uses machine learning as a scientific modeling tool. Prediction is valuable because the variables, feature importance, seasonal comparisons, and CMAQ gaps can all be interpreted in relation to aerosol liquid water, multiphase chemistry, and model representation.
+
+## Selected Publications
+
+::: {.citation-list}
+- **[1]** El-Sayed, M. M. H., Parida, S. S., **Shekhar, P.**, Sullivan, A., & Hennigan, C. J. (2023). Predicting atmospheric water-soluble organic mass reversibly partitioned to aerosol liquid water in the eastern United States. *Environmental Science & Technology, 57*(46), 18151-18161.
+- **[2]** Sapkota, S., **Shekhar, P.**, Murphy, B., Pye, H. O. T., Hennigan, C. J., & El-Sayed, M. M. H. (2025). Seasonal assessment of secondary organic aerosol formed through aqueous pathways in the eastern United States. *ACS Earth and Space Chemistry, 9*(4), 876-887. <https://doi.org/10.1021/acsearthspacechem.4c00392>
+:::

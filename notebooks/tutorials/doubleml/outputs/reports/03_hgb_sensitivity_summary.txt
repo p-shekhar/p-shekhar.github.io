@@ -6,8 +6,8 @@ Sensitivity parameters: cf_y=0.03; cf_d=0.03, rho=1.0
 
 ------------------ Bounds with CI    ------------------
                     CI lower  theta lower     theta  theta upper  CI upper
-exposure_intensity  1.734226     1.768999  1.801226     1.833453  1.868272
+exposure_intensity   1.73751     1.771313  1.803571      1.83583  1.869727
 
 ------------------ Robustness Values ------------------
-                    H_0    RV (%)    RVa (%)
-exposure_intensity  0.0  78.65538  77.673279
+                    H_0     RV (%)    RVa (%)
+exposure_intensity  0.0  78.664479  77.679603

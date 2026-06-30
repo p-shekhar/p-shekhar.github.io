@@ -1,0 +1,7 @@
+metric,role,formula_summary,causal_use,caution
+discovery_breadth_score,exposure_like,"Weighted mix of discovery-candidate, long-tail, new-category, and category-breadth rates.",Candidate exposure/treatment measure for later mediation.,Still observational; high discovery days may reflect user preference and recommender selection.
+satisfaction_depth_score,mediator_like,"Weighted mix of high watch ratio, valid plays, satisfaction score, completion, and low abandonment.",Candidate mediator between discovery exposure and future value.,Post-exposure signal; do not use as a pre-treatment control.
+quality_adjusted_discovery_score,composite_product_metric,Geometric mean of discovery breadth and satisfaction depth.,Useful for monitoring and policy ranking; not a clean treatment in mediation.,Combines exposure and mediator information.
+balanced_discovery_quality_score,composite_product_metric,Arithmetic average of discovery breadth and satisfaction depth.,Transparent composite metric for comparison with the geometric version.,Can look good when only one component is high.
+volume_weighted_quality_score,business_metric,Quality-adjusted discovery scaled by same-day log interaction volume.,Useful for product prioritization where scale matters.,More click-sensitive than the pure quality metrics.
+shallow_click_pressure_score,guardrail,High immediate volume combined with low satisfaction depth.,Negative signal or guardrail for click-heavy recommendation behavior.,A high value is bad; correlations should be read with the sign reversed.

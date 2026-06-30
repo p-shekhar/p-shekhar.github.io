@@ -1,0 +1,30 @@
+---
+title: "Anomaly Detection & Handling"
+description: "Operational decision systems for rare events, defects, domain shifts, biomedical monitoring, autonomous systems, and manufacturing quality."
+categories: [Anomaly Detection, Handling, Manufacturing, Biomedical AI]
+---
+
+## Focus
+
+My anomaly-detection and handling work focuses on operational settings where models must support review, escalation, or deployment decisions under class imbalance, noisy measurements, scarce labels, domain shift, or limited historical data.
+
+## Core Themes
+
+- Rare-event detection with explicit false-alert, purity, sensitivity, and missed-event tradeoffs.
+- Automated inspection under scarce and imbalanced defect labels.
+- Manufacturing shape-error modeling and early design-phase risk simulation.
+- Biomedical monitoring from label-free or noisy flow-cytometry signals.
+- Continual-learning decisions for segmentation systems that must adapt after deployment.
+- Domain-shift and deployment-readiness framing for operational ML systems.
+
+## Representative Work
+
+- Deep CNN-based automated optical inspection for aerospace components.
+- Object shape-error modeling and simulation using morphing Gaussian random fields.
+- Deep learning-enabled detection of rare circulating tumor cell clusters in whole blood.
+- Label-free flow cytometry of rare circulating tumor cell clusters in whole blood.
+- PILOT: data-free continual learning for real-time semantic segmentation via boundary guidance.
+
+## Decision-Science Connection
+
+The key output is not only an accuracy number. It is a handling decision: classify, review, escalate, retrain, monitor, or defer because the evidence is not yet reliable enough.

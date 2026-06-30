@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Learning path icon">
+  <rect x="5" y="5" width="38" height="38" rx="12" fill="#fff7e8" stroke="#ead6a6"/>
+  <path d="M14 33 C20 16 28 34 35 16" fill="none" stroke="#c2912e" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="14" cy="33" r="4" fill="#ffffff" stroke="#c2912e" stroke-width="2"/>
+  <circle cx="35" cy="16" r="4" fill="#ffffff" stroke="#c2912e" stroke-width="2"/>
+  <path d="M32 16 H38 M35 13 V19" fill="none" stroke="#c2912e" stroke-width="2" stroke-linecap="round"/>
+</svg>

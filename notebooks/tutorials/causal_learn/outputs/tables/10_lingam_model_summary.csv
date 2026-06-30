@@ -1,3 +1,3 @@
 model,elapsed_seconds,causal_order,reported_edges,threshold
-DirectLiNGAM,0.024101541843265295,need -> intent -> match -> engagement -> support -> renewal,6,0.15
-ICALiNGAM,0.009218685794621706,need -> intent -> match -> engagement -> renewal -> support,6,0.15
+DirectLiNGAM,0.026601532008498907,need -> intent -> match -> engagement -> support -> renewal,6,0.15
+ICALiNGAM,0.010151225957088172,need -> intent -> match -> engagement -> renewal -> support,6,0.15

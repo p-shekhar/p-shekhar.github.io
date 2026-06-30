@@ -5,4 +5,4 @@
 - Estimated total, natural direct, natural indirect, and controlled direct effects with g-computation and user-level bootstrap uncertainty across 8,199 active user-days.
 - Stress-tested mediation findings across treatment thresholds, mediator definitions, outcome definitions, weighting choices, interaction terms, control sets, and placebo-style pre-period checks.
 - Compared linear mediation, SEM-style path modeling, and cross-fitted LightGBM/XGBoost nuisance models; found stable positive direction but model-sensitive effect magnitude.
-- Produced portfolio-ready report artifacts, figures, limitations, and artifact index for a recommendation-system causal measurement workflow.
+- Produced curated report artifacts, figures, limitations, and an artifact index for a recommendation-system causal measurement workflow.

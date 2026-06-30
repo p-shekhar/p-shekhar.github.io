@@ -1,0 +1,52 @@
+---
+title: "Randomized Experiments and Product Experimentation"
+categories: [Experiments, A/B Testing, Lecture Notes]
+---
+
+This course treats randomized experiments as decision systems with design, monitoring, and careful reporting. Randomization creates credible counterfactual comparisons, and applied experiments still require careful choices about units, outcomes, exposure, power, guardrails, noncompliance, interference, and communication.
+
+The objective is to connect experimental design to operational judgment. By the end of the course, a reader should be able to design an experiment around a real decision, explain the estimand, reason about practical significance, diagnose threats to validity, and prepare a decision summary that separates statistical evidence from launch readiness.
+
+
+::: {.course-page-figure}
+
+![Figure: A clean-versus-bugged allocation diagnostic, showing why experiment validity depends on the assignment running as designed (adapted from Lecture 02: A/B Testing and Product Experimentation).](../../../assets/course-thumbnails/experiments.png){fig-alt="Experiment allocation comparison showing clean and bugged A/B test assignment"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/02_experiments/01_randomized_experiments.html" data-site-path="notebooks/lectures/01_core_causal_inference/02_experiments/01_randomized_experiments.html">01. Randomized Experiments</a></p>
+<p class="notebook-guide-description">This lecture connects Randomized Experiments to assignment, power, guardrails, noncompliance, interference, and decision reporting.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/02_experiments/02_ab_testing_and_product_experimentation.html" data-site-path="notebooks/lectures/01_core_causal_inference/02_experiments/02_ab_testing_and_product_experimentation.html">02. A/B Testing and Product Experimentation</a></p>
+<p class="notebook-guide-description">This lecture develops A/B Testing and Product Experimentation with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/02_experiments/03_power_mde_sample_size_practical_significance.html" data-site-path="notebooks/lectures/01_core_causal_inference/02_experiments/03_power_mde_sample_size_practical_significance.html">03. Power, MDE, Sample Size, and Practical Significance</a></p>
+<p class="notebook-guide-description">This lecture uses Power, MDE, Sample Size, and Practical Significance to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/02_experiments/04_guardrail_metrics_and_multiple_testing.html" data-site-path="notebooks/lectures/01_core_causal_inference/02_experiments/04_guardrail_metrics_and_multiple_testing.html">04. Guardrail Metrics and Multiple Testing</a></p>
+<p class="notebook-guide-description">This lecture shows how guardrail metrics and multiple testing shape experiment interpretation and launch risk.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/02_experiments/05_clustered_experiments.html" data-site-path="notebooks/lectures/01_core_causal_inference/02_experiments/05_clustered_experiments.html">05. Clustered Experiments</a></p>
+<p class="notebook-guide-description">This lecture frames Clustered Experiments as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/02_experiments/06_noncompliance_itt_and_tot.html" data-site-path="notebooks/lectures/01_core_causal_inference/02_experiments/06_noncompliance_itt_and_tot.html">06. Noncompliance, Intent-to-Treat, and Treatment-on-Treated</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Noncompliance, Intent-to-Treat, and Treatment-on-Treated and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/02_experiments/07_interference_and_network_effects.html" data-site-path="notebooks/lectures/01_core_causal_inference/02_experiments/07_interference_and_network_effects.html">07. Interference and Network Effects</a></p>
+<p class="notebook-guide-description">This lecture applies Interference and Network Effects with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/02_experiments/08_experiment_readouts_for_business_teams.html" data-site-path="notebooks/lectures/01_core_causal_inference/02_experiments/08_experiment_readouts_for_business_teams.html">08. Experiment Readouts for Business Teams</a></p>
+<p class="notebook-guide-description">This lecture develops Experiment Readouts for Business Teams as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+</div>

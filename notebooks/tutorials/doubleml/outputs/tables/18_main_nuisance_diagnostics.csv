@@ -1,4 +1,4 @@
 nuisance_model,target,metric,value
-ml_g0,Outcome among untreated,RMSE,0.9806867781819693
-ml_g1,Outcome among treated,RMSE,0.9809663578335966
-ml_m,Propensity,Log loss,0.47250676378051526
+ml_g0,Outcome among untreated,RMSE,0.9795069304895119
+ml_g1,Outcome among treated,RMSE,0.978073643151236
+ml_m,Propensity,Log loss,0.47115352462905313

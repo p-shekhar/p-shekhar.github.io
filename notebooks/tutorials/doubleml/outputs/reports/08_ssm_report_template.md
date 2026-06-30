@@ -8,18 +8,18 @@ Estimate the treatment effect for the full target population when the outcome is
 
 The preferred MAR estimate uses `DoubleMLSSM` with gradient boosting nuisance learners.
 
-- Estimate: 1.0028
-- Standard error: 0.0363
-- 95 percent CI: [0.9316, 1.0739]
+- Estimate: 0.9874
+- Standard error: 0.0361
+- 95 percent CI: [0.9167, 1.0581]
 - Synthetic true ATE: 1.0323
 
 ## Nonignorable Selection Demonstration
 
 When selection depends on a hidden response factor, a MAR score is not conceptually sufficient. The nonignorable score uses a selection encouragement variable as an exclusion variable.
 
-- Nonignorable estimate: 1.0701
-- Standard error: 0.0443
-- 95 percent CI: [0.9832, 1.1570]
+- Nonignorable estimate: 1.0678
+- Standard error: 0.0416
+- 95 percent CI: [0.9862, 1.1495]
 - Synthetic true ATE: 1.0389
 
 ## Assumptions To State

@@ -19,4 +19,4 @@ The strongest valid reference workflow in this teaching run is **Clean DRLearner
 
 ## Required Caveats
 
-This notebook uses synthetic data with known truth. In real observational analysis, the report must include domain justification for confounders, evidence of overlap, sensitivity to modeling choices, and validation plans before a policy recommendation is treated as decision-ready.
+We use synthetic data with known truth. In real observational analysis, the report must include domain justification for confounders, evidence of overlap, sensitivity to modeling choices, and validation plans before a policy recommendation is treated as decision-ready.

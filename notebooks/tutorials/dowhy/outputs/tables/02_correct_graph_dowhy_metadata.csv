@@ -1,4 +1,4 @@
 component,value
-common_causes_reported_by_DoWhy,"rollout_batch, user_engagement, account_age_weeks, prior_activity"
+common_causes_reported_by_DoWhy,"account_age_weeks, user_engagement, prior_activity, rollout_batch"
 instruments_reported_by_DoWhy,rollout_batch
 effect_modifiers_reported_by_DoWhy,none detected

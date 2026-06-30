@@ -1,7 +1,6 @@
 ---
 title: "LLM evaluation and monitoring tutorial roadmap"
 description: "A tutorial outline for hallucination checks, drift monitoring, automated evaluation, and regression testing."
-date: 2026-04-26
 categories: [LLMOps, Evaluation, LangSmith, Langfuse]
 ---
 

@@ -1,0 +1,52 @@
+---
+title: "Ranking and Recommendation Lift"
+description: "An applied causal inference lab on ranking-position effects in logged recommendation data."
+categories: [Causal Inference, Recommendation Systems, Project Lab]
+body-classes: project-page project-lab-page
+---
+
+<figure class="project-page-figure">
+<img src="../../notebooks/projects/project_1_ranking/writeup/figures/04_policy_simulation.png" alt="Policy simulation for ranking-position interventions">
+<figcaption>Figure 1: Policy simulation showing how ranking-position effect estimates translate into candidate recommendation decisions.</figcaption>
+</figure>
+
+This lab studies whether higher recommendation rank changes engagement in logged recommendation data. It is framed as a causal workflow rather than a predictive ranking exercise. The central problem is that high-ranked items are not randomly assigned. They are usually selected by an existing recommender, so raw click-through-rate differences mix position effects with item quality, user intent, category preference, and prior ranking logic.
+
+The lab moves through the same steps an analyst would need before using logged recommendation evidence to support a product decision. It defines the ranking-position treatment, checks overlap, estimates propensities, compares adjusted estimators, studies heterogeneity, and asks how sensitive the conclusion is to remaining confounding and modeling choices.
+
+## Lab Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_1_ranking/01_eda_mind.html" data-site-path="notebooks/projects/project_1_ranking/01_eda_mind.html">01. EDA and Problem Setup</a></p>
+<p class="notebook-guide-description">Introduces the logged recommendation setting, the unit of analysis, candidate treatment definitions, engagement outcomes, and the basic imbalance that makes naive rank comparisons unreliable.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_1_ranking/02_propensity_ipw.html" data-site-path="notebooks/projects/project_1_ranking/02_propensity_ipw.html">02. Propensity and IPW</a></p>
+<p class="notebook-guide-description">Models the probability of receiving high-rank exposure, checks overlap, and uses inverse probability weighting to separate ranking-position lift from observed placement bias.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_1_ranking/03_doubly_robust.html" data-site-path="notebooks/projects/project_1_ranking/03_doubly_robust.html">03. Doubly Robust Estimation</a></p>
+<p class="notebook-guide-description">Combines outcome modeling with propensity adjustment so the estimate has two chances to remain credible when one nuisance model is imperfect.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_1_ranking/04_heterogeneous_effects.html" data-site-path="notebooks/projects/project_1_ranking/04_heterogeneous_effects.html">04. Heterogeneous Effects</a></p>
+<p class="notebook-guide-description">Studies how ranking lift varies across categories and segments, making clear that an average effect can hide where visibility creates the most incremental engagement.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_1_ranking/05_policy_simulation.html" data-site-path="notebooks/projects/project_1_ranking/05_policy_simulation.html">05. Policy Simulation</a></p>
+<p class="notebook-guide-description">Translates estimated effects into hypothetical ranking-policy changes and shows how causal estimates can inform product decisions without treating the model as a launch guarantee.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_1_ranking/06_sensitivity_and_limitations.html" data-site-path="notebooks/projects/project_1_ranking/06_sensitivity_and_limitations.html">06. Sensitivity and Limitations</a></p>
+<p class="notebook-guide-description">Stress-tests the results under alternative assumptions, documents what the logged data cannot settle, and connects remaining risks to online experimentation.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_1_ranking/07_ml_nuisance_models.html" data-site-path="notebooks/projects/project_1_ranking/07_ml_nuisance_models.html">07. ML Nuisance Models</a></p>
+<p class="notebook-guide-description">Uses machine-learning nuisance models for propensities and outcomes while keeping diagnostics focused on support, calibration, and causal interpretation.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_1_ranking/08_econml_causal_ml.html" data-site-path="notebooks/projects/project_1_ranking/08_econml_causal_ml.html">08. EconML Causal ML</a></p>
+<p class="notebook-guide-description">Extends the workflow with causal machine-learning tools to estimate heterogeneous lift and compare segment-level conclusions with simpler estimators.</p>
+</article>
+</div>

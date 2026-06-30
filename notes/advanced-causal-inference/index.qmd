@@ -1,0 +1,50 @@
+---
+title: "Advanced Causal Inference"
+description: "A module collecting causal machine learning, industry applications, and advanced causal topics."
+categories: [Advanced Causal Inference, Lecture Notes]
+---
+
+Advanced Causal Inference is the second major module in the lecture sequence. It assumes the reader has worked through the core causal inference material, then moves toward the professional settings where causal work becomes more technical, more operational, and more decision-facing.
+
+The module has three courses. Causal Machine Learning covers modern estimation and policy-learning workflows once the estimand is clear. Industry Applications shows how causal designs map to product, marketing, marketplace, and policy decisions. Advanced Topics covers the complications that mature causal projects must confront, including mechanisms, missingness, measurement error, transportability, interference, panels, discovery, Bayesian workflows, and AI-system complications.
+
+Here the goal is to estimate effects and decide which effect matters, which method is credible, and how the result changes a real decision.
+
+<div class="module-course-list">
+<article class="course-preview-row">
+<h2><a href="../02-causal-machine-learning/"><strong>Course 1:</strong> Causal Machine Learning</a></h2>
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="../02-causal-machine-learning/">
+<img src="../../assets/course-thumbnails/causal-ml.png" alt="Scatter plots comparing predicted uplift to true uplift">
+</a>
+<figcaption>Figure: Predicted uplift against true uplift, showing why causal ML is judged by treatment-effect recovery and policy value (adapted from Lecture 02: CATE and Uplift Modeling).</figcaption>
+</figure>
+<div class="course-preview-copy">
+<p>This course focuses on heterogeneous treatment effects, CATE and uplift modeling, meta-learners, causal forests, Double ML, policy learning, treatment targeting, off-policy evaluation, and validation.</p>
+</div>
+</article>
+<article class="course-preview-row">
+<h2><a href="../03-industry-applications/"><strong>Course 2:</strong> Industry Applications of Causal Inference</a></h2>
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="../03-industry-applications/">
+<img src="../../assets/course-thumbnails/industry-applications.png" alt="Revenue trend before and after a campaign launch">
+</a>
+<figcaption>Figure: Campaign-launch revenue trends, connecting causal design to the kind of business question that teams actually face (adapted from Lecture 01: Marketing Incrementality).</figcaption>
+</figure>
+<div class="course-preview-copy">
+<p>This course translates causal inference into applied decision workflows for marketing incrementality, pricing, promotions, ranking, retention, product launches, marketplaces, public-sector applications, and leadership decision summaries.</p>
+</div>
+</article>
+<article class="course-preview-row">
+<h2><a href="../04-advanced-topics/"><strong>Course 3:</strong> Advanced Topics in Causal Inference</a></h2>
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="../04-advanced-topics/">
+<img src="../../assets/course-thumbnails/advanced-topics.png" alt="Network experiment plot with treated nodes highlighted">
+</a>
+<figcaption>Figure: A network experiment where spillovers make the usual independent-unit assumption visibly fragile (adapted from Lecture 06: Interference and Spillovers).</figcaption>
+</figure>
+<div class="course-preview-copy">
+<p>This course studies the issues that make advanced causal projects difficult: mediation, principal stratification, missing data, measurement error, transportability, interference, panel complications, causal discovery, Bayesian causal inference, and AI-system complications.</p>
+</div>
+</article>
+</div>

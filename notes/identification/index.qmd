@@ -1,13 +1,12 @@
 ---
 title: "Identification before estimation"
 description: "Why causal projects should begin with the estimand, assumptions, and source of variation."
-date: 2026-04-26
 categories: [Identification, Estimands, Teaching]
 ---
 
 ## Core Idea
 
-The first question in a causal project is not which model to fit. It is whether the available variation can support the causal question.
+The first question in a causal project is whether the available variation can support the causal question. Model choice comes after that design judgment.
 
 ## A Practical Checklist
 

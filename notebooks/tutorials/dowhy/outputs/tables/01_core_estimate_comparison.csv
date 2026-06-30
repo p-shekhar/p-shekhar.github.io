@@ -2,4 +2,4 @@ quantity,estimate,absolute_error_vs_true_ate
 Known true ATE,2.0,0.0
 Naive treated-minus-control difference,3.2579458807280464,1.2579458807280464
 Plain adjusted OLS coefficient,1.976858240018732,0.023141759981267995
-DoWhy backdoor.linear_regression,1.9768582400187311,0.023141759981268883
+DoWhy backdoor.linear_regression,1.9768582400187293,0.02314175998127066

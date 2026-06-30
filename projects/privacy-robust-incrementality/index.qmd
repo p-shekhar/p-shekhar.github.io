@@ -1,0 +1,44 @@
+---
+title: "Privacy-Robust Incrementality Measurement"
+description: "Robust causal decisions for advertising incrementality when privacy-preserving reporting degrades the observed signal."
+categories: [Causal Inference, Incrementality, Privacy, Advertising Measurement]
+body-classes: project-page
+---
+
+<figure class="project-page-figure">
+<img src="../../assets/project-thumbnails/privacy-robust-incrementality.png" alt="Privacy-robust incrementality decision frontier">
+<figcaption>Figure 1: Decision frontier for incrementality measurement when privacy-preserving reporting degrades the observed signal.</figcaption>
+</figure>
+
+## Problem
+
+Randomized lift tests are often the cleanest evidence available for advertising incrementality, but privacy-preserving reporting changes what the analyst can actually observe. Match-rate loss, linkability loss, attribution-window loss, aggregation-threshold suppression, randomized reporting noise, and segment-specific signal loss can all degrade the experiment before the estimate is reported.
+
+The decision question is whether a campaign, channel, or targeting strategy creates enough incremental value to justify continued investment after the measurement system has filtered the evidence.
+
+Figure 1 summarizes this idea. Privacy loss can move a decision from certifiable to unresolved because several clean experimental worlds may be compatible with the same degraded report. The analysis asks which incrementality claims still survive that ambiguity.
+
+## Contribution
+
+The project frames privacy-constrained ad measurement as a robust causal decision problem under signal loss [1].
+
+- Defines a signal-loss model covering match-rate loss, linkability loss, attribution-window loss, aggregation-threshold suppression, randomized reporting noise, and segment-heterogeneous loss.
+- Uses an observation-compatible fiber of clean experimental worlds and projects that fiber onto the incrementality estimand.
+- Returns certified, rejected, or unresolved decisions, so the output is a decision certificate with explicit status.
+- Characterizes the unresolved region as an information limit in the sense that when the decision threshold lies inside the sharp partial-identification band, the reported data cannot distinguish certifiable incrementality from non-incrementality.
+- Separates sampling error, randomized reporting noise, and irreducible signal-loss width through finite-sample certification, sample-complexity results, and minimax lower bounds.
+- Turns reporting granularity into a design diagnostic because fine cells can reduce reporting noise while increasing suppression and segment-level information loss.
+
+## Evidence
+
+[1] evaluates the framework on two public randomized-uplift settings. The empirical experiments use 2.0 million Criteo Uplift rows and all 64,000 rows from the Hillstrom email experiment. Clean conversion lift is positive in both settings, approximately 0.00112 in Criteo and 0.00495 in Hillstrom.
+
+The results show how privacy loss changes both the estimate and the decision. Population certification survives mild degradation in Criteo and severe degradation in Hillstrom, while finite-sample stress settings become unresolved. In the Hillstrom segmentation analysis, certification falls from 100 percent under coarse reporting cells to 36.0 percent under very fine cells, and aggregation-threshold suppression rises to 39.5 percent.
+
+The practical conclusion is that privacy-preserving measurement should report decision status. A campaign can be certified, rejected, or left unresolved depending on how much causal information survives the reporting layer.
+
+## Selected Publications
+
+::: {.citation-list}
+- **[1]** **Shekhar, P.**, & Howard, C. (2026). *Privacy-robust incrementality measurement for advertising systems under signal loss*. arXiv. <https://doi.org/10.48550/arXiv.2606.03878>
+:::

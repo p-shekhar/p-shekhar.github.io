@@ -25,9 +25,9 @@ Discuss omitted-confounder risk, alternative adjustment sets, weak-overlap check
 State what the analysis cannot prove. DoubleML does not repair missing confounders, bad controls, interference, measurement error, or target mismatch.
 
 ## 9. Artifact Paths From This Notebook
-- Pitfall map: /home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/17_pitfall_map.csv
-- Control-set scenarios: /home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/17_control_set_scenarios.csv
-- Residual treatment variation: /home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/17_residual_treatment_variation.csv
-- Nuisance learner comparison: /home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/17_nuisance_learner_comparison.csv
-- Sample-split summary: /home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/17_sample_split_summary.csv
-- Diagnostic scorecard: /home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/17_diagnostic_scorecard.csv
+- Pitfall map: /home/apex/Documents/portfolio/notebooks/tutorials/doubleml/outputs/tables/17_pitfall_map.csv
+- Control-set scenarios: /home/apex/Documents/portfolio/notebooks/tutorials/doubleml/outputs/tables/17_control_set_scenarios.csv
+- Residual treatment variation: /home/apex/Documents/portfolio/notebooks/tutorials/doubleml/outputs/tables/17_residual_treatment_variation.csv
+- Nuisance learner comparison: /home/apex/Documents/portfolio/notebooks/tutorials/doubleml/outputs/tables/17_nuisance_learner_comparison.csv
+- Sample-split summary: /home/apex/Documents/portfolio/notebooks/tutorials/doubleml/outputs/tables/17_sample_split_summary.csv
+- Diagnostic scorecard: /home/apex/Documents/portfolio/notebooks/tutorials/doubleml/outputs/tables/17_diagnostic_scorecard.csv

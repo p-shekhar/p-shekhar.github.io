@@ -21,7 +21,7 @@ Document any DoubleML features that are unavailable for callable scores in the i
 ## Decision Boundary
 State what the custom score supports and what still needs theory, robustness checks, or experimental validation.
 
-Key estimate from this notebook:
+Key estimate from this lesson:
 - Built-in PLR estimate: 1.2852
 - Callable equivalent estimate: 1.2852
 - Priority-weighted callable estimate: 1.2890

@@ -5,4 +5,4 @@ valid_backdoor_adjustment,2.208594718775244,0.00859471877524376,Total-effect est
 bad_control_add_mediator,1.8067113108060329,0.3932886891939673,Blocks the mediated path and moves toward a direct-effect-like quantity.
 bad_control_add_collider,2.290997620188194,0.0909976201881939,Conditions on a collider and can distort the total effect.
 all_available_controls,1.8781455179249278,0.3218544820750724,"Common predictive modeling mistake: mixes confounders, mediator, and collider."
-dowhy_backdoor_linear_regression,2.208594718775249,0.008594718775248644,DoWhy estimate after graph-based identification.
+dowhy_backdoor_linear_regression,2.2085947187752444,0.008594718775244203,DoWhy estimate after graph-based identification.

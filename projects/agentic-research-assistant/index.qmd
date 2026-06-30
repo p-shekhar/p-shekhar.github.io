@@ -1,7 +1,6 @@
 ---
 title: "Agentic research assistant with guardrails"
 description: "A project template for an LLM agent workflow with task routing, tool use, evaluation, and human oversight."
-date: 2026-04-26
 categories: [Agents, LangGraph, LangChain, LLMOps]
 ---
 
@@ -11,7 +10,7 @@ Design an AI research assistant that can decompose a request, retrieve relevant 
 
 ## Architecture
 
-Possible implementation paths:
+Possible implementation paths include these components.
 
 - LangGraph for stateful agent workflows.
 - LangChain for tool calling and retrieval components.
@@ -29,7 +28,7 @@ Possible implementation paths:
 
 ## Evaluation Plan
 
-Create an evaluation set with:
+Create an evaluation set that covers the following cases.
 
 - Simple requests.
 - Ambiguous requests.
@@ -44,4 +43,3 @@ Create an evaluation set with:
 - `notebooks/agentic-research-assistant/02-tool-calling.ipynb`
 - `notebooks/agentic-research-assistant/03-evaluation-set.ipynb`
 - `notebooks/agentic-research-assistant/04-tracing-and-regression-tests.ipynb`
-

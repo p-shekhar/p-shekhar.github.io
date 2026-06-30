@@ -1,7 +1,6 @@
 ---
 title: "Agent orchestration tutorial roadmap"
 description: "A tutorial outline for LangGraph, LangChain, CrewAI, and AutoGen workflows."
-date: 2026-04-26
 categories: [Agents, LangGraph, LangChain, CrewAI, AutoGen]
 ---
 

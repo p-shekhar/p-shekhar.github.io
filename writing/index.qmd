@@ -1,21 +1,21 @@
 ---
 title: "Writing"
-description: "Blog-style essays on causal inference, experimentation, and decision science."
+description: "Essays on causal inference, experimentation, uncertainty, model validation, and decision science."
 listing:
   contents: "../posts/**/*.qmd"
   type: default
-  fields: [title, description, date, categories]
-  sort: "date desc"
+  fields: [title, description, categories]
+  sort: "title asc"
   page-size: 10
 ---
 
-This section is for short essays that make causal inference readable for technical and non-technical audiences.
+This section is for essays that translate technical methods into decision-facing judgment.
 
-Good topics:
+The writing agenda follows the same pattern as the CV:
 
-- Why churn prediction is not the same as retention impact.
-- When A/B tests fail to answer the real business question.
-- How to explain confounding to product teams.
-- What sensitivity analysis means for executives.
-- How to choose between experiments and quasi-experiments.
-
+- How to decide when offline policy evidence is launch-ready, validation-ready, rejected, or unresolved.
+- Why support diagnostics matter in off-policy evaluation.
+- How interference changes experiment design in marketplaces, recommendation systems, and member-experience systems.
+- How privacy-driven signal loss affects incrementality claims.
+- How uncertainty should be calibrated to operational decisions rather than reported as a generic interval.
+- How interpretable ML, anomaly detection, and AI-assisted software become more useful when framed as decision systems.

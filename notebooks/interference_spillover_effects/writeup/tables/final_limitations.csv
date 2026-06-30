@@ -1,0 +1,6 @@
+limitation,impact,mitigation
+"MovieLens contains ratings, not true recommendation impressions.",The analysis demonstrates an interference workflow but does not estimate real production promotion effects.,Use real slate impression logs or run a randomized slate experiment when available.
+Promotion assignment and outcomes are simulated.,The numerical estimates reflect the assumed data-generating process.,Treat the results as a methodology demonstration and validate with online experiments.
+Genres are coarse substitute clusters.,Some substitutes may be missed and some same-genre items may not actually compete.,"Use learned item embeddings, co-watch patterns, or richer metadata for production analysis."
+Only one promotion design is simulated.,"Different promotion probabilities, slate sizes, or ranking policies could change the net effect.",Run sensitivity analyses over assignment rules and promotion intensities.
+Advanced models are evaluated against simulated oracle lift.,Policy targeting results depend on the simulated outcome mechanism.,Use randomized or valid off-policy evaluation before deploying targeted promotion rules.

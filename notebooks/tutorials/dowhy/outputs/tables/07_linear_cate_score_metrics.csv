@@ -1,2 +1,2 @@
 model,rmse_vs_true_cate,correlation_vs_true_cate,mean_estimated_cate,mean_true_cate
-DoWhy linear effect-modifier model,0.08969745837080509,0.9916581314720063,0.9090525297738424,0.8816338572733744
+DoWhy linear effect-modifier model,0.08969745837080467,0.9916581314720068,0.9090525297738415,0.8816338572733744

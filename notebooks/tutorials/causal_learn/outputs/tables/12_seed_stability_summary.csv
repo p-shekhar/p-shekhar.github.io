@@ -1,3 +1,3 @@
 method,runs,unique_graphs,mean_correct_directed_edges,min_correct_directed_edges,max_extra_adjacencies,median_elapsed_seconds
-BOSS,10,1,6.0,6,0,0.008759582880884409
-GRaSP_depth_4,10,1,6.0,6,0,0.007622045930474997
+BOSS,10,1,6.0,6,0,0.008963955973740667
+GRaSP_depth_4,10,1,6.0,6,0,0.0077570159919559956

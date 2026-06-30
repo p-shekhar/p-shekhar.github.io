@@ -1,0 +1,84 @@
+---
+title: "Statistical Foundations for Data Science"
+categories: [Statistics, Data Science, Lecture Notes, Decision Science]
+---
+
+This course builds the statistical foundation for applied data science by connecting core statistical ideas to decisions under uncertainty, data design, variation, and communication.
+
+By the end, a reader should be able to describe a data-generating process, distinguish signal from variability, explain sampling and measurement bias, summarize data responsibly, fit and critique basic models, and communicate statistical evidence in a decision-facing way.
+
+
+::: {.course-page-figure}
+
+![Figure: A skewed service-resolution distribution used to show why summary statistics need context before they become decision evidence (adapted from Lecture 04: Distributions, Variability, and Tail Risk).](../../../assets/course-thumbnails/statistical-foundations.png){fig-alt="Histogram showing a skewed resolution-time distribution from the statistical foundations course"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/01_statistical_thinking_for_decision_science.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/01_statistical_thinking_for_decision_science.html">01. Statistical Thinking for Decision Science</a></p>
+<p class="notebook-guide-description">This lecture connects Statistical Thinking for Decision Science to data quality, uncertainty, and communication, so the ideas remain grounded in practical statistical judgment.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/02_populations_units_variables_and_data_generating_processes.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/02_populations_units_variables_and_data_generating_processes.html">02. Populations, Units, Variables, and Data-Generating Processes</a></p>
+<p class="notebook-guide-description">This lecture develops Populations, Units, Variables, and Data-Generating Processes with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/03_probability_randomness_and_expectation.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/03_probability_randomness_and_expectation.html">03. Probability, Randomness, and Expectation</a></p>
+<p class="notebook-guide-description">This lecture uses Probability, Randomness, and Expectation to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/04_distributions_variability_and_tail_risk.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/04_distributions_variability_and_tail_risk.html">04. Distributions, Variability, and Tail Risk</a></p>
+<p class="notebook-guide-description">This lecture shows how distributions, variability, and tail risk change what summary statistics mean in practice.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/05_conditional_probability_bayes_rule_and_base_rates.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/05_conditional_probability_bayes_rule_and_base_rates.html">05. Conditional Probability, Bayes Rule, and Base Rates</a></p>
+<p class="notebook-guide-description">This lecture frames Conditional Probability, Bayes Rule, and Base Rates as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/06_sampling_measurement_and_data_collection_bias.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/06_sampling_measurement_and_data_collection_bias.html">06. Sampling, Measurement, and Data Collection Bias</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Sampling, Measurement, and Data Collection Bias and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/07_simulation_monte_carlo_and_bootstrap_intuition.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/07_simulation_monte_carlo_and_bootstrap_intuition.html">07. Simulation, Monte Carlo, and Bootstrap Intuition</a></p>
+<p class="notebook-guide-description">This lecture applies Simulation, Monte Carlo, and Bootstrap Intuition with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/08_estimators_bias_variance_consistency_and_efficiency.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/08_estimators_bias_variance_consistency_and_efficiency.html">08. Estimators: Bias, Variance, Consistency, and Efficiency</a></p>
+<p class="notebook-guide-description">This lecture develops Estimators: Bias, Variance, Consistency, and Efficiency as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/09_confidence_intervals_and_uncertainty_quantification.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/09_confidence_intervals_and_uncertainty_quantification.html">09. Confidence Intervals and Uncertainty Quantification</a></p>
+<p class="notebook-guide-description">This lecture connects Confidence Intervals and Uncertainty Quantification to data quality, variability, and communication, so intervals are interpreted as evidence rather than decoration.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/10_hypothesis_testing_type_i_type_ii_errors_and_power.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/10_hypothesis_testing_type_i_type_ii_errors_and_power.html">10. Hypothesis Testing, Type I/II Errors, and Power</a></p>
+<p class="notebook-guide-description">This lecture develops Hypothesis Testing, Type I/II Errors, and Power with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/11_effect_sizes_practical_significance_and_decision_thresholds.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/11_effect_sizes_practical_significance_and_decision_thresholds.html">11. Effect Sizes, Practical Significance, and Decision Thresholds</a></p>
+<p class="notebook-guide-description">This lecture uses Effect Sizes, Practical Significance, and Decision Thresholds to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/12_exploratory_data_analysis_visualization_and_summary_statistics.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/12_exploratory_data_analysis_visualization_and_summary_statistics.html">12. Exploratory Data Analysis, Visualization, and Summary Statistics</a></p>
+<p class="notebook-guide-description">This lecture uses exploratory analysis and visualization to turn raw data into defensible summaries.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/13_linear_regression_interpretation_assumptions_and_limits.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/13_linear_regression_interpretation_assumptions_and_limits.html">13. Linear Regression: Interpretation, Assumptions, and Limits</a></p>
+<p class="notebook-guide-description">This lecture frames Linear Regression: Interpretation, Assumptions, and Limits as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/14_classification_probability_models_and_calibration.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/14_classification_probability_models_and_calibration.html">14. Classification, Probability Models, and Calibration</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Classification, Probability Models, and Calibration and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/15_resampling_regularization_validation_and_model_selection.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/15_resampling_regularization_validation_and_model_selection.html">15. Resampling, Regularization, Validation, and Model Selection</a></p>
+<p class="notebook-guide-description">This lecture applies Resampling, Regularization, Validation, and Model Selection with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/16_decision_analysis_risk_communication_and_statistical_recommendations.html" data-site-path="notebooks/lectures/00_statistical_inference/00_stats_foundations_data_science/16_decision_analysis_risk_communication_and_statistical_recommendations.html">16. Decision Analysis, Risk Communication, and Statistical Recommendations</a></p>
+<p class="notebook-guide-description">This lecture develops Decision Analysis, Risk Communication, and Statistical Recommendations as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+</div>

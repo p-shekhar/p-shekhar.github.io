@@ -1,7 +1,6 @@
 ---
 title: "Package Tutorial Title"
 description: "One sentence describing the workflow."
-date: YYYY-MM-DD
 categories: [Python, Package, Method]
 ---
 

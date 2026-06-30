@@ -8,16 +8,16 @@ Estimate the local treatment effect at a cutoff in the running variable.
 
 The preferred sharp estimate uses `RDFlex` with gradient boosting nuisance adjustment and the robust interval.
 
-- Estimate: 1.3284
-- 95 percent CI: [1.1169, 1.5398]
+- Estimate: 1.3002
+- 95 percent CI: [1.0932, 1.5071]
 - Synthetic true cutoff effect: 1.2000
 
 ## Fuzzy RDD Result
 
 The preferred fuzzy estimate uses `RDFlex` with outcome and treatment nuisance adjustment.
 
-- Estimate: 0.9803
-- 95 percent CI: [0.6955, 1.2652]
+- Estimate: 1.0301
+- 95 percent CI: [0.7515, 1.3087]
 - Synthetic true local effect: 1.0000
 
 ## Identification Assumptions

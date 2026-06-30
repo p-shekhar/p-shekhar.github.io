@@ -1,0 +1,80 @@
+---
+title: "Statistical Inference for Decision Science"
+categories: [Statistical Inference, Uncertainty, Lecture Notes, Decision Science]
+---
+
+This course turns statistical foundations into formal tools for inference. The emphasis is on what can be learned from data, how uncertainty should be quantified, and how inferential claims should be reported when decisions are at stake.
+
+By the end, a reader should be able to explain sampling distributions, use likelihood-based reasoning, construct and interpret confidence intervals and tests, compare frequentist and Bayesian viewpoints, handle model uncertainty, and write inference reports that are honest about assumptions and limits.
+
+
+::: {.course-page-figure}
+
+![Figure: Empirical interval coverage across scenarios, illustrating that uncertainty methods must be matched to the decision setting (adapted from Lecture 04: Confidence Intervals: Wald, Likelihood, and Bootstrap).](../../../assets/course-thumbnails/statistical-inference.png){fig-alt="Coverage comparison plot for Wald, likelihood, and bootstrap confidence intervals"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/01_from_data_to_inference.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/01_from_data_to_inference.html">01. From Data to Inference</a></p>
+<p class="notebook-guide-description">This lecture connects From Data to Inference to evidence strength, model assumptions, uncertainty, and stakeholder-facing recommendations.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/02_sampling_distributions_and_asymptotics.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/02_sampling_distributions_and_asymptotics.html">02. Sampling Distributions and Asymptotics</a></p>
+<p class="notebook-guide-description">This lecture develops Sampling Distributions and Asymptotics with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/03_likelihood_and_maximum_likelihood.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/03_likelihood_and_maximum_likelihood.html">03. Likelihood and Maximum Likelihood</a></p>
+<p class="notebook-guide-description">This lecture uses Likelihood and Maximum Likelihood to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/04_confidence_intervals_wald_likelihood_bootstrap.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/04_confidence_intervals_wald_likelihood_bootstrap.html">04. Confidence Intervals: Wald, Likelihood, and Bootstrap</a></p>
+<p class="notebook-guide-description">This lecture compares Wald, likelihood, and bootstrap intervals through coverage, assumptions, and reporting tradeoffs.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/05_hypothesis_testing_beyond_p_values.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/05_hypothesis_testing_beyond_p_values.html">05. Hypothesis Testing Beyond p-Values</a></p>
+<p class="notebook-guide-description">This lecture frames Hypothesis Testing Beyond p-Values as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/06_permutation_randomization_and_exact_inference.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/06_permutation_randomization_and_exact_inference.html">06. Permutation, Randomization, and Exact Inference</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Permutation, Randomization, and Exact Inference and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/07_multiple_testing_false_discovery_and_research_risk.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/07_multiple_testing_false_discovery_and_research_risk.html">07. Multiple Testing, False Discovery, and Research Risk</a></p>
+<p class="notebook-guide-description">This lecture applies Multiple Testing, False Discovery, and Research Risk with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/08_linear_models_as_inferential_engines.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/08_linear_models_as_inferential_engines.html">08. Linear Models as Inferential Engines</a></p>
+<p class="notebook-guide-description">This lecture develops Linear Models as Inferential Engines as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/09_generalized_linear_models_for_binary_count_and_rate_data.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/09_generalized_linear_models_for_binary_count_and_rate_data.html">09. Generalized Linear Models for Binary, Count, and Rate Data</a></p>
+<p class="notebook-guide-description">This lecture connects Generalized Linear Models for Binary, Count, and Rate Data to evidence strength, model assumptions, uncertainty, and clear reporting.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/10_hierarchical_models_partial_pooling_and_grouped_data.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/10_hierarchical_models_partial_pooling_and_grouped_data.html">10. Hierarchical Models, Partial Pooling, and Grouped Data</a></p>
+<p class="notebook-guide-description">This lecture develops Hierarchical Models, Partial Pooling, and Grouped Data with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/11_bayesian_inference_for_decision_making.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/11_bayesian_inference_for_decision_making.html">11. Bayesian Inference for Decision Making</a></p>
+<p class="notebook-guide-description">This lecture uses Bayesian Inference for Decision Making to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/12_model_checking_calibration_and_posterior_predictive_logic.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/12_model_checking_calibration_and_posterior_predictive_logic.html">12. Model Checking, Calibration, and Posterior Predictive Logic</a></p>
+<p class="notebook-guide-description">This lecture uses model checking and calibration to ask whether fitted models behave credibly on the data they claim to explain.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/13_missing_data_measurement_error_and_robust_inference.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/13_missing_data_measurement_error_and_robust_inference.html">13. Missing Data, Measurement Error, and Robust Inference</a></p>
+<p class="notebook-guide-description">This lecture frames Missing Data, Measurement Error, and Robust Inference as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/14_statistical_decision_analysis_and_value_of_information.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/14_statistical_decision_analysis_and_value_of_information.html">14. Statistical Decision Analysis and Value of Information</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Statistical Decision Analysis and Value of Information and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/15_reporting_statistical_recommendations_for_real_stakeholders.html" data-site-path="notebooks/lectures/00_statistical_inference/01_statistical_inference_for_decision_science/15_reporting_statistical_recommendations_for_real_stakeholders.html">15. Reporting Statistical Recommendations for Real Stakeholders</a></p>
+<p class="notebook-guide-description">This lecture applies Reporting Statistical Recommendations for Real Stakeholders with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+</div>

@@ -1,0 +1,47 @@
+---
+title: "Support-aware Offline Policy Selection"
+description: "Offline policy evaluation for advertising marketplaces with support diagnostics, conservative ranking, and launch-readiness decisions."
+categories: [Causal Inference, Off-Policy Evaluation, Advertising Marketplaces, Decision Systems]
+body-classes: project-page
+---
+
+<figure class="project-page-figure">
+<img src="../../assets/project-thumbnails/support-aware-ope.png" alt="Support-aware offline policy selection workflow for advertising marketplaces">
+<figcaption>Figure 1: Support-aware offline policy selection workflow for marketplace reserve-price decisions.</figcaption>
+</figure>
+
+## Problem
+
+Advertising marketplaces often need to evaluate new reserve-price, floor, or allocation policies before committing traffic to an online experiment. Logged auction data can help screen these policies, but replay estimates are only credible when the historical data provide enough support for the counterfactual decision being studied. A policy may look profitable in replay while depending on thin evidence near pricing thresholds, uneven performance across bidder or inventory segments, or assumptions about bidder behavior that may change after deployment.
+
+The project treats offline reserve-price evaluation as a launch-readiness problem. The work asks whether logged evidence justifies launch, online validation, hold, or redesign, and it formalizes when a finite catalog of reserve policies can be certified, eliminated, or left unresolved.
+
+Figure 1 summarizes the evidence-to-decision pipeline. Replay estimation, support diagnostics, conservative ranking, and guardrail checks work together to move from historical auction evidence to an auditable recommendation about what should be tested next.
+
+## Contribution
+
+This project develops a support-aware decision system for reserve-price policy selection in advertising marketplaces. The workflow turns offline evaluation into a claim-preserving decision map, where replay, OPE diagnostics, guardrails, response sensitivity, and interference-aware validation each support a specific kind of operational claim. The finite-catalog formulation matches marketplace practice, where candidate floor rules usually come from product constraints, revenue-management rules, implementation review, and risk limits.
+
+Released research ([1, 2]) in this project:
+
+- Converts heterogeneous offline evidence into operational actions, including launch, online validation, hold, or redesign, while preserving the causal meaning of replay, OPE, guardrails, response sensitivity, and interference diagnostics.
+- Interprets auction replay as a bounded mechanical estimand under fixed bidder behavior, then uses bidder-response sensitivity to frame favorable replay evidence as support for an online validation step.
+- Extends OPE for decision-making through support diagnostics, effective sample size checks, clipping sensitivity, conservative lower-tail ranking, and an offline-to-online validation sequence with shadow logging and interference-aware switchback experiments.
+- Formulates finite-catalog reserve-price selection as a decision-support problem whose output is a conservative validation shortlist together with dominated and unresolved alternatives.
+- Gives a unified decision-pipeline guarantee that jointly controls multiple-comparison uncertainty, support gates, subgroup safety, and conservative elimination.
+- Derives support-localized replay guarantees, threshold-resolution limits governed by local boundary support, and subgroup non-harm certificates, making explicit when a large auction log is still too thin near the reserve thresholds that matter.
+
+## Evidence
+
+Public iPinYou-style real-time-bidding logs are used to study reserve and floor policies under logged marketplace evidence. In [1], a margin-gated floor policy is identified as the leading validation candidate, with a 47.7% replay yield lift, a 45.8% conservative lower-tail lift, and stable out-of-time performance of 43.9%. The key finding is that offline strength and launch readiness are different claims. Replay-only, OPE-only, guardrail-only, and holdout-only decision rules select the same policy but would move too quickly to direct launch. The full decision-support workflow selects the same policy and changes the action to online validation because production propensities, bidder response, and marketplace interference remain unresolved.
+
+In [2], the same marketplace setting is used to test the support-aware certification pipeline with a 19-policy catalog. Season two in iPinYou serves as the offline development panel with 53,289,330 auction opportunities, and season three is held out for frozen out-of-time replay validation with 10,566,743 opportunities. The leading reserve rule achieves a 47.66% replay lift in season two, a 40.71% simultaneous lower-bound lift, and a 43.87% frozen out-of-time replay lift in season three. The pipeline reduces the catalog to a two-policy validation shortlist while certifying non-harm across 44 advertiser, exchange, and region segments.
+
+Across this project, policy attractiveness is separated from launch readiness. The evidence identifies a policy with strong replay and lower-bound support, preserves an unresolved competitor that remains locally relevant near its threshold, removes dominated alternatives, and recommends online validation as the appropriate next step.
+
+## Selected Publications
+
+::: {.citation-list}
+- **[1]** **Shekhar, P.**, & Howard, C. (2026). *Decision support for marketplace policies under incomplete evidence: From replay to launch readiness*. arXiv. <https://doi.org/10.48550/arXiv.2605.12840>
+- **[2]** **Shekhar, P.**, & Howard, C. (2026). *Support-aware offline policy selection for advertising marketplaces*. arXiv. <https://doi.org/10.48550/arXiv.2605.21736>
+:::

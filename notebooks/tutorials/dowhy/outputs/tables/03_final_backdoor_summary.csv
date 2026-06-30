@@ -1,6 +1,6 @@
 item,summary
 Causal question,Total average effect of feature exposure on weekly value.
-Valid adjustment variables in this teaching graph,"user_engagement, prior_sessions, account_age_weeks, and baseline_value."
+Valid adjustment variables in this example graph,"user_engagement, prior_sessions, account_age_weeks, and baseline_value."
 Known total effect,2.200
 DoWhy backdoor estimate,2.209
 What the naive estimate does wrong,It mixes treatment effect with baseline differences between exposed and unexposed users.

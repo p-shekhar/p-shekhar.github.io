@@ -1,0 +1,52 @@
+---
+title: "Quasi-Experiments and Natural Experiments"
+categories: [Quasi-Experiments, Natural Experiments, Lecture Notes]
+---
+
+This course studies causal designs that draw credibility from timing, thresholds, policy rules, encouragements, shocks, or comparison units. These designs are common in product, policy, education, marketing, public-sector, and platform settings where randomized evidence is unavailable or incomplete.
+
+The objective is to build design-first judgment. By the end of the course, a reader should be able to explain what source of variation identifies the effect, diagnose the key assumptions, distinguish pre-trend evidence from proof, reason about treatment timing and spillovers, and write a careful decision interpretation.
+
+
+::: {.course-page-figure}
+
+![Figure: DiD estimates across near-equivalent specifications, highlighting how design credibility is checked through specification comparisons (adapted from Lecture 01: Difference-in-Differences).](../../../assets/course-thumbnails/quasi-experiments.png){fig-alt="Difference-in-differences estimate comparison across specifications"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/04_quasi_experiments/01_difference_in_differences.html" data-site-path="notebooks/lectures/01_core_causal_inference/04_quasi_experiments/01_difference_in_differences.html">01. Difference-in-Differences</a></p>
+<p class="notebook-guide-description">This lecture connects Difference-in-Differences to timing, comparison groups, and design diagnostics that shape the causal interpretation.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/04_quasi_experiments/02_event_studies.html" data-site-path="notebooks/lectures/01_core_causal_inference/04_quasi_experiments/02_event_studies.html">02. Event Studies</a></p>
+<p class="notebook-guide-description">This lecture develops Event Studies with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/04_quasi_experiments/03_staggered_adoption_and_modern_did_issues.html" data-site-path="notebooks/lectures/01_core_causal_inference/04_quasi_experiments/03_staggered_adoption_and_modern_did_issues.html">03. Staggered Adoption and Modern DiD Issues</a></p>
+<p class="notebook-guide-description">This lecture uses Staggered Adoption and Modern DiD Issues to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/04_quasi_experiments/04_synthetic_control.html" data-site-path="notebooks/lectures/01_core_causal_inference/04_quasi_experiments/04_synthetic_control.html">04. Synthetic Control</a></p>
+<p class="notebook-guide-description">This lecture studies synthetic control through donor-pool choice, pre-period fit, placebo checks, and decision interpretation.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/04_quasi_experiments/05_regression_discontinuity.html" data-site-path="notebooks/lectures/01_core_causal_inference/04_quasi_experiments/05_regression_discontinuity.html">05. Regression Discontinuity</a></p>
+<p class="notebook-guide-description">This lecture frames Regression Discontinuity as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/04_quasi_experiments/06_instrumental_variables.html" data-site-path="notebooks/lectures/01_core_causal_inference/04_quasi_experiments/06_instrumental_variables.html">06. Instrumental Variables</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Instrumental Variables and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/04_quasi_experiments/07_encouragement_designs.html" data-site-path="notebooks/lectures/01_core_causal_inference/04_quasi_experiments/07_encouragement_designs.html">07. Encouragement Designs</a></p>
+<p class="notebook-guide-description">This lecture applies Encouragement Designs with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/04_quasi_experiments/08_interrupted_time_series.html" data-site-path="notebooks/lectures/01_core_causal_inference/04_quasi_experiments/08_interrupted_time_series.html">08. Interrupted Time Series</a></p>
+<p class="notebook-guide-description">This lecture develops Interrupted Time Series as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+</div>

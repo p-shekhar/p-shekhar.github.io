@@ -1,7 +1,7 @@
 n_clusters,adjusted_rand_index,mean_cluster_purity,order_matches_truth,learned_majority_order,cross_loading_strength,elapsed_seconds,learned_clusters
-2,1.0,1.0,True,latent_need -> latent_value,0.0,0.2028471389785409,"X1, X2, X3 | X4, X5, X6"
-2,1.0,1.0,True,latent_need -> latent_value,0.5,0.193718443159014,"X1, X2, X3 | X4, X5, X6"
-2,1.0,1.0,True,latent_need -> latent_value,1.0,0.19395004911348224,"X1, X2, X3 | X4, X5, X6"
-2,0.32432432432432434,0.875,True,latent_need -> latent_value,1.5,0.19645269913598895,"X1, X2, X3, X6 | X4, X5"
-2,0.32432432432432434,0.875,True,latent_need -> latent_value,2.0,0.19123164098709822,"X1, X2, X3, X6 | X4, X5"
-2,0.32432432432432434,0.875,True,latent_need -> latent_value,3.0,0.19043883867561817,"X1, X2, X3, X6 | X4, X5"
+2,1.0,1.0,True,latent_need -> latent_value,0.0,0.15947705798316747,"X1, X2, X3 | X4, X5, X6"
+2,1.0,1.0,True,latent_need -> latent_value,0.5,0.1648002329748124,"X1, X2, X3 | X4, X5, X6"
+2,1.0,1.0,True,latent_need -> latent_value,1.0,0.160806815023534,"X1, X2, X3 | X4, X5, X6"
+2,0.32432432432432434,0.875,True,latent_need -> latent_value,1.5,0.15830771496985108,"X1, X2, X3, X6 | X4, X5"
+2,0.32432432432432434,0.875,True,latent_need -> latent_value,2.0,0.1583120779832825,"X1, X2, X3, X6 | X4, X5"
+2,0.32432432432432434,0.875,True,latent_need -> latent_value,3.0,0.1628924710676074,"X1, X2, X3, X6 | X4, X5"

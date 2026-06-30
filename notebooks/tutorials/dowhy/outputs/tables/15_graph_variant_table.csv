@@ -1,4 +1,4 @@
 graph,main flaw
-correct graph,none for this teaching data
+correct graph,none for this example data
 omitted confounders graph,ignores observed pre-treatment common causes
 collider-as-confounder graph,treats a post-treatment collider as a common cause

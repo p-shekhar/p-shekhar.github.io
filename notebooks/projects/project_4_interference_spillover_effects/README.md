@@ -1,36 +1,39 @@
-# Interference and Spillover Effects
+# Interference and Spillovers in Recommendation Slates
 
-This folder contains notebooks for studying interference in recommendation and content discovery systems.
+This project studies interference in recommendation and content discovery systems. Promoting one item can change the exposure and outcomes of nearby items, so the relevant decision often has to be made at the slate, cluster, or market level.
 
-The central causal issue is that promoting one item can affect the exposure and outcomes of other items. This violates the standard no-interference assumption behind many causal estimators, because an item's outcome may depend not only on its own treatment but also on how other competing items were promoted.
+## What You Will Build
 
-Core causal question:
+You will build a spillover-aware causal workflow. The project constructs recommendation slates from MovieLens preference data, simulates promotion assignment, maps direct and neighbor exposure, estimates direct and indirect effects, and studies when item-level conclusions differ from slate-level conclusions.
 
-> How does promoting one item affect both that item and nearby competing items in the recommendation surface?
+## How To Use This Project
 
-Why this matters:
+Notebook `01` builds the slate setting and explains why interference matters. Notebook `02` defines exposure mappings. The next notebooks estimate cluster-randomized effects, decompose direct, indirect, and total effects, and add advanced spillover models. The sequence is designed to show how a recommendation change can create gains, displacement, or both.
 
-- A promoted item may gain clicks or watch time by taking attention away from substitutes.
-- Standard item-level ATE estimates can overstate product value if they ignore displacement.
-- A ranking or recommendation change should be evaluated at the slate, cluster, or market level when units compete for limited attention.
+The final notebook is an artifact and sensitivity notebook. Use the first five notebooks as the public analytic path.
 
-Planned methods:
+## Data Source And Scope
 
-- Multi-item exposure simulation
-- Cluster-level treatment assignment
-- Spillover feature construction
-- Direct, indirect, and total effect decomposition
-- Exposure models for partial interference
+The project uses MovieLens ratings as a real preference source, then constructs simulated recommendation slates and promotion assignments. The simulation is intentional. MovieLens does not contain randomized promotion experiments, so the project uses the real item-user preference structure to create a controlled interference setting where exposure mappings and effect definitions can be studied transparently.
 
-Candidate dataset:
+## Notebook Sequence
 
-- MovieLens with simulated recommendation slates and promotion assignments
+- [01 MovieLens interference setup and EDA](01_movielens_interference_setup_eda.ipynb)
+- [02 Spillover exposure mapping](02_spillover_exposure_mapping.ipynb)
+- [03 Cluster-randomized estimators](03_cluster_randomized_estimators.ipynb)
+- [04 Direct, indirect, and total effects](04_direct_indirect_total_effects.ipynb)
+- [05 Advanced spillover models](05_advanced_spillover_models.ipynb)
 
-Suggested notebook sequence:
+## Artifact Notebook
 
-- `01_movielens_interference_setup_eda.ipynb`
-- `02_spillover_exposure_mapping.ipynb`
-- `03_cluster_randomized_estimators.ipynb`
-- `04_direct_indirect_total_effects.ipynb`
-- `05_advanced_spillover_models.ipynb`
-- `06_sensitivity_and_final_report.ipynb`
+- [06 Sensitivity and final report](06_sensitivity_and_final_report.ipynb)
+
+This notebook assembles sensitivity checks and final artifacts. The main public project should focus on notebooks `01` through `05`.
+
+## Key Interpretation
+
+Item-level lift can be misleading when units compete for limited attention. The project shows how exposure mappings, cluster assignment, and spillover decomposition help separate gains for promoted items from displacement of neighboring items.
+
+## Verified References And Data Links
+
+- Harper, F. M., & Konstan, J. A. (2015). The MovieLens datasets: History and context. *ACM Transactions on Interactive Intelligent Systems*, 5(4), Article 19. [https://doi.org/10.1145/2827872](https://doi.org/10.1145/2827872) and [GroupLens MovieLens data page](https://grouplens.org/datasets/movielens/).

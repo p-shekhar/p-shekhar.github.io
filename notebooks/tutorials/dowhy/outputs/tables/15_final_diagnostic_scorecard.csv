@@ -5,4 +5,4 @@ graph variant comparison,wrong graph assumptions produce wrong DoWhy estimates,D
 overlap stress test,ESS usable 4031; ESS weak 1633,weak overlap reduces information and raises estimator sensitivity
 placebo treatment refuter,placebo effect -0.004,fake treatment does not reproduce the main effect
 negative-control outcome,adjusted coefficient 0.032,pre-treatment outcome check is close to zero after adjustment
-hidden-confounding sensitivity,range 0.416 to 0.832,strong unobserved confounding remains a possible threat
+hidden-confounding sensitivity,range 0.419 to 0.820,strong unobserved confounding remains a possible threat

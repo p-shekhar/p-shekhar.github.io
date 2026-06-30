@@ -1,14 +1,14 @@
 scenario,method,reported_edges,skeleton_precision,skeleton_recall,skeleton_f1,directed_precision,directed_recall,directed_f1,extra_adjacencies,missed_adjacencies,reversed_true_edges,missed_adjacency_list,extra_adjacency_list,tuning_family,tuning_value,elapsed_seconds
-pc_alpha_0.001,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,PC alpha,0.001,0.00830620527267456
-pc_alpha_0.005,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,PC alpha,0.005,0.010321022942662239
-pc_alpha_0.01,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,PC alpha,0.01,0.007507521193474531
-pc_alpha_0.05,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,PC alpha,0.05,0.008713069837540388
-pc_alpha_0.1,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,PC alpha,0.1,0.009419831912964582
-ges_lambda_0.5,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,1.0,0.875,0.9333333333333333,1,0,0,,catalog_fit--support_contact,GES lambda,0.5,0.02374002104625106
-ges_lambda_0.75,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,GES lambda,0.75,0.01387360692024231
-ges_lambda_1.0,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,GES lambda,1.0,0.01818751124665141
-ges_lambda_1.5,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,GES lambda,1.5,0.019355861004441977
-ges_lambda_2.0,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,GES lambda,2.0,0.013975562062114477
+pc_alpha_0.001,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,PC alpha,0.001,0.01109030598308891
+pc_alpha_0.005,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,PC alpha,0.005,0.010158556047827005
+pc_alpha_0.01,PC_tier_constrained,7,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,1,2,0,discovery_quality--retention_value | early_engagement--onboarding_friction,onboarding_friction--retention_value,PC alpha,0.01,0.011481171008199453
+pc_alpha_0.05,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,PC alpha,0.05,0.012783339014276862
+pc_alpha_0.1,PC_tier_constrained,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,PC alpha,0.1,0.013978731003589928
+ges_lambda_0.5,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,1.0,0.875,0.9333333333333333,1,0,0,,catalog_fit--support_contact,GES lambda,0.5,0.023149164975620806
+ges_lambda_0.75,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,GES lambda,0.75,0.019663315964862704
+ges_lambda_1.0,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,GES lambda,1.0,0.019919962040148675
+ges_lambda_1.5,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,GES lambda,1.5,0.019981928053312004
+ges_lambda_2.0,GES_BIC,8,1.0,1.0,1.0,1.0,0.875,0.9333333333333333,0,0,0,,,GES lambda,2.0,0.019789905985817313
 lingam_threshold_0.05,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,LiNGAM threshold,0.05,0.0
 lingam_threshold_0.08,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,LiNGAM threshold,0.08,0.0
 lingam_threshold_0.12,DirectLiNGAM,8,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,,,LiNGAM threshold,0.12,0.0

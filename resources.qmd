@@ -1,45 +1,280 @@
 ---
 title: "Resources"
-description: "Curated causal inference, AI systems, and data science learning paths."
+description: "Curated books, software, datasets, and learning paths for causal inference, machine learning, AI, and decision science."
+body-classes: resources-index
+toc-depth: 2
 ---
 
-This page can collect the books, papers, courses, datasets, software packages, and examples that shape your causal inference and AI systems work.
+::: {.resource-opening}
+**If you are interested in working with me on any of these topics, please reach out. I am always glad to hear from motivated students at all levels.**
+:::
 
-## Books
+::: {.resource-map}
+[Causal Inference Foundations](#causal-inference-foundations)
+[Python Ecosystem](#python-causal-inference-ecosystem)
+[ML, XAI, and Anomaly Detection](#machine-learning-interpretability-and-anomaly-detection)
+[Datasets](#datasets-for-teaching-and-projects)
+[Learning Paths](#recommended-learning-paths)
+:::
 
-- Add your preferred graduate-level and applied references.
-- Add a note on which audience each resource is best for.
+## <img class="resource-heading-icon" src="assets/resources/icon-foundations.svg" alt=""> Causal Inference Foundations {#causal-inference-foundations}
 
-## Papers
+These resources are the conceptual backbone for potential outcomes, DAGs, identification, estimands, counterfactual reasoning, and the habit of stating assumptions before estimating effects.
 
-- Add foundational papers by method area.
-- Add applied papers that are especially useful for industry problems.
+::: {.resource-list}
 
-## Datasets
+::: {.resource-item}
+**[Hernan and Robins, Causal Inference: What If](https://miguelhernan.org/whatifbook)**
 
-- Public datasets for experiments, difference-in-differences, regression discontinuity, instrumental variables, and uplift modeling.
+A rigorous free book for potential outcomes, target trials, observational causal inference, time-varying treatments, and g-methods. It is especially useful when teaching causal inference as a disciplined design problem.
+:::
 
-## Software
+::: {.resource-item}
+**[Pearl, Causality](https://bayes.cs.ucla.edu/BOOK-2K/)**
 
-### Causal Inference
+The structural causal model reference for graphs, do-calculus, counterfactuals, mediation, and identification. It gives the formal language behind many DAG-based workflows.
+:::
 
-- `DoWhy`
-- `EconML`
-- `DoubleML`
-- `CausalML`
-- `statsmodels`
-- `scikit-learn`
+::: {.resource-item}
+**[Cunningham, Causal Inference: The Mixtape](https://mixtape.scunning.com/)**
 
-### AI Systems and LLMOps
+An accessible applied treatment of regression, matching, difference-in-differences, regression discontinuity, instrumental variables, and synthetic control.
+:::
 
-- LangChain
-- LangGraph
-- CrewAI
-- Microsoft AutoGen
-- LangSmith
-- Langfuse
-- LlamaIndex
-- FAISS
-- Pinecone
-- PEFT
-- LoRA and QLoRA workflows
+::: {.resource-item}
+**[Molak, Causal Inference and Discovery in Python](https://www.amazon.com/Causal-Inference-Discovery-Python-learning/dp/1804612987)**
+
+A practical applied book for learning causal inference and causal discovery through Python examples. It is useful for readers who want the concepts tied directly to runnable workflows, package usage, graphs, estimation, and diagnostics.
+:::
+
+::: {.resource-item}
+**[Angrist and Pischke, Mostly Harmless Econometrics](https://press.princeton.edu/books/ebook/9781400829828/mostly-harmless-econometrics-1)**
+
+A practically minded econometrics text for experiments, IV, DiD, regression discontinuity, and the design logic behind credible empirical strategies.
+:::
+
+::: {.resource-item}
+**[Peters, Janzing, and Scholkopf, Elements of Causal Inference](https://books.google.com/books?isbn=0262037319)**
+
+A useful bridge between causal inference and machine learning, with emphasis on structural causal models, invariance, causal discovery, and prediction under distribution shift.
+:::
+
+:::
+
+## <img class="resource-heading-icon" src="assets/resources/icon-python.svg" alt=""> Python Causal Inference Ecosystem {#python-causal-inference-ecosystem}
+
+These libraries support causal graphs, estimation, refutation, heterogeneous treatment effects, double machine learning, causal discovery, and the statistical modeling infrastructure around them.
+
+::: {.resource-list}
+
+::: {.resource-item}
+**[PyWhy](https://www.pywhy.org/)**
+
+The umbrella ecosystem for causal inference and causal machine learning in Python, including DoWhy and EconML.
+:::
+
+::: {.resource-item}
+**[DoWhy](https://www.pywhy.org/dowhy/)**
+
+A causal inference library built around modeling assumptions, identifying estimands, estimating effects, and running refutation checks.
+:::
+
+::: {.resource-item}
+**[EconML](https://www.pywhy.org/EconML/)**
+
+A library for heterogeneous treatment effects, orthogonal learning, causal forests, policy learning, and treatment effect interpretation.
+:::
+
+::: {.resource-item}
+**[DoubleML](https://docs.doubleml.org/)**
+
+A focused implementation of double and debiased machine learning for partially linear models, interactive models, treatment effects, and valid inference with flexible nuisance models.
+:::
+
+::: {.resource-item}
+**[causal-learn](https://causal-learn.readthedocs.io/)**
+
+A Python package for causal discovery algorithms, including constraint-based, score-based, and functional causal model approaches.
+:::
+
+::: {.resource-item}
+**[statsmodels](https://www.statsmodels.org/)**
+
+Core statistical modeling infrastructure for regression, generalized linear models, time series, robust standard errors, and classical inference.
+:::
+
+::: {.resource-item}
+**[scikit-learn](https://scikit-learn.org/)**
+
+The practical machine learning base layer for preprocessing, model fitting, validation, pipelines, model inspection, and reusable learners inside causal workflows.
+:::
+
+::: {.resource-item}
+**[Causal Package Tutorials](tutorials/)**
+
+My tutorial track for DoWhy, EconML, DoubleML, and causal-learn, with package syntax tied to assumptions, estimands, diagnostics, and reporting.
+:::
+
+:::
+
+## <img class="resource-heading-icon" src="assets/resources/icon-ml.svg" alt=""> Machine Learning, Interpretability, and Anomaly Detection {#machine-learning-interpretability-and-anomaly-detection}
+
+These resources are useful for predictive modeling, interpretability, model reliance, anomaly detection, monitoring, robustness checks, and operational guardrails.
+
+::: {.resource-list}
+
+::: {.resource-item}
+**[Molnar, Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)**
+
+A clear online reference for feature effects, permutation importance, SHAP, counterfactual explanations, global explanations, and the practical limits of explanation methods.
+:::
+
+::: {.resource-item}
+**[SHAP Documentation](https://shap.readthedocs.io/)**
+
+Documentation for Shapley-value-based explanations across tree models, linear models, deep models, and model-agnostic workflows.
+:::
+
+::: {.resource-item}
+**[LIME](https://github.com/marcotcr/lime)**
+
+A local surrogate explanation method that remains useful for teaching how local explanations approximate model behavior near a case of interest.
+:::
+
+::: {.resource-item}
+**[scikit-learn Partial Dependence and ICE](https://scikit-learn.org/stable/modules/partial_dependence.html)**
+
+Practical documentation for feature effect visualization, including partial dependence and individual conditional expectation plots.
+:::
+
+::: {.resource-item}
+**[PyOD](https://pyod.readthedocs.io/en/latest/)**
+
+A Python toolkit for outlier and anomaly detection, useful for comparing detector families and building operational anomaly workflows.
+:::
+
+::: {.resource-item}
+**[Chandola, Banerjee, and Kumar, Anomaly Detection Survey](https://www-users.cse.umn.edu/~kumar001/papers/anomaly-survey.php)**
+
+A classic survey for anomaly detection problem types, modeling choices, evaluation issues, and application domains.
+:::
+
+::: {.resource-item}
+**[AI and Machine Learning Lecture Module](notes/03-ai-machine-learning/)**
+
+My course sequence on machine learning basics, interpretable ML and XAI, anomaly detection, and AI-assisted causal workflows.
+:::
+
+:::
+
+## <img class="resource-heading-icon" src="assets/resources/icon-data.svg" alt=""> Datasets for Teaching and Projects {#datasets-for-teaching-and-projects}
+
+These datasets are useful for examples where students need more than toy data. Some are causal benchmarks with simulated treatment effects. Others are observational, randomized, sequential, or logged datasets that support realistic design, diagnostics, and decision analysis.
+
+::: {.resource-list}
+
+::: {.resource-item}
+**[iPinYou Real-Time Bidding Dataset](https://contest.ipinyou.com/)**
+
+Public advertising auction logs with bids, impressions, clicks, market prices, user features, and campaign context. The data are useful for replay evaluation, support diagnostics, reserve and floor-policy analysis, out-of-time validation, and marketplace decision problems.
+:::
+
+::: {.resource-item}
+**[IHDP Benchmark Data](https://github.com/uber/causalml/tree/master/causalml/dataset)**
+
+A widely used semi-synthetic treatment effect benchmark for testing CATE estimation, overlap issues, and heterogeneity workflows.
+:::
+
+::: {.resource-item}
+**[ACIC Data Analysis Challenge](https://github.com/vdorie/aciccomp)**
+
+Benchmark datasets for causal inference challenges, especially useful for targeted selection, heterogeneous effects, and inference under known simulation structure.
+:::
+
+::: {.resource-item}
+**[Criteo Uplift Prediction Dataset](https://ailab.criteo.com/criteo-uplift-prediction-dataset/)**
+
+A large-scale randomized advertising dataset with treatment assignment, exposure, visits, conversions, and anonymized covariates. It is useful for uplift modeling, incrementality analysis, treatment targeting, sparse-outcome inference, response modeling, and policy evaluation.
+:::
+
+::: {.resource-item}
+**[Open Bandit Dataset and Pipeline](https://github.com/st-tech/zr-obp)**
+
+Logged bandit data and software for recommendation and retail-style decision systems. It is useful for support diagnostics, off-policy evaluation, ranking, recommendation, counterfactual policy comparison, and practical experiments with logged propensities.
+:::
+
+::: {.resource-item}
+**[KuaiRand](https://kuairand.com/)**
+
+An unbiased sequential recommendation dataset with repeated user-item interactions and randomized exposure. It is useful for studying recommendation dynamics, repeated exposure, long-horizon behavior, user-item interaction structure, and member-experience style constraints.
+:::
+
+::: {.resource-item}
+**[Hillstrom Email Analytics and Data Mining Challenge](https://blog.minethatdata.com/2008/03/minethatdata-e-mail-analytics-and-data.html)**
+
+A randomized email marketing experiment with customer history, treatment arms, visits, conversions, and spend. It is useful for segment-level lift, treatment heterogeneity, reporting-granularity tradeoffs, signal loss, and incrementality measurement.
+:::
+
+::: {.resource-item}
+**[MovieLens](https://grouplens.org/datasets/movielens/)**
+
+A family of movie-rating datasets useful for recommendation, ranking examples, logged-feedback thought experiments, evaluation design, and personalization workflows.
+:::
+
+::: {.resource-item}
+**[UCI Machine Learning Repository](https://archive.ics.uci.edu/)**
+
+A long-running collection of machine learning datasets that work well for supervised learning, feature engineering, validation, and model comparison.
+:::
+
+::: {.resource-item}
+**[Kaggle Datasets](https://www.kaggle.com/datasets)**
+
+A broad source of applied datasets for building portfolio-style projects, with the usual caution that provenance, leakage, and target definitions need careful checking.
+:::
+
+:::
+
+## <img class="resource-heading-icon" src="assets/resources/icon-path.svg" alt=""> Recommended Learning Paths {#recommended-learning-paths}
+
+These paths connect the public curriculum, tutorials, and projects into coherent study routes.
+
+::: {.resource-list}
+
+::: {.resource-item}
+**New to statistics and causal inference**
+
+Start with [Statistical Inference](notes/00-statistical-inference/), continue to [Core Causal Inference](notes/01-core-causal-inference/), use the [DoWhy tutorial](tutorials/dowhy/) to practice model, identify, estimate, and refute, then try [Ranking and Recommendation Lift](projects/ranking-recommendation-lift-lab/) to see causal design, adjustment, diagnostics, and reporting in a realistic recommendation setting.
+:::
+
+::: {.resource-item}
+**Industry data scientist moving into causal work**
+
+Study [Core Causal Inference](notes/01-core-causal-inference/), then move into [Causal Machine Learning](notes/02-causal-machine-learning/), [Industry Applications](notes/03-industry-applications/), and [Advanced Topics](notes/04-advanced-topics/). Pair the theory with the [DoubleML](tutorials/doubleml/) and [EconML](tutorials/econml/) tutorials, then stack [Off-Policy Evaluation for Bandit Systems](projects/off-policy-evaluation-bandit-lab/), [Ranking and Recommendation Lift](projects/ranking-recommendation-lift-lab/), and [Long-Term Recommender Effects](projects/long-term-recommender-effects-lab/) for a project sequence centered on logged decisions, ranking interventions, and longer-horizon outcomes.
+:::
+
+::: {.resource-item}
+**Experimentation and quasi-experiments**
+
+Work through [Randomized Experiments and Product Experimentation](notes/01-core-causal-inference/experiments/) and [Quasi-Experiments](notes/01-core-causal-inference/quasi-experiments/), then use [Interference and Spillover Effects](projects/interference-spillover-effects-lab/) to study what changes when treatment exposure can affect nearby units, substitutes, or peers.
+:::
+
+::: {.resource-item}
+**Causal ML and treatment targeting**
+
+Use [Causal Machine Learning](notes/02-causal-machine-learning/) for heterogeneous treatment effects, policy learning, targeting, and validation. Then follow the [EconML](tutorials/econml/) and [DoubleML](tutorials/doubleml/) tutorials for implementation patterns, continue with [Off-Policy Evaluation for Bandit Systems](projects/off-policy-evaluation-bandit-lab/) for logged-policy evaluation, and use [Discovery Quality Mediation](projects/discovery-quality-mediation-lab/) for effect decomposition, metric construction, and mediation-style reasoning.
+:::
+
+::: {.resource-item}
+**Interpretable ML and anomaly detection**
+
+Follow [AI and Machine Learning](notes/03-ai-machine-learning/) through machine learning basics, interpretable ML, XAI, anomaly detection, and operational guardrails.
+:::
+
+::: {.resource-item}
+**AI-assisted causal workflows**
+
+Start with the [AI for Causal Inference](notes/03-ai-machine-learning/ai-for-causal-inference/) course, then treat local LLM outputs as auditable drafts that require causal design checks, retrieval grounding, and evaluation.
+:::
+
+:::

@@ -11,13 +11,16 @@ Suggested convention:
 
 Lecture notebooks live under `notebooks/lectures/` as professional tracks:
 
+- `00_statistical_inference/`: two-course statistics sequence covering foundations first, then formal statistical inference for decision science.
 - `01_core_causal_inference/`: foundations, experiments, observational adjustment, and quasi-experiments.
-- `02_causal_machine_learning/`: direct notebook sequence.
-- `03_industry_applications/`: direct notebook sequence.
-- `04_advanced_topics/`: direct notebook sequence.
-- `05_ai_for_causal_inference/`: direct notebook sequence on using AI systems to support disciplined causal analysis.
-- `06_causal_inference_for_ai_systems/`: direct notebook sequence on evaluating, monitoring, and governing deployed AI systems as causal interventions.
-- `07_causal_inference_for_generative_ai/`: direct notebook sequence on causal evaluation of prompts, generated content, safety interventions, judges, and GenAI workflows.
-- `08_causal_inference_for_reinforcement_learning/`: direct notebook sequence on causal evaluation of sequential policies, logged decisions, offline RL, RLHF, and LLM agents.
+- `02_advanced_causal_inference/`: module folder containing:
+  - `01_causal_machine_learning/`
+  - `02_industry_applications/`
+  - `03_advanced_topics/`
+- `03_ai_machine_learning/`: module folder containing:
+  - `01_machine_learning_basics_for_decision_science/`
+  - `02_interpretable_ml_and_xai/`
+  - `03_anomaly_detection_for_decision_systems/`
+  - `04_ai_for_causal_inference/`
 
 Quarto can render notebooks directly, or you can link to them from polished `.qmd` project pages.

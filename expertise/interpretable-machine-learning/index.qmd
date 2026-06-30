@@ -1,0 +1,31 @@
+---
+title: "Interpretable Machine Learning"
+description: "Structured and transparent models for sparse learning, multiscale approximation, time-series reconstruction, uncertainty, and validation."
+categories: [Interpretable ML, Sparse Learning, Uncertainty, Time Series]
+---
+
+## Focus
+
+My interpretable machine-learning work is about making modeling decisions inspectable. In many scientific and operational settings, the model must reduce noise, compress data, reconstruct a signal, or produce a prediction while preserving enough structure for review, uncertainty assessment, and downstream decisions.
+
+## Core Themes
+
+- Sparse multiscale learning for transparent data reduction.
+- Hierarchical regularization and bias-variance-compression tradeoffs.
+- Confidence and prediction intervals for compressed models.
+- SVD-based augmentation for surrogate modeling under limited data.
+- Localized penalized splines for noisy and irregular time series.
+- Outlier screening, reconstruction, derivative estimation, and uncertainty bands.
+
+## Representative Work
+
+- Forward-backward greedy sparse multiscale learning.
+- Hierarchical regularization networks for sparsification-based learning on noisy datasets.
+- Hierarchical approximations for data reduction and learning at multiple scales.
+- SVD-enabled data augmentation for machine-learning surrogate modeling of nonlinear structures.
+- ALPS framework for modeling time series of land ice changes.
+- Glacier surge monitoring from temporally dense elevation time series.
+
+## Decision-Science Connection
+
+The common pattern is not just prediction. The work asks which information is decision-relevant, which detail is redundant or unstable, how much approximation error can be tolerated, and how uncertainty should be shown before a model output is trusted.

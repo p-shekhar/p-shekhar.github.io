@@ -1,39 +1,30 @@
 ---
-title: "AI Systems, LLMOps & Agentic Workflows"
-description: "Designing, evaluating, and monitoring LLM-powered systems for reliable knowledge work."
-date: 2026-04-26
-categories: [AI Systems, LLMOps, RAG, Agents]
+title: "Privacy, AI & Cybersecurity"
+description: "Decision reliability under privacy, trust, and adversarial constraints."
+categories: [Privacy, AI, Cybersecurity, Robustness]
 ---
 
 ## Focus
 
-I build and evaluate LLM-powered systems that combine retrieval, orchestration, multimodal understanding, automated evaluation, and monitoring. The goal is not just to call a model API, but to design systems that can be tested, improved, and trusted in real workflows.
+My AI and cybersecurity work treats reliability as a decision problem. The goal is not only to build accurate models, but to decide whether a model, privacy control, authentication rule, or robustness claim is trustworthy enough for deployment.
 
-## Core Capabilities
+## Core Themes
 
-- Design and deployment of LLM-powered AI systems, including RAG, agents, and multi-agent orchestration.
-- Multimodal ML systems for text, image, and embedding-based understanding.
-- Hallucination detection, drift monitoring, automated evaluation, and regression testing with tools such as LangSmith and Langfuse.
-- Agent architectures with LangChain, LangGraph, CrewAI, and Microsoft AutoGen.
-- LLMOps and model lifecycle management: evaluation, monitoring, versioning, prompt management, and release discipline.
-- Vector databases and retrieval systems, including FAISS, Pinecone, and LlamaIndex.
-- LLM fine-tuning workflows, including PEFT/LoRA and QLoRA.
+- **Privacy-preserving learning:** homomorphic encryption, federated or distributed learning, gradient leakage, encryption ratios, utility loss, and operational cost.
+- **Adversarial robustness:** stress-testing segmentation and perception models under plausible attack patterns and transferability risk.
+- **Authentication and trust:** RF fingerprinting, known/unknown device decisions, thresholding, rogue transmitter detection, and adversarially generated negative examples.
+- **AI-system evaluation:** model behavior evaluation, prompt optimization, retrieval/tool-use patterns, local model serving, and monitoring.
+- **Deployment decisions:** choosing privacy, robustness, and model controls as governed parameters rather than ad hoc safeguards.
 
-## How I Present This Work
+## Representative Work
 
-AI systems work should be demonstrated through artifacts:
-
-- Architecture diagrams.
-- Evaluation datasets and test suites.
-- Retrieval quality metrics.
-- Failure mode analysis.
-- Monitoring plans.
-- Reproducible notebooks or small deployable demos.
-- Clear tradeoffs around cost, latency, quality, and risk.
+- Secure distributed learning for connected and autonomous vehicles using leveled homomorphic encryption.
+- Practical homomorphic encryption for federated learning.
+- Adversarial patch transferability across real-time autonomous-vehicle segmentation models.
+- RF fingerprinting authentication for IoT networks using Siamese networks.
+- Adversarial-resilient RF fingerprinting with CNN-GAN rogue transmitter detection.
 
 ## Evidence On This Site
 
-- [RAG evaluation system](../../projects/rag-evaluation-system/index.qmd)
-- [Agentic research assistant](../../projects/agentic-research-assistant/index.qmd)
-- [Multimodal retrieval system](../../projects/multimodal-retrieval-system/index.qmd)
-
+- [AI for causal inference lectures](../../notes/05-ai-for-causal-inference/index.qmd)
+- [AI-assisted software systems agenda](../ai-assisted-software/index.qmd)

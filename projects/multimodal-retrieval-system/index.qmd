@@ -1,7 +1,6 @@
 ---
 title: "Multimodal retrieval for text and image collections"
 description: "A project template for embedding-based understanding across text, image, and metadata."
-date: 2026-04-26
 categories: [Multimodal ML, Embeddings, Retrieval]
 ---
 
@@ -15,7 +14,7 @@ Many real knowledge systems are not text-only. Product catalogs, research archiv
 
 ## Architecture
 
-Planned components:
+Planned components include the following pieces.
 
 - Dataset curation and metadata schema.
 - Text and image embedding generation.
@@ -26,7 +25,7 @@ Planned components:
 
 ## Evaluation Plan
 
-Track:
+The evaluation should track the following measures.
 
 - Recall at `k`.
 - Precision at `k`.
@@ -41,4 +40,3 @@ Track:
 - `notebooks/multimodal-retrieval-system/02-embedding-pipeline.ipynb`
 - `notebooks/multimodal-retrieval-system/03-vector-search.ipynb`
 - `notebooks/multimodal-retrieval-system/04-error-analysis.ipynb`
-

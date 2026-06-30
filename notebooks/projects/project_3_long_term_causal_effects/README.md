@@ -1,31 +1,40 @@
-# Long-Term Causal Effects
+# Long-Term Effects in Recommendation Systems
 
-This folder contains the long-term causal effects notebooks based on `CausalAI_projects.pdf`.
+This project studies long-term causal effects in recommendation logs using KuaiRec. The goal is to estimate whether short-term recommendation exposure affects later user outcomes such as retention, repeat engagement, or sustained watch behavior.
 
-The project goal is to estimate whether short-term recommendation exposure affects longer-term user outcomes such as retention, repeat engagement, or sustained watch behavior.
+## What You Will Build
 
-Core causal question:
+You will build a sequential causal workflow for recommendation exposure. The project defines user-day outcomes, explains time-varying confounding, estimates treatment histories with propensity models, then compares marginal structural models, g-computation, and doubly robust approaches.
 
-> How do sequential recommendation exposures affect future engagement or retention?
+## How To Use This Project
 
-Planned methods:
+Read notebook `01` for the KuaiRec sequence structure and panel construction. Notebook `02` defines the long-term estimand. The middle notebooks cover time-varying confounding, stabilized weights, marginal structural models, and g-computation. Notebook `06` adds doubly robust and heterogeneous-effect analysis.
 
-- Marginal Structural Models
-- Time-dependent inverse probability weighting
-- G-computation
-- Doubly robust / AIPW estimation
+The final notebook combines sensitivity analysis with report assembly. It is useful as an artifact source, while notebooks `01` through `06` give the cleaner analytic sequence.
 
-Candidate datasets:
+## Data Source And Scope
 
-- KuaiRec
-- Sequential logs from MIND
+The project uses KuaiRec interaction logs. KuaiRec is valuable for recommendation research because it contains dense user-video observations and supports more complete evaluation than sparse observational logs. Here it is reorganized into active user-day records so the analysis can study short-term exposure and later engagement. The design remains observational, so the project emphasizes assumptions, weighting diagnostics, and sensitivity checks.
 
-Suggested notebook sequence:
+## Notebook Sequence
 
-- `01_kuairec_sequence_eda.ipynb`
-- `02_long_term_outcome_definition.ipynb`
-- `03_time_varying_confounding_and_propensity.ipynb`
-- `04_marginal_structural_model.ipynb`
-- `05_g_computation.ipynb`
-- `06_doubly_robust_heterogeneous_effects.ipynb`
-- `07_sensitivity_and_final_report.ipynb`
+- [01 KuaiRec sequence EDA](01_kuairec_sequence_eda.ipynb)
+- [02 Long-term outcome definition](02_long_term_outcome_definition.ipynb)
+- [03 Time-varying confounding and propensity weights](03_time_varying_confounding_and_propensity.ipynb)
+- [04 Marginal structural model](04_marginal_structural_model.ipynb)
+- [05 G-computation](05_g_computation.ipynb)
+- [06 Doubly robust heterogeneous effects](06_doubly_robust_heterogeneous_effects.ipynb)
+
+## Artifact Notebook
+
+- [07 Sensitivity and final report](07_sensitivity_and_final_report.ipynb)
+
+This notebook contains useful sensitivity material and final-report artifacts. The website should present the main project through notebooks `01` through `06`, then use selected outputs from notebook `07` where helpful.
+
+## Key Interpretation
+
+Recommendation effects can evolve over time because exposure today changes tomorrow's behavior, and tomorrow's behavior changes later exposure. The project makes that feedback structure explicit so long-term engagement claims are tied to treatment histories and same-session response is only one part of the evidence.
+
+## Verified References And Data Links
+
+- Gao, C., Li, S., Lei, W., Chen, J., Li, B., Jiang, P., He, X., Mao, J., & Chua, T.-S. (2022). KuaiRec: A fully-observed dataset and insights for evaluating recommender systems. *CIKM 2022*. [https://doi.org/10.1145/3511808.3557220](https://doi.org/10.1145/3511808.3557220), [arXiv:2202.10842](https://arxiv.org/abs/2202.10842), and [dataset site](https://kuairec.com/).

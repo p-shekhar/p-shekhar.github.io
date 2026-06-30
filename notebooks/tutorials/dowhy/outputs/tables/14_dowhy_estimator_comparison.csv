@@ -1,5 +1,5 @@
 estimator,method_name,estimate,known_true_ate,absolute_error
 propensity_score_weighting,backdoor.propensity_score_weighting,0.8539620944209619,0.8495825570013631,0.004379537419598845
 propensity_score_stratification,backdoor.propensity_score_stratification,0.8368058617641245,0.8495825570013631,0.012776695237238567
-linear_regression,backdoor.linear_regression,0.8352181563708903,0.8495825570013631,0.01436440063047284
+linear_regression,backdoor.linear_regression,0.8352181563708893,0.8495825570013631,0.01436440063047384
 propensity_score_matching,backdoor.propensity_score_matching,0.8893432247737874,0.8495825570013631,0.03976066777242426

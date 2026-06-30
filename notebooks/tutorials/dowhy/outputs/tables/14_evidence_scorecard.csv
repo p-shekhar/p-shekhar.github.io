@@ -4,4 +4,4 @@ estimator agreement,weighting estimate 0.854,propensity and regression estimates
 overlap and balance,max weighted SMD 0.018,observed covariates are much better balanced after weighting
 placebo treatment refuter,0.010,fake treatment does not reproduce the main effect
 negative-control outcome,adjusted coefficient 0.023,pre-period outcome association mostly disappears after adjustment
-hidden-confounding sensitivity,range 0.434 to 0.806,strong unobserved confounding could still reduce the estimate
+hidden-confounding sensitivity,range 0.373 to 0.809,strong unobserved confounding could still reduce the estimate

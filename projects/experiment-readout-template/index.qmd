@@ -1,7 +1,6 @@
 ---
 title: "Experiment readout for product and marketing teams"
 description: "A reusable project format for A/B test analysis, guardrails, heterogeneous effects, and launch recommendations."
-date: 2026-04-26
 categories: [Experimentation, A/B Testing, Product Analytics]
 ---
 
@@ -11,7 +10,7 @@ Should the organization launch, iterate, or stop the tested intervention?
 
 ## Core Readout
 
-Summarize:
+Summarize the evidence needed for a launch decision.
 
 - Primary metric effect.
 - Guardrail metric effects.
@@ -37,4 +36,3 @@ Add notebooks such as:
 - `notebooks/02-primary-analysis.ipynb`
 - `notebooks/03-heterogeneity.ipynb`
 - `notebooks/04-readout-figures.ipynb`
-

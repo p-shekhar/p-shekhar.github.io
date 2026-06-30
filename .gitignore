@@ -49,10 +49,15 @@ notebooks/**/outputs/tmp/
 # Local data downloads and model artifacts
 /data/raw/
 /data/interim/
+/data/processed
 /data/cache/
+/data/open_bandit
+/data/Kuairec
+/data/movieLens
 notebooks/**/data/raw/
 notebooks/**/data/interim/
 notebooks/**/data/cache/
+notebooks/_data/
 *.safetensors
 *.ckpt
 *.pt
@@ -65,6 +70,12 @@ notebooks/**/data/cache/
 *.arrow
 pytorch_model*.bin
 model*.bin
+
+# Local research source folders used while drafting pages, not published directly
+/Papers/
+/Projects/
+/notebooks/lectures/MA506-*/
+/notebooks/lectures/MA506-*.zip
 
 # Logs and temporary files
 *.log

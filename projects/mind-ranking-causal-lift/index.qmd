@@ -1,7 +1,6 @@
 ---
 title: "Causal effect of ranking position on clicks"
 description: "A notebook-driven causal inference project estimating whether top-3 recommendation exposure increases click probability in MIND impression logs."
-date: 2026-04-26
 categories: [Causal Inference, Recommendations, AIPW, Causal ML]
 ---
 
@@ -11,9 +10,9 @@ Does placing a news item in the top 3 recommendation positions cause more clicks
 
 ## Causal Setup
 
-- Treatment: item appears in the top 3 recommendation positions.
-- Outcome: click on the displayed item.
-- Adjustment: user history, item metadata, slate size, time context, and item exposure features.
+- Treatment is whether the item appears in the top 3 recommendation positions.
+- Outcome is click on the displayed item.
+- Adjustment uses user history, item metadata, slate size, time context, and item exposure features.
 
 ## Methods
 
@@ -23,9 +22,9 @@ Does placing a news item in the top 3 recommendation positions cause more clicks
 - Policy simulation
 - ML nuisance models and EconML extensions
 
-## Portfolio Takeaway
+## Decision Takeaway
 
-The project demonstrates the full applied causal workflow: confounding checks, adjustment, doubly robust estimation, heterogeneity, policy simulation, and sensitivity analysis for a ranking decision.
+The project demonstrates the full applied causal workflow, including confounding checks, adjustment, doubly robust estimation, heterogeneity, policy simulation, and sensitivity analysis for a ranking decision.
 
 ## Selected Figures
 
@@ -37,9 +36,6 @@ The project demonstrates the full applied causal workflow: confounding checks, a
 
 ## Notebook Sequence
 
-::: {.sequence-note}
-The links below open rendered HTML versions of the notebooks. The source `.ipynb` files are kept in the matching folder under `notebooks/projects/`.
-:::
 
 <ol class="notebook-sequence">
   <li><a href="../../notebooks/projects/project_1_ranking/01_eda_mind.html" data-site-path="notebooks/projects/project_1_ranking/01_eda_mind.html">01 - MIND Rank Position EDA</a></li>
@@ -63,4 +59,4 @@ The links below open rendered HTML versions of the notebooks. The source `.ipynb
 
 ## Limitations
 
-These are notebook-driven causal analyses, not production guarantees. Each project should be read with its identification assumptions, support diagnostics, measurement choices, and sensitivity checks in view.
+These notebook-driven causal analyses should be read with their identification assumptions, support diagnostics, measurement choices, and sensitivity checks in view.

@@ -1,7 +1,6 @@
 ---
 title: "RAG systems tutorial roadmap"
 description: "A tutorial outline for building retrieval-augmented generation systems with evaluation from the start."
-date: 2026-04-26
 categories: [RAG, Vector Databases, LlamaIndex, FAISS]
 ---
 

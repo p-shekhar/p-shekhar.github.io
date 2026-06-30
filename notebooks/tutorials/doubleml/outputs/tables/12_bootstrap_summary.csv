@@ -1,2 +1,2 @@
 method,n_rep_boot,bootstrap_runtime_seconds,joint_critical_95
-normal,800,0.03975651599466801,2.355716508153563
+normal,800,0.03901676298119128,2.34627769106591

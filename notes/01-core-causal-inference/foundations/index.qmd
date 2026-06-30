@@ -1,0 +1,52 @@
+---
+title: "Foundations of Causal Inference"
+categories: [Causal Inference, Foundations, Lecture Notes]
+---
+
+This course builds the conceptual foundation for causal inference. The emphasis is on learning to state the question before estimating anything: what action is being considered, what counterfactual comparison is required, who the estimand is about, and which assumptions connect the observed data to the desired causal claim.
+
+The objective is to make causal reasoning explicit enough that a project can be audited. By the end of the course, a reader should be able to distinguish prediction from intervention, define ATE/ATT/ATC/CATE-style estimands, explain the role of identification assumptions, use DAGs to communicate causal structure, and recognize when adjustment choices change the causal question.
+
+
+::: {.course-page-figure}
+
+![Figure: A ranking-policy imbalance plot used to make confounding visible before any estimator is introduced (adapted from Lecture 08: Confounders, Mediators, Colliders, and Selection Bias).](../../../assets/course-thumbnails/causal-foundations.png){fig-alt="Density plot showing imbalance created by a ranking policy"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/01_foundations/01_what_is_a_causal_question.html" data-site-path="notebooks/lectures/01_core_causal_inference/01_foundations/01_what_is_a_causal_question.html">01. What Is a Causal Question?</a></p>
+<p class="notebook-guide-description">This lecture connects What Is a Causal Question? to estimands, assumptions, counterfactual reasoning, and common design failures.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/01_foundations/02_prediction_vs_causal_inference.html" data-site-path="notebooks/lectures/01_core_causal_inference/01_foundations/02_prediction_vs_causal_inference.html">02. Prediction vs Causal Inference</a></p>
+<p class="notebook-guide-description">This lecture develops Prediction vs Causal Inference with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/01_foundations/03_potential_outcomes_and_counterfactuals.html" data-site-path="notebooks/lectures/01_core_causal_inference/01_foundations/03_potential_outcomes_and_counterfactuals.html">03. Potential Outcomes and Counterfactuals</a></p>
+<p class="notebook-guide-description">This lecture uses Potential Outcomes and Counterfactuals to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/01_foundations/04_treatment_outcome_estimand_population.html" data-site-path="notebooks/lectures/01_core_causal_inference/01_foundations/04_treatment_outcome_estimand_population.html">04. Treatment, Outcome, Estimand, Population</a></p>
+<p class="notebook-guide-description">This lecture clarifies treatment, outcome, estimand, and population before any estimator enters the workflow.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/01_foundations/05_average_treatment_effects.html" data-site-path="notebooks/lectures/01_core_causal_inference/01_foundations/05_average_treatment_effects.html">05. Average Treatment Effects: ATE, ATT, ATC, and CATE</a></p>
+<p class="notebook-guide-description">This lecture frames Average Treatment Effects: ATE, ATT, ATC, and CATE as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/01_foundations/06_core_identification_assumptions.html" data-site-path="notebooks/lectures/01_core_causal_inference/01_foundations/06_core_identification_assumptions.html">06. Core Identification Assumptions</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Core Identification Assumptions and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/01_foundations/07_causal_dags_and_graphical_assumptions.html" data-site-path="notebooks/lectures/01_core_causal_inference/01_foundations/07_causal_dags_and_graphical_assumptions.html">07. Causal DAGs and Graphical Assumptions</a></p>
+<p class="notebook-guide-description">This lecture applies Causal DAGs and Graphical Assumptions with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/01_foundations/08_confounders_mediators_colliders_selection_bias.html" data-site-path="notebooks/lectures/01_core_causal_inference/01_foundations/08_confounders_mediators_colliders_selection_bias.html">08. Confounders, Mediators, Colliders, and Selection Bias</a></p>
+<p class="notebook-guide-description">This lecture develops Confounders, Mediators, Colliders, and Selection Bias as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+</div>

@@ -1,0 +1,6 @@
+model_step,target,formula_concept,purpose
+total_effect_model,Y_future_interactions,Y ~ A + X,Estimate the overall association of high discovery exposure with future value after observed adjustment.
+mediator_model,M_satisfaction_depth,M ~ A + X,Estimate how high discovery exposure shifts satisfaction depth after observed adjustment.
+outcome_mediation_model,Y_future_interactions,Y ~ A + M + A*M + X,Estimate how treatment and mediator jointly predict future value after observed adjustment.
+counterfactual_prediction,"Y(a, M(a_prime))","Predict mediator under A=0/1, then predict outcome under treatment-mediator combinations.","Compute total, natural direct, natural indirect, and controlled direct effects by averaging predictions."
+bootstrap_uncertainty,effect intervals,"Resample users, not rows, to respect repeated user-days.",Quantify uncertainty while acknowledging clustered user-day observations.

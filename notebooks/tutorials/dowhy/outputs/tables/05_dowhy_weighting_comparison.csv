@@ -1,5 +1,5 @@
 scenario,estimator,method_name,reported_common_causes,estimate,absolute_error_vs_true_ate
-usable_overlap,dowhy_linear_regression,backdoor.linear_regression,"is_power_user, baseline_value, user_engagement, prior_sessions, account_age_weeks",1.6205069186723904,0.020506918672390295
-usable_overlap,dowhy_propensity_score_weighting,backdoor.propensity_score_weighting,"is_power_user, baseline_value, user_engagement, prior_sessions, account_age_weeks",1.6136810472496892,0.013681047249689104
-weak_overlap,dowhy_linear_regression,backdoor.linear_regression,"is_power_user, baseline_value, user_engagement, prior_sessions, account_age_weeks",1.6830868813399436,0.08308688133994346
-weak_overlap,dowhy_propensity_score_weighting,backdoor.propensity_score_weighting,"is_power_user, baseline_value, user_engagement, prior_sessions, account_age_weeks",2.6466744899920753,1.0466744899920752
+usable_overlap,dowhy_linear_regression,backdoor.linear_regression,"baseline_value, account_age_weeks, user_engagement, prior_sessions, is_power_user",1.6205069186723904,0.020506918672390295
+usable_overlap,dowhy_propensity_score_weighting,backdoor.propensity_score_weighting,"baseline_value, account_age_weeks, user_engagement, prior_sessions, is_power_user",1.6136810472496839,0.013681047249683775
+weak_overlap,dowhy_linear_regression,backdoor.linear_regression,"baseline_value, account_age_weeks, user_engagement, prior_sessions, is_power_user",1.6830868813399427,0.08308688133994258
+weak_overlap,dowhy_propensity_score_weighting,backdoor.propensity_score_weighting,"baseline_value, account_age_weeks, user_engagement, prior_sessions, is_power_user",2.6466744899921384,1.0466744899921383

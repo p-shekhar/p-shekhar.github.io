@@ -1,2 +1,2 @@
 n_clusters,adjusted_rand_index,mean_cluster_purity,order_matches_truth,learned_majority_order,method,elapsed_seconds
-2,1.0,1.0,True,latent_need -> latent_value,GIN_MI,0.5371309798210859
+2,1.0,1.0,True,latent_need -> latent_value,GIN_MI,0.42503520799800754

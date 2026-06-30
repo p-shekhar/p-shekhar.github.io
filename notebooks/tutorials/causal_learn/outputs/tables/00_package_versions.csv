@@ -1,10 +1,10 @@
 package,version,role
-python,3.13.12,Runtime.
+python,3.11.15,Runtime.
 causal-learn,0.1.4.5,Causal discovery algorithms.
 numpy,2.4.4,Numerical arrays and simulation.
 pandas,3.0.2,Tabular data handling.
 scipy,1.17.1,Statistical utilities.
 scikit-learn,1.6.1,Scaling and helper models.
-networkx,3.6.1,Teaching graph visualization.
+networkx,3.6.1,Graph visualization.
 matplotlib,3.10.9,Static plotting.
 seaborn,0.13.2,Statistical plotting.

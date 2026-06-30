@@ -1,57 +1,248 @@
 ---
 title: "Lecture Notes"
-description: "Professional lecture tracks in causal inference, causal ML, AI evaluation, generative AI, and reinforcement learning."
+description: "A structured curriculum in statistical inference, causal inference, machine learning, AI, and decision science."
+body-classes: notes-index
+toc-depth: 3
+format:
+  html:
+    toc-depth: 3
 ---
 
-These notes are organized as full lecture tracks rather than isolated posts. The source notebooks live under `notebooks/lectures/`, and the website pages below provide the public course navigation.
+This page collects course notes developed for my teaching in computational mathematics and data science degree programs at [Embry-Riddle Aeronautical University](https://erau.edu/){target="_blank"}. The curriculum is organized across four connected modules: (i) [Statistical Inference](#module-1-statistical-inference-ma-412-and-ma-506), (ii) [Core Causal Inference](#module-2-core-causal-inference-ma-412-and-ma-413), (iii) [Advanced Causal Inference](#module-3-advanced-causal-inference-ma-505-and-ma-506), and (iv) [AI and Machine Learning](#module-4-ai-and-machine-learning-ds-440-ds-540-ds-625-and-ds-699). Together, these modules move from statistical foundations to causal design, advanced causal workflows, machine learning, AI, diagnostics, simulations, and decision-focused interpretation.
 
-<div class="track-grid">
-<div class="track-card">
-<h3><a href="01-core-causal-inference/">01. Core Causal Inference</a></h3>
-<p>This is the backbone sequence. It starts from causal questions and potential outcomes, then builds through experiments, adjustment-based observational designs, and quasi-experimental strategies used in product, policy, and industry settings.</p>
-<span class="track-meta">33 notebooks</span>
-</div>
-<div class="track-card">
-<h3><a href="02-causal-machine-learning/">02. Causal Machine Learning</a></h3>
-<p>This track focuses on causal questions where modern machine learning is useful after the estimand is clear: heterogeneous treatment effects, nuisance modeling, policy targeting, off-policy evaluation, and validation.</p>
-<span class="track-meta">8 notebooks</span>
-</div>
-<div class="track-card">
-<h3><a href="03-industry-applications/">03. Industry Applications</a></h3>
-<p>This track translates causal designs into the decisions companies actually make: incrementality, promotions, ranking, churn, feature launches, marketplaces, and executive readouts.</p>
-<span class="track-meta">8 notebooks</span>
-</div>
-<div class="track-card">
-<h3><a href="04-advanced-topics/">04. Advanced Topics</a></h3>
-<p>This track collects the advanced topics that separate routine effect estimation from mature causal practice: mechanisms, missingness, measurement, generalization, spillovers, panels, discovery, Bayesian workflows, and AI-system complications.</p>
-<span class="track-meta">10 notebooks</span>
-</div>
-<div class="track-card">
-<h3><a href="05-ai-for-causal-inference/">05. AI for Causal Inference</a></h3>
-<p>This course treats AI as an assistant to the causal analyst: translating business questions, drafting estimand cards, critiquing DAGs, retrieving domain knowledge, generating code, creating reports, and stress-testing AI outputs.</p>
-<span class="track-meta">25 notebooks</span>
-</div>
-<div class="track-card">
-<h3><a href="06-causal-inference-for-ai-systems/">06. Causal Inference for AI Systems</a></h3>
-<p>This course flips the direction: AI systems become the intervention. It covers estimands, experiments, triggered exposure, RAG and agent evaluation, routing bias, monitoring, fairness, cost-benefit, governance, and lifecycle management.</p>
-<span class="track-meta">22 notebooks</span>
-</div>
-<div class="track-card">
-<h3><a href="07-causal-inference-for-generative-ai/">07. Causal Inference for Generative AI</a></h3>
-<p>This course specializes causal evaluation for generative AI systems, where outputs are stochastic, measurement is difficult, and human behavior often changes in response to generated content.</p>
-<span class="track-meta">24 notebooks</span>
-</div>
-<div class="track-card">
-<h3><a href="08-causal-inference-for-reinforcement-learning/">08. Causal Inference for Reinforcement Learning</a></h3>
-<p>This course is written for learners who know the earlier causal tracks but may be new to reinforcement learning. It builds RL concepts from the causal viewpoint and then studies logged decisions, policy evaluation, offline RL, RLHF, and agentic systems.</p>
-<span class="track-meta">26 notebooks</span>
-</div>
-</div>
+<span class="module-click-prompt">Scroll through the modules below and click course names to open the full lecture sequences.</span> If you notice an error or typo, please let me know.
 
-## Short Notes
+## Module 1: Statistical Inference (MA 412 and MA 506)
 
-These earlier short notes remain useful as focused references:
+Statistical Inference is the entry point for the lecture curriculum. It builds the quantitative habits needed for later causal, machine-learning, and AI courses, including careful data description, uncertainty reasoning, assumption checks, and evidence-to-decision translation.
 
-- [Identification](identification/)
-- [DAG assumptions](dag-assumptions/)
-- [Difference-in-differences](difference-in-differences/)
+This module is designed for readers who want statistical work to feel connected to action. The first course builds the language of data, variation, bias, and modeling. The second course turns that language into formal inference, where likelihoods, intervals, tests, Bayesian updating, and decision reports support defensible analysis.
+
+The two courses work as a pair. One trains the eye to see structure in data. The other trains the judgment to recognize where evidence is strong, weak, or incomplete.
+
+::: {.module-course-list}
+::: {.course-preview-row}
+### [**Course 1:** Statistical Foundations for Data Science](00-statistical-inference/statistical-foundations-data-science/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="00-statistical-inference/statistical-foundations-data-science/">
+<img src="../assets/course-thumbnails/statistical-foundations.png" alt="Histogram showing a skewed resolution-time distribution from the statistical foundations course">
+</a>
+<figcaption>Figure: A skewed service-resolution distribution used to show why summary statistics need context before they become decision evidence (adapted from Lecture 04: Distributions, Variability, and Tail Risk).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+This course builds the habits behind responsible data analysis. It covers units and variables, randomness, distributions, sampling problems, simulation, and careful communication about what a model can support.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 2:** Statistical Inference for Decision Science](00-statistical-inference/statistical-inference-decision-science/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="00-statistical-inference/statistical-inference-decision-science/">
+<img src="../assets/course-thumbnails/statistical-inference.png" alt="Coverage comparison plot for Wald, likelihood, and bootstrap confidence intervals">
+</a>
+<figcaption>Figure: Empirical interval coverage across scenarios, illustrating that uncertainty methods must be matched to the decision setting (adapted from Lecture 04: Confidence Intervals: Wald, Likelihood, and Bootstrap).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+This course moves from descriptive analysis to evidence claims. It covers likelihood, uncertainty intervals, testing, resampling, regression inference, Bayesian updating, missing data, model checking, and value-of-information reasoning.
+:::
+:::
+:::
+
+## Module 2: Core Causal Inference (MA 412 and MA 413)
+
+Core Causal Inference is the backbone of the lecture curriculum. It develops the conceptual grammar needed for the rest of the site, including causal questions, interventions, estimands, randomization, credible adjustment, and quasi-experimental variation.
+
+The sequence is split into four courses. Together they move from causal language to design practice. The reader first learns how to define the question, then how to create evidence through experiments, how to repair observational comparisons, and how to use policy variation in applied settings.
+
+This module is the conceptual center of the site. Everything later, from causal ML to AI-assisted analysis, depends on getting this design logic right.
+
+::: {.module-course-list}
+::: {.course-preview-row}
+### [**Course 1:** Foundations of Causal Inference](01-core-causal-inference/foundations/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="01-core-causal-inference/foundations/">
+<img src="../assets/course-thumbnails/causal-foundations.png" alt="Density plot showing imbalance created by a ranking policy">
+</a>
+<figcaption>Figure: A ranking-policy imbalance plot used to make confounding visible before any estimator is introduced (adapted from Lecture 08: Confounders, Mediators, Colliders, and Selection Bias).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+This course builds the language of causal reasoning, moving from interventions and potential outcomes to estimands, identification assumptions, DAGs, and common adjustment mistakes.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 2:** Randomized Experiments and Product Experimentation](01-core-causal-inference/experiments/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="01-core-causal-inference/experiments/">
+<img src="../assets/course-thumbnails/experiments.png" alt="Experiment allocation comparison showing clean and bugged A/B test assignment">
+</a>
+<figcaption>Figure: A clean-versus-bugged allocation diagnostic, showing why experiment validity depends on the assignment running as designed (adapted from Lecture 02: A/B Testing and Product Experimentation).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+This course treats randomized evidence as an operational workflow. It covers experiment design, power, guardrail metrics, clustered assignment, noncompliance, interference, and clear reporting for launch decisions.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 3:** Observational Adjustment](01-core-causal-inference/observational-adjustment/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="01-core-causal-inference/observational-adjustment/">
+<img src="../assets/course-thumbnails/observational-adjustment.png" alt="Risk-score distributional balance plot comparing raw, weighted, and matched groups">
+</a>
+<figcaption>Figure: Balance diagnostics across raw, weighted, and matched comparisons, showing how adjustment is audited visually (adapted from Lecture 05: Covariate Balance Diagnostics).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+When treatment assignment comes from observed behavior, credibility depends on measured confounding, overlap, and diagnostics. This course covers regression adjustment, propensity scores, matching, weighting, balance checks, doubly robust estimation, TMLE, and sensitivity analysis.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 4:** Quasi-Experiments and Natural Experiments](01-core-causal-inference/quasi-experiments/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="01-core-causal-inference/quasi-experiments/">
+<img src="../assets/course-thumbnails/quasi-experiments.png" alt="Difference-in-differences estimate comparison across specifications">
+</a>
+<figcaption>Figure: DiD estimates across near-equivalent specifications, highlighting how design credibility is checked through specification comparisons (adapted from Lecture 01: Difference-in-Differences).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+This course studies designs that exploit timing, thresholds, instruments, shocks, or policy variation. Topics include difference-in-differences, event studies, staggered adoption, synthetic control, regression discontinuity, instrumental variables, encouragement designs, and interrupted time series.
+:::
+:::
+:::
+
+## Module 3: Advanced Causal Inference (MA 505 and MA 506)
+
+Advanced Causal Inference is the second major causal module in the lecture sequence. It assumes the reader has worked through the core causal inference material, then moves toward the professional settings where causal work becomes more technical, more operational, and more decision-facing.
+
+The module has three courses. Causal Machine Learning covers modern estimation and policy-learning workflows once the estimand is clear. Industry Applications shows how causal designs map to product, marketing, marketplace, and policy decisions. Advanced Topics covers the complications that mature causal projects must confront, including mechanisms, missingness, measurement error, transportability, interference, panels, discovery, Bayesian workflows, and AI-system complications.
+
+Here the goal is to estimate effects and decide which effect matters, which method is credible, and how the result changes a real decision.
+
+::: {.module-course-list}
+::: {.course-preview-row}
+### [**Course 1:** Causal Machine Learning](02-causal-machine-learning/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="02-causal-machine-learning/">
+<img src="../assets/course-thumbnails/causal-ml.png" alt="Scatter plots comparing predicted uplift to true uplift">
+</a>
+<figcaption>Figure: Predicted uplift against true uplift, showing why causal ML is judged by treatment-effect recovery and policy value (adapted from Lecture 02: CATE and Uplift Modeling).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+This course focuses on heterogeneous treatment effects, CATE and uplift modeling, meta-learners, causal forests, Double ML, policy learning, treatment targeting, off-policy evaluation, and validation.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 2:** Industry Applications of Causal Inference](03-industry-applications/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="03-industry-applications/">
+<img src="../assets/course-thumbnails/industry-applications.png" alt="Revenue trend before and after a campaign launch">
+</a>
+<figcaption>Figure: Campaign-launch revenue trends, connecting causal design to the kind of business question that teams actually face (adapted from Lecture 01: Marketing Incrementality).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+This course translates causal inference into applied decision workflows for marketing incrementality, pricing, promotions, ranking, retention, product launches, marketplaces, public-sector applications, and leadership decision summaries.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 3:** Advanced Topics in Causal Inference](04-advanced-topics/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="04-advanced-topics/">
+<img src="../assets/course-thumbnails/advanced-topics.png" alt="Network experiment plot with treated nodes highlighted">
+</a>
+<figcaption>Figure: A network experiment where spillovers make the usual independent-unit assumption visibly fragile (adapted from Lecture 06: Interference and Spillovers).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+This course studies the issues that make advanced causal projects difficult, including mediation, principal stratification, missing data, measurement error, transportability, interference, panel complications, causal discovery, Bayesian causal inference, and AI-system complications.
+:::
+:::
+:::
+
+## Module 4: AI and Machine Learning (DS 440, DS 540, DS 625 and DS 699)
+
+AI and Machine Learning complements the statistics and causal curriculum with courses on predictive modeling, explanation, anomaly detection, and AI-assisted causal work. The common theme is decision science: models are useful when they support auditable choices, expose uncertainty, and remain connected to operational guardrails.
+
+The module has four courses. The first covers supervised and unsupervised machine learning foundations for operational decision systems. The second develops interpretable ML and XAI as reviewable explanation workflows. The third treats anomaly detection as a triage and monitoring problem. The fourth shows how LLMs, RAG, agents, and structured evaluation can assist causal analysts while preserving identification discipline.
+
+The through-line is practical governance. A useful model can score, cluster, explain, detect, or draft while making uncertainty and failure modes visible enough for responsible use.
+
+::: {.module-course-list}
+::: {.course-preview-row}
+### [**Course 1:** Machine Learning Basics for Decision Science](03-ai-machine-learning/machine-learning-basics-decision-science/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="03-ai-machine-learning/machine-learning-basics-decision-science/">
+<img src="../assets/course-thumbnails/ml-basics.png" alt="ROC and precision-recall curves comparing classification models">
+</a>
+<figcaption>Figure: ROC and precision-recall curves, used to connect model performance to threshold choice and operational cost (adapted from Lecture 09: Classification Metrics, Thresholds, and Confusion Matrices).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+A supervised and unsupervised learning course for decision systems, covering framing, leakage, baselines, regularization, trees, metrics, calibration, clustering, monitoring, and guardrails.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 2:** Interpretable ML and XAI](03-ai-machine-learning/interpretable-ml-and-xai/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="03-ai-machine-learning/interpretable-ml-and-xai/">
+<img src="../assets/course-thumbnails/interpretable-xai.png" alt="SHAP attribution comparison under different baselines">
+</a>
+<figcaption>Figure: SHAP attribution under different baselines, showing how explanation choices affect the story a model appears to tell (adapted from Lecture 08: SHAP Values: Intuition, Computation, and Failure Modes).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+A mathematically grounded interpretability course covering transparent baselines, feature effects, SHAP, LIME, recourse, explanation stability, fairness, governance, and stakeholder communication.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 3:** Anomaly Detection for Decision Systems](03-ai-machine-learning/anomaly-detection-decision-systems/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="03-ai-machine-learning/anomaly-detection-decision-systems/">
+<img src="../assets/course-thumbnails/anomaly-detection.png" alt="Checkout reliability time series with incident and benign event windows">
+</a>
+<figcaption>Figure: Incident windows on checkout reliability metrics, showing why anomaly detection is a monitoring and triage workflow (adapted from Lecture 10: Time-Series Anomaly Detection).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+A decision-focused anomaly detection course covering statistical detectors, distance and density methods, isolation forests, reconstruction, time series, thresholds, triage, root-cause analysis, and governance.
+:::
+:::
+
+::: {.course-preview-row}
+### [**Course 4:** AI for Causal Inference](03-ai-machine-learning/ai-for-causal-inference/)
+
+<figure class="course-preview-figure">
+<a class="course-preview-thumb" href="03-ai-machine-learning/ai-for-causal-inference/">
+<img src="../assets/course-thumbnails/ai-for-causal-inference.png" alt="Rubric heatmap evaluating good and bad AI-generated causal outputs">
+</a>
+<figcaption>Figure: An evaluation rubric heatmap for AI-generated causal outputs, emphasizing auditability over novelty (adapted from Lecture 22: Evaluating AI Outputs in Causal Workflows).</figcaption>
+</figure>
+
+::: {.course-preview-copy}
+A course on using local LLMs, RAG, structured outputs, agents, diagnostics, code generation, sensitivity workflows, and evaluation to support causal analysts while preserving identification judgment.
+:::
+:::
+:::

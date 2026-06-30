@@ -1,0 +1,56 @@
+---
+title: "Observational Adjustment"
+categories: [Observational Studies, Adjustment, Lecture Notes]
+---
+
+This course focuses on observational causal inference when treatment assignment comes from observed behavior and measured covariates may make adjustment credible. The central discipline is to connect the adjustment strategy to the causal story, including confounders, downstream variables, weak overlap, and hidden-bias sensitivity.
+
+The objective is to build applied fluency with the major adjustment workflows. By the end of the course, a reader should be able to fit and diagnose regression, matching, propensity score, inverse probability weighting, doubly robust, and TMLE-style estimators; evaluate balance and overlap; and communicate sensitivity to unobserved confounding.
+
+
+::: {.course-page-figure}
+
+![Figure: Balance diagnostics across raw, weighted, and matched comparisons, showing how adjustment is audited visually (adapted from Lecture 05: Covariate Balance Diagnostics).](../../../assets/course-thumbnails/observational-adjustment.png){fig-alt="Risk-score distributional balance plot comparing raw, weighted, and matched groups"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/01_regression_adjustment.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/01_regression_adjustment.html">01. Regression Adjustment</a></p>
+<p class="notebook-guide-description">This lecture connects Regression Adjustment to confounding, overlap, balance diagnostics, robustness, and sensitivity.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/02_propensity_scores.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/02_propensity_scores.html">02. Propensity Scores</a></p>
+<p class="notebook-guide-description">This lecture develops Propensity Scores with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/03_matching.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/03_matching.html">03. Matching</a></p>
+<p class="notebook-guide-description">This lecture uses Matching to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/04_inverse_probability_weighting.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/04_inverse_probability_weighting.html">04. Inverse Probability Weighting</a></p>
+<p class="notebook-guide-description">This lecture studies inverse probability weighting through propensity models, weight behavior, and overlap diagnostics.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/05_covariate_balance_diagnostics.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/05_covariate_balance_diagnostics.html">05. Covariate Balance Diagnostics</a></p>
+<p class="notebook-guide-description">This lecture frames Covariate Balance Diagnostics as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/06_overlap_and_trimming.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/06_overlap_and_trimming.html">06. Overlap and Trimming</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Overlap and Trimming and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/07_doubly_robust_estimation.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/07_doubly_robust_estimation.html">07. Doubly Robust Estimation</a></p>
+<p class="notebook-guide-description">This lecture applies Doubly Robust Estimation with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/08_targeted_maximum_likelihood.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/08_targeted_maximum_likelihood.html">08. Targeted Maximum Likelihood Estimation</a></p>
+<p class="notebook-guide-description">This lecture develops Targeted Maximum Likelihood Estimation as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/01_core_causal_inference/03_observational_adjustment/09_sensitivity_analysis_for_unobserved_confounding.html" data-site-path="notebooks/lectures/01_core_causal_inference/03_observational_adjustment/09_sensitivity_analysis_for_unobserved_confounding.html">09. Sensitivity Analysis for Unobserved Confounding</a></p>
+<p class="notebook-guide-description">This lecture connects Sensitivity Analysis for Unobserved Confounding to hidden-bias diagnostics and the credibility of the final causal claim.</p>
+</article>
+</div>

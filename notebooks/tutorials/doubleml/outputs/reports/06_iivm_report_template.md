@@ -7,19 +7,19 @@ Estimate the local effect of `feature_exposure` on `weekly_value` for units whos
 The target is LATE, not the full-population ATE. The estimate applies to the instrument-responsive margin under the IV assumptions.
 
 ## Main Estimate
-- Estimated local effect: 1.2060
-- Standard error: 0.0815
-- 95 percent confidence interval: [1.0462, 1.3658]
+- Estimated local effect: 1.1618
+- Standard error: 0.0836
+- 95 percent confidence interval: [0.9979, 1.3257]
 
 ## First Stage
-- Mean estimated first stage: 0.5091
+- Mean estimated first stage: 0.5122
 
 ## Estimator
 The main estimator is `DoubleMLIIVM` with five-fold cross-fitting, histogram gradient-boosted outcome nuisance models, and histogram gradient-boosted classifiers for instrument and treatment take-up nuisance models.
 
 ## Diagnostics Included
 - Direct treatment comparisons, raw Wald, residualized Wald, oracle ratio, manual cross-fitted IIVM, and DoubleML IIVM comparisons.
-- Compliance-type summary for the synthetic teaching data.
+- Compliance-type summary for the synthetic example data.
 - Instrument overlap diagnostics.
 - First-stage distribution diagnostics.
 - Nuisance learner losses and prediction checks.

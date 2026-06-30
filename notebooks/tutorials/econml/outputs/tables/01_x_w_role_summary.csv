@@ -1,4 +1,4 @@
-role,columns in this notebook,why it matters
+role,columns in this lesson,why it matters
 X: effect modifiers,"baseline_need, prior_engagement, friction_score, high_need_segment",CATE is modeled as a function of these features.
 W: controls,"account_tenure, region_risk",Controls help nuisance models adjust for confounding.
 T: treatment,treatment,The intervention whose effect is estimated.

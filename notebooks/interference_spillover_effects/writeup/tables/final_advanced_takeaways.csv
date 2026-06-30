@@ -1,0 +1,5 @@
+area,finding,why_it_matters
+Outcome modeling,XGBoost had the best held-out RMSE at 1.405 clicks per slate.,Flexible models can summarize how slate composition and treatment assignment relate to total outcomes.
+Conditional effects,XGBoost had CATE RMSE 0.161 versus the oracle simulation lift.,"The model can be used to rank slates by predicted net harm or benefit, with simulation validation."
+Model-assisted estimation,"Cross-fitted AIPW estimated -0.304 total clicks per slate, compared with -0.308 from the randomized difference-in-means.",Model-assisted estimates should agree with the randomized baseline before being used for targeting.
+Policy targeting,"The best evaluated policy was 'Promote only predicted-positive slates' with -3.7 oracle lift per 1,000 eligible slates.",Targeting can reduce displacement harm compared with promoting every eligible slate.

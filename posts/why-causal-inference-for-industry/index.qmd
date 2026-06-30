@@ -1,0 +1,14 @@
+---
+title: "Why causal inference matters for industry"
+description: "A starter essay positioning causal inference as a practical decision discipline."
+categories: [Industry, Decision Science, Causal Inference]
+---
+
+Prediction is useful when the question is what is likely to happen. Causal inference is needed when the question is what will happen if we intervene.
+
+That distinction matters in industry because many important decisions are interventions: change a price, launch a feature, send a retention offer, alter a policy, reallocate spend, or target a treatment.
+
+Good causal work does more than produce an estimate. It clarifies the decision, states the assumptions, evaluates competing explanations, and communicates uncertainty in a way that improves action.
+
+Use this post as a starter. Replace it with a sharper essay that reflects your own voice, examples, and professional positioning.
+

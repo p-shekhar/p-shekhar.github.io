@@ -1,0 +1,6 @@
+estimand,symbol,definition,plain_language,answers
+total_effect,TE,"E[Y(1, M(1)) - Y(0, M(0))]",Overall difference in future value between high-discovery and lower-discovery days.,Does high discovery exposure relate to future value at all?
+natural_direct_effect,NDE,"E[Y(1, M(0)) - Y(0, M(0))]",Effect of high discovery exposure while holding the mediator at its lower-discovery counterfactual level.,How much of the effect bypasses satisfaction depth?
+natural_indirect_effect,NIE,"E[Y(1, M(1)) - Y(1, M(0))]",Effect transmitted through the change in satisfaction depth caused by high discovery exposure.,How much of the effect flows through satisfaction?
+controlled_direct_effect_low_mediator,CDE_low,"E[Y(1, m_low) - Y(0, m_low)]",Direct treatment contrast if satisfaction depth were fixed to a low reference value.,What is the direct exposure effect under weak satisfaction?
+controlled_direct_effect_high_mediator,CDE_high,"E[Y(1, m_high) - Y(0, m_high)]",Direct treatment contrast if satisfaction depth were fixed to a high reference value.,What is the direct exposure effect under strong satisfaction?

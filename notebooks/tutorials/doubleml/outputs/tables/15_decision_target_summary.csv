@@ -2,5 +2,5 @@ target,main_output,use_when,main_caution
 Overall ATE,0.347,You need a population-average effect.,Can hide subgroup and distributional variation.
 Weighted ATE,See weighted ATE table,A priority population matters more than the full sample.,Weights define a new estimand and must be justified before analysis.
 Policy tree,Treatment rate 88.86%,You need a simple candidate targeting rule.,"Needs validation, capacity/cost checks, and monitoring before use."
-QTE,See quantile curve,"You care about distributional shifts, not just the mean.","QTE is a difference in potential-outcome quantiles, not a quantile of individual effects."
+QTE,See quantile curve,You care about distributional shifts along with the mean.,"QTE is a difference in potential-outcome quantiles, not a quantile of individual effects."
 CVaR,See lower-tail table,Downside-risk outcomes are especially important.,Tail estimates can be noisier and need careful uncertainty handling.

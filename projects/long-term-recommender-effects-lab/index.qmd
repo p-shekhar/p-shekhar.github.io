@@ -1,0 +1,44 @@
+---
+title: "Long-Term Effects in Recommender Systems"
+description: "An applied causal inference lab on short- and long-term recommender-system effects under time-varying confounding."
+categories: [Causal Inference, Recommender Systems, Project Lab]
+body-classes: project-page project-lab-page
+---
+
+<figure class="project-page-figure">
+<img src="../../notebooks/projects/project_3_long_term_causal_effects/writeup/figures/04_secondary_outcomes.png" alt="Secondary outcome comparison for long-term recommender-system effects">
+<figcaption>Figure 1: Secondary outcome checks showing how recommender interventions can affect engagement beyond the immediate response.</figcaption>
+</figure>
+
+This lab studies the difference between immediate engagement and longer-term user response in recommender systems. A recommendation intervention can change what a user watches now, but it can also change future exposure, future preferences, and later engagement. That makes the causal problem sequential rather than static.
+
+The lab builds a time-indexed workflow with treatment history, outcome windows, time-varying confounders, and policy-relevant estimands. It introduces marginal structural models and g-computation as practical tools for reasoning about sequential effects when earlier exposure changes later context.
+
+## Lab Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_3_long_term_causal_effects/01_kuairec_sequence_eda.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/01_kuairec_sequence_eda.html">01. KuaiRec Sequence EDA</a></p>
+<p class="notebook-guide-description">Builds the sequential user-item setting and introduces the data structure needed to study effects that unfold over time.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_3_long_term_causal_effects/02_long_term_outcome_definition.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/02_long_term_outcome_definition.html">02. Long-Term Outcome Definition</a></p>
+<p class="notebook-guide-description">Defines short- and long-term outcomes, clarifies the timing of treatment and response, and shows why outcome windows are design choices.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_3_long_term_causal_effects/03_time_varying_confounding_and_propensity.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/03_time_varying_confounding_and_propensity.html">03. Time-Varying Confounding and Propensity</a></p>
+<p class="notebook-guide-description">Models treatment assignment across time and shows how prior behavior can affect both future exposure and future outcomes.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_3_long_term_causal_effects/04_marginal_structural_model.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/04_marginal_structural_model.html">04. Marginal Structural Model</a></p>
+<p class="notebook-guide-description">Uses inverse probability weights to estimate sequential effects while accounting for time-varying confounders affected by earlier exposure.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_3_long_term_causal_effects/05_g_computation.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/05_g_computation.html">05. G-Computation</a></p>
+<p class="notebook-guide-description">Builds outcome models for counterfactual trajectories and compares model-based sequential estimates with weighted approaches.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/projects/project_3_long_term_causal_effects/06_doubly_robust_heterogeneous_effects.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/06_doubly_robust_heterogeneous_effects.html">06. Doubly Robust Heterogeneous Effects</a></p>
+<p class="notebook-guide-description">Studies how longer-term effects vary across users and contexts while combining outcome and propensity information for more stable estimation.</p>
+</article>
+</div>

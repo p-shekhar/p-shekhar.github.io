@@ -1,35 +1,33 @@
 ---
-title: "Causal Inference & Experimentation"
-description: "Designing credible evidence for business, product, policy, and operational decisions."
-date: 2026-04-26
-categories: [Causal Inference, Experimentation, Decision Science]
+title: "Causal & Statistical Inference"
+description: "Decision systems for incomplete evidence: off-policy evaluation, experimentation, incrementality, support diagnostics, uncertainty, and launch-readiness."
+categories: [Causal Inference, Experimentation, Off-Policy Evaluation, Decision Science]
 ---
 
 ## Focus
 
-I use causal inference to help answer intervention questions: what will happen if an organization changes a price, launches a feature, sends a retention offer, targets a policy, reallocates spend, or changes an operational process?
+My primary research agenda is causal and statistical inference for decisions that cannot rely on clean, complete evidence. This includes offline policy evaluation, experiment design, incrementality measurement, support diagnostics, uncertainty, and guardrails for deciding what is ready to launch, test online, reject, or leave unresolved.
 
-## Strengths
+## Core Themes
 
-- Counterfactual framing and estimand definition.
-- DAGs, assumptions, and adjustment strategies.
-- A/B testing and experiment readouts.
-- Difference-in-differences, regression discontinuity, instrumental variables, and synthetic control.
-- Matching, weighting, doubly robust estimation, and heterogeneous treatment effects.
-- Sensitivity analysis and decision-focused communication.
+- **Support-aware off-policy evaluation:** replay estimands, propensity support, conservative lower bounds, subgroup non-harm checks, and out-of-time validation.
+- **Experiment design under interference:** choosing robust designs when treatment effects may propagate through shared budgets, producer exposure, graph spillovers, inventory constraints, or temporal carryover.
+- **Privacy-robust incrementality:** stress-testing lift claims under match loss, attribution loss, aggregation thresholds, reporting noise, and segment suppression.
+- **Decision-calibrated uncertainty:** conformal intervals and uncertainty summaries calibrated to downstream operational decisions rather than generic prediction residuals.
+- **Launch-readiness framing:** separating statistical signal from deployable evidence through decision rules, guardrails, diagnostics, and stakeholder-ready narratives.
 
-## Applied Domains
+## Representative Work
 
-- Pricing and promotion incrementality.
-- Customer retention and targeting policy.
-- Product experimentation.
-- Marketing measurement.
-- Health, education, and public policy analytics.
-- Operations and resource allocation.
+- Decision support for marketplace policies under incomplete evidence.
+- Support-aware offline policy selection for advertising marketplaces.
+- Choosing online experiment designs under interference in ads, recommendations, and member-experience systems.
+- Privacy-robust incrementality measurement for advertising systems under signal loss.
+- Decision-calibrated conformal uncertainty for pacing decisions in streaming advertising.
 
 ## Evidence On This Site
 
-- [Causal inference projects](../../projects/index.qmd)
-- [Lecture notes](../../notes/index.qmd)
-- [Python causal package tutorials](../../tutorials/index.qmd)
-
+- [Notebook-driven causal projects](../../projects/index.qmd)
+- [Core causal inference lectures](../../notes/01-core-causal-inference/index.qmd)
+- [Causal machine learning lectures](../../notes/02-causal-machine-learning/index.qmd)
+- [Industry applications lectures](../../notes/03-industry-applications/index.qmd)
+- [DoWhy, EconML, DoubleML, and causal-learn tutorials](../../tutorials/index.qmd)

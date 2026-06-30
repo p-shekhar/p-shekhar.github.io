@@ -1,3 +1,3 @@
 run,allowed_edges,elapsed_seconds,exact_bic_score_lower_is_better,learned_edge_count,n_parent_graphs_entries,while_iter,for_iter,n_closed,max_n_opened,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies
-forward_tier_super_graph,13,0.003487151116132736,-9950.952924436579,6,29,2,6,2,1,6,6,6,6,1.0,1.0,0,0,0,0
-too_strict_super_graph,12,0.002436479087918997,-9276.461582056878,7,25,2,6,2,1,7,7,6,5,0.7142857142857143,0.8333333333333334,0,0,1,2
+forward_tier_super_graph,13,0.004513697000220418,-9950.952924436579,6,29,2,6,2,1,6,6,6,6,1.0,1.0,0,0,0,0
+too_strict_super_graph,12,0.00245596410240978,-9276.461582056878,7,25,2,6,2,1,7,7,6,5,0.7142857142857143,0.8333333333333334,0,0,1,2

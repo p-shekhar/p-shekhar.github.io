@@ -1,5 +1,5 @@
 package,version
-python,3.13.12
+python,3.11.15
 doubleml,0.11.2
 numpy,2.4.4
 pandas,3.0.2

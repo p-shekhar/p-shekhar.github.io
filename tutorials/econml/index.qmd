@@ -1,40 +1,81 @@
 ---
 title: "EconML tutorial series"
 description: "A hands-on tutorial series for heterogeneous treatment effects, orthogonal learners, causal forests, meta-learners, policy learning, and CATE reporting with EconML."
-date: 2026-05-03
 categories: [EconML, Causal ML, Heterogeneous Effects]
 ---
 
 EconML is the tutorial track for CATE estimation and treatment targeting once the causal question and adjustment strategy are clear.
 
-::: {.sequence-note}
-Notebook links open rendered HTML pages generated from the source notebooks under `notebooks/tutorials/`. Rendering is configured not to execute notebooks during site builds, so the pages are safe to publish even when a notebook contains heavier optional cells.
-:::
+<figure class="course-page-figure">
+<img src="../../notebooks/tutorials/econml/outputs/figures/04_cate_recovery_scatter.png" alt="Scatter plot comparing estimated and true heterogeneous treatment effects in an EconML tutorial">
+<figcaption>Figure: CATE recovery diagnostics from the EconML causal forest workflow, showing how heterogeneous-effect estimates are evaluated (adapted from Tutorial 04: CausalForestDML).</figcaption>
+</figure>
 
-## Notebook Sequence
+## Tutorial Sequence
 
-<ol class="notebook-sequence">
-  <li><a href="../../notebooks/tutorials/econml/00_environment_and_econml_tour.html" data-site-path="notebooks/tutorials/econml/00_environment_and_econml_tour.html">EconML Tutorial 00: Environment And Library Tour</a></li>
-  <li><a href="../../notebooks/tutorials/econml/01_cate_foundations_potential_outcomes.html" data-site-path="notebooks/tutorials/econml/01_cate_foundations_potential_outcomes.html">EconML Tutorial 01: CATE Foundations And Potential Outcomes</a></li>
-  <li><a href="../../notebooks/tutorials/econml/02_double_machine_learning_basics.html" data-site-path="notebooks/tutorials/econml/02_double_machine_learning_basics.html">EconML Tutorial 02: Double Machine Learning Basics</a></li>
-  <li><a href="../../notebooks/tutorials/econml/03_lineardml_and_sparselineardml.html" data-site-path="notebooks/tutorials/econml/03_lineardml_and_sparselineardml.html">EconML Tutorial 03: LinearDML And SparseLinearDML</a></li>
-  <li><a href="../../notebooks/tutorials/econml/04_causalforestdml.html" data-site-path="notebooks/tutorials/econml/04_causalforestdml.html">EconML Tutorial 04: CausalForestDML</a></li>
-  <li><a href="../../notebooks/tutorials/econml/05_drlearner_and_doubly_robust_estimation.html" data-site-path="notebooks/tutorials/econml/05_drlearner_and_doubly_robust_estimation.html">EconML Tutorial 05: DRLearner And Doubly Robust Estimation</a></li>
-  <li><a href="../../notebooks/tutorials/econml/06_metalearners_s_t_x_learners.html" data-site-path="notebooks/tutorials/econml/06_metalearners_s_t_x_learners.html">EconML Tutorial 06: Meta-Learners: S, T, And X Learners</a></li>
-  <li><a href="../../notebooks/tutorials/econml/07_policy_learning_and_treatment_targeting.html" data-site-path="notebooks/tutorials/econml/07_policy_learning_and_treatment_targeting.html">EconML Tutorial 07: Policy Learning And Treatment Targeting</a></li>
-  <li><a href="../../notebooks/tutorials/econml/08_interpretability_shap_and_segments.html" data-site-path="notebooks/tutorials/econml/08_interpretability_shap_and_segments.html">EconML Tutorial 08: Interpretability, SHAP, And Segments</a></li>
-  <li><a href="../../notebooks/tutorials/econml/09_inference_intervals_and_uncertainty.html" data-site-path="notebooks/tutorials/econml/09_inference_intervals_and_uncertainty.html">EconML Tutorial 09: Inference, Intervals, And Uncertainty</a></li>
-  <li><a href="../../notebooks/tutorials/econml/10_multiple_treatments_and_continuous_treatments.html" data-site-path="notebooks/tutorials/econml/10_multiple_treatments_and_continuous_treatments.html">EconML Tutorial 10: Multiple Treatments And Continuous Treatments</a></li>
-  <li><a href="../../notebooks/tutorials/econml/11_iv_estimators_deepiv_and_dmliv.html" data-site-path="notebooks/tutorials/econml/11_iv_estimators_deepiv_and_dmliv.html">EconML Tutorial 11: Instrumental Variables With DMLIV, OrthoIV, And DeepIV Concepts</a></li>
-  <li><a href="../../notebooks/tutorials/econml/12_panel_or_longitudinal_extensions.html" data-site-path="notebooks/tutorials/econml/12_panel_or_longitudinal_extensions.html">EconML Tutorial 12: Panel And Longitudinal Extensions</a></li>
-  <li><a href="../../notebooks/tutorials/econml/13_estimator_comparison_benchmark.html" data-site-path="notebooks/tutorials/econml/13_estimator_comparison_benchmark.html">EconML Tutorial 13: Estimator Comparison Benchmark</a></li>
-  <li><a href="../../notebooks/tutorials/econml/14_end_to_end_case_study.html" data-site-path="notebooks/tutorials/econml/14_end_to_end_case_study.html">EconML Tutorial 14: End-To-End Case Study</a></li>
-  <li><a href="../../notebooks/tutorials/econml/15_common_pitfalls_debugging_reporting.html" data-site-path="notebooks/tutorials/econml/15_common_pitfalls_debugging_reporting.html">EconML Tutorial 15: Common Pitfalls, Debugging, And Reporting</a></li>
-</ol>
-
-## How To Use This Tutorial Series
-
-- Start with the environment and library-tour notebook.
-- Continue in order if you want a coherent package course.
-- Jump to individual notebooks when you need a specific estimator, diagnostic, or reporting pattern.
-- Keep the causal design separate from the package API: the library helps implement the workflow, but the assumptions still need to be stated and defended.
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/00_environment_and_econml_tour.html" data-site-path="notebooks/tutorials/econml/00_environment_and_econml_tour.html">00: Environment And Library Tour</a></p>
+<p class="notebook-guide-description">Introduces the EconML ecosystem, the CATE-focused workflow, and the core objects used to connect causal estimands with machine-learning estimators.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/01_cate_foundations_potential_outcomes.html" data-site-path="notebooks/tutorials/econml/01_cate_foundations_potential_outcomes.html">01: CATE Foundations And Potential Outcomes</a></p>
+<p class="notebook-guide-description">Builds the potential-outcomes foundation for heterogeneous treatment effects, showing why CATE estimation is a causal problem before it is a modeling problem.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/02_double_machine_learning_basics.html" data-site-path="notebooks/tutorials/econml/02_double_machine_learning_basics.html">02: Double Machine Learning Basics</a></p>
+<p class="notebook-guide-description">Explains residualization, nuisance models, cross-fitting, and orthogonalization as the statistical machinery behind many EconML estimators.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/03_lineardml_and_sparselineardml.html" data-site-path="notebooks/tutorials/econml/03_lineardml_and_sparselineardml.html">03: LinearDML And SparseLinearDML</a></p>
+<p class="notebook-guide-description">Uses linear and sparse DML estimators to recover interpretable treatment-effect structure while keeping nuisance modeling flexible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/04_causalforestdml.html" data-site-path="notebooks/tutorials/econml/04_causalforestdml.html">04: CausalForestDML</a></p>
+<p class="notebook-guide-description">Develops causal forests as a nonparametric CATE tool, emphasizing effect recovery, segment diagnostics, overlap, and uncertainty in heterogeneous treatment targeting.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/05_drlearner_and_doubly_robust_estimation.html" data-site-path="notebooks/tutorials/econml/05_drlearner_and_doubly_robust_estimation.html">05: DRLearner And Doubly Robust Estimation</a></p>
+<p class="notebook-guide-description">Shows how DRLearner combines outcome and propensity models so effect estimation can remain stable when one nuisance component is imperfect.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/06_metalearners_s_t_x_learners.html" data-site-path="notebooks/tutorials/econml/06_metalearners_s_t_x_learners.html">06: Meta-Learners: S, T, And X Learners</a></p>
+<p class="notebook-guide-description">Compares S-, T-, and X-learners to show how different modeling decompositions handle treatment imbalance, heterogeneity, and targeting quality.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/07_policy_learning_and_treatment_targeting.html" data-site-path="notebooks/tutorials/econml/07_policy_learning_and_treatment_targeting.html">07: Policy Learning And Treatment Targeting</a></p>
+<p class="notebook-guide-description">Turns CATE estimates into treatment rules, budget curves, policy trees, and decision comparisons that can be audited before deployment.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/08_interpretability_shap_and_segments.html" data-site-path="notebooks/tutorials/econml/08_interpretability_shap_and_segments.html">08: Interpretability, SHAP, And Segments</a></p>
+<p class="notebook-guide-description">Explains heterogeneous-effect models with feature importance, SHAP-style summaries, local examples, and segment-level diagnostics.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/09_inference_intervals_and_uncertainty.html" data-site-path="notebooks/tutorials/econml/09_inference_intervals_and_uncertainty.html">09: Inference, Intervals, And Uncertainty</a></p>
+<p class="notebook-guide-description">Adds uncertainty quantification to CATE workflows, including interval width, policy confidence, bootstrap thinking, and support-aware interpretation.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/10_multiple_treatments_and_continuous_treatments.html" data-site-path="notebooks/tutorials/econml/10_multiple_treatments_and_continuous_treatments.html">10: Multiple Treatments And Continuous Treatments</a></p>
+<p class="notebook-guide-description">Extends the workflow beyond binary treatments by covering multi-arm treatment comparisons, continuous doses, marginal effects, and policy tradeoffs.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/11_iv_estimators_deepiv_and_dmliv.html" data-site-path="notebooks/tutorials/econml/11_iv_estimators_deepiv_and_dmliv.html">11: Instrumental Variables With DMLIV, OrthoIV, And DeepIV Concepts</a></p>
+<p class="notebook-guide-description">Introduces IV-style causal ML, first-stage strength, exclusion concerns, and heterogeneous-effect recovery when treatment assignment is endogenous.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/12_panel_or_longitudinal_extensions.html" data-site-path="notebooks/tutorials/econml/12_panel_or_longitudinal_extensions.html">12: Panel And Longitudinal Extensions</a></p>
+<p class="notebook-guide-description">Frames panel and longitudinal settings as dynamic effect problems, with period-specific treatments, cumulative effects, and policy ranking over time.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/13_estimator_comparison_benchmark.html" data-site-path="notebooks/tutorials/econml/13_estimator_comparison_benchmark.html">13: Estimator Comparison Benchmark</a></p>
+<p class="notebook-guide-description">Benchmarks estimators on accuracy, calibration, runtime, segment bias, and targeting performance so method choice becomes empirical rather than cosmetic.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/14_end_to_end_case_study.html" data-site-path="notebooks/tutorials/econml/14_end_to_end_case_study.html">14: End-To-End Case Study</a></p>
+<p class="notebook-guide-description">Assembles an applied CATE project from design setup through modeling, validation, targeting, and a decision-ready report.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../notebooks/tutorials/econml/15_common_pitfalls_debugging_reporting.html" data-site-path="notebooks/tutorials/econml/15_common_pitfalls_debugging_reporting.html">15: Common Pitfalls, Debugging, And Reporting</a></p>
+<p class="notebook-guide-description">Reviews leakage, post-treatment controls, poor nuisance models, weak overlap, unstable targeting, and reporting checks that protect CATE work from overclaiming.</p>
+</article>
+</div>

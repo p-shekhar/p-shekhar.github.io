@@ -8,18 +8,18 @@ Estimate the post-period effect for units in the treated group using DID designs
 
 The preferred panel estimate is the observational `DoubleMLDID` model with gradient boosting nuisance learners.
 
-- Estimate: 1.1713
-- Standard error: 0.0186
-- 95 percent CI: [1.1349, 1.2077]
+- Estimate: 1.1703
+- Standard error: 0.0184
+- 95 percent CI: [1.1343, 1.2064]
 - Synthetic true ATT: 1.1606
 
 ## Repeated Cross-Section DID Result
 
 The preferred repeated cross-section estimate is the observational `DoubleMLDIDCS` model with gradient boosting nuisance learners.
 
-- Estimate: 1.0958
-- Standard error: 0.0415
-- 95 percent CI: [1.0143, 1.1772]
+- Estimate: 1.1387
+- Standard error: 0.0366
+- 95 percent CI: [1.0670, 1.2104]
 - Synthetic true ATT: 1.1592
 
 ## Identification Assumptions

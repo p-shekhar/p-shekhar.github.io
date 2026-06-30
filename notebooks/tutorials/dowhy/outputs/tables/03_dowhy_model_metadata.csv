@@ -1,4 +1,4 @@
 component,value
-common_causes_reported_by_DoWhy,"baseline_value, prior_sessions, user_engagement, account_age_weeks"
+common_causes_reported_by_DoWhy,"user_engagement, prior_sessions, account_age_weeks, baseline_value"
 instruments_reported_by_DoWhy,none detected
 effect_modifiers_reported_by_DoWhy,none detected

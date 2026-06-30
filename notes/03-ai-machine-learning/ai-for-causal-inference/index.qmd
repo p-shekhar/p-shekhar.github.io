@@ -1,0 +1,122 @@
+---
+title: "AI for Causal Inference"
+categories: [AI, LLMs, Causal Inference, Lecture Notes]
+---
+
+This course treats AI as an assistant to the causal analyst. LLMs, RAG systems, agents, and automation can help with ideation, documentation, critique, code scaffolding, literature synthesis, diagnostics, and reporting. Identification judgment remains the analyst's responsibility.
+
+By the end, a reader should be able to run and compare local models, use structured outputs, build RAG support for assumptions, automate diagnostic work, design causal-analysis agents, and evaluate where AI outputs are brittle, incomplete, or misleading.
+
+The live parts of the course are designed for a local GPU workstation rather than a hosted API. The notebooks use Hugging Face Transformers for direct model loading, with `Qwen/Qwen2.5-0.5B-Instruct` as a smoke test, `Qwen/Qwen2.5-7B-Instruct` as the working default, `Qwen/Qwen2.5-14B-Instruct` and `Qwen/Qwen2.5-32B-Instruct` for scale comparisons, and Phi, Mistral, Gemma, and Llama models as family comparisons. A high-memory GPU, roughly 48 GB to 96 GB of VRAM, makes the larger comparisons practical. Smaller machines can still run the smoke-test and 7B workflows, or use quantized models. The technical design separates causal prompts, structured-output parsing, retrieval indices, evaluation rubrics, and model execution, so the same exercises can run through direct Transformers loading or through a local serving layer such as Ollama, llama.cpp, or vLLM when a persistent model server is preferred.
+
+
+::: {.course-page-figure}
+
+![Figure: An evaluation rubric heatmap for AI-generated causal outputs, emphasizing auditability over novelty (adapted from Lecture 22: Evaluating AI Outputs in Causal Workflows).](../../../assets/course-thumbnails/ai-for-causal-inference.png){fig-alt="Rubric heatmap evaluating good and bad AI-generated causal outputs"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/00_getting_a_local_llm_running.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/00_getting_a_local_llm_running.html">00. Getting a Local LLM Running</a></p>
+<p class="notebook-guide-description">Sets up local model execution so later AI-assisted lectures can compare model behavior without depending on remote APIs.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/01_ai_assisted_causal_workflow.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/01_ai_assisted_causal_workflow.html">01. AI-Assisted Causal Workflow</a></p>
+<p class="notebook-guide-description">This lecture develops AI-Assisted Causal Workflow with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/02_llm_basics_for_causal_analysts.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/02_llm_basics_for_causal_analysts.html">02. LLM Basics for Causal Analysts</a></p>
+<p class="notebook-guide-description">This lecture uses LLM Basics for Causal Analysts to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/03_turning_business_questions_into_causal_questions.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/03_turning_business_questions_into_causal_questions.html">03. Turning Business Questions into Causal Questions</a></p>
+<p class="notebook-guide-description">This lecture turns business questions into causal questions by clarifying actions, outcomes, populations, and estimands.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/04_estimand_cards_and_causal_design_documents.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/04_estimand_cards_and_causal_design_documents.html">04. Estimand Cards and Causal Design Documents</a></p>
+<p class="notebook-guide-description">This lecture frames Estimand Cards and Causal Design Documents as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/05_ai_assisted_dag_brainstorming.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/05_ai_assisted_dag_brainstorming.html">05. AI-Assisted DAG Brainstorming</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for AI-Assisted DAG Brainstorming and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/06_dag_critique_variable_roles_and_backdoor_paths.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/06_dag_critique_variable_roles_and_backdoor_paths.html">06. DAG Critique, Variable Roles, and Backdoor Paths</a></p>
+<p class="notebook-guide-description">This lecture applies DAG Critique, Variable Roles, and Backdoor Paths with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/07_rag_for_causal_domain_knowledge.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/07_rag_for_causal_domain_knowledge.html">07. RAG for Causal Domain Knowledge</a></p>
+<p class="notebook-guide-description">This lecture develops RAG for Causal Domain Knowledge as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/08_literature_synthesis_for_causal_assumptions.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/08_literature_synthesis_for_causal_assumptions.html">08. Literature Synthesis for Causal Assumptions</a></p>
+<p class="notebook-guide-description">This lecture connects Literature Synthesis for Causal Assumptions to retrieval, structured outputs, evaluation, and AI brittleness.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/09_dataset_profiling_with_ai.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/09_dataset_profiling_with_ai.html">09. Dataset Profiling with AI</a></p>
+<p class="notebook-guide-description">This lecture develops Dataset Profiling with AI with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/10_detecting_bad_controls_post_treatment_variables_and_leakage.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/10_detecting_bad_controls_post_treatment_variables_and_leakage.html">10. Detecting Bad Controls, Post-Treatment Variables, and Leakage</a></p>
+<p class="notebook-guide-description">This lecture uses Detecting Bad Controls, Post-Treatment Variables, and Leakage to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/11_synthetic_data_generation_for_causal_teaching.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/11_synthetic_data_generation_for_causal_teaching.html">11. Synthetic Data Generation for Causal Teaching</a></p>
+<p class="notebook-guide-description">This lecture uses synthetic data generation to make causal assumptions, failure modes, and teaching examples explicit.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/12_simulation_labs_for_assumption_stress_testing.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/12_simulation_labs_for_assumption_stress_testing.html">12. Simulation Labs for Assumption Stress Testing</a></p>
+<p class="notebook-guide-description">This lecture frames Simulation Labs for Assumption Stress Testing as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/13_ai_assisted_method_selection.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/13_ai_assisted_method_selection.html">13. AI-Assisted Method Selection</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for AI-Assisted Method Selection and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/14_ai_assisted_causal_code_generation.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/14_ai_assisted_causal_code_generation.html">14. AI-Assisted Causal Code Generation</a></p>
+<p class="notebook-guide-description">This lecture applies AI-Assisted Causal Code Generation with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/15_automating_balance_overlap_and_diagnostic_reports.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/15_automating_balance_overlap_and_diagnostic_reports.html">15. Automating Balance, Overlap, and Diagnostic Reports</a></p>
+<p class="notebook-guide-description">This lecture develops Automating Balance, Overlap, and Diagnostic Reports as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/16_ai_for_sensitivity_analysis.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/16_ai_for_sensitivity_analysis.html">16. AI for Sensitivity Analysis</a></p>
+<p class="notebook-guide-description">This lecture connects AI for Sensitivity Analysis to structured prompting, evaluation, and clearer causal judgment under uncertainty.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/17_ai_for_experiment_design_and_power_planning.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/17_ai_for_experiment_design_and_power_planning.html">17. AI for Experiment Design and Power Planning</a></p>
+<p class="notebook-guide-description">This lecture develops AI for Experiment Design and Power Planning with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/18_ai_for_quasi_experiment_design.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/18_ai_for_quasi_experiment_design.html">18. AI for Quasi-Experiment Design</a></p>
+<p class="notebook-guide-description">This lecture uses AI for Quasi-Experiment Design to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/19_causal_report_generation_with_llms.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/19_causal_report_generation_with_llms.html">19. Causal Report Generation with LLMs</a></p>
+<p class="notebook-guide-description">This lecture studies causal report generation with LLMs through structure, evidence traceability, and review quality.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/20_causal_analysis_agent.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/20_causal_analysis_agent.html">20. Causal Analysis Agent</a></p>
+<p class="notebook-guide-description">This lecture frames Causal Analysis Agent as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/21_multi_agent_causal_review_workflow.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/21_multi_agent_causal_review_workflow.html">21. Multi-Agent Causal Review Workflow</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Multi-Agent Causal Review Workflow and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/22_evaluating_ai_outputs_in_causal_workflows.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/22_evaluating_ai_outputs_in_causal_workflows.html">22. Evaluating AI Outputs in Causal Workflows</a></p>
+<p class="notebook-guide-description">This lecture applies Evaluating AI Outputs in Causal Workflows with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/23_hallucination_and_failure_modes_in_ai_causal_analysis.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/23_hallucination_and_failure_modes_in_ai_causal_analysis.html">23. Hallucination and Failure Modes in AI Causal Analysis</a></p>
+<p class="notebook-guide-description">This lecture develops Hallucination and Failure Modes in AI Causal Analysis as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/24_capstone_ai_assisted_causal_project.html" data-site-path="notebooks/lectures/03_ai_machine_learning/04_ai_for_causal_inference/24_capstone_ai_assisted_causal_project.html">24. Capstone AI-Assisted Causal Project</a></p>
+<p class="notebook-guide-description">Brings the AI-assisted causal workflow together in an end-to-end project, from question framing to evaluated causal output.</p>
+</article>
+</div>

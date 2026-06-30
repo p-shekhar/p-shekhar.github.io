@@ -1,5 +1,5 @@
 capability,available,why_it_matters
 Graphviz dot executable,True,Helpful for rendering causal graphs from DOT strings.
 pydot Python module,True,Often used to parse or write DOT graph files.
-pygraphviz Python module,False,Optional graph rendering integration; not required for this notebook.
+pygraphviz Python module,False,Optional graph rendering integration; not required for this lesson.
 DoWhy GCM namespace,True,"Needed for structural causal models, interventions, counterfactuals, and attribution tasks."

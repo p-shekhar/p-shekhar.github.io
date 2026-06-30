@@ -1,0 +1,88 @@
+---
+title: "Anomaly Detection for Decision Systems"
+categories: [Anomaly Detection, Monitoring, Lecture Notes, Decision Science]
+---
+
+This course frames anomaly detection as a decision workflow for triage, monitoring, root-cause review, and human oversight. The goal is to design detectors whose scores lead to useful investigations and governed actions.
+
+By the end, a reader should be able to compare statistical, distance-based, density-based, tree-based, reconstruction, and time-series detectors; set thresholds under capacity and error costs; evaluate alerts when labels are scarce; and connect anomaly scores to governed investigations.
+
+
+::: {.course-page-figure}
+
+![Figure: Incident windows on checkout reliability metrics, showing why anomaly detection is a monitoring and triage workflow (adapted from Lecture 10: Time-Series Anomaly Detection).](../../../assets/course-thumbnails/anomaly-detection.png){fig-alt="Checkout reliability time series with incident and benign event windows"}
+
+:::
+
+## Lecture Sequence
+
+<div class="notebook-guide">
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/01_anomaly_detection_for_decision_science.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/01_anomaly_detection_for_decision_science.html">01. Anomaly Detection for Decision Science</a></p>
+<p class="notebook-guide-description">This lecture connects Anomaly Detection for Decision Science to thresholds, labels, explanations, alert quality, and human review.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/02_statistical_foundations_of_anomaly_detection.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/02_statistical_foundations_of_anomaly_detection.html">02. Statistical Foundations of Anomaly Detection</a></p>
+<p class="notebook-guide-description">This lecture develops Statistical Foundations of Anomaly Detection with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/03_thresholds_alerts_and_decision_costs.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/03_thresholds_alerts_and_decision_costs.html">03. Thresholds, Alerts, and Decision Costs</a></p>
+<p class="notebook-guide-description">This lecture uses Thresholds, Alerts, and Decision Costs to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/04_univariate_and_multivariate_statistical_detectors.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/04_univariate_and_multivariate_statistical_detectors.html">04. Univariate and Multivariate Statistical Detectors</a></p>
+<p class="notebook-guide-description">This lecture compares univariate and multivariate detectors through thresholds, false alarms, and operating context.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/05_distance_based_methods_knn_and_local_outlier_factor.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/05_distance_based_methods_knn_and_local_outlier_factor.html">05. Distance-Based Methods: kNN and Local Outlier Factor</a></p>
+<p class="notebook-guide-description">This lecture frames Distance-Based Methods: kNN and Local Outlier Factor as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/06_density_based_anomaly_detection.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/06_density_based_anomaly_detection.html">06. Density-Based Anomaly Detection</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Density-Based Anomaly Detection and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/07_tree_based_anomaly_detection_isolation_forest.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/07_tree_based_anomaly_detection_isolation_forest.html">07. Tree-Based Anomaly Detection: Isolation Forest</a></p>
+<p class="notebook-guide-description">This lecture applies Tree-Based Anomaly Detection: Isolation Forest with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/08_one_class_classification_and_support_vector_methods.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/08_one_class_classification_and_support_vector_methods.html">08. One-Class Classification and Support Vector Methods</a></p>
+<p class="notebook-guide-description">This lecture develops One-Class Classification and Support Vector Methods as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/09_reconstruction_based_detection_pca_autoencoders.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/09_reconstruction_based_detection_pca_autoencoders.html">09. Reconstruction-Based Detection: PCA and Autoencoders</a></p>
+<p class="notebook-guide-description">This lecture connects Reconstruction-Based Detection: PCA and Autoencoders to alert quality, reconstruction error, and human review.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/10_time_series_anomaly_detection.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/10_time_series_anomaly_detection.html">10. Time-Series Anomaly Detection</a></p>
+<p class="notebook-guide-description">This lecture develops Time-Series Anomaly Detection with examples that make assumptions, diagnostics, and interpretation visible.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/11_change_point_detection_and_distribution_shift.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/11_change_point_detection_and_distribution_shift.html">11. Change-Point Detection and Distribution Shift</a></p>
+<p class="notebook-guide-description">This lecture uses Change-Point Detection and Distribution Shift to clarify the analyst's question, evidence, assumptions, and decision implications.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/12_anomaly_detection_for_logs_events_and_sequences.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/12_anomaly_detection_for_logs_events_and_sequences.html">12. Anomaly Detection for Logs, Events, and Sequences</a></p>
+<p class="notebook-guide-description">This lecture studies logs, events, and sequences as monitoring data with structure, noise, and escalation costs.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/13_evaluating_anomaly_detection_without_clean_labels.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/13_evaluating_anomaly_detection_without_clean_labels.html">13. Evaluating Anomaly Detection Without Clean Labels</a></p>
+<p class="notebook-guide-description">This lecture frames Evaluating Anomaly Detection Without Clean Labels as a decision problem and asks what evidence can be trusted, challenged, and communicated.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/14_explaining_anomaly_scores.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/14_explaining_anomaly_scores.html">14. Explaining Anomaly Scores</a></p>
+<p class="notebook-guide-description">This lecture builds intuition for Explaining Anomaly Scores and ties the result to model choice, uncertainty, and action.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/15_from_alerts_to_root_cause_analysis.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/15_from_alerts_to_root_cause_analysis.html">15. From Alerts to Root Cause Analysis</a></p>
+<p class="notebook-guide-description">This lecture applies From Alerts to Root Cause Analysis with emphasis on diagnostics, tradeoffs, and evidence limits.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/16_governance_fairness_privacy_and_human_review.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/16_governance_fairness_privacy_and_human_review.html">16. Governance, Fairness, Privacy, and Human Review</a></p>
+<p class="notebook-guide-description">This lecture develops Governance, Fairness, Privacy, and Human Review as a practical pattern for analysis, diagnostics, and decision support.</p>
+</article>
+<article class="notebook-guide-item">
+<p class="notebook-guide-title"><a href="../../../notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/17_capstone_anomaly_detection_decision_pipeline.html" data-site-path="notebooks/lectures/03_ai_machine_learning/03_anomaly_detection_for_decision_systems/17_capstone_anomaly_detection_decision_pipeline.html">17. Capstone: Anomaly Detection Decision Pipeline</a></p>
+<p class="notebook-guide-description">Brings the anomaly detection course together through alerting, explanation, triage, and operational review.</p>
+</article>
+</div>

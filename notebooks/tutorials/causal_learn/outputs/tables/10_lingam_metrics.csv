@@ -1,3 +1,3 @@
 run,learned_edges_total,definite_directed_edges,true_edges,correct_directed_edges,directed_precision,directed_recall,reversed_true_edges,unresolved_true_adjacencies,missing_true_adjacencies,extra_adjacencies,elapsed_seconds
-DirectLiNGAM,6,6,6,6,1.0,1.0,0,0,0,0,0.024101541843265295
-ICALiNGAM,6,6,6,6,1.0,1.0,0,0,0,0,0.009218685794621706
+DirectLiNGAM,6,6,6,6,1.0,1.0,0,0,0,0,0.026601532008498907
+ICALiNGAM,6,6,6,6,1.0,1.0,0,0,0,0,0.010151225957088172

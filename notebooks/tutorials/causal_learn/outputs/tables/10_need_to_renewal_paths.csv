@@ -1,5 +1,4 @@
 path,effect,probability,path_labels
-"[0, 2, 3, 4]",0.4122778749984728,1.0,need -> match -> engagement -> renewal
-"[0, 2, 3, 5, 4]",0.02788996598798952,0.2,need -> match -> engagement -> support -> renewal
-"[0, 2, 4]",0.05706352599223293,0.04,need -> match -> renewal
-"[0, 5, 4]",-0.004927936774058776,0.04,need -> support -> renewal
+"[0, 2, 3, 4]",0.4115421014413479,1.0,need -> match -> engagement -> renewal
+"[0, 2, 3, 5, 4]",0.031182268039758824,0.16,need -> match -> engagement -> support -> renewal
+"[0, 2, 5, 4]",0.00466622472002979,0.04,need -> match -> support -> renewal

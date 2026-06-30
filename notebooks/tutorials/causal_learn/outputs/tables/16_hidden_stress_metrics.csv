@@ -1,4 +1,4 @@
 scenario,method,reported_edges,skeleton_precision,skeleton_recall,skeleton_f1,directed_precision,directed_recall,directed_f1,extra_adjacencies,missed_adjacencies,reversed_true_edges,missed_adjacency_list,extra_adjacency_list,elapsed_seconds
-hidden_context_stress,PC_tier_constrained,8,0.875,0.875,0.875,0.875,0.875,0.875,1,1,0,discovery_quality--retention_value,baseline_need--retention_value,0.009973214939236641
-hidden_context_stress,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,0.875,0.875,0.875,1,0,0,,baseline_need--retention_value,0.017600297927856445
-hidden_context_stress,DirectLiNGAM,9,0.8888888888888888,1.0,0.9411764705882353,0.8888888888888888,1.0,0.9411764705882353,1,0,0,,baseline_need--retention_value,0.028606398031115532
+hidden_context_stress,PC_tier_constrained,8,0.875,0.875,0.875,0.875,0.875,0.875,1,1,0,discovery_quality--retention_value,baseline_need--retention_value,0.012540288036689162
+hidden_context_stress,GES_BIC,9,0.8888888888888888,1.0,0.9411764705882353,0.875,0.875,0.875,1,0,0,,baseline_need--retention_value,0.0231085050618276
+hidden_context_stress,DirectLiNGAM,9,0.8888888888888888,1.0,0.9411764705882353,0.8888888888888888,1.0,0.9411764705882353,1,0,0,,baseline_need--retention_value,0.036652561044320464
