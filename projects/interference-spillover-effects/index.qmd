@@ -20,7 +20,7 @@ How does promoting one item affect both that item and nearby competing items in 
 - Cluster-randomized estimators
 - Direct, indirect, and total effects
 - Advanced spillover models
-- Sensitivity and final reporting
+- Sensitivity checks and decision-oriented interpretation
 
 ## Decision Takeaway
 
@@ -43,7 +43,6 @@ The project shows that causal claims in ranking and marketplace surfaces must ac
   <li><a href="../../notebooks/projects/project_4_interference_spillover_effects/03_cluster_randomized_estimators.html" data-site-path="notebooks/projects/project_4_interference_spillover_effects/03_cluster_randomized_estimators.html">Cluster-Randomized Estimators for Direct and Spillover Effects</a></li>
   <li><a href="../../notebooks/projects/project_4_interference_spillover_effects/04_direct_indirect_total_effects.html" data-site-path="notebooks/projects/project_4_interference_spillover_effects/04_direct_indirect_total_effects.html">Direct, Indirect, and Total Effects</a></li>
   <li><a href="../../notebooks/projects/project_4_interference_spillover_effects/05_advanced_spillover_models.html" data-site-path="notebooks/projects/project_4_interference_spillover_effects/05_advanced_spillover_models.html">Advanced Spillover Models</a></li>
-  <li><a href="../../notebooks/projects/project_4_interference_spillover_effects/06_sensitivity_and_final_report.html" data-site-path="notebooks/projects/project_4_interference_spillover_effects/06_sensitivity_and_final_report.html">Sensitivity and Final Report</a></li>
 </ol>
 
 ## Generated Artifacts

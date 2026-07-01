@@ -23,7 +23,7 @@ The sequence is built around the practical challenge of turning behavioral logs 
 </article>
 <article class="notebook-guide-item">
 <p class="notebook-guide-title"><a href="../../notebooks/projects/project_5_discovery_quality_mediation/02_metric_construction_and_validation.html" data-site-path="notebooks/projects/project_5_discovery_quality_mediation/02_metric_construction_and_validation.html">02. Metric Construction and Validation</a></p>
-<p class="notebook-guide-description">Builds the quality metric used as a mediator and validates whether it behaves like a meaningful intermediate signal rather than a convenient proxy.</p>
+<p class="notebook-guide-description">Builds the quality metric used as a mediator and validates whether it behaves like a meaningful intermediate signal with future-value relevance.</p>
 </article>
 <article class="notebook-guide-item">
 <p class="notebook-guide-title"><a href="../../notebooks/projects/project_5_discovery_quality_mediation/03_mediation_estimands_and_assumptions.html" data-site-path="notebooks/projects/project_5_discovery_quality_mediation/03_mediation_estimands_and_assumptions.html">03. Mediation Estimands and Assumptions</a></p>

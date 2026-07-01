@@ -45,7 +45,6 @@ The project shows how to separate high point estimates from credible offline pol
   <li><a href="../../notebooks/projects/project_2_off_policy_evaluation/04_doubly_robust_ope.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/04_doubly_robust_ope.html">04 Doubly Robust Off-Policy Evaluation</a></li>
   <li><a href="../../notebooks/projects/project_2_off_policy_evaluation/05_policy_comparison_and_sensitivity.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/05_policy_comparison_and_sensitivity.html">05 Policy Comparison And Sensitivity</a></li>
   <li><a href="../../notebooks/projects/project_2_off_policy_evaluation/06_contextual_policy_learning.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/06_contextual_policy_learning.html">06 Contextual Policy Learning</a></li>
-  <li><a href="../../notebooks/projects/project_2_off_policy_evaluation/07_final_report_and_artifacts.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/07_final_report_and_artifacts.html">07 Final Report And Artifacts</a></li>
 </ol>
 
 ## Generated Artifacts

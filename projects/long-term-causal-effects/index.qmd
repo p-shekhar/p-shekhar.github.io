@@ -44,7 +44,6 @@ The project shows that durable value often requires sequential estimands, time-v
   <li><a href="../../notebooks/projects/project_3_long_term_causal_effects/04_marginal_structural_model.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/04_marginal_structural_model.html">Notebook 04: Marginal Structural Model for Long-Term Effects</a></li>
   <li><a href="../../notebooks/projects/project_3_long_term_causal_effects/05_g_computation.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/05_g_computation.html">Notebook 05: G-Computation for Long-Term Effects</a></li>
   <li><a href="../../notebooks/projects/project_3_long_term_causal_effects/06_doubly_robust_heterogeneous_effects.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/06_doubly_robust_heterogeneous_effects.html">Notebook 06: Doubly Robust Heterogeneous Effects</a></li>
-  <li><a href="../../notebooks/projects/project_3_long_term_causal_effects/07_sensitivity_and_final_report.html" data-site-path="notebooks/projects/project_3_long_term_causal_effects/07_sensitivity_and_final_report.html">Notebook 07: Sensitivity, Final Report, and Supporting Artifacts</a></li>
 </ol>
 
 ## Generated Artifacts

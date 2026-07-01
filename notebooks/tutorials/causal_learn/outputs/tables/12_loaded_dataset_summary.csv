@@ -1,3 +1,3 @@
-artifact,path,rows,columns
+output,path,rows,columns
 linear Gaussian data,outputs/datasets/02_linear_gaussian.csv,2500,6
 true edge table,outputs/tables/02_base_true_dag_edges.csv,6,4

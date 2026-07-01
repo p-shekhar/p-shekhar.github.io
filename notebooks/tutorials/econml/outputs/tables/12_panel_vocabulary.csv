@@ -1,4 +1,4 @@
-term,meaning,notebook_example
+term,meaning,lesson_example
 Unit,The entity observed repeatedly over time.,A synthetic account observed for four periods.
 Period,A time step within a unit's history.,"Periods 0, 1, 2, and 3."
 Treatment history,The sequence of treatment intensities assigned over time.,Four treatment intensity values per unit.

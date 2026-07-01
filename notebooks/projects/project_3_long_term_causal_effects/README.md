@@ -10,7 +10,7 @@ You will build a sequential causal workflow for recommendation exposure. The pro
 
 Read notebook `01` for the KuaiRec sequence structure and panel construction. Notebook `02` defines the long-term estimand. The middle notebooks cover time-varying confounding, stabilized weights, marginal structural models, and g-computation. Notebook `06` adds doubly robust and heterogeneous-effect analysis.
 
-The final notebook combines sensitivity analysis with report assembly. It is useful as an artifact source, while notebooks `01` through `06` give the cleaner analytic sequence.
+Use notebooks `01` through `06` as the public analytic sequence, ending with doubly robust estimation and heterogeneity analysis.
 
 ## Data Source And Scope
 
@@ -25,11 +25,6 @@ The project uses KuaiRec interaction logs. KuaiRec is valuable for recommendatio
 - [05 G-computation](05_g_computation.ipynb)
 - [06 Doubly robust heterogeneous effects](06_doubly_robust_heterogeneous_effects.ipynb)
 
-## Artifact Notebook
-
-- [07 Sensitivity and final report](07_sensitivity_and_final_report.ipynb)
-
-This notebook contains useful sensitivity material and final-report artifacts. The website should present the main project through notebooks `01` through `06`, then use selected outputs from notebook `07` where helpful.
 
 ## Key Interpretation
 

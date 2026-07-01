@@ -845,6 +845,10 @@ body.about-page main.content section.level3 > h3.anchored {
   text-align: right;
 }
 
+.lecture-pager-home {
+  text-align: center;
+}
+
 .lecture-pager-kicker {
   color: var(--teal-deep);
   display: block;
@@ -1219,8 +1223,18 @@ body.notebook-page #TOC {
   padding-right: 0.35rem;
 }
 
-body.notebook-page #TOC > ul > li > ul {
+body.notebook-page #TOC > ul > li:only-child > ul {
+  display: block;
+}
+
+body.notebook-page #TOC > ul > li:only-child:has(> ul) > a {
   display: none;
+}
+
+body.notebook-page #TOC > ul > li:only-child > ul {
+  border-left: 0;
+  margin: 0;
+  padding-left: 0;
 }
 
 body.notebook-page #TOC > ul > li.notebook-toc-open > ul {
@@ -1579,6 +1593,10 @@ footer.footer {
 
   .lecture-pager-next {
     margin-left: 0;
+    text-align: left;
+  }
+
+  .lecture-pager-home {
     text-align: left;
   }
 

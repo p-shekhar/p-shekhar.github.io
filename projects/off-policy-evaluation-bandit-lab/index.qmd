@@ -12,7 +12,7 @@ body-classes: project-page project-lab-page
 
 This lab studies how to evaluate a new decision policy using historical bandit logs. A logged policy chose actions, observed rewards, and stored propensities or features that let the analyst reconstruct how likely each action was under the behavior policy.
 
-The main lesson is that off-policy evaluation is not just a value-estimation formula. It is a decision workflow. A policy with high estimated lift can still be risky when it relies on weak support, unstable weights, or narrow slices of the logged action space. The lab therefore pairs IPS, SNIPS, and doubly robust estimators with diagnostics, uncertainty summaries, and contextual policy-learning comparisons.
+The main lesson is that off-policy evaluation is a decision workflow built around value estimation, support, uncertainty, and robustness. A policy with high estimated lift can still be risky when it relies on weak support, unstable weights, or narrow slices of the logged action space. The lab therefore pairs IPS, SNIPS, and doubly robust estimators with diagnostics, uncertainty summaries, and contextual policy-learning comparisons.
 
 ## Lab Sequence
 
@@ -35,7 +35,7 @@ The main lesson is that off-policy evaluation is not just a value-estimation for
 </article>
 <article class="notebook-guide-item">
 <p class="notebook-guide-title"><a href="../../notebooks/projects/project_2_off_policy_evaluation/05_policy_comparison_and_sensitivity.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/05_policy_comparison_and_sensitivity.html">05. Policy Comparison and Sensitivity</a></p>
-<p class="notebook-guide-description">Compares candidate policies using lift, support, clipping behavior, and uncertainty so the decision is based on robustness rather than a single point estimate.</p>
+<p class="notebook-guide-description">Compares candidate policies using lift, support, clipping behavior, and uncertainty so the decision reflects robustness across multiple diagnostics.</p>
 </article>
 <article class="notebook-guide-item">
 <p class="notebook-guide-title"><a href="../../notebooks/projects/project_2_off_policy_evaluation/06_contextual_policy_learning.html" data-site-path="notebooks/projects/project_2_off_policy_evaluation/06_contextual_policy_learning.html">06. Contextual Policy Learning</a></p>

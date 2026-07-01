@@ -3,5 +3,5 @@ State the causal graph,"Which variables are recomputed after the intervention, a
 Use an invertible model for counterfactuals,Can the model infer row-level noise for observed units?,Counterfactual samples may be unavailable or conceptually invalid.
 Check generated data quality,Does the fitted GCM reproduce key observed distributions?,Poor mechanism fit can create misleading simulated worlds.
 Name the estimand,"Is this a population intervention, an average effect, or a row-level counterfactual?",Decision-makers may confuse different what-if quantities.
-Stay near support,Is the intervention value plausible given the observed data?,Large extrapolations can be driven by model artifacts.
+Stay near support,Is the intervention value plausible given the observed data?,Large extrapolations can be driven by model-driven patterns.
 Validate before acting,Can the proposed intervention be tested prospectively?,Simulation can become a substitute for measurement.

@@ -1,4 +1,4 @@
-check,status_in_this_notebook,why_it_matters
+check,status_in_this_lesson,why_it_matters
 Causal question stated,synthetic PLR effect of d on y,The target parameter must be clear before fitting.
 Variable roles defined,"y, d, x1-x5 dictionary saved",Data-role mistakes change the analysis.
 Identification assumptions stated,PLR synthetic design with controls sufficient by construction,DoubleML estimation still relies on design assumptions.

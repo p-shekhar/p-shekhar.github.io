@@ -12,7 +12,7 @@ body-classes: project-page project-lab-page
 
 This lab studies settings where one unit's treatment can affect another unit's outcome. That matters in recommendation, marketplace, and networked systems because exposure can propagate through shared items, users, clusters, or local neighborhoods.
 
-The workflow starts by defining exposure rather than assuming independent units. It then compares naive estimators with exposure-aware designs, separates direct and indirect effects, and studies how conclusions change when the spillover definition changes.
+The workflow starts by defining exposure before estimation. It then compares naive estimators with exposure-aware designs, separates direct and indirect effects, and studies how conclusions change when the spillover definition changes.
 
 ## Lab Sequence
 

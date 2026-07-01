@@ -56,4 +56,4 @@ High discovery exposure appears positively associated with future user value, es
 
 ## Recommended Website Use
 
-Use notebooks `01` through `06` as the public analytic sequence. Keep `07_final_report_and_figures.ipynb` as an artifact builder unless it is later rewritten as a concise public report notebook.
+Use notebooks `01` through `06` as the public analytic sequence, ending with advanced SEM-style and machine-learning mediation checks.

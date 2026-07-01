@@ -40,4 +40,4 @@ This is an observational analysis. The estimates rely on sequential ignorability
 
 ## Recommended Website Use
 
-Use notebooks `01` through `06` as the public analytic sequence. Keep `07_sensitivity_and_final_report.ipynb` out of the direct public path until the sensitivity material is separated from the final-report assembly.
+Use notebooks `01` through `06` as the public analytic sequence, ending with doubly robust estimation and heterogeneity analysis.

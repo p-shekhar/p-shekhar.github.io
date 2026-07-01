@@ -1,4 +1,4 @@
-term,meaning,notebook_example
+term,meaning,lesson_example
 Treatment T,"The intervention, exposure, dose, or intensity whose effect we want to estimate.",Treatment intensity chosen partly by user need and hidden motivation.
 Outcome Y,The post-treatment result of interest.,Continuous value metric after treatment intensity is realized.
 Observed covariates X,Pre-treatment variables the analyst can adjust for.,"Need, engagement, friction, affinity, tenure, and region risk."

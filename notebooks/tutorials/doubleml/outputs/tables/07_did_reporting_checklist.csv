@@ -1,4 +1,4 @@
-topic,question,notebook_answer
+topic,question,answer
 estimand,"Is the target ATT, ATE, or another effect?",ATT for treated-group units in the post period.
 data structure,Is the design panel or repeated cross-section?,Both are demonstrated separately.
 treatment timing,Is exposure equal to treated group times post period?,Yes. Actual exposure is treated x post.

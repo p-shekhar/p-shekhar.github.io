@@ -10,7 +10,7 @@ You will build a complete off-policy evaluation workflow. The project moves from
 
 Start with the data audit in notebook `01`, then move through behavior-policy propensities, importance-weighted estimators, doubly robust estimation, and sensitivity analysis. Notebook `06` adds policy learning with reward models and compares candidate recommendation policies under the OPE diagnostics developed earlier.
 
-The final notebook is an artifact builder for figures, tables, and summary files.
+Use notebooks `01` through `06` as the public analytic sequence. Generated figures, tables, and summary files live in the project writeup folder when they are needed for summaries.
 
 ## Data Source And Scope
 
@@ -25,11 +25,6 @@ The project uses the Open Bandit Dataset, with emphasis on the `random/men` camp
 - [05 Policy comparison and sensitivity](05_policy_comparison_and_sensitivity.ipynb)
 - [06 Contextual policy learning](06_contextual_policy_learning.ipynb)
 
-## Artifact Notebook
-
-- [07 Final report and artifacts](07_final_report_and_artifacts.ipynb)
-
-This notebook generates final figures, tables, and project artifacts. The public teaching sequence should point readers first to notebooks `01` through `06`.
 
 ## Key Interpretation
 

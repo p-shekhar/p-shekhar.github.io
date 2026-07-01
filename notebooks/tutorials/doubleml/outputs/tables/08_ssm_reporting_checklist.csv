@@ -1,4 +1,4 @@
-topic,question,notebook_answer
+topic,question,answer
 target population,Is the effect for all rows or selected rows only?,The main target is the full-population ATE.
 selection definition,What does S=1 mean?,The outcome is observed.
 unselected rows,Were unselected rows retained?,Yes. They enter treatment and selection nuisance models.

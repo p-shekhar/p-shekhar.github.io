@@ -1,8 +1,0 @@
-artifact,path
-raw synthetic data,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/datasets/10_raw_synthetic_plr_tuning_data.csv
-encoded synthetic data,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/datasets/10_encoded_synthetic_plr_tuning_data.csv
-learner comparison,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/10_learner_comparison.csv
-Optuna tuning summary,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/tables/10_optuna_tune_summary.csv
-report template,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/reports/10_learner_tuning_report_template.md
-workflow figure,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/10_safe_tuning_workflow.png
-estimate comparison figure,/home/apex/Documents/ranking_sys/notebooks/tutorials/doubleml/outputs/figures/10_learner_estimate_comparison.png

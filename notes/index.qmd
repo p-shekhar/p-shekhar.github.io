@@ -10,7 +10,9 @@ format:
 
 This page collects course notes developed for my teaching in computational mathematics and data science degree programs at [Embry-Riddle Aeronautical University](https://erau.edu/){target="_blank"}. The curriculum is organized across four connected modules: (i) [Statistical Inference](#module-1-statistical-inference-ma-412-and-ma-506), (ii) [Core Causal Inference](#module-2-core-causal-inference-ma-412-and-ma-413), (iii) [Advanced Causal Inference](#module-3-advanced-causal-inference-ma-505-and-ma-506), and (iv) [AI and Machine Learning](#module-4-ai-and-machine-learning-ds-440-ds-540-ds-625-and-ds-699). Together, these modules move from statistical foundations to causal design, advanced causal workflows, machine learning, AI, diagnostics, simulations, and decision-focused interpretation.
 
-<span class="module-click-prompt">Scroll through the modules below and click course names to open the full lecture sequences.</span> If you notice an error or typo, please let me know.
+<span class="module-click-prompt">Scroll through the modules below and click course names to open the full lecture sequences. If you notice an error or typo, please let me know.</span>
+
+Many thanks to Caroline Howard for helping with putting together these lectures.
 
 ## Module 1: Statistical Inference (MA 412 and MA 506)
 

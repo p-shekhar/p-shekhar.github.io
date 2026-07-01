@@ -1,4 +1,4 @@
-report_item,example_from_this_notebook,why_it_matters
+report_item,example_from_this_lesson,why_it_matters
 Data regime,Continuous linear Gaussian synthetic data,Fisher-Z is only appropriate when the data are close to its assumptions.
 CI test and alpha,Fisher-Z with alpha = 0.05,Edge removal depends directly on conditional independence decisions.
 Stable setting,stable=True for the baseline graph,Stable PC reduces order-dependence in skeleton search.

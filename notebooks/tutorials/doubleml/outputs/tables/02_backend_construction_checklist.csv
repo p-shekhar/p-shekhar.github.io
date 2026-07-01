@@ -5,6 +5,6 @@ Define treatment,"Is treatment continuous, binary, multi-valued, instrumented, o
 Define controls,"Are controls pre-treatment variables, not mediators, colliders, identifiers, or post-treatment consequences?"
 Define instruments,"If using IV, are instruments assigned through z_cols and backed by relevance/exclusion arguments?"
 Define dependence structure,"Are clusters, units, and time columns represented explicitly when rows are dependent?"
-Audit missingness,"Are all outcome, treatment, control, instrument, and design-specific columns finite or intentionally handled?"
+Audit missingness,"Are all outcome, treatment, control, instrument, and design-specific columns finite or handled through an explicit design rule?"
 Audit variation,"Does treatment, instrument, running score, or selection indicator have enough support?"
 Save backend summary,Can another analyst see exactly which columns were assigned to each role?

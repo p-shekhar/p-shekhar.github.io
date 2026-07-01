@@ -46,12 +46,10 @@ The project demonstrates the full applied causal workflow, including confounding
   <li><a href="../../notebooks/projects/project_1_ranking/06_sensitivity_and_limitations.html" data-site-path="notebooks/projects/project_1_ranking/06_sensitivity_and_limitations.html">06 - Sensitivity And Limitations</a></li>
   <li><a href="../../notebooks/projects/project_1_ranking/07_ml_nuisance_models.html" data-site-path="notebooks/projects/project_1_ranking/07_ml_nuisance_models.html">07 - ML Nuisance Models With LightGBM And XGBoost</a></li>
   <li><a href="../../notebooks/projects/project_1_ranking/08_econml_causal_ml.html" data-site-path="notebooks/projects/project_1_ranking/08_econml_causal_ml.html">08 - EconML Causal ML Estimators</a></li>
-  <li><a href="../../notebooks/projects/project_1_ranking/09_final_report_figures.html" data-site-path="notebooks/projects/project_1_ranking/09_final_report_figures.html">09 - Final Report Figures And Tables</a></li>
 </ol>
 
 ## Generated Artifacts
 
-- [Final Report Snippets](../../notebooks/projects/project_1_ranking/writeup/final_report_snippets.md)
 - [Resume Bullets](../../notebooks/projects/project_1_ranking/writeup/resume_bullets.md)
 - [Estimator Comparison](../../notebooks/projects/project_1_ranking/writeup/tables/estimator_comparison.csv)
 - [Policy Simulation Summary](../../notebooks/projects/project_1_ranking/writeup/tables/policy_simulation_summary.csv)

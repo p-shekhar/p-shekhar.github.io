@@ -16,7 +16,7 @@ Top-3 ranking exposure is associated with higher click probability after adjustm
 
 ## Policy Implication
 
-The best offline policy simulation in this final notebook allocates a limited promotion budget by `subcategory` using `aipw_lift` and estimates 112.43 incremental clicks in the modeling sample. This should be interpreted as prioritization for experimentation, not a guaranteed production effect.
+The best offline policy simulation allocates a limited promotion budget by `subcategory` using `aipw_lift` and estimates 112.43 incremental clicks in the modeling sample. This should be interpreted as prioritization for experimentation, not a guaranteed production effect.
 
 ## Limitations
 

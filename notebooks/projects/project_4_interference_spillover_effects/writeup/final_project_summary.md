@@ -33,4 +33,4 @@ The numerical results are from a simulation built on MovieLens ratings, not a re
 
 ## Recommended Website Use
 
-Use notebooks `01` through `05` as the public analytic sequence. Keep `06_sensitivity_and_final_report.ipynb` as an artifact builder unless the sensitivity sections are split into a clean public notebook.
+Use notebooks `01` through `05` as the public analytic sequence, ending with advanced spillover models and decision-oriented interpretation.

@@ -10,7 +10,7 @@ body-classes: project-page project-lab-page
 <figcaption>Figure 1: Policy simulation showing how ranking-position effect estimates translate into candidate recommendation decisions.</figcaption>
 </figure>
 
-This lab studies whether higher recommendation rank changes engagement in logged recommendation data. It is framed as a causal workflow rather than a predictive ranking exercise. The central problem is that high-ranked items are not randomly assigned. They are usually selected by an existing recommender, so raw click-through-rate differences mix position effects with item quality, user intent, category preference, and prior ranking logic.
+This lab studies whether higher recommendation rank changes engagement in logged recommendation data. It frames ranking analysis as a causal workflow with explicit adjustment, diagnostics, and policy interpretation. The central problem is that an existing recommender usually selects high-ranked items, so raw click-through-rate differences mix position effects with item quality, user intent, category preference, and prior ranking logic.
 
 The lab moves through the same steps an analyst would need before using logged recommendation evidence to support a product decision. It defines the ranking-position treatment, checks overlap, estimates propensities, compares adjusted estimators, studies heterogeneity, and asks how sensitive the conclusion is to remaining confounding and modeling choices.
 

@@ -10,7 +10,7 @@ You will build an end-to-end causal ranking audit. The workflow starts with logg
 
 Read the notebooks in sequence. The first notebook explains the MIND impression data and defines the ranking treatment. The next notebooks add propensity modeling, IPW, doubly robust estimation, heterogeneous effects, policy simulation, and sensitivity analysis. The LightGBM and EconML notebooks show how modern nuisance modeling changes the evidence.
 
-The final notebook is an artifact builder. Use it to regenerate figures and snippets, while treating notebooks `01` through `08` as the public analytic sequence.
+Use notebooks `01` through `08` as the public analytic sequence. Generated figures, tables, and snippets live in the project writeup folder when they are needed for summaries.
 
 ## Data Source And Scope
 
@@ -27,11 +27,6 @@ The analysis uses MIND news recommendation impression logs. MIND was released fo
 - [07 ML nuisance models](07_ml_nuisance_models.ipynb)
 - [08 EconML causal ML estimators](08_econml_causal_ml.ipynb)
 
-## Artifact Notebook
-
-- [09 Final report figures and tables](09_final_report_figures.ipynb)
-
-This notebook assembles report figures and short snippets. It is useful as a source of artifacts, while the main project page should guide readers through the analytic notebooks above.
 
 ## Key Interpretation
 

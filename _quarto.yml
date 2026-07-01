@@ -20,6 +20,11 @@ project:
     - "notebooks/tutorials/*/*.ipynb"
     - "notebooks/lectures/*/*.ipynb"
     - "notebooks/lectures/*/*/*.ipynb"
+    - "!notebooks/projects/project_1_ranking/09_final_report_figures.ipynb"
+    - "!notebooks/projects/project_2_off_policy_evaluation/07_final_report_and_artifacts.ipynb"
+    - "!notebooks/projects/project_3_long_term_causal_effects/07_sensitivity_and_final_report.ipynb"
+    - "!notebooks/projects/project_4_interference_spillover_effects/06_sensitivity_and_final_report.ipynb"
+    - "!notebooks/projects/project_5_discovery_quality_mediation/07_final_report_and_figures.ipynb"
     - "!notebooks/lectures/MA506-*/**"
     - "!templates/"
   preview:
@@ -548,7 +553,12 @@ format:
 
             Array.from(toc.querySelectorAll(":scope > ul > li")).forEach((item) => {
               const topLink = item.querySelector(":scope > a.nav-link");
-              item.classList.toggle("notebook-toc-open", topLink?.hash === activeParentHash);
+              const containsActiveSection = Array.from(item.querySelectorAll("a.nav-link"))
+                .some((link) => link.hash === activeParentHash || link.hash === activeHash);
+              item.classList.toggle(
+                "notebook-toc-open",
+                topLink?.hash === activeParentHash || containsActiveSection
+              );
             });
           };
 

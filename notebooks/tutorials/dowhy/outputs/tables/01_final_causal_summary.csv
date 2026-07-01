@@ -7,4 +7,4 @@ Identified strategy,"Backdoor adjustment using baseline engagement, activity, se
 Primary estimate,1.977 additional weekly-value units from exposure.
 Known simulation benchmark,The data were generated with a true effect of 2.000.
 Refuter takeaway,"Placebo, random-common-cause, and subset checks behave as expected in this controlled example."
-Main limitation,The example is simulated and intentionally clean; real observational analyses require stronger data validation and domain review.
+Main limitation,The example is simulated and clean by design; real observational analyses require stronger data validation and domain review.

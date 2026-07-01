@@ -1,4 +1,4 @@
-step,question,artifact
+step,question,output
 Frame causal question,"What is the treatment, outcome, population, and estimand?",causal question table
 Prepare data roles,"Which columns are Y, T, X, and W?",role map and design matrices
 Check overlap,Do treated and control units have comparable covariates?,propensity and balance diagnostics

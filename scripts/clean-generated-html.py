@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 from html import escape, unescape
+import os
 import re
 import shutil
 from pathlib import Path
@@ -34,7 +35,18 @@ NOTEBOOK_PAGER_RE = re.compile(
     r'\n<nav class="lecture-pager" aria-label="[^"]+">.*?</nav>\n',
     re.DOTALL,
 )
+NOTEBOOK_HOME_LINK_RE = re.compile(
+    r'<a\b[^>]*\bdata-site-path="(?P<site_path>notebooks/(?:lectures|tutorials|projects)/[^"]+)"[^>]*>'
+)
 MAIN_CLOSE = "</main> <!-- /main -->"
+
+PROJECT_LAB_HOME_SLUGS = {
+    "project_1_ranking": "ranking-recommendation-lift-lab",
+    "project_2_off_policy_evaluation": "off-policy-evaluation-bandit-lab",
+    "project_3_long_term_causal_effects": "long-term-recommender-effects-lab",
+    "project_4_interference_spillover_effects": "interference-spillover-effects-lab",
+    "project_5_discovery_quality_mediation": "discovery-quality-mediation-lab",
+}
 
 PROJECT_LAB_SEQUENCES = (
     (
@@ -243,6 +255,10 @@ def build_notebook_pager(
     previous_label: str,
     next_label: str,
     aria_label: str,
+    home_page: Path | None = None,
+    home_title: str | None = None,
+    home_label: str = "Home",
+    current_page: Path | None = None,
 ) -> str:
     links: list[str] = []
 
@@ -252,6 +268,16 @@ def build_notebook_pager(
             f'href="{escape(previous_page.name, quote=True)}">'
             f'<span class="lecture-pager-kicker">{escape(previous_label)}</span>'
             f'<span class="lecture-pager-title">{escape(titles[previous_page])}</span>'
+            "</a>"
+        )
+
+    if home_page is not None and current_page is not None:
+        relative_home = os.path.relpath(home_page, start=current_page.parent)
+        links.append(
+            '<a class="lecture-pager-link lecture-pager-home" '
+            f'href="{escape(relative_home, quote=True)}">'
+            f'<span class="lecture-pager-kicker">{escape(home_label)}</span>'
+            f'<span class="lecture-pager-title">{escape(home_title or "Full sequence")}</span>'
             "</a>"
         )
 
@@ -269,6 +295,44 @@ def build_notebook_pager(
         + "\n".join(links)
         + "\n</nav>\n"
     )
+
+
+def build_notebook_home_map(index_root: Path, site_path_prefix: str) -> dict[Path, Path]:
+    """Map rendered notebook pages to the index page that lists them."""
+    if not index_root.exists():
+        return {}
+
+    home_by_notebook: dict[Path, Path] = {}
+    for index_page in sorted(index_root.rglob("index.html")):
+        text = index_page.read_text(encoding="utf-8")
+        for match in NOTEBOOK_HOME_LINK_RE.finditer(text):
+            site_path = unescape(match.group("site_path"))
+            if not site_path.startswith(site_path_prefix):
+                continue
+            notebook_path = SITE_DIR / site_path
+            home_by_notebook[notebook_path] = index_page
+
+    return home_by_notebook
+
+
+def build_project_lab_home_map() -> dict[Path, Path]:
+    """Map project lab notebooks to the current lab summary pages."""
+    home_by_notebook: dict[Path, Path] = {}
+    for lab_dir_name, page_names in PROJECT_LAB_SEQUENCES:
+        home_slug = PROJECT_LAB_HOME_SLUGS.get(lab_dir_name)
+        if home_slug is None:
+            continue
+
+        home_page = SITE_DIR / "projects" / home_slug / "index.html"
+        if not home_page.exists():
+            continue
+
+        for page_name in page_names:
+            notebook_page = PROJECT_HTML_DIR / lab_dir_name / page_name
+            if notebook_page.exists():
+                home_by_notebook[notebook_page] = home_page
+
+    return home_by_notebook
 
 
 def inject_notebook_pager(path: Path, pager: str) -> bool:
@@ -291,11 +355,14 @@ def add_notebook_pagers(
     previous_label: str,
     next_label: str,
     aria_label: str,
+    home_by_notebook: dict[Path, Path] | None = None,
+    home_label: str = "Home",
 ) -> int:
     if not root_dir.exists():
         return 0
 
     changed = 0
+    home_by_notebook = home_by_notebook or {}
     course_dirs = sorted(
         {
             path.parent
@@ -321,6 +388,14 @@ def add_notebook_pagers(
                 previous_label,
                 next_label,
                 aria_label,
+                home_page=home_by_notebook.get(page),
+                home_title=(
+                    get_page_title(home_by_notebook[page])
+                    if page in home_by_notebook
+                    else None
+                ),
+                home_label=home_label,
+                current_page=page,
             )
             if inject_notebook_pager(page, pager):
                 changed += 1
@@ -333,6 +408,7 @@ def add_project_lab_pagers() -> int:
         return 0
 
     changed = 0
+    home_by_notebook = build_project_lab_home_map()
     for lab_dir_name, page_names in PROJECT_LAB_SEQUENCES:
         pages = [PROJECT_HTML_DIR / lab_dir_name / page_name for page_name in page_names]
         pages = [page for page in pages if page.exists()]
@@ -350,6 +426,14 @@ def add_project_lab_pagers() -> int:
                 previous_label="Previous Notebook",
                 next_label="Next Notebook",
                 aria_label="Project lab notebook navigation",
+                home_page=home_by_notebook.get(page),
+                home_title=(
+                    get_page_title(home_by_notebook[page])
+                    if page in home_by_notebook
+                    else None
+                ),
+                home_label="Lab Home",
+                current_page=page,
             )
             if inject_notebook_pager(page, pager):
                 changed += 1
@@ -375,17 +459,29 @@ def main() -> None:
         return
 
     changed = sum(1 for path in SITE_DIR.rglob("*.html") if scrub_html(path))
+    lecture_course_homes = build_notebook_home_map(
+        SITE_DIR / "notes",
+        "notebooks/lectures/",
+    )
+    tutorial_homes = build_notebook_home_map(
+        SITE_DIR / "tutorials",
+        "notebooks/tutorials/",
+    )
     lecture_pagers = add_notebook_pagers(
         LECTURE_HTML_DIR,
         previous_label="Previous Lecture",
         next_label="Next Lecture",
         aria_label="Lecture navigation",
+        home_by_notebook=lecture_course_homes,
+        home_label="Course Home",
     )
     tutorial_pagers = add_notebook_pagers(
         TUTORIAL_HTML_DIR,
         previous_label="Previous Tutorial",
         next_label="Next Tutorial",
         aria_label="Tutorial navigation",
+        home_by_notebook=tutorial_homes,
+        home_label="Tutorial Home",
     )
     project_lab_pagers = add_project_lab_pagers()
     removed_dirs = remove_dated_post_dirs()

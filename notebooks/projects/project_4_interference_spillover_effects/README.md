@@ -10,7 +10,7 @@ You will build a spillover-aware causal workflow. The project constructs recomme
 
 Notebook `01` builds the slate setting and explains why interference matters. Notebook `02` defines exposure mappings. The next notebooks estimate cluster-randomized effects, decompose direct, indirect, and total effects, and add advanced spillover models. The sequence is designed to show how a recommendation change can create gains, displacement, or both.
 
-The final notebook is an artifact and sensitivity notebook. Use the first five notebooks as the public analytic path.
+Use notebooks `01` through `05` as the public analytic path, ending with advanced spillover models and decision-oriented interpretation.
 
 ## Data Source And Scope
 
@@ -24,11 +24,6 @@ The project uses MovieLens ratings as a real preference source, then constructs 
 - [04 Direct, indirect, and total effects](04_direct_indirect_total_effects.ipynb)
 - [05 Advanced spillover models](05_advanced_spillover_models.ipynb)
 
-## Artifact Notebook
-
-- [06 Sensitivity and final report](06_sensitivity_and_final_report.ipynb)
-
-This notebook assembles sensitivity checks and final artifacts. The main public project should focus on notebooks `01` through `05`.
 
 ## Key Interpretation
 

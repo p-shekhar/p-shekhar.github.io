@@ -1,4 +1,4 @@
-topic,question,notebook_answer
+topic,question,answer
 running variable,What score determines treatment eligibility?,running_score.
 cutoff,Where does assignment change?,Cutoff is 0.0.
 design type,Is treatment sharp or fuzzy at the cutoff?,Both sharp and fuzzy examples are demonstrated.

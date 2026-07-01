@@ -10,7 +10,7 @@ You will build a mediation analysis workflow for discovery quality. The project 
 
 Start with notebook `01` for the discovery-quality problem setup and data construction. Notebook `02` builds and validates the metrics. Notebook `03` states the mediation estimands and assumptions. The later notebooks estimate direct, indirect, and total effects, run robustness checks, and add advanced mediation models.
 
-The final notebook builds report figures, tables, and writeup files. It is useful for artifacts, while notebooks `01` through `06` provide the public analysis sequence.
+Use notebooks `01` through `06` as the public analysis sequence, ending with advanced SEM-style and machine-learning mediation checks.
 
 ## Data Source And Scope
 
@@ -25,13 +25,11 @@ The project uses KuaiRec watch behavior and user-video interaction logs. The dat
 - [05 Robustness and sensitivity](05_robustness_and_sensitivity.ipynb)
 - [06 Advanced SEM and ML mediation](06_advanced_sem_and_ml_mediation.ipynb)
 
-## Artifact Notebook
+## Generated Artifacts
 
-- [07 Final report and figures](07_final_report_and_figures.ipynb)
+The writeup folder stores reusable project outputs:
 
-This notebook assembles final figures, tables, and writeup artifacts:
-
-- [final project summary](writeup/final_project_summary.md)
+- [project summary](writeup/final_project_summary.md)
 - [artifact index](writeup/artifact_index.csv)
 - [tables](writeup/tables/)
 - [figures](writeup/figures/)

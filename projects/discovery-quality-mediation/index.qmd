@@ -45,7 +45,6 @@ The project frames metric design as a causal problem. A good discovery metric sh
   <li><a href="../../notebooks/projects/project_5_discovery_quality_mediation/04_direct_indirect_total_effects.html" data-site-path="notebooks/projects/project_5_discovery_quality_mediation/04_direct_indirect_total_effects.html">Direct, Indirect, and Total Effects for Discovery Quality</a></li>
   <li><a href="../../notebooks/projects/project_5_discovery_quality_mediation/05_robustness_and_sensitivity.html" data-site-path="notebooks/projects/project_5_discovery_quality_mediation/05_robustness_and_sensitivity.html">Robustness and Sensitivity for Discovery Quality Mediation</a></li>
   <li><a href="../../notebooks/projects/project_5_discovery_quality_mediation/06_advanced_sem_and_ml_mediation.html" data-site-path="notebooks/projects/project_5_discovery_quality_mediation/06_advanced_sem_and_ml_mediation.html">Advanced SEM and ML Mediation Models</a></li>
-  <li><a href="../../notebooks/projects/project_5_discovery_quality_mediation/07_final_report_and_figures.html" data-site-path="notebooks/projects/project_5_discovery_quality_mediation/07_final_report_and_figures.html">Final Report and Figures for Discovery Quality Mediation</a></li>
 </ol>
 
 ## Generated Artifacts

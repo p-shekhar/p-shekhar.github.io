@@ -1,4 +1,4 @@
-step,completed_here,artifact
+step,completed_here,output
 Define graph target,True,case-study question and true teaching graph
 Create variable dictionary,True,16_variable_dictionary.csv
 Audit data quality,True,16_data_audit.csv and diagnostic figures
