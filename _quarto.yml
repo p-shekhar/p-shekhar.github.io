@@ -129,6 +129,39 @@ format:
         </script>
         <script>
         (() => {
+          const sectionRules = [
+            { pattern: /^\/projects(?:\/|$)/, label: "Projects" },
+            { pattern: /^\/notes(?:\/|$)/, label: "Lecture Notes" },
+            { pattern: /^\/tutorials(?:\/|$)/, label: "Tutorials" },
+            { pattern: /^\/notebooks\/projects\//, label: "Projects" },
+            { pattern: /^\/notebooks\/tutorials\//, label: "Tutorials" },
+            { pattern: /^\/notebooks\/lectures\//, label: "Lecture Notes" }
+          ];
+
+          const activateSectionNav = () => {
+            const rule = sectionRules.find(({ pattern }) => pattern.test(window.location.pathname));
+            if (!rule) {
+              return;
+            }
+
+            document.querySelectorAll(".navbar .navbar-nav .nav-link").forEach((link) => {
+              const isActiveSection = link.textContent.trim() === rule.label;
+              link.classList.toggle("active", isActiveSection);
+              if (isActiveSection) {
+                link.setAttribute("aria-current", "page");
+              } else if (link.getAttribute("aria-current") === "page") {
+                link.removeAttribute("aria-current");
+              }
+            });
+          };
+
+          activateSectionNav();
+          window.addEventListener("DOMContentLoaded", activateSectionNav);
+          window.addEventListener("pageshow", activateSectionNav);
+        })();
+        </script>
+        <script>
+        (() => {
           const isInternalLink = (link) => {
             const href = link.getAttribute("href");
             if (!href || href.startsWith("#")) {

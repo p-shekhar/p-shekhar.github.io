@@ -48,6 +48,12 @@ a:hover {
   color: var(--ink);
 }
 
+.navbar .nav-link.active,
+.navbar .nav-link.show {
+  color: var(--teal-deep);
+  font-weight: 650;
+}
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--teal-deep);
