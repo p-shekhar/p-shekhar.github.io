@@ -1094,6 +1094,10 @@ body.dashboards-index main.content h2.anchored::after {
   margin: 0 0 1rem !important;
 }
 
+.dashboard-preview-link {
+  display: block;
+}
+
 .dashboard-preview-figure img {
   background: var(--white);
   border-radius: 8px;

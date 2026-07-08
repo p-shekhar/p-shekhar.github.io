@@ -15,7 +15,9 @@ These dashboards turn the same agenda behind my courses and projects into live, 
 
 ::: {.dashboard-preview-row}
 <figure class="dashboard-preview-figure">
+<a class="dashboard-preview-link" href="https://p-shekhar-statistical-inference-studio.hf.space" target="_blank" rel="noopener noreferrer">
 <img src="../img/app2-statistical-inference-studio-landing-portrait-fixed-cropped-5k.png" alt="Screenshot of the Statistical Inference Studio dashboard landing view">
+</a>
 <figcaption>Figure: Interactive statistical inference studio for connecting data-generating assumptions, repeated sampling, uncertainty, and decision interpretation.</figcaption>
 </figure>
 
@@ -38,7 +40,9 @@ Best use: teaching, self-study, simulation-based intuition, uncertainty communic
 
 ::: {.dashboard-preview-row}
 <figure class="dashboard-preview-figure">
+<a class="dashboard-preview-link" href="https://p-shekhar-xai-studio.hf.space" target="_blank" rel="noopener noreferrer">
 <img src="../img/app1-xai-studio-landing-portrait-cropped-5k.png" alt="Screenshot of the XAI Studio dashboard landing view">
+</a>
 <figcaption>Figure: Interactive XAI studio for comparing glassbox models, black-box models, global explanations, local explanations, recourse, and reliability checks.</figcaption>
 </figure>
 
@@ -61,7 +65,9 @@ Best use: interpretable ML teaching, XAI method comparison, model audit demonstr
 
 ::: {.dashboard-preview-row}
 <figure class="dashboard-preview-figure">
+<a class="dashboard-preview-link" href="https://carolinehoward-medicaid-enrollment-policy-dashboard.hf.space/" target="_blank" rel="noopener noreferrer">
 <img src="../img/plotly-app-d54fbb87-landing-balanced-tall-hq.png" alt="Screenshot of the Medicaid Enrollment and Eligibility Operations Analytics dashboard">
+</a>
 <figcaption>Figure: Medicaid and CHIP operations dashboard for monitoring enrollment trends, eligibility activity, state-level variation, and reporting context.</figcaption>
 </figure>
 
