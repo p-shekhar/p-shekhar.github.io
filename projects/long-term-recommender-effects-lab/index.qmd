@@ -10,9 +10,13 @@ body-classes: project-page project-lab-page
 <figcaption>Figure 1: Secondary outcome checks showing how recommender interventions can affect engagement beyond the immediate response.</figcaption>
 </figure>
 
-This lab studies the difference between immediate engagement and longer-term user response in recommender systems. A recommendation intervention can change what a user watches now, but it can also change future exposure, future preferences, and later engagement. That makes the causal problem sequential and history-dependent.
+This lab studies the difference between immediate engagement and longer-term user response in recommender systems. A recommendation intervention can change what a user watches now and can also shape future exposure, future preferences, and later engagement. That makes the causal problem sequential and history-dependent.
 
 The lab builds a time-indexed workflow with treatment history, outcome windows, time-varying confounders, and policy-relevant estimands. It introduces marginal structural models and g-computation as practical tools for reasoning about sequential effects when earlier exposure changes later context.
+
+## Key Takeaway
+
+Across marginal structural models, g-computation, and doubly robust estimation, the KuaiRec evidence is weak for a clear average long-term interaction-volume gain from short-term high-watch exposure. The project is most useful as a diagnostic workflow. Logged recommender data can identify where short-term engagement may be fragile, which user-history segments deserve follow-up tests, and what evidence should be collected before changing a ranking or recommendation policy.
 
 ## Lab Sequence
 
